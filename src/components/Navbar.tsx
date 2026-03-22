@@ -2,9 +2,25 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const NAV_LINKS = [
+  { href: "/techniques", label: "Techniques", mobileLabel: "All Techniques" },
+  { href: "/slope-ratings", label: "Slope Ratings", mobileLabel: "Slope Ratings" },
+  { href: "/snow-conditions", label: "Conditions", mobileLabel: "Snow Conditions" },
+  { href: "/clothing-guide", label: "Clothing", mobileLabel: "Clothing Guide" },
+];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const isActive = (href: string) => {
+    if (href === "/techniques") {
+      return pathname === "/techniques" || pathname.startsWith("/techniques/");
+    }
+    return pathname.startsWith(href);
+  };
 
   return (
     <nav className="sticky top-0 z-50 bg-[#0d1b2a]/90 backdrop-blur border-b border-white/5">
@@ -16,19 +32,20 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop nav links */}
-          <div className="hidden sm:flex items-center gap-6 text-sm text-gray-400">
-            <Link href="/techniques" className="hover:text-white transition-colors">
-              Techniques
-            </Link>
-            <Link href="/slope-ratings" className="hover:text-white transition-colors">
-              Slope Ratings
-            </Link>
-            <Link href="/snow-conditions" className="hover:text-white transition-colors">
-              Conditions
-            </Link>
-            <Link href="/clothing-guide" className="hover:text-white transition-colors">
-              Clothing
-            </Link>
+          <div className="hidden sm:flex items-center gap-1 text-sm">
+            {NAV_LINKS.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className={`px-3 py-1.5 rounded-lg transition-colors ${
+                  isActive(href)
+                    ? "text-[#e8722a] bg-[#e8722a]/10 font-semibold"
+                    : "text-gray-400 hover:text-white"
+                }`}
+              >
+                {label}
+              </Link>
+            ))}
           </div>
 
           {/* Desktop CTA + mobile hamburger */}
@@ -60,19 +77,18 @@ export default function Navbar() {
           id="mobile-menu"
           className="sm:hidden border-t border-white/5 bg-[#0d1b2a] px-4 py-4 space-y-1"
         >
-          {[
-            { href: "/techniques", label: "All Techniques" },
-            { href: "/slope-ratings", label: "Slope Ratings" },
-            { href: "/snow-conditions", label: "Snow Conditions" },
-            { href: "/clothing-guide", label: "Clothing Guide" },
-          ].map(({ href, label }) => (
+          {NAV_LINKS.map(({ href, mobileLabel }) => (
             <Link
               key={href}
               href={href}
               onClick={() => setMenuOpen(false)}
-              className="block px-3 py-2.5 rounded-lg text-gray-300 hover:text-white hover:bg-white/5 text-sm transition-colors"
+              className={`block px-3 py-2.5 rounded-lg text-sm transition-colors ${
+                isActive(href)
+                  ? "text-[#e8722a] bg-[#e8722a]/10 font-semibold"
+                  : "text-gray-300 hover:text-white hover:bg-white/5"
+              }`}
             >
-              {label}
+              {mobileLabel}
             </Link>
           ))}
           <div className="pt-2">
