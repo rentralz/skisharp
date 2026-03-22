@@ -23,6 +23,7 @@ const TERRAIN_COLORS: Record<string, string> = {
 
 export default function TechniqueCard({ technique }: Props) {
   const gradient = GRADIENT_BY_RATING[technique.rating];
+  const primaryVideo = technique.youtubeVideos.find((v) => v.isPrimary) ?? technique.youtubeVideos[0];
 
   return (
     <Link
@@ -30,17 +31,32 @@ export default function TechniqueCard({ technique }: Props) {
       className="group block rounded-xl overflow-hidden bg-[#111827] border border-white/5 hover:border-[#e8722a]/40 transition-all duration-300 hover:shadow-lg hover:shadow-[#e8722a]/10"
     >
       {/* Thumbnail */}
-      <div className={`relative h-44 bg-gradient-to-br ${gradient} flex items-center justify-center`}>
+      <div className={`relative h-44 bg-gradient-to-br ${gradient} overflow-hidden`}>
+        {/* YouTube thumbnail */}
+        {primaryVideo && (
+          /* eslint-disable-next-line @next/next/no-img-element */
+          <img
+            src={`https://img.youtube.com/vi/${primaryVideo.videoId}/mqdefault.jpg`}
+            alt={technique.title}
+            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        )}
+
+        {/* Dark overlay for readability */}
+        <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors" />
+
         {/* Play button overlay */}
-        <div className="w-14 h-14 rounded-full bg-white/10 border-2 border-white/30 flex items-center justify-center group-hover:bg-[#e8722a]/80 group-hover:border-[#e8722a] transition-all duration-300">
-          <svg
-            className="w-6 h-6 text-white ml-1"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path d="M8 5v14l11-7z" />
-          </svg>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-14 h-14 rounded-full bg-white/10 border-2 border-white/30 flex items-center justify-center group-hover:bg-[#e8722a]/80 group-hover:border-[#e8722a] transition-all duration-300">
+            <svg
+              className="w-6 h-6 text-white ml-1"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
         </div>
 
         {/* Video count badge */}
