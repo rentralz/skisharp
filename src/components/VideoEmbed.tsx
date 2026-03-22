@@ -15,10 +15,6 @@ export default function VideoEmbed({ videos }: Props) {
   const activeVideo = videos[activeIndex];
 
   useEffect(() => {
-    setIsLoaded(false);
-  }, [activeIndex]);
-
-  useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
 
@@ -49,7 +45,7 @@ export default function VideoEmbed({ videos }: Props) {
               key={video.videoId}
               role="tab"
               aria-selected={i === activeIndex}
-              onClick={() => setActiveIndex(i)}
+              onClick={() => { setActiveIndex(i); setIsLoaded(false); }}
               className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
                 i === activeIndex
                   ? "bg-[#e8722a] text-white"

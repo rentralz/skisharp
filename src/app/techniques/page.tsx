@@ -4,6 +4,7 @@ import { useState } from "react";
 import { techniques } from "@/data/techniques";
 import type { DifficultyRating } from "@/data/techniques";
 import TechniqueCard from "@/components/TechniqueCard";
+import Navbar from "@/components/Navbar";
 
 const RATINGS: { value: DifficultyRating | "all"; label: string }[] = [
   { value: "all", label: "All Levels" },
@@ -27,12 +28,13 @@ export default function TechniquesPage() {
 
   return (
     <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+      <Navbar />
       {/* Header */}
       <div className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <a href="/" className="text-[#e8722a] text-sm font-medium hover:text-[#f08040] transition-colors mb-4 inline-block">
-            &larr; SkiSharp
-          </a>
+          <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
+            Curated technique library
+          </p>
           <h1 className="text-4xl font-extrabold text-white mb-3">All Techniques</h1>
           <p className="text-gray-400 text-lg">
             {filtered.length} technique{filtered.length !== 1 ? "s" : ""} found

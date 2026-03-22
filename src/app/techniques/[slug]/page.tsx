@@ -3,6 +3,7 @@ import Link from "next/link";
 import { techniques, getTechniqueBySlug } from "@/data/techniques";
 import DifficultyBadge from "@/components/DifficultyBadge";
 import VideoEmbed from "@/components/VideoEmbed";
+import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -35,41 +36,45 @@ export default async function TechniqueDetailPage({
     notFound();
   }
 
-  const prevIndex = techniques.findIndex((t) => t.slug === slug) - 1;
-  const nextIndex = techniques.findIndex((t) => t.slug === slug) + 1;
-  const prev = prevIndex >= 0 ? techniques[prevIndex] : null;
-  const next = nextIndex < techniques.length ? techniques[nextIndex] : null;
+  const currentIndex = techniques.findIndex((t) => t.slug === slug);
+  const prev = currentIndex > 0 ? techniques[currentIndex - 1] : null;
+  const next = currentIndex < techniques.length - 1 ? techniques[currentIndex + 1] : null;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: technique.title,
+    description: technique.description,
+    step: technique.timestamps.map((ts, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: ts.label,
+      text: ts.detail,
+    })),
+    ...(technique.youtubeVideos[0] && {
+      video: {
+        "@type": "VideoObject",
+        name: technique.youtubeVideos[0].title,
+        embedUrl: `https://www.youtube.com/embed/${technique.youtubeVideos[0].videoId}`,
+        thumbnailUrl: `https://img.youtube.com/vi/${technique.youtubeVideos[0].videoId}/maxresdefault.jpg`,
+      },
+    }),
+  };
 
   return (
     <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
-      {/* Top nav */}
-      <header className="sticky top-0 z-40 bg-[#0d1b2a]/90 backdrop-blur border-b border-white/5">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-lg font-bold text-white">
-            Ski<span className="text-[#e8722a]">Sharp</span>
-          </Link>
-          <Link
-            href="/techniques"
-            className="text-sm text-gray-400 hover:text-white transition-colors"
-          >
-            &larr; All Techniques
-          </Link>
-        </div>
-      </header>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      <Navbar />
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-12">
         {/* Title block */}
         <div>
-          <div className="mb-4">
+          <div className="mb-4 flex flex-wrap items-center gap-3">
             <DifficultyBadge difficulty={technique.difficulty} rating={technique.rating} />
-          </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
-            {technique.title}
-          </h1>
-          <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">{technique.description}</p>
-
-          {/* Terrain tags */}
-          <div className="flex flex-wrap gap-2 mt-4">
             {technique.terrain.map((t) => (
               <span
                 key={t}
@@ -79,41 +84,55 @@ export default async function TechniqueDetailPage({
               </span>
             ))}
           </div>
-        </div>
-
-        {/* Promise callout */}
-        <div className="rounded-xl bg-[#e8722a]/10 border border-[#e8722a]/20 p-5">
-          <p className="text-sm font-semibold text-[#e8722a] uppercase tracking-wide mb-1">
-            What you&apos;ll gain
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-3">
+            {technique.title}
+          </h1>
+          {/* Promise subtitle */}
+          <p className="text-lg text-[#e8722a] font-medium leading-relaxed max-w-2xl mb-4">
+            {technique.promise}
           </p>
-          <p className="text-white leading-relaxed">{technique.promise}</p>
+          <p className="text-base text-gray-400 leading-relaxed max-w-2xl">{technique.description}</p>
         </div>
 
         {/* Video embed */}
         <section>
-          <h2 className="text-xl font-bold text-white mb-5">Watch &amp; Learn</h2>
+          <h2 className="text-xl font-bold text-white mb-2">Watch &amp; Learn</h2>
+          {technique.youtubeVideos.length > 1 && (
+            <p className="text-xs text-gray-500 mb-3">
+              Not clicking? Try a different teaching style below:
+            </p>
+          )}
           <VideoEmbed videos={technique.youtubeVideos} />
         </section>
 
-        {/* Timestamps */}
+        {/* Timeline timestamps */}
         {technique.timestamps.length > 0 && (
           <section>
             <h2 className="text-xl font-bold text-white mb-5">Key Moments</h2>
-            <div className="space-y-3">
-              {technique.timestamps.map((ts) => (
-                <div
-                  key={ts.time}
-                  className="flex gap-4 p-4 rounded-xl bg-white/3 border border-white/5 hover:border-white/10 transition-colors"
-                >
-                  <span className="text-[#e8722a] font-mono text-sm font-bold flex-shrink-0 w-12 pt-0.5">
-                    {ts.time}
-                  </span>
-                  <div>
-                    <p className="text-white font-semibold text-sm">{ts.label}</p>
-                    <p className="text-gray-400 text-sm mt-0.5">{ts.detail}</p>
+            <div className="relative pl-4">
+              {/* Vertical line */}
+              <div className="absolute left-0 top-2 bottom-2 w-px bg-white/10" aria-hidden="true" />
+              <div className="space-y-0">
+                {technique.timestamps.map((ts, i) => (
+                  <div key={ts.time} className="relative flex gap-4 pb-6 last:pb-0">
+                    {/* Timeline dot */}
+                    <div
+                      className="absolute -left-[5px] mt-1 w-2.5 h-2.5 rounded-full bg-[#e8722a] border-2 border-[#0d1b2a] flex-shrink-0"
+                      aria-hidden="true"
+                    />
+                    <div className="pl-5">
+                      <div className="flex items-center gap-3 mb-0.5">
+                        <span className="text-[#e8722a] font-mono text-sm font-bold">
+                          {ts.time}
+                        </span>
+                        <span className="text-white font-semibold text-sm">{ts.label}</span>
+                        <span className="text-xs text-gray-600 font-normal">Step {i + 1}</span>
+                      </div>
+                      <p className="text-gray-400 text-sm leading-relaxed">{ts.detail}</p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </section>
         )}
@@ -124,9 +143,14 @@ export default async function TechniqueDetailPage({
             <h2 className="text-xl font-bold text-white mb-5">What It Should Feel Like</h2>
             <ul className="space-y-3">
               {technique.feels.map((feel, i) => (
-                <li key={i} className="flex gap-3 text-gray-300">
-                  <span className="text-[#e8722a] flex-shrink-0 mt-0.5">&#x2713;</span>
-                  <span>{feel}</span>
+                <li
+                  key={i}
+                  className="flex gap-3 p-4 rounded-xl bg-white/3 border border-white/5"
+                >
+                  <span className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs flex items-center justify-center mt-0.5">
+                    ✓
+                  </span>
+                  <span className="text-gray-200 text-sm leading-relaxed">{feel}</span>
                 </li>
               ))}
             </ul>
@@ -139,17 +163,18 @@ export default async function TechniqueDetailPage({
             <h2 className="text-xl font-bold text-white mb-5">Common Mistakes &amp; Fixes</h2>
             <div className="space-y-4">
               {technique.mistakes.map((item, i) => (
-                <div
-                  key={i}
-                  className="rounded-xl border border-white/5 overflow-hidden"
-                >
-                  <div className="bg-red-950/30 border-b border-white/5 px-5 py-3 flex gap-3">
-                    <span className="text-red-400 flex-shrink-0">&#x2717;</span>
-                    <p className="text-red-300 text-sm">{item.mistake}</p>
+                <div key={i} className="rounded-xl border border-white/5 overflow-hidden">
+                  <div className="bg-red-950/40 border-b border-red-900/30 px-5 py-3.5 flex gap-3 items-start">
+                    <span className="flex-shrink-0 w-5 h-5 rounded-full bg-red-500/20 border border-red-500/30 text-red-400 text-xs flex items-center justify-center mt-0.5">
+                      ✕
+                    </span>
+                    <p className="text-red-300 text-sm leading-relaxed">{item.mistake}</p>
                   </div>
-                  <div className="bg-emerald-950/20 px-5 py-3 flex gap-3">
-                    <span className="text-emerald-400 flex-shrink-0">&#x2713;</span>
-                    <p className="text-emerald-300 text-sm">{item.fix}</p>
+                  <div className="bg-emerald-950/25 px-5 py-3.5 flex gap-3 items-start">
+                    <span className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs flex items-center justify-center mt-0.5">
+                      ✓
+                    </span>
+                    <p className="text-emerald-300 text-sm leading-relaxed">{item.fix}</p>
                   </div>
                 </div>
               ))}
@@ -157,81 +182,158 @@ export default async function TechniqueDetailPage({
           </section>
         )}
 
+        {/* Practice drills */}
+        {technique.drills.length > 0 && (
+          <section>
+            <h2 className="text-xl font-bold text-white mb-5">Practice Drills</h2>
+            <div className="space-y-3">
+              {technique.drills.map((drill, i) => (
+                <div
+                  key={i}
+                  className="flex gap-4 p-4 rounded-xl bg-[#e8722a]/5 border border-[#e8722a]/15 hover:border-[#e8722a]/25 transition-colors"
+                >
+                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#e8722a]/15 border border-[#e8722a]/25 text-[#e8722a] text-sm font-bold flex items-center justify-center">
+                    {i + 1}
+                  </span>
+                  <p className="text-gray-300 text-sm leading-relaxed pt-0.5">{drill}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Prerequisites + Next Steps */}
-        <div className="grid sm:grid-cols-2 gap-6">
-          {technique.prerequisites.length > 0 && (
-            <section className="rounded-xl bg-white/3 border border-white/5 p-5">
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3">
-                Prerequisites
-              </h3>
-              <ul className="space-y-2">
-                {technique.prerequisites.map((slug) => {
-                  const pre = getTechniqueBySlug(slug);
-                  return pre ? (
-                    <li key={slug}>
-                      <Link
-                        href={`/techniques/${slug}`}
-                        className="text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
-                      >
-                        &larr; {pre.title}
-                      </Link>
-                    </li>
-                  ) : null;
-                })}
-              </ul>
-            </section>
-          )}
+        {(technique.prerequisites.length > 0 || technique.nextSteps.length > 0) && (
+          <div className="grid sm:grid-cols-2 gap-6">
+            {technique.prerequisites.length > 0 && (
+              <section className="rounded-xl bg-white/3 border border-white/5 p-5">
+                <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3">
+                  Prerequisites
+                </h3>
+                <ul className="space-y-2">
+                  {technique.prerequisites.map((prereqSlug) => {
+                    const pre = getTechniqueBySlug(prereqSlug);
+                    return pre ? (
+                      <li key={prereqSlug}>
+                        <Link
+                          href={`/techniques/${prereqSlug}`}
+                          className="text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
+                        >
+                          &larr; {pre.title}
+                        </Link>
+                      </li>
+                    ) : null;
+                  })}
+                </ul>
+              </section>
+            )}
+            {technique.nextSteps.length > 0 && (
+              <section className="rounded-xl bg-white/3 border border-white/5 p-5">
+                <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3">
+                  Level Up Next
+                </h3>
+                <ul className="space-y-2">
+                  {technique.nextSteps.map((nextSlug) => {
+                    const nextTech = getTechniqueBySlug(nextSlug);
+                    return nextTech ? (
+                      <li key={nextSlug}>
+                        <Link
+                          href={`/techniques/${nextSlug}`}
+                          className="text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
+                        >
+                          {nextTech.title} &rarr;
+                        </Link>
+                      </li>
+                    ) : null;
+                  })}
+                </ul>
+              </section>
+            )}
+          </div>
+        )}
 
-          {technique.nextSteps.length > 0 && (
-            <section className="rounded-xl bg-white/3 border border-white/5 p-5">
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3">
-                Level Up Next
-              </h3>
-              <ul className="space-y-2">
-                {technique.nextSteps.map((slug) => {
-                  const next = getTechniqueBySlug(slug);
-                  return next ? (
-                    <li key={slug}>
-                      <Link
-                        href={`/techniques/${slug}`}
-                        className="text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
-                      >
-                        {next.title} &rarr;
-                      </Link>
-                    </li>
-                  ) : null;
-                })}
-              </ul>
-            </section>
-          )}
-        </div>
+        {/* Prev / Current / Next progression cards */}
+        <section>
+          <h2 className="text-xl font-bold text-white mb-5">Your Progression</h2>
+          <div className="grid grid-cols-3 gap-3">
+            {prev ? (
+              <Link
+                href={`/techniques/${prev.slug}`}
+                className="group rounded-xl bg-white/3 border border-white/5 hover:border-white/15 p-4 transition-all"
+              >
+                <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">&larr; Previous</p>
+                <p className="text-white text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
+                  {prev.title}
+                </p>
+                <p className="text-gray-600 text-xs mt-1">Level {prev.difficulty}</p>
+              </Link>
+            ) : (
+              <div className="rounded-xl border border-white/5 p-4 opacity-30">
+                <p className="text-xs text-gray-600 uppercase tracking-wide mb-2">Previous</p>
+                <p className="text-gray-600 text-sm">Start of path</p>
+              </div>
+            )}
 
-        {/* Prev / Next navigation */}
-        <nav className="flex items-center justify-between pt-6 border-t border-white/5">
-          {prev ? (
-            <Link
-              href={`/techniques/${prev.slug}`}
-              className="group flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
-            >
-              <span>&larr;</span>
-              <span className="group-hover:underline">{prev.title}</span>
-            </Link>
-          ) : (
-            <span />
-          )}
-          {next ? (
-            <Link
-              href={`/techniques/${next.slug}`}
-              className="group flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
-            >
-              <span className="group-hover:underline">{next.title}</span>
-              <span>&rarr;</span>
-            </Link>
-          ) : (
-            <span />
-          )}
-        </nav>
+            <div className="rounded-xl bg-[#e8722a]/10 border border-[#e8722a]/25 p-4">
+              <p className="text-xs text-[#e8722a] uppercase tracking-wide mb-2">Current</p>
+              <p className="text-white text-sm font-semibold line-clamp-2">{technique.title}</p>
+              <p className="text-[#e8722a]/60 text-xs mt-1">Level {technique.difficulty}</p>
+            </div>
+
+            {next ? (
+              <Link
+                href={`/techniques/${next.slug}`}
+                className="group rounded-xl bg-white/3 border border-white/5 hover:border-white/15 p-4 transition-all"
+              >
+                <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">Next Up &rarr;</p>
+                <p className="text-white text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
+                  {next.title}
+                </p>
+                <p className="text-gray-600 text-xs mt-1">Level {next.difficulty}</p>
+              </Link>
+            ) : (
+              <div className="rounded-xl border border-white/5 p-4 opacity-30">
+                <p className="text-xs text-gray-600 uppercase tracking-wide mb-2">Next Up</p>
+                <p className="text-gray-600 text-sm">End of path</p>
+              </div>
+            )}
+          </div>
+        </section>
       </main>
+
+      {/* Footer */}
+      <footer className="mt-16 bg-[#080f18] border-t border-white/5">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+            <div>
+              <div className="text-xl font-bold text-white mb-2">
+                Ski<span className="text-[#e8722a]">Sharp</span>
+              </div>
+              <p className="text-gray-500 text-sm max-w-xs">
+                A curated skiing technique knowledge hub. Videos sourced from expert instructors
+                across YouTube. All credit to the original creators.
+              </p>
+            </div>
+            <nav className="flex flex-col sm:items-end gap-2 text-sm text-gray-500">
+              <Link href="/techniques" className="hover:text-gray-300 transition-colors">
+                All Techniques
+              </Link>
+              <Link href="/techniques?rating=green" className="hover:text-gray-300 transition-colors">
+                Beginner
+              </Link>
+              <Link href="/techniques?rating=blue" className="hover:text-gray-300 transition-colors">
+                Intermediate
+              </Link>
+              <Link href="/techniques?rating=black" className="hover:text-gray-300 transition-colors">
+                Advanced
+              </Link>
+            </nav>
+          </div>
+          <div className="mt-10 pt-6 border-t border-white/5 text-center text-xs text-gray-600">
+            Built for skiers who want to improve. Videos and instruction credit to their original creators.
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -1,47 +1,14 @@
 import Link from "next/link";
 import { techniques } from "@/data/techniques";
 import TechniqueCard from "@/components/TechniqueCard";
+import Navbar from "@/components/Navbar";
 
 export default function HomePage() {
   const featured = techniques.slice(0, 4);
 
   return (
     <div className="flex flex-col min-h-full font-[family-name:var(--font-inter)]">
-      {/* Sticky nav */}
-      <nav className="sticky top-0 z-50 bg-[#0d1b2a]/90 backdrop-blur border-b border-white/5">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            {/* Logo */}
-            <Link href="/" className="text-xl font-bold tracking-tight text-white">
-              Ski<span className="text-[#e8722a]">Sharp</span>
-            </Link>
-
-            {/* Nav links */}
-            <div className="hidden sm:flex items-center gap-6 text-sm text-gray-400">
-              <Link href="/techniques" className="hover:text-white transition-colors">
-                Techniques
-              </Link>
-              <Link href="/techniques?rating=green" className="hover:text-white transition-colors">
-                Beginner
-              </Link>
-              <Link href="/techniques?rating=blue" className="hover:text-white transition-colors">
-                Intermediate
-              </Link>
-              <Link href="/techniques?rating=black" className="hover:text-white transition-colors">
-                Advanced
-              </Link>
-            </div>
-
-            {/* CTA */}
-            <Link
-              href="/techniques"
-              className="bg-[#e8722a] hover:bg-[#d4621a] text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
-            >
-              Browse All
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       <main className="flex-1">
         {/* Hero section */}
@@ -57,7 +24,7 @@ export default function HomePage() {
             }}
           />
 
-          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36">
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-40 lg:py-44">
             <div className="max-w-3xl">
               <div className="inline-flex items-center gap-2 bg-[#e8722a]/10 border border-[#e8722a]/20 rounded-full px-4 py-1.5 mb-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#e8722a]" />
@@ -97,10 +64,10 @@ export default function HomePage() {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
               <dl className="grid grid-cols-2 sm:grid-cols-4 gap-6">
                 {[
-                  { value: "150+", label: "Techniques" },
-                  { value: "5", label: "Difficulty levels" },
-                  { value: "Free", label: "Always" },
-                  { value: "Expert", label: "Curated videos" },
+                  { value: String(techniques.length), label: "Techniques" },
+                  { value: "40+", label: "Curated videos" },
+                  { value: "3", label: "Learning paths" },
+                  { value: "Free", label: "To start" },
                 ].map(({ value, label }) => (
                   <div key={label} className="text-center sm:text-left">
                     <dt className="text-2xl font-bold text-[#e8722a]">{value}</dt>
@@ -108,6 +75,69 @@ export default function HomePage() {
                   </div>
                 ))}
               </dl>
+            </div>
+          </div>
+        </section>
+
+        {/* How It Works */}
+        <section className="py-20 bg-[#0a1520]">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl font-bold text-white mb-3">How It Works</h2>
+              <p className="text-gray-400 max-w-lg mx-auto">
+                We do the hunting so you can focus on the mountain.
+              </p>
+            </div>
+
+            <div className="grid sm:grid-cols-3 gap-8">
+              {[
+                {
+                  step: "01",
+                  title: "We Find",
+                  body: "We hunt YouTube for the best skiing instruction videos available — covering everything from first-day pizza turns to double-black mastery — and pick only the clearest, most technically accurate ones.",
+                  icon: (
+                    <svg className="w-6 h-6 text-[#e8722a]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+                    </svg>
+                  ),
+                },
+                {
+                  step: "02",
+                  title: "We Organize",
+                  body: "Every technique gets timestamped key moments, feel cues that describe what correct form actually feels like, mistake-and-fix cards, and practice drills — so you know exactly what to focus on.",
+                  icon: (
+                    <svg className="w-6 h-6 text-[#e8722a]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 0 2-2h2a2 2 0 0 0 2 2m-6 9l2 2 4-4" />
+                    </svg>
+                  ),
+                },
+                {
+                  step: "03",
+                  title: "You Learn",
+                  body: "Follow a progression path from first-timer to expert, or jump straight to the technique you're working on. No account, no subscription — just open and ski better.",
+                  icon: (
+                    <svg className="w-6 h-6 text-[#e8722a]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  ),
+                },
+              ].map(({ step, title, body, icon }) => (
+                <div
+                  key={step}
+                  className="relative rounded-2xl bg-white/3 border border-white/5 p-6 hover:border-[#e8722a]/20 transition-colors"
+                >
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#e8722a]/10 border border-[#e8722a]/20 flex items-center justify-center">
+                      {icon}
+                    </div>
+                    <span className="text-4xl font-extrabold text-white/5 leading-none mt-1">
+                      {step}
+                    </span>
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-3">{title}</h3>
+                  <p className="text-gray-400 text-sm leading-relaxed">{body}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
