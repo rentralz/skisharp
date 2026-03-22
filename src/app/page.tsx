@@ -1,65 +1,262 @@
-import Image from "next/image";
+import Link from "next/link";
+import { techniques } from "@/data/techniques";
+import TechniqueCard from "@/components/TechniqueCard";
 
-export default function Home() {
+export default function HomePage() {
+  const featured = techniques.slice(0, 4);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <div className="flex flex-col min-h-full font-[family-name:var(--font-inter)]">
+      {/* Sticky nav */}
+      <nav className="sticky top-0 z-50 bg-[#0d1b2a]/90 backdrop-blur border-b border-white/5">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            {/* Logo */}
+            <Link href="/" className="text-xl font-bold tracking-tight text-white">
+              Ski<span className="text-[#e8722a]">Sharp</span>
+            </Link>
+
+            {/* Nav links */}
+            <div className="hidden sm:flex items-center gap-6 text-sm text-gray-400">
+              <Link href="/techniques" className="hover:text-white transition-colors">
+                Techniques
+              </Link>
+              <Link href="/techniques?rating=green" className="hover:text-white transition-colors">
+                Beginner
+              </Link>
+              <Link href="/techniques?rating=blue" className="hover:text-white transition-colors">
+                Intermediate
+              </Link>
+              <Link href="/techniques?rating=black" className="hover:text-white transition-colors">
+                Advanced
+              </Link>
+            </div>
+
+            {/* CTA */}
+            <Link
+              href="/techniques"
+              className="bg-[#e8722a] hover:bg-[#d4621a] text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              Browse All
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+      </nav>
+
+      <main className="flex-1">
+        {/* Hero section */}
+        <section className="relative bg-gradient-to-br from-[#0d1b2a] via-[#132435] to-[#1a3a5c] overflow-hidden">
+          {/* Decorative background lines */}
+          <div
+            className="absolute inset-0 opacity-5"
+            aria-hidden="true"
+            style={{
+              backgroundImage:
+                "repeating-linear-gradient(45deg, #e8722a 0, #e8722a 1px, transparent 0, transparent 50%)",
+              backgroundSize: "30px 30px",
+            }}
+          />
+
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36">
+            <div className="max-w-3xl">
+              <div className="inline-flex items-center gap-2 bg-[#e8722a]/10 border border-[#e8722a]/20 rounded-full px-4 py-1.5 mb-6">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#e8722a]" />
+                <span className="text-[#e8722a] text-sm font-medium">Curated technique library</span>
+              </div>
+
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6">
+                Master Every
+                <br />
+                <span className="text-[#e8722a]">Turn.</span>
+              </h1>
+
+              <p className="text-xl text-gray-300 leading-relaxed mb-10 max-w-xl">
+                Expert-curated skiing technique guides with step-by-step video breakdowns, feel cues,
+                and common mistake fixes. From first-timers to double-black enthusiasts.
+              </p>
+
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  href="/techniques"
+                  className="bg-[#e8722a] hover:bg-[#d4621a] text-white font-bold px-8 py-3.5 rounded-xl text-base transition-colors shadow-lg shadow-[#e8722a]/20"
+                >
+                  Explore Techniques
+                </Link>
+                <Link
+                  href="/techniques?rating=green"
+                  className="bg-white/10 hover:bg-white/15 border border-white/20 text-white font-semibold px-8 py-3.5 rounded-xl text-base transition-colors"
+                >
+                  Start as Beginner
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Stats bar */}
+          <div className="border-t border-white/5 bg-[#0d1b2a]/60">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+              <dl className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+                {[
+                  { value: "150+", label: "Techniques" },
+                  { value: "5", label: "Difficulty levels" },
+                  { value: "Free", label: "Always" },
+                  { value: "Expert", label: "Curated videos" },
+                ].map(({ value, label }) => (
+                  <div key={label} className="text-center sm:text-left">
+                    <dt className="text-2xl font-bold text-[#e8722a]">{value}</dt>
+                    <dd className="text-sm text-gray-400 mt-0.5">{label}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+        </section>
+
+        {/* Learning Paths */}
+        <section className="py-20 bg-[#0d1b2a]">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-12">
+              <h2 className="text-3xl font-bold text-white mb-3">Learning Paths</h2>
+              <p className="text-gray-400">Start where you are. Progress from there.</p>
+            </div>
+
+            <div className="grid sm:grid-cols-3 gap-6">
+              {/* Green — First Timer */}
+              <Link
+                href="/techniques?rating=green"
+                className="group relative rounded-2xl overflow-hidden bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-800 p-6 border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-4 h-4 rounded-full bg-[#22c55e] flex-shrink-0" />
+                  <span className="text-emerald-300 font-semibold text-sm uppercase tracking-wide">
+                    Green Run
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">First Timer</h3>
+                <p className="text-emerald-200/70 text-sm leading-relaxed">
+                  Hockey stops, wedge turns, and your first parallel turns. Build the fundamentals
+                  that everything else is built on.
+                </p>
+                <div className="mt-4 text-emerald-400 text-sm font-medium group-hover:text-emerald-300">
+                  Levels 1&ndash;3 &rarr;
+                </div>
+              </Link>
+
+              {/* Blue — Intermediate */}
+              <Link
+                href="/techniques?rating=blue"
+                className="group relative rounded-2xl overflow-hidden bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 p-6 border border-blue-700/30 hover:border-blue-500/50 transition-all duration-300"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-4 h-4 rounded-full bg-[#3b82f6] flex-shrink-0" />
+                  <span className="text-blue-300 font-semibold text-sm uppercase tracking-wide">
+                    Blue Run
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Intermediate</h3>
+                <p className="text-blue-200/70 text-sm leading-relaxed">
+                  Parallel turns, hip angulation, and edge control. The techniques that separate
+                  intermediate skiers from confident ones.
+                </p>
+                <div className="mt-4 text-blue-400 text-sm font-medium group-hover:text-blue-300">
+                  Levels 4&ndash;6 &rarr;
+                </div>
+              </Link>
+
+              {/* Black — Advanced */}
+              <Link
+                href="/techniques?rating=black"
+                className="group relative rounded-2xl overflow-hidden bg-gradient-to-br from-gray-950 via-gray-900 to-gray-800 p-6 border border-gray-700/30 hover:border-gray-500/50 transition-all duration-300"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-4 h-4 rounded-full bg-[#1a1a2e] border border-gray-500 flex-shrink-0" />
+                  <span className="text-gray-300 font-semibold text-sm uppercase tracking-wide">
+                    Black Diamond
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Advanced</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  Mogul absorption, powder floating, steep terrain. The techniques that unlock the
+                  mountain&apos;s best terrain.
+                </p>
+                <div className="mt-4 text-gray-400 text-sm font-medium group-hover:text-gray-300">
+                  Levels 7&ndash;10 &rarr;
+                </div>
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Featured Techniques */}
+        <section className="py-20 bg-[#0a1520]">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-end justify-between mb-12">
+              <div>
+                <h2 className="text-3xl font-bold text-white mb-3">Featured Techniques</h2>
+                <p className="text-gray-400">The highest-impact skills to work on right now.</p>
+              </div>
+              <Link
+                href="/techniques"
+                className="hidden sm:inline-flex text-[#e8722a] hover:text-[#f08040] text-sm font-semibold transition-colors"
+              >
+                View all &rarr;
+              </Link>
+            </div>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {featured.map((technique) => (
+                <TechniqueCard key={technique.id} technique={technique} />
+              ))}
+            </div>
+
+            <div className="mt-10 text-center sm:hidden">
+              <Link
+                href="/techniques"
+                className="inline-block bg-[#e8722a]/10 border border-[#e8722a]/30 text-[#e8722a] font-semibold px-6 py-3 rounded-xl transition-colors hover:bg-[#e8722a]/20"
+              >
+                View all techniques &rarr;
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
+
+      {/* Footer */}
+      <footer className="bg-[#080f18] border-t border-white/5">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+            <div>
+              <div className="text-xl font-bold text-white mb-2">
+                Ski<span className="text-[#e8722a]">Sharp</span>
+              </div>
+              <p className="text-gray-500 text-sm max-w-xs">
+                A curated skiing technique knowledge hub. Videos sourced from expert instructors
+                across YouTube. All credit to the original creators.
+              </p>
+            </div>
+
+            <nav className="flex flex-col sm:items-end gap-2 text-sm text-gray-500">
+              <Link href="/techniques" className="hover:text-gray-300 transition-colors">
+                All Techniques
+              </Link>
+              <Link href="/techniques?rating=green" className="hover:text-gray-300 transition-colors">
+                Beginner
+              </Link>
+              <Link href="/techniques?rating=blue" className="hover:text-gray-300 transition-colors">
+                Intermediate
+              </Link>
+              <Link href="/techniques?rating=black" className="hover:text-gray-300 transition-colors">
+                Advanced
+              </Link>
+            </nav>
+          </div>
+
+          <div className="mt-10 pt-6 border-t border-white/5 text-center text-xs text-gray-600">
+            Built for skiers who want to improve. Videos and instruction credit to their original
+            creators.
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
