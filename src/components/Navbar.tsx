@@ -6,9 +6,11 @@ import { usePathname } from "next/navigation";
 
 const NAV_LINKS = [
   { href: "/techniques", label: "Techniques", mobileLabel: "All Techniques" },
-  { href: "/slope-ratings", label: "Slope Ratings", mobileLabel: "Slope Ratings" },
+  { href: "/slope-ratings", label: "Slopes", mobileLabel: "Slope Ratings" },
   { href: "/snow-conditions", label: "Conditions", mobileLabel: "Snow Conditions" },
+  { href: "/equipment-guide", label: "Equipment", mobileLabel: "Equipment Guide" },
   { href: "/clothing-guide", label: "Clothing", mobileLabel: "Clothing Guide" },
+  { href: "/resorts", label: "Resorts", mobileLabel: "Resorts Worldwide" },
 ];
 
 export default function Navbar() {
