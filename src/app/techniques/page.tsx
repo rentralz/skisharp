@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { techniques } from "@/data/techniques";
 import type { DifficultyRating } from "@/data/techniques";
 import TechniqueCard from "@/components/TechniqueCard";
@@ -14,11 +15,36 @@ const RATINGS: { value: DifficultyRating | "all"; label: string }[] = [
   { value: "double-black", label: "Double Black (Expert)" },
 ];
 
+const VALID_RATINGS = new Set(["green", "blue", "black", "double-black"]);
 const ALL_TERRAIN = Array.from(new Set(techniques.flatMap((t) => t.terrain)));
 
 export default function TechniquesPage() {
-  const [selectedRating, setSelectedRating] = useState<DifficultyRating | "all">("all");
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#0d1b2a]"><Navbar /><div className="max-w-6xl mx-auto px-4 py-20 text-center text-gray-400">Loading techniques...</div></div>}>
+      <TechniquesContent />
+    </Suspense>
+  );
+}
+
+function TechniquesContent() {
+  const searchParams = useSearchParams();
+  const ratingParam = searchParams.get("rating");
+  const initialRating = ratingParam && VALID_RATINGS.has(ratingParam)
+    ? (ratingParam as DifficultyRating)
+    : "all";
+
+  const [selectedRating, setSelectedRating] = useState<DifficultyRating | "all">(initialRating);
   const [selectedTerrain, setSelectedTerrain] = useState<string | "all">("all");
+
+  // Sync state when URL params change (e.g., nav link clicked)
+  useEffect(() => {
+    const r = searchParams.get("rating");
+    if (r && VALID_RATINGS.has(r)) {
+      setSelectedRating(r as DifficultyRating);
+    } else if (!r) {
+      setSelectedRating("all");
+    }
+  }, [searchParams]);
 
   const filtered = techniques.filter((t) => {
     const ratingMatch = selectedRating === "all" || t.rating === selectedRating;
