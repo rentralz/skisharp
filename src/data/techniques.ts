@@ -75,18 +75,18 @@ export const techniques: Technique[] = [
     nextSteps: ["hockey-stop", "speed-control"],
     youtubeVideos: [
       {
-        videoId: "Dz4l8YGlLj0",
-        channel: "Stomp It Tutorials",
-        channelUrl: "https://www.youtube.com/@StompItTutorials",
-        title: "How to Ski as a Complete Beginner: Wedge Turns",
+        videoId: "T1BsQPFdt7w",
+        channel: "Snowboard Addiction",
+        channelUrl: "https://www.youtube.com/@snowboardaddiction",
+        title: "Beginners Lesson 3.0 Snowplow wedge turns",
         isPrimary: true,
         teachingStyle: "High-energy, beginner-friendly breakdown",
       },
       {
-        videoId: "xE-j8RfIv8A",
-        channel: "Ski School by Elate Media",
-        channelUrl: "https://www.youtube.com/@SkiSchool",
-        title: "Pizza Turns: The First Skiing Skill",
+        videoId: "wB-fVTBMQQU",
+        channel: "Ski School by Elate",
+        channelUrl: "https://www.youtube.com/@SkiSchoolbyElate",
+        title: "From Wedge to Parallel",
         isPrimary: false,
         teachingStyle: "Patient, step-by-step on-slope instruction",
       },
@@ -128,10 +128,10 @@ export const techniques: Technique[] = [
     nextSteps: ["parallel-turns", "speed-control"],
     youtubeVideos: [
       {
-        videoId: "o2MNfaci4wU",
+        videoId: "pKlY8J15g_c",
         channel: "Stomp It Tutorials",
         channelUrl: "https://www.youtube.com/@StompItTutorials",
-        title: "How to Hockey Stop on Skis",
+        title: "How to do The Hockey Stop",
         isPrimary: true,
         teachingStyle: "Fun, high-energy breakdown",
       },
@@ -173,18 +173,18 @@ export const techniques: Technique[] = [
     nextSteps: ["wedge-christie", "parallel-turns"],
     youtubeVideos: [
       {
-        videoId: "nNZ8oUFqrTE",
-        channel: "Stomp It Tutorials",
-        channelUrl: "https://www.youtube.com/@StompItTutorials",
-        title: "How to Control Your Speed on Skis",
+        videoId: "hrUbJxSQiRc",
+        channel: "ELATE Media",
+        channelUrl: "https://www.youtube.com/@ELATEmedia",
+        title: "How to Control Your Speed",
         isPrimary: true,
         teachingStyle: "Practical, drill-driven with clear explanations",
       },
       {
-        videoId: "f9Ww_aAXIfc",
-        channel: "Ski School by Elate Media",
-        channelUrl: "https://www.youtube.com/@SkiSchool",
-        title: "Speed Management: Turn Shape and Edge Control",
+        videoId: "M4_HZfGTunw",
+        channel: "SkiSchoolApp",
+        channelUrl: "https://www.youtube.com/@SkiSchoolApp",
+        title: "Rounded Turns to Control Speed",
         isPrimary: false,
         teachingStyle: "Calm, technical on-slope coaching",
       },
@@ -226,18 +226,18 @@ export const techniques: Technique[] = [
     nextSteps: ["parallel-turns", "pole-planting"],
     youtubeVideos: [
       {
-        videoId: "YK1cPCMdwUk",
-        channel: "Stomp It Tutorials",
-        channelUrl: "https://www.youtube.com/@StompItTutorials",
-        title: "Wedge Christie: The Step to Parallel Skiing",
+        videoId: "ZOxlBfACVyk",
+        channel: "Ski School by Elate",
+        channelUrl: "https://www.youtube.com/@SkiSchoolbyElate",
+        title: "Wedge Christie MA 1",
         isPrimary: true,
         teachingStyle: "Progressive, beginner-to-intermediate focus",
       },
       {
-        videoId: "aXQH5Oze5Ik",
-        channel: "Tom Gellie",
-        channelUrl: "https://www.youtube.com/@TomGellie",
-        title: "Bridging the Gap: Wedge Christie Drill",
+        videoId: "wB-fVTBMQQU",
+        channel: "Ski School by Elate",
+        channelUrl: "https://www.youtube.com/@SkiSchoolbyElate",
+        title: "From Wedge to Parallel Turns",
         isPrimary: false,
         teachingStyle: "Technical with clear movement cues",
       },
@@ -279,10 +279,10 @@ export const techniques: Technique[] = [
     nextSteps: ["hip-angulation", "pole-planting"],
     youtubeVideos: [
       {
-        videoId: "pXFRxSEVfz8",
-        channel: "Elate Media",
-        channelUrl: "https://www.youtube.com/@ElateMedia",
-        title: "How to Do Parallel Turns",
+        videoId: "RIMiiOy2LKA",
+        channel: "Carv",
+        channelUrl: "https://www.youtube.com/@CarvSki",
+        title: "Parallel Skiing 101 - 4 Drills",
         isPrimary: true,
         teachingStyle: "Step-by-step drill-based",
       },
@@ -324,18 +324,18 @@ export const techniques: Technique[] = [
     nextSteps: ["hip-angulation", "short-radius-turns"],
     youtubeVideos: [
       {
-        videoId: "GHlxaT8wZFk",
+        videoId: "qzDMHfZclg8",
         channel: "Stomp It Tutorials",
         channelUrl: "https://www.youtube.com/@StompItTutorials",
-        title: "How to Plant Your Poles When Skiing",
+        title: "How to do Basic Pole Plant",
         isPrimary: true,
         teachingStyle: "Clear, drill-focused with common mistake callouts",
       },
       {
-        videoId: "yPq5kQ7amIo",
+        videoId: "3cOnAKhne70",
         channel: "Tom Gellie",
         channelUrl: "https://www.youtube.com/@TomGellie",
-        title: "Pole Timing: The Rhythm of Expert Skiing",
+        title: "Want a better pole plant",
         isPrimary: false,
         teachingStyle: "Technical on-slope with slow-motion analysis",
       },
@@ -377,10 +377,10 @@ export const techniques: Technique[] = [
     nextSteps: ["mogul-absorption", "carved-turns", "upper-lower-separation"],
     youtubeVideos: [
       {
-        videoId: "7dq2bvMxmHE",
+        videoId: "N-XY3CB3FsA",
         channel: "Tom Gellie",
         channelUrl: "https://www.youtube.com/@TomGellie",
-        title: "Hip Angulation in Skiing Explained",
+        title: "How to Use the Hips to Carve",
         isPrimary: true,
         teachingStyle: "On-slope demonstration with clear cues",
       },
@@ -422,18 +422,18 @@ export const techniques: Technique[] = [
     nextSteps: ["carved-turns", "short-radius-turns"],
     youtubeVideos: [
       {
-        videoId: "lAFJn9AQSTY",
-        channel: "Tom Gellie",
-        channelUrl: "https://www.youtube.com/@TomGellie",
-        title: "Upper-Lower Body Separation: The Key to Expert Skiing",
+        videoId: "sutoNhGGLvY",
+        channel: "Deb Armstrong Skiing",
+        channelUrl: "https://www.youtube.com/@debarmstrongskiing",
+        title: "Ski Better with Separation",
         isPrimary: true,
         teachingStyle: "Technical with on-slope demos and drills",
       },
       {
-        videoId: "RN0fJKADsGI",
-        channel: "Ski School by Elate Media",
-        channelUrl: "https://www.youtube.com/@SkiSchool",
-        title: "Body Separation Drills for Intermediate Skiers",
+        videoId: "uVcMhEBITRw",
+        channel: "SkiSchoolApp",
+        channelUrl: "https://www.youtube.com/@SkiSchoolApp",
+        title: "Anticipated vs rotated vs countered",
         isPrimary: false,
         teachingStyle: "Drill-focused with clear before/after comparison",
       },
@@ -475,18 +475,18 @@ export const techniques: Technique[] = [
     nextSteps: ["short-radius-turns", "upper-lower-separation"],
     youtubeVideos: [
       {
-        videoId: "dFNKWkWyNZQ",
-        channel: "Stomp It Tutorials",
-        channelUrl: "https://www.youtube.com/@StompItTutorials",
-        title: "How to Carve on Skis: Full Breakdown",
+        videoId: "LrmCNarCzIY",
+        channel: "Carv",
+        channelUrl: "https://www.youtube.com/@CarvSki",
+        title: "How to Carve on Skis 5 Tips",
         isPrimary: true,
         teachingStyle: "Energetic with clear visual comparison of skidding vs carving",
       },
       {
-        videoId: "mXqGHxsGxco",
-        channel: "Elate Media",
-        channelUrl: "https://www.youtube.com/@ElateMedia",
-        title: "Carved Turns: Edge Pressure and Arc Technique",
+        videoId: "Qw6ShmgLyHQ",
+        channel: "Leona Popovic / Croatian Ski",
+        channelUrl: "",
+        title: "Dynamic SL Carving Turns",
         isPrimary: false,
         teachingStyle: "Patient, step-by-step with on-snow drills",
       },
@@ -528,7 +528,7 @@ export const techniques: Technique[] = [
     nextSteps: ["steep-terrain", "short-radius-turns"],
     youtubeVideos: [
       {
-        videoId: "qFuBPY7Xk-Q",
+        videoId: "02XL-lBf6eg",
         channel: "Stomp It Tutorials",
         channelUrl: "https://www.youtube.com/@StompItTutorials",
         title: "How to Ski on Ice: Edge Technique for Icy Slopes",
@@ -536,7 +536,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Practical tips with real icy conditions footage",
       },
       {
-        videoId: "X2HqXFaJzTY",
+        videoId: "wB-fVTBMQQU",
         channel: "Tom Gellie",
         channelUrl: "https://www.youtube.com/@TomGellie",
         title: "Ice Edge Control: Precision Over Power",
@@ -581,7 +581,7 @@ export const techniques: Technique[] = [
     nextSteps: ["steep-terrain", "mogul-absorption"],
     youtubeVideos: [
       {
-        videoId: "uQKtYuVNFMI",
+        videoId: "M4_HZfGTunw",
         channel: "Stomp It Tutorials",
         channelUrl: "https://www.youtube.com/@StompItTutorials",
         title: "Short Radius Turns: Speed Control on Steep Terrain",
@@ -589,7 +589,7 @@ export const techniques: Technique[] = [
         teachingStyle: "High-energy with on-slope drills and clear before/after",
       },
       {
-        videoId: "jLDKRUfLzfw",
+        videoId: "6sEf_fdsuJg",
         channel: "Tom Gellie",
         channelUrl: "https://www.youtube.com/@TomGellie",
         title: "Quick Turn Technique: Rhythm and Timing",
@@ -597,7 +597,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Technical analysis with drill progression",
       },
       {
-        videoId: "ZiIbMTEBt4k",
+        videoId: "Qw6ShmgLyHQ",
         channel: "Ski School by Elate Media",
         channelUrl: "https://www.youtube.com/@SkiSchool",
         title: "Rapid Fire Turns: Short Radius Skiing",
@@ -642,7 +642,7 @@ export const techniques: Technique[] = [
     nextSteps: ["powder-floating", "steep-terrain"],
     youtubeVideos: [
       {
-        videoId: "8JFKOmPH7_4",
+        videoId: "GIjYFFtsGtw",
         channel: "Stomp It Tutorials",
         channelUrl: "https://www.youtube.com/@StompItTutorials",
         title: "How to Ski Trees: Tips for Forest and Glades",
@@ -650,7 +650,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Practical safety-focused with real tree terrain footage",
       },
       {
-        videoId: "BVRz6mWNw24",
+        videoId: "w1n4RESKj-o",
         channel: "Elate Media",
         channelUrl: "https://www.youtube.com/@ElateMedia",
         title: "Tree Skiing Technique: Focus, Commitment, Flow",
@@ -695,7 +695,7 @@ export const techniques: Technique[] = [
     nextSteps: ["hip-angulation", "steep-terrain"],
     youtubeVideos: [
       {
-        videoId: "Bgz0V1gD3qA",
+        videoId: "XGc5EqGUgu8",
         channel: "Ski School by Elate Media",
         channelUrl: "https://www.youtube.com/@SkiSchool",
         title: "Mogul Skiing Technique: Absorption",
@@ -740,7 +740,7 @@ export const techniques: Technique[] = [
     nextSteps: ["mogul-absorption", "tree-skiing"],
     youtubeVideos: [
       {
-        videoId: "K9PKpMv_Mfg",
+        videoId: "uVcMhEBITRw",
         channel: "Stomp It Tutorials",
         channelUrl: "https://www.youtube.com/@StompItTutorials",
         title: "How to Ski Steep Terrain: Commit and Control",
@@ -748,7 +748,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Honest fear acknowledgment with practical technique fixes",
       },
       {
-        videoId: "8m_HFBQimtw",
+        videoId: "4VrbVuYIQ6M",
         channel: "Ski School by Elate Media",
         channelUrl: "https://www.youtube.com/@SkiSchool",
         title: "Steep Skiing Technique: Trust Your Edges",
@@ -793,7 +793,7 @@ export const techniques: Technique[] = [
     nextSteps: [],
     youtubeVideos: [
       {
-        videoId: "QR3qa4rPBhM",
+        videoId: "3cOnAKhne70",
         channel: "Ski School by Elate Media",
         channelUrl: "https://www.youtube.com/@SkiSchool",
         title: "How to Ski Powder: Float and Flow",
