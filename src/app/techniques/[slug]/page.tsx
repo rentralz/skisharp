@@ -6,6 +6,7 @@ import VideoEmbed from "@/components/VideoEmbed";
 import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
+import AdUnit from "@/components/AdUnit";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -303,6 +304,11 @@ export default async function TechniqueDetailPage({
           </div>
         </section>
       </main>
+
+      {/* Ad — between content and footer */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+        <AdUnit slot="technique-detail" format="horizontal" />
+      </div>
 
       <Footer />
     </div>

@@ -54,6 +54,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
+      {process.env.NEXT_PUBLIC_ADSENSE_PUB_ID && (
+        <head>
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PUB_ID}`}
+            crossOrigin="anonymous"
+          />
+        </head>
+      )}
       <body className="min-h-full flex flex-col bg-[#0d1b2a] text-[#f8f9fa]">
         <SkipNav />
         {children}

@@ -7,6 +7,7 @@ import type { DifficultyRating } from "@/data/techniques";
 import TechniqueCard from "@/components/TechniqueCard";
 import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import AdUnit from "@/components/AdUnit";
 
 const RATINGS: { value: DifficultyRating | "all"; label: string }[] = [
   { value: "all", label: "All Levels" },
@@ -130,6 +131,9 @@ function TechniquesContent() {
             </div>
           </div>
         </div>
+
+        {/* Ad — between filters and grid */}
+        <AdUnit slot="techniques-listing" format="horizontal" className="max-w-3xl mx-auto" />
 
         {/* Grid */}
         {filtered.length > 0 ? (
