@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a"/>
+      <stop offset="100%" style="stop-color:#1a3a5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="220" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="72" fill="white">Ski</text>
+  <text x="215" y="220" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="72" fill="#e8722a">Sharp</text>
+  <text x="80" y="310" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="56" fill="white">Master Every Turn.</text>
+  <text x="80" y="380" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" fill="#94a3b8">Expert-curated skiing technique guides with video breakdowns,</text>
+  <text x="80" y="415" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" fill="#94a3b8">feel cues, and common mistake fixes.</text>
+  <rect x="80" y="470" width="180" height="48" rx="8" fill="#e8722a"/>
+  <text x="110" y="501" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="18" fill="white">Explore Now</text>
+  <text x="80" y="580" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="16" fill="#64748b">skisharp.vercel.app</text>
+  <text x="1000" y="180" font-size="120">⛷️</text>
+</svg>

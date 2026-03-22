@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const inter = Inter({
@@ -23,13 +25,25 @@ export const metadata: Metadata = {
     siteName: "SkiSharp",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SkiSharp — Master Every Turn",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "SkiSharp — Master Every Turn",
     description: "Curated skiing technique guides with step-by-step video breakdowns, feel cues, and common mistake fixes.",
+    images: ["/og-image.png"],
   },
   metadataBase: new URL("https://skisharp.vercel.app"),
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -41,6 +55,8 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-[#0d1b2a] text-[#f8f9fa]">
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
