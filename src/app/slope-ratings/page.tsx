@@ -1,0 +1,297 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import Navbar from "@/components/Navbar";
+import { techniques } from "@/data/techniques";
+
+export const metadata: Metadata = {
+  title: "Slope Ratings Explained",
+  description:
+    "Understand ski slope difficulty ratings — from green circle beginner runs to double black diamond expert terrain. Learn what each trail marker means and which techniques you need.",
+};
+
+const ratings = [
+  {
+    symbol: "🟢",
+    name: "Green Circle",
+    label: "Beginner",
+    color: "#22c55e",
+    bgColor: "from-emerald-950 to-emerald-900",
+    borderColor: "border-emerald-700/30",
+    textColor: "text-emerald-300",
+    grade: "6–25% grade",
+    description:
+      "The gentlest groomed slopes on the mountain. Wide, smooth, and well-maintained with consistent pitch. Perfect for learning fundamental skills like stopping, speed control, and basic turns.",
+    expect: [
+      "Wide, groomed runs with gentle consistent pitch",
+      "Slow speeds — easy to stay in control",
+      "Usually near the base area with beginner lifts",
+      "Other beginners around you (expect unpredictable stops)",
+    ],
+    techniques: ["wedge-turns", "hockey-stop", "speed-control"],
+    youNeed: "Snowplow turns and hockey stops. You should be able to stop reliably before attempting blue runs.",
+    levelRange: "1–3",
+  },
+  {
+    symbol: "🔵",
+    name: "Blue Square",
+    label: "Intermediate",
+    color: "#3b82f6",
+    bgColor: "from-blue-950 to-blue-900",
+    borderColor: "border-blue-700/30",
+    textColor: "text-blue-300",
+    grade: "25–40% grade",
+    description:
+      "Steeper and narrower than greens, with more variable terrain. This is where most skiers spend their time improving. Expect groomed runs with some moguls, variable snow, and increasing speed.",
+    expect: [
+      "Steeper pitch requiring active speed management",
+      "Narrower trails with occasional terrain variations",
+      "Mix of groomed and natural snow conditions",
+      "Faster traffic — need to be confident with turns and stops",
+    ],
+    techniques: ["parallel-turns", "hip-angulation", "carved-turns", "pole-planting", "upper-lower-separation"],
+    youNeed: "Confident parallel turns and the ability to control speed through turn shape, not just braking. Comfortable linking turns at moderate speed.",
+    levelRange: "4–6",
+  },
+  {
+    symbol: "⚫",
+    name: "Black Diamond",
+    label: "Advanced",
+    color: "#1a1a2e",
+    bgColor: "from-gray-950 to-gray-900",
+    borderColor: "border-gray-600/30",
+    textColor: "text-gray-300",
+    grade: "40–60% grade",
+    description:
+      "Steep terrain that demands strong technique and confidence. Black diamond runs include mogul fields, narrow chutes, trees, and variable snow conditions. Falls here have consequences — you need reliable skills.",
+    expect: [
+      "Steep, sustained pitch that requires commitment",
+      "Moguls, trees, ice patches, and variable snow",
+      "Narrow sections where turn options are limited",
+      "Expert-level traffic moving at high speed",
+    ],
+    techniques: ["mogul-absorption", "steep-terrain", "tree-skiing", "ice-technique", "short-radius-turns"],
+    youNeed: "Strong short-radius turns, mogul technique, and the ability to ski confidently in variable conditions. Comfortable committing to the fall line on steep terrain.",
+    levelRange: "7–8",
+  },
+  {
+    symbol: "⬛⬛",
+    name: "Double Black Diamond",
+    label: "Expert Only",
+    color: "#7c3aed",
+    bgColor: "from-purple-950 to-gray-950",
+    borderColor: "border-purple-700/30",
+    textColor: "text-purple-300",
+    grade: "60%+ grade",
+    description:
+      "The most challenging terrain on the mountain. Extremely steep, often with cliffs, mandatory air, tight chutes, deep powder, or combinations of all. Reserved for expert skiers with years of experience.",
+    expect: [
+      "Extreme steepness — often feels vertical from the top",
+      "Cliffs, rocks, mandatory drops, and exposure",
+      "Deep powder, wind-affected snow, or bulletproof ice",
+      "Remote terrain — help may not be immediately available",
+    ],
+    techniques: ["powder-floating", "steep-terrain", "tree-skiing"],
+    youNeed: "Complete mastery of all terrain types. Ability to assess risk, manage fear, and execute precise turns in high-consequence situations. Strong backcountry awareness.",
+    levelRange: "9–10",
+  },
+];
+
+const regionalDifferences = [
+  {
+    region: "North America",
+    system: "Green Circle → Blue Square → Black Diamond → Double Black Diamond",
+    notes: "Standard NSAA system. Ratings are relative to each resort — a black diamond at a small resort may feel like a blue square at a large one.",
+  },
+  {
+    region: "Europe",
+    system: "Green → Blue → Red → Black",
+    notes: "Red runs (no North American equivalent) sit between blue and black. European blacks can be steeper than North American double blacks. Ratings are more standardized across resorts.",
+  },
+  {
+    region: "Japan",
+    system: "Green → Red → Black",
+    notes: "Similar to European system but with different conventions. Japanese resorts often have exceptional powder, making even moderate slopes challenging.",
+  },
+];
+
+export default function SlopeRatingsPage() {
+  return (
+    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+      <Navbar />
+
+      {/* Hero */}
+      <div className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
+            Essential knowledge
+          </p>
+          <h1 className="text-4xl font-extrabold text-white mb-4">
+            Slope Ratings Explained
+          </h1>
+          <p className="text-gray-400 text-lg max-w-2xl">
+            Every ski trail is marked with a difficulty rating. Understanding
+            these ratings — and honestly assessing which ones match your skill
+            level — is the most important safety decision you make on the mountain.
+          </p>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Quick reference */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-16">
+          {ratings.map((r) => (
+            <div
+              key={r.name}
+              className="text-center p-4 rounded-xl bg-white/3 border border-white/5"
+            >
+              <div className="text-3xl mb-2">{r.symbol}</div>
+              <div className="text-white font-bold text-sm">{r.name}</div>
+              <div className="text-gray-500 text-xs mt-1">{r.grade}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* Detailed sections */}
+        <div className="space-y-12">
+          {ratings.map((r) => {
+            const relatedTechniques = techniques.filter((t) =>
+              r.techniques.includes(t.slug)
+            );
+
+            return (
+              <section
+                key={r.name}
+                className={`rounded-2xl bg-gradient-to-br ${r.bgColor} p-6 sm:p-8 border ${r.borderColor}`}
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-3xl">{r.symbol}</span>
+                  <div>
+                    <h2 className="text-2xl font-bold text-white">{r.name}</h2>
+                    <p className={`text-sm font-semibold ${r.textColor}`}>
+                      {r.label} · {r.grade} · Levels {r.levelRange}
+                    </p>
+                  </div>
+                </div>
+
+                <p className="text-gray-300 mb-6 leading-relaxed">
+                  {r.description}
+                </p>
+
+                {/* What to expect */}
+                <div className="mb-6">
+                  <h3 className="text-sm font-semibold text-white uppercase tracking-wide mb-3">
+                    What to expect
+                  </h3>
+                  <ul className="space-y-2">
+                    {r.expect.map((item, i) => (
+                      <li
+                        key={i}
+                        className="flex items-start gap-2 text-sm text-gray-400"
+                      >
+                        <span className="text-gray-600 mt-0.5">•</span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* What you need */}
+                <div className="mb-6 p-4 rounded-xl bg-white/5 border border-white/5">
+                  <h3 className="text-sm font-semibold text-[#e8722a] uppercase tracking-wide mb-2">
+                    Skills you need
+                  </h3>
+                  <p className="text-sm text-gray-300">{r.youNeed}</p>
+                </div>
+
+                {/* Related techniques */}
+                {relatedTechniques.length > 0 && (
+                  <div>
+                    <h3 className="text-sm font-semibold text-white uppercase tracking-wide mb-3">
+                      Techniques for this terrain
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      {relatedTechniques.map((t) => (
+                        <Link
+                          key={t.slug}
+                          href={`/techniques/${t.slug}`}
+                          className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-300 hover:text-white hover:border-[#e8722a]/30 hover:bg-[#e8722a]/5 transition-colors"
+                        >
+                          {t.title}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </section>
+            );
+          })}
+        </div>
+
+        {/* Regional differences */}
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold text-white mb-2">
+            Regional Differences
+          </h2>
+          <p className="text-gray-400 mb-6">
+            Slope ratings aren&apos;t universal. Here&apos;s how they differ around the
+            world.
+          </p>
+
+          <div className="space-y-4">
+            {regionalDifferences.map((rd) => (
+              <div
+                key={rd.region}
+                className="p-5 rounded-xl bg-white/3 border border-white/5"
+              >
+                <h3 className="text-white font-bold mb-1">{rd.region}</h3>
+                <p className="text-[#e8722a] text-sm font-medium mb-2">
+                  {rd.system}
+                </p>
+                <p className="text-gray-400 text-sm">{rd.notes}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Important warning */}
+        <section className="mt-12 p-6 rounded-2xl bg-[#e8722a]/5 border border-[#e8722a]/15">
+          <h3 className="text-white font-bold mb-2 flex items-center gap-2">
+            <span>⚠️</span> Ratings are relative, not absolute
+          </h3>
+          <p className="text-gray-300 text-sm leading-relaxed">
+            A blue square at one resort can feel very different from a blue
+            square at another. Larger resorts with steeper terrain tend to have
+            harder runs at every level. Weather conditions (ice, powder, fog)
+            can make any run significantly harder. When visiting a new resort,
+            start one level below your comfort zone and work up.
+          </p>
+        </section>
+
+        {/* CTA */}
+        <div className="mt-12 text-center">
+          <p className="text-gray-400 mb-4">
+            Ready to build your skills for the next level?
+          </p>
+          <Link
+            href="/techniques"
+            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-white font-bold px-8 py-3.5 rounded-xl transition-colors"
+          >
+            Browse All Techniques →
+          </Link>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-[#080f18] border-t border-white/5 mt-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+          <div className="text-xl font-bold text-white mb-2">
+            Ski<span className="text-[#e8722a]">Sharp</span>
+          </div>
+          <p className="text-gray-500 text-sm">
+            The internet&apos;s best ski instruction — curated, organized, and free.
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}

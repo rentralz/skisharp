@@ -20,6 +20,9 @@ export default function Navbar() {
             <Link href="/techniques" className="hover:text-white transition-colors">
               Techniques
             </Link>
+            <Link href="/slope-ratings" className="hover:text-white transition-colors">
+              Slope Ratings
+            </Link>
             <Link href="/techniques?rating=green" className="hover:text-white transition-colors">
               Beginner
             </Link>
@@ -68,6 +71,7 @@ export default function Navbar() {
         >
           {[
             { href: "/techniques", label: "All Techniques" },
+            { href: "/slope-ratings", label: "Slope Ratings" },
             { href: "/techniques?rating=green", label: "Beginner" },
             { href: "/techniques?rating=blue", label: "Intermediate" },
             { href: "/techniques?rating=black", label: "Advanced" },
