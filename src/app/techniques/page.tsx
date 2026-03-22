@@ -6,6 +6,7 @@ import { techniques } from "@/data/techniques";
 import type { DifficultyRating } from "@/data/techniques";
 import TechniqueCard from "@/components/TechniqueCard";
 import Navbar from "@/components/Navbar";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const RATINGS: { value: DifficultyRating | "all"; label: string }[] = [
   { value: "all", label: "All Levels" },
@@ -55,8 +56,9 @@ function TechniquesContent() {
   return (
     <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
       <Navbar />
+      <Breadcrumbs crumbs={[{label:'Techniques'}]} />
       {/* Header */}
-      <div className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Curated technique library
@@ -81,6 +83,7 @@ function TechniquesContent() {
                 <button
                   key={value}
                   onClick={() => setSelectedRating(value)}
+                  aria-pressed={selectedRating === value}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     selectedRating === value
                       ? "bg-[#e8722a] text-white"
@@ -101,6 +104,7 @@ function TechniquesContent() {
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSelectedTerrain("all")}
+                aria-pressed={selectedTerrain === "all"}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                   selectedTerrain === "all"
                     ? "bg-[#e8722a] text-white"
@@ -113,6 +117,7 @@ function TechniquesContent() {
                 <button
                   key={terrain}
                   onClick={() => setSelectedTerrain(terrain)}
+                  aria-pressed={selectedTerrain === terrain}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     selectedTerrain === terrain
                       ? "bg-[#e8722a] text-white"

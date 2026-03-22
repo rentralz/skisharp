@@ -28,6 +28,7 @@ export default function TechniqueCard({ technique }: Props) {
   return (
     <Link
       href={`/techniques/${technique.slug}`}
+      aria-label={`View technique: ${technique.title}`}
       className="group block rounded-xl overflow-hidden bg-[#111827] border border-white/5 hover:border-[#e8722a]/40 transition-all duration-300 hover:shadow-lg hover:shadow-[#e8722a]/10"
     >
       {/* Thumbnail */}
@@ -36,8 +37,10 @@ export default function TechniqueCard({ technique }: Props) {
         {primaryVideo && (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
-            src={`https://img.youtube.com/vi/${primaryVideo.videoId}/mqdefault.jpg`}
-            alt={technique.title}
+            src={`https://img.youtube.com/vi/${primaryVideo.videoId}/hqdefault.jpg`}
+            alt={`Video thumbnail: ${technique.title} skiing technique`}
+            loading="lazy"
+            decoding="async"
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         )}

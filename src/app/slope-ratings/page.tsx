@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { techniques } from "@/data/techniques";
+import Footer from "@/components/Footer";
+import NextSteps from "@/components/NextSteps";
 
 export const metadata: Metadata = {
   title: "Slope Ratings Explained",
@@ -139,9 +142,10 @@ export default function SlopeRatingsPage() {
   return (
     <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
       <Navbar />
+      <Breadcrumbs crumbs={[{label:'Slope Ratings'}]} />
 
       {/* Hero */}
-      <div className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Essential knowledge
@@ -302,17 +306,14 @@ export default function SlopeRatingsPage() {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-[#080f18] border-t border-white/5 mt-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
-          <div className="text-xl font-bold text-white mb-2">
-            Ski<span className="text-[#e8722a]">Sharp</span>
-          </div>
-          <p className="text-gray-500 text-sm">
-            The internet&apos;s best ski instruction — curated, organized, and free.
-          </p>
-        </div>
-      </footer>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <NextSteps links={[
+          { href: '/techniques?rating=green', label: 'Green Run Techniques →', description: 'Build the fundamentals — wedge turns, hockey stop, speed control' },
+          { href: '/techniques?rating=black', label: 'Black Diamond Techniques →', description: 'Moguls, steep terrain, and expert-level skills' },
+          { href: '/techniques', label: 'All Techniques →', description: 'Browse all 30+ technique guides by level and terrain' },
+        ]} />
+      </div>
+      <Footer />
     </div>
   );
 }

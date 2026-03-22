@@ -2,6 +2,7 @@ import Link from "next/link";
 import { techniques } from "@/data/techniques";
 import TechniqueCard from "@/components/TechniqueCard";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   const featured = techniques.slice(0, 4);
@@ -10,7 +11,7 @@ export default function HomePage() {
     <div className="flex flex-col min-h-full font-[family-name:var(--font-inter)]">
       <Navbar />
 
-      <main className="flex-1">
+      <main id="main-content" className="flex-1">
         {/* Hero section */}
         <section className="relative bg-gradient-to-br from-[#0d1b2a] via-[#132435] to-[#1a3a5c] overflow-hidden">
           {/* Decorative background lines */}
@@ -251,42 +252,7 @@ export default function HomePage() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-[#080f18] border-t border-white/5">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-            <div>
-              <div className="text-xl font-bold text-white mb-2">
-                Ski<span className="text-[#e8722a]">Sharp</span>
-              </div>
-              <p className="text-gray-500 text-sm max-w-xs">
-                A curated skiing technique knowledge hub. Videos sourced from expert instructors
-                across YouTube. All credit to the original creators.
-              </p>
-            </div>
-
-            <nav className="flex flex-col sm:items-end gap-2 text-sm text-gray-500">
-              <Link href="/techniques" className="hover:text-gray-300 transition-colors">
-                All Techniques
-              </Link>
-              <Link href="/techniques?rating=green" className="hover:text-gray-300 transition-colors">
-                Beginner
-              </Link>
-              <Link href="/techniques?rating=blue" className="hover:text-gray-300 transition-colors">
-                Intermediate
-              </Link>
-              <Link href="/techniques?rating=black" className="hover:text-gray-300 transition-colors">
-                Advanced
-              </Link>
-            </nav>
-          </div>
-
-          <div className="mt-10 pt-6 border-t border-white/5 text-center text-xs text-gray-600">
-            Built for skiers who want to improve. Videos and instruction credit to their original
-            creators.
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Footer from "@/components/Footer";
+import NextSteps from "@/components/NextSteps";
 
 export const metadata: Metadata = {
   title: "What to Wear Skiing",
@@ -201,9 +204,10 @@ export default function ClothingGuidePage() {
   return (
     <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
       <Navbar />
+      <Breadcrumbs crumbs={[{label:'Clothing Guide'}]} />
 
       {/* Hero */}
-      <div className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Gear guide
@@ -355,16 +359,14 @@ export default function ClothingGuidePage() {
         </div>
       </div>
 
-      <footer className="bg-[#080f18] border-t border-white/5 mt-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
-          <div className="text-xl font-bold text-white mb-2">
-            Ski<span className="text-[#e8722a]">Sharp</span>
-          </div>
-          <p className="text-gray-500 text-sm">
-            The internet&apos;s best ski instruction — curated, organized, and free.
-          </p>
-        </div>
-      </footer>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <NextSteps links={[
+          { href: '/techniques', label: 'Browse Techniques →', description: '30+ expert-curated skiing technique guides with video breakdowns' },
+          { href: '/equipment-guide', label: 'Equipment Guide →', description: 'Skis, boots, bindings, and gear — how to choose the right setup' },
+          { href: '/snow-conditions', label: 'Snow Conditions →', description: 'Learn to adapt your skiing to groomed, powder, ice, and more' },
+        ]} />
+      </div>
+      <Footer />
     </div>
   );
 }
