@@ -23,14 +23,11 @@ export default function Navbar() {
             <Link href="/slope-ratings" className="hover:text-white transition-colors">
               Slope Ratings
             </Link>
-            <Link href="/techniques?rating=green" className="hover:text-white transition-colors">
-              Beginner
+            <Link href="/snow-conditions" className="hover:text-white transition-colors">
+              Conditions
             </Link>
-            <Link href="/techniques?rating=blue" className="hover:text-white transition-colors">
-              Intermediate
-            </Link>
-            <Link href="/techniques?rating=black" className="hover:text-white transition-colors">
-              Advanced
+            <Link href="/clothing-guide" className="hover:text-white transition-colors">
+              Clothing
             </Link>
           </div>
 
@@ -66,9 +63,8 @@ export default function Navbar() {
           {[
             { href: "/techniques", label: "All Techniques" },
             { href: "/slope-ratings", label: "Slope Ratings" },
-            { href: "/techniques?rating=green", label: "Beginner" },
-            { href: "/techniques?rating=blue", label: "Intermediate" },
-            { href: "/techniques?rating=black", label: "Advanced" },
+            { href: "/snow-conditions", label: "Snow Conditions" },
+            { href: "/clothing-guide", label: "Clothing Guide" },
           ].map(({ href, label }) => (
             <Link
               key={href}
