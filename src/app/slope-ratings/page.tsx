@@ -53,6 +53,27 @@ const ratings = [
     levelRange: "4–6",
   },
   {
+    symbol: "🔴",
+    name: "Red Run",
+    label: "Upper Intermediate (European)",
+    color: "#ef4444",
+    bgColor: "from-red-950 to-red-900",
+    borderColor: "border-red-700/30",
+    textColor: "text-red-300",
+    grade: "30–45% grade",
+    description:
+      "Used in the European rating system, red runs sit between blue and black diamond. They're steeper than blues with more challenging terrain variations, but less extreme than full black diamonds. Many North American upper-blue or easy-black runs would be rated red in Europe.",
+    expect: [
+      "Noticeably steeper than blue runs with sustained pitch",
+      "Narrower sections requiring confident parallel turns",
+      "Variable snow conditions — groomed but sometimes icy or choppy",
+      "Higher speeds requiring proactive speed management",
+    ],
+    techniques: ["short-radius-turns", "carved-turns", "pole-planting", "ice-technique", "speed-control"],
+    youNeed: "Solid parallel turns at speed, comfortable with steeper pitch, and ability to handle variable conditions. Ready to work on carving and short-radius turns.",
+    levelRange: "5–7",
+  },
+  {
     symbol: "⚫",
     name: "Black Diamond",
     label: "Advanced",
@@ -105,7 +126,7 @@ const regionalDifferences = [
   {
     region: "Europe",
     system: "Green → Blue → Red → Black",
-    notes: "Red runs (no North American equivalent) sit between blue and black. European blacks can be steeper than North American double blacks. Ratings are more standardized across resorts.",
+    notes: "Red runs fill the gap between blue and black — a crucial intermediate-advanced level that North America lacks. European blacks are often steeper than North American double blacks. Ratings tend to be more standardized across resorts thanks to national guidelines.",
   },
   {
     region: "Japan",
@@ -138,7 +159,7 @@ export default function SlopeRatingsPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Quick reference */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-16">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-16">
           {ratings.map((r) => (
             <div
               key={r.name}
