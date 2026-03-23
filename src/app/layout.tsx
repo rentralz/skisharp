@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "TurnLab — Master Every Turn",
     description: "The internet's best ski instruction videos — curated, organized, and structured into learning paths that actually work.",
-    url: "https://skisharp.vercel.app",
+    url: "https://turnlab.vercel.app",
     siteName: "TurnLab",
     type: "website",
     locale: "en_US",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: "Curated skiing technique guides with step-by-step video breakdowns, feel cues, and common mistake fixes.",
     images: ["/og-image.png"],
   },
-  metadataBase: new URL("https://skisharp.vercel.app"),
+  metadataBase: new URL("https://turnlab.vercel.app"),
   icons: {
     icon: "/icon.svg",
   },

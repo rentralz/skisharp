@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://skisharp.vercel.app/sitemap.xml",
+    sitemap: "https://turnlab.vercel.app/sitemap.xml",
   };
 }
