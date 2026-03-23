@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import SkipNav from "@/components/SkipNav";
+import PostHogProvider from "@/components/PostHogProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -65,7 +66,9 @@ export default function RootLayout({
       )}
       <body className="min-h-full flex flex-col bg-[#0d1b2a] text-[#f8f9fa]">
         <SkipNav />
-        {children}
+        <PostHogProvider>
+          {children}
+        </PostHogProvider>
         <Analytics />
         <SpeedInsights />
       </body>
