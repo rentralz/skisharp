@@ -101,12 +101,15 @@ function getAmazonUrl(searchQuery: string): string {
 }
 
 function getTotalRange(): string {
-  const mins = gearItems.map((g) => parseInt(g.price.replace(/[^0-9]/g, "")));
+  const mins = gearItems.map((g) => {
+    const parts = g.price.split("–");
+    return parseInt(parts[0].replace(/[^0-9]/g, ""));
+  });
   const maxes = gearItems.map((g) => {
     const parts = g.price.split("–");
     return parseInt((parts[1] || parts[0]).replace(/[^0-9]/g, ""));
   });
-  return `$${mins.reduce((a, b) => a + b, 0)}–${maxes.reduce((a, b) => a + b, 0)}`;
+  return `$${mins.reduce((a, b) => a + b, 0)}–$${maxes.reduce((a, b) => a + b, 0)}`;
 }
 
 export default function BudgetGearPage() {
