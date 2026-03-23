@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { techniques } from "@/data/techniques";
 
-const BASE_URL = "https://turnlab.vercel.app";
+const BASE_URL = "https://turnlab.co";
 const LAST_UPDATED = "2026-03-22";
 
 export default function sitemap(): MetadataRoute.Sitemap {
