@@ -7,6 +7,7 @@ const FOOTER_LINKS = [
   { href: "/equipment-guide", label: "Equipment Guide" },
   { href: "/clothing-guide", label: "Clothing Guide" },
   { href: "/budget-gear", label: "Budget Gear" },
+  { href: "/deals", label: "Deals & Sales" },
   { href: "/resorts", label: "Resorts" },
 ];
 
