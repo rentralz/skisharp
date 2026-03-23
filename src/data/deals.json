@@ -1,14 +1,47 @@
 {
-  "lastScanned": "2026-03-23T14:00:18.761Z",
-  "totalDeals": 9,
+  "lastScanned": "2026-03-23T20:00:22.082Z",
+  "totalDeals": 12,
   "deals": [
+    {
+      "title": "I’m desperate for grocery money I’m struggling off of cheese strings and cumber. I husband’s a new video. What can ya send me ?",
+      "url": "https://i.redd.it/qk3jganjouqg1.jpeg",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 1,
+      "posted": "2026-03-23T19:57:42.000Z",
+      "category": "other",
+      "thumbnail": "https://preview.redd.it/qk3jganjouqg1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=1bf0412ee4db2a26bd25e611b9e703fa6cd8d48f"
+    },
+    {
+      "title": "I need to get everything off my chest after a long day. I need a massage.",
+      "url": "https://v.redd.it/2nkund8gouqg1",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-03-23T19:57:11.000Z",
+      "category": "other",
+      "thumbnail": "https://external-preview.redd.it/NW43c2szMWdvdXFnMWokFNwDEX_debDV226WhXIzl8fd1mQhpvE-Yuf2ocgH.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;format=jpg&amp;auto=webp&amp;s=e29b46b343853fd9b6085da5a64f3493ceb7dec9"
+    },
+    {
+      "title": "I know WR and OL are still “needs” but I kinda just wanna let the young guys we drafted recently get a legit shot",
+      "url": "https://www.reddit.com/r/raiders/comments/1s1rnqh/i_know_wr_and_ol_are_still_needs_but_i_kinda_just/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-03-23T19:56:54.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
     {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     },
     {
@@ -17,7 +50,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     },
     {
@@ -26,7 +59,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     },
     {
@@ -35,7 +68,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     },
     {
@@ -44,7 +77,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     },
     {
@@ -53,7 +86,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     },
     {
@@ -62,7 +95,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     },
     {
@@ -71,7 +104,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     },
     {
@@ -80,7 +113,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-03-23T14:00:18.760Z",
+      "posted": "2026-03-23T20:00:22.082Z",
       "isAmazonSearch": true
     }
   ]
