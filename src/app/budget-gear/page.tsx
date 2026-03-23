@@ -42,7 +42,7 @@ const gearItems: GearItem[] = [
     name: "Base Layer Set (Top + Bottom)",
     price: "$25–35",
     why: "The layer against your skin. Must wick sweat — if you get wet from sweat, you get cold. Synthetic or merino wool only. NEVER cotton.",
-    tip: "TSLA and Thermajohn make great budget base layers. Mid-weight for most conditions. Get a set (top + bottom) to save money.",
+    tip: "32 Degrees and Thermajohn make great budget base layers. Mid-weight for most conditions. Get a set (top + bottom) to save money.",
     searchQuery: "thermal+base+layer+set+skiing",
     emoji: "👕",
   },
