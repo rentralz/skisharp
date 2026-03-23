@@ -44,6 +44,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE_URL}/budget-gear`,
+      lastModified: LAST_UPDATED,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${BASE_URL}/equipment-guide`,
       lastModified: LAST_UPDATED,
       changeFrequency: "monthly",

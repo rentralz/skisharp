@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { href: "/snow-conditions", label: "Conditions", mobileLabel: "Snow Conditions" },
   { href: "/equipment-guide", label: "Equipment", mobileLabel: "Equipment Guide" },
   { href: "/clothing-guide", label: "Clothing", mobileLabel: "Clothing Guide" },
+  { href: "/budget-gear", label: "Budget Gear", mobileLabel: "Budget Gear ($250)" },
   { href: "/resorts", label: "Resorts", mobileLabel: "Resorts Worldwide" },
 ];
 

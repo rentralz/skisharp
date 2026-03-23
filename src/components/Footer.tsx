@@ -6,6 +6,7 @@ const FOOTER_LINKS = [
   { href: "/snow-conditions", label: "Snow Conditions" },
   { href: "/equipment-guide", label: "Equipment Guide" },
   { href: "/clothing-guide", label: "Clothing Guide" },
+  { href: "/budget-gear", label: "Budget Gear" },
   { href: "/resorts", label: "Resorts" },
 ];
 
