@@ -30,7 +30,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="text-xl font-bold tracking-tight text-white">
-            Ski<span className="text-[#e8722a]">Sharp</span>
+            Turn<span className="text-[#e8722a]">Lab</span>
           </Link>
 
           {/* Desktop nav links */}

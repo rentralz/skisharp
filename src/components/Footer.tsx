@@ -24,7 +24,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="text-xl font-bold text-white mb-2">
-              Ski<span className="text-[#e8722a]">Sharp</span>
+              Turn<span className="text-[#e8722a]">Lab</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
               The internet&apos;s best ski instruction — curated, organized, and free.
@@ -72,7 +72,7 @@ export default function Footer() {
 
         <div className="border-t border-white/5 pt-6 text-center">
           <p className="text-gray-600 text-xs">
-            © {new Date().getFullYear()} SkiSharp. All video content belongs to
+            © {new Date().getFullYear()} TurnLab. All video content belongs to
             their respective creators.
           </p>
         </div>
