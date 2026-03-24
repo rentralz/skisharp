@@ -1,36 +1,14 @@
 {
-  "lastScanned": "2026-03-24T14:00:19.013Z",
-  "totalDeals": 11,
+  "lastScanned": "2026-03-24T20:00:42.027Z",
+  "totalDeals": 9,
   "deals": [
-    {
-      "title": "Phase Alignment Tool: Adjust all items, each track or each item?",
-      "url": "https://www.reddit.com/r/Reaper/comments/1s2eja6/phase_alignment_tool_adjust_all_items_each_track/",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 0,
-      "posted": "2026-03-24T13:58:19.000Z",
-      "category": "other",
-      "thumbnail": "https://preview.redd.it/dpq4v9ugyzqg1.png?width=140&amp;height=76&amp;auto=webp&amp;s=02f86ef0df63d98ad831589d2429883276a25c03"
-    },
-    {
-      "title": "After a year on-and-off, I finally finished my long series of campaigns for the first two caliphates and conquering the land they historically conquered in the order they did so. - (details below)",
-      "url": "https://www.reddit.com/gallery/1s2ej33",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 0,
-      "posted": "2026-03-24T13:58:06.000Z",
-      "category": "other",
-      "thumbnail": "https://preview.redd.it/2aq2dnr810rg1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=d312a59afef455517130253d28c353c3d78e8901"
-    },
     {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     },
     {
@@ -39,7 +17,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     },
     {
@@ -48,7 +26,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     },
     {
@@ -57,7 +35,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     },
     {
@@ -66,7 +44,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     },
     {
@@ -75,7 +53,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     },
     {
@@ -84,7 +62,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     },
     {
@@ -93,7 +71,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     },
     {
@@ -102,7 +80,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-03-24T14:00:19.012Z",
+      "posted": "2026-03-24T20:00:42.026Z",
       "isAmazonSearch": true
     }
   ]
