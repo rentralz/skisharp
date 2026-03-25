@@ -1,25 +1,14 @@
 {
-  "lastScanned": "2026-03-25T14:00:14.241Z",
-  "totalDeals": 10,
+  "lastScanned": "2026-03-25T20:00:15.902Z",
+  "totalDeals": 9,
   "deals": [
-    {
-      "title": "As of DC5 Episode 5",
-      "url": "https://i.redd.it/xzikf8mf67rg1.jpeg",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 0,
-      "posted": "2026-03-25T13:59:20.000Z",
-      "category": "other",
-      "thumbnail": "https://preview.redd.it/xzikf8mf67rg1.jpeg?width=140&amp;height=70&amp;auto=webp&amp;s=67c608ff8e4c8fa700d8878e2e6075cb7db9e406"
-    },
     {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     },
     {
@@ -28,7 +17,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     },
     {
@@ -37,7 +26,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     },
     {
@@ -46,7 +35,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     },
     {
@@ -55,7 +44,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     },
     {
@@ -64,7 +53,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     },
     {
@@ -73,7 +62,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     },
     {
@@ -82,7 +71,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     },
     {
@@ -91,7 +80,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-03-25T14:00:14.240Z",
+      "posted": "2026-03-25T20:00:15.902Z",
       "isAmazonSearch": true
     }
   ]
