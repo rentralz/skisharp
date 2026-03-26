@@ -1,14 +1,58 @@
 {
-  "lastScanned": "2026-03-25T20:00:15.902Z",
-  "totalDeals": 9,
+  "lastScanned": "2026-03-26T02:00:19.629Z",
+  "totalDeals": 13,
   "deals": [
+    {
+      "title": "[BUF (3) - BOS 2] Thompson's pass deflects off McAvoy's skate right to Zucker who buries for the Sabres lead. Second goal in 33 seconds for Buffalo",
+      "url": "https://v.redd.it/vmwn5rgdqarg1",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 6,
+      "comments": 2,
+      "posted": "2026-03-26T01:57:45.000Z",
+      "category": "passes",
+      "thumbnail": null
+    },
+    {
+      "title": "This how finger looks when Saul does some off the wall sheit 🤣🤣🤣",
+      "url": "https://i.redd.it/368sta9mqarg1.jpeg",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 3,
+      "comments": 0,
+      "posted": "2026-03-26T01:57:48.000Z",
+      "category": "other",
+      "thumbnail": "https://preview.redd.it/368sta9mqarg1.jpeg?width=140&amp;height=84&amp;auto=webp&amp;s=06a22f162699cbaae3aa83f487546f5a8986968c"
+    },
+    {
+      "title": "Survivor 50 Winner Rankings - Ep 5",
+      "url": "https://i.redd.it/fr603lt8parg1.png",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-03-26T01:57:53.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
+    {
+      "title": "Mother Mary’s holiness",
+      "url": "https://www.reddit.com/r/Catholicism/comments/1s3uiq5/mother_marys_holiness/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 1,
+      "posted": "2026-03-26T01:57:17.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
     {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     },
     {
@@ -17,7 +61,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     },
     {
@@ -26,7 +70,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     },
     {
@@ -35,7 +79,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     },
     {
@@ -44,7 +88,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     },
     {
@@ -53,7 +97,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     },
     {
@@ -62,7 +106,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     },
     {
@@ -71,7 +115,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     },
     {
@@ -80,7 +124,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-03-25T20:00:15.902Z",
+      "posted": "2026-03-26T02:00:19.629Z",
       "isAmazonSearch": true
     }
   ]
