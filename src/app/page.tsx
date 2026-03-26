@@ -21,35 +21,61 @@ export default function HomePage() {
             {/* ─── Left Column (Main) ─── */}
             <div>
               {/* Hero */}
-              <section className="py-16 md:py-20 relative">
-                <div className="relative z-10">
+              <section className="py-12 md:py-16 relative">
+                {/* Hero image — right side */}
+                <div className="absolute right-0 top-0 bottom-0 w-[55%] hidden md:block overflow-hidden rounded-2xl" aria-hidden="true">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="https://images.unsplash.com/photo-1551524559-8af4e6624178?w=800&h=600&fit=crop&q=80"
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent" />
+                </div>
+                <div className="relative z-10 max-w-md">
+                  <p className="text-[#B4835A] text-xs font-semibold uppercase tracking-[0.2em] mb-4">
+                    ⛷️ Curated technique library
+                  </p>
                   <h1 className="text-5xl md:text-6xl font-extrabold text-[#222] leading-[1.1] mb-5">
                     Master Your{" "}
                     <span className="text-[#B4835A]">Turn.</span>
                   </h1>
-                  <p className="text-base text-[#646464] leading-relaxed mb-8 max-w-md">
+                  <p className="text-base text-[#646464] leading-relaxed mb-8">
                     Elevate your skiing with our comprehensive technique library.
+                    Expert-curated video guides, feel cues, and drills for every level.
                   </p>
-                  {/* Chevron decoration */}
-                  <div className="mb-8">
-                    <svg width="40" height="24" viewBox="0 0 40 24" fill="none" className="text-[#B4835A]">
-                      <path d="M2 2L20 20L38 2" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
+                  <div className="flex items-center gap-4">
+                    <Link
+                      href="/techniques"
+                      className="inline-flex bg-[#222] hover:bg-[#333] text-white font-medium px-6 py-2.5 rounded-full text-sm transition-colors"
+                    >
+                      Get Started →
+                    </Link>
+                    <Link
+                      href="/techniques?rating=green"
+                      className="inline-flex text-[#B4835A] font-medium text-sm hover:text-[#9A7049] transition-colors"
+                    >
+                      Beginner path
+                    </Link>
                   </div>
-                  <Link
-                    href="/techniques"
-                    className="inline-flex bg-[#EBEBEB] hover:bg-[#E0E0E0] text-[#222] font-medium px-6 py-2.5 rounded-full text-sm transition-colors"
-                  >
-                    Get Started
-                  </Link>
-                </div>
-                {/* Mountain illustration */}
-                <div className="absolute right-0 top-8 w-[340px] h-[280px] opacity-[0.08] pointer-events-none hidden md:block" aria-hidden="true">
-                  <svg viewBox="0 0 340 280" fill="none" className="w-full h-full">
-                    <path d="M0 280L60 180L100 220L170 80L220 160L260 120L340 280H0Z" fill="#B4835A"/>
-                    <path d="M40 280L120 140L160 180L200 100L260 200L340 280H40Z" fill="#222" opacity="0.3"/>
-                    <circle cx="280" cy="60" r="25" fill="#B4835A" opacity="0.5"/>
-                  </svg>
+
+                  {/* Quick stats inline */}
+                  <div className="flex items-center gap-6 mt-10 pt-6 border-t border-gray-100">
+                    <div>
+                      <p className="text-xl font-bold text-[#222]">{techniques.length}</p>
+                      <p className="text-xs text-[#aaa]">Techniques</p>
+                    </div>
+                    <div className="w-px h-8 bg-gray-200" />
+                    <div>
+                      <p className="text-xl font-bold text-[#222]">{techniques.length * 2}+</p>
+                      <p className="text-xs text-[#aaa]">Videos</p>
+                    </div>
+                    <div className="w-px h-8 bg-gray-200" />
+                    <div>
+                      <p className="text-xl font-bold text-[#222]">Free</p>
+                      <p className="text-xs text-[#aaa]">Always</p>
+                    </div>
+                  </div>
                 </div>
               </section>
 
@@ -102,7 +128,7 @@ export default function HomePage() {
                       className="group block bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow"
                     >
                       {/* Thumbnail */}
-                      <div className="relative h-32 bg-gray-100 overflow-hidden">
+                      <div className="relative h-40 bg-gray-100 overflow-hidden">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={path.img}
