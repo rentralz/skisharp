@@ -21,26 +21,36 @@ export default function HomePage() {
             {/* ─── Left Column (Main) ─── */}
             <div>
               {/* Hero */}
-              <section className="py-16 md:py-20">
-                <h1 className="text-5xl md:text-6xl font-extrabold text-[#222] leading-[1.1] mb-5">
-                  Master Your{" "}
-                  <span className="text-[#B4835A]">Turn.</span>
-                </h1>
-                <p className="text-base text-[#646464] leading-relaxed mb-8 max-w-md">
-                  Elevate your skiing with our comprehensive technique library.
-                </p>
-                {/* Chevron decoration */}
-                <div className="mb-8">
-                  <svg width="40" height="24" viewBox="0 0 40 24" fill="none" className="text-[#B4835A]">
-                    <path d="M2 2L20 20L38 2" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+              <section className="py-16 md:py-20 relative">
+                <div className="relative z-10">
+                  <h1 className="text-5xl md:text-6xl font-extrabold text-[#222] leading-[1.1] mb-5">
+                    Master Your{" "}
+                    <span className="text-[#B4835A]">Turn.</span>
+                  </h1>
+                  <p className="text-base text-[#646464] leading-relaxed mb-8 max-w-md">
+                    Elevate your skiing with our comprehensive technique library.
+                  </p>
+                  {/* Chevron decoration */}
+                  <div className="mb-8">
+                    <svg width="40" height="24" viewBox="0 0 40 24" fill="none" className="text-[#B4835A]">
+                      <path d="M2 2L20 20L38 2" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <Link
+                    href="/techniques"
+                    className="inline-flex bg-[#EBEBEB] hover:bg-[#E0E0E0] text-[#222] font-medium px-6 py-2.5 rounded-full text-sm transition-colors"
+                  >
+                    Get Started
+                  </Link>
+                </div>
+                {/* Mountain illustration */}
+                <div className="absolute right-0 top-8 w-[340px] h-[280px] opacity-[0.08] pointer-events-none hidden md:block" aria-hidden="true">
+                  <svg viewBox="0 0 340 280" fill="none" className="w-full h-full">
+                    <path d="M0 280L60 180L100 220L170 80L220 160L260 120L340 280H0Z" fill="#B4835A"/>
+                    <path d="M40 280L120 140L160 180L200 100L260 200L340 280H40Z" fill="#222" opacity="0.3"/>
+                    <circle cx="280" cy="60" r="25" fill="#B4835A" opacity="0.5"/>
                   </svg>
                 </div>
-                <Link
-                  href="/techniques"
-                  className="inline-flex bg-[#EBEBEB] hover:bg-[#E0E0E0] text-[#222] font-medium px-6 py-2.5 rounded-full text-sm transition-colors"
-                >
-                  Get Started
-                </Link>
               </section>
 
               {/* Learning Paths — Main (with icons) */}
@@ -50,9 +60,9 @@ export default function HomePage() {
                   {[
                     {
                       level: "Beginner",
-                      desc: "Elevate your skiing with our comprehensive technique.",
-                      count: beginnerCount,
+                      desc: "Elevate your skiing from first steps to confident green runs.",
                       href: "/techniques?rating=green",
+                      img: "https://img.youtube.com/vi/T1BsQPFdt7w/hqdefault.jpg",
                       icon: (
                         <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                           <circle cx="12" cy="12" r="10"/>
@@ -62,9 +72,9 @@ export default function HomePage() {
                     },
                     {
                       level: "Intermediate",
-                      desc: "Elevate your skiing with our comprehensive technique.",
-                      count: intermediateCount,
+                      desc: "Refine parallel turns, edge control, and tackle blues.",
                       href: "/techniques?rating=blue",
+                      img: "https://img.youtube.com/vi/LrmCNarCzIY/hqdefault.jpg",
                       icon: (
                         <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M12 19V5M5 12l7-7 7 7"/>
@@ -73,9 +83,9 @@ export default function HomePage() {
                     },
                     {
                       level: "Expert",
-                      desc: "Elevate your skiing with our comprehensive technique.",
-                      count: advancedCount,
+                      desc: "Master moguls, powder, steeps, and the full mountain.",
                       href: "/techniques?rating=black",
+                      img: "https://img.youtube.com/vi/WTX21DO7Qsc/hqdefault.jpg",
                       icon: (
                         <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -89,16 +99,29 @@ export default function HomePage() {
                     <Link
                       key={path.level}
                       href={path.href}
-                      className="group block bg-white rounded-2xl p-6 border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow text-center"
+                      className="group block bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow"
                     >
-                      <div className="w-12 h-12 rounded-full bg-[#F5F2EF] text-[#B4835A] flex items-center justify-center mx-auto mb-4">
-                        {path.icon}
+                      {/* Thumbnail */}
+                      <div className="relative h-32 bg-gray-100 overflow-hidden">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={path.img}
+                          alt={`${path.level} skiing`}
+                          loading="lazy"
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                       </div>
-                      <h3 className="text-base font-bold text-[#222] mb-2">{path.level}</h3>
-                      <p className="text-sm text-[#888] leading-relaxed mb-3">{path.desc}</p>
-                      <span className="text-[#B4835A] text-sm font-medium">
-                        Learn More →
-                      </span>
+                      <div className="p-5 text-center">
+                        <div className="w-10 h-10 rounded-full bg-[#F5F2EF] text-[#B4835A] flex items-center justify-center mx-auto mb-3 -mt-9 relative z-10 border-2 border-white shadow-sm">
+                          {path.icon}
+                        </div>
+                        <h3 className="text-base font-bold text-[#222] mb-1.5">{path.level}</h3>
+                        <p className="text-sm text-[#888] leading-relaxed mb-3">{path.desc}</p>
+                        <span className="text-[#B4835A] text-sm font-medium">
+                          Learn More →
+                        </span>
+                      </div>
                     </Link>
                   ))}
                 </div>
@@ -107,19 +130,47 @@ export default function HomePage() {
               {/* Latest from the Mountain */}
               <section className="pb-16">
                 <h2 className="text-2xl font-bold text-[#222] mb-6">Latest from the Mountain</h2>
-                <div className="space-y-0 divide-y divide-gray-100">
-                  {latestTechniques.map((t) => (
-                    <Link
-                      key={t.id}
-                      href={`/techniques/${t.slug}`}
-                      className="group relative flex items-center py-3.5 hover:bg-gray-50 -mx-3 px-3 rounded-lg transition-colors"
-                    >
-                      <span className="text-[#222] text-sm group-hover:text-[#B4835A] transition-colors">
-                        {t.title}?
-                      </span>
-                    </Link>
-                  ))}
+                <div className="space-y-3">
+                  {latestTechniques.map((t) => {
+                    const vid = t.youtubeVideos.find((v: { isPrimary?: boolean }) => v.isPrimary) ?? t.youtubeVideos[0];
+                    return (
+                      <Link
+                        key={t.id}
+                        href={`/techniques/${t.slug}`}
+                        className="group flex items-center gap-4 py-2 hover:bg-gray-50 -mx-3 px-3 rounded-xl transition-colors"
+                      >
+                        {vid && (
+                          <div className="w-16 h-11 rounded-lg overflow-hidden bg-gray-100 shrink-0">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={`https://img.youtube.com/vi/${vid.videoId}/mqdefault.jpg`}
+                              alt=""
+                              loading="lazy"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        )}
+                        <div className="flex-1 min-w-0">
+                          <span className="text-[#222] text-sm font-medium group-hover:text-[#B4835A] transition-colors">
+                            {t.title}
+                          </span>
+                          <p className="text-xs text-[#aaa] truncate">{t.description}</p>
+                        </div>
+                        <span className={`w-2 h-2 rounded-full shrink-0 ${
+                          t.rating === "green" ? "bg-emerald-500" :
+                          t.rating === "blue" ? "bg-blue-500" :
+                          t.rating === "black" ? "bg-gray-800" : "bg-purple-600"
+                        }`} />
+                      </Link>
+                    );
+                  })}
                 </div>
+                <Link
+                  href="/techniques"
+                  className="inline-flex text-[#B4835A] text-sm font-medium mt-4 hover:text-[#9A7049] transition-colors"
+                >
+                  View all {techniques.length} techniques →
+                </Link>
               </section>
             </div>
 
@@ -175,18 +226,23 @@ export default function HomePage() {
                   <h3 className="text-xs font-bold text-[#222] uppercase tracking-widest mb-4">Gear of the Season</h3>
                   <div className="space-y-3">
                     {[
-                      { name: "Smith I/O Mag", type: "Goggles", price: "$295", search: "Smith+IO+Mag+goggles" },
-                      { name: "Tecnica Mach1 LV", type: "Ski Boots", price: "$720", search: "Tecnica+Mach1+LV+ski+boots" },
-                      { name: "Hestra Army Leather", type: "Gloves", price: "$189", search: "Hestra+Army+Leather+ski+gloves" },
+                      { name: "Smith I/O Mag", type: "Goggles", price: "$295", search: "Smith+IO+Mag+goggles", img: "https://img.youtube.com/vi/5WMdbLT6adE/mqdefault.jpg" },
+                      { name: "Tecnica Mach1 LV", type: "Ski Boots", price: "$720", search: "Tecnica+Mach1+LV+ski+boots", img: "https://img.youtube.com/vi/6sdEFYz7i2g/mqdefault.jpg" },
+                      { name: "Hestra Army Leather", type: "Gloves", price: "$189", search: "Hestra+Army+Leather+ski+gloves", img: "https://img.youtube.com/vi/ZLMBViPQryY/mqdefault.jpg" },
                     ].map((gear) => (
                       <a
                         key={gear.name}
                         href={`https://www.amazon.com/s?k=${gear.search}&tag=turnlab-20`}
                         target="_blank"
                         rel="noopener noreferrer nofollow"
-                        className="group flex items-center justify-between bg-white rounded-xl p-4 border border-gray-100 shadow-[0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
+                        className="group flex items-center gap-3 bg-white rounded-xl p-3 border border-gray-100 shadow-[0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
                       >
-                        <div>
+                        {/* Product image */}
+                        <div className="w-14 h-14 rounded-lg overflow-hidden bg-gray-50 shrink-0">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img src={gear.img} alt={gear.name} loading="lazy" className="w-full h-full object-cover" />
+                        </div>
+                        <div className="flex-1 min-w-0">
                           <p className="text-[10px] text-[#aaa] uppercase tracking-wide">{gear.type}</p>
                           <p className="text-sm font-bold text-[#222]">{gear.name}</p>
                           <p className="text-sm font-bold text-[#222]">{gear.price}</p>
