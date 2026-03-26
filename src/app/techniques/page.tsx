@@ -22,7 +22,7 @@ const ALL_TERRAIN = Array.from(new Set(techniques.flatMap((t) => t.terrain)));
 
 export default function TechniquesPage() {
   return (
-    <Suspense fallback={<div className="min-h-screen bg-[#0d1b2a]"><Navbar /><div className="max-w-6xl mx-auto px-4 py-20 text-center text-gray-400">Loading techniques...</div></div>}>
+    <Suspense fallback={<div className="min-h-screen bg-white"><Navbar /><div className="max-w-6xl mx-auto px-4 py-20 text-center text-gray-500">Loading techniques...</div></div>}>
       <TechniquesContent />
     </Suspense>
   );
@@ -55,17 +55,17 @@ function TechniquesContent() {
   });
 
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
       <Breadcrumbs crumbs={[{label:'Techniques'}]} />
       {/* Header */}
-      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Curated technique library
           </p>
-          <h1 className="text-4xl font-extrabold text-white mb-3">All Techniques</h1>
-          <p className="text-gray-400 text-lg">
+          <h1 className="text-4xl font-extrabold text-gray-900 mb-3">All Techniques</h1>
+          <p className="text-gray-500 text-lg">
             {filtered.length} technique{filtered.length !== 1 ? "s" : ""} found
           </p>
         </div>
@@ -87,8 +87,8 @@ function TechniquesContent() {
                   aria-pressed={selectedRating === value}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     selectedRating === value
-                      ? "bg-[#e8722a] text-white"
-                      : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white border border-white/10"
+                      ? "bg-[#e8722a] text-gray-900"
+                      : "bg-gray-50 text-gray-500 hover:bg-white/10 hover:text-gray-900 border border-gray-300"
                   }`}
                 >
                   {label}
@@ -108,8 +108,8 @@ function TechniquesContent() {
                 aria-pressed={selectedTerrain === "all"}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                   selectedTerrain === "all"
-                    ? "bg-[#e8722a] text-white"
-                    : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white border border-white/10"
+                    ? "bg-[#e8722a] text-gray-900"
+                    : "bg-gray-50 text-gray-500 hover:bg-white/10 hover:text-gray-900 border border-gray-300"
                 }`}
               >
                 All Terrain
@@ -121,8 +121,8 @@ function TechniquesContent() {
                   aria-pressed={selectedTerrain === terrain}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     selectedTerrain === terrain
-                      ? "bg-[#e8722a] text-white"
-                      : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white border border-white/10"
+                      ? "bg-[#e8722a] text-gray-900"
+                      : "bg-gray-50 text-gray-500 hover:bg-white/10 hover:text-gray-900 border border-gray-300"
                   }`}
                 >
                   {terrain}

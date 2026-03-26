@@ -65,7 +65,7 @@ export default async function TechniqueDetailPage({
   };
 
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -82,25 +82,25 @@ export default async function TechniqueDetailPage({
             {technique.terrain.map((t) => (
               <span
                 key={t}
-                className="text-xs px-3 py-1 rounded-full bg-white/5 border border-white/10 text-gray-300"
+                className="text-xs px-3 py-1 rounded-full bg-gray-50 border border-gray-300 text-gray-600"
               >
                 {t}
               </span>
             ))}
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-3">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-3">
             {technique.title}
           </h1>
           {/* Promise subtitle */}
           <p className="text-lg text-[#e8722a] font-medium leading-relaxed max-w-2xl mb-4">
             {technique.promise}
           </p>
-          <p className="text-base text-gray-400 leading-relaxed max-w-2xl">{technique.description}</p>
+          <p className="text-base text-gray-500 leading-relaxed max-w-2xl">{technique.description}</p>
         </div>
 
         {/* Video embed */}
         <section>
-          <h2 className="text-xl font-bold text-white mb-2">Watch &amp; Learn</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-2">Watch &amp; Learn</h2>
           {technique.youtubeVideos.length > 1 && (
             <p className="text-xs text-gray-500 mb-3">
               Not clicking? Try a different teaching style below:
@@ -112,7 +112,7 @@ export default async function TechniqueDetailPage({
         {/* Timeline timestamps */}
         {technique.timestamps.length > 0 && (
           <section>
-            <h2 className="text-xl font-bold text-white mb-5">Key Moments</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-5">Key Moments</h2>
             <div className="relative pl-4">
               {/* Vertical line */}
               <div className="absolute left-0 top-2 bottom-2 w-px bg-white/10" aria-hidden="true" />
@@ -129,10 +129,10 @@ export default async function TechniqueDetailPage({
                         <span className="text-[#e8722a] font-mono text-sm font-bold">
                           {ts.time}
                         </span>
-                        <span className="text-white font-semibold text-sm">{ts.label}</span>
-                        <span className="text-xs text-gray-600 font-normal">Step {i + 1}</span>
+                        <span className="text-gray-900 font-semibold text-sm">{ts.label}</span>
+                        <span className="text-xs text-gray-400 font-normal">Step {i + 1}</span>
                       </div>
-                      <p className="text-gray-400 text-sm leading-relaxed">{ts.detail}</p>
+                      <p className="text-gray-500 text-sm leading-relaxed">{ts.detail}</p>
                     </div>
                   </div>
                 ))}
@@ -144,12 +144,12 @@ export default async function TechniqueDetailPage({
         {/* What it feels like */}
         {technique.feels.length > 0 && (
           <section>
-            <h2 className="text-xl font-bold text-white mb-5">What It Should Feel Like</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-5">What It Should Feel Like</h2>
             <ul className="space-y-3">
               {technique.feels.map((feel, i) => (
                 <li
                   key={i}
-                  className="flex gap-3 p-4 rounded-xl bg-white/3 border border-white/5"
+                  className="flex gap-3 p-4 rounded-xl bg-white border border-gray-200"
                 >
                   <span className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs flex items-center justify-center mt-0.5">
                     ✓
@@ -164,10 +164,10 @@ export default async function TechniqueDetailPage({
         {/* Common mistakes */}
         {technique.mistakes.length > 0 && (
           <section>
-            <h2 className="text-xl font-bold text-white mb-5">Common Mistakes &amp; Fixes</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-5">Common Mistakes &amp; Fixes</h2>
             <div className="space-y-4">
               {technique.mistakes.map((item, i) => (
-                <div key={i} className="rounded-xl border border-white/5 overflow-hidden">
+                <div key={i} className="rounded-xl border border-gray-200 overflow-hidden">
                   <div className="bg-red-950/40 border-b border-red-900/30 px-5 py-3.5 flex gap-3 items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-full bg-red-500/20 border border-red-500/30 text-red-400 text-xs flex items-center justify-center mt-0.5">
                       ✕
@@ -189,7 +189,7 @@ export default async function TechniqueDetailPage({
         {/* Practice drills */}
         {technique.drills.length > 0 && (
           <section>
-            <h2 className="text-xl font-bold text-white mb-5">Practice Drills</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-5">Practice Drills</h2>
             <div className="space-y-3">
               {technique.drills.map((drill, i) => (
                 <div
@@ -199,7 +199,7 @@ export default async function TechniqueDetailPage({
                   <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#e8722a]/15 border border-[#e8722a]/25 text-[#e8722a] text-sm font-bold flex items-center justify-center">
                     {i + 1}
                   </span>
-                  <p className="text-gray-300 text-sm leading-relaxed pt-0.5">{drill}</p>
+                  <p className="text-gray-600 text-sm leading-relaxed pt-0.5">{drill}</p>
                 </div>
               ))}
             </div>
@@ -210,8 +210,8 @@ export default async function TechniqueDetailPage({
         {(technique.prerequisites.length > 0 || technique.nextSteps.length > 0) && (
           <div className="grid sm:grid-cols-2 gap-6">
             {technique.prerequisites.length > 0 && (
-              <section className="rounded-xl bg-white/3 border border-white/5 p-5">
-                <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3">
+              <section className="rounded-xl bg-white border border-gray-200 p-5">
+                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
                   Prerequisites
                 </h3>
                 <ul className="space-y-2">
@@ -232,8 +232,8 @@ export default async function TechniqueDetailPage({
               </section>
             )}
             {technique.nextSteps.length > 0 && (
-              <section className="rounded-xl bg-white/3 border border-white/5 p-5">
-                <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3">
+              <section className="rounded-xl bg-white border border-gray-200 p-5">
+                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
                   Level Up Next
                 </h3>
                 <ul className="space-y-2">
@@ -258,47 +258,47 @@ export default async function TechniqueDetailPage({
 
         {/* Prev / Current / Next progression cards */}
         <section>
-          <h2 className="text-xl font-bold text-white mb-5">Your Progression</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-5">Your Progression</h2>
           <div className="grid grid-cols-3 gap-3">
             {prev ? (
               <Link
                 href={`/techniques/${prev.slug}`}
-                className="group rounded-xl bg-white/3 border border-white/5 hover:border-white/15 p-4 transition-all"
+                className="group rounded-xl bg-white border border-gray-200 hover:border-gray-300 p-4 transition-all"
               >
                 <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">&larr; Previous</p>
-                <p className="text-white text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
+                <p className="text-gray-900 text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
                   {prev.title}
                 </p>
-                <p className="text-gray-600 text-xs mt-1">Level {prev.difficulty}</p>
+                <p className="text-gray-400 text-xs mt-1">Level {prev.difficulty}</p>
               </Link>
             ) : (
-              <div className="rounded-xl border border-white/5 p-4 opacity-30">
-                <p className="text-xs text-gray-600 uppercase tracking-wide mb-2">Previous</p>
-                <p className="text-gray-600 text-sm">Start of path</p>
+              <div className="rounded-xl border border-gray-200 p-4 opacity-30">
+                <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">Previous</p>
+                <p className="text-gray-400 text-sm">Start of path</p>
               </div>
             )}
 
             <div className="rounded-xl bg-[#e8722a]/10 border border-[#e8722a]/25 p-4">
               <p className="text-xs text-[#e8722a] uppercase tracking-wide mb-2">Current</p>
-              <p className="text-white text-sm font-semibold line-clamp-2">{technique.title}</p>
+              <p className="text-gray-900 text-sm font-semibold line-clamp-2">{technique.title}</p>
               <p className="text-[#e8722a]/60 text-xs mt-1">Level {technique.difficulty}</p>
             </div>
 
             {next ? (
               <Link
                 href={`/techniques/${next.slug}`}
-                className="group rounded-xl bg-white/3 border border-white/5 hover:border-white/15 p-4 transition-all"
+                className="group rounded-xl bg-white border border-gray-200 hover:border-gray-300 p-4 transition-all"
               >
                 <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">Next Up &rarr;</p>
-                <p className="text-white text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
+                <p className="text-gray-900 text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
                   {next.title}
                 </p>
-                <p className="text-gray-600 text-xs mt-1">Level {next.difficulty}</p>
+                <p className="text-gray-400 text-xs mt-1">Level {next.difficulty}</p>
               </Link>
             ) : (
-              <div className="rounded-xl border border-white/5 p-4 opacity-30">
-                <p className="text-xs text-gray-600 uppercase tracking-wide mb-2">Next Up</p>
-                <p className="text-gray-600 text-sm">End of path</p>
+              <div className="rounded-xl border border-gray-200 p-4 opacity-30">
+                <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">Next Up</p>
+                <p className="text-gray-400 text-sm">End of path</p>
               </div>
             )}
           </div>

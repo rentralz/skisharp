@@ -220,17 +220,17 @@ const equipment = [
 
 export default function EquipmentGuidePage() {
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
       <Breadcrumbs crumbs={[{label:'Equipment Guide'}]} />
 
-      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Gear guide
           </p>
-          <h1 className="text-4xl font-extrabold text-white mb-4">Equipment Guide</h1>
-          <p className="text-gray-400 text-lg max-w-2xl">
+          <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Equipment Guide</h1>
+          <p className="text-gray-500 text-lg max-w-2xl">
             The right equipment amplifies good technique. The wrong equipment fights
             you every turn. Here&apos;s how to choose gear that matches your level and goals.
           </p>
@@ -244,7 +244,7 @@ export default function EquipmentGuidePage() {
             <a
               key={e.name}
               href={`#${e.name.toLowerCase().replace(/\s/g, "-")}`}
-              className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-300 hover:text-white hover:border-[#e8722a]/30 transition-colors"
+              className="px-4 py-2 rounded-lg bg-gray-50 border border-gray-300 text-sm text-gray-600 hover:text-gray-900 hover:border-[#e8722a]/30 transition-colors"
             >
               {e.icon} {e.name}
             </a>
@@ -260,19 +260,19 @@ export default function EquipmentGuidePage() {
             >
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-3xl">{e.icon}</span>
-                <h2 className="text-2xl font-bold text-white">{e.name}</h2>
+                <h2 className="text-2xl font-bold text-gray-900">{e.name}</h2>
               </div>
-              <p className="text-gray-300 mb-6">{e.overview}</p>
+              <p className="text-gray-600 mb-6">{e.overview}</p>
 
               {/* Categories */}
               <div className="grid gap-3 mb-6">
                 {e.categories.map((c) => (
                   <div
                     key={c.type}
-                    className="p-4 rounded-xl bg-white/3 border border-white/5"
+                    className="p-4 rounded-xl bg-white border border-gray-200"
                   >
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
-                      <h3 className="text-white font-bold">{c.type}</h3>
+                      <h3 className="text-gray-900 font-bold">{c.type}</h3>
                       {"waist" in c && (
                         <span className="text-[#e8722a] text-sm font-medium">
                           {(c as { waist: string }).waist} waist
@@ -280,16 +280,16 @@ export default function EquipmentGuidePage() {
                       )}
                     </div>
                     {"bestFor" in c && (
-                      <p className="text-sm text-gray-400 mb-1">
+                      <p className="text-sm text-gray-500 mb-1">
                         <span className="text-gray-500">Best for:</span> {(c as { bestFor: string }).bestFor}
                       </p>
                     )}
                     {"level" in c && (
-                      <p className="text-sm text-gray-400 mb-1">
+                      <p className="text-sm text-gray-500 mb-1">
                         <span className="text-gray-500">Level:</span> {(c as { level: string }).level}
                       </p>
                     )}
-                    <p className="text-sm text-gray-400">{c.note}</p>
+                    <p className="text-sm text-gray-500">{c.note}</p>
                   </div>
                 ))}
               </div>
@@ -301,7 +301,7 @@ export default function EquipmentGuidePage() {
                 </h4>
                 <ul className="space-y-2">
                   {e.sizingTips.map((tip, i) => (
-                    <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
+                    <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
                       <span className="text-[#e8722a] mt-0.5">→</span>
                       {tip}
                     </li>
@@ -313,24 +313,24 @@ export default function EquipmentGuidePage() {
         </div>
 
         {/* Budget guide */}
-        <section className="mt-16 p-6 rounded-2xl bg-white/3 border border-white/5">
-          <h2 className="text-xl font-bold text-white mb-4">💰 Budget Guide</h2>
-          <p className="text-gray-400 text-sm mb-4">What to expect to spend for a full setup (new):</p>
+        <section className="mt-16 p-6 rounded-2xl bg-white border border-gray-200">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">💰 Budget Guide</h2>
+          <p className="text-gray-500 text-sm mb-4">What to expect to spend for a full setup (new):</p>
           <div className="grid sm:grid-cols-3 gap-4">
             <div className="p-4 rounded-xl bg-emerald-950/30 border border-emerald-800/20">
               <h3 className="text-emerald-400 font-bold mb-1">Budget</h3>
-              <p className="text-2xl font-bold text-white mb-1">$500–800</p>
-              <p className="text-xs text-gray-400">Previous season skis, basic boots, used gear. Good for beginners testing commitment.</p>
+              <p className="text-2xl font-bold text-gray-900 mb-1">$500–800</p>
+              <p className="text-xs text-gray-500">Previous season skis, basic boots, used gear. Good for beginners testing commitment.</p>
             </div>
             <div className="p-4 rounded-xl bg-blue-950/30 border border-blue-800/20">
               <h3 className="text-blue-400 font-bold mb-1">Mid-Range</h3>
-              <p className="text-2xl font-bold text-white mb-1">$1,000–1,800</p>
-              <p className="text-xs text-gray-400">Current-year all-mountain setup with good boots. The sweet spot for most skiers.</p>
+              <p className="text-2xl font-bold text-gray-900 mb-1">$1,000–1,800</p>
+              <p className="text-xs text-gray-500">Current-year all-mountain setup with good boots. The sweet spot for most skiers.</p>
             </div>
             <div className="p-4 rounded-xl bg-purple-950/30 border border-purple-800/20">
               <h3 className="text-purple-400 font-bold mb-1">Premium</h3>
-              <p className="text-2xl font-bold text-white mb-1">$2,000–3,500+</p>
-              <p className="text-xs text-gray-400">Top-tier skis, custom-fitted boots, carbon poles, MIPS helmet. For dedicated skiers.</p>
+              <p className="text-2xl font-bold text-gray-900 mb-1">$2,000–3,500+</p>
+              <p className="text-xs text-gray-500">Top-tier skis, custom-fitted boots, carbon poles, MIPS helmet. For dedicated skiers.</p>
             </div>
           </div>
           <p className="text-gray-500 text-xs mt-4">💡 Pro tip: Spend 40% of your budget on boots. A $200 ski with a $400 boot will outperform a $400 ski with a $200 boot every time.</p>
@@ -339,7 +339,7 @@ export default function EquipmentGuidePage() {
         <div className="mt-12 text-center">
           <Link
             href="/techniques"
-            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-white font-bold px-8 py-3.5 rounded-xl transition-colors"
+            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-gray-900 font-bold px-8 py-3.5 rounded-xl transition-colors"
           >
             Now Learn the Techniques →
           </Link>

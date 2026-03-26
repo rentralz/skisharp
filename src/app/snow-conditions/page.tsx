@@ -122,19 +122,19 @@ const snowTypes = [
 
 export default function SnowConditionsPage() {
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
       <Breadcrumbs crumbs={[{label:'Snow Conditions'}]} />
 
-      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Conditions guide
           </p>
-          <h1 className="text-4xl font-extrabold text-white mb-4">
+          <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
             Skiing Different Snow Conditions
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl">
+          <p className="text-gray-500 text-lg max-w-2xl">
             The same mountain can feel completely different depending on the snow.
             Great skiers adapt their technique to what&apos;s under their feet — not
             the other way around.
@@ -156,47 +156,47 @@ export default function SnowConditionsPage() {
               >
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-3xl">{s.icon}</span>
-                  <h2 className="text-2xl font-bold text-white">{s.name}</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">{s.name}</h2>
                 </div>
 
-                <p className="text-gray-300 mb-6 leading-relaxed">{s.description}</p>
+                <p className="text-gray-600 mb-6 leading-relaxed">{s.description}</p>
 
                 {/* Adjustments grid */}
                 <div className="grid sm:grid-cols-2 gap-4 mb-6">
-                  <div className="p-4 rounded-xl bg-white/5">
+                  <div className="p-4 rounded-xl bg-gray-50">
                     <h4 className="text-xs font-semibold text-[#e8722a] uppercase tracking-wide mb-2">What it feels like</h4>
-                    <p className="text-sm text-gray-300">{s.feel}</p>
+                    <p className="text-sm text-gray-600">{s.feel}</p>
                   </div>
-                  <div className="p-4 rounded-xl bg-white/5">
+                  <div className="p-4 rounded-xl bg-gray-50">
                     <h4 className="text-xs font-semibold text-blue-400 uppercase tracking-wide mb-2">Stance adjustment</h4>
-                    <p className="text-sm text-gray-300">{s.stanceAdjust}</p>
+                    <p className="text-sm text-gray-600">{s.stanceAdjust}</p>
                   </div>
-                  <div className="p-4 rounded-xl bg-white/5">
+                  <div className="p-4 rounded-xl bg-gray-50">
                     <h4 className="text-xs font-semibold text-green-400 uppercase tracking-wide mb-2">Edge adjustment</h4>
-                    <p className="text-sm text-gray-300">{s.edgeAdjust}</p>
+                    <p className="text-sm text-gray-600">{s.edgeAdjust}</p>
                   </div>
-                  <div className="p-4 rounded-xl bg-white/5">
+                  <div className="p-4 rounded-xl bg-gray-50">
                     <h4 className="text-xs font-semibold text-purple-400 uppercase tracking-wide mb-2">Turn shape</h4>
-                    <p className="text-sm text-gray-300">{s.turnAdjust}</p>
+                    <p className="text-sm text-gray-600">{s.turnAdjust}</p>
                   </div>
                 </div>
 
                 {/* Danger */}
                 <div className="p-4 rounded-xl bg-red-950/30 border border-red-800/20 mb-5">
                   <h4 className="text-xs font-semibold text-red-400 uppercase tracking-wide mb-2">⚠️ Watch out</h4>
-                  <p className="text-sm text-gray-300">{s.danger}</p>
+                  <p className="text-sm text-gray-600">{s.danger}</p>
                 </div>
 
                 {/* Tip */}
                 <div className="p-4 rounded-xl bg-[#e8722a]/5 border border-[#e8722a]/15 mb-5">
                   <h4 className="text-xs font-semibold text-[#e8722a] uppercase tracking-wide mb-2">💡 Tip of the day</h4>
-                  <p className="text-sm text-gray-300">{s.tipOfDay}</p>
+                  <p className="text-sm text-gray-600">{s.tipOfDay}</p>
                 </div>
 
                 {/* Linked techniques */}
                 {relatedTechniques.length > 0 && (
                   <div>
-                    <h4 className="text-sm font-semibold text-white uppercase tracking-wide mb-3">
+                    <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-3">
                       Related techniques
                     </h4>
                     <div className="flex flex-wrap gap-2">
@@ -204,7 +204,7 @@ export default function SnowConditionsPage() {
                         <Link
                           key={t.slug}
                           href={`/techniques/${t.slug}`}
-                          className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-300 hover:text-white hover:border-[#e8722a]/30 hover:bg-[#e8722a]/5 transition-colors"
+                          className="px-3 py-1.5 rounded-lg bg-gray-50 border border-gray-300 text-sm text-gray-600 hover:text-gray-900 hover:border-[#e8722a]/30 hover:bg-[#e8722a]/5 transition-colors"
                         >
                           {t.title}
                         </Link>
@@ -219,10 +219,10 @@ export default function SnowConditionsPage() {
 
         {/* Adaptability note */}
         <section className="mt-12 p-6 rounded-2xl bg-[#e8722a]/5 border border-[#e8722a]/15">
-          <h3 className="text-white font-bold mb-2 flex items-center gap-2">
+          <h3 className="text-gray-900 font-bold mb-2 flex items-center gap-2">
             <span>🎯</span> The Adaptability Principle
           </h3>
-          <p className="text-gray-300 text-sm leading-relaxed">
+          <p className="text-gray-600 text-sm leading-relaxed">
             Conditions change constantly — sometimes within a single run. The
             best skiers aren&apos;t the ones with perfect technique for one
             condition. They&apos;re the ones who can adjust mid-turn when the
@@ -234,7 +234,7 @@ export default function SnowConditionsPage() {
         <div className="mt-12 text-center">
           <Link
             href="/techniques"
-            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-white font-bold px-8 py-3.5 rounded-xl transition-colors"
+            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-gray-900 font-bold px-8 py-3.5 rounded-xl transition-colors"
           >
             Browse All Techniques →
           </Link>

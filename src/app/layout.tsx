@@ -64,7 +64,7 @@ export default function RootLayout({
           />
         </head>
       )}
-      <body className="min-h-full flex flex-col bg-[#0d1b2a] text-[#f8f9fa]">
+      <body className="min-h-full flex flex-col bg-white text-[#1a1a2e]">
         <SkipNav />
         <PostHogProvider>
           {children}

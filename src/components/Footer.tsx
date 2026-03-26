@@ -20,12 +20,12 @@ const LEVEL_LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#080f18] border-t border-white/5 mt-16">
+    <footer className="bg-gray-50 border-t border-gray-200 mt-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="text-xl font-bold text-white mb-2">
+            <div className="text-xl font-bold text-gray-900 mb-2">
               Turn<span className="text-[#e8722a]">Lab</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
@@ -43,7 +43,7 @@ export default function Footer() {
                 <li key={href}>
                   <Link
                     href={href}
-                    className="text-sm text-gray-500 hover:text-white transition-colors"
+                    className="text-sm text-gray-500 hover:text-gray-900 transition-colors"
                   >
                     {label}
                   </Link>
@@ -62,7 +62,7 @@ export default function Footer() {
                 <li key={href}>
                   <Link
                     href={href}
-                    className="text-sm text-gray-500 hover:text-white transition-colors"
+                    className="text-sm text-gray-500 hover:text-gray-900 transition-colors"
                   >
                     {label}
                   </Link>
@@ -72,8 +72,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/5 pt-6 text-center">
-          <p className="text-gray-600 text-xs">
+        <div className="border-t border-gray-200 pt-6 text-center">
+          <p className="text-gray-400 text-xs">
             © {new Date().getFullYear()} TurnLab. All video content belongs to
             their respective creators.
           </p>

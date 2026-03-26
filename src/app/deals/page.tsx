@@ -63,11 +63,11 @@ export default function DealsPage() {
   const categories = [...new Set(communityDeals.map((d) => d.category))];
 
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
       <Breadcrumbs crumbs={[{ label: "Deals" }]} />
 
-      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="flex items-center gap-3 mb-4">
             <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em]">
@@ -77,10 +77,10 @@ export default function DealsPage() {
               Updated {timeAgo(lastScanned)}
             </span>
           </div>
-          <h1 className="text-4xl font-extrabold text-white mb-4">
+          <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
             Ski Deals & Sales
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl">
+          <p className="text-gray-500 text-lg max-w-2xl">
             Live deals from Reddit, SlickDeals, REI, Evo, and Amazon — scanned
             daily so you don&apos;t miss a drop. Sorted by community votes and
             freshness.
@@ -92,7 +92,7 @@ export default function DealsPage() {
         {/* Community Deals */}
         {communityDeals.length > 0 && (
           <section className="mb-12">
-            <h2 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
               🔥 Community-Found Deals
               <span className="text-xs font-normal text-gray-500">
                 from Reddit, SlickDeals, & gear sites
@@ -106,7 +106,7 @@ export default function DealsPage() {
 
               return (
                 <div key={cat} className="mb-6">
-                  <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3 flex items-center gap-2">
+                  <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3 flex items-center gap-2">
                     <span>{catInfo.emoji}</span> {catInfo.label}
                   </h3>
                   <div className="space-y-2">
@@ -116,18 +116,18 @@ export default function DealsPage() {
                         href={deal.url}
                         target="_blank"
                         rel="noopener noreferrer nofollow"
-                        className="block p-4 rounded-xl bg-white/3 border border-white/5 hover:border-[#e8722a]/30 transition-colors group"
+                        className="block p-4 rounded-xl bg-white border border-gray-200 hover:border-[#e8722a]/30 transition-colors group"
                       >
                         <div className="flex items-start justify-between gap-3">
                           <div className="flex-1 min-w-0">
-                            <p className="text-white text-sm font-medium group-hover:text-[#e8722a] transition-colors">
+                            <p className="text-gray-900 text-sm font-medium group-hover:text-[#e8722a] transition-colors">
                               {deal.title}
                             </p>
                             <div className="flex items-center gap-3 mt-1.5">
                               <span className="text-xs text-gray-500">
                                 {deal.sourceIcon} {deal.source}
                               </span>
-                              <span className="text-xs text-gray-600">
+                              <span className="text-xs text-gray-400">
                                 {timeAgo(deal.posted)}
                               </span>
                               {deal.score && (
@@ -136,13 +136,13 @@ export default function DealsPage() {
                                 </span>
                               )}
                               {deal.comments ? (
-                                <span className="text-xs text-gray-600">
+                                <span className="text-xs text-gray-400">
                                   💬 {deal.comments}
                                 </span>
                               ) : null}
                             </div>
                           </div>
-                          <span className="text-gray-600 group-hover:text-[#e8722a] transition-colors shrink-0">
+                          <span className="text-gray-400 group-hover:text-[#e8722a] transition-colors shrink-0">
                             →
                           </span>
                         </div>
@@ -157,7 +157,7 @@ export default function DealsPage() {
 
         {/* Amazon Quick Searches */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-white mb-2 flex items-center gap-2">
+          <h2 className="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
             📦 Amazon Deals by Category
           </h2>
           <p className="text-gray-500 text-sm mb-6">
@@ -178,7 +178,7 @@ export default function DealsPage() {
                 >
                   <span className="text-2xl">{cat.emoji}</span>
                   <div>
-                    <p className="text-white text-sm font-medium group-hover:text-[#FF9900] transition-colors">
+                    <p className="text-gray-900 text-sm font-medium group-hover:text-[#FF9900] transition-colors">
                       {deal.title.replace("🔍 ", "")}
                     </p>
                     <p className="text-xs text-gray-500">Shop on Amazon →</p>
@@ -190,21 +190,21 @@ export default function DealsPage() {
         </section>
 
         {/* Deal-hunting tips */}
-        <section className="p-6 rounded-2xl bg-white/3 border border-white/5 mb-12">
-          <h2 className="text-lg font-bold text-white mb-4">💡 Deal-Hunting Tips</h2>
+        <section className="p-6 rounded-2xl bg-white border border-gray-200 mb-12">
+          <h2 className="text-lg font-bold text-gray-900 mb-4">💡 Deal-Hunting Tips</h2>
           <div className="grid sm:grid-cols-2 gap-4 text-sm">
             <div>
               <h3 className="text-[#e8722a] font-semibold mb-1">Best Times to Buy</h3>
-              <ul className="space-y-1 text-gray-400">
-                <li>→ <strong className="text-gray-300">March–May:</strong> End-of-season clearance (biggest discounts)</li>
-                <li>→ <strong className="text-gray-300">Labor Day:</strong> Early season sales begin</li>
-                <li>→ <strong className="text-gray-300">Black Friday:</strong> Good gear deals, great pass deals</li>
-                <li>→ <strong className="text-gray-300">January:</strong> Mid-season clearance on slower sellers</li>
+              <ul className="space-y-1 text-gray-500">
+                <li>→ <strong className="text-gray-600">March–May:</strong> End-of-season clearance (biggest discounts)</li>
+                <li>→ <strong className="text-gray-600">Labor Day:</strong> Early season sales begin</li>
+                <li>→ <strong className="text-gray-600">Black Friday:</strong> Good gear deals, great pass deals</li>
+                <li>→ <strong className="text-gray-600">January:</strong> Mid-season clearance on slower sellers</li>
               </ul>
             </div>
             <div>
               <h3 className="text-[#e8722a] font-semibold mb-1">Smart Shopping</h3>
-              <ul className="space-y-1 text-gray-400">
+              <ul className="space-y-1 text-gray-500">
                 <li>→ Buy last year&apos;s model — same quality, 30-50% off</li>
                 <li>→ Season passes are cheapest in spring (buy for next year)</li>
                 <li>→ Demo skis from resorts are great deals on high-end gear</li>
@@ -218,10 +218,10 @@ export default function DealsPage() {
         {communityDeals.length === 0 && (
           <div className="text-center py-12 mb-8">
             <p className="text-3xl mb-3">🏔️</p>
-            <p className="text-gray-400 text-lg mb-2">
+            <p className="text-gray-500 text-lg mb-2">
               No community deals found right now
             </p>
-            <p className="text-gray-600 text-sm max-w-md mx-auto">
+            <p className="text-gray-400 text-sm max-w-md mx-auto">
               Ski deals peak during end-of-season (March–May) and pre-season
               (September–November). Check back soon or browse the Amazon deals above.
             </p>
@@ -229,7 +229,7 @@ export default function DealsPage() {
         )}
 
         {/* Affiliate disclosure */}
-        <p className="text-xs text-gray-600 leading-relaxed">
+        <p className="text-xs text-gray-400 leading-relaxed">
           <strong>Disclosure:</strong> TurnLab is a participant in the Amazon
           Associates Program. Some links on this page are affiliate links — we
           earn a small commission at no extra cost to you. Community deals link

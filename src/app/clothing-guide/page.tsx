@@ -202,20 +202,20 @@ const essentialGear = [
 
 export default function ClothingGuidePage() {
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
       <Breadcrumbs crumbs={[{label:'Clothing Guide'}]} />
 
       {/* Hero */}
-      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Gear guide
           </p>
-          <h1 className="text-4xl font-extrabold text-white mb-4">
+          <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
             What to Wear Skiing
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl">
+          <p className="text-gray-500 text-lg max-w-2xl">
             The right clothing makes the difference between an amazing day and a
             miserable one. Layer smart, dress for the conditions, and seal every gap.
           </p>
@@ -225,8 +225,8 @@ export default function ClothingGuidePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Layering System */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-white mb-2">The Layering System</h2>
-          <p className="text-gray-400 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">The Layering System</h2>
+          <p className="text-gray-500 mb-8">
             Three layers that work together. Add or remove mid layers to adapt
             to any temperature without buying different outfits.
           </p>
@@ -235,29 +235,29 @@ export default function ClothingGuidePage() {
             {layeringSystem.map((l) => (
               <div
                 key={l.layer}
-                className="rounded-xl bg-white/3 border border-white/5 p-5 sm:p-6"
+                className="rounded-xl bg-white border border-gray-200 p-5 sm:p-6"
               >
                 <div className="flex items-center gap-3 mb-3">
                   <span className="text-2xl">{l.icon}</span>
                   <div>
-                    <h3 className="text-lg font-bold text-white">{l.layer}</h3>
+                    <h3 className="text-lg font-bold text-gray-900">{l.layer}</h3>
                     <p className="text-sm text-[#e8722a]">{l.purpose}</p>
                   </div>
                 </div>
                 <div className="grid sm:grid-cols-2 gap-4 mb-3">
                   <div>
                     <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Use</p>
-                    <p className="text-sm text-gray-300">{l.materials}</p>
+                    <p className="text-sm text-gray-600">{l.materials}</p>
                   </div>
                   <div>
                     <p className="text-xs font-semibold text-red-400 uppercase tracking-wide mb-1">Avoid</p>
-                    <p className="text-sm text-gray-300">{l.avoid}</p>
+                    <p className="text-sm text-gray-600">{l.avoid}</p>
                   </div>
                 </div>
                 <ul className="space-y-1">
                   {l.tips.map((tip, i) => (
-                    <li key={i} className="flex items-start gap-2 text-sm text-gray-400">
-                      <span className="text-gray-600 mt-0.5">•</span>
+                    <li key={i} className="flex items-start gap-2 text-sm text-gray-500">
+                      <span className="text-gray-400 mt-0.5">•</span>
                       {tip}
                     </li>
                   ))}
@@ -269,10 +269,10 @@ export default function ClothingGuidePage() {
 
         {/* Conditions */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-white mb-2">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">
             Dress for the Conditions
           </h2>
-          <p className="text-gray-400 mb-8">
+          <p className="text-gray-500 mb-8">
             What to wear for each type of weather you&apos;ll encounter on the mountain.
           </p>
 
@@ -285,17 +285,17 @@ export default function ClothingGuidePage() {
                 <div className="flex items-center gap-3 mb-1">
                   <span className="text-3xl">{c.icon}</span>
                   <div>
-                    <h3 className="text-xl font-bold text-white">{c.name}</h3>
-                    <p className="text-sm text-gray-400">{c.temp}</p>
+                    <h3 className="text-xl font-bold text-gray-900">{c.name}</h3>
+                    <p className="text-sm text-gray-500">{c.temp}</p>
                   </div>
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-6 mt-5">
                   <div>
-                    <h4 className="text-sm font-semibold text-white uppercase tracking-wide mb-3">What to wear</h4>
+                    <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-3">What to wear</h4>
                     <ul className="space-y-2">
                       {c.clothing.map((item, i) => (
-                        <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
+                        <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
                           <span className="text-[#e8722a] mt-0.5">✓</span>
                           {item}
                         </li>
@@ -306,8 +306,8 @@ export default function ClothingGuidePage() {
                     <h4 className="text-sm font-semibold text-[#e8722a] uppercase tracking-wide mb-3">Pro tips</h4>
                     <ul className="space-y-2">
                       {c.protips.map((tip, i) => (
-                        <li key={i} className="flex items-start gap-2 text-sm text-gray-400">
-                          <span className="text-gray-600 mt-0.5">💡</span>
+                        <li key={i} className="flex items-start gap-2 text-sm text-gray-500">
+                          <span className="text-gray-400 mt-0.5">💡</span>
                           {tip}
                         </li>
                       ))}
@@ -321,15 +321,15 @@ export default function ClothingGuidePage() {
 
         {/* Essential Gear */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-white mb-2">Essential Gear</h2>
-          <p className="text-gray-400 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Essential Gear</h2>
+          <p className="text-gray-500 mb-6">
             Beyond the layers — the gear every skier needs regardless of conditions.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {essentialGear.map((g) => (
-              <div key={g.item} className="p-4 rounded-xl bg-white/3 border border-white/5">
-                <h3 className="text-white font-bold mb-1">{g.item}</h3>
-                <p className="text-sm text-gray-400">{g.note}</p>
+              <div key={g.item} className="p-4 rounded-xl bg-white border border-gray-200">
+                <h3 className="text-gray-900 font-bold mb-1">{g.item}</h3>
+                <p className="text-sm text-gray-500">{g.note}</p>
               </div>
             ))}
           </div>
@@ -337,10 +337,10 @@ export default function ClothingGuidePage() {
 
         {/* Golden rule */}
         <section className="p-6 rounded-2xl bg-[#e8722a]/5 border border-[#e8722a]/15 mb-12">
-          <h3 className="text-white font-bold mb-2 flex items-center gap-2">
+          <h3 className="text-gray-900 font-bold mb-2 flex items-center gap-2">
             <span>🏔️</span> The Golden Rule
           </h3>
-          <p className="text-gray-300 text-sm leading-relaxed">
+          <p className="text-gray-600 text-sm leading-relaxed">
             If you&apos;re comfortable standing still outside, you&apos;re overdressed
             for skiing. You should feel slightly cool before you start moving.
             Within 5 minutes of skiing, your body heat will bring you to the
@@ -352,7 +352,7 @@ export default function ClothingGuidePage() {
         <div className="text-center">
           <Link
             href="/techniques"
-            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-white font-bold px-8 py-3.5 rounded-xl transition-colors"
+            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-gray-900 font-bold px-8 py-3.5 rounded-xl transition-colors"
           >
             Now Learn the Techniques →
           </Link>

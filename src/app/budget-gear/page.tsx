@@ -116,19 +116,19 @@ export default function BudgetGearPage() {
   const total = getTotalRange();
 
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
       <Breadcrumbs crumbs={[{ label: "Budget Gear" }]} />
 
-      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Starter kit
           </p>
-          <h1 className="text-4xl font-extrabold text-white mb-4">
+          <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
             Budget Ski Gear Under $250
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl">
+          <p className="text-gray-500 text-lg max-w-2xl">
             Everything you need for your first ski day — without spending a fortune.
             All picks are well-reviewed on Amazon and actually work on the mountain.
           </p>
@@ -143,7 +143,7 @@ export default function BudgetGearPage() {
               <h2 className="text-emerald-300 font-bold text-sm uppercase tracking-wide mb-1">
                 Total Budget
               </h2>
-              <p className="text-3xl font-extrabold text-white">{total}</p>
+              <p className="text-3xl font-extrabold text-gray-900">{total}</p>
               <p className="text-emerald-400/70 text-sm mt-1">
                 Full outfit • 9 items • Ready to ski
               </p>
@@ -159,9 +159,9 @@ export default function BudgetGearPage() {
 
         {/* The golden rule */}
         <div className="p-5 rounded-xl bg-[#e8722a]/5 border border-[#e8722a]/15 mb-10">
-          <h3 className="text-white font-bold mb-2">🏔️ The #1 Rule for Ski Clothing</h3>
-          <p className="text-gray-300 text-sm leading-relaxed">
-            <strong className="text-white">Layer, don&apos;t bulk.</strong> Three
+          <h3 className="text-gray-900 font-bold mb-2">🏔️ The #1 Rule for Ski Clothing</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">
+            <strong className="text-gray-900">Layer, don&apos;t bulk.</strong> Three
             thin layers beat one thick jacket every time. Base layer (wicks sweat) →
             mid layer (traps heat) → outer shell (blocks wind & snow). You can remove
             layers when warm and add when cold. A single puffy jacket gives you zero
@@ -174,13 +174,13 @@ export default function BudgetGearPage() {
           {gearItems.map((item, index) => (
             <div
               key={item.name}
-              className="p-5 rounded-xl bg-white/3 border border-white/5 hover:border-white/10 transition-colors"
+              className="p-5 rounded-xl bg-white border border-gray-200 hover:border-gray-300 transition-colors"
             >
               <div className="flex items-start justify-between gap-4 mb-3">
                 <div className="flex items-center gap-3">
                   <span className="text-2xl">{item.emoji}</span>
                   <div>
-                    <h3 className="text-white font-bold">
+                    <h3 className="text-gray-900 font-bold">
                       {index + 1}. {item.name}
                     </h3>
                     <span className="text-[#e8722a] text-sm font-semibold">
@@ -190,12 +190,12 @@ export default function BudgetGearPage() {
                 </div>
               </div>
 
-              <p className="text-gray-300 text-sm leading-relaxed mb-3">
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">
                 {item.why}
               </p>
 
-              <div className="p-3 rounded-lg bg-white/3 border border-white/5 mb-4">
-                <p className="text-sm text-gray-400">
+              <div className="p-3 rounded-lg bg-white border border-gray-200 mb-4">
+                <p className="text-sm text-gray-500">
                   <span className="text-gray-500 font-medium">💡 Buying tip:</span>{" "}
                   {item.tip}
                 </p>
@@ -218,7 +218,7 @@ export default function BudgetGearPage() {
 
         {/* What NOT to buy */}
         <section className="mt-12 p-6 rounded-2xl bg-red-950/20 border border-red-800/20">
-          <h2 className="text-xl font-bold text-white mb-4">❌ What NOT to Buy</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-4">❌ What NOT to Buy</h2>
           <div className="space-y-3">
             {[
               {
@@ -245,7 +245,7 @@ export default function BudgetGearPage() {
               <div key={item.dont} className="flex items-start gap-3">
                 <span className="text-red-400 mt-0.5 shrink-0">✕</span>
                 <div>
-                  <p className="text-white text-sm font-medium">{item.dont}</p>
+                  <p className="text-gray-900 text-sm font-medium">{item.dont}</p>
                   <p className="text-gray-500 text-xs">{item.why}</p>
                 </div>
               </div>
@@ -254,12 +254,12 @@ export default function BudgetGearPage() {
         </section>
 
         {/* Rental vs Buy */}
-        <section className="mt-8 p-6 rounded-2xl bg-white/3 border border-white/5">
-          <h2 className="text-xl font-bold text-white mb-4">🤔 Rent or Buy?</h2>
+        <section className="mt-8 p-6 rounded-2xl bg-white border border-gray-200">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">🤔 Rent or Buy?</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <h3 className="text-[#e8722a] font-bold text-sm mb-2">ALWAYS BUY (clothing)</h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-500 text-sm">
                 Jacket, pants, base layers, socks, gloves, goggles, helmet. Rental
                 clothing is overpriced, worn out, and never fits right. This budget
                 setup costs less than 3 days of clothing rental.
@@ -267,7 +267,7 @@ export default function BudgetGearPage() {
             </div>
             <div>
               <h3 className="text-blue-400 font-bold text-sm mb-2">RENT FIRST (equipment)</h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-500 text-sm">
                 Skis, boots, poles — rent for your first season. Demo different
                 types. Only buy after you know your skill level, preferred terrain,
                 and boot size from a professional fitting.
@@ -277,7 +277,7 @@ export default function BudgetGearPage() {
         </section>
 
         {/* Affiliate disclosure */}
-        <p className="mt-8 text-xs text-gray-600 leading-relaxed">
+        <p className="mt-8 text-xs text-gray-400 leading-relaxed">
           <strong>Disclosure:</strong> TurnLab is a participant in the Amazon
           Associates Program. Links on this page are affiliate links — if you buy
           through them, we earn a small commission at no extra cost to you. We only

@@ -83,7 +83,7 @@ const ratings = [
     color: "#1a1a2e",
     bgColor: "from-gray-950 to-gray-900",
     borderColor: "border-gray-600/30",
-    textColor: "text-gray-300",
+    textColor: "text-gray-600",
     grade: "40–60% grade",
     description:
       "Steep terrain that demands strong technique and confidence. Black diamond runs include mogul fields, narrow chutes, trees, and variable snow conditions. Falls here have consequences — you need reliable skills.",
@@ -140,20 +140,20 @@ const regionalDifferences = [
 
 export default function SlopeRatingsPage() {
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
       <Breadcrumbs crumbs={[{label:'Slope Ratings'}]} />
 
       {/* Hero */}
-      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Essential knowledge
           </p>
-          <h1 className="text-4xl font-extrabold text-white mb-4">
+          <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
             Slope Ratings Explained
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl">
+          <p className="text-gray-500 text-lg max-w-2xl">
             Every ski trail is marked with a difficulty rating. Understanding
             these ratings — and honestly assessing which ones match your skill
             level — is the most important safety decision you make on the mountain.
@@ -167,10 +167,10 @@ export default function SlopeRatingsPage() {
           {ratings.map((r) => (
             <div
               key={r.name}
-              className="text-center p-4 rounded-xl bg-white/3 border border-white/5"
+              className="text-center p-4 rounded-xl bg-white border border-gray-200"
             >
               <div className="text-3xl mb-2">{r.symbol}</div>
-              <div className="text-white font-bold text-sm">{r.name}</div>
+              <div className="text-gray-900 font-bold text-sm">{r.name}</div>
               <div className="text-gray-500 text-xs mt-1">{r.grade}</div>
             </div>
           ))}
@@ -191,29 +191,29 @@ export default function SlopeRatingsPage() {
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-3xl">{r.symbol}</span>
                   <div>
-                    <h2 className="text-2xl font-bold text-white">{r.name}</h2>
+                    <h2 className="text-2xl font-bold text-gray-900">{r.name}</h2>
                     <p className={`text-sm font-semibold ${r.textColor}`}>
                       {r.label} · {r.grade} · Levels {r.levelRange}
                     </p>
                   </div>
                 </div>
 
-                <p className="text-gray-300 mb-6 leading-relaxed">
+                <p className="text-gray-600 mb-6 leading-relaxed">
                   {r.description}
                 </p>
 
                 {/* What to expect */}
                 <div className="mb-6">
-                  <h3 className="text-sm font-semibold text-white uppercase tracking-wide mb-3">
+                  <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-3">
                     What to expect
                   </h3>
                   <ul className="space-y-2">
                     {r.expect.map((item, i) => (
                       <li
                         key={i}
-                        className="flex items-start gap-2 text-sm text-gray-400"
+                        className="flex items-start gap-2 text-sm text-gray-500"
                       >
-                        <span className="text-gray-600 mt-0.5">•</span>
+                        <span className="text-gray-400 mt-0.5">•</span>
                         {item}
                       </li>
                     ))}
@@ -221,17 +221,17 @@ export default function SlopeRatingsPage() {
                 </div>
 
                 {/* What you need */}
-                <div className="mb-6 p-4 rounded-xl bg-white/5 border border-white/5">
+                <div className="mb-6 p-4 rounded-xl bg-gray-50 border border-gray-200">
                   <h3 className="text-sm font-semibold text-[#e8722a] uppercase tracking-wide mb-2">
                     Skills you need
                   </h3>
-                  <p className="text-sm text-gray-300">{r.youNeed}</p>
+                  <p className="text-sm text-gray-600">{r.youNeed}</p>
                 </div>
 
                 {/* Related techniques */}
                 {relatedTechniques.length > 0 && (
                   <div>
-                    <h3 className="text-sm font-semibold text-white uppercase tracking-wide mb-3">
+                    <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-3">
                       Techniques for this terrain
                     </h3>
                     <div className="flex flex-wrap gap-2">
@@ -239,7 +239,7 @@ export default function SlopeRatingsPage() {
                         <Link
                           key={t.slug}
                           href={`/techniques/${t.slug}`}
-                          className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-300 hover:text-white hover:border-[#e8722a]/30 hover:bg-[#e8722a]/5 transition-colors"
+                          className="px-3 py-1.5 rounded-lg bg-gray-50 border border-gray-300 text-sm text-gray-600 hover:text-gray-900 hover:border-[#e8722a]/30 hover:bg-[#e8722a]/5 transition-colors"
                         >
                           {t.title}
                         </Link>
@@ -254,10 +254,10 @@ export default function SlopeRatingsPage() {
 
         {/* Regional differences */}
         <section className="mt-16">
-          <h2 className="text-2xl font-bold text-white mb-2">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">
             Regional Differences
           </h2>
-          <p className="text-gray-400 mb-6">
+          <p className="text-gray-500 mb-6">
             Slope ratings aren&apos;t universal. Here&apos;s how they differ around the
             world.
           </p>
@@ -266,13 +266,13 @@ export default function SlopeRatingsPage() {
             {regionalDifferences.map((rd) => (
               <div
                 key={rd.region}
-                className="p-5 rounded-xl bg-white/3 border border-white/5"
+                className="p-5 rounded-xl bg-white border border-gray-200"
               >
-                <h3 className="text-white font-bold mb-1">{rd.region}</h3>
+                <h3 className="text-gray-900 font-bold mb-1">{rd.region}</h3>
                 <p className="text-[#e8722a] text-sm font-medium mb-2">
                   {rd.system}
                 </p>
-                <p className="text-gray-400 text-sm">{rd.notes}</p>
+                <p className="text-gray-500 text-sm">{rd.notes}</p>
               </div>
             ))}
           </div>
@@ -280,10 +280,10 @@ export default function SlopeRatingsPage() {
 
         {/* Important warning */}
         <section className="mt-12 p-6 rounded-2xl bg-[#e8722a]/5 border border-[#e8722a]/15">
-          <h3 className="text-white font-bold mb-2 flex items-center gap-2">
+          <h3 className="text-gray-900 font-bold mb-2 flex items-center gap-2">
             <span>⚠️</span> Ratings are relative, not absolute
           </h3>
-          <p className="text-gray-300 text-sm leading-relaxed">
+          <p className="text-gray-600 text-sm leading-relaxed">
             A blue square at one resort can feel very different from a blue
             square at another. Larger resorts with steeper terrain tend to have
             harder runs at every level. Weather conditions (ice, powder, fog)
@@ -294,12 +294,12 @@ export default function SlopeRatingsPage() {
 
         {/* CTA */}
         <div className="mt-12 text-center">
-          <p className="text-gray-400 mb-4">
+          <p className="text-gray-500 mb-4">
             Ready to build your skills for the next level?
           </p>
           <Link
             href="/techniques"
-            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-white font-bold px-8 py-3.5 rounded-xl transition-colors"
+            className="inline-block bg-[#e8722a] hover:bg-[#d4621a] text-gray-900 font-bold px-8 py-3.5 rounded-xl transition-colors"
           >
             Browse All Techniques →
           </Link>

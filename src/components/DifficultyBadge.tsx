@@ -5,37 +5,19 @@ interface Props {
   rating: DifficultyRating;
 }
 
-const RATING_LABELS: Record<DifficultyRating, string> = {
-  green: "Green",
-  blue: "Blue",
-  black: "Black",
-  "double-black": "Double Black",
-};
-
-const DOT_COLORS: Record<DifficultyRating, string> = {
-  green: "bg-[#22c55e]",
-  blue: "bg-[#3b82f6]",
-  black: "bg-[#1a1a2e]",
-  "double-black": "bg-[#7c3aed]",
-};
-
-const TEXT_COLORS: Record<DifficultyRating, string> = {
-  green: "text-[#22c55e]",
-  blue: "text-[#3b82f6]",
-  black: "text-[#d1d5db]",
-  "double-black": "text-[#7c3aed]",
+const BADGE_STYLES: Record<DifficultyRating, { bg: string; text: string; dot: string; label: string }> = {
+  green: { bg: "bg-emerald-50", text: "text-emerald-700", dot: "bg-emerald-500", label: "Green" },
+  blue: { bg: "bg-blue-50", text: "text-blue-700", dot: "bg-blue-500", label: "Blue" },
+  black: { bg: "bg-gray-100", text: "text-gray-700", dot: "bg-gray-800", label: "Black" },
+  "double-black": { bg: "bg-purple-50", text: "text-purple-700", dot: "bg-purple-600", label: "Expert" },
 };
 
 export default function DifficultyBadge({ difficulty, rating }: Props) {
+  const style = BADGE_STYLES[rating];
   return (
-    <span className="inline-flex items-center gap-1.5">
-      <span
-        className={`w-2.5 h-2.5 rounded-full flex-shrink-0 ${DOT_COLORS[rating]}`}
-        aria-hidden="true"
-      />
-      <span className={`text-xs font-semibold ${TEXT_COLORS[rating]}`}>
-        {RATING_LABELS[rating]} &mdash; Level {difficulty}
-      </span>
+    <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold ${style.bg} ${style.text}`}>
+      <span className={`w-2 h-2 rounded-full ${style.dot}`} aria-hidden="true" />
+      {style.label} — Level {difficulty}
     </span>
   );
 }

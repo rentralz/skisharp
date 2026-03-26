@@ -238,19 +238,19 @@ const regions: Region[] = [
 
 export default function ResortsPage() {
   return (
-    <div className="min-h-screen bg-[#0d1b2a] font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
       <Breadcrumbs crumbs={[{label:'Resorts'}]} />
 
-      <div id="main-content" className="bg-gradient-to-b from-[#0a1520] to-[#0d1b2a] border-b border-white/5">
+      <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Where to ski
           </p>
-          <h1 className="text-4xl font-extrabold text-white mb-4">
+          <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
             Ski Resorts Worldwide
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl">
+          <p className="text-gray-500 text-lg max-w-2xl">
             From the powder fields of Hokkaido to the steep couloirs of Chamonix —
             explore ski resorts around the world, organized by region.
           </p>
@@ -264,7 +264,7 @@ export default function ResortsPage() {
             <a
               key={r.name}
               href={`#${r.name.toLowerCase().replace(/\s/g, "-")}`}
-              className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-300 hover:text-white hover:border-[#e8722a]/30 transition-colors"
+              className="px-4 py-2 rounded-lg bg-gray-50 border border-gray-300 text-sm text-gray-600 hover:text-gray-900 hover:border-[#e8722a]/30 transition-colors"
             >
               {r.icon} {r.name}
             </a>
@@ -282,17 +282,17 @@ export default function ResortsPage() {
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-3xl">{r.icon}</span>
                   <div>
-                    <h2 className="text-2xl font-bold text-white">{r.name}</h2>
+                    <h2 className="text-2xl font-bold text-gray-900">{r.name}</h2>
                     <p className={`text-sm ${r.textColor}`}>{r.seasonNote}</p>
                   </div>
                 </div>
-                <p className="text-gray-300 mt-3">{r.description}</p>
+                <p className="text-gray-600 mt-3">{r.description}</p>
               </div>
 
               <div className="space-y-8">
                 {r.subregions.map((sr) => (
                   <div key={sr.name}>
-                    <h3 className="text-lg font-bold text-white mb-3 flex items-center gap-2">
+                    <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#e8722a]" />
                       {sr.name}
                     </h3>
@@ -300,11 +300,11 @@ export default function ResortsPage() {
                       {sr.resorts.map((resort) => (
                         <div
                           key={resort.name}
-                          className="p-4 rounded-xl bg-white/3 border border-white/5 hover:border-white/10 transition-colors"
+                          className="p-4 rounded-xl bg-white border border-gray-200 hover:border-gray-300 transition-colors"
                         >
-                          <h4 className="text-white font-bold mb-1">{resort.name}</h4>
+                          <h4 className="text-gray-900 font-bold mb-1">{resort.name}</h4>
                           <p className="text-xs text-gray-500 mb-2">{resort.location}</p>
-                          <p className="text-sm text-gray-400 mb-2">{resort.knownFor}</p>
+                          <p className="text-sm text-gray-500 mb-2">{resort.knownFor}</p>
                           {(resort.vertical || resort.terrain) && (
                             <div className="flex flex-wrap gap-2 text-xs">
                               {resort.vertical && (
@@ -331,10 +331,10 @@ export default function ResortsPage() {
 
         {/* Note */}
         <section className="mt-16 p-6 rounded-2xl bg-[#e8722a]/5 border border-[#e8722a]/15">
-          <h3 className="text-white font-bold mb-2 flex items-center gap-2">
+          <h3 className="text-gray-900 font-bold mb-2 flex items-center gap-2">
             <span>🌍</span> Chase Endless Winter
           </h3>
-          <p className="text-gray-300 text-sm leading-relaxed">
+          <p className="text-gray-600 text-sm leading-relaxed">
             The northern hemisphere ski season runs November to April, while the
             southern hemisphere runs June to October. By alternating between the
             two, dedicated skiers can ski year-round. Many professional athletes
