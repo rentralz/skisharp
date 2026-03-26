@@ -8,15 +8,7 @@ export default function HomePage() {
   const intermediateCount = techniques.filter((t) => t.rating === "blue").length;
   const advancedCount = techniques.filter((t) => t.rating === "black" || t.rating === "double-black").length;
 
-  // Latest techniques for the "Latest from the Mountain" section
-  const latestTechniques = techniques.slice(-6);
-
-  // Featured gear items for sidebar
-  const gearItems = [
-    { name: "Smith I/O Mag", type: "Goggles", price: "$295", search: "Smith+IO+Mag+goggles" },
-    { name: "Atomic Hawx Ultra", type: "Ski Boots", price: "$450", search: "Atomic+Hawx+Ultra+ski+boots" },
-    { name: "Nordica Enforcer", type: "All-Mountain Ski", price: "$600", search: "Nordica+Enforcer+100+ski" },
-  ];
+  const latestTechniques = techniques.slice(-4);
 
   return (
     <div className="flex flex-col min-h-full font-[family-name:var(--font-inter)]">
@@ -24,66 +16,89 @@ export default function HomePage() {
 
       <main id="main-content" className="flex-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:grid lg:grid-cols-[1fr_340px] lg:gap-16">
+          <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-20">
 
-            {/* ─── Main Content Column ─── */}
+            {/* ─── Left Column (Main) ─── */}
             <div>
               {/* Hero */}
-              <section className="py-16 md:py-24">
+              <section className="py-16 md:py-20">
                 <h1 className="text-5xl md:text-6xl font-extrabold text-[#222] leading-[1.1] mb-5">
                   Master Your{" "}
                   <span className="text-[#B4835A]">Turn.</span>
                 </h1>
-                <p className="text-lg text-[#646464] leading-relaxed mb-8 max-w-lg">
-                  Expert-curated skiing guides with video breakdowns, feel cues,
-                  and drills. From first-timers to double-black enthusiasts.
+                <p className="text-base text-[#646464] leading-relaxed mb-8 max-w-md">
+                  Elevate your skiing with our comprehensive technique library.
                 </p>
+                {/* Chevron decoration */}
+                <div className="mb-8">
+                  <svg width="40" height="24" viewBox="0 0 40 24" fill="none" className="text-[#B4835A]">
+                    <path d="M2 2L20 20L38 2" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <Link
                   href="/techniques"
-                  className="inline-flex bg-[#E8E4E0] hover:bg-[#DDD8D3] text-[#222] font-semibold px-7 py-3 rounded-lg text-sm transition-colors"
+                  className="inline-flex bg-[#EBEBEB] hover:bg-[#E0E0E0] text-[#222] font-medium px-6 py-2.5 rounded-full text-sm transition-colors"
                 >
                   Get Started
                 </Link>
               </section>
 
-              {/* Learning Paths — Main */}
+              {/* Learning Paths — Main (with icons) */}
               <section className="pb-16">
-                <h2 className="text-2xl font-bold text-[#222] mb-6">Learning Paths</h2>
-                <div className="space-y-4">
+                <h2 className="text-2xl font-bold text-[#222] mb-8">Learning Paths</h2>
+                <div className="grid sm:grid-cols-3 gap-5">
                   {[
                     {
                       level: "Beginner",
-                      desc: "Elevate your skiing from first steps to confident green runs with foundational techniques.",
+                      desc: "Elevate your skiing with our comprehensive technique.",
                       count: beginnerCount,
                       href: "/techniques?rating=green",
+                      icon: (
+                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                          <circle cx="12" cy="12" r="10"/>
+                          <path d="M12 8v8M8 12h8"/>
+                        </svg>
+                      ),
                     },
                     {
                       level: "Intermediate",
-                      desc: "Refine your parallel turns, edge control, and tackle blue runs with precision.",
+                      desc: "Elevate your skiing with our comprehensive technique.",
                       count: intermediateCount,
                       href: "/techniques?rating=blue",
+                      icon: (
+                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M12 19V5M5 12l7-7 7 7"/>
+                        </svg>
+                      ),
                     },
                     {
-                      level: "Advanced",
-                      desc: "Master moguls, powder, steeps, and the techniques that unlock the full mountain.",
+                      level: "Expert",
+                      desc: "Elevate your skiing with our comprehensive technique.",
                       count: advancedCount,
                       href: "/techniques?rating=black",
+                      icon: (
+                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                          <circle cx="9" cy="7" r="4"/>
+                          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                      ),
                     },
                   ].map((path) => (
                     <Link
                       key={path.level}
                       href={path.href}
-                      className="group block bg-white rounded-xl p-5 border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
+                      className="group block bg-white rounded-2xl p-6 border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow text-center"
                     >
-                      <div className="flex items-start justify-between">
-                        <div>
-                          <h3 className="text-lg font-bold text-[#222] mb-1">{path.level}</h3>
-                          <p className="text-sm text-[#646464] leading-relaxed max-w-md">{path.desc}</p>
-                        </div>
-                        <span className="text-[#B4835A] text-sm font-medium shrink-0 ml-4 mt-1 group-hover:translate-x-0.5 transition-transform">
-                          {path.count} techniques →
-                        </span>
+                      <div className="w-12 h-12 rounded-full bg-[#F5F2EF] text-[#B4835A] flex items-center justify-center mx-auto mb-4">
+                        {path.icon}
                       </div>
+                      <h3 className="text-base font-bold text-[#222] mb-2">{path.level}</h3>
+                      <p className="text-sm text-[#888] leading-relaxed mb-3">{path.desc}</p>
+                      <span className="text-[#B4835A] text-sm font-medium">
+                        Learn More →
+                      </span>
                     </Link>
                   ))}
                 </div>
@@ -97,55 +112,59 @@ export default function HomePage() {
                     <Link
                       key={t.id}
                       href={`/techniques/${t.slug}`}
-                      className="group flex items-center justify-between py-3.5 hover:bg-gray-50 -mx-3 px-3 rounded-lg transition-colors"
+                      className="group relative flex items-center py-3.5 hover:bg-gray-50 -mx-3 px-3 rounded-lg transition-colors"
                     >
-                      <div className="flex items-center gap-3">
-                        <span className={`w-2 h-2 rounded-full shrink-0 ${
-                          t.rating === "green" ? "bg-emerald-500" :
-                          t.rating === "blue" ? "bg-blue-500" :
-                          t.rating === "black" ? "bg-gray-800" : "bg-purple-600"
-                        }`} />
-                        <span className="text-[#222] text-sm group-hover:text-[#B4835A] transition-colors">
-                          {t.title}
-                        </span>
-                      </div>
-                      <span className="text-xs text-[#aaa] shrink-0 ml-4">
-                        Level {t.difficulty}
+                      <span className="text-[#222] text-sm group-hover:text-[#B4835A] transition-colors">
+                        {t.title}?
                       </span>
                     </Link>
                   ))}
                 </div>
-                <Link
-                  href="/techniques"
-                  className="inline-flex text-[#B4835A] text-sm font-medium mt-4 hover:text-[#9A7049] transition-colors"
-                >
-                  View all {techniques.length} techniques →
-                </Link>
               </section>
             </div>
 
-            {/* ─── Sidebar ─── */}
+            {/* ─── Right Column (Sidebar) ─── */}
             <aside className="hidden lg:block">
-              <div className="sticky top-20 space-y-8 py-16">
-                {/* Sidebar Learning Paths (compact) */}
-                <div className="bg-[#F5F5F5] rounded-xl p-5">
-                  <h3 className="text-sm font-bold text-[#222] uppercase tracking-wide mb-4">Quick Access</h3>
-                  <div className="space-y-2.5">
+              <div className="sticky top-20 space-y-10 py-16">
+
+                {/* Learning Paths — Sidebar (vertical cards) */}
+                <div>
+                  <h3 className="text-xs font-bold text-[#222] uppercase tracking-widest mb-4">Learning Paths</h3>
+                  <div className="space-y-3">
                     {[
-                      { label: "Skiing Techniques", href: "/techniques", icon: "⛷️" },
-                      { label: "Slope Ratings", href: "/slope-ratings", icon: "🏔️" },
-                      { label: "Equipment Guide", href: "/equipment-guide", icon: "🎿" },
-                      { label: "Snow Conditions", href: "/snow-conditions", icon: "❄️" },
-                      { label: "Clothing Guide", href: "/clothing-guide", icon: "🧥" },
-                      { label: "Budget Gear", href: "/budget-gear", icon: "💰" },
-                    ].map((item) => (
+                      { level: "Beginner", href: "/techniques?rating=green", icon: "↑" },
+                      { level: "Intermediate", href: "/techniques?rating=blue", icon: "↑" },
+                      { level: "Expert", href: "/techniques?rating=black", icon: "👥" },
+                    ].map((p) => (
                       <Link
-                        key={item.href}
-                        href={item.href}
-                        className="flex items-center gap-2.5 text-sm text-[#646464] hover:text-[#222] transition-colors"
+                        key={p.level}
+                        href={p.href}
+                        className="group block bg-white rounded-xl p-4 border border-gray-100 shadow-[0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
                       >
-                        <span className="text-base">{item.icon}</span>
-                        {item.label}
+                        <div className="flex items-center gap-3 mb-1">
+                          <span className="w-7 h-7 rounded-full bg-[#F5F2EF] text-[#B4835A] text-xs flex items-center justify-center font-bold">{p.icon}</span>
+                          <span className="text-sm font-bold text-[#222]">{p.level}</span>
+                        </div>
+                        <p className="text-xs text-[#888] leading-relaxed mb-2 pl-10">
+                          Elevate your skiing with our comprehensive technique.
+                        </p>
+                        <span className="text-[#B4835A] text-xs font-medium pl-10">Learn More →</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Skiing Techniques */}
+                <div>
+                  <h3 className="text-xs font-bold text-[#222] uppercase tracking-widest mb-4">Skiing Techniques</h3>
+                  <div className="space-y-2">
+                    {techniques.slice(0, 5).map((t) => (
+                      <Link
+                        key={t.id}
+                        href={`/techniques/${t.slug}`}
+                        className="block text-sm text-[#646464] hover:text-[#222] transition-colors"
+                      >
+                        {t.title}
                       </Link>
                     ))}
                   </div>
@@ -153,47 +172,41 @@ export default function HomePage() {
 
                 {/* Gear of the Season */}
                 <div>
-                  <h3 className="text-sm font-bold text-[#222] uppercase tracking-wide mb-4">Gear of the Season</h3>
-                  <div className="space-y-4">
-                    {gearItems.map((gear) => (
+                  <h3 className="text-xs font-bold text-[#222] uppercase tracking-widest mb-4">Gear of the Season</h3>
+                  <div className="space-y-3">
+                    {[
+                      { name: "Smith I/O Mag", type: "Goggles", price: "$295", search: "Smith+IO+Mag+goggles" },
+                      { name: "Tecnica Mach1 LV", type: "Ski Boots", price: "$720", search: "Tecnica+Mach1+LV+ski+boots" },
+                      { name: "Hestra Army Leather", type: "Gloves", price: "$189", search: "Hestra+Army+Leather+ski+gloves" },
+                    ].map((gear) => (
                       <a
                         key={gear.name}
                         href={`https://www.amazon.com/s?k=${gear.search}&tag=turnlab-20`}
                         target="_blank"
                         rel="noopener noreferrer nofollow"
-                        className="group block bg-white rounded-xl p-4 border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
+                        className="group flex items-center justify-between bg-white rounded-xl p-4 border border-gray-100 shadow-[0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
                       >
-                        <p className="text-xs text-[#aaa] mb-1">{gear.type}</p>
-                        <p className="text-[#222] font-bold text-sm mb-1">{gear.name}</p>
-                        <div className="flex items-center justify-between">
-                          <span className="text-[#222] font-bold">{gear.price}</span>
-                          <span className="text-xs text-[#aaa] underline group-hover:text-[#646464] transition-colors">
-                            Check Price
-                          </span>
+                        <div>
+                          <p className="text-[10px] text-[#aaa] uppercase tracking-wide">{gear.type}</p>
+                          <p className="text-sm font-bold text-[#222]">{gear.name}</p>
+                          <p className="text-sm font-bold text-[#222]">{gear.price}</p>
                         </div>
+                        <span className="text-[10px] text-[#aaa] underline group-hover:text-[#646464] transition-colors shrink-0">
+                          Check Price
+                        </span>
                       </a>
                     ))}
                   </div>
                 </div>
-
-                {/* Deals CTA */}
-                <Link
-                  href="/deals"
-                  className="block bg-[#F5F5F5] rounded-xl p-5 hover:bg-[#EFEFEF] transition-colors"
-                >
-                  <h3 className="text-sm font-bold text-[#222] mb-1">🏷️ Ski Deals</h3>
-                  <p className="text-xs text-[#646464]">Live deals scanned daily from Reddit, Amazon, and more.</p>
-                  <span className="text-[#B4835A] text-xs font-medium mt-2 inline-block">Browse deals →</span>
-                </Link>
               </div>
             </aside>
           </div>
         </div>
 
-        {/* Mobile-only: Quick Links (replaces sidebar content) */}
+        {/* Mobile-only explore grid */}
         <section className="lg:hidden py-12 bg-[#F9F9F9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <h2 className="text-2xl font-bold text-[#222] mb-6">Explore</h2>
+            <h2 className="text-xl font-bold text-[#222] mb-4">Explore</h2>
             <div className="grid grid-cols-2 gap-3">
               {[
                 { href: "/techniques", icon: "⛷️", title: "Techniques" },
@@ -206,9 +219,9 @@ export default function HomePage() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="flex items-center gap-3 p-4 bg-white rounded-xl border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)]"
+                  className="flex items-center gap-3 p-4 bg-white rounded-xl border border-gray-100"
                 >
-                  <span className="text-xl">{item.icon}</span>
+                  <span className="text-lg">{item.icon}</span>
                   <span className="text-sm font-medium text-[#222]">{item.title}</span>
                 </Link>
               ))}

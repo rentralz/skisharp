@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 const NAV_LINKS = [
   { href: "/techniques", label: "Skiing Techniques" },
   { href: "/slope-ratings", label: "Learning Paths" },
+  { href: "/about", label: "About" },
   { href: "/deals", label: "Deals" },
 ];
 
