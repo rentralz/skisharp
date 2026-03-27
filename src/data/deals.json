@@ -1,14 +1,36 @@
 {
-  "lastScanned": "2026-03-26T20:00:25.299Z",
-  "totalDeals": 9,
+  "lastScanned": "2026-03-27T02:00:21.705Z",
+  "totalDeals": 11,
   "deals": [
+    {
+      "title": "The Big Ten can match the SEC perforamnce in last years March Madness with 3 less teams in the tournament",
+      "url": "https://www.reddit.com/r/CollegeBasketball/comments/1s4r1h9/the_big_ten_can_match_the_sec_perforamnce_in_last/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 5,
+      "comments": 2,
+      "posted": "2026-03-27T01:58:09.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
+    {
+      "title": "go ahead and rate my OC based off of looks, i’ll see what y’all have said in a few hours.",
+      "url": "https://i.redd.it/zbbvxhxavhrg1.jpeg",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-03-27T01:58:01.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
     {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     },
     {
@@ -17,7 +39,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     },
     {
@@ -26,7 +48,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     },
     {
@@ -35,7 +57,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     },
     {
@@ -44,7 +66,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     },
     {
@@ -53,7 +75,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     },
     {
@@ -62,7 +84,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     },
     {
@@ -71,7 +93,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     },
     {
@@ -80,7 +102,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-03-26T20:00:25.298Z",
+      "posted": "2026-03-27T02:00:21.705Z",
       "isAmazonSearch": true
     }
   ]
