@@ -1,14 +1,36 @@
 {
-  "lastScanned": "2026-03-28T14:00:19.573Z",
-  "totalDeals": 9,
+  "lastScanned": "2026-03-28T20:00:20.553Z",
+  "totalDeals": 11,
   "deals": [
+    {
+      "title": "Are hairy legs a turn off ?",
+      "url": "https://www.reddit.com/r/AskTeenGirls/comments/1s6aauz/are_hairy_legs_a_turn_off/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 3,
+      "comments": 4,
+      "posted": "2026-03-28T19:57:29.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
+    {
+      "title": "Seikoo lands a stunning shot off the ceiling",
+      "url": "https://v.redd.it/9cwwc7mecurg1",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-03-28T19:57:38.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
     {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     },
     {
@@ -17,7 +39,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     },
     {
@@ -26,7 +48,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     },
     {
@@ -35,7 +57,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     },
     {
@@ -44,7 +66,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     },
     {
@@ -53,7 +75,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     },
     {
@@ -62,7 +84,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     },
     {
@@ -71,7 +93,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     },
     {
@@ -80,7 +102,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-03-28T14:00:19.572Z",
+      "posted": "2026-03-28T20:00:20.552Z",
       "isAmazonSearch": true
     }
   ]
