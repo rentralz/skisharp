@@ -1,47 +1,14 @@
 {
-  "lastScanned": "2026-03-28T02:00:17.876Z",
-  "totalDeals": 12,
+  "lastScanned": "2026-03-28T14:00:19.573Z",
+  "totalDeals": 9,
   "deals": [
-    {
-      "title": "Red winged blackbird taking off",
-      "url": "https://www.reddit.com/gallery/1s5nmyy",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 0,
-      "posted": "2026-03-28T01:58:38.000Z",
-      "category": "other",
-      "thumbnail": "https://preview.redd.it/rbtl0p9l0prg1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=e7791b3c44db6e79afda26ad87052f453fcf9066"
-    },
-    {
-      "title": "UCSD or Purdue for Data Science OOS; Need Advice",
-      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1s5nmqi/ucsd_or_purdue_for_data_science_oos_need_advice/",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 1,
-      "posted": "2026-03-28T01:58:20.000Z",
-      "category": "other",
-      "thumbnail": null
-    },
-    {
-      "title": "Danessa Myricks Beauty mini kit mix-up",
-      "url": "https://www.reddit.com/r/Sephora/comments/1s5nlp5/danessa_myricks_beauty_mini_kit_mixup/",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 1,
-      "posted": "2026-03-28T01:56:59.000Z",
-      "category": "other",
-      "thumbnail": null
-    },
     {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     },
     {
@@ -50,7 +17,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     },
     {
@@ -59,7 +26,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     },
     {
@@ -68,7 +35,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     },
     {
@@ -77,7 +44,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     },
     {
@@ -86,7 +53,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     },
     {
@@ -95,7 +62,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     },
     {
@@ -104,7 +71,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     },
     {
@@ -113,7 +80,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-03-28T02:00:17.876Z",
+      "posted": "2026-03-28T14:00:19.572Z",
       "isAmazonSearch": true
     }
   ]
