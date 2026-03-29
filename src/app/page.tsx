@@ -231,6 +231,22 @@ export default function HomePage() {
                   </div>
                 </div>
 
+                {/* Quick Tools */}
+                <div className="flex gap-2 mb-6">
+                  <Link href="/progress" className="flex-1 p-3 rounded-xl bg-[#F5F2EF] text-center hover:bg-[#EDE8E3] transition-colors">
+                    <span className="text-lg block">📊</span>
+                    <span className="text-xs font-medium text-[#222]">My Progress</span>
+                  </Link>
+                  <Link href="/quiz" className="flex-1 p-3 rounded-xl bg-[#F5F2EF] text-center hover:bg-[#EDE8E3] transition-colors">
+                    <span className="text-lg block">🧪</span>
+                    <span className="text-xs font-medium text-[#222]">Skill Quiz</span>
+                  </Link>
+                  <Link href="/conditions-match" className="flex-1 p-3 rounded-xl bg-[#F5F2EF] text-center hover:bg-[#EDE8E3] transition-colors">
+                    <span className="text-lg block">🎲</span>
+                    <span className="text-xs font-medium text-[#222]">Today</span>
+                  </Link>
+                </div>
+
                 {/* Skiing Techniques */}
                 <div>
                   <h3 className="text-xs font-bold text-[#222] uppercase tracking-widest mb-4">Skiing Techniques</h3>

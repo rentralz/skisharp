@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import AdUnit from "@/components/AdUnit";
+import ProgressButtons from "@/components/ProgressButtons";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -95,7 +96,8 @@ export default async function TechniqueDetailPage({
           <p className="text-lg text-[#e8722a] font-medium leading-relaxed max-w-2xl mb-4">
             {technique.promise}
           </p>
-          <p className="text-base text-gray-500 leading-relaxed max-w-2xl">{technique.description}</p>
+          <p className="text-base text-gray-500 leading-relaxed max-w-2xl mb-5">{technique.description}</p>
+          <ProgressButtons slug={technique.slug} />
         </div>
 
         {/* Video embed */}
