@@ -46,16 +46,16 @@ export default function HomePage() {
                   </p>
                   <div className="flex items-center gap-4">
                     <Link
-                      href="/techniques"
+                      href="/quiz"
                       className="inline-flex bg-[#222] hover:bg-[#333] text-white font-medium px-6 py-2.5 rounded-full text-sm transition-colors"
                     >
-                      Get Started →
+                      Find Your Level →
                     </Link>
                     <Link
-                      href="/techniques?rating=green"
+                      href="/conditions-match"
                       className="inline-flex text-[#B4835A] font-medium text-sm hover:text-[#9A7049] transition-colors"
                     >
-                      Beginner path
+                      What to ski today?
                     </Link>
                   </div>
 
