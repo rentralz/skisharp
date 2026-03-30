@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import StreakBadge from "@/components/StreakBadge";
 import Link from "next/link";
+import StreakBadge from "@/components/StreakBadge";
 import { usePathname } from "next/navigation";
+import StreakBadge from "@/components/StreakBadge";
 
 const NAV_LINKS = [
   { href: "/techniques", label: "Skiing Techniques" },
@@ -28,7 +31,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-14">
           {/* Logo */}
           <Link href="/" className="text-lg font-bold tracking-tight text-[#222]">
-            Turn<span className="text-[#B4835A]">Lab</span>
+            Turn<span className="text-[#B4835A]">Lab</span><StreakBadge />
           </Link>
 
           {/* Desktop nav links */}
