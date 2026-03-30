@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Inter } from "next/font/google";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Analytics } from "@vercel/analytics/next";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import SkipNav from "@/components/SkipNav";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import PostHogProvider from "@/components/PostHogProvider";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import "./globals.css";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -65,6 +72,7 @@ export default function RootLayout({
         </head>
       )}
       <body className="min-h-full flex flex-col bg-white text-[#1a1a2e]">
+        <Breadcrumbs />
         <SkipNav />
         <PostHogProvider>
           {children}
