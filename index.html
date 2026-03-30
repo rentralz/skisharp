@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SkiSharp — Master Every Turn</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --alpine-blue: #1a3a5c;
+    --deep-navy: #0d1b2a;
+    --signal-orange: #e8722a;
+    --snow-white: #f8f9fa;
+    --ice-gray: #e2e8f0;
+    --text-primary: #1a1a2e;
+    --text-secondary: #4a5568;
+    --glacier: #3b82f6;
+    --green-run: #22c55e;
+    --blue-run: #3b82f6;
+    --black-run: #1a1a2e;
+    --double-black: #7c3aed;
+  }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: var(--text-primary); background: var(--snow-white); line-height: 1.6; }
+  
+  /* NAV */
+  nav { background: var(--deep-navy); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+  .logo { color: white; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px; }
+  .logo span { color: var(--signal-orange); }
+  .nav-links { display: flex; gap: 1.5rem; }
+  .nav-links a { color: #cbd5e1; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+  .nav-links a:hover { color: white; }
+  .nav-cta { background: var(--signal-orange); color: white; padding: 0.5rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: background 0.2s; }
+  .nav-cta:hover { background: #d4631f; }
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 0.5rem; background: none; border: none; }
+  .hamburger span { width: 24px; height: 2px; background: white; border-radius: 2px; transition: all 0.3s; }
+  [data-theme="light"] .hamburger span { background: #1a1a2e; }
+  .mobile-menu { display: none; position: fixed; top: 0; left: 0; width: 280px; height: 100vh; background: var(--deep-navy); z-index: 200; padding: 2rem 1.5rem; transform: translateX(-100%); transition: transform 0.3s ease; }
+  .mobile-menu.open { display: block; transform: translateX(0); }
+  .mobile-menu-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 199; }
+  .mobile-menu-overlay.open { display: block; }
+  .mobile-menu-close { color: white; font-size: 1.5rem; background: none; border: none; cursor: pointer; float: right; margin-bottom: 1rem; }
+  .mobile-menu a { display: block; color: #cbd5e1; text-decoration: none; padding: 0.75rem 0; font-size: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .mobile-menu a:hover { color: white; }
+  .mobile-nav-cta { margin-top: 1rem; background: var(--signal-orange); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; }
+  @media (max-width: 768px) { .hamburger { display: flex; } .nav-links { display: none !important; } }
+
+
+  /* HERO */
+  .hero { background: linear-gradient(135deg, var(--deep-navy) 0%, var(--alpine-blue) 60%, #2563eb 100%); padding: 5rem 2rem 4rem; text-align: center; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+  .hero h1 { color: white; font-size: 3.5rem; font-weight: 800; letter-spacing: -1px; margin-bottom: 1rem; position: relative; }
+  .hero h1 span { color: var(--signal-orange); }
+  .hero p { color: #94a3b8; font-size: 1.25rem; max-width: 600px; margin: 0 auto 2rem; position: relative; }
+  .hero-cta { display: inline-flex; gap: 1rem; position: relative; }
+  .btn-primary { background: var(--signal-orange); color: white; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1.05rem; transition: all 0.2s; border: none; cursor: pointer; }
+  .btn-primary:hover { background: #d4631f; transform: translateY(-1px); }
+  .btn-secondary { background: rgba(255,255,255,0.1); color: white; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1.05rem; border: 1px solid rgba(255,255,255,0.2); transition: all 0.2s; }
+  .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+  .hero-stats { display: flex; justify-content: center; gap: 3rem; margin-top: 3rem; position: relative; }
+  .stat { text-align: center; }
+  .stat-num { color: var(--signal-orange); font-size: 2rem; font-weight: 800; }
+  .stat-label { color: #94a3b8; font-size: 0.85rem; }
+
+  /* SECTION */
+  section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
+  .section-title { font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; letter-spacing: -0.5px; }
+  .section-sub { color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.05rem; }
+
+  /* LEARNING PATHS */
+  .paths-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .path-card { background: white; border-radius: 12px; padding: 1.5rem; border: 1px solid var(--ice-gray); transition: all 0.2s; cursor: pointer; }
+  .path-card:hover { border-color: var(--signal-orange); transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
+  .path-icon { width: 48px; height: 48px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1rem; }
+  .path-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.35rem; }
+  .path-card p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem; }
+  .path-meta { display: flex; gap: 0.75rem; font-size: 0.8rem; }
+  .path-tag { padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 600; }
+  .tag-green { background: #dcfce7; color: #166534; }
+  .tag-blue { background: #dbeafe; color: #1e40af; }
+  .tag-black { background: #f1f5f9; color: #1e293b; }
+
+  /* TECHNIQUES GRID */
+  .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
+  .tech-card { background: white; border-radius: 10px; overflow: hidden; border: 1px solid var(--ice-gray); transition: all 0.2s; cursor: pointer; }
+  .tech-card:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
+  .tech-thumb { width: 100%; aspect-ratio: 16/9; background: var(--alpine-blue); display: flex; align-items: center; justify-content: center; position: relative; }
+  .tech-thumb svg { width: 48px; height: 48px; opacity: 0.5; }
+  .tech-thumb .play-btn { position: absolute; width: 50px; height: 50px; background: rgba(255,255,255,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+  .tech-thumb .play-btn::after { content: '▶'; color: var(--alpine-blue); font-size: 1.2rem; margin-left: 3px; }
+  .tech-body { padding: 1rem; }
+  .tech-body h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.25rem; }
+  .tech-body p { color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.75rem; }
+  .tech-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .difficulty-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+  .diff-green { background: var(--green-run); }
+  .diff-blue { background: var(--blue-run); }
+  .diff-black { background: var(--black-run); }
+  .tech-tag { font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 3px; background: #f1f5f9; color: var(--text-secondary); font-weight: 500; }
+  .videos-count { font-size: 0.75rem; color: var(--signal-orange); font-weight: 600; }
+
+  /* TECHNIQUE DETAIL PREVIEW */
+  .detail-section { background: white; border-radius: 12px; border: 1px solid var(--ice-gray); padding: 2rem; margin-top: 2rem; }
+  .detail-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.5rem; }
+  .detail-header h2 { font-size: 1.75rem; font-weight: 800; }
+  .detail-tags { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+  .detail-tag { padding: 0.3rem 0.75rem; border-radius: 5px; font-size: 0.8rem; font-weight: 600; }
+  .promise { font-size: 1.05rem; color: var(--text-secondary); font-style: italic; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--ice-gray); }
+  
+  /* VIDEO EMBED MOCK */
+  .video-embed-mock { background: #000; aspect-ratio: 16/9; border-radius: 10px; display: flex; align-items: center; justify-content: center; position: relative; margin-bottom: 0.75rem; }
+  .video-embed-mock .big-play { width: 68px; height: 68px; background: rgba(255,255,255,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: transform 0.2s; }
+  .video-embed-mock .big-play:hover { transform: scale(1.1); }
+  .video-embed-mock .big-play::after { content: '▶'; color: #e8722a; font-size: 1.8rem; margin-left: 5px; }
+  .video-attribution { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; background: #f8fafc; border-radius: 8px; margin-bottom: 1.5rem; }
+  .video-attribution .channel-avatar { width: 36px; height: 36px; border-radius: 50%; background: var(--alpine-blue); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.85rem; }
+  .video-attribution .channel-info { flex: 1; }
+  .video-attribution .channel-name { font-weight: 700; font-size: 0.9rem; }
+  .video-attribution .channel-reason { font-size: 0.8rem; color: var(--text-secondary); }
+  .subscribe-btn { background: #ff0000; color: white; padding: 0.35rem 0.85rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; border: none; cursor: pointer; }
+
+  /* ALT VIDEOS */
+  .alt-videos { margin-bottom: 2rem; }
+  .alt-videos-header { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem; font-weight: 500; }
+  .alt-tabs { display: flex; gap: 0.5rem; }
+  .alt-tab { padding: 0.5rem 1rem; border-radius: 6px; border: 1px solid var(--ice-gray); background: white; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
+  .alt-tab.active { border-color: var(--signal-orange); background: #fff7ed; color: var(--signal-orange); font-weight: 600; }
+  .alt-tab:hover:not(.active) { border-color: #94a3b8; }
+
+  /* CONTENT SECTIONS */
+  .content-block { margin-bottom: 2rem; }
+  .content-block h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+  .content-block h3 .icon { font-size: 1.2rem; }
+  .timestamps { list-style: none; }
+  .timestamps li { padding: 0.6rem 0; border-bottom: 1px solid #f1f5f9; display: flex; gap: 0.75rem; font-size: 0.9rem; }
+  .timestamps .time { color: var(--glacier); font-weight: 700; min-width: 45px; font-family: 'JetBrains Mono', monospace; }
+  .timestamps .desc strong { color: var(--text-primary); }
+  .timestamps .desc { color: var(--text-secondary); }
+  
+  .feel-list { list-style: none; }
+  .feel-list li { padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--text-secondary); font-size: 0.9rem; }
+  .feel-list li::before { content: '✦'; position: absolute; left: 0; color: var(--signal-orange); }
+  
+  .mistakes-grid { display: grid; gap: 0.75rem; }
+  .mistake-item { display: flex; gap: 0.75rem; padding: 0.75rem; background: #fef2f2; border-radius: 8px; border-left: 3px solid #ef4444; }
+  .mistake-item .label { font-weight: 700; font-size: 0.85rem; color: #dc2626; }
+  .mistake-item .fix { font-size: 0.85rem; color: var(--text-secondary); }
+  .mistake-item .fix strong { color: var(--green-run); }
+
+  .next-steps { display: flex; gap: 1rem; }
+  .next-step { flex: 1; padding: 1rem; border-radius: 8px; border: 1px solid var(--ice-gray); text-align: center; cursor: pointer; transition: all 0.2s; }
+  .next-step:hover { border-color: var(--signal-orange); background: #fff7ed; }
+  .next-step .arrow { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  .next-step .step-name { font-weight: 700; font-size: 0.9rem; }
+  .next-step .step-level { font-size: 0.8rem; color: var(--text-secondary); }
+
+  /* FOOTER */
+  footer { background: var(--deep-navy); color: #94a3b8; padding: 3rem 2rem; text-align: center; margin-top: 4rem; }
+  footer .footer-logo { color: white; font-size: 1.25rem; font-weight: 800; margin-bottom: 0.5rem; }
+  footer .footer-logo span { color: var(--signal-orange); }
+  footer p { font-size: 0.85rem; }
+
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 2.25rem; }
+    .paths-grid { grid-template-columns: 1fr; }
+    .hero-stats { gap: 1.5rem; }
+    .next-steps { flex-direction: column; }
+    .nav-links { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Ski<span>Sharp</span><button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open'); document.querySelector('.mobile-menu-overlay').classList.toggle('open');" aria-label="Open menu"><span></span><span></span><span></span></button> ⛷️</div>
+  <div class="nav-links">
+    <a href="#">Techniques</a>
+    <a href="#">Learning Paths</a>
+    <a href="#">Drills</a>
+    <a href="#">Conditions</a>
+    <a href="#">Channels</a>
+  </div>
+  <a href="#" class="nav-cta">Start Learning</a>
+
+  <div class="mobile-menu-overlay" onclick="document.querySelector('.mobile-menu').classList.remove('open'); this.classList.remove('open');"></div>
+  <div class="mobile-menu">
+    <button class="mobile-menu-close" onclick="document.querySelector('.mobile-menu').classList.remove('open'); document.querySelector('.mobile-menu-overlay').classList.remove('open');">✕</button>
+    <a href="#">Techniques</a>
+    <a href="#">Learning Paths</a>
+    <a href="#">Drills</a>
+    <a href="#">Conditions</a>
+    <a href="#">Channels</a>
+    <a href="#" class="mobile-nav-cta">Start Learning →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Master Every <span>Turn</span></h1>
+  <p>The internet's best ski instruction videos — curated, organized, and structured into learning paths that actually work.</p>
+  <div class="hero-cta">
+    <a href="#" class="btn-primary">Find Your Level →</a>
+    <a href="#" class="btn-secondary">Browse Techniques</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">150+</div><div class="stat-label">Techniques</div></div>
+    <div class="stat"><div class="stat-num">400+</div><div class="stat-label">Curated Videos</div></div>
+    <div class="stat"><div class="stat-num">12</div><div class="stat-label">Learning Paths</div></div>
+    <div class="stat"><div class="stat-num">40+</div><div class="stat-label">Channels Featured</div></div>
+  </div>
+</div>
+
+<!-- LEARNING PATHS -->
+<section>
+  <div class="section-title">Learning Paths</div>
+  <div class="section-sub">Structured progressions from first-timer to expert. Pick your journey.</div>
+  <div class="paths-grid">
+    <div class="path-card">
+      <div class="path-icon" style="background:#dcfce7;">🟢</div>
+      <h3>First Timer → First Parallel</h3>
+      <p>From pizza wedge to confident parallel turns on green and easy blue runs.</p>
+      <div class="path-meta">
+        <span class="path-tag tag-green">Levels 1-4</span>
+        <span style="color:#64748b;">12 techniques · 8 videos</span>
+      </div>
+    </div>
+    <div class="path-card">
+      <div class="path-icon" style="background:#dbeafe;">🔵</div>
+      <h3>Blue Run → Black Run Ready</h3>
+      <p>Break through the intermediate plateau. Carving, speed control, variable terrain.</p>
+      <div class="path-meta">
+        <span class="path-tag tag-blue">Levels 4-7</span>
+        <span style="color:#64748b;">18 techniques · 14 videos</span>
+      </div>
+    </div>
+    <div class="path-card">
+      <div class="path-icon" style="background:#f1f5f9;">⚫</div>
+      <h3>All-Mountain Mastery</h3>
+      <p>Dynamic carving, powder, moguls, steeps, trees. Ski anything with confidence.</p>
+      <div class="path-meta">
+        <span class="path-tag tag-black">Levels 7-10</span>
+        <span style="color:#64748b;">24 techniques · 20 videos</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED TECHNIQUES -->
+<section>
+  <div class="section-title">Featured Techniques</div>
+  <div class="section-sub">Hand-picked videos with expert analysis. Not just what to do — what to feel.</div>
+  <div class="tech-grid">
+    <div class="tech-card">
+      <div class="tech-thumb" style="background:linear-gradient(135deg,#1e3a5f,#2563eb);"><div class="play-btn"></div></div>
+      <div class="tech-body">
+        <h4>Parallel Turn Fundamentals</h4>
+        <p>The foundation of all modern skiing. Learn synchronized edge-to-edge transitions.</p>
+        <div class="tech-tags">
+          <span><span class="difficulty-dot diff-blue"></span>Blue · Level 4</span>
+          <span class="tech-tag">Groomed</span>
+          <span class="videos-count">3 videos</span>
+        </div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-thumb" style="background:linear-gradient(135deg,#1a1a2e,#4a1a6b);"><div class="play-btn"></div></div>
+      <div class="tech-body">
+        <h4>Hip Angulation</h4>
+        <p>The key to clean carving. Create edge angle without banking your whole body.</p>
+        <div class="tech-tags">
+          <span><span class="difficulty-dot diff-blue"></span>Blue · Level 5</span>
+          <span class="tech-tag">Groomed</span>
+          <span class="videos-count">3 videos</span>
+        </div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-thumb" style="background:linear-gradient(135deg,#0f4c3a,#22c55e);"><div class="play-btn"></div></div>
+      <div class="tech-body">
+        <h4>Mogul Absorption</h4>
+        <p>Use your legs like shock absorbers. Maintain contact and control through bumps.</p>
+        <div class="tech-tags">
+          <span><span class="difficulty-dot diff-black"></span>Black · Level 7</span>
+          <span class="tech-tag">Moguls</span>
+          <span class="videos-count">2 videos</span>
+        </div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-thumb" style="background:linear-gradient(135deg,#3b1f0b,#e8722a);"><div class="play-btn"></div></div>
+      <div class="tech-body">
+        <h4>Powder Floating</h4>
+        <p>Adjust stance and timing for deep snow. Feel the skis float, not fight.</p>
+        <div class="tech-tags">
+          <span><span class="difficulty-dot diff-black"></span>Black · Level 8</span>
+          <span class="tech-tag">Powder</span>
+          <span class="videos-count">3 videos</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNIQUE DETAIL PREVIEW -->
+<section>
+  <div class="section-title">Technique Page Preview</div>
+  <div class="section-sub">Here's what a full technique breakdown looks like.</div>
+  
+  <div class="detail-section">
+    <div class="detail-header">
+      <div>
+        <h2>Parallel Turn Fundamentals</h2>
+        <div class="detail-tags">
+          <span class="detail-tag" style="background:#dbeafe;color:#1e40af;">🔵 Level 4 — Intermediate</span>
+          <span class="detail-tag" style="background:#f1f5f9;color:#475569;">Groomed Runs</span>
+          <span class="detail-tag" style="background:#f1f5f9;color:#475569;">Turning</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="promise">"Learn how to keep both skis parallel through the entire turn — the skill that separates beginners from real skiers."</div>
+
+    <!-- Video Embed -->
+    <div class="video-embed-mock">
+      <div class="big-play"></div>
+    </div>
+    <div class="video-attribution">
+      <div class="channel-avatar">EF</div>
+      <div class="channel-info">
+        <div class="channel-name">Elate Ski School</div>
+        <div class="channel-reason">Clearest progressive breakdown we've found. Excellent slow-motion analysis.</div>
+      </div>
+      <button class="subscribe-btn">Subscribe ↗</button>
+    </div>
+
+    <!-- Alt Videos -->
+    <div class="alt-videos">
+      <div class="alt-videos-header">💡 Not clicking? Try a different teaching style:</div>
+      <div class="alt-tabs">
+        <div class="alt-tab active">Elate Ski School (Technical)</div>
+        <div class="alt-tab">Stomp It Tutorials (Feel-Based)</div>
+        <div class="alt-tab">PSIA Official (Progressive)</div>
+      </div>
+    </div>
+
+    <!-- Timestamps -->
+    <div class="content-block">
+      <h3><span class="icon">⏱</span> Key Timestamps</h3>
+      <ul class="timestamps">
+        <li><span class="time">0:42</span><div class="desc"><strong>Stance setup</strong> — Notice how the knees flex forward, not sideways. Weight centered over both feet.</div></li>
+        <li><span class="time">1:35</span><div class="desc"><strong>Turn initiation</strong> — Watch the subtle ankle roll that starts the edge change. No upper body rotation.</div></li>
+        <li><span class="time">2:18</span><div class="desc"><strong>Fall line commitment</strong> — Both skis pointed downhill simultaneously. This is the scary-but-essential moment.</div></li>
+        <li><span class="time">3:45</span><div class="desc"><strong>Common error demo</strong> — See how the inside ski leads? That's a stem, not a parallel turn.</div></li>
+      </ul>
+    </div>
+
+    <!-- What To Feel -->
+    <div class="content-block">
+      <h3><span class="icon">✦</span> What You Should Feel</h3>
+      <ul class="feel-list">
+        <li>Both skis turning as one unit — like they're connected by an invisible bar</li>
+        <li>Pressure building under the ball of your outside foot through the turn</li>
+        <li>Your upper body staying quiet and facing downhill while legs do the work</li>
+        <li>A moment of weightlessness between turns as you release the edges</li>
+      </ul>
+    </div>
+
+    <!-- Common Mistakes -->
+    <div class="content-block">
+      <h3><span class="icon">⚠️</span> Common Mistakes</h3>
+      <div class="mistakes-grid">
+        <div class="mistake-item">
+          <div><div class="label">❌ A-Frame (knees together, feet apart)</div><div class="fix">Happens when you rotate instead of tipping. <strong>Fix: Practice edging drills on gentle terrain.</strong></div></div>
+        </div>
+        <div class="mistake-item">
+          <div><div class="label">❌ Inside ski leads the turn</div><div class="fix">Sign of an incomplete parallel. <strong>Fix: Focus on outside ski pressure. Inside ski follows.</strong></div></div>
+        </div>
+        <div class="mistake-item">
+          <div><div class="label">❌ Upper body rotates with the turn</div><div class="fix">Kills edge grip. <strong>Fix: Hold poles horizontal across your body while turning.</strong></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Next Steps -->
+    <div class="content-block">
+      <h3><span class="icon">🎯</span> Next Steps</h3>
+      <div class="next-steps">
+        <div class="next-step">
+          <div class="arrow">⬅️</div>
+          <div class="step-name">Wedge Christie</div>
+          <div class="step-level">Prerequisite · Level 3</div>
+        </div>
+        <div class="next-step" style="border-color:var(--signal-orange);background:#fff7ed;">
+          <div class="arrow">📍</div>
+          <div class="step-name">You Are Here</div>
+          <div class="step-level">Parallel Turns · Level 4</div>
+        </div>
+        <div class="next-step">
+          <div class="arrow">➡️</div>
+          <div class="step-name">Carved Turns</div>
+          <div class="step-level">Next up · Level 6</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Ski<span>Sharp</span> ⛷️</div>
+  <p>The internet's best ski instruction — curated, organized, and free.</p>
+  <p style="margin-top:0.5rem;font-size:0.8rem;">Videos remain property of their respective creators. We're the learning layer, not the content.</p>
+</footer>
+
+</body>
+</html>
