@@ -54,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+    <html lang="en" className={`${inter.variable} dark h-full antialiased`}>
       {process.env.NEXT_PUBLIC_ADSENSE_PUB_ID && (
         <head>
           <script
