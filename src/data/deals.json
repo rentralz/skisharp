@@ -1,17 +1,50 @@
 {
-  "lastScanned": "2026-03-29T20:00:20.053Z",
-  "totalDeals": 10,
+  "lastScanned": "2026-03-30T02:00:25.444Z",
+  "totalDeals": 13,
   "deals": [
     {
-      "title": "Showcasing my original character :D",
-      "url": "https://www.reddit.com/gallery/1s758v6",
+      "title": "2-4 Grams of Lecithin to the Brain in One Hour",
+      "url": "https://www.reddit.com/r/perfectchastity/comments/1s7dr8z/24_grams_of_lecithin_to_the_brain_in_one_hour/",
       "source": "r/skiing",
       "sourceIcon": "🔴",
       "score": 2,
       "comments": 0,
-      "posted": "2026-03-29T19:58:21.000Z",
+      "posted": "2026-03-30T01:58:26.000Z",
       "category": "other",
-      "thumbnail": "https://preview.redd.it/xw9gixn4i1sg1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=d9dcba6dced43482124f4856fcf8e7257c79017c"
+      "thumbnail": null
+    },
+    {
+      "title": "objectively, PvZ HD is the best way to play the original game on mobile.",
+      "url": "https://www.reddit.com/r/PlantsVSZombies/comments/1s7dqp0/objectively_pvz_hd_is_the_best_way_to_play_the/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-03-30T01:57:42.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
+    {
+      "title": "Night reading with my Kindle",
+      "url": "https://i.redd.it/lablydr7a3sg1.jpeg",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-03-30T01:57:35.000Z",
+      "category": "other",
+      "thumbnail": "https://preview.redd.it/lablydr7a3sg1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=c71b2fca01912627e4362a44c36d7274ef19d019"
+    },
+    {
+      "title": "Utterly disappointed in Uber",
+      "url": "https://i.redd.it/6fp8c5y7a3sg1.jpeg",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-03-30T01:57:35.000Z",
+      "category": "other",
+      "thumbnail": "https://preview.redd.it/6fp8c5y7a3sg1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=11bd18f28f1841480a35a8f2616f308c894803b8"
     },
     {
       "title": "🔍 Ski Jackets on Sale",
@@ -19,7 +52,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     },
     {
@@ -28,7 +61,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     },
     {
@@ -37,7 +70,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     },
     {
@@ -46,7 +79,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     },
     {
@@ -55,7 +88,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     },
     {
@@ -64,7 +97,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     },
     {
@@ -73,7 +106,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     },
     {
@@ -82,7 +115,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     },
     {
@@ -91,7 +124,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-03-29T20:00:20.053Z",
+      "posted": "2026-03-30T02:00:25.443Z",
       "isAmazonSearch": true
     }
   ]
