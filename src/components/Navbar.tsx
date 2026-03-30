@@ -3,9 +3,7 @@
 import { useState } from "react";
 import StreakBadge from "@/components/StreakBadge";
 import Link from "next/link";
-import StreakBadge from "@/components/StreakBadge";
 import { usePathname } from "next/navigation";
-import StreakBadge from "@/components/StreakBadge";
 
 const NAV_LINKS = [
   { href: "/techniques", label: "Skiing Techniques" },
