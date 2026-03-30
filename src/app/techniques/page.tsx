@@ -1,61 +1,13 @@
 "use client";
 
 import { Suspense, useState, useEffect } from "react";
-
-  const [activeCondition, setActiveCondition] = useState<string | null>(null);
-  const CONDITIONS = ["Groomed", "Moguls", "Powder", "Ice", "All"];
-  const filteredTechniques = activeCondition
-    ? techniques.filter(t => t.conditions?.includes(activeCondition))
-    : techniques;
 import { useSearchParams } from "next/navigation";
-
-  const [activeCondition, setActiveCondition] = useState<string | null>(null);
-  const CONDITIONS = ["Groomed", "Moguls", "Powder", "Ice", "All"];
-  const filteredTechniques = activeCondition
-    ? techniques.filter(t => t.conditions?.includes(activeCondition))
-    : techniques;
 import { techniques } from "@/data/techniques";
-
-  const [activeCondition, setActiveCondition] = useState<string | null>(null);
-  const CONDITIONS = ["Groomed", "Moguls", "Powder", "Ice", "All"];
-  const filteredTechniques = activeCondition
-    ? techniques.filter(t => t.conditions?.includes(activeCondition))
-    : techniques;
 import type { DifficultyRating } from "@/data/techniques";
-
-  const [activeCondition, setActiveCondition] = useState<string | null>(null);
-  const CONDITIONS = ["Groomed", "Moguls", "Powder", "Ice", "All"];
-  const filteredTechniques = activeCondition
-    ? techniques.filter(t => t.conditions?.includes(activeCondition))
-    : techniques;
 import TechniqueCard from "@/components/TechniqueCard";
-
-  const [activeCondition, setActiveCondition] = useState<string | null>(null);
-  const CONDITIONS = ["Groomed", "Moguls", "Powder", "Ice", "All"];
-  const filteredTechniques = activeCondition
-    ? techniques.filter(t => t.conditions?.includes(activeCondition))
-    : techniques;
 import Navbar from "@/components/Navbar";
-
-  const [activeCondition, setActiveCondition] = useState<string | null>(null);
-  const CONDITIONS = ["Groomed", "Moguls", "Powder", "Ice", "All"];
-  const filteredTechniques = activeCondition
-    ? techniques.filter(t => t.conditions?.includes(activeCondition))
-    : techniques;
 import Breadcrumbs from "@/components/Breadcrumbs";
-
-  const [activeCondition, setActiveCondition] = useState<string | null>(null);
-  const CONDITIONS = ["Groomed", "Moguls", "Powder", "Ice", "All"];
-  const filteredTechniques = activeCondition
-    ? techniques.filter(t => t.conditions?.includes(activeCondition))
-    : techniques;
 import AdUnit from "@/components/AdUnit";
-
-  const [activeCondition, setActiveCondition] = useState<string | null>(null);
-  const CONDITIONS = ["Groomed", "Moguls", "Powder", "Ice", "All"];
-  const filteredTechniques = activeCondition
-    ? techniques.filter(t => t.conditions?.includes(activeCondition))
-    : techniques;
 
 const RATINGS: { value: DifficultyRating | "all"; label: string }[] = [
   { value: "all", label: "All Levels" },
