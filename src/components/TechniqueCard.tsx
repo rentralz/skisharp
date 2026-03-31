@@ -6,6 +6,15 @@ interface Props {
   technique: Technique;
 }
 
+
+const DifficultyDots = ({ level }: { level: number }) => (
+  <span className="flex gap-0.5 items-center" aria-label={`Difficulty: ${level}/10`}>
+    {[...Array(10)].map((_, i) => (
+      <span key={i} className={`text-xs ${i < level ? "text-[#B4835A]" : "text-gray-200"}`}>&#9679;</span>
+    ))}
+  </span>
+);
+
 export default function TechniqueCard({ technique }: Props) {
   const primaryVideo = technique.youtubeVideos.find((v) => v.isPrimary) ?? technique.youtubeVideos[0];
 
@@ -55,7 +64,7 @@ export default function TechniqueCard({ technique }: Props) {
       {/* Content */}
       <div className="p-4">
         <div className="mb-2">
-          <DifficultyBadge difficulty={technique.difficulty} rating={technique.rating} />
+          <DifficultyBadge difficulty={technique.difficulty} rating={technique.rating} /> <DifficultyDots level={technique.difficulty} />
         </div>
 
         <h3 className="text-gray-900 font-semibold text-lg mb-1.5 group-hover:text-[#e8722a] transition-colors">
