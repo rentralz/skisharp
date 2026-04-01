@@ -50,12 +50,16 @@ html {
   }
 }
 
-/* Dark mode */
+/* Dark mode overrides */
 .dark { color-scheme: dark; }
 .dark body { background: #0d1b2a; color: #e2e8f0; }
-.dark nav { background: #0d1b2a/95; border-color: #1e3a5c; }
+.dark nav { background: #0c1a2e; border-color: #1e3a5c; }
+.dark nav .text-\[\#aaa\] { color: #94a3b8; }
 .dark .text-\[\#aaa\] { color: #94a3b8; }
 .dark .text-\[\#222\] { color: #e2e8f0; }
+.dark nav .text-\[\#222\] { color: #e2e8f0; }
+.dark .border-gray-200 { border-color: #1e3a5c; }
 .dark .border-gray-100 { border-color: #1e3a5c; }
-.dark .bg-white { background: #0d1b2a; }
+.dark .bg-white { background: #0c1a2e; }
 .dark .hover\:bg-gray-50:hover { background: #1e3a5c; }
+.dark .hover\:bg-gray-100:hover { background: #1e3a5c; }
