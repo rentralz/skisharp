@@ -15,6 +15,11 @@ const DifficultyDots = ({ level }: { level: number }) => (
   </span>
 );
 
+
+const ReadTime = ({ videos, description }: { videos: number; description: string }) => {
+  const mins = Math.max(1, Math.ceil(videos * 3 + description.split(" ").length / 200));
+  return <span className="text-xs text-gray-400" aria-label={`${mins} min read`}>{mins} min</span>;
+};
 export default function TechniqueCard({ technique }: Props) {
   const primaryVideo = technique.youtubeVideos.find((v) => v.isPrimary) ?? technique.youtubeVideos[0];
 
@@ -64,7 +69,7 @@ export default function TechniqueCard({ technique }: Props) {
       {/* Content */}
       <div className="p-4">
         <div className="mb-2">
-          <DifficultyBadge difficulty={technique.difficulty} rating={technique.rating} /> <DifficultyDots level={technique.difficulty} />
+          <DifficultyBadge difficulty={technique.difficulty} rating={technique.rating} /> <DifficultyDots level={technique.difficulty} /> <ReadTime videos={technique.youtubeVideos.length} description={technique.description} />
         </div>
 
         <h3 className="text-gray-900 font-semibold text-lg mb-1.5 group-hover:text-[#e8722a] transition-colors">
