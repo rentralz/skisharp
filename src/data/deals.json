@@ -1,36 +1,14 @@
 {
-  "lastScanned": "2026-04-01T14:00:21.889Z",
-  "totalDeals": 11,
+  "lastScanned": "2026-04-02T20:01:32.842Z",
+  "totalDeals": 9,
   "deals": [
-    {
-      "title": "Iga gave a long interview to the polish media today",
-      "url": "https://www.reddit.com/gallery/1s9lccv",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 3,
-      "comments": 0,
-      "posted": "2026-04-01T13:57:37.000Z",
-      "category": "other",
-      "thumbnail": "https://preview.redd.it/jhrvypturksg1.png?width=140&amp;height=124&amp;auto=webp&amp;s=449125360cf56b9f140de47439face1c4b43b473"
-    },
-    {
-      "title": "What Rodante Marcoleta of Iglesia ni Cristo partylist Alagad was doing during Gloria Macapagal Arroyo",
-      "url": "https://www.reddit.com/gallery/1s9lcdr",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 1,
-      "posted": "2026-04-01T13:57:39.000Z",
-      "category": "other",
-      "thumbnail": "https://preview.redd.it/9mz54b1epjsg1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=0bf1b49ed9b2ff58cb6ef49d56d910335ae5f9e7"
-    },
     {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     },
     {
@@ -39,7 +17,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     },
     {
@@ -48,7 +26,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     },
     {
@@ -57,7 +35,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     },
     {
@@ -66,7 +44,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     },
     {
@@ -75,7 +53,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     },
     {
@@ -84,7 +62,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     },
     {
@@ -93,7 +71,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     },
     {
@@ -102,7 +80,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-04-01T14:00:21.889Z",
+      "posted": "2026-04-02T20:01:32.841Z",
       "isAmazonSearch": true
     }
   ]
