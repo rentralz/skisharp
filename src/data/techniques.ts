@@ -36,6 +36,7 @@ export interface Technique {
   prerequisites: string[];
   nextSteps: string[];
   youtubeVideos: VideoEntry[];
+  updatedAt?: string; // ISO date string e.g. "2025-03"
 }
 
 export const techniques: Technique[] = [
@@ -91,6 +92,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Patient, step-by-step on-slope instruction",
       },
     ],
+    updatedAt: "2025-03",
   },
   {
     id: "hockey-stop",
@@ -136,6 +138,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Fun, high-energy breakdown",
       },
     ],
+    updatedAt: "2025-06",
   },
   {
     id: "speed-control",
@@ -189,6 +192,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Calm, technical on-slope coaching",
       },
     ],
+    updatedAt: "2025-05",
   },
   {
     id: "wedge-christie",
@@ -287,6 +291,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Step-by-step drill-based",
       },
     ],
+    updatedAt: "2025-08",
   },
   {
     id: "pole-planting",
@@ -340,6 +345,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Technical on-slope with slow-motion analysis",
       },
     ],
+    updatedAt: "2025-07",
   },
   {
     id: "hip-angulation",
@@ -1649,6 +1655,7 @@ export const techniques: Technique[] = [
         teachingStyle: "Drill-focused with instant visible results",
       },
     ],
+    updatedAt: "2025-10",
   },
   {
     id: "long-radius-turns",

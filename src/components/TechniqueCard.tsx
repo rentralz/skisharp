@@ -3,6 +3,11 @@ import type { Technique } from "@/data/techniques";
 import DifficultyBadge from "./DifficultyBadge";
 import ShareButton from "./ShareButton";
 
+function UpdatedBadge({ date }: { date: string }) {
+  const formatted = new Date(date + "-01").toLocaleDateString("en-US", { month: "short", year: "numeric" });
+  return <span className="text-xs text-gray-400">Updated {formatted}</span>;
+}
+
 interface Props {
   technique: Technique;
 }
@@ -92,6 +97,7 @@ export default function TechniqueCard({ technique }: Props) {
             </span>
           ))}
         </div>
+        {technique.updatedAt && <UpdatedBadge date={technique.updatedAt} />}
       </div>
     </Link>
   );
