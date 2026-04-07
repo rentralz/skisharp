@@ -1,14 +1,78 @@
 {
-  "lastScanned": "2026-04-07T14:01:29.830Z",
-  "totalDeals": 9,
+  "lastScanned": "2026-04-07T20:00:23.596Z",
+  "totalDeals": 14,
   "deals": [
+    {
+      "title": "Never seen this before. Edwin Díaz rolled out to stretch today in a brimless hat. Just a regular Dodger cap with the bill sliced off.",
+      "url": "https://i.redd.it/j1l276g4qttg1.jpeg",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 6,
+      "comments": 6,
+      "posted": "2026-04-07T19:57:08.000Z",
+      "category": "other",
+      "thumbnail": "https://preview.redd.it/j1l276g4qttg1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=8a314f4448e71bf2c4c0f6cf6dd6999228297c50"
+    },
+    {
+      "title": "Hold up let me get off some steam about the tv man",
+      "url": "https://i.redd.it/iuix2xb6qttg1.jpeg",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 1,
+      "posted": "2026-04-07T19:57:26.000Z",
+      "category": "other",
+      "thumbnail": "https://preview.redd.it/iuix2xb6qttg1.jpeg?width=140&amp;height=93&amp;auto=webp&amp;s=005438e9b4b5af22bc20009440179640178e54b5"
+    },
+    {
+      "title": "Dog Lady Revenge",
+      "url": "https://www.reddit.com/r/revengestories/comments/1sf6vru/dog_lady_revenge/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-04-07T19:57:19.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
+    {
+      "title": "Confused by NHS advice on blue cheese",
+      "url": "https://www.reddit.com/r/PregnancyUK/comments/1sf6vlp/confused_by_nhs_advice_on_blue_cheese/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-04-07T19:57:08.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
+    {
+      "title": "There’s nothing wrong with not wanting to date someone who’s had a lot of sexual partners.",
+      "url": "https://www.reddit.com/r/TrueUnpopularOpinion/comments/1sf6vkr/theres_nothing_wrong_with_not_wanting_to_date/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-04-07T19:57:06.000Z",
+      "category": "other",
+      "thumbnail": null
+    },
+    {
+      "title": "🔍 Ski Jackets on Sale",
+      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "jackets",
+      "posted": "2026-04-07T20:00:23.595Z",
+      "isAmazonSearch": true
+    },
     {
       "title": "🔍 Ski Pants Clearance",
       "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-04-07T14:01:29.830Z",
+      "posted": "2026-04-07T20:00:23.595Z",
       "isAmazonSearch": true
     },
     {
@@ -17,7 +81,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-04-07T14:01:29.830Z",
+      "posted": "2026-04-07T20:00:23.595Z",
       "isAmazonSearch": true
     },
     {
@@ -26,7 +90,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-04-07T14:01:29.830Z",
+      "posted": "2026-04-07T20:00:23.595Z",
       "isAmazonSearch": true
     },
     {
@@ -35,7 +99,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-04-07T14:01:29.830Z",
+      "posted": "2026-04-07T20:00:23.595Z",
       "isAmazonSearch": true
     },
     {
@@ -44,7 +108,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-04-07T14:01:29.830Z",
+      "posted": "2026-04-07T20:00:23.595Z",
       "isAmazonSearch": true
     },
     {
@@ -53,7 +117,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-04-07T14:01:29.830Z",
+      "posted": "2026-04-07T20:00:23.595Z",
       "isAmazonSearch": true
     },
     {
@@ -62,7 +126,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-04-07T14:01:29.830Z",
+      "posted": "2026-04-07T20:00:23.595Z",
       "isAmazonSearch": true
     },
     {
@@ -71,16 +135,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-04-07T14:01:29.830Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Jackets on Sale",
-      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "jackets",
-      "posted": "2026-04-07T14:01:29.829Z",
+      "posted": "2026-04-07T20:00:23.595Z",
       "isAmazonSearch": true
     }
   ]
