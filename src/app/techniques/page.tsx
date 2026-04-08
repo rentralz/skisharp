@@ -1,28 +1,30 @@
 "use client";
 
-import { Suspense, useState, useEffect } from "react";
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { techniques } from "@/data/techniques";
 import type { DifficultyRating } from "@/data/techniques";
-import TechniqueCard from "@/components/TechniqueCard";
 import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdUnit from "@/components/AdUnit";
+import TechniqueFilterBar from "@/components/TechniqueFilterBar";
+import TechniqueGrid from "@/components/TechniqueGrid";
+import { useTechniqueFilters } from "@/hooks/useTechniqueFilters";
 
-const RATINGS: { value: DifficultyRating | "all"; label: string }[] = [
-  { value: "all", label: "All Levels" },
-  { value: "green", label: "Green (Beginner)" },
-  { value: "blue", label: "Blue (Intermediate)" },
-  { value: "black", label: "Black (Advanced)" },
-  { value: "double-black", label: "Double Black (Expert)" },
-];
-
-const VALID_RATINGS = new Set(["green", "blue", "black", "double-black"]);
-const ALL_TERRAIN = Array.from(new Set(techniques.flatMap((t) => t.terrain)));
+function TechniquesPageFallback() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      <div className="max-w-6xl mx-auto px-4 py-20 text-center text-gray-500">
+        Loading techniques...
+      </div>
+    </div>
+  );
+}
 
 export default function TechniquesPage() {
   return (
-    <Suspense fallback={<div className="min-h-screen bg-white"><Navbar /><div className="max-w-6xl mx-auto px-4 py-20 text-center text-gray-500">Loading techniques...</div></div>}>
+    <Suspense fallback={<TechniquesPageFallback />}>
       <TechniquesContent />
     </Suspense>
   );
@@ -31,33 +33,27 @@ export default function TechniquesPage() {
 function TechniquesContent() {
   const searchParams = useSearchParams();
   const ratingParam = searchParams.get("rating");
-  const initialRating = ratingParam && VALID_RATINGS.has(ratingParam)
-    ? (ratingParam as DifficultyRating)
-    : "all";
 
-  const [selectedRating, setSelectedRating] = useState<DifficultyRating | "all">(initialRating);
-  const [selectedTerrain, setSelectedTerrain] = useState<string | "all">("all");
+  const VALID_RATINGS = new Set(["green", "blue", "black", "double-black"]);
+  const initialRating =
+    ratingParam && VALID_RATINGS.has(ratingParam)
+      ? (ratingParam as DifficultyRating)
+      : undefined;
 
-  // Sync state when URL params change (e.g., nav link clicked)
-  useEffect(() => {
-    const r = searchParams.get("rating");
-    if (r && VALID_RATINGS.has(r)) {
-      setSelectedRating(r as DifficultyRating);
-    } else if (!r) {
-      setSelectedRating("all");
-    }
-  }, [searchParams]);
-
-  const filtered = techniques.filter((t) => {
-    const ratingMatch = selectedRating === "all" || t.rating === selectedRating;
-    const terrainMatch = selectedTerrain === "all" || t.terrain.includes(selectedTerrain);
-    return ratingMatch && terrainMatch;
-  });
+  const {
+    filters,
+    setRating,
+    setTerrain,
+    clearFilters,
+    filtered,
+    allTerrain,
+  } = useTechniqueFilters(techniques, initialRating);
 
   return (
     <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
-      <Breadcrumbs crumbs={[{label:'Techniques'}]} />
+      <Breadcrumbs crumbs={[{ label: "Techniques" }]} />
+
       {/* Header */}
       <div id="main-content" className="bg-white border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -72,90 +68,16 @@ function TechniquesContent() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        {/* Filters */}
-        <div className="mb-8 space-y-4">
-          {/* Difficulty filter */}
-          <div>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">
-              Difficulty
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {RATINGS.map(({ value, label }) => (
-                <button
-                  key={value}
-                  onClick={() => setSelectedRating(value)}
-                  aria-pressed={selectedRating === value}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                    selectedRating === value
-                      ? "bg-[#e8722a] text-gray-900"
-                      : "bg-gray-50 text-gray-500 hover:bg-white/10 hover:text-gray-900 border border-gray-300"
-                  }`}
-                >
-                  {label}
-                </button>
-              ))}
-            </div>
-          </div>
+        <TechniqueFilterBar
+          filters={filters}
+          allTerrain={allTerrain}
+          onRatingChange={setRating}
+          onTerrainChange={setTerrain}
+        />
 
-          {/* Terrain filter */}
-          <div>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">
-              Terrain
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={() => setSelectedTerrain("all")}
-                aria-pressed={selectedTerrain === "all"}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedTerrain === "all"
-                    ? "bg-[#e8722a] text-gray-900"
-                    : "bg-gray-50 text-gray-500 hover:bg-white/10 hover:text-gray-900 border border-gray-300"
-                }`}
-              >
-                All Terrain
-              </button>
-              {ALL_TERRAIN.map((terrain) => (
-                <button
-                  key={terrain}
-                  onClick={() => setSelectedTerrain(terrain)}
-                  aria-pressed={selectedTerrain === terrain}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                    selectedTerrain === terrain
-                      ? "bg-[#e8722a] text-gray-900"
-                      : "bg-gray-50 text-gray-500 hover:bg-white/10 hover:text-gray-900 border border-gray-300"
-                  }`}
-                >
-                  {terrain}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Ad — between filters and grid */}
         <AdUnit slot="techniques-listing" format="horizontal" className="max-w-3xl mx-auto" />
 
-        {/* Grid */}
-        {filtered.length > 0 ? (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {filtered.map((technique) => (
-              <TechniqueCard key={technique.id} technique={technique} />
-            ))}
-          </div>
-        ) : (
-          <div className="text-center py-20 text-gray-500">
-            <p className="text-lg">No techniques match your filters.</p>
-            <button
-              onClick={() => {
-                setSelectedRating("all");
-                setSelectedTerrain("all");
-              }}
-              className="mt-4 text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
-            >
-              Clear filters
-            </button>
-          </div>
-        )}
+        <TechniqueGrid techniques={filtered} onClearFilters={clearFilters} />
       </div>
     </div>
   );
