@@ -1,33 +1,19 @@
 import Link from "next/link";
 import type { Technique } from "@/data/techniques";
 import DifficultyBadge from "./DifficultyBadge";
+import DifficultyDots from "./badges/DifficultyDots";
+import ReadTime from "./badges/ReadTime";
+import UpdatedBadge from "./badges/UpdatedBadge";
 import ShareButton from "./ShareButton";
-
-function UpdatedBadge({ date }: { date: string }) {
-  const formatted = new Date(date + "-01").toLocaleDateString("en-US", { month: "short", year: "numeric" });
-  return <span className="text-xs text-gray-400">Updated {formatted}</span>;
-}
+import TerrainTags from "./TerrainTags";
 
 interface Props {
   technique: Technique;
 }
 
-
-const DifficultyDots = ({ level }: { level: number }) => (
-  <span className="flex gap-0.5 items-center" aria-label={`Difficulty: ${level}/10`}>
-    {[...Array(10)].map((_, i) => (
-      <span key={i} className={`text-xs ${i < level ? "text-[#B4835A]" : "text-gray-200"}`}>&#9679;</span>
-    ))}
-  </span>
-);
-
-
-const ReadTime = ({ videos, description }: { videos: number; description: string }) => {
-  const mins = Math.max(1, Math.ceil(videos * 3 + description.split(" ").length / 200));
-  return <span className="text-xs text-gray-400" aria-label={`${mins} min read`}>{mins} min</span>;
-};
 export default function TechniqueCard({ technique }: Props) {
-  const primaryVideo = technique.youtubeVideos.find((v) => v.isPrimary) ?? technique.youtubeVideos[0];
+  const primaryVideo =
+    technique.youtubeVideos.find((v) => v.isPrimary) ?? technique.youtubeVideos[0];
 
   return (
     <Link
@@ -37,7 +23,6 @@ export default function TechniqueCard({ technique }: Props) {
     >
       {/* Thumbnail */}
       <div className="relative h-44 bg-gray-100 overflow-hidden">
-        {/* YouTube thumbnail */}
         {primaryVideo && (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
@@ -49,10 +34,8 @@ export default function TechniqueCard({ technique }: Props) {
           />
         )}
 
-        {/* Dark overlay for readability */}
         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
 
-        {/* Play button overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-12 h-12 rounded-full bg-white/90 shadow-lg flex items-center justify-center group-hover:bg-[#e8722a] group-hover:scale-110 transition-all duration-300">
             <svg
@@ -66,7 +49,6 @@ export default function TechniqueCard({ technique }: Props) {
           </div>
         </div>
 
-        {/* Video count badge */}
         <div className="absolute top-3 right-3 bg-white/90 text-gray-700 text-xs px-2 py-1 rounded-full font-medium shadow-sm">
           {technique.youtubeVideos.length} video{technique.youtubeVideos.length !== 1 ? "s" : ""}
         </div>
@@ -75,7 +57,16 @@ export default function TechniqueCard({ technique }: Props) {
       {/* Content */}
       <div className="p-4">
         <div className="mb-2">
-          <DifficultyBadge difficulty={technique.difficulty} rating={technique.rating} /> <DifficultyDots level={technique.difficulty} /> <ReadTime videos={technique.youtubeVideos.length} description={technique.description} /> <ShareButton url={`/techniques/${technique.slug}`} />
+          <DifficultyBadge
+            difficulty={technique.difficulty}
+            rating={technique.rating}
+          />{" "}
+          <DifficultyDots level={technique.difficulty} />{" "}
+          <ReadTime
+            videos={technique.youtubeVideos.length}
+            description={technique.description}
+          />{" "}
+          <ShareButton url={`/techniques/${technique.slug}`} />
         </div>
 
         <h3 className="text-gray-900 font-semibold text-lg mb-1.5 group-hover:text-[#e8722a] transition-colors">
@@ -86,17 +77,7 @@ export default function TechniqueCard({ technique }: Props) {
           {technique.description}
         </p>
 
-        {/* Terrain tags */}
-        <div className="flex flex-wrap gap-1.5">
-          {technique.terrain.map((t) => (
-            <span
-              key={t}
-              className="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 border border-gray-200"
-            >
-              {t}
-            </span>
-          ))}
-        </div>
+        <TerrainTags terrain={technique.terrain} />
         {technique.updatedAt && <UpdatedBadge date={technique.updatedAt} />}
       </div>
     </Link>
