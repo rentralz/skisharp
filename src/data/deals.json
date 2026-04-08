@@ -1,67 +1,14 @@
 {
-  "lastScanned": "2026-04-08T02:01:33.489Z",
-  "totalDeals": 13,
+  "lastScanned": "2026-04-08T20:00:22.501Z",
+  "totalDeals": 9,
   "deals": [
-    {
-      "title": "Anyone lucky enough to win one of the “jersey off the backs” from tonight?",
-      "url": "https://i.redd.it/r1n4jvprivtg1.jpeg",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 0,
-      "posted": "2026-04-08T01:59:29.000Z",
-      "category": "other",
-      "thumbnail": "https://preview.redd.it/r1n4jvprivtg1.jpeg?width=140&amp;height=78&amp;auto=webp&amp;s=354d0ee8f58f355971fe3b6d48125becc21dffed"
-    },
-    {
-      "title": "I can't draw but I can write. So. Here's some fanfiction in the style of a manga script",
-      "url": "https://www.reddit.com/r/earclacks/comments/1sffqqb/i_cant_draw_but_i_can_write_so_heres_some/",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 1,
-      "posted": "2026-04-08T01:58:49.000Z",
-      "category": "other",
-      "thumbnail": null
-    },
-    {
-      "title": "Dear All Two Time Players",
-      "url": "https://www.reddit.com/r/FORSAKENROBLOX/comments/1sffqlm/dear_all_two_time_players/",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 4,
-      "posted": "2026-04-08T01:58:39.000Z",
-      "category": "other",
-      "thumbnail": null
-    },
-    {
-      "title": "the \"gnarly\" aesthetic isn't working for them anymore",
-      "url": "https://www.reddit.com/r/katseyeneutral/comments/1sffqge/the_gnarly_aesthetic_isnt_working_for_them_anymore/",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 0,
-      "posted": "2026-04-08T01:58:27.000Z",
-      "category": "other",
-      "thumbnail": null
-    },
-    {
-      "title": "🔍 Ski Jackets on Sale",
-      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "jackets",
-      "posted": "2026-04-08T02:01:33.489Z",
-      "isAmazonSearch": true
-    },
     {
       "title": "🔍 Ski Pants Clearance",
       "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-04-08T02:01:33.489Z",
+      "posted": "2026-04-08T20:00:22.501Z",
       "isAmazonSearch": true
     },
     {
@@ -70,7 +17,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-04-08T02:01:33.489Z",
+      "posted": "2026-04-08T20:00:22.501Z",
       "isAmazonSearch": true
     },
     {
@@ -79,7 +26,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-04-08T02:01:33.489Z",
+      "posted": "2026-04-08T20:00:22.501Z",
       "isAmazonSearch": true
     },
     {
@@ -88,7 +35,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-04-08T02:01:33.489Z",
+      "posted": "2026-04-08T20:00:22.501Z",
       "isAmazonSearch": true
     },
     {
@@ -97,7 +44,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-04-08T02:01:33.489Z",
+      "posted": "2026-04-08T20:00:22.501Z",
       "isAmazonSearch": true
     },
     {
@@ -106,7 +53,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-04-08T02:01:33.489Z",
+      "posted": "2026-04-08T20:00:22.501Z",
       "isAmazonSearch": true
     },
     {
@@ -115,7 +62,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-04-08T02:01:33.489Z",
+      "posted": "2026-04-08T20:00:22.501Z",
       "isAmazonSearch": true
     },
     {
@@ -124,7 +71,16 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-04-08T02:01:33.489Z",
+      "posted": "2026-04-08T20:00:22.501Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Jackets on Sale",
+      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "jackets",
+      "posted": "2026-04-08T20:00:22.499Z",
       "isAmazonSearch": true
     }
   ]
