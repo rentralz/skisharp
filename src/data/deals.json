@@ -1,15 +1,48 @@
 {
-  "lastScanned": "2026-04-09T20:00:37.778Z",
-  "totalDeals": 10,
+  "lastScanned": "2026-04-11T02:00:31.358Z",
+  "totalDeals": 13,
   "deals": [
     {
-      "title": "[Waybound] What’s your favorite instance of Lindon being underestimated?",
-      "url": "https://www.reddit.com/r/Iteration110Cradle/comments/1sh0hm4/waybound_whats_your_favorite_instance_of_lindon/",
+      "title": "[Receiver] DANIEL DEFENSE DDM4 COMPLE LOWER W/SBA3 BRACE $399.99 plus shipping",
+      "url": "https://www.208gunshop.com/daniel-defense/daniel-defense-ddm4-comple-lower-w-sba3-brace-958099",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 4,
+      "comments": 2,
+      "posted": "2026-04-11T01:57:13.000Z",
+      "category": "other",
+      "thumbnail": "https://external-preview.redd.it/wXUTNYy2LmtFhp4dl5YneU5-9jfzQ7c2acPpt8D2vdg.jpeg?width=140&amp;height=93&amp;auto=webp&amp;s=7781aa37bb6e479fc6c1f7cad142407c54ef4c69"
+    },
+    {
+      "title": "The Digital Circus Episode 9 Problem",
+      "url": "https://youtu.be/53qgunUdyhw?si=leNOyzg1Mkbez6jJ",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-04-11T01:57:14.000Z",
+      "category": "other",
+      "thumbnail": "https://external-preview.redd.it/Q6j8mNtntUaD-hhp6VkOBnRYtYOC1h2Lyfw_M3y65Xg.jpeg?width=140&amp;height=105&amp;auto=webp&amp;s=2356039f1bba18fdd3961b025a4ffd0529290e4a"
+    },
+    {
+      "title": "Does anyone know where i can find this bag ?? 😭",
+      "url": "https://i.redd.it/77ojdn5xwgug1.jpeg",
       "source": "r/skiing",
       "sourceIcon": "🔴",
       "score": 2,
       "comments": 1,
-      "posted": "2026-04-09T19:58:06.000Z",
+      "posted": "2026-04-11T01:56:14.000Z",
+      "category": "packs",
+      "thumbnail": "https://preview.redd.it/77ojdn5xwgug1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=844e86d9304ad5b4a42d1dd36a141ae41ffe8458"
+    },
+    {
+      "title": "Alchemy rules confusion",
+      "url": "https://www.reddit.com/r/LunacidGame/comments/1si60wx/alchemy_rules_confusion/",
+      "source": "r/skiing",
+      "sourceIcon": "🔴",
+      "score": 2,
+      "comments": 0,
+      "posted": "2026-04-11T01:56:07.000Z",
       "category": "other",
       "thumbnail": null
     },
@@ -19,7 +52,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     },
     {
@@ -28,7 +61,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     },
     {
@@ -37,7 +70,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     },
     {
@@ -46,7 +79,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     },
     {
@@ -55,7 +88,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     },
     {
@@ -64,7 +97,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     },
     {
@@ -73,7 +106,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     },
     {
@@ -82,7 +115,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     },
     {
@@ -91,7 +124,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-04-09T20:00:37.778Z",
+      "posted": "2026-04-11T02:00:31.358Z",
       "isAmazonSearch": true
     }
   ]
