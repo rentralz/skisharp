@@ -1,65 +1,75 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #1a1a2e;
-  --signal-orange: #e8722a;
-  --snow-white: #f9fafb;
-  --ridge-gray: #6b7280;
-  --card-bg: #ffffff;
-  --border: #e5e7eb;
-  --text-secondary: #4a5568;
-  --surface: #f9fafb;
+/* Page transition animations */
+.page-transition-hidden {
+  opacity: 0;
+  transform: translateY(8px);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-signal-orange: var(--signal-orange);
-  --color-snow-white: var(--snow-white);
-  --color-ridge-gray: var(--ridge-gray);
-  --color-card-bg: var(--card-bg);
-  --font-sans: var(--font-inter);
+.page-transition-visible {
+  animation: page-fade-in 0.35s ease-out forwards;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  background-image: radial-gradient(circle at 1px 1px, #f0f0f0 1px, transparent 0);
-  background-size: 40px 40px;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-/* Focus indicators for keyboard navigation */
-*:focus-visible {
-  outline: 2px solid var(--signal-orange);
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-
-/* Respect reduced motion preference */
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-/* Dark mode overrides */
-.dark { color-scheme: dark; }
-.dark body { background: #0d1b2a; color: #e2e8f0; }
-.dark nav { background: #0c1a2e; border-color: #1e3a5c; }
-.dark nav .text-\[\#aaa\] { color: #94a3b8; }
-.dark .text-\[\#aaa\] { color: #94a3b8; }
-.dark .text-\[\#222\] { color: #e2e8f0; }
-.dark nav .text-\[\#222\] { color: #e2e8f0; }
-.dark .border-gray-200 { border-color: #1e3a5c; }
-.dark .border-gray-100 { border-color: #1e3a5c; }
-.dark .bg-white { background: #0c1a2e; }
-.dark .hover\:bg-gray-50:hover { background: #1e3a5c; }
-.dark .hover\:bg-gray-100:hover { background: #1e3a5c; }
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .page-transition-hidden {
+    opacity: 1;
+    transform: none;
+  }
+
+  .page-transition-visible {
+    animation: none;
+  }
+}
+
+/* Base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :focus-visible {
+    outline: 2px solid #e8722a;
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: #e8722a;
+    color: white;
+  }
+}
+
+/* Custom scrollbar */
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #e8722a #f3f4f6;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 3px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #e8722a;
+    border-radius: 3px;
+  }
+}
