@@ -5,6 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import SkipNav from "@/components/SkipNav";
 import PostHogProvider from "@/components/PostHogProvider";
+import PageTransition from "@/components/PageTransition";
 import "./globals.css";
 
 const inter = Inter({
@@ -65,14 +66,13 @@ export default function RootLayout({
           />
         </head>
       )}
-      <body className="min-h-full flex flex-col bg-white text-[#1a1a2e]">
-        <SkipNav />
-        <Breadcrumbs />
+      <body className="min-h-screen bg-white dark:bg-[#111] text-[#222] dark:text-gray-100">
         <PostHogProvider>
-          {children}
+          <SkipNav />
+          <PageTransition>{children}</PageTransition>
+          <Analytics />
+          <SpeedInsights />
         </PostHogProvider>
-        <Analytics />
-        <SpeedInsights />
       </body>
     </html>
   );
