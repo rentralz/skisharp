@@ -8,6 +8,49 @@ export default function HomePage() {
   const intermediateCount = techniques.filter((t) => t.rating === "blue").length;
   const advancedCount = techniques.filter((t) => t.rating === "black" || t.rating === "double-black").length;
 
+  const learningPaths = [
+    {
+      level: "Beginner",
+      desc: "Elevate your skiing from first steps to confident green runs.",
+      href: "/techniques?rating=green",
+      img: "https://img.youtube.com/vi/T1BsQPFdt7w/hqdefault.jpg",
+      count: beginnerCount,
+      icon: (
+        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 8v8M8 12h8"/>
+        </svg>
+      ),
+    },
+    {
+      level: "Intermediate",
+      desc: "Refine parallel turns, edge control, and tackle blues.",
+      href: "/techniques?rating=blue",
+      img: "https://img.youtube.com/vi/LrmCNarCzIY/hqdefault.jpg",
+      count: intermediateCount,
+      icon: (
+        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+      ),
+    },
+    {
+      level: "Expert",
+      desc: "Master moguls, powder, steeps, and the full mountain.",
+      href: "/techniques?rating=black",
+      img: "https://img.youtube.com/vi/WTX21DO7Qsc/hqdefault.jpg",
+      count: advancedCount,
+      icon: (
+        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+      ),
+    },
+  ];
+
   const latestTechniques = techniques.slice(-4);
 
   return (
@@ -81,47 +124,24 @@ export default function HomePage() {
 
               {/* Learning Paths — Main (with icons) */}
               <section className="pb-16">
-                <h2 className="text-2xl font-bold text-[#222] mb-8">Learning Paths</h2>
+                <div className="flex flex-col gap-3 mb-8 sm:flex-row sm:items-end sm:justify-between">
+                  <div>
+                    <h2 className="text-2xl font-bold text-[#222]">Learning Paths</h2>
+                    <p className="mt-2 max-w-2xl text-sm text-[#646464] leading-relaxed">
+                      Pick the track that matches your current confidence on snow —
+                      {" "}{beginnerCount} beginner, {intermediateCount} intermediate,
+                      {" "}and {advancedCount} advanced techniques.
+                    </p>
+                  </div>
+                  <Link
+                    href="/techniques"
+                    className="inline-flex text-sm font-medium text-[#B4835A] hover:text-[#9A7049] transition-colors"
+                  >
+                    Browse all techniques →
+                  </Link>
+                </div>
                 <div className="grid sm:grid-cols-3 gap-5">
-                  {[
-                    {
-                      level: "Beginner",
-                      desc: "Elevate your skiing from first steps to confident green runs.",
-                      href: "/techniques?rating=green",
-                      img: "https://img.youtube.com/vi/T1BsQPFdt7w/hqdefault.jpg",
-                      icon: (
-                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                          <circle cx="12" cy="12" r="10"/>
-                          <path d="M12 8v8M8 12h8"/>
-                        </svg>
-                      ),
-                    },
-                    {
-                      level: "Intermediate",
-                      desc: "Refine parallel turns, edge control, and tackle blues.",
-                      href: "/techniques?rating=blue",
-                      img: "https://img.youtube.com/vi/LrmCNarCzIY/hqdefault.jpg",
-                      icon: (
-                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M12 19V5M5 12l7-7 7 7"/>
-                        </svg>
-                      ),
-                    },
-                    {
-                      level: "Expert",
-                      desc: "Master moguls, powder, steeps, and the full mountain.",
-                      href: "/techniques?rating=black",
-                      img: "https://img.youtube.com/vi/WTX21DO7Qsc/hqdefault.jpg",
-                      icon: (
-                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                          <circle cx="9" cy="7" r="4"/>
-                          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                        </svg>
-                      ),
-                    },
-                  ].map((path) => (
+                  {learningPaths.map((path) => (
                     <Link
                       key={path.level}
                       href={path.href}
@@ -143,6 +163,9 @@ export default function HomePage() {
                           {path.icon}
                         </div>
                         <h3 className="text-base font-bold text-[#222] mb-1.5">{path.level}</h3>
+                        <p className="inline-flex items-center rounded-full bg-[#F5F2EF] px-3 py-1 text-xs font-semibold text-[#B4835A] mb-3">
+                          {path.count} technique{path.count === 1 ? "" : "s"}
+                        </p>
                         <p className="text-sm text-[#888] leading-relaxed mb-3">{path.desc}</p>
                         <span className="text-[#B4835A] text-sm font-medium">
                           Learn More →
