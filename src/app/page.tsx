@@ -232,23 +232,52 @@ export default function HomePage() {
                   <h3 className="text-xs font-bold text-[#222] uppercase tracking-widest mb-4">Learning Paths</h3>
                   <div className="space-y-3">
                     {[
-                      { level: "Beginner", href: "/techniques?rating=green", icon: "↑" },
-                      { level: "Intermediate", href: "/techniques?rating=blue", icon: "↑" },
-                      { level: "Expert", href: "/techniques?rating=black", icon: "👥" },
+                      {
+                        level: "Beginner",
+                        href: "/techniques?rating=green",
+                        icon: "↑",
+                        count: beginnerCount,
+                        desc: "Build balance, stopping, and confidence on gentle green runs.",
+                      },
+                      {
+                        level: "Intermediate",
+                        href: "/techniques?rating=blue",
+                        icon: "↗",
+                        count: intermediateCount,
+                        desc: "Sharpen parallel turns, edge control, and blue-run confidence.",
+                      },
+                      {
+                        level: "Expert",
+                        href: "/techniques?rating=black",
+                        icon: "◆",
+                        count: advancedCount,
+                        desc: "Dial in moguls, powder, steeps, and all-mountain precision.",
+                      },
                     ].map((p) => (
                       <Link
                         key={p.level}
                         href={p.href}
                         className="group block bg-white rounded-xl p-4 border border-gray-100 shadow-[0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
                       >
-                        <div className="flex items-center gap-3 mb-1">
-                          <span className="w-7 h-7 rounded-full bg-[#F5F2EF] text-[#B4835A] text-xs flex items-center justify-center font-bold">{p.icon}</span>
-                          <span className="text-sm font-bold text-[#222]">{p.level}</span>
+                        <div className="flex items-start gap-3">
+                          <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#F5F2EF] text-xs font-bold text-[#B4835A]">
+                            {p.icon}
+                          </span>
+                          <div className="min-w-0">
+                            <div className="flex flex-wrap items-center gap-2">
+                              <span className="text-sm font-bold text-[#222]">{p.level}</span>
+                              <span className="inline-flex items-center rounded-full bg-[#F5F2EF] px-2 py-0.5 text-[10px] font-semibold text-[#B4835A]">
+                                {p.count} technique{p.count === 1 ? "" : "s"}
+                              </span>
+                            </div>
+                            <p className="mt-1 text-xs leading-relaxed text-[#888]">
+                              {p.desc}
+                            </p>
+                            <span className="mt-2 inline-flex text-xs font-medium text-[#B4835A]">
+                              Learn More →
+                            </span>
+                          </div>
                         </div>
-                        <p className="text-xs text-[#888] leading-relaxed mb-2 pl-10">
-                          Elevate your skiing with our comprehensive technique.
-                        </p>
-                        <span className="text-[#B4835A] text-xs font-medium pl-10">Learn More →</span>
                       </Link>
                     ))}
                   </div>
