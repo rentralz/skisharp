@@ -161,16 +161,28 @@ export default function QuizPage() {
   const [answers, setAnswers] = useState<number[]>([]);
   const [result, setResult] = useState<SkillResult | null>(null);
 
+  const progressPercent = Math.round(((currentQ + 1) / QUESTIONS.length) * 100);
+
   const handleAnswer = (points: number) => {
-    const newAnswers = [...answers, points];
+    const nextAnswers = [...answers];
+    nextAnswers[currentQ] = points;
+
     if (currentQ < QUESTIONS.length - 1) {
-      setAnswers(newAnswers);
+      setAnswers(nextAnswers);
       setCurrentQ(currentQ + 1);
     } else {
-      const total = newAnswers.reduce((a, b) => a + b, 0);
-      setAnswers(newAnswers);
+      const total = nextAnswers.reduce((a, b) => a + b, 0);
+      setAnswers(nextAnswers);
       setResult(getResult(total));
     }
+  };
+
+  const handleBack = () => {
+    if (currentQ === 0) {
+      return;
+    }
+
+    setCurrentQ(currentQ - 1);
   };
 
   const restart = () => {
@@ -183,49 +195,87 @@ export default function QuizPage() {
     <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
 
-      <main id="main-content" className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main id="main-content" className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
         {!result ? (
           <>
+            <section className="mb-8 rounded-[28px] border border-[#eadfd6] bg-[linear-gradient(135deg,#fffaf5_0%,#fffdfb_65%,#f5eee8_100%)] p-6 shadow-[0_18px_50px_rgba(119,85,53,0.06)] sm:p-7">
+              <div className="flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-[#a56f43]">
+                <span>6 quick questions</span>
+                <span className="h-1 w-1 rounded-full bg-[#c8a98c]" />
+                <span>About 1 minute</span>
+                <span className="h-1 w-1 rounded-full bg-[#c8a98c]" />
+                <span>No sign-up required</span>
+              </div>
+              <h1 className="mt-4 text-3xl font-black tracking-tight text-[#222] sm:text-4xl">
+                Find the right ski starting point without guessing.
+              </h1>
+              <p className="mt-4 max-w-2xl text-sm leading-7 text-[#625b54] sm:text-base">
+                Answer a few quick questions and TurnLab will point you toward the level,
+                techniques, and next goal that fit best right now.
+              </p>
+            </section>
+
             {/* Progress */}
-            <div className="mb-8">
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-xs text-[#aaa] font-medium">
+            <div className="mb-8 rounded-2xl border border-[#ece3db] bg-white p-5 shadow-[0_8px_24px_rgba(119,85,53,0.04)]">
+              <div className="flex items-center justify-between gap-4 mb-2">
+                <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#9b8674]">
                   Question {currentQ + 1} of {QUESTIONS.length}
                 </span>
-                <span className="text-xs text-[#aaa]">
-                  {Math.round(((currentQ) / QUESTIONS.length) * 100)}%
+                <span className="text-sm font-semibold text-[#7d5431]">
+                  {progressPercent}% through
                 </span>
               </div>
-              <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+              <div className="h-2 rounded-full bg-[#f1e8df] overflow-hidden">
                 <div
-                  className="h-full bg-[#B4835A] rounded-full transition-all duration-300"
-                  style={{ width: `${((currentQ) / QUESTIONS.length) * 100}%` }}
+                  className="h-full rounded-full bg-[#B4835A] transition-all duration-300"
+                  style={{ width: `${progressPercent}%` }}
                 />
               </div>
+              <p className="mt-3 text-sm text-[#736960]">
+                Choose one answer and we&apos;ll move you straight to the next step.
+              </p>
             </div>
 
-            {/* Question */}
-            <h1 className="text-2xl md:text-3xl font-bold text-[#222] mb-8">
-              {QUESTIONS[currentQ].text}
-            </h1>
+            <section className="rounded-[28px] border border-[#ece3db] bg-white p-6 shadow-[0_12px_30px_rgba(119,85,53,0.05)] sm:p-8">
+              {/* Question */}
+              <h2 className="text-2xl md:text-3xl font-bold text-[#222] mb-2">
+                {QUESTIONS[currentQ].text}
+              </h2>
+              <p className="mb-8 text-sm leading-7 text-[#736960]">
+                Pick the option that feels most true right now — you can go back if you need to adjust.
+              </p>
 
-            {/* Options */}
-            <div className="space-y-3">
-              {QUESTIONS[currentQ].options.map((opt, i) => (
-                <button
-                  key={i}
-                  onClick={() => handleAnswer(opt.points)}
-                  className="w-full text-left p-4 rounded-xl border border-gray-200 hover:border-[#B4835A] hover:bg-[#F5F2EF]/30 transition-all text-sm text-[#222] font-medium group"
-                >
-                  <span className="inline-flex items-center gap-3">
-                    <span className="w-7 h-7 rounded-full bg-gray-100 group-hover:bg-[#B4835A] group-hover:text-white text-[#646464] text-xs font-bold flex items-center justify-center transition-colors">
-                      {String.fromCharCode(65 + i)}
+              {/* Options */}
+              <div className="space-y-3">
+                {QUESTIONS[currentQ].options.map((opt, i) => (
+                  <button
+                    key={i}
+                    onClick={() => handleAnswer(opt.points)}
+                    className="w-full text-left rounded-2xl border border-gray-200 p-4 text-sm font-medium text-[#222] transition-all hover:border-[#B4835A] hover:bg-[#F5F2EF]/40 hover:shadow-sm group"
+                  >
+                    <span className="inline-flex items-center gap-3">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-xs font-bold text-[#646464] transition-colors group-hover:bg-[#B4835A] group-hover:text-white">
+                        {String.fromCharCode(65 + i)}
+                      </span>
+                      {opt.label}
                     </span>
-                    {opt.label}
-                  </span>
+                  </button>
+                ))}
+              </div>
+
+              <div className="mt-6 flex items-center justify-between gap-3">
+                <button
+                  onClick={handleBack}
+                  disabled={currentQ === 0}
+                  className="inline-flex items-center justify-center rounded-full border border-gray-200 px-4 py-2 text-sm font-semibold text-[#4f4740] transition-colors hover:border-[#d8c6b8] hover:bg-[#faf5f0] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-gray-200 disabled:hover:bg-transparent"
+                >
+                  ← Back
                 </button>
-              ))}
-            </div>
+                <Link href="/techniques" className="text-sm font-semibold text-[#8b5f39] hover:text-[#6f4828] transition-colors">
+                  Skip quiz and browse techniques →
+                </Link>
+              </div>
+            </section>
           </>
         ) : (
           /* Results */
