@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* Page transition animations */
 .page-transition-hidden {
   opacity: 0;
