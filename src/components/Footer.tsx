@@ -18,32 +18,52 @@ const LEVEL_LINKS = [
   { href: "/techniques?rating=double-black", label: "Expert (Double Black)" },
 ];
 
+const START_HERE_LINKS = [
+  { href: "/quiz", label: "Take the 1-minute quiz" },
+  { href: "/conditions-match", label: "What should I ski today?" },
+  { href: "/about", label: "How TurnLab works" },
+];
+
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 border-t border-gray-200 mt-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
-          {/* Brand */}
-          <div>
-            <div className="text-xl font-bold text-gray-900 mb-2">
-              Turn<span className="text-[#e8722a]">Lab</span>
+    <footer className="mt-16 border-t border-[#e8ddd4] bg-[#f5efe9]">
+      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr]">
+          <div className="max-w-md">
+            <div className="text-2xl font-black tracking-tight text-[#1f1b18]">
+              Turn<span className="text-[#b4835a]">Lab</span>
             </div>
-            <p className="text-gray-500 text-sm leading-relaxed">
-              The internet&apos;s best ski instruction — curated, organized, and free.
+            <p className="mt-4 text-sm leading-7 text-[#665d55] sm:text-base">
+              The internet&apos;s best ski instruction — curated, organized, and mapped
+              into progressions that make sense when you&apos;re actually standing on snow.
             </p>
+
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link
+                href="/quiz"
+                className="inline-flex items-center justify-center rounded-full bg-[#1f1b18] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#312b26]"
+              >
+                Start with the quiz
+              </Link>
+              <Link
+                href="/techniques"
+                className="inline-flex items-center justify-center rounded-full border border-[#d9c6b5] bg-white px-5 py-2.5 text-sm font-semibold text-[#7d5431] transition-colors hover:bg-[#fff7f0]"
+              >
+                Browse techniques
+              </Link>
+            </div>
           </div>
 
-          {/* Pages */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3">
-              Explore
+            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+              Start here
             </h3>
-            <ul className="space-y-2">
-              {FOOTER_LINKS.map(({ href, label }) => (
+            <ul className="mt-4 space-y-3">
+              {START_HERE_LINKS.map(({ href, label }) => (
                 <li key={href}>
                   <Link
                     href={href}
-                    className="text-sm text-gray-500 hover:text-gray-900 transition-colors"
+                    className="text-sm text-[#5f554d] transition-colors hover:text-[#1f1b18]"
                   >
                     {label}
                   </Link>
@@ -52,17 +72,34 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Levels */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-3">
-              By Level
+            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+              Explore
             </h3>
-            <ul className="space-y-2">
+            <ul className="mt-4 space-y-3">
+              {FOOTER_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link
+                    href={href}
+                    className="text-sm text-[#5f554d] transition-colors hover:text-[#1f1b18]"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+              By level
+            </h3>
+            <ul className="mt-4 space-y-3">
               {LEVEL_LINKS.map(({ href, label }) => (
                 <li key={href}>
                   <Link
                     href={href}
-                    className="text-sm text-gray-500 hover:text-gray-900 transition-colors"
+                    className="text-sm text-[#5f554d] transition-colors hover:text-[#1f1b18]"
                   >
                     {label}
                   </Link>
@@ -72,11 +109,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 pt-6 text-center">
-          <p className="text-gray-400 text-xs">
-            © {new Date().getFullYear()} TurnLab. All video content belongs to
-            their respective creators.
-          </p>
+        <div className="mt-10 border-t border-[#e2d4c8] pt-6 text-sm text-[#8b7b6d] sm:flex sm:items-center sm:justify-between">
+          <p>© {new Date().getFullYear()} TurnLab. Curated instruction, full credit to original creators.</p>
+          <p className="mt-2 sm:mt-0">Free to use. Built for better ski days.</p>
         </div>
       </div>
     </footer>
