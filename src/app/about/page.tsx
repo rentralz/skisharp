@@ -3,100 +3,224 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
+import { techniques } from "@/data/techniques";
 
 export const metadata: Metadata = {
   title: "About TurnLab",
-  description: "TurnLab is a curated skiing technique knowledge hub — expert-selected videos, organized into learning paths, and free for everyone.",
+  description:
+    "TurnLab is a curated skiing technique knowledge hub — expert-selected videos, organized into learning paths, and free for everyone.",
 };
 
 export default function AboutPage() {
+  const totalVideos = techniques.reduce(
+    (sum, technique) => sum + technique.youtubeVideos.length,
+    0,
+  );
+  const sourceChannels = new Set(
+    techniques.flatMap((technique) =>
+      technique.youtubeVideos.map((video) => video.channel),
+    ),
+  ).size;
+
+  const principles = [
+    {
+      title: "Curation",
+      description:
+        "We watch across instructors and pull the clearest, most technically useful videos instead of sending you into a search rabbit hole.",
+    },
+    {
+      title: "Structure",
+      description:
+        "Techniques are grouped by difficulty, paired with prerequisites, and mapped to natural next steps so progression actually makes sense.",
+    },
+    {
+      title: "Analysis",
+      description:
+        "Each page adds timestamps, feel cues, drills, and common-fix notes so you can apply the lesson on snow instead of just watching it.",
+    },
+    {
+      title: "Attribution",
+      description:
+        "Original creators keep the spotlight. TurnLab is a guide layer on top, with clear source links and full credit back to the instructor.",
+    },
+  ];
+
+  const expectations = [
+    {
+      title: "Get pointed to the right level fast",
+      description:
+        "Take the quick quiz when you want a starting point, or browse by level if you already know where you fit.",
+    },
+    {
+      title: "Practice with a plan",
+      description:
+        "Expect drills, feel cues, and progression suggestions that help you decide what to work on during your next ski day.",
+    },
+    {
+      title: "Stay free of paywalls",
+      description:
+        "No accounts, no subscriptions, and no locked library. TurnLab stays free, supported by light ads and affiliate links.",
+    },
+  ];
+
+  const startHereLinks = [
+    {
+      title: "Take the skill quiz",
+      description: "Get a quick recommendation for the right learning path.",
+      href: "/quiz",
+      cta: "Find your level",
+    },
+    {
+      title: "Browse all techniques",
+      description: "See every video-backed technique, drill, and feel cue in one place.",
+      href: "/techniques",
+      cta: "Explore the library",
+    },
+    {
+      title: "Start with beginner turns",
+      description: "Open the green-level collection if you want a calm first progression.",
+      href: "/techniques?rating=green",
+      cta: "View beginner path",
+    },
+  ];
+
   return (
-    <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
+    <div className="min-h-screen bg-[#fcfaf8] font-[family-name:var(--font-inter)] text-[#1f1f1f]">
       <Navbar />
       <Breadcrumbs crumbs={[{ label: "About" }]} />
 
-      <div id="main-content" className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-4xl font-extrabold text-[#222] mb-6">About TurnLab</h1>
+      <main id="main-content" className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <section className="overflow-hidden rounded-[32px] border border-[#eadfd6] bg-[linear-gradient(135deg,#fffaf5_0%,#fffdfb_62%,#f4ede7_100%)] p-6 shadow-[0_18px_50px_rgba(119,85,53,0.06)] sm:p-8 lg:p-10">
+          <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+                About TurnLab
+              </p>
+              <h1 className="mt-4 text-4xl font-black tracking-tight text-[#201d1a] sm:text-5xl">
+                A better way to learn skiing than bouncing through random videos.
+              </h1>
+              <p className="mt-5 max-w-2xl text-base leading-8 text-[#625b54] sm:text-lg">
+                TurnLab is a curated skiing technique library. We take the best instruction
+                we can find, organize it into real progressions, and add the context that
+                makes it easier to use on the mountain.
+              </p>
+              <p className="mt-4 max-w-2xl text-sm leading-7 text-[#6f665e] sm:text-base">
+                The idea is simple: YouTube has incredible ski coaching, but it&apos;s scattered.
+                TurnLab brings order to the chaos so you can spend less time searching and
+                more time improving.
+              </p>
+            </div>
 
-        <div className="space-y-6 text-[#646464] text-base leading-relaxed">
-          <p>
-            TurnLab is a curated skiing technique library. We find the best
-            skiing instruction videos on YouTube, organize them into structured
-            learning paths, and add written analysis — timestamps, feel cues,
-            common mistakes, and drills.
-          </p>
+            <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
+              {[
+                {
+                  value: `${techniques.length}`,
+                  label: "Technique pages",
+                  detail: "Curated drills, feel cues, and next-step guidance.",
+                },
+                {
+                  value: `${totalVideos}`,
+                  label: "Video lessons",
+                  detail: "Primary and alternate teaching styles when one doesn’t click.",
+                },
+                {
+                  value: `${sourceChannels}`,
+                  label: "Source channels",
+                  detail: "A broader bench of instructors without losing structure.",
+                },
+              ].map((stat) => (
+                <div
+                  key={stat.label}
+                  className="rounded-2xl border border-[#e8ddd4] bg-white/90 p-5 shadow-[0_10px_24px_rgba(119,85,53,0.05)]"
+                >
+                  <p className="text-3xl font-black tracking-tight text-[#201d1a]">
+                    {stat.value}
+                  </p>
+                  <p className="mt-2 text-sm font-semibold text-[#7d5431]">{stat.label}</p>
+                  <p className="mt-2 text-sm leading-6 text-[#6f665e]">{stat.detail}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
-          <p>
-            The idea is simple: YouTube has incredible skiing instruction, but
-            it&apos;s scattered across hundreds of channels with no structure.
-            TurnLab brings order to the chaos.
-          </p>
+        <section className="py-12 lg:py-16">
+          <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+                What TurnLab adds
+              </p>
+              <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
+                We don’t make the lessons. We make them easier to trust and use.
+              </h2>
+            </div>
+            <p className="max-w-2xl text-sm leading-7 text-[#6f665e] sm:text-base">
+              Every technique page is designed to help you answer three questions quickly:
+              what should I watch, what should it feel like, and what should I practice next?
+            </p>
+          </div>
 
-          <h2 className="text-xl font-bold text-[#222] pt-4">What we add</h2>
-          <ul className="space-y-2">
-            <li className="flex items-start gap-2">
-              <span className="text-[#B4835A] mt-1">→</span>
-              <span><strong className="text-[#222]">Curation</strong> — we watch dozens of videos and pick the clearest, most technically accurate ones</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-[#B4835A] mt-1">→</span>
-              <span><strong className="text-[#222]">Structure</strong> — techniques organized by difficulty with prerequisites and next steps</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-[#B4835A] mt-1">→</span>
-              <span><strong className="text-[#222]">Analysis</strong> — timestamped key moments, feel cues, mistake-and-fix cards, practice drills</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-[#B4835A] mt-1">→</span>
-              <span><strong className="text-[#222]">Attribution</strong> — full credit to original creators with channel links</span>
-            </li>
-          </ul>
+          <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+            {principles.map((item, index) => (
+              <div
+                key={item.title}
+                className="rounded-3xl border border-[#ece3db] bg-white p-6 shadow-[0_12px_28px_rgba(119,85,53,0.05)]"
+              >
+                <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#f5ece3] text-sm font-bold text-[#a56f43]">
+                  0{index + 1}
+                </div>
+                <h3 className="mt-4 text-xl font-bold text-[#201d1a]">{item.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-[#6f665e] sm:text-base">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
 
-          <h2 className="text-xl font-bold text-[#222] pt-4">Always free</h2>
-          <p>
-            No accounts, no subscriptions, no paywalls. TurnLab is free and
-            always will be. We sustain the site through minimal advertising
-            and affiliate partnerships.
-          </p>
+        <section className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+          <div className="rounded-[28px] border border-[#ece3db] bg-white p-6 shadow-[0_12px_28px_rgba(119,85,53,0.05)] sm:p-8">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+              What you can expect
+            </p>
+            <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
+              Practical guidance for your next ski day.
+            </h2>
+            <div className="mt-6 space-y-5">
+              {expectations.map((item) => (
+                <div key={item.title} className="rounded-2xl bg-[#faf5f0] p-5">
+                  <h3 className="text-lg font-bold text-[#201d1a]">{item.title}</h3>
+                  <p className="mt-2 text-sm leading-7 text-[#6f665e] sm:text-base">
+                    {item.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
 
-          <section className="mt-10 rounded-3xl border border-[#E8DED4] bg-[#F8F5F2] p-6 sm:p-8">
+          <section className="rounded-[28px] border border-[#e8ded4] bg-[#f8f5f2] p-6 shadow-[0_12px_28px_rgba(119,85,53,0.05)] sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#B4835A]">
               Start here
             </p>
-            <h2 className="mt-3 text-2xl font-bold text-[#222]">Pick the fastest way into the library</h2>
+            <h2 className="mt-3 text-2xl font-bold text-[#222]">
+              Pick the fastest way into the library
+            </h2>
             <p className="mt-3 text-sm leading-relaxed text-[#646464]">
-              New to TurnLab? Start with a quick skill check, browse the full technique library,
-              or jump straight into beginner-friendly fundamentals.
+              New to TurnLab? Start with a quick skill check, browse the full technique
+              library, or jump straight into beginner-friendly fundamentals.
             </p>
 
-            <div className="mt-6 grid gap-4 sm:grid-cols-3">
-              {[
-                {
-                  title: "Take the skill quiz",
-                  description: "Get a quick recommendation for the right learning path.",
-                  href: "/quiz",
-                  cta: "Find your level",
-                },
-                {
-                  title: "Browse all techniques",
-                  description: "See every video-backed technique, drill, and feel cue in one place.",
-                  href: "/techniques",
-                  cta: "Explore the library",
-                },
-                {
-                  title: "Start with beginner turns",
-                  description: "Open the green-level collection if you want a calm first progression.",
-                  href: "/techniques?rating=green",
-                  cta: "View beginner path",
-                },
-              ].map((item) => (
+            <div className="mt-6 grid gap-4">
+              {startHereLinks.map((item) => (
                 <Link
                   key={item.title}
                   href={item.href}
                   className="group rounded-2xl border border-white/80 bg-white p-5 shadow-sm transition-transform transition-shadow hover:-translate-y-0.5 hover:shadow-md"
                 >
                   <h3 className="text-base font-semibold text-[#222]">{item.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-[#646464]">{item.description}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-[#646464]">
+                    {item.description}
+                  </p>
                   <span className="mt-4 inline-flex text-sm font-medium text-[#B4835A] transition-colors group-hover:text-[#9A7049]">
                     {item.cta} →
                   </span>
@@ -104,8 +228,8 @@ export default function AboutPage() {
               ))}
             </div>
           </section>
-        </div>
-      </div>
+        </section>
+      </main>
 
       <Footer />
     </div>
