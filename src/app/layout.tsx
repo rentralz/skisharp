@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import Breadcrumbs from "@/components/Breadcrumbs";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import SkipNav from "@/components/SkipNav";
 import PostHogProvider from "@/components/PostHogProvider";

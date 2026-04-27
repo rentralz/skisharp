@@ -204,12 +204,6 @@ function getAmazonDeals() {
 async function main() {
   console.log("🔍 TurnLab Deal Scanner starting...\n");
 
-  // Load existing deals for merge
-  let existing = [];
-  try {
-    existing = JSON.parse(fs.readFileSync(DEALS_PATH, "utf8")).deals || [];
-  } catch {}
-
   // Scan all sources in parallel
   const [redditDeals, slickDeals, rssDeals] = await Promise.all([
     scanReddit(),

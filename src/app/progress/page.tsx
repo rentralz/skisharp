@@ -9,12 +9,11 @@ import { useProgress } from "@/hooks/useProgress";
 export default function ProgressPage() {
   const { stats, isPracticed, isBookmarked, togglePracticed, toggleBookmark } = useProgress();
 
-  const practicedTechniques = techniques.filter((t) => isPracticed(t.slug));
-  const bookmarkedTechniques = techniques.filter((t) => isBookmarked(t.slug));
+  const practicedTechniques = techniques.filter((t) => isPracticed(t.id));
+  const bookmarkedTechniques = techniques.filter((t) => isBookmarked(t.id));
   const totalTechniques = techniques.length;
   const progressPct = Math.round((stats.practicedCount / totalTechniques) * 100);
 
-  // Group practiced by rating
   const practicedByRating = {
     green: practicedTechniques.filter((t) => t.rating === "green").length,
     blue: practicedTechniques.filter((t) => t.rating === "blue").length,
@@ -105,14 +104,14 @@ export default function ProgressPage() {
             <h2 className="text-lg font-bold text-[#222] mb-4">📌 Saved for Later</h2>
             <div className="space-y-2">
               {bookmarkedTechniques.map((t) => (
-                <div key={t.slug} className="flex items-center justify-between p-3 rounded-xl border border-gray-200">
-                  <Link href={`/techniques/${t.slug}`} className="text-sm text-[#222] hover:text-[#B4835A] transition-colors font-medium">
+                <div key={t.id} className="flex items-center justify-between p-3 rounded-xl border border-gray-200">
+                  <Link href={`/techniques/${t.slug}?discipline=${t.discipline}`} className="text-sm text-[#222] hover:text-[#B4835A] transition-colors font-medium">
                     {t.title}
                   </Link>
                   <div className="flex items-center gap-2">
-                    {isPracticed(t.slug) && <span className="text-xs text-emerald-600">✓ practiced</span>}
+                    {isPracticed(t.id) && <span className="text-xs text-emerald-600">✓ practiced</span>}
                     <button
-                      onClick={() => toggleBookmark(t.slug)}
+                      onClick={() => toggleBookmark(t.id)}
                       className="text-xs text-[#aaa] hover:text-red-500 transition-colors"
                     >
                       remove
@@ -130,12 +129,12 @@ export default function ProgressPage() {
             <h2 className="text-lg font-bold text-[#222] mb-4">✅ Practiced</h2>
             <div className="space-y-2">
               {practicedTechniques.map((t) => (
-                <div key={t.slug} className="flex items-center justify-between p-3 rounded-xl border border-emerald-100 bg-emerald-50/30">
-                  <Link href={`/techniques/${t.slug}`} className="text-sm text-[#222] hover:text-[#B4835A] transition-colors font-medium">
+                <div key={t.id} className="flex items-center justify-between p-3 rounded-xl border border-emerald-100 bg-emerald-50/30">
+                  <Link href={`/techniques/${t.slug}?discipline=${t.discipline}`} className="text-sm text-[#222] hover:text-[#B4835A] transition-colors font-medium">
                     {t.title}
                   </Link>
                   <button
-                    onClick={() => togglePracticed(t.slug)}
+                    onClick={() => togglePracticed(t.id)}
                     className="text-xs text-[#aaa] hover:text-red-500 transition-colors"
                   >
                     undo

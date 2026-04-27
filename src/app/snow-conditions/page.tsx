@@ -203,7 +203,7 @@ export default function SnowConditionsPage() {
                       {relatedTechniques.map((t) => (
                         <Link
                           key={t.slug}
-                          href={`/techniques/${t.slug}`}
+                          href={`/techniques/${t.slug}?discipline=${t.discipline}`}
                           className="px-3 py-1.5 rounded-lg bg-gray-50 border border-gray-300 text-sm text-gray-600 hover:text-gray-900 hover:border-[#e8722a]/30 hover:bg-[#e8722a]/5 transition-colors"
                         >
                           {t.title}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DISCIPLINES } from "@/data/disciplines";
 import type { Technique } from "@/data/techniques";
 import DifficultyBadge from "./DifficultyBadge";
 import DifficultyDots from "./badges/DifficultyDots";
@@ -13,21 +14,22 @@ interface Props {
 
 export default function TechniqueCard({ technique }: Props) {
   const primaryVideo =
-    technique.youtubeVideos.find((v) => v.isPrimary) ?? technique.youtubeVideos[0];
+    technique.youtubeVideos.find((video) => video.isPrimary) ?? technique.youtubeVideos[0];
+  const disciplineInfo = DISCIPLINES[technique.discipline];
+  const techniqueHref = `/techniques/${technique.slug}?discipline=${technique.discipline}`;
 
   return (
     <Link
-      href={`/techniques/${technique.slug}`}
-      aria-label={`View technique: ${technique.title}`}
+      href={techniqueHref}
+      aria-label={`View ${disciplineInfo.label.toLowerCase()} technique: ${technique.title}`}
       className="group block rounded-xl overflow-hidden bg-white border border-gray-200 hover:shadow-lg transition-all duration-300"
     >
-      {/* Thumbnail */}
       <div className="relative h-44 bg-gray-100 overflow-hidden">
         {primaryVideo && (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
             src={`https://img.youtube.com/vi/${primaryVideo.videoId}/hqdefault.jpg`}
-            alt={`Video thumbnail: ${technique.title} skiing technique`}
+            alt={`Video thumbnail: ${technique.title} ${disciplineInfo.label.toLowerCase()} technique`}
             loading="lazy"
             decoding="async"
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -49,24 +51,24 @@ export default function TechniqueCard({ technique }: Props) {
           </div>
         </div>
 
+        <div className="absolute top-3 left-3 bg-white/90 text-gray-700 text-xs px-2.5 py-1 rounded-full font-medium shadow-sm">
+          {disciplineInfo.label}
+        </div>
+
         <div className="absolute top-3 right-3 bg-white/90 text-gray-700 text-xs px-2 py-1 rounded-full font-medium shadow-sm">
           {technique.youtubeVideos.length} video{technique.youtubeVideos.length !== 1 ? "s" : ""}
         </div>
       </div>
 
-      {/* Content */}
       <div className="p-4">
         <div className="mb-2">
-          <DifficultyBadge
-            difficulty={technique.difficulty}
-            rating={technique.rating}
-          />{" "}
+          <DifficultyBadge difficulty={technique.difficulty} rating={technique.rating} />{" "}
           <DifficultyDots level={technique.difficulty} />{" "}
           <ReadTime
             videos={technique.youtubeVideos.length}
             description={technique.description}
           />{" "}
-          <ShareButton url={`/techniques/${technique.slug}`} />
+          <ShareButton url={techniqueHref} />
         </div>
 
         <h3 className="text-gray-900 font-semibold text-lg mb-1.5 group-hover:text-[#e8722a] transition-colors">

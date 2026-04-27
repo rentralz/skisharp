@@ -2,32 +2,45 @@
 
 import { useEffect, useState } from "react";
 
+function calculateVisitStreak() {
+  const visitKey = "turnlab_last_visit";
+  const streakKey = "turnlab_streak";
+  const today = new Date().toDateString();
+  const yesterday = new Date(Date.now() - 86400000).toDateString();
+  const lastVisit = localStorage.getItem(visitKey);
+  const previousStreak = parseInt(localStorage.getItem(streakKey) || "0", 10);
+
+  if (lastVisit === yesterday) {
+    return previousStreak + 1;
+  }
+
+  if (lastVisit !== today) {
+    return 1;
+  }
+
+  return previousStreak;
+}
+
 export default function StreakBadge() {
   const [streak, setStreak] = useState(0);
 
   useEffect(() => {
-    const key = "turnlab_last_visit";
-    const today = new Date().toDateString();
-    const last = localStorage.getItem(key);
-    const yesterday = new Date(Date.now() - 86400000).toDateString();
+    const timeoutId = window.setTimeout(() => {
+      const nextStreak = calculateVisitStreak();
+      localStorage.setItem("turnlab_streak", String(nextStreak));
+      localStorage.setItem("turnlab_last_visit", new Date().toDateString());
+      setStreak(nextStreak);
+    }, 0);
 
-    if (last === yesterday) {
-      const prev = parseInt(localStorage.getItem("turnlab_streak") || "0", 10);
-      setStreak(prev + 1);
-      localStorage.setItem("turnlab_streak", String(prev + 1));
-    } else if (last !== today) {
-      setStreak(1);
-      localStorage.setItem("turnlab_streak", "1");
-    } else {
-      setStreak(parseInt(localStorage.getItem("turnlab_streak") || "0", 10));
-    }
-    localStorage.setItem(key, today);
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
   }, []);
 
   if (streak < 2) return null;
 
   return (
-    <span className="ml-2 px-2 py-0.5 bg-orange-100 text-orange-700 text-xs font-bold rounded-full">
+    <span className="ml-2 rounded-full bg-orange-100 px-2 py-0.5 text-xs font-bold text-orange-700">
       🔥 {streak}d
     </span>
   );

@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import type { Metadata } from "next";
+import { DISCIPLINES } from "@/data/disciplines";
 import { techniques, getTechniqueBySlug } from "@/data/techniques";
 import DifficultyBadge from "@/components/DifficultyBadge";
 import VideoEmbed from "@/components/VideoEmbed";
@@ -8,10 +10,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import AdUnit from "@/components/AdUnit";
 import ProgressButtons from "@/components/ProgressButtons";
-import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  return techniques.map((t) => ({ slug: t.slug }));
+  return techniques.map((technique) => ({ slug: technique.slug }));
 }
 
 export async function generateMetadata({
@@ -21,10 +22,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const technique = getTechniqueBySlug(slug);
-  if (!technique) return {};
+
+  if (!technique) {
+    return {};
+  }
+
+  const disciplineInfo = DISCIPLINES[technique.discipline];
+  const disciplineNoun = technique.discipline === "ski" ? "skiing" : "snowboarding";
+
   return {
-    title: technique.title,
-    description: technique.description,
+    title: `${technique.title} | ${disciplineInfo.label} Technique`,
+    description: `Learn ${technique.title} for ${disciplineNoun}. ${technique.description}`,
   };
 }
 
@@ -40,20 +48,32 @@ export default async function TechniqueDetailPage({
     notFound();
   }
 
-  const currentIndex = techniques.findIndex((t) => t.slug === slug);
-  const prev = currentIndex > 0 ? techniques[currentIndex - 1] : null;
-  const next = currentIndex < techniques.length - 1 ? techniques[currentIndex + 1] : null;
+  const disciplineInfo = DISCIPLINES[technique.discipline];
+  const disciplineNoun = technique.discipline === "ski" ? "skiing" : "snowboarding";
+  const disciplineHref = `/techniques?discipline=${technique.discipline}`;
+  const detailHref = (targetSlug: string) => `/techniques/${targetSlug}?discipline=${technique.discipline}`;
+
+  const disciplineTechniques = techniques.filter(
+    (entry) => entry.discipline === technique.discipline,
+  );
+  const currentIndex = disciplineTechniques.findIndex((entry) => entry.slug === slug);
+  const prev = currentIndex > 0 ? disciplineTechniques[currentIndex - 1] : null;
+  const next = currentIndex < disciplineTechniques.length - 1 ? disciplineTechniques[currentIndex + 1] : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: technique.title,
-    description: technique.description,
-    step: technique.timestamps.map((ts, i) => ({
+    name: `${technique.title} (${disciplineInfo.label} technique)`,
+    description: `Learn ${technique.title} for ${disciplineNoun}. ${technique.description}`,
+    about: {
+      "@type": "Thing",
+      name: `${disciplineInfo.label} technique`,
+    },
+    step: technique.timestamps.map((timestamp, index) => ({
       "@type": "HowToStep",
-      position: i + 1,
-      name: ts.label,
-      text: ts.detail,
+      position: index + 1,
+      name: timestamp.label,
+      text: timestamp.detail,
     })),
     ...(technique.youtubeVideos[0] && {
       video: {
@@ -73,34 +93,39 @@ export default async function TechniqueDetailPage({
       />
 
       <Navbar />
-      <Breadcrumbs crumbs={[{label:'Techniques',href:'/techniques'},{label:technique.title}]} />
+      <Breadcrumbs
+        crumbs={[
+          { label: `${disciplineInfo.label} Techniques`, href: disciplineHref },
+          { label: technique.title },
+        ]}
+      />
 
       <main id="main-content" className="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-12">
-        {/* Title block */}
         <div>
           <div className="mb-4 flex flex-wrap items-center gap-3">
+            <span className="text-xs px-3 py-1 rounded-full bg-[#F5F2EF] border border-[#e2d6cb] text-[#7a5a41] font-semibold uppercase tracking-wide">
+              {disciplineInfo.label}
+            </span>
             <DifficultyBadge difficulty={technique.difficulty} rating={technique.rating} />
-            {technique.terrain.map((t) => (
+            {technique.terrain.map((terrain) => (
               <span
-                key={t}
+                key={terrain}
                 className="text-xs px-3 py-1 rounded-full bg-gray-50 border border-gray-300 text-gray-600"
               >
-                {t}
+                {terrain}
               </span>
             ))}
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-3">
             {technique.title}
           </h1>
-          {/* Promise subtitle */}
           <p className="text-lg text-[#e8722a] font-medium leading-relaxed max-w-2xl mb-4">
             {technique.promise}
           </p>
           <p className="text-base text-gray-500 leading-relaxed max-w-2xl mb-5">{technique.description}</p>
-          <ProgressButtons slug={technique.slug} />
+          <ProgressButtons techniqueId={technique.id} />
         </div>
 
-        {/* Video embed */}
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-2">Watch &amp; Learn</h2>
           {technique.youtubeVideos.length > 1 && (
@@ -111,17 +136,14 @@ export default async function TechniqueDetailPage({
           <VideoEmbed videos={technique.youtubeVideos} />
         </section>
 
-        {/* Timeline timestamps */}
         {technique.timestamps.length > 0 && (
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-5">Key Moments</h2>
             <div className="relative pl-4">
-              {/* Vertical line */}
               <div className="absolute left-0 top-2 bottom-2 w-px bg-white/10" aria-hidden="true" />
               <div className="space-y-0">
-                {technique.timestamps.map((ts, i) => (
-                  <div key={ts.time} className="relative flex gap-4 pb-6 last:pb-0">
-                    {/* Timeline dot */}
+                {technique.timestamps.map((timestamp, index) => (
+                  <div key={timestamp.time} className="relative flex gap-4 pb-6 last:pb-0">
                     <div
                       className="absolute -left-[5px] mt-1 w-2.5 h-2.5 rounded-full bg-[#e8722a] border-2 border-[#0d1b2a] flex-shrink-0"
                       aria-hidden="true"
@@ -129,12 +151,12 @@ export default async function TechniqueDetailPage({
                     <div className="pl-5">
                       <div className="flex items-center gap-3 mb-0.5">
                         <span className="text-[#e8722a] font-mono text-sm font-bold">
-                          {ts.time}
+                          {timestamp.time}
                         </span>
-                        <span className="text-gray-900 font-semibold text-sm">{ts.label}</span>
-                        <span className="text-xs text-gray-400 font-normal">Step {i + 1}</span>
+                        <span className="text-gray-900 font-semibold text-sm">{timestamp.label}</span>
+                        <span className="text-xs text-gray-400 font-normal">Step {index + 1}</span>
                       </div>
-                      <p className="text-gray-500 text-sm leading-relaxed">{ts.detail}</p>
+                      <p className="text-gray-500 text-sm leading-relaxed">{timestamp.detail}</p>
                     </div>
                   </div>
                 ))}
@@ -143,14 +165,13 @@ export default async function TechniqueDetailPage({
           </section>
         )}
 
-        {/* What it feels like */}
         {technique.feels.length > 0 && (
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-5">What It Should Feel Like</h2>
             <ul className="space-y-3">
-              {technique.feels.map((feel, i) => (
+              {technique.feels.map((feel, index) => (
                 <li
-                  key={i}
+                  key={index}
                   className="flex gap-3 p-4 rounded-xl bg-white border border-gray-200"
                 >
                   <span className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs flex items-center justify-center mt-0.5">
@@ -163,13 +184,12 @@ export default async function TechniqueDetailPage({
           </section>
         )}
 
-        {/* Common mistakes */}
         {technique.mistakes.length > 0 && (
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-5">Common Mistakes &amp; Fixes</h2>
             <div className="space-y-4">
-              {technique.mistakes.map((item, i) => (
-                <div key={i} className="rounded-xl border border-gray-200 overflow-hidden">
+              {technique.mistakes.map((item, index) => (
+                <div key={index} className="rounded-xl border border-gray-200 overflow-hidden">
                   <div className="bg-red-950/40 border-b border-red-900/30 px-5 py-3.5 flex gap-3 items-start">
                     <span className="flex-shrink-0 w-5 h-5 rounded-full bg-red-500/20 border border-red-500/30 text-red-400 text-xs flex items-center justify-center mt-0.5">
                       ✕
@@ -188,18 +208,17 @@ export default async function TechniqueDetailPage({
           </section>
         )}
 
-        {/* Practice drills */}
         {technique.drills.length > 0 && (
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-5">Practice Drills</h2>
             <div className="space-y-3">
-              {technique.drills.map((drill, i) => (
+              {technique.drills.map((drill, index) => (
                 <div
-                  key={i}
+                  key={index}
                   className="flex gap-4 p-4 rounded-xl bg-[#e8722a]/5 border border-[#e8722a]/15 hover:border-[#e8722a]/25 transition-colors"
                 >
                   <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#e8722a]/15 border border-[#e8722a]/25 text-[#e8722a] text-sm font-bold flex items-center justify-center">
-                    {i + 1}
+                    {index + 1}
                   </span>
                   <p className="text-gray-600 text-sm leading-relaxed pt-0.5">{drill}</p>
                 </div>
@@ -208,7 +227,6 @@ export default async function TechniqueDetailPage({
           </section>
         )}
 
-        {/* Prerequisites + Next Steps */}
         {(technique.prerequisites.length > 0 || technique.nextSteps.length > 0) && (
           <div className="grid sm:grid-cols-2 gap-6">
             {technique.prerequisites.length > 0 && (
@@ -217,15 +235,16 @@ export default async function TechniqueDetailPage({
                   Prerequisites
                 </h3>
                 <ul className="space-y-2">
-                  {technique.prerequisites.map((prereqSlug) => {
-                    const pre = getTechniqueBySlug(prereqSlug);
-                    return pre ? (
-                      <li key={prereqSlug}>
+                  {technique.prerequisites.map((prerequisiteSlug) => {
+                    const prerequisite = getTechniqueBySlug(prerequisiteSlug);
+
+                    return prerequisite ? (
+                      <li key={prerequisiteSlug}>
                         <Link
-                          href={`/techniques/${prereqSlug}`}
+                          href={detailHref(prerequisiteSlug)}
                           className="text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
                         >
-                          &larr; {pre.title}
+                          &larr; {prerequisite.title}
                         </Link>
                       </li>
                     ) : null;
@@ -240,14 +259,15 @@ export default async function TechniqueDetailPage({
                 </h3>
                 <ul className="space-y-2">
                   {technique.nextSteps.map((nextSlug) => {
-                    const nextTech = getTechniqueBySlug(nextSlug);
-                    return nextTech ? (
+                    const nextTechnique = getTechniqueBySlug(nextSlug);
+
+                    return nextTechnique ? (
                       <li key={nextSlug}>
                         <Link
-                          href={`/techniques/${nextSlug}`}
+                          href={detailHref(nextSlug)}
                           className="text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
                         >
-                          {nextTech.title} &rarr;
+                          {nextTechnique.title} &rarr;
                         </Link>
                       </li>
                     ) : null;
@@ -258,13 +278,12 @@ export default async function TechniqueDetailPage({
           </div>
         )}
 
-        {/* Prev / Current / Next progression cards */}
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-5">Your Progression</h2>
           <div className="grid grid-cols-3 gap-3">
             {prev ? (
               <Link
-                href={`/techniques/${prev.slug}`}
+                href={detailHref(prev.slug)}
                 className="group rounded-xl bg-white border border-gray-200 hover:border-gray-300 p-4 transition-all"
               >
                 <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">&larr; Previous</p>
@@ -276,7 +295,7 @@ export default async function TechniqueDetailPage({
             ) : (
               <div className="rounded-xl border border-gray-200 p-4 opacity-30">
                 <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">Previous</p>
-                <p className="text-gray-400 text-sm">Start of path</p>
+                <p className="text-gray-400 text-sm">Start of {disciplineNoun}</p>
               </div>
             )}
 
@@ -288,7 +307,7 @@ export default async function TechniqueDetailPage({
 
             {next ? (
               <Link
-                href={`/techniques/${next.slug}`}
+                href={detailHref(next.slug)}
                 className="group rounded-xl bg-white border border-gray-200 hover:border-gray-300 p-4 transition-all"
               >
                 <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">Next Up &rarr;</p>
@@ -300,14 +319,13 @@ export default async function TechniqueDetailPage({
             ) : (
               <div className="rounded-xl border border-gray-200 p-4 opacity-30">
                 <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">Next Up</p>
-                <p className="text-gray-400 text-sm">End of path</p>
+                <p className="text-gray-400 text-sm">End of {disciplineNoun}</p>
               </div>
             )}
           </div>
         </section>
       </main>
 
-      {/* Ad — between content and footer */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <AdUnit slot="technique-detail" format="horizontal" />
       </div>

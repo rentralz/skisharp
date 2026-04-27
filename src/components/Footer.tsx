@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { DISCIPLINES } from "@/data/disciplines";
 
 const FOOTER_LINKS = [
-  { href: "/techniques", label: "Techniques" },
+  { href: DISCIPLINES.ski.libraryHref, label: "Ski Techniques" },
   { href: "/slope-ratings", label: "Slope Ratings" },
   { href: "/snow-conditions", label: "Snow Conditions" },
   { href: "/equipment-guide", label: "Equipment Guide" },
@@ -12,10 +13,10 @@ const FOOTER_LINKS = [
 ];
 
 const LEVEL_LINKS = [
-  { href: "/techniques?rating=green", label: "Beginner (Green)" },
-  { href: "/techniques?rating=blue", label: "Intermediate (Blue)" },
-  { href: "/techniques?rating=black", label: "Advanced (Black)" },
-  { href: "/techniques?rating=double-black", label: "Expert (Double Black)" },
+  { href: "/techniques?discipline=ski&rating=green", label: "Beginner Ski (Green)" },
+  { href: "/techniques?discipline=ski&rating=blue", label: "Intermediate Ski (Blue)" },
+  { href: "/techniques?discipline=ski&rating=black", label: "Advanced Ski (Black)" },
+  { href: "/techniques?discipline=ski&rating=double-black", label: "Expert Ski (Double Black)" },
 ];
 
 const START_HERE_LINKS = [
@@ -24,11 +25,18 @@ const START_HERE_LINKS = [
   { href: "/about", label: "How TurnLab works" },
 ];
 
+const DISCIPLINE_LINKS = [
+  { href: DISCIPLINES.ski.libraryHref, label: "Browse ski techniques" },
+  { href: DISCIPLINES.snowboard.libraryHref, label: "Browse snowboard techniques" },
+  { href: "/techniques?discipline=ski&rating=green", label: "Start ski basics" },
+  { href: "/techniques?discipline=snowboard&rating=green", label: "Start snowboard basics" },
+];
+
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-[#e8ddd4] bg-[#f5efe9]">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr]">
+        <div className="grid gap-10 lg:grid-cols-[1.2fr_0.75fr_0.75fr_0.8fr_0.9fr]">
           <div className="max-w-md">
             <div className="text-2xl font-black tracking-tight text-[#1f1b18]">
               Turn<span className="text-[#b4835a]">Lab</span>
@@ -46,10 +54,10 @@ export default function Footer() {
                 Start with the quiz
               </Link>
               <Link
-                href="/techniques"
+                href={DISCIPLINES.ski.libraryHref}
                 className="inline-flex items-center justify-center rounded-full border border-[#d9c6b5] bg-white px-5 py-2.5 text-sm font-semibold text-[#7d5431] transition-colors hover:bg-[#fff7f0]"
               >
-                Browse techniques
+                Browse ski techniques
               </Link>
             </div>
           </div>
@@ -60,6 +68,24 @@ export default function Footer() {
             </h3>
             <ul className="mt-4 space-y-3">
               {START_HERE_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link
+                    href={href}
+                    className="text-sm text-[#5f554d] transition-colors hover:text-[#1f1b18]"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+              By discipline
+            </h3>
+            <ul className="mt-4 space-y-3">
+              {DISCIPLINE_LINKS.map(({ href, label }) => (
                 <li key={href}>
                   <Link
                     href={href}

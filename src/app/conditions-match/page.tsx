@@ -88,7 +88,7 @@ export default function ConditionsMatchPage() {
                   return (
                     <Link
                       key={t.id}
-                      href={`/techniques/${t.slug}`}
+                      href={`/techniques/${t.slug}?discipline=${t.discipline}`}
                       className="group flex items-center gap-4 p-3 rounded-xl border border-gray-200 hover:border-[#B4835A] hover:shadow-sm transition-all"
                     >
                       {vid && (

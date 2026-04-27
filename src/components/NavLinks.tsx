@@ -5,6 +5,7 @@ import Link from "next/link";
 export interface NavLink {
   href: string;
   label: string;
+  onClick?: () => void;
 }
 
 interface Props {
@@ -17,7 +18,7 @@ interface Props {
 export default function NavLinks({ links, activeHref, onClick, mobile }: Props) {
   return (
     <>
-      {links.map(({ href, label }) => {
+      {links.map(({ href, label, onClick: linkOnClick }) => {
         const active = href === activeHref;
         const cls = mobile
           ? `block px-3 py-2.5 rounded-lg text-sm transition-colors ${
@@ -33,7 +34,10 @@ export default function NavLinks({ links, activeHref, onClick, mobile }: Props) 
           <Link
             key={href}
             href={href}
-            onClick={onClick}
+            onClick={() => {
+              linkOnClick?.();
+              onClick?.();
+            }}
             className={cls}
           >
             {label}

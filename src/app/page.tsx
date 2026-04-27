@@ -1,57 +1,224 @@
 import Link from "next/link";
-import { techniques, type DifficultyRating } from "@/data/techniques";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import HomeDisciplineShowcase from "@/components/HomeDisciplineShowcase";
+import HomeHeroDisciplineSwitch from "@/components/HomeHeroDisciplineSwitch";
+import { DISCIPLINES, type Discipline } from "@/data/disciplines";
+import {
+  getTechniqueBySlug,
+  techniques,
+  type DifficultyRating,
+  type Technique,
+  type VideoEntry,
+} from "@/data/techniques";
 
-const RATING_META: Record<
-  DifficultyRating,
-  {
-    label: string;
-    badgeClass: string;
-  }
+type HomePathKey = "beginner" | "intermediate" | "expert";
+
+const PATH_RATING_GROUPS: Record<HomePathKey, DifficultyRating[]> = {
+  beginner: ["green"],
+  intermediate: ["blue"],
+  expert: ["black", "double-black"],
+};
+
+const PATH_COPY: Record<
+  Discipline,
+  Record<
+    HomePathKey,
+    {
+      level: string;
+      badge: string;
+      description: string;
+      focus: string[];
+      starterSlug: string;
+    }
+  >
 > = {
-  green: {
-    label: "Green",
-    badgeClass: "bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-200",
+  ski: {
+    beginner: {
+      level: "Beginner",
+      badge: "Build calm first-run confidence",
+      description:
+        "Start with stance, stopping, and steering basics that make green runs feel slower, safer, and more predictable.",
+      focus: ["Wedge turns + speed control", "Confident movement on green terrain"],
+      starterSlug: "wedge-turns",
+    },
+    intermediate: {
+      level: "Intermediate",
+      badge: "Refine parallel skiing",
+      description:
+        "Dial in cleaner turn shape, edge grip, and rhythm so blue runs start feeling deliberate instead of reactive.",
+      focus: ["Parallel turns + carving", "Composure on groomed blue runs"],
+      starterSlug: "parallel-turns",
+    },
+    expert: {
+      level: "Expert",
+      badge: "Get tactical all over the mountain",
+      description:
+        "Work on quicker decisions, stronger line choice, and precision in steeps, bumps, powder, and technical terrain.",
+      focus: ["Short turns, steeps, powder", "All-mountain tactics and precision"],
+      starterSlug: "short-turns",
+    },
   },
-  blue: {
-    label: "Blue",
-    badgeClass: "bg-sky-50 text-sky-700 ring-1 ring-inset ring-sky-200",
-  },
-  black: {
-    label: "Black",
-    badgeClass: "bg-slate-100 text-slate-800 ring-1 ring-inset ring-slate-300",
-  },
-  "double-black": {
-    label: "Double Black",
-    badgeClass: "bg-violet-50 text-violet-700 ring-1 ring-inset ring-violet-200",
+  snowboard: {
+    beginner: {
+      level: "Beginner",
+      badge: "Lock in the fundamentals first",
+      description:
+        "Build the body position, edge awareness, and one-foot control that make early snowboard days feel far less chaotic.",
+      focus: ["Athletic stance + edge awareness", "First turns and lift-line control"],
+      starterSlug: "snowboard-athletic-stance",
+    },
+    intermediate: {
+      level: "Intermediate",
+      badge: "Turn cleaner and trust the edge",
+      description:
+        "Improve garlands, carving basics, and switch comfort so your riding gets smoother, stronger, and more intentional.",
+      focus: ["Turn initiation + carving", "Blue-run confidence and versatility"],
+      starterSlug: "snowboard-garlands",
+    },
+    expert: {
+      level: "Expert",
+      badge: "Handle soft snow and changing terrain",
+      description:
+        "Move beyond groomer autopilot with better rhythm, float, and decision-making when snow conditions get more demanding.",
+      focus: ["Variable snow + powder basics", "More adaptable all-mountain riding"],
+      starterSlug: "snowboard-powder-basics",
+    },
   },
 };
 
-function formatUpdatedAt(updatedAt?: string) {
-  if (!updatedAt) {
-    return "Freshly curated";
+const FEATURED_TECHNIQUE_SLUGS: Record<Discipline, string[]> = {
+  ski: ["hockey-stop", "parallel-turns", "pole-planting", "short-turns"],
+  snowboard: [
+    "snowboard-athletic-stance",
+    "snowboard-linked-turns",
+    "snowboard-basic-carving",
+    "snowboard-powder-basics",
+  ],
+};
+
+const valueProps = [
+  {
+    title: "Curated, not cluttered",
+    description:
+      "We pull the clearest ski and snowboard instruction from YouTube and remove the noise, fluff, and dead ends.",
+  },
+  {
+    title: "Built around progression",
+    description:
+      "Every technique points to prerequisites and next steps, so you always know what to work on next.",
+  },
+  {
+    title: "Practical on-snow coaching",
+    description:
+      "Expect feel cues, common mistakes, and drills you can take straight onto the mountain.",
+  },
+];
+
+function getPrimaryVideo(technique: Technique): VideoEntry {
+  const primaryVideo = technique.youtubeVideos.find((video) => video.isPrimary) ?? technique.youtubeVideos[0];
+
+  if (!primaryVideo) {
+    throw new Error(`Technique is missing a video: ${technique.slug}`);
   }
 
-  const date = new Date(`${updatedAt}-01T00:00:00`);
+  return primaryVideo;
+}
 
-  if (Number.isNaN(date.getTime())) {
-    return "Freshly curated";
+function requireTechnique(slug: string): Technique {
+  const technique = getTechniqueBySlug(slug);
+
+  if (!technique) {
+    throw new Error(`Missing homepage technique configuration for slug: ${slug}`);
   }
 
-  return new Intl.DateTimeFormat("en-US", {
-    month: "short",
-    year: "numeric",
-  }).format(date);
+  return technique;
+}
+
+function buildHomeShowcaseContent() {
+  const disciplineKeys = Object.keys(DISCIPLINES) as Discipline[];
+
+  return disciplineKeys.reduce(
+    (acc, discipline) => {
+      const learningPaths = (Object.keys(PATH_RATING_GROUPS) as HomePathKey[]).map((pathKey) => {
+        const copy = PATH_COPY[discipline][pathKey];
+        const starterTechnique = requireTechnique(copy.starterSlug);
+        const primaryVideo = getPrimaryVideo(starterTechnique);
+        const count = techniques.filter(
+          (technique) =>
+            technique.discipline === discipline && PATH_RATING_GROUPS[pathKey].includes(technique.rating),
+        ).length;
+
+        return {
+          level: copy.level,
+          href: `/techniques/${starterTechnique.slug}`,
+          count,
+          badge: copy.badge,
+          description: copy.description,
+          focus: copy.focus,
+          image: `https://img.youtube.com/vi/${primaryVideo.videoId}/hqdefault.jpg`,
+          entryLabel: starterTechnique.title,
+        };
+      });
+
+      const featuredTechniques = FEATURED_TECHNIQUE_SLUGS[discipline].map((slug) => {
+        const technique = requireTechnique(slug);
+        const primaryVideo = getPrimaryVideo(technique);
+
+        return {
+          id: technique.id,
+          slug: technique.slug,
+          title: technique.title,
+          promise: technique.promise,
+          rating: technique.rating,
+          terrain: technique.terrain,
+          updatedAt: technique.updatedAt,
+          primaryVideo: {
+            videoId: primaryVideo.videoId,
+            channel: primaryVideo.channel,
+          },
+        };
+      });
+
+      acc[discipline] = {
+        learningPaths,
+        featuredTechniques,
+      };
+
+      return acc;
+    },
+    {} as Record<
+      Discipline,
+      {
+        learningPaths: {
+          level: string;
+          href: string;
+          count: number;
+          badge: string;
+          description: string;
+          focus: string[];
+          image: string;
+          entryLabel: string;
+        }[];
+        featuredTechniques: {
+          id: string;
+          slug: string;
+          title: string;
+          promise: string;
+          rating: DifficultyRating;
+          terrain: string[];
+          updatedAt?: string;
+          primaryVideo: {
+            videoId: string;
+            channel: string;
+          };
+        }[];
+      }
+    >,
+  );
 }
 
 export default function HomePage() {
-  const beginnerCount = techniques.filter((t) => t.rating === "green").length;
-  const intermediateCount = techniques.filter((t) => t.rating === "blue").length;
-  const advancedCount = techniques.filter(
-    (t) => t.rating === "black" || t.rating === "double-black",
-  ).length;
-
   const totalVideos = techniques.reduce(
     (sum, technique) => sum + technique.youtubeVideos.length,
     0,
@@ -62,44 +229,11 @@ export default function HomePage() {
     ),
   ).size;
 
-  const learningPaths = [
-    {
-      level: "Beginner",
-      href: "/techniques?rating=green",
-      count: beginnerCount,
-      badge: "Best for first chair confidence",
-      description:
-        "Build balance, stopping, steering, and the habits that make every green run feel calmer.",
-      focus: ["Wedge turns + speed control", "Confidence on green terrain"],
-      image: "https://img.youtube.com/vi/T1BsQPFdt7w/hqdefault.jpg",
-    },
-    {
-      level: "Intermediate",
-      href: "/techniques?rating=blue",
-      count: intermediateCount,
-      badge: "Best for cleaner parallel skiing",
-      description:
-        "Refine edge control, linked turns, and blue-run composure without guessing what comes next.",
-      focus: ["Parallel turns + carving", "Blue-run confidence"],
-      image: "https://img.youtube.com/vi/LrmCNarCzIY/hqdefault.jpg",
-    },
-    {
-      level: "Expert",
-      href: "/techniques?rating=black",
-      count: advancedCount,
-      badge: "Best for all-mountain precision",
-      description:
-        "Get tactical with moguls, powder, steeps, and the techniques that make hard terrain feel deliberate.",
-      focus: ["Moguls, powder, steeps", "Tactics for difficult terrain"],
-      image: "https://img.youtube.com/vi/WTX21DO7Qsc/hqdefault.jpg",
-    },
-  ];
-
   const proofCards = [
     {
       value: `${techniques.length}`,
       label: "Technique breakdowns",
-      detail: "Curated lessons organized into a progression, not a random feed.",
+      detail: "Curated lessons organized into progressions instead of a random feed.",
     },
     {
       value: `${totalVideos}`,
@@ -109,34 +243,14 @@ export default function HomePage() {
     {
       value: `${uniqueChannels}`,
       label: "Trusted source channels",
-      detail: "A broader bench of instructors without losing structure or curation.",
+      detail: "A deeper bench of instructors without losing structure or curation.",
     },
   ];
 
-  const valueProps = [
-    {
-      title: "Curated, not cluttered",
-      description:
-        "We pull the clearest skiing instruction from YouTube and remove the noise, fluff, and dead ends.",
-    },
-    {
-      title: "Built around progression",
-      description:
-        "Every technique points to prerequisites and next steps, so you always know what to work on next.",
-    },
-    {
-      title: "Practical on-snow coaching",
-      description:
-        "Expect feel cues, common mistakes, and drills you can take straight onto the mountain.",
-    },
-  ];
-
-  const featuredTechniques = [...techniques]
-    .sort((a, b) => (b.updatedAt ?? "").localeCompare(a.updatedAt ?? ""))
-    .slice(0, 4);
+  const homeShowcaseContent = buildHomeShowcaseContent();
 
   return (
-    <div className="flex min-h-full flex-col font-[family-name:var(--font-inter)] bg-[#fcfaf8] text-[#1f1f1f]">
+    <div className="flex min-h-full flex-col bg-[#fcfaf8] font-[family-name:var(--font-inter)] text-[#1f1f1f]">
       <Navbar />
 
       <main id="main-content" className="flex-1">
@@ -146,16 +260,25 @@ export default function HomePage() {
               <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
                 <div>
                   <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43] shadow-sm">
-                    Curated ski instruction, not YouTube chaos
+                    Curated ski + snowboard instruction, not YouTube chaos
                   </div>
                   <h1 className="mt-5 max-w-3xl text-4xl font-black tracking-tight text-[#201d1a] sm:text-5xl lg:text-6xl">
-                    Learn the right turn for your level — and know what to ski next.
+                    Find the right technique for your level — and know what to practice next.
                   </h1>
                   <p className="mt-5 max-w-2xl text-base leading-8 text-[#5f5a55] sm:text-lg">
-                    TurnLab turns scattered ski videos into guided learning paths with
-                    timestamps, feel cues, drills, and progression built in. Start with a
-                    one-minute level check or jump straight into the library.
+                    TurnLab turns scattered ski and snowboard videos into guided learning
+                    paths with timestamps, feel cues, drills, and progression built in.
+                    Start with a one-minute level check or jump straight into the library.
                   </p>
+
+                  <div className="mt-6">
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
+                      Choose your discipline
+                    </p>
+                    <div className="mt-3">
+                      <HomeHeroDisciplineSwitch />
+                    </div>
+                  </div>
 
                   <div className="mt-8 flex flex-wrap items-center gap-3">
                     <Link
@@ -168,13 +291,13 @@ export default function HomePage() {
                       href="/techniques"
                       className="inline-flex items-center justify-center rounded-full border border-[#d9c6b5] bg-white px-6 py-3 text-sm font-semibold text-[#7d5431] transition-colors hover:border-[#c9ae96] hover:bg-[#fff6ee]"
                     >
-                      Browse all techniques
+                      Browse the full library
                     </Link>
                   </div>
 
                   <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#6c6259]">
                     <span>✓ Free forever</span>
-                    <span>✓ Beginner to expert progressions</span>
+                    <span>✓ Ski + snowboard progressions</span>
                     <span>✓ Multiple teaching styles per skill</span>
                   </div>
                 </div>
@@ -194,7 +317,7 @@ export default function HomePage() {
                         Start here
                       </p>
                       <h2 className="mt-3 text-2xl font-bold sm:text-3xl">
-                        Go from cautious greens to confident all-mountain skiing.
+                        From first turns to confident all-mountain days.
                       </h2>
                       <p className="mt-3 max-w-md text-sm leading-6 text-white/80 sm:text-base">
                         Every path is built to answer the same question: what should I
@@ -233,12 +356,12 @@ export default function HomePage() {
                   Why TurnLab works
                 </p>
                 <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-                  Less searching. More deliberate skiing.
+                  Less searching. More deliberate progression.
                 </h2>
               </div>
               <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
-                The goal is simple: stop wasting energy bouncing between random videos and
-                start progressing with a system that feels calm, credible, and practical.
+                Stop bouncing between random videos and start progressing with a system that
+                feels calm, credible, and practical whether you ski or snowboard.
               </p>
             </div>
 
@@ -260,160 +383,14 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="py-12 md:py-16">
-            <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
-                  Choose your path
-                </p>
-                <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-                  One learning-path section. One obvious place to begin.
-                </h2>
-              </div>
-              <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
-                Whether you’re still figuring out your wedge or chasing better black-run
-                tactics, these tracks point you to the right library first.
-              </p>
-            </div>
-
-            <div className="mt-8 grid gap-6 lg:grid-cols-3">
-              {learningPaths.map((path) => (
-                <Link
-                  key={path.level}
-                  href={path.href}
-                  className="group overflow-hidden rounded-[28px] border border-[#eadfd6] bg-white shadow-[0_14px_32px_rgba(92,68,43,0.06)] transition-all hover:-translate-y-1 hover:shadow-[0_22px_48px_rgba(92,68,43,0.12)]"
-                >
-                  <div className="relative">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={path.image}
-                      alt={`${path.level} skiing path`}
-                      loading="lazy"
-                      className="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#1f1b18] via-[#1f1b18]/10 to-transparent" />
-                    <div className="absolute left-5 top-5 inline-flex rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-[#7d5431] shadow-sm">
-                      {path.badge}
-                    </div>
-                    <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between gap-4 text-white">
-                      <div>
-                        <p className="text-sm uppercase tracking-[0.18em] text-white/70">
-                          {path.count} techniques
-                        </p>
-                        <h3 className="mt-2 text-2xl font-bold">{path.level}</h3>
-                      </div>
-                      <span className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
-                        Explore
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="p-6">
-                    <p className="text-sm leading-7 text-[#6b635b] sm:text-base">
-                      {path.description}
-                    </p>
-                    <ul className="mt-5 space-y-2 text-sm text-[#403a34]">
-                      {path.focus.map((point) => (
-                        <li key={point} className="flex items-start gap-2">
-                          <span className="mt-1 text-[#b4835a]">•</span>
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </section>
-
-          <section className="py-12 md:py-16">
-            <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
-                  Freshly curated
-                </p>
-                <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-                  Featured techniques that feel worth clicking.
-                </h2>
-              </div>
-              <Link
-                href="/techniques"
-                className="inline-flex text-sm font-semibold text-[#8b5f39] transition-colors hover:text-[#6f4828]"
-              >
-                View the full library →
-              </Link>
-            </div>
-
-            <div className="mt-8 grid gap-6 lg:grid-cols-2">
-              {featuredTechniques.map((technique) => {
-                const primaryVideo =
-                  technique.youtubeVideos.find((video) => video.isPrimary) ??
-                  technique.youtubeVideos[0];
-                const rating = RATING_META[technique.rating];
-
-                return (
-                  <Link
-                    key={technique.id}
-                    href={`/techniques/${technique.slug}`}
-                    className="group overflow-hidden rounded-[28px] border border-[#eadfd6] bg-white shadow-[0_14px_32px_rgba(92,68,43,0.06)] transition-all hover:-translate-y-1 hover:shadow-[0_22px_48px_rgba(92,68,43,0.12)]"
-                  >
-                    <div className="grid gap-0 sm:grid-cols-[220px_1fr]">
-                      <div className="relative h-56 overflow-hidden sm:h-full">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img
-                          src={`https://img.youtube.com/vi/${primaryVideo.videoId}/hqdefault.jpg`}
-                          alt={technique.title}
-                          loading="lazy"
-                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent sm:bg-gradient-to-r sm:from-transparent sm:to-transparent" />
-                      </div>
-
-                      <div className="p-6">
-                        <div className="flex flex-wrap items-center gap-2">
-                          <span
-                            className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold ${rating.badgeClass}`}
-                          >
-                            {rating.label}
-                          </span>
-                          <span className="text-xs font-medium uppercase tracking-[0.18em] text-[#9f8d7f]">
-                            Updated {formatUpdatedAt(technique.updatedAt)}
-                          </span>
-                        </div>
-
-                        <h3 className="mt-4 text-2xl font-bold tracking-tight text-[#201d1a]">
-                          {technique.title}
-                        </h3>
-                        <p className="mt-3 text-sm leading-7 text-[#6b635b] sm:text-base">
-                          {technique.promise}
-                        </p>
-
-                        <div className="mt-5 flex flex-wrap items-center gap-2 text-xs font-medium text-[#7b6b5d]">
-                          <span className="rounded-full bg-[#f5ece3] px-3 py-1">
-                            {technique.terrain.join(" · ")}
-                          </span>
-                          <span className="rounded-full bg-[#f7f2ed] px-3 py-1">
-                            via {primaryVideo.channel}
-                          </span>
-                        </div>
-
-                        <div className="mt-5 inline-flex items-center text-sm font-semibold text-[#8b5f39] transition-colors group-hover:text-[#6f4828]">
-                          Open technique →
-                        </div>
-                      </div>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
-          </section>
+          <HomeDisciplineShowcase contentByDiscipline={homeShowcaseContent} />
 
           <section className="pb-16 pt-6 md:pb-20">
             <div className="rounded-[32px] bg-[#1f1b18] px-6 py-8 text-white shadow-[0_24px_70px_rgba(31,27,24,0.22)] sm:px-8 sm:py-10 lg:px-10">
               <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
                 <div className="max-w-2xl">
                   <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#d8b08b]">
-                    Make your next ski day easier
+                    Make your next mountain day easier
                   </p>
                   <h2 className="mt-3 text-3xl font-black tracking-tight text-white sm:text-4xl">
                     Want the fastest route into the library?

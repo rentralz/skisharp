@@ -1,4 +1,8 @@
+import type { Discipline } from "./disciplines";
+
 export type DifficultyRating = "green" | "blue" | "black" | "double-black";
+
+export type TechniqueId = `${Discipline}:${string}`;
 
 export interface VideoEntry {
   videoId: string;
@@ -21,9 +25,10 @@ export interface Mistake {
 }
 
 export interface Technique {
-  id: string;
+  id: TechniqueId;
   title: string;
   slug: string;
+  discipline: Discipline;
   difficulty: number;
   rating: DifficultyRating;
   terrain: string[];
@@ -41,9 +46,10 @@ export interface Technique {
 
 export const techniques: Technique[] = [
   {
-    id: "wedge-turns",
+    id: "ski:wedge-turns",
     title: "Wedge Turns",
     slug: "wedge-turns",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["Groomed"],
@@ -95,9 +101,10 @@ export const techniques: Technique[] = [
     updatedAt: "2025-03",
   },
   {
-    id: "hockey-stop",
+    id: "ski:hockey-stop",
     title: "Hockey Stop",
     slug: "hockey-stop",
+    discipline: "ski",
     difficulty: 2,
     rating: "green",
     terrain: ["Groomed"],
@@ -141,9 +148,10 @@ export const techniques: Technique[] = [
     updatedAt: "2025-06",
   },
   {
-    id: "speed-control",
+    id: "ski:speed-control",
     title: "Speed Control",
     slug: "speed-control",
+    discipline: "ski",
     difficulty: 3,
     rating: "green",
     terrain: ["Groomed"],
@@ -195,9 +203,10 @@ export const techniques: Technique[] = [
     updatedAt: "2025-05",
   },
   {
-    id: "wedge-christie",
+    id: "ski:wedge-christie",
     title: "Wedge Christie",
     slug: "wedge-christie",
+    discipline: "ski",
     difficulty: 3,
     rating: "green",
     terrain: ["Groomed"],
@@ -248,9 +257,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "parallel-turns",
+    id: "ski:parallel-turns",
     title: "Parallel Turns",
     slug: "parallel-turns",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed"],
@@ -294,9 +304,10 @@ export const techniques: Technique[] = [
     updatedAt: "2025-08",
   },
   {
-    id: "pole-planting",
+    id: "ski:pole-planting",
     title: "Pole Planting",
     slug: "pole-planting",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed"],
@@ -348,9 +359,10 @@ export const techniques: Technique[] = [
     updatedAt: "2025-07",
   },
   {
-    id: "hip-angulation",
+    id: "ski:hip-angulation",
     title: "Hip Angulation",
     slug: "hip-angulation",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -393,9 +405,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "upper-lower-separation",
+    id: "ski:upper-lower-separation",
     title: "Upper-Lower Body Separation",
     slug: "upper-lower-separation",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -446,9 +459,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "carved-turns",
+    id: "ski:carved-turns",
     title: "Carved Turns",
     slug: "carved-turns",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -499,9 +513,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "ice-technique",
+    id: "ski:ice-technique",
     title: "Ice Technique",
     slug: "ice-technique",
+    discipline: "ski",
     difficulty: 6,
     rating: "blue",
     terrain: ["Groomed", "Ice"],
@@ -552,9 +567,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "short-radius-turns",
+    id: "ski:short-radius-turns",
     title: "Short Radius Turns",
     slug: "short-radius-turns",
+    discipline: "ski",
     difficulty: 6,
     rating: "blue",
     terrain: ["Groomed", "Steep"],
@@ -613,9 +629,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "tree-skiing",
+    id: "ski:tree-skiing",
     title: "Tree Skiing",
     slug: "tree-skiing",
+    discipline: "ski",
     difficulty: 7,
     rating: "black",
     terrain: ["Trees", "Powder"],
@@ -666,9 +683,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "mogul-absorption",
+    id: "ski:mogul-absorption",
     title: "Mogul Absorption",
     slug: "mogul-absorption",
+    discipline: "ski",
     difficulty: 7,
     rating: "black",
     terrain: ["Moguls"],
@@ -711,9 +729,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "steep-terrain",
+    id: "ski:steep-terrain",
     title: "Steep Terrain",
     slug: "steep-terrain",
+    discipline: "ski",
     difficulty: 8,
     rating: "black",
     terrain: ["Groomed", "Steep"],
@@ -764,9 +783,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "powder-floating",
+    id: "ski:powder-floating",
     title: "Powder Floating",
     slug: "powder-floating",
+    discipline: "ski",
     difficulty: 8,
     rating: "black",
     terrain: ["Powder"],
@@ -809,9 +829,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "snowplow-stop",
+    id: "ski:snowplow-stop",
     title: "Snowplow Stop",
     slug: "snowplow-stop",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["Groomed"],
@@ -862,9 +883,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "stem-christie",
+    id: "ski:stem-christie",
     title: "Stem Christie",
     slug: "stem-christie",
+    discipline: "ski",
     difficulty: 3,
     rating: "green",
     terrain: ["Groomed"],
@@ -915,9 +937,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "balance-drills",
+    id: "ski:balance-drills",
     title: "Balance Drills",
     slug: "balance-drills",
+    discipline: "ski",
     difficulty: 2,
     rating: "green",
     terrain: ["Groomed"],
@@ -968,9 +991,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "edge-control-basics",
+    id: "ski:edge-control-basics",
     title: "Edge Control Basics",
     slug: "edge-control-basics",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed"],
@@ -1021,9 +1045,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "weight-transfer",
+    id: "ski:weight-transfer",
     title: "Weight Transfer",
     slug: "weight-transfer",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed"],
@@ -1074,9 +1099,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "fall-line-awareness",
+    id: "ski:fall-line-awareness",
     title: "Fall Line Awareness",
     slug: "fall-line-awareness",
+    discipline: "ski",
     difficulty: 3,
     rating: "green",
     terrain: ["Groomed", "Steep"],
@@ -1127,9 +1153,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "sideslipping",
+    id: "ski:sideslipping",
     title: "Sideslipping",
     slug: "sideslipping",
+    discipline: "ski",
     difficulty: 2,
     rating: "green",
     terrain: ["Groomed", "Steep"],
@@ -1180,9 +1207,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "kick-turn",
+    id: "ski:kick-turn",
     title: "Kick Turn",
     slug: "kick-turn",
+    discipline: "ski",
     difficulty: 2,
     rating: "green",
     terrain: ["Steep"],
@@ -1233,9 +1261,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "getting-up",
+    id: "ski:getting-up",
     title: "Getting Up After a Fall",
     slug: "getting-up",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["All"],
@@ -1286,9 +1315,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "chairlift-basics",
+    id: "ski:chairlift-basics",
     title: "Chairlift Basics",
     slug: "chairlift-basics",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["All"],
@@ -1339,9 +1369,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "athletic-stance",
+    id: "ski:athletic-stance",
     title: "Athletic Stance",
     slug: "athletic-stance",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["Groomed"],
@@ -1392,9 +1423,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "dynamic-carving",
+    id: "ski:dynamic-carving",
     title: "Dynamic Carving",
     slug: "dynamic-carving",
+    discipline: "ski",
     difficulty: 8,
     rating: "black",
     terrain: ["Groomed"],
@@ -1445,9 +1477,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "counter-rotation",
+    id: "ski:counter-rotation",
     title: "Counter-Rotation",
     slug: "counter-rotation",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -1498,9 +1531,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "garland-exercise",
+    id: "ski:garland-exercise",
     title: "Garland Exercise",
     slug: "garland-exercise",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed"],
@@ -1551,9 +1585,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "traverse-technique",
+    id: "ski:traverse-technique",
     title: "Traverse Technique",
     slug: "traverse-technique",
+    discipline: "ski",
     difficulty: 2,
     rating: "green",
     terrain: ["Groomed"],
@@ -1604,9 +1639,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "short-turns",
+    id: "ski:short-turns",
     title: "Short Turns",
     slug: "short-turns",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -1658,9 +1694,10 @@ export const techniques: Technique[] = [
     updatedAt: "2025-10",
   },
   {
-    id: "long-radius-turns",
+    id: "ski:long-radius-turns",
     title: "Long Radius Turns",
     slug: "long-radius-turns",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed"],
@@ -1711,9 +1748,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "pole-plant-timing",
+    id: "ski:pole-plant-timing",
     title: "Pole Plant Timing",
     slug: "pole-plant-timing",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -1764,9 +1802,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "hop-turns",
+    id: "ski:hop-turns",
     title: "Hop Turns",
     slug: "hop-turns",
+    discipline: "ski",
     difficulty: 7,
     rating: "black",
     terrain: ["Steep"],
@@ -1817,9 +1856,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "step-turns",
+    id: "ski:step-turns",
     title: "Step Turns",
     slug: "step-turns",
+    discipline: "ski",
     difficulty: 7,
     rating: "black",
     terrain: ["Groomed"],
@@ -1870,9 +1910,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "j-turn",
+    id: "ski:j-turn",
     title: "J-Turn",
     slug: "j-turn",
+    discipline: "ski",
     difficulty: 2,
     rating: "green",
     terrain: ["Groomed"],
@@ -1923,9 +1964,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "falling-leaf",
+    id: "ski:falling-leaf",
     title: "Falling Leaf",
     slug: "falling-leaf",
+    discipline: "ski",
     difficulty: 3,
     rating: "green",
     terrain: ["Groomed"],
@@ -1976,9 +2018,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "one-ski-drill",
+    id: "ski:one-ski-drill",
     title: "One-Ski Drill",
     slug: "one-ski-drill",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -2029,9 +2072,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "retraction-turns",
+    id: "ski:retraction-turns",
     title: "Retraction Turns",
     slug: "retraction-turns",
+    discipline: "ski",
     difficulty: 7,
     rating: "black",
     terrain: ["Groomed"],
@@ -2082,9 +2126,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "skidded-to-carved",
+    id: "ski:skidded-to-carved",
     title: "Skidded to Carved Turns",
     slug: "skidded-to-carved",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -2135,9 +2180,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "bump-absorption",
+    id: "ski:bump-absorption",
     title: "Bump Absorption",
     slug: "bump-absorption",
+    discipline: "ski",
     difficulty: 7,
     rating: "black",
     terrain: ["Moguls"],
@@ -2188,9 +2234,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "flat-light-skiing",
+    id: "ski:flat-light-skiing",
     title: "Flat Light Skiing",
     slug: "flat-light-skiing",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["All"],
@@ -2241,9 +2288,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "skating-on-skis",
+    id: "ski:skating-on-skis",
     title: "Skating on Skis",
     slug: "skating-on-skis",
+    discipline: "ski",
     difficulty: 2,
     rating: "green",
     terrain: ["Groomed"],
@@ -2294,9 +2342,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "herringbone",
+    id: "ski:herringbone",
     title: "Herringbone",
     slug: "herringbone",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["Groomed"],
@@ -2347,9 +2396,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "edge-pressure",
+    id: "ski:edge-pressure",
     title: "Edge Pressure Control",
     slug: "edge-pressure",
+    discipline: "ski",
     difficulty: 6,
     rating: "blue",
     terrain: ["Groomed"],
@@ -2400,9 +2450,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "turn-shape",
+    id: "ski:turn-shape",
     title: "Turn Shape",
     slug: "turn-shape",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -2453,9 +2504,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "powder-entry",
+    id: "ski:powder-entry",
     title: "Powder Entry",
     slug: "powder-entry",
+    discipline: "ski",
     difficulty: 8,
     rating: "black",
     terrain: ["Powder"],
@@ -2506,9 +2558,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "steep-skiing",
+    id: "ski:steep-skiing",
     title: "Steep Skiing",
     slug: "steep-skiing",
+    discipline: "ski",
     difficulty: 8,
     rating: "black",
     terrain: ["Steep"],
@@ -2559,9 +2612,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "pizza-to-french-fries",
+    id: "ski:pizza-to-french-fries",
     title: "Pizza to French Fries",
     slug: "pizza-to-french-fries",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["Groomed"],
@@ -2612,9 +2666,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "snowplow-to-parallel",
+    id: "ski:snowplow-to-parallel",
     title: "Snowplow to Parallel",
     slug: "snowplow-to-parallel",
+    discipline: "ski",
     difficulty: 3,
     rating: "green",
     terrain: ["Groomed"],
@@ -2665,9 +2720,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "side-stepping",
+    id: "ski:side-stepping",
     title: "Side Stepping",
     slug: "side-stepping",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["Groomed", "Steep"],
@@ -2718,9 +2774,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "emergency-stop",
+    id: "ski:emergency-stop",
     title: "Emergency Stop",
     slug: "emergency-stop",
+    discipline: "ski",
     difficulty: 2,
     rating: "green",
     terrain: ["Groomed"],
@@ -2771,9 +2828,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "chairlift-unloading",
+    id: "ski:chairlift-unloading",
     title: "Chairlift Unloading",
     slug: "chairlift-unloading",
+    discipline: "ski",
     difficulty: 1,
     rating: "green",
     terrain: ["All"],
@@ -2824,9 +2882,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "linked-turns",
+    id: "ski:linked-turns",
     title: "Linked Turns",
     slug: "linked-turns",
+    discipline: "ski",
     difficulty: 3,
     rating: "green",
     terrain: ["Groomed"],
@@ -2877,9 +2936,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "inside-ski-steering",
+    id: "ski:inside-ski-steering",
     title: "Inside Ski Steering",
     slug: "inside-ski-steering",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Groomed"],
@@ -2930,9 +2990,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "outside-ski-pressure",
+    id: "ski:outside-ski-pressure",
     title: "Outside Ski Pressure",
     slug: "outside-ski-pressure",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed"],
@@ -2983,9 +3044,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "fore-aft-balance",
+    id: "ski:fore-aft-balance",
     title: "Fore-Aft Balance",
     slug: "fore-aft-balance",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed", "Steep"],
@@ -3036,9 +3098,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "terrain-park-basics",
+    id: "ski:terrain-park-basics",
     title: "Terrain Park Basics",
     slug: "terrain-park-basics",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["Park"],
@@ -3089,9 +3152,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "switch-skiing",
+    id: "ski:switch-skiing",
     title: "Switch Skiing",
     slug: "switch-skiing",
+    discipline: "ski",
     difficulty: 7,
     rating: "black",
     terrain: ["Groomed"],
@@ -3142,9 +3206,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "skiing-in-rain",
+    id: "ski:skiing-in-rain",
     title: "Skiing in Rain",
     slug: "skiing-in-rain",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["All"],
@@ -3195,9 +3260,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "spring-corn-snow",
+    id: "ski:spring-corn-snow",
     title: "Spring Corn Snow",
     slug: "spring-corn-snow",
+    discipline: "ski",
     difficulty: 5,
     rating: "blue",
     terrain: ["All"],
@@ -3248,9 +3314,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "cat-track-skiing",
+    id: "ski:cat-track-skiing",
     title: "Cat Track Skiing",
     slug: "cat-track-skiing",
+    discipline: "ski",
     difficulty: 3,
     rating: "green",
     terrain: ["Groomed"],
@@ -3301,9 +3368,10 @@ export const techniques: Technique[] = [
     ],
   },
   {
-    id: "night-skiing",
+    id: "ski:night-skiing",
     title: "Night Skiing",
     slug: "night-skiing",
+    discipline: "ski",
     difficulty: 4,
     rating: "blue",
     terrain: ["Groomed"],
@@ -3353,8 +3421,760 @@ export const techniques: Technique[] = [
       },
     ],
   },
+
+  {
+    id: "snowboard:snowboard-athletic-stance" as TechniqueId,
+    title: "Snowboard Athletic Stance",
+    slug: "snowboard-athletic-stance",
+    discipline: "snowboard" as Discipline,
+    difficulty: 1,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "The balanced, stacked posture that lets a snowboard move freely under you instead of fighting every little bump or edge change.",
+    promise:
+      "You'll feel centered over the board, calmer on easy terrain, and far less likely to get yanked into the back seat.",
+    timestamps: [
+      { time: "0:25", label: "Stack ribs over hips", detail: "Keep ankles, knees, hips, and shoulders soft and aligned instead of folding at the waist." },
+      { time: "1:10", label: "Hands and gaze", detail: "Let your hands stay quiet in front of you and look where you want the board to travel." },
+      { time: "2:05", label: "Flex both legs evenly", detail: "Use light ankle and knee flex so the board can absorb terrain without throwing you around." },
+    ],
+    feels: [
+      "Like you could hop lightly in place without losing balance",
+      "Pressure spread through both feet instead of hanging only on the back leg",
+      "Your chest stays calm while the board moves underneath you",
+    ],
+    mistakes: [
+      { mistake: "Locking the knees straight", fix: "Add a small athletic bend so the board can roll edge to edge smoothly." },
+      { mistake: "Breaking at the waist", fix: "Stand taller through the torso and bend through ankles and knees first." },
+      { mistake: "Letting the back hand drift behind you", fix: "Keep both hands relaxed and visible in your peripheral vision." },
+    ],
+    drills: [
+      "Static stance check: strap in on flat snow and lightly bounce through both ankles until your posture feels springy rather than rigid.",
+      "Garbage-bag arms: make three slow traverses keeping your hands quiet and your shoulders level.",
+      "Micro-hops: do tiny two-foot hops on gentle terrain to confirm you are stacked over the middle of the board.",
+    ],
+    prerequisites: [] as string[],
+    nextSteps: ["snowboard-flat-base-awareness", "snowboard-one-foot-riding"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "EgLrAtM2S3Q",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "Finding Good Snowboard Posture (For All Turn Types)",
+        isPrimary: true,
+        teachingStyle: "Calm, fundamentals-first posture coaching",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-one-foot-riding" as TechniqueId,
+    title: "Snowboard One-Foot Riding",
+    slug: "snowboard-one-foot-riding",
+    discipline: "snowboard" as Discipline,
+    difficulty: 1,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Gliding, steering, and braking with one foot strapped in so lift lines, unload ramps, and flat exits stop feeling chaotic.",
+    promise:
+      "You'll stop dreading cat tracks and chairlift exits because you'll know how to guide the board with one-foot control instead of panic.",
+    timestamps: [
+      { time: "0:20", label: "Free foot placement", detail: "Rest the free foot lightly against the stomp pad so the board tracks straight instead of fishtailing." },
+      { time: "1:05", label: "Small pushes only", detail: "Use short skating pushes and return the free foot to the board quickly after each push." },
+      { time: "2:15", label: "Flat board awareness", detail: "Stay mostly flat-based while gliding so the board does not unexpectedly grab an edge." },
+    ],
+    feels: [
+      "Like a scooter more than a full snowboard turn",
+      "Most of the control comes from balance and direction, not brute force",
+      "Your free foot stays light and ready rather than stomping around",
+    ],
+    mistakes: [
+      { mistake: "Pushing too hard and getting twisted open", fix: "Take smaller pushes and square yourself back over the board after each one." },
+      { mistake: "Looking down at the board", fix: "Look ahead to the ramp or line you want to follow." },
+      { mistake: "Trying to edge aggressively one-footed", fix: "Keep the board flatter and use subtle steering until you are stable." },
+    ],
+    drills: [
+      "One-push glide: take one small push, place the free foot on the stomp pad, and coast as straight as possible.",
+      "Scooter laps: practice skating 20–30 meters at a time on flat terrain without rushing the push cadence.",
+      "Unstrap-and-return drill: repeatedly step off and back onto the board so the stomp-pad placement becomes automatic.",
+    ],
+    prerequisites: ["snowboard-athletic-stance"] as string[],
+    nextSteps: ["snowboard-chairlift-basics", "snowboard-flat-base-awareness"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "MUB_YhSiK_o",
+        channel: "SnowboardProCamp",
+        channelUrl: "https://www.youtube.com/@SnowboardProCamp",
+        title: "Tips for Snowboarding with One Foot",
+        isPrimary: true,
+        teachingStyle: "Short practical coaching for lift-line movement",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-chairlift-basics" as TechniqueId,
+    title: "Snowboard Chairlift Basics",
+    slug: "snowboard-chairlift-basics",
+    discipline: "snowboard" as Discipline,
+    difficulty: 1,
+    rating: "green" as DifficultyRating,
+    terrain: ["All"] as string[],
+    description:
+      "Loading, riding, and unloading the chairlift with one foot free and enough composure to clear the ramp cleanly.",
+    promise:
+      "You'll make lift rides feel routine instead of stressful, which means more energy for actual riding and fewer awkward unload crashes.",
+    timestamps: [
+      { time: "0:18", label: "Approach line", detail: "Shuffle into the loading zone with the board pointed straight and your free foot ready to stabilize." },
+      { time: "1:08", label: "Sit and hold the board straight", detail: "As the chair scoops you up, keep the board lined with the ramp rather than letting it swing sideways." },
+      { time: "2:00", label: "Stand and glide away", detail: "Stand smoothly, place the free foot on the stomp pad, and ride clear before trying to turn." },
+    ],
+    feels: [
+      "Quiet and predictable, not rushed",
+      "The board glides away flatter than you expect",
+      "You leave the unload area before making any big movement",
+    ],
+    mistakes: [
+      { mistake: "Trying to turn immediately off the chair", fix: "Ride straight for a moment first, then make your turn once you have space." },
+      { mistake: "Letting the nose drift sideways while loading", fix: "Aim the board at the loading groove and keep your hips aligned with it." },
+      { mistake: "Panicking if balance gets shaky", fix: "Use the free foot on the stomp pad and focus on gliding away, not on looking graceful." },
+    ],
+    drills: [
+      "Unload rehearsal: on gentle terrain, practice standing up and gliding one-footed in a straight line for several meters.",
+      "Straight-off challenge: each lift exit, count to two before turning so straight gliding becomes your default.",
+      "One-foot stop zone: after unloading, practice slowing yourself under control before re-strapping.",
+    ],
+    prerequisites: ["snowboard-one-foot-riding"] as string[],
+    nextSteps: ["snowboard-heelside-turns", "snowboard-toeside-turns"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "wl7sIvMgrqg",
+        channel: "SnowboardProCamp",
+        channelUrl: "https://www.youtube.com/@SnowboardProCamp",
+        title: "How To Survive the Chairlift - Beginner Snowboarding",
+        isPrimary: true,
+        teachingStyle: "Simple lift-riding survival tips with beginner focus",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-flat-base-awareness" as TechniqueId,
+    title: "Snowboard Flat-Base Awareness",
+    slug: "snowboard-flat-base-awareness",
+    discipline: "snowboard" as Discipline,
+    difficulty: 1,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Learning when the board should stay flat and when it should gently roll to an edge so you stop surprise edge catches before they start.",
+    promise:
+      "You'll understand why edge catches happen and how to move across easy terrain with much less tension and random slamming.",
+    timestamps: [
+      { time: "0:30", label: "What causes edge catches", detail: "See how tiny unwanted edge angles grab the snow when the board should still be flatter." },
+      { time: "1:20", label: "Center over the board", detail: "Keep your mass over the board instead of throwing it ahead of you during transitions." },
+      { time: "2:35", label: "Roll, do not jerk", detail: "Move gradually from flat base to edge instead of snapping suddenly onto one side." },
+    ],
+    feels: [
+      "Like the board is gliding quietly instead of twitching underneath you",
+      "Transitions feel rounded, not abrupt",
+      "You can sense when the edge begins to bite instead of getting surprised by it",
+    ],
+    mistakes: [
+      { mistake: "Leaning uphill or downhill suddenly", fix: "Stay centered and let the ankles start the edge change gradually." },
+      { mistake: "Trying to twist the shoulders to save balance", fix: "Use a smaller, calmer movement and keep the upper body quieter." },
+      { mistake: "Rushing flat sections", fix: "Accept a little glide time and stay patient through the transition." },
+    ],
+    drills: [
+      "Flat-glide drill: traverse a gentle slope while focusing on keeping the board flatter and your body centered.",
+      "Slow-motion edge rolls: repeatedly move from flat to a tiny heel edge and back, then flat to a tiny toe edge and back.",
+      "Quiet shoulders: ride easy terrain keeping the shoulders nearly still while the legs do the edge work.",
+    ],
+    prerequisites: ["snowboard-athletic-stance"] as string[],
+    nextSteps: ["snowboard-side-slipping", "snowboard-heelside-turns"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "sVUnwWhz1x0",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "How to NOT Catch an Edge on your Snowboard",
+        isPrimary: true,
+        teachingStyle: "Beginner-friendly explanation of edge catches and prevention",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-side-slipping" as TechniqueId,
+    title: "Snowboard Side Slipping",
+    slug: "snowboard-side-slipping",
+    discipline: "snowboard" as Discipline,
+    difficulty: 2,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed", "Steep"] as string[],
+    description:
+      "Controlling a gentle slide down the hill with one edge engaged so you can manage speed and edge pressure without committing to a full turn.",
+    promise:
+      "You'll gain a safety skill that makes steeper beginner terrain feel less all-or-nothing and sets up better edge control for every turn after it.",
+    timestamps: [
+      { time: "0:40", label: "Match the board to the hill", detail: "Set the board across the slope and let a small release of edge start the slide." },
+      { time: "1:25", label: "Feather the edge", detail: "Use tiny ankle changes to speed up or slow down instead of swinging the upper body." },
+      { time: "2:30", label: "Stay stacked", detail: "Keep the body aligned over the edge that is holding you rather than sitting away from it." },
+    ],
+    feels: [
+      "Like easing a handbrake on and off",
+      "The board drifts while still feeling under control",
+      "Small ankle inputs create big changes in speed",
+    ],
+    mistakes: [
+      { mistake: "Dumping all the edge pressure at once", fix: "Release gradually until the board just starts to move." },
+      { mistake: "Twisting the shoulders downhill", fix: "Keep the torso calm and use the ankles and knees to manage the slide." },
+      { mistake: "Leaning uphill too hard", fix: "Stay balanced over the edge rather than trying to fight the hill from above it." },
+    ],
+    drills: [
+      "Slip-start-stop: start a side slip for two board lengths, stop it, then repeat until the pressure changes feel precise.",
+      "Heel and toe alternation: practice the same side-slip control on both edges in the same session.",
+      "Feather ladder: aim for three speeds—very slow, medium, and faster—using only edge pressure adjustments.",
+    ],
+    prerequisites: ["snowboard-athletic-stance", "snowboard-flat-base-awareness"] as string[],
+    nextSteps: ["snowboard-falling-leaf", "snowboard-garlands"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "J2HYpOV-nYM",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "Snowboard Edge Control Drills (RANKED EASY TO HARD)",
+        isPrimary: true,
+        teachingStyle: "Progressive drill ladder for edge control fundamentals",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-falling-leaf" as TechniqueId,
+    title: "Snowboard Falling Leaf",
+    slug: "snowboard-falling-leaf",
+    discipline: "snowboard" as Discipline,
+    difficulty: 2,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Sliding diagonally down the hill and back again on one edge so you learn how to direct the board before linking real turns.",
+    promise:
+      "You'll stop feeling trapped on a single edge and start controlling where the board drifts instead of just surviving the slide.",
+    timestamps: [
+      { time: "0:18", label: "Across-then-back rhythm", detail: "Let the board travel one way across the slope, then shift pressure to bring it back the other way." },
+      { time: "1:12", label: "Lead with pressure, not panic", detail: "Use the front foot and subtle pressure changes to guide the board rather than flailing with the torso." },
+      { time: "2:08", label: "Control the drift", detail: "Keep the speed low enough that you can reverse direction whenever you choose." },
+    ],
+    feels: [
+      "Like windshield wipers on one edge",
+      "The board moves because you guide pressure, not because you throw yourself around",
+      "You should be able to pause the drift whenever you want",
+    ],
+    mistakes: [
+      { mistake: "Letting the board point too far downhill", fix: "Keep more across-the-hill shape so the drift stays slow and recoverable." },
+      { mistake: "Trying to reverse direction with the shoulders first", fix: "Initiate with front-foot pressure and let the board respond before the torso follows." },
+      { mistake: "Staying too rigid through the legs", fix: "Keep ankles and knees soft enough to feather the edge continuously." },
+    ],
+    drills: [
+      "Heel-edge leaf laps: repeat the drill until you can reverse direction three times without letting the board accelerate too much.",
+      "Pause points: stop the drift on command halfway across the slope to prove you are controlling speed, not chasing it.",
+      "Mirror-edge practice: once the pattern clicks on one edge, repeat it on the other edge while keeping the same tempo.",
+    ],
+    prerequisites: ["snowboard-side-slipping"] as string[],
+    nextSteps: ["snowboard-heelside-turns", "snowboard-toeside-turns"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "H5Och_4QLyE",
+        channel: "ALL aBOARD",
+        channelUrl: "https://www.youtube.com/@ALLaBOARDvideos",
+        title: "The Falling Leaf - Edge Practice For Beginners! How to Snowboard Step 3",
+        isPrimary: true,
+        teachingStyle: "Beginner drill-focused edge-control teaching",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-heelside-turns" as TechniqueId,
+    title: "Snowboard Heel-Side Turns",
+    slug: "snowboard-heelside-turns",
+    discipline: "snowboard" as Discipline,
+    difficulty: 2,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Using your heel edge to shape the board into a controlled turn while staying strong, stacked, and secure over the uphill side.",
+    promise:
+      "You'll feel safer and more stable on the heel edge, which gives you the confidence to control speed and commit to linked turns.",
+    timestamps: [
+      { time: "0:28", label: "Build a stronger heel-side shape", detail: "Create pressure through the heels while keeping the hips open enough to stay balanced." },
+      { time: "1:18", label: "Look through the arc", detail: "Aim your eyes and chest where the board should finish instead of staring at the nose." },
+      { time: "2:22", label: "Finish the turn fully", detail: "Let the turn complete across the hill so it naturally controls speed for you." },
+    ],
+    feels: [
+      "Like standing taller and stronger against the hill",
+      "The edge grips because your whole body is aligned behind it",
+      "A finished heel-side turn automatically calms the speed down",
+    ],
+    mistakes: [
+      { mistake: "Folding at the waist toward the snow", fix: "Stay stacked and let ankle and knee flex do more of the work." },
+      { mistake: "Bailing out before the turn finishes", fix: "Hold the heel edge a little longer until the board points more across the hill." },
+      { mistake: "Letting the back hand drag behind you", fix: "Keep both hands quiet and your chest more centered over the board." },
+    ],
+    drills: [
+      "Heel-edge J turns: start in a traverse and finish one controlled heel-side turn to a stop, then repeat.",
+      "Hold-the-finish drill: count one extra second at the end of each heel-side turn before changing edges.",
+      "Slow linked heel exits: on easy terrain, prioritize clean heel-side finishes over making many turns quickly.",
+    ],
+    prerequisites: ["snowboard-falling-leaf", "snowboard-flat-base-awareness"] as string[],
+    nextSteps: ["snowboard-linked-turns", "snowboard-speed-control"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "mAAIh-qwYVY",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "A STRONGER SAFER HEELSIDE",
+        isPrimary: true,
+        teachingStyle: "Specific heel-edge stability coaching with clear movement cues",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-toeside-turns" as TechniqueId,
+    title: "Snowboard Toe-Side Turns",
+    slug: "snowboard-toeside-turns",
+    discipline: "snowboard" as Discipline,
+    difficulty: 2,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Committing to the toe edge with enough ankle, knee, and hip movement to steer the board cleanly without getting pitched forward.",
+    promise:
+      "You'll stop dreading toe-side initiation and start trusting the front of the board to pull you into a real, useful turn.",
+    timestamps: [
+      { time: "0:24", label: "Get the ankles involved", detail: "Start the toe-side edge with ankle flex rather than only throwing the hips downhill." },
+      { time: "1:10", label: "Move the body over the edge", detail: "Bring your center with the board so the toe edge can hold rather than skid away." },
+      { time: "2:05", label: "Stay patient through the arc", detail: "Let the board draw the turn instead of forcing an abrupt pivot." },
+    ],
+    feels: [
+      "Like pressing the shins into the boots while the board comes underneath you",
+      "The toe edge bites more from alignment than from brute force",
+      "The turn gets easier when you trust the edge long enough to finish it",
+    ],
+    mistakes: [
+      { mistake: "Kicking the board around with the back foot", fix: "Lead the edge change from the front foot and let the board steer as one piece." },
+      { mistake: "Only bending at the waist", fix: "Add ankle and knee flex so the whole lower body supports the edge." },
+      { mistake: "Snapping off the edge too early", fix: "Hold the toe edge until the board clearly comes back across the hill." },
+    ],
+    drills: [
+      "Toe-edge J turns: traverse on the toe edge and finish one deliberate toe-side arc to a stop.",
+      "Three-count toe hold: after initiating the toe edge, count to three before releasing to train patience.",
+      "Front-foot steering drill: exaggerate guiding the turn from the lead foot so the back foot stops kicking out.",
+    ],
+    prerequisites: ["snowboard-falling-leaf", "snowboard-flat-base-awareness"] as string[],
+    nextSteps: ["snowboard-linked-turns", "snowboard-speed-control"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "-ingCiNILGE",
+        channel: "SnowboardProCamp",
+        channelUrl: "https://www.youtube.com/@SnowboardProCamp",
+        title: "3 Beginner Snowboard Tips of Doing Toe Turns",
+        isPrimary: true,
+        teachingStyle: "Short tactical tips for beginner toe-side confidence",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-linked-turns" as TechniqueId,
+    title: "Snowboard Linked Turns",
+    slug: "snowboard-linked-turns",
+    discipline: "snowboard" as Discipline,
+    difficulty: 3,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Connecting heel-side and toe-side turns into a flowing S pattern instead of treating each turn like a separate emergency move.",
+    promise:
+      "You'll go from surviving one edge at a time to actually riding the slope with rhythm, direction, and repeatable control.",
+    timestamps: [
+      { time: "0:35", label: "Think in S turns", detail: "Each turn should finish in a way that naturally sets up the next edge change." },
+      { time: "1:25", label: "Early edge change", detail: "Release the old edge before you feel trapped so transitions stay smooth instead of desperate." },
+      { time: "2:30", label: "Keep the upper body calm", detail: "Let the legs and board create the shape while the torso stays balanced and quiet." },
+    ],
+    feels: [
+      "Like one continuous line instead of stop-start movements",
+      "The next turn starts before the previous one feels fully dead",
+      "Your speed becomes easier to manage because the board is always doing useful work",
+    ],
+    mistakes: [
+      { mistake: "Stalling between turns on a flat base for too long", fix: "Change edges a touch earlier while the board still has some direction." },
+      { mistake: "Making the second turn only after panic sets in", fix: "Plan the next edge change while the current turn is still finishing." },
+      { mistake: "Throwing the shoulders to start each turn", fix: "Use ankles, knees, and pressure change first, then let the rest follow." },
+    ],
+    drills: [
+      "Two-turn resets: focus on making just two clean linked turns at a time, stop, then repeat.",
+      "S-line tracing: visualize a wide S pattern and try to make the board follow it from top to bottom.",
+      "Early-release drill: on gentle terrain, intentionally soften the old edge a fraction earlier than feels normal.",
+    ],
+    prerequisites: ["snowboard-heelside-turns", "snowboard-toeside-turns"] as string[],
+    nextSteps: ["snowboard-speed-control", "snowboard-garlands"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "xAvBRqjyyjo",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "Snowboarding S Turns - Early Edge Change",
+        isPrimary: true,
+        teachingStyle: "Smooth turn-linking instruction with strong edge-change focus",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-speed-control" as TechniqueId,
+    title: "Snowboard Speed Control",
+    slug: "snowboard-speed-control",
+    discipline: "snowboard" as Discipline,
+    difficulty: 3,
+    rating: "green" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Managing speed with turn shape, completion, and edge confidence instead of only trying to brake after things already feel too fast.",
+    promise:
+      "You'll stop feeling like the slope is in charge and start choosing a pace you can actually hold from top to bottom.",
+    timestamps: [
+      { time: "0:32", label: "Rounder turns slow you down", detail: "Use more across-the-hill shape instead of pointing the board straight and hoping to recover later." },
+      { time: "1:22", label: "Finish every turn", detail: "A turn that actually comes across the hill sheds speed naturally before the next edge change." },
+      { time: "2:18", label: "Stay ahead of the terrain", detail: "Decide on your turn size before the pitch gets intimidating, not after." },
+    ],
+    feels: [
+      "Speed drops because the line is smarter, not because you are fighting harder",
+      "Completed turns feel calmer than rushed traverses",
+      "Your breathing stays more even because every turn has a plan",
+    ],
+    mistakes: [
+      { mistake: "Letting the board run too straight between turns", fix: "Use rounder turn shapes and earlier edge changes to stay proactive." },
+      { mistake: "Only trying to skid after panic sets in", fix: "Build speed control into the whole turn instead of adding it as a last-second correction." },
+      { mistake: "Changing edges before the turn is finished", fix: "Let each arc do its braking job before releasing it." },
+    ],
+    drills: [
+      "Three-shape drill: make one run with very round turns, one with medium turns, and one with narrow turns to feel the speed difference.",
+      "Finish-to-the-side challenge: on easy terrain, try to bring every turn farther across the hill than usual.",
+      "Breathing run: link turns at a pace where you can keep your breath steady all the way down.",
+    ],
+    prerequisites: ["snowboard-linked-turns"] as string[],
+    nextSteps: ["snowboard-garlands", "snowboard-basic-carving"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "KXPA79lWVZw",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "From Beginner to Advanced Snowboard Turns – How to Improve Fast",
+        isPrimary: true,
+        teachingStyle: "Progression-focused turn coaching with useful line-management cues",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-garlands" as TechniqueId,
+    title: "Snowboard Garlands",
+    slug: "snowboard-garlands",
+    discipline: "snowboard" as Discipline,
+    difficulty: 4,
+    rating: "blue" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Starting and shaping the top half of repeated turns on one edge so you can isolate pressure, steering, and confidence without committing to full direction changes.",
+    promise:
+      "You'll get a cleaner feel for how a turn starts, which makes full linked turns and carving progress much easier to build on purpose.",
+    timestamps: [
+      { time: "0:22", label: "Start the arc, then return", detail: "Let the board begin the turn, then guide it back before it crosses the fall line fully." },
+      { time: "1:18", label: "Repeat on one edge", detail: "Build confidence in the top half of the turn before asking for full turn completion." },
+      { time: "2:14", label: "Feel the initiation", detail: "Notice exactly which movements get the board to engage cleanly at the start of the arc." },
+    ],
+    feels: [
+      "Like rehearsing the first half of a turn until it becomes automatic",
+      "The board starts to obey subtle inputs much earlier in the arc",
+      "You can isolate edge engagement without also solving the whole turn at once",
+    ],
+    mistakes: [
+      { mistake: "Turning the exercise into full turns too soon", fix: "Come back before the board finishes the whole arc so the drill stays specific." },
+      { mistake: "Rushing each repetition", fix: "Pause briefly between garlands so each start feels deliberate." },
+      { mistake: "Using the upper body to yank the board downhill", fix: "Initiate with edge pressure and board movement first." },
+    ],
+    drills: [
+      "Five-garland sets: make five clean garlands on one edge before switching to the other edge.",
+      "Same-start challenge: try to make the first third of every garland feel identical in timing and pressure.",
+      "Garland-to-turn combo: after several repetitions, turn the last one into a complete turn and compare the feeling.",
+    ],
+    prerequisites: ["snowboard-side-slipping", "snowboard-linked-turns"] as string[],
+    nextSteps: ["snowboard-basic-carving", "snowboard-variable-snow-basics"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "60HUUK-zv-c",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "Snowboard Turn Exercises (RANKED WORST TO BEST)",
+        isPrimary: true,
+        teachingStyle: "Drill-ranking format that clarifies which turn exercises actually transfer",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-basic-carving" as TechniqueId,
+    title: "Snowboard Basic Carving",
+    slug: "snowboard-basic-carving",
+    discipline: "snowboard" as Discipline,
+    difficulty: 5,
+    rating: "blue" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Progressing from skidded control into cleaner arcs where the edge does more of the turning and less of the braking.",
+    promise:
+      "You'll feel the board slice a cleaner path through the snow and start understanding the difference between carving and simply surviving a turn.",
+    timestamps: [
+      { time: "0:28", label: "Skidded vs gripped vs carved", detail: "Learn the difference so you know what to chase and what to let go of." },
+      { time: "1:22", label: "Build edge angle progressively", detail: "Let the board earn more grip through the turn instead of jamming it onto edge instantly." },
+      { time: "2:26", label: "Match line to skill", detail: "Use the right pitch and turn size so carving practice stays clean instead of defensive." },
+    ],
+    feels: [
+      "Like the board is drawing the turn instead of just scraping through it",
+      "More grip with less frantic correction",
+      "Pressure builds smoothly as the edge engages through the arc",
+    ],
+    mistakes: [
+      { mistake: "Trying to carve before basic turn shape is stable", fix: "Start from controlled linked turns and add cleaner edge grip gradually." },
+      { mistake: "Forcing too much edge angle too early", fix: "Increase edge angle progressively through the arc." },
+      { mistake: "Practicing on terrain that is too steep", fix: "Use forgiving groomers where you can focus on edge quality, not survival." },
+    ],
+    drills: [
+      "Railroad-track attempts: on mellow groomers, aim for one or two cleaner edge-drawn arcs rather than a full run of forced carves.",
+      "Progressive-build drill: start each turn gently and add edge angle later in the arc.",
+      "Skid-to-grip comparison: intentionally make one skidded turn, then one cleaner gripped turn, and compare the sensation.",
+    ],
+    prerequisites: ["snowboard-speed-control", "snowboard-garlands"] as string[],
+    nextSteps: ["snowboard-switch-basics", "snowboard-powder-basics"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "F-fePL_zvZo",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "SKIDDED GRIPPED OR CARVED TURNS?",
+        isPrimary: true,
+        teachingStyle: "Comparative coaching that makes carving progression less vague",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-switch-basics" as TechniqueId,
+    title: "Snowboard Switch Basics",
+    slug: "snowboard-switch-basics",
+    discipline: "snowboard" as Discipline,
+    difficulty: 5,
+    rating: "blue" as DifficultyRating,
+    terrain: ["Groomed"] as string[],
+    description:
+      "Riding in your non-dominant direction with enough posture, edge control, and patience that it becomes a real skill instead of a party trick.",
+    promise:
+      "You'll build a usable switch foundation without feeling like you have to go all the way back to day-one panic every run.",
+    timestamps: [
+      { time: "0:24", label: "Start from familiar movements", detail: "Reuse your regular riding mechanics rather than inventing a completely different posture." },
+      { time: "1:18", label: "Make the slope easier", detail: "Use terrain that gives you time to think while the switch pattern is still new." },
+      { time: "2:16", label: "Short, honest reps", detail: "Ride switch in manageable chunks so the quality stays high enough to learn from." },
+    ],
+    feels: [
+      "Awkward but understandable rather than impossible",
+      "Your edge control should feel simplified, not chaotic",
+      "Short clean switch moments matter more than long desperate ones",
+    ],
+    mistakes: [
+      { mistake: "Choosing terrain that is too hard", fix: "Drop the pitch and narrow the goals until you can repeat clean switch reps." },
+      { mistake: "Trying to ride switch at full normal speed", fix: "Slow the whole exercise down and prioritize posture and line first." },
+      { mistake: "Letting the upper body twist back to your normal direction", fix: "Commit to the new lead side and keep the torso organized around it." },
+    ],
+    drills: [
+      "Five-second switch rule: ride switch only for a few seconds at a time, then return to normal stance and reset.",
+      "Easy-run repetitions: dedicate one mellow run to repeated short switch segments instead of one long messy attempt.",
+      "Mirror-turn drill: make one simple switch heel-side and one simple switch toe-side turn before reverting.",
+    ],
+    prerequisites: ["snowboard-linked-turns", "snowboard-basic-carving"] as string[],
+    nextSteps: ["snowboard-variable-snow-basics"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "UWU233Y8yJM",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "How to Ride Switch on a Snowboard WITHOUT Going Back to Basics",
+        isPrimary: true,
+        teachingStyle: "Confidence-building switch progression for riders past day one",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-variable-snow-basics" as TechniqueId,
+    title: "Snowboard Variable Snow Basics",
+    slug: "snowboard-variable-snow-basics",
+    discipline: "snowboard" as Discipline,
+    difficulty: 6,
+    rating: "blue" as DifficultyRating,
+    terrain: ["All"] as string[],
+    description:
+      "Adjusting your stance, line, and edge decisions when the surface stops being predictable and starts changing from patch to patch.",
+    promise:
+      "You'll feel less ambushed by chopped-up or changing snow because you'll know how to soften, simplify, and stay ahead of it.",
+    timestamps: [
+      { time: "0:30", label: "Read the snow, not just the trail map", detail: "Notice when density, visibility, and grip change so you can adapt before the board gets weird." },
+      { time: "1:24", label: "Stay softer through the legs", detail: "Use more absorption and less rigidity when the surface is inconsistent." },
+      { time: "2:18", label: "Pick simpler lines", detail: "Use rounder, calmer turns while you learn what the snow is doing underneath you." },
+    ],
+    feels: [
+      "Like the legs are acting as suspension rather than locks",
+      "A little more patience gives you a lot more control",
+      "You are adapting to the surface instead of arguing with it",
+    ],
+    mistakes: [
+      { mistake: "Riding rough snow with the same rigidity as perfect groomers", fix: "Stay looser and let the board move under you more." },
+      { mistake: "Keeping the line too straight when conditions get weird", fix: "Use simpler, rounder turns until the surface feels readable again." },
+      { mistake: "Panicking at the first deflection", fix: "Expect some movement and focus on staying centered through it." },
+    ],
+    drills: [
+      "Surface-scan laps: call out each snow change you feel during a run so you practice recognizing conditions early.",
+      "Soft-leg drill: intentionally ride a chopped-up section with extra ankle and knee softness to feel the board settle down.",
+      "Reset-line drill: when the snow changes, deliberately widen the next turn to buy back control.",
+    ],
+    prerequisites: ["snowboard-speed-control", "snowboard-garlands"] as string[],
+    nextSteps: ["snowboard-powder-basics"] as string[],
+    youtubeVideos: [
+      {
+        videoId: "UK4Pj4egGPI",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "Beginner Powder Tips + Changing Snow Explanation",
+        isPrimary: true,
+        teachingStyle: "Accessible explanation of how changing snow affects beginner technique choices",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
+  {
+    id: "snowboard:snowboard-powder-basics" as TechniqueId,
+    title: "Snowboard Powder Basics",
+    slug: "snowboard-powder-basics",
+    discipline: "snowboard" as Discipline,
+    difficulty: 7,
+    rating: "black" as DifficultyRating,
+    terrain: ["Powder"] as string[],
+    description:
+      "Riding soft snow with enough speed, shape, and body management that the board floats instead of submarining or stalling out.",
+    promise:
+      "You'll stop treating powder like a mystery and start feeling how the board planes, turns, and breathes in softer snow.",
+    timestamps: [
+      { time: "0:25", label: "Let the board float", detail: "Carry enough momentum and trust the board to rise instead of forcing every movement." },
+      { time: "1:15", label: "Use smoother turn shapes", detail: "Powder rewards patient, surfier arcs more than abrupt braking turns." },
+      { time: "2:05", label: "Stay centered and adaptive", detail: "Avoid dramatic back-foot steering and let the whole board work through the snow." },
+    ],
+    feels: [
+      "More like surfing than scraping across a groomer",
+      "The board wants rhythm and flow, not panic stops",
+      "Small balance changes matter a lot when the snow gets deeper",
+    ],
+    mistakes: [
+      { mistake: "Trying to force normal groomer turns in powder", fix: "Use smoother, rounder arcs and let the snow support the board." },
+      { mistake: "Overloading the back foot the entire run", fix: "Stay more centered and only bias aft when conditions truly demand it." },
+      { mistake: "Going too slow into soft snow", fix: "Carry enough speed to keep the board planing and responsive." },
+    ],
+    drills: [
+      "Powder rhythm drill: aim for consistent, surfy left-right arcs instead of stop-start corrections.",
+      "Centered float drill: on shallow soft snow, focus on staying balanced over the middle of the board rather than retreating fully to the tail.",
+      "Speed-preservation laps: pick lines that maintain just enough speed to keep the board lively through each section.",
+    ],
+    prerequisites: ["snowboard-speed-control", "snowboard-variable-snow-basics"] as string[],
+    nextSteps: [] as string[],
+    youtubeVideos: [
+      {
+        videoId: "yDSeCk04kvc",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "3 Simple Tips for Snowboarding in POWDER !!!",
+        isPrimary: true,
+        teachingStyle: "Compact powder-specific coaching for riders making the jump off groomers",
+      },
+      {
+        videoId: "h86lL3Mjxn0",
+        channel: "Malcolm Moore",
+        channelUrl: "https://www.youtube.com/@malcolmmoore",
+        title: "HOW TO RIDE POWDER / HAVE MORE FUN",
+        isPrimary: false,
+        teachingStyle: "Longer explanation of float, line choice, and rhythm in soft snow",
+      },
+    ],
+    updatedAt: "2026-04"
+  },
 ];
+const techniquesById = new Map<TechniqueId, Technique>();
+const techniquesBySlug = new Map<string, Technique>();
+
+for (const technique of techniques) {
+  if (techniquesById.has(technique.id)) {
+    throw new Error(`Duplicate technique id found: ${technique.id}`);
+  }
+
+  if (techniquesBySlug.has(technique.slug)) {
+    throw new Error(`Duplicate technique slug found: ${technique.slug}`);
+  }
+
+  if (!technique.id.startsWith(`${technique.discipline}:`)) {
+    throw new Error(`Technique id must be namespaced by discipline: ${technique.id}`);
+  }
+
+  techniquesById.set(technique.id, technique);
+  techniquesBySlug.set(technique.slug, technique);
+}
+
+for (const technique of techniques) {
+  for (const prerequisiteSlug of technique.prerequisites) {
+    const prerequisite = techniquesBySlug.get(prerequisiteSlug);
+
+    if (!prerequisite) {
+      throw new Error(`Technique prerequisite not found: ${technique.slug} -> ${prerequisiteSlug}`);
+    }
+
+    if (prerequisite.discipline !== technique.discipline) {
+      throw new Error(
+        `Technique prerequisite crosses disciplines: ${technique.slug} (${technique.discipline}) -> ${prerequisiteSlug} (${prerequisite.discipline})`,
+      );
+    }
+  }
+
+  for (const nextStepSlug of technique.nextSteps) {
+    const nextStep = techniquesBySlug.get(nextStepSlug);
+
+    if (!nextStep) {
+      throw new Error(`Technique next step not found: ${technique.slug} -> ${nextStepSlug}`);
+    }
+
+    if (nextStep.discipline !== technique.discipline) {
+      throw new Error(
+        `Technique next step crosses disciplines: ${technique.slug} (${technique.discipline}) -> ${nextStepSlug} (${nextStep.discipline})`,
+      );
+    }
+  }
+}
+
+export function getTechniqueById(id: TechniqueId): Technique | undefined {
+  return techniquesById.get(id);
+}
 
 export function getTechniqueBySlug(slug: string): Technique | undefined {
-  return techniques.find((t) => t.slug === slug);
+  return techniquesBySlug.get(slug);
 }
