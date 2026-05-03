@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HomeDisciplineShowcase from "@/components/HomeDisciplineShowcase";
 import HomeHeroDisciplineSwitch from "@/components/HomeHeroDisciplineSwitch";
+import HomeDisciplineLibraryCta from "@/components/HomeDisciplineLibraryCta";
 import { DISCIPLINES, type Discipline } from "@/data/disciplines";
 import {
   getTechniqueBySlug,
@@ -287,12 +288,9 @@ export default function HomePage() {
                     >
                       Take the 1-minute quiz
                     </Link>
-                    <Link
-                      href="/techniques"
+                    <HomeDisciplineLibraryCta
                       className="inline-flex items-center justify-center rounded-full border border-[#d9c6b5] bg-white px-6 py-3 text-sm font-semibold text-[#7d5431] transition-colors hover:border-[#c9ae96] hover:bg-[#fff6ee]"
-                    >
-                      Browse the full library
-                    </Link>
+                    />
                   </div>
 
                   <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#6c6259]">
@@ -408,12 +406,9 @@ export default function HomePage() {
                   >
                     Find my level
                   </Link>
-                  <Link
-                    href="/techniques"
+                  <HomeDisciplineLibraryCta
                     className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/15"
-                  >
-                    Explore techniques
-                  </Link>
+                  />
                 </div>
               </div>
             </div>
