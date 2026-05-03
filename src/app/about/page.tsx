@@ -8,7 +8,7 @@ import { techniques } from "@/data/techniques";
 export const metadata: Metadata = {
   title: "About TurnLab",
   description:
-    "TurnLab is a curated skiing technique knowledge hub — expert-selected videos, organized into learning paths, and free for everyone.",
+    "TurnLab is a curated ski and snowboard technique knowledge hub — expert-selected videos, organized into learning paths, and free for everyone.",
 };
 
 export default function AboutPage() {
@@ -54,7 +54,7 @@ export default function AboutPage() {
     {
       title: "Practice with a plan",
       description:
-        "Expect drills, feel cues, and progression suggestions that help you decide what to work on during your next ski day.",
+        "Expect drills, feel cues, and progression suggestions that help you decide what to work on during your next day on snow.",
     },
     {
       title: "Stay free of paywalls",
@@ -97,17 +97,17 @@ export default function AboutPage() {
                 About TurnLab
               </p>
               <h1 className="mt-4 text-4xl font-black tracking-tight text-[#201d1a] sm:text-5xl">
-                A better way to learn skiing than bouncing through random videos.
+                A better way to learn skiing and snowboarding than bouncing through random videos.
               </h1>
               <p className="mt-5 max-w-2xl text-base leading-8 text-[#625b54] sm:text-lg">
-                TurnLab is a curated skiing technique library. We take the best instruction
-                we can find, organize it into real progressions, and add the context that
-                makes it easier to use on the mountain.
+                TurnLab is a curated ski and snowboard technique library. We take the best
+                instruction we can find, organize it into real progressions, and add the
+                context that makes it easier to use on the mountain.
               </p>
               <p className="mt-4 max-w-2xl text-sm leading-7 text-[#6f665e] sm:text-base">
-                The idea is simple: YouTube has incredible ski coaching, but it&apos;s scattered.
-                TurnLab brings order to the chaos so you can spend less time searching and
-                more time improving.
+                The idea is simple: YouTube has incredible snow instruction, but it&apos;s
+                scattered. TurnLab brings order to the chaos so you can spend less time
+                searching and more time improving.
               </p>
             </div>
 
@@ -184,7 +184,7 @@ export default function AboutPage() {
               What you can expect
             </p>
             <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-              Practical guidance for your next ski day.
+              Practical guidance for your next day on snow.
             </h2>
             <div className="mt-6 space-y-5">
               {expectations.map((item) => (
