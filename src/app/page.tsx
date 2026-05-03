@@ -286,7 +286,7 @@ export default function HomePage() {
                       href="/quiz"
                       className="inline-flex items-center justify-center rounded-full bg-[#201d1a] px-6 py-3 text-sm font-semibold text-white transition-transform transition-colors hover:-translate-y-0.5 hover:bg-[#342f2a]"
                     >
-                      Take the 1-minute quiz
+                      Find your level in 1 minute
                     </Link>
                     <HomeDisciplineLibraryCta
                       className="inline-flex items-center justify-center rounded-full border border-[#d9c6b5] bg-white px-6 py-3 text-sm font-semibold text-[#7d5431] transition-colors hover:border-[#c9ae96] hover:bg-[#fff6ee]"
