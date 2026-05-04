@@ -172,12 +172,12 @@ export default async function TechniqueDetailPage({
               {technique.feels.map((feel, index) => (
                 <li
                   key={index}
-                  className="flex gap-3 p-4 rounded-xl bg-white border border-gray-200"
+                  className="flex gap-3 rounded-xl border border-[#d7eadf] bg-[#f7fbf8] p-4"
                 >
-                  <span className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs flex items-center justify-center mt-0.5">
+                  <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border border-[#9fd0af] bg-[#dcf3e4] text-xs text-[#166534]">
                     ✓
                   </span>
-                  <span className="text-gray-200 text-sm leading-relaxed">{feel}</span>
+                  <span className="text-sm leading-relaxed text-[#3f4c45]">{feel}</span>
                 </li>
               ))}
             </ul>
@@ -189,18 +189,18 @@ export default async function TechniqueDetailPage({
             <h2 className="text-xl font-bold text-gray-900 mb-5">Common Mistakes &amp; Fixes</h2>
             <div className="space-y-4">
               {technique.mistakes.map((item, index) => (
-                <div key={index} className="rounded-xl border border-gray-200 overflow-hidden">
-                  <div className="bg-red-950/40 border-b border-red-900/30 px-5 py-3.5 flex gap-3 items-start">
-                    <span className="flex-shrink-0 w-5 h-5 rounded-full bg-red-500/20 border border-red-500/30 text-red-400 text-xs flex items-center justify-center mt-0.5">
+                <div key={index} className="overflow-hidden rounded-xl border border-[#eadfda]">
+                  <div className="flex items-start gap-3 border-b border-[#f1cdc2] bg-[#fff1ee] px-5 py-3.5">
+                    <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border border-[#f0b7a6] bg-[#ffe0d7] text-xs text-[#b42318]">
                       ✕
                     </span>
-                    <p className="text-red-300 text-sm leading-relaxed">{item.mistake}</p>
+                    <p className="text-sm leading-relaxed text-[#7a271a]">{item.mistake}</p>
                   </div>
-                  <div className="bg-emerald-950/25 px-5 py-3.5 flex gap-3 items-start">
-                    <span className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs flex items-center justify-center mt-0.5">
+                  <div className="flex items-start gap-3 bg-[#effaf3] px-5 py-3.5">
+                    <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border border-[#9fd0af] bg-[#dcf3e4] text-xs text-[#166534]">
                       ✓
                     </span>
-                    <p className="text-emerald-300 text-sm leading-relaxed">{item.fix}</p>
+                    <p className="text-sm leading-relaxed text-[#166534]">{item.fix}</p>
                   </div>
                 </div>
               ))}
