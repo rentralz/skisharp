@@ -1,17 +1,123 @@
 {
-  "lastScanned": "2026-04-20T02:01:15.509Z",
-  "totalDeals": 10,
+  "lastScanned": "2026-05-05T09:38:12.669Z",
+  "totalDeals": 23,
+  "sourceStats": {
+    "reddit": 0,
+    "slickdeals": 118,
+    "amazon": 9
+  },
   "deals": [
     {
-      "title": "Let's talk shields/screens and Road Kings",
-      "url": "https://www.reddit.com/r/Harley/comments/1sqbwqs/lets_talk_shieldsscreens_and_road_kings/",
-      "source": "r/skiing",
-      "sourceIcon": "🔴",
-      "score": 2,
-      "comments": 0,
-      "posted": "2026-04-20T01:58:44.000Z",
-      "category": "other",
-      "thumbnail": null
+      "title": "$9.16* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
+      "url": "https://slickdeals.net/f/19482351-9-16-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-05-02T07:50:05.000Z"
+    },
+    {
+      "title": "REI Co-op Men's Heavyweight 100% Merino Wool Base Layer Half-Zip Top (Cherrywood or Teal) $49.83 + Free Store Pickup",
+      "url": "https://slickdeals.net/f/19470804-rei-co-op-men-s-heavyweight-100-merino-wool-base-layer-half-zip-top-cherrywood-or-teal-49-83-free-store-pickup?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-04-29T01:26:30.000Z"
+    },
+    {
+      "title": "$12.99 | Spyder Womens Micro French Terry Base Layer Bottom at Woot!",
+      "url": "https://slickdeals.net/f/19460814-12-99-spyder-womens-micro-french-terry-base-layer-bottom-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-04-26T06:44:42.000Z"
+    },
+    {
+      "title": "$11.99 | Spyder Womens Micro French Terry LS Crew Base Layer at Woot!",
+      "url": "https://slickdeals.net/f/19460592-11-99-spyder-womens-micro-french-terry-ls-crew-base-layer-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-04-26T05:09:51.000Z"
+    },
+    {
+      "title": "$29.99 | Spyder Mens 3-in-1 Snow Ski System Jkt at Woot!",
+      "url": "https://slickdeals.net/f/19460583-29-99-spyder-mens-3-in-1-snow-ski-system-jkt-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-04-26T05:09:12.000Z"
+    },
+    {
+      "title": "Waterproofing & Fabric Treatment with PTEF $6.74",
+      "url": "https://slickdeals.net/f/19459548-waterproofing-fabric-treatment-with-ptef-6-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-04-25T18:33:26.000Z"
+    },
+    {
+      "title": "Smartwool Women's Intraknit Colorblock Quarter-Zip Thermal Merino Base Layer (Mink) $59.99 + Free Shipping",
+      "url": "https://slickdeals.net/f/19415310-smartwool-women-s-intraknit-colorblock-quarter-zip-thermal-merino-base-layer-mink-59-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-04-13T16:20:17.000Z"
+    },
+    {
+      "title": "adidas Alphaskin Balaclava Ski Mask (Grey) $10.30 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19409367-adidas-alphaskin-balaclava-ski-mask-grey-10-30-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-04-11T23:03:32.000Z"
+    },
+    {
+      "title": "Ozark Trail Girls' Snow and Ski Hooded Jacket (Size XS-XXL) $18.81 + Free S&H w/ Walmart+ or on $35+",
+      "url": "https://slickdeals.net/f/19400544-ozark-trail-girls-snow-and-ski-hooded-jacket-size-xs-xxl-18-81-free-s-h-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-04-09T15:02:37.000Z"
+    },
+    {
+      "title": "Ozark Trail Women's Warmest Thermal Long Sleeve Fleece Mockneck Top (2 Colors) $5 & More + Free S&H w/ Walmart+ or on $35+",
+      "url": "https://slickdeals.net/f/19396917-ozark-trail-women-s-warmest-thermal-long-sleeve-fleece-mockneck-top-2-colors-5-more-free-s-h-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-04-08T15:58:34.000Z"
+    },
+    {
+      "title": "$21.99 | Arctix Womens Essential Insulated Ski Bib Overalls at Woot!",
+      "url": "https://slickdeals.net/f/19396737-21-99-arctix-womens-essential-insulated-ski-bib-overalls-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-04-08T15:14:55.000Z"
+    },
+    {
+      "title": "$12.99 | Spyder Womens Micro French Terry LS Base Layer Top at Woot!",
+      "url": "https://slickdeals.net/f/19396008-12-99-spyder-womens-micro-french-terry-ls-base-layer-top-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-04-08T11:03:31.000Z"
+    },
+    {
+      "title": "$12.99 | Spyder Womens Micro Terry Base Layer Bottom at Woot!",
+      "url": "https://slickdeals.net/f/19395453-12-99-spyder-womens-micro-terry-base-layer-bottom-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-04-08T05:15:22.000Z"
+    },
+    {
+      "title": "Smartwool Men's Thermal Merino Wool Base Layer Quarter Zip Shirt (Charcoal Foggy Pines, Size S-XXL) $49.99 + Free Shipping",
+      "url": "https://slickdeals.net/f/19389438-smartwool-men-s-thermal-merino-wool-base-layer-quarter-zip-shirt-charcoal-foggy-pines-size-s-xxl-49-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-04-06T16:56:47.000Z"
     },
     {
       "title": "🔍 Ski Jackets on Sale",
@@ -19,7 +125,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     },
     {
@@ -28,7 +134,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     },
     {
@@ -37,7 +143,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     },
     {
@@ -46,7 +152,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     },
     {
@@ -55,7 +161,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     },
     {
@@ -64,7 +170,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     },
     {
@@ -73,7 +179,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     },
     {
@@ -82,7 +188,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     },
     {
@@ -91,7 +197,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-04-20T02:01:15.507Z",
+      "posted": "2026-05-05T09:38:12.665Z",
       "isAmazonSearch": true
     }
   ]

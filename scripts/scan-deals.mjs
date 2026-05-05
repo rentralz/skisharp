@@ -12,68 +12,169 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEALS_PATH = path.join(__dirname, "..", "src", "data", "deals.json");
 const AFFILIATE_TAG = "turnlab-20";
+const USER_AGENT = "TurnLab-DealScanner/1.1";
+
+const REDDIT_SUBREDDITS = ["skiingdeals", "skigear", "skiing"];
+const REDDIT_QUERY = 'deal OR discount OR clearance OR coupon OR markdown OR sale OR "% off" OR "off season"';
+const SLICKDEALS_QUERIES = [
+  "ski",
+  "ski jacket",
+  "ski goggles",
+  "ski boots",
+  "ski helmet",
+  "ski gloves",
+  "ski socks",
+  "base layer",
+];
 
 // Categories for classification
-const CATEGORIES = {
-  jackets: ["jacket", "shell", "parka", "coat"],
-  pants: ["pant", "bib", "trouser"],
-  baselayers: ["base layer", "baselayer", "thermal", "merino underwear"],
-  gloves: ["glove", "mitten", "mitt"],
-  goggles: ["goggle", "lens"],
-  helmets: ["helmet"],
-  socks: ["sock", "merino sock"],
-  accessories: ["gaiter", "balaclava", "beanie", "neck warmer", "hand warmer"],
-  skis: ["ski ", "skis"],
-  boots: ["ski boot", "boot"],
-  bindings: ["binding"],
-  poles: ["pole"],
-  packs: ["backpack", "pack", "bag"],
-  passes: ["pass", "epic", "ikon", "lift ticket", "season pass"],
-};
+const CATEGORY_RULES = [
+  ["jackets", /\b(jacket|jkt|shell|parka|coat|outerwear)\b/i],
+  ["pants", /\b(pant|pants|bib|bibs|overall|overalls|trouser)\b/i],
+  ["baselayers", /\b(base layer|baselayer|thermal|quarter-zip|half-zip)\b/i],
+  ["gloves", /\b(glove|gloves|mitten|mittens|mitt)\b/i],
+  ["goggles", /\b(goggle|goggles|lens|lenses)\b/i],
+  ["helmets", /\b(helmet|helmets)\b/i],
+  ["socks", /\b(sock|socks)\b/i],
+  ["accessories", /\b(gaiter|balaclava|beanie|neck warmer|hand warmer|waterproofing|mask)\b/i],
+  ["boots", /\b(ski boot|ski boots|boot|boots)\b/i],
+  ["bindings", /\b(binding|bindings)\b/i],
+  ["poles", /\b(pole|poles)\b/i],
+  ["packs", /\b(backpack|pack|bag)\b/i],
+  ["passes", /\b(pass|epic|ikon|lift ticket|season pass)\b/i],
+  ["skis", /\b(ski|skis)\b/i],
+];
+
+const SKI_CONTEXT_PATTERN = /\b(ski|skis|snow|goggle|goggles|helmet|helmets|balaclava|merino|base layer|baselayer|thermal|spyder|smartwool|arctix|waterproofing|lift ticket|pass|ikon|epic|snow gear|winter)\b/i;
+const DEAL_PATTERN = /(\bdeal\b|\bdiscount\b|\bclearance\b|\bmarkdown\b|\bcoupon\b|\bpromo\b|\bsale\b|%\s*off|\bfrom\s*[$€£]|[$€£]\s?\d|\boff season\b|\bsave\b)/i;
+const QUESTION_PATTERN = /(\?|\b(help|advice|review|sizing|length|best time|where to sell|looking for|anyone|what|when|how|should i|good for beginner|trying to figure out)\b)/i;
+const NEGATIVE_PATTERN = /(harley|road king|motorcycle|windshield|shield\/screen|sales tax|air freshener|smart watch|graphic short sleeve|crusher tee|t-?rex|cleansing oil|dark ski scent|women's graphic tee|men's graphic tee|fleece jacket)/i;
 
 function classifyDeal(title) {
-  const lower = title.toLowerCase();
-  for (const [cat, keywords] of Object.entries(CATEGORIES)) {
-    if (keywords.some((kw) => lower.includes(kw))) return cat;
+  for (const [category, pattern] of CATEGORY_RULES) {
+    if (pattern.test(title)) return category;
   }
   return "other";
 }
 
+function decodeHtml(text) {
+  return text
+    .replace(/<!\[CDATA\[|\]\]>/g, "")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+}
+
+function normalizeWhitespace(text) {
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function canonicalizeTitle(title) {
+  return normalizeWhitespace(
+    decodeHtml(title)
+      .replace(/^[$€£][^|]+\|\s*/i, "")
+      .replace(/^\(size[^)]+\)\s*/i, "")
+      .replace(/\s+\+\s+free shipping.*$/i, "")
+      .replace(/\s+at\s+[A-Za-z0-9!.' -]+$/i, "")
+      .replace(/\s*\([^)]*\)/g, "")
+      .replace(/[^a-z0-9]+/gi, " ")
+  ).toLowerCase();
+}
+
 function deduplicateDeals(deals) {
   const seen = new Set();
-  return deals.filter((d) => {
-    const key = d.title.toLowerCase().slice(0, 60);
+  return deals.filter((deal) => {
+    const urlKey = deal.isAmazonSearch ? deal.url : deal.url.replace(/\?.*$/, "");
+    const titleKey = canonicalizeTitle(deal.title);
+    const key = deal.isAmazonSearch ? `${urlKey}::amazon` : titleKey || `${urlKey}::${deal.title.toLowerCase()}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
 }
 
+function hasExplicitPriceSignal(text) {
+  return /([$€£]\s?\d|\d+%\s*off|\bfrom\s*[$€£]|\bunder\s*[$€£])/i.test(text);
+}
+
+function isRelevantDeal(title, url = "") {
+  const haystack = `${title} ${url}`;
+  if (NEGATIVE_PATTERN.test(haystack)) return false;
+  if (!SKI_CONTEXT_PATTERN.test(haystack)) return false;
+  return DEAL_PATTERN.test(haystack) || hasExplicitPriceSignal(haystack);
+}
+
+function isLikelyDiscussionPost(title, url = "") {
+  const looksLikeRedditThread = /reddit\.com\/r\//i.test(url) || /redd\.it\//i.test(url);
+  if (!looksLikeRedditThread) return false;
+  if (!hasExplicitPriceSignal(title) && !/(discount|clearance|coupon|promo|%\s*off|markdown)/i.test(title)) return true;
+  return QUESTION_PATTERN.test(title) && !hasExplicitPriceSignal(title);
+}
+
+async function fetchText(url) {
+  const res = await fetch(url, {
+    headers: { "User-Agent": USER_AGENT },
+    signal: AbortSignal.timeout(15000),
+  });
+
+  if (!res.ok) {
+    throw new Error(`${res.status} ${res.statusText}`);
+  }
+
+  return res.text();
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url, {
+    headers: { "User-Agent": USER_AGENT },
+    signal: AbortSignal.timeout(15000),
+  });
+
+  if (!res.ok) {
+    throw new Error(`${res.status} ${res.statusText}`);
+  }
+
+  return res.json();
+}
+
+function parseRssItems(xml) {
+  const itemRegex = /<item>[\s\S]*?<title>([\s\S]*?)<\/title>[\s\S]*?<link>([\s\S]*?)<\/link>[\s\S]*?<pubDate>([\s\S]*?)<\/pubDate>[\s\S]*?<\/item>/g;
+  const items = [];
+  let match;
+
+  while ((match = itemRegex.exec(xml)) !== null) {
+    items.push({
+      title: normalizeWhitespace(decodeHtml(match[1])),
+      link: normalizeWhitespace(decodeHtml(match[2])),
+      pubDate: normalizeWhitespace(decodeHtml(match[3])),
+    });
+  }
+
+  return items;
+}
+
 // ─── Reddit Scanner ──────────────────────────────────────
 async function scanReddit() {
-  const subreddits = [
-    "skiingdeals",
-    "skiing",
-    "skigear",
-  ];
   const deals = [];
 
-  for (const sub of subreddits) {
+  for (const sub of REDDIT_SUBREDDITS) {
     try {
-      const url = `https://www.reddit.com/r/${sub}/search.json?q=deal+OR+sale+OR+discount+OR+clearance+OR+percent+off&sort=new&t=week&limit=25`;
-      const res = await fetch(url, {
-        headers: { "User-Agent": "TurnLab-DealScanner/1.0" },
-      });
-      if (!res.ok) continue;
-      const data = await res.json();
+      const url = `https://www.reddit.com/r/${sub}/search.json?restrict_sr=1&sort=new&t=month&limit=30&q=${encodeURIComponent(REDDIT_QUERY)}`;
+      const data = await fetchJson(url);
 
       for (const post of data?.data?.children || []) {
         const d = post.data;
-        if (d.score < 2) continue; // Skip low-quality
+        const outboundUrl = d.url_overridden_by_dest || d.url || `https://reddit.com${d.permalink}`;
+        if (d.score < 2) continue;
+        if (!isRelevantDeal(d.title, outboundUrl)) continue;
+        if (isLikelyDiscussionPost(d.title, outboundUrl)) continue;
 
         deals.push({
           title: d.title,
-          url: d.url?.startsWith("http") ? d.url : `https://reddit.com${d.permalink}`,
+          url: outboundUrl.startsWith("http") ? outboundUrl : `https://reddit.com${d.permalink}`,
           source: `r/${sub}`,
           sourceIcon: "🔴",
           score: d.score,
@@ -83,92 +184,38 @@ async function scanReddit() {
           thumbnail: d.thumbnail?.startsWith("http") ? d.thumbnail : null,
         });
       }
-    } catch (e) {
-      console.error(`Reddit r/${sub} error:`, e.message);
+    } catch (error) {
+      console.error(`Reddit r/${sub} error:`, error.message);
     }
   }
 
   return deals;
 }
 
-// ─── SlickDeals Scanner ──────────────────────────────────
+// ─── SlickDeals RSS Scanner ──────────────────────────────
 async function scanSlickDeals() {
   const deals = [];
-  const queries = ["ski", "skiing", "snowboard", "snow gear", "ski jacket", "ski goggles"];
 
-  for (const query of queries) {
+  for (const query of SLICKDEALS_QUERIES) {
     try {
-      const url = `https://slickdeals.net/newsearch.php?searcharea=deals&searchin=first&q=${encodeURIComponent(query)}&sort=newest`;
-      const res = await fetch(url, {
-        headers: { "User-Agent": "TurnLab-DealScanner/1.0" },
-      });
-      if (!res.ok) continue;
-      const html = await res.text();
+      const url = `https://slickdeals.net/newsearch.php?searcharea=deals&searchin=first&sort=newest&rss=1&q=${encodeURIComponent(query)}`;
+      const xml = await fetchText(url);
+      const items = parseRssItems(xml);
 
-      // Extract deal titles and links from search results
-      const dealRegex = /<a[^>]*class="[^"]*dealTitle[^"]*"[^>]*href="([^"]*)"[^>]*>([^<]*)<\/a>/g;
-      let match;
-      while ((match = dealRegex.exec(html)) !== null) {
-        const dealUrl = match[1].startsWith("http") ? match[1] : `https://slickdeals.net${match[1]}`;
+      for (const item of items) {
+        if (!isRelevantDeal(item.title, item.link)) continue;
+
         deals.push({
-          title: match[2].trim(),
-          url: dealUrl,
+          title: item.title,
+          url: item.link,
           source: "SlickDeals",
           sourceIcon: "💰",
-          category: classifyDeal(match[2]),
-          posted: new Date().toISOString(),
+          category: classifyDeal(item.title),
+          posted: new Date(item.pubDate).toISOString(),
         });
       }
-    } catch (e) {
-      console.error(`SlickDeals error:`, e.message);
-    }
-  }
-
-  return deals;
-}
-
-// ─── RSS/Atom Feed Scanner ──────────────────────────────
-async function scanRSSFeeds() {
-  const feeds = [
-    {
-      url: "https://www.evo.com/shop/sale/skiing.rss",
-      source: "Evo",
-      sourceIcon: "🏔️",
-    },
-    {
-      url: "https://www.rei.com/rss/deals",
-      source: "REI",
-      sourceIcon: "🏕️",
-    },
-  ];
-  const deals = [];
-
-  for (const feed of feeds) {
-    try {
-      const res = await fetch(feed.url, {
-        headers: { "User-Agent": "TurnLab-DealScanner/1.0" },
-        signal: AbortSignal.timeout(10000),
-      });
-      if (!res.ok) continue;
-      const text = await res.text();
-
-      // Simple XML parsing for RSS items
-      const itemRegex = /<item>[\s\S]*?<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>[\s\S]*?<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/link>[\s\S]*?<\/item>/g;
-      let match;
-      while ((match = itemRegex.exec(text)) !== null) {
-        const title = match[1].trim();
-        if (!title.toLowerCase().match(/ski|snow|winter|goggle|helmet|glove|jacket|pant|boot/)) continue;
-        deals.push({
-          title,
-          url: match[2].trim(),
-          source: feed.source,
-          sourceIcon: feed.sourceIcon,
-          category: classifyDeal(title),
-          posted: new Date().toISOString(),
-        });
-      }
-    } catch (e) {
-      console.error(`RSS ${feed.source} error:`, e.message);
+    } catch (error) {
+      console.error(`SlickDeals query "${query}" error:`, error.message);
     }
   }
 
@@ -189,60 +236,59 @@ function getAmazonDeals() {
     { query: "all+mountain+skis+sale", title: "All-Mountain Skis on Sale", category: "skis" },
   ];
 
-  return searches.map((s) => ({
-    title: `🔍 ${s.title}`,
-    url: `https://www.amazon.com/s?k=${s.query}&tag=${AFFILIATE_TAG}`,
+  return searches.map((search) => ({
+    title: `🔍 ${search.title}`,
+    url: `https://www.amazon.com/s?k=${search.query}&tag=${AFFILIATE_TAG}`,
     source: "Amazon",
     sourceIcon: "📦",
-    category: s.category,
+    category: search.category,
     posted: new Date().toISOString(),
     isAmazonSearch: true,
   }));
+}
+
+function sortDeals(a, b) {
+  if (a.isAmazonSearch && !b.isAmazonSearch) return 1;
+  if (!a.isAmazonSearch && b.isAmazonSearch) return -1;
+
+  if (typeof a.score === "number" && typeof b.score === "number" && a.score !== b.score) {
+    return b.score - a.score;
+  }
+
+  return new Date(b.posted).getTime() - new Date(a.posted).getTime();
 }
 
 // ─── Main ────────────────────────────────────────────────
 async function main() {
   console.log("🔍 TurnLab Deal Scanner starting...\n");
 
-  // Scan all sources in parallel
-  const [redditDeals, slickDeals, rssDeals] = await Promise.all([
+  const [redditDeals, slickDeals] = await Promise.all([
     scanReddit(),
     scanSlickDeals(),
-    scanRSSFeeds(),
   ]);
-
   const amazonDeals = getAmazonDeals();
 
   console.log(`📊 Reddit: ${redditDeals.length} deals`);
   console.log(`📊 SlickDeals: ${slickDeals.length} deals`);
-  console.log(`📊 RSS Feeds: ${rssDeals.length} deals`);
   console.log(`📊 Amazon Searches: ${amazonDeals.length} curated`);
 
-  // Merge, deduplicate, sort by date
   const allDeals = deduplicateDeals([
     ...redditDeals,
     ...slickDeals,
-    ...rssDeals,
     ...amazonDeals,
-  ]);
+  ]).sort(sortDeals);
 
-  // Keep last 7 days of deals + always keep Amazon searches
-  const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
-  const freshDeals = allDeals.filter(
-    (d) => d.isAmazonSearch || d.posted > weekAgo
-  );
-
-  // Sort: highest score first for Reddit, then by date
-  freshDeals.sort((a, b) => {
-    if (a.isAmazonSearch && !b.isAmazonSearch) return 1;
-    if (!a.isAmazonSearch && b.isAmazonSearch) return -1;
-    if (a.score && b.score) return b.score - a.score;
-    return new Date(b.posted).getTime() - new Date(a.posted).getTime();
-  });
+  const monthAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+  const freshDeals = allDeals.filter((deal) => deal.isAmazonSearch || new Date(deal.posted) > monthAgo);
 
   const output = {
     lastScanned: new Date().toISOString(),
     totalDeals: freshDeals.length,
+    sourceStats: {
+      reddit: redditDeals.length,
+      slickdeals: slickDeals.length,
+      amazon: amazonDeals.length,
+    },
     deals: freshDeals,
   };
 
@@ -250,4 +296,7 @@ async function main() {
   console.log(`\n✅ Wrote ${freshDeals.length} deals to ${DEALS_PATH}`);
 }
 
-main().catch(console.error);
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import SkipNav from "@/components/SkipNav";
 import PostHogProvider from "@/components/PostHogProvider";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import PageTransition from "@/components/PageTransition";
 import "./globals.css";
 
@@ -67,6 +68,7 @@ export default function RootLayout({
       )}
       <body className="min-h-screen bg-white dark:bg-[#111] text-[#222] dark:text-gray-100">
         <PostHogProvider>
+          <GoogleAnalytics />
           <SkipNav />
           <PageTransition>{children}</PageTransition>
           <Analytics />

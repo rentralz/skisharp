@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TurnLab Deals Sketch — Featured Deals First</title>
+  <style>
+    :root {
+      --bg: #fcfaf8;
+      --panel: #ffffff;
+      --ink: #201d1a;
+      --muted: #6b625b;
+      --line: #eadfd6;
+      --accent: #b4835a;
+      --accent-dark: #8b5f39;
+      --green: #1f7a52;
+      --green-soft: #e7f5ee;
+      --warm: #fff5ec;
+      --shadow: 0 18px 50px rgba(99, 74, 51, 0.10);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #fffdfb 0%, var(--bg) 32%, #f7efe8 100%);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 32px 20px 60px; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px; padding: 10px 14px;
+      border: 1px solid #e8d7ca; border-radius: 999px; background: rgba(255,255,255,0.9);
+      color: var(--accent-dark); font-size: 12px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase;
+    }
+    .hero {
+      margin-top: 14px; background: linear-gradient(135deg, #fffaf5 0%, #fffefc 55%, #f4ece5 100%);
+      border: 1px solid var(--line); border-radius: 32px; padding: 34px; box-shadow: var(--shadow);
+      display: grid; gap: 28px; grid-template-columns: 1.15fr 0.85fr;
+    }
+    h1 { margin: 16px 0 0; font-size: clamp(2.8rem, 5vw, 4.4rem); line-height: 0.98; letter-spacing: -0.04em; }
+    .lede { max-width: 720px; margin-top: 18px; font-size: 1.12rem; color: var(--muted); }
+    .cta-row, .mini-metrics, .chip-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .cta-row { margin-top: 26px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 14px 18px; border-radius: 999px; font-weight: 700; font-size: 14px;
+      text-decoration: none; border: 1px solid transparent;
+    }
+    .btn-primary { background: var(--ink); color: #fff; }
+    .btn-secondary { background: #fff; color: var(--accent-dark); border-color: #d9c6b5; }
+    .mini-metrics { margin-top: 18px; }
+    .metric {
+      background: rgba(255,255,255,0.88); border: 1px solid #ebdfd7; color: #4f4741;
+      border-radius: 999px; padding: 10px 14px; font-size: 13px; font-weight: 600;
+    }
+    .right-panel {
+      background: #1f1b18; color: white; border-radius: 28px; padding: 24px;
+      display: flex; flex-direction: column; gap: 16px; position: relative; overflow: hidden;
+    }
+    .right-panel::after {
+      content: ""; position: absolute; inset: auto -60px -80px auto; width: 180px; height: 180px;
+      background: radial-gradient(circle, rgba(216,176,139,0.28), rgba(216,176,139,0)); border-radius: 50%;
+    }
+    .small-label { color: #d8b08b; text-transform: uppercase; font-size: 12px; letter-spacing: 0.18em; font-weight: 700; }
+    .panel-title { margin: 0; font-size: 1.55rem; line-height: 1.1; }
+    .panel-copy { margin: 0; color: rgba(255,255,255,0.76); }
+    .list { display: grid; gap: 12px; margin-top: 8px; }
+    .list-item {
+      padding: 12px 14px; border-radius: 16px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+    }
+    .section { margin-top: 28px; }
+    .section-head { display: flex; justify-content: space-between; align-items: end; gap: 12px; margin-bottom: 18px; }
+    .section-head h2 { margin: 0; font-size: 2rem; letter-spacing: -0.03em; }
+    .section-head p { margin: 6px 0 0; color: var(--muted); max-width: 700px; }
+    .card-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 16px; }
+    .deal-card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: 24px; padding: 18px;
+      box-shadow: 0 10px 30px rgba(99, 74, 51, 0.06);
+    }
+    .deal-top { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+    .pill { display: inline-flex; padding: 7px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+    .pill-hot { background: #fde9da; color: #a25016; }
+    .pill-fresh { background: var(--green-soft); color: var(--green); }
+    .deal-title { margin: 14px 0 8px; font-size: 1.08rem; line-height: 1.28; }
+    .deal-copy { color: var(--muted); font-size: 14px; margin: 0 0 14px; }
+    .price-row { display: flex; align-items: baseline; gap: 10px; margin: 10px 0 8px; }
+    .price-now { font-size: 1.9rem; font-weight: 900; letter-spacing: -0.04em; }
+    .price-was { color: #8e857d; text-decoration: line-through; font-weight: 600; }
+    .price-save { color: var(--green); font-weight: 800; }
+    .meta-row { display: flex; flex-wrap: wrap; gap: 10px; color: #6f655e; font-size: 13px; margin-bottom: 14px; }
+    .inline-link { display: inline-flex; text-decoration: none; color: var(--accent-dark); font-weight: 800; }
+    .retailer-grid, .category-grid { display: grid; gap: 14px; grid-template-columns: repeat(4, minmax(0,1fr)); }
+    .retailer, .category {
+      background: rgba(255,255,255,0.86); border: 1px solid var(--line); border-radius: 18px; padding: 16px;
+    }
+    .retailer strong, .category strong { display: block; font-size: 15px; }
+    .retailer span, .category span { display: block; margin-top: 6px; font-size: 13px; color: var(--muted); }
+    .tips {
+      display: grid; grid-template-columns: 1fr 1fr 0.9fr; gap: 16px;
+    }
+    .tip-card, .signup {
+      background: white; border: 1px solid var(--line); border-radius: 22px; padding: 20px;
+    }
+    .tip-card h3, .signup h3 { margin: 0 0 10px; font-size: 1.1rem; }
+    ul { padding-left: 18px; margin: 0; color: var(--muted); }
+    li + li { margin-top: 8px; }
+    .signup {
+      background: linear-gradient(180deg, #201d1a 0%, #2d2620 100%); color: white; border-color: #2d2620;
+    }
+    .signup p { color: rgba(255,255,255,0.76); }
+    .email-row { display: flex; gap: 10px; margin-top: 14px; }
+    .email-row input {
+      flex: 1; padding: 13px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); background: rgba(255,255,255,0.08); color: white;
+    }
+    .footer-note { margin-top: 14px; font-size: 12px; color: #8e857d; }
+    .hidden { display: none; }
+    @media (max-width: 1020px) {
+      .hero, .tips { grid-template-columns: 1fr; }
+      .card-grid, .retailer-grid, .category-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 720px) {
+      .wrap { padding: 20px 16px 40px; }
+      .hero { padding: 22px; }
+      .card-grid, .retailer-grid, .category-grid { grid-template-columns: 1fr; }
+      .email-row { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Deals redesign sketch · variant 1</div>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Best ski deals today · fresh, credible, fast to scan</div>
+        <h1>Find the ski deals worth clicking before the good sizes disappear.</h1>
+        <p class="lede">TurnLab scans community chatter, retailer sale pages, and affiliate-friendly gear categories so skiers can spot real savings faster — without digging through junk threads or generic storefront search results.</p>
+        <div class="cta-row">
+          <a href="#top-deals" class="btn btn-primary">See today’s top deals</a>
+          <a href="#shop-by-category" class="btn btn-secondary">Browse by category</a>
+        </div>
+        <div class="mini-metrics">
+          <div class="metric">Updated today at 7:15 AM</div>
+          <div class="metric">18 fresh deals this week</div>
+          <div class="metric">Sources linked to originals</div>
+          <div class="metric">Affiliate links clearly labeled</div>
+        </div>
+      </div>
+      <aside class="right-panel">
+        <div class="small-label">Why this page converts better</div>
+        <h2 class="panel-title">Lead with proof, not affiliate shortcuts.</h2>
+        <p class="panel-copy">The first screen shows why a skier should click now: fresh discounts, clear savings, and a fast path into the best current opportunities.</p>
+        <div class="list">
+          <div class="list-item"><strong>Top deals first</strong><br><span>Real products, retailer names, discount depth, and freshness labels.</span></div>
+          <div class="list-item"><strong>Quick-intent paths</strong><br><span>Category and retailer shortcuts for people who already know what they want.</span></div>
+          <div class="list-item"><strong>Retention loop</strong><br><span>A simple deal-alert signup turns one-time shoppers into repeat visitors.</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="top-deals">
+      <div class="section-head">
+        <div>
+          <h2>Top deals today</h2>
+          <p>Feature the strongest current opportunities first so the page immediately earns trust and clicks.</p>
+        </div>
+        <a href="#retailers" class="inline-link">View retailer sales →</a>
+      </div>
+      <div class="card-grid">
+        <article class="deal-card">
+          <div class="deal-top">
+            <span class="pill pill-hot">Top pick</span>
+            <span class="pill pill-fresh">Updated 2h ago</span>
+          </div>
+          <h3 class="deal-title">Smith I/O Mag goggles at REI</h3>
+          <p class="deal-copy">A proven premium goggle at a meaningful markdown. Strong first-click candidate for most skiers.</p>
+          <div class="price-row"><span class="price-now">$149</span><span class="price-was">$270</span><span class="price-save">45% off</span></div>
+          <div class="meta-row"><span>🏕️ REI</span><span>183 saves</span><span>Best for all-mountain</span></div>
+          <a href="#" class="inline-link">View deal →</a>
+        </article>
+        <article class="deal-card">
+          <div class="deal-top">
+            <span class="pill pill-hot">Trending</span>
+            <span class="pill pill-fresh">Updated 5h ago</span>
+          </div>
+          <h3 class="deal-title">Atomic Hawx Prime 100 boots at Evo</h3>
+          <p class="deal-copy">A recognizable boot model with real savings. Great example of the kind of signal shoppers want immediately.</p>
+          <div class="price-row"><span class="price-now">$299</span><span class="price-was">$450</span><span class="price-save">34% off</span></div>
+          <div class="meta-row"><span>🏔️ Evo</span><span>Hot in community threads</span><span>Intermediate+</span></div>
+          <a href="#" class="inline-link">View deal →</a>
+        </article>
+        <article class="deal-card">
+          <div class="deal-top">
+            <span class="pill pill-hot">Low-price win</span>
+            <span class="pill pill-fresh">Updated 8h ago</span>
+          </div>
+          <h3 class="deal-title">Helly Hansen insulated jacket at Amazon</h3>
+          <p class="deal-copy">Not every shopper wants a forum thread. This slot proves Amazon can still show up as a high-intent destination.</p>
+          <div class="price-row"><span class="price-now">$168</span><span class="price-was">$280</span><span class="price-save">40% off</span></div>
+          <div class="meta-row"><span>📦 Amazon</span><span>Affiliate</span><span>Free shipping</span></div>
+          <a href="#" class="inline-link">View deal →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="retailers">
+      <div class="section-head">
+        <div>
+          <h2>Shop by retailer</h2>
+          <p>Support users who already trust a store and want a fast shortcut into that sale page.</p>
+        </div>
+      </div>
+      <div class="retailer-grid">
+        <div class="retailer"><strong>REI sale</strong><span>Clearance layers, helmets, goggles, and outerwear.</span></div>
+        <div class="retailer"><strong>Evo sale</strong><span>Boots, skis, outerwear, and last-season markdowns.</span></div>
+        <div class="retailer"><strong>Amazon gear deals</strong><span>Fast-shipping accessories and brand-specific discounts.</span></div>
+        <div class="retailer"><strong>Community picks</strong><span>Forum and deal-community finds worth watching now.</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="shop-by-category">
+      <div class="section-head">
+        <div>
+          <h2>Shop by category</h2>
+          <p>Keep the category grid, but make it feel like the fast lane after the page already proved its value.</p>
+        </div>
+      </div>
+      <div class="category-grid">
+        <div class="category"><strong>Jackets</strong><span>12 live opportunities · best for outerwear refreshes</span></div>
+        <div class="category"><strong>Boots</strong><span>7 deals · higher-ticket items with bigger upside</span></div>
+        <div class="category"><strong>Goggles</strong><span>9 deals · often the easiest high-CTR category</span></div>
+        <div class="category"><strong>Skis</strong><span>5 sales · strongest end-of-season discounts</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="tips">
+        <div class="tip-card">
+          <h3>Best times to buy</h3>
+          <ul>
+            <li>March–May: end-of-season clearance</li>
+            <li>Labor Day: early inventory markdowns begin</li>
+            <li>Black Friday: accessories and pass deals spike</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <h3>How TurnLab keeps trust</h3>
+          <ul>
+            <li>Original source links stay visible</li>
+            <li>Affiliate labels are upfront, not hidden</li>
+            <li>Bad or irrelevant deals get filtered out before publishing</li>
+          </ul>
+        </div>
+        <div class="signup">
+          <div class="small-label">Retention idea</div>
+          <h3>Get ski deal alerts without checking every day.</h3>
+          <p>Simple weekly or category-specific alerts give the page a second conversion path beyond outbound clicks.</p>
+          <div class="email-row">
+            <input type="email" value="danny@example.com" aria-label="Email address" />
+            <button class="btn btn-primary" style="padding-inline:18px;">Notify me</button>
+          </div>
+          <p class="footer-note">No spam. Just fresh sales, category picks, and price-drop highlights.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
