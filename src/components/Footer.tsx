@@ -42,8 +42,9 @@ export default function Footer() {
               Turn<span className="text-[#b4835a]">Lab</span>
             </div>
             <p className="mt-4 text-sm leading-7 text-[#665d55] sm:text-base">
-              The internet&apos;s best ski instruction — curated, organized, and mapped
-              into progressions that make sense when you&apos;re actually standing on snow.
+              The internet&apos;s best ski and snowboard instruction — curated, organized,
+              and mapped into progressions that make sense when you&apos;re actually standing
+              on snow.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
@@ -54,10 +55,10 @@ export default function Footer() {
                 Start with the quiz
               </Link>
               <Link
-                href={DISCIPLINES.ski.libraryHref}
+                href="/techniques"
                 className="inline-flex items-center justify-center rounded-full border border-[#d9c6b5] bg-white px-5 py-2.5 text-sm font-semibold text-[#7d5431] transition-colors hover:bg-[#fff7f0]"
               >
-                Browse ski techniques
+                Browse the library
               </Link>
             </div>
           </div>
