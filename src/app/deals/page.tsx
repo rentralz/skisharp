@@ -163,6 +163,49 @@ const CATEGORY_LABELS: Record<
   },
 };
 
+const RETAILER_SHORTCUTS = [
+  {
+    name: "REI",
+    href: "https://www.rei.com/c/skiing",
+    label: "Direct retailer",
+    affiliateLink: false,
+    description:
+      "Best for outerwear, layering, and lower-risk mainstream picks when you want easier returns and familiar brands.",
+    fit: "Great for jackets, pants, and base-layer rebuilds.",
+    cta: "Browse REI ski gear",
+  },
+  {
+    name: "evo",
+    href: "https://www.evo.com/shop/ski",
+    label: "Direct retailer",
+    affiliateLink: false,
+    description:
+      "A good first stop when you want a broader mix of skis, boots, apparel, and end-of-season markdowns in one place.",
+    fit: "Strong for full-kit browsing when you have not narrowed the category yet.",
+    cta: "Browse evo ski deals",
+  },
+  {
+    name: "Backcountry",
+    href: "https://www.backcountry.com/cat/ski",
+    label: "Direct retailer",
+    affiliateLink: false,
+    description:
+      "Useful for premium brands, technical outerwear, and higher-ticket gear where better filtering can save time.",
+    fit: "Worth checking for premium jackets, skis, and boot upgrades.",
+    cta: "Browse Backcountry ski gear",
+  },
+  {
+    name: "Amazon",
+    href: "https://www.amazon.com/s?k=ski+gear+deals&tag=turnlab-20",
+    label: "Affiliate retailer",
+    affiliateLink: true,
+    description:
+      "Fast for accessories, base layers, replacement basics, and quick add-on buys when convenience matters more than deep curation.",
+    fit: "Best for goggles, gloves, balaclavas, socks, and smaller gear extras.",
+    cta: "Browse Amazon ski deals",
+  },
+] as const;
+
 interface Deal {
   title: string;
   url: string;
@@ -175,6 +218,8 @@ interface Deal {
   isAmazonSearch?: boolean;
   thumbnail?: string | null;
 }
+
+type RetailerShortcut = (typeof RETAILER_SHORTCUTS)[number];
 
 function timeAgo(dateStr: string): string {
   const diff = Date.now() - new Date(dateStr).getTime();
@@ -230,6 +275,15 @@ function buildDealListItem(deal: Deal, position: number) {
   };
 }
 
+function buildShortcutListItem(item: RetailerShortcut, position: number) {
+  return {
+    "@type": "ListItem",
+    position,
+    url: item.href,
+    name: item.name,
+  };
+}
+
 export default function DealsPage() {
   const deals = dealsData.deals as Deal[];
   const lastScanned = dealsData.lastScanned;
@@ -237,10 +291,10 @@ export default function DealsPage() {
   const communityDeals = deals.filter((deal) => !deal.isAmazonSearch && isLikelyRelevantDeal(deal));
   const amazonSearches = deals.filter((deal) => deal.isAmazonSearch);
   const featuredCommunityDeals = communityDeals.slice(0, 3);
-  const primaryCtaHref = featuredCommunityDeals.length > 0 ? "#community-picks" : "#category-shortcuts";
-  const primaryCtaLabel = featuredCommunityDeals.length > 0 ? "See community picks" : "Shop deal categories";
-  const secondaryCtaHref = featuredCommunityDeals.length > 0 ? "#category-shortcuts" : "#trust-notes";
-  const secondaryCtaLabel = featuredCommunityDeals.length > 0 ? "Shop deal categories" : "See how TurnLab picks deals";
+  const primaryCtaHref = featuredCommunityDeals.length > 0 ? "#community-picks" : "#retailer-shortcuts";
+  const primaryCtaLabel = featuredCommunityDeals.length > 0 ? "See community picks" : "Shop by retailer";
+  const secondaryCtaHref = featuredCommunityDeals.length > 0 ? "#retailer-shortcuts" : "#category-shortcuts";
+  const secondaryCtaLabel = featuredCommunityDeals.length > 0 ? "Shop top retailers" : "Shop deal categories";
   const trustItems = [
     formatScanLabel(lastScanned),
     "Direct source links",
@@ -248,6 +302,7 @@ export default function DealsPage() {
   ];
   const dealAlertsEnabled = Boolean(process.env.DEALS_ALERTS_WEBHOOK_URL) || !process.env.VERCEL;
   const featuredDealsListId = `${DEALS_URL}#featured-community-deals`;
+  const retailerShortcutsListId = `${DEALS_URL}#retailer-shortcuts-list`;
   const categoryShortcutsListId = `${DEALS_URL}#category-shortcuts-list`;
   const breadcrumbListId = `${DEALS_URL}#breadcrumbs`;
   const primaryListId = featuredCommunityDeals.length > 0 ? featuredDealsListId : categoryShortcutsListId;
@@ -279,6 +334,7 @@ export default function DealsPage() {
       },
       hasPart: [
         ...(featuredCommunityDeals.length > 0 ? [{ "@id": featuredDealsListId }] : []),
+        { "@id": retailerShortcutsListId },
         { "@id": categoryShortcutsListId },
       ],
     },
@@ -321,6 +377,17 @@ export default function DealsPage() {
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
+      "@id": retailerShortcutsListId,
+      name: "Ski retailer shortcuts",
+      description:
+        "Direct ski retailer shortcuts for shoppers who prefer to browse by store before narrowing by category.",
+      itemListOrder: "https://schema.org/ItemListOrderAscending",
+      numberOfItems: RETAILER_SHORTCUTS.length,
+      itemListElement: RETAILER_SHORTCUTS.map((item, index) => buildShortcutListItem(item, index + 1)),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
       "@id": categoryShortcutsListId,
       name: "Ski deal category shortcuts",
       description:
@@ -344,6 +411,7 @@ export default function DealsPage() {
         <DealsAnalytics
           lastScanned={lastScanned}
           featuredCommunityCount={featuredCommunityDeals.length}
+          retailerShortcutCount={RETAILER_SHORTCUTS.length}
           affiliateShortcutCount={amazonSearches.length}
         />
         <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
@@ -357,8 +425,9 @@ export default function DealsPage() {
                   Find the ski deals worth clicking faster.
                 </h1>
                 <p className="mt-5 max-w-3xl text-base leading-8 text-[#5f5a55] sm:text-lg">
-                  TurnLab brings together community picks and category shortcuts so you can
-                  check useful ski deals faster without bouncing between generic search results.
+                  TurnLab brings together community picks, retailer shortcuts, and category paths so
+                  you can check useful ski deals faster without bouncing between generic search
+                  results.
                 </p>
 
                 <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -409,8 +478,9 @@ export default function DealsPage() {
                   Faster browsing, clearer labels, direct links.
                 </h2>
                 <p className="relative mt-4 text-sm leading-7 text-white/75 sm:text-base">
-                  Community picks point to their original source, category shortcuts are labeled
-                  clearly, and freshness stays visible so you know when to double-check a deal.
+                  Community picks point to their original source, retailer shortcuts help you shop
+                  the stores that match your buying style, and category paths stay visible when you
+                  already know the gear you need.
                 </p>
                 <ul className="relative mt-6 space-y-3 text-sm leading-7 text-white/80 sm:text-base">
                   <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
@@ -418,6 +488,10 @@ export default function DealsPage() {
                   </li>
                   <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
                     Community picks link to the original post or retailer source.
+                  </li>
+                  <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
+                    Retailer shortcuts help you start with the stores most likely to have what you
+                    want.
                   </li>
                   <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
                     Category shortcuts are labeled so affiliate links never feel hidden.
@@ -508,6 +582,80 @@ export default function DealsPage() {
             </div>
           </section>
         ) : null}
+
+        <section
+          id="retailer-shortcuts"
+          className="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8"
+        >
+          <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
+                Shop by retailer
+              </p>
+              <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
+                Start with the store that matches how you shop.
+              </h2>
+            </div>
+            <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
+              Some shoppers want the hottest deal first. Others want the right retailer first.
+              These shortcuts are for the second group.
+            </p>
+          </div>
+
+          <div className="mt-6 grid gap-4 lg:grid-cols-2">
+            {RETAILER_SHORTCUTS.map((retailer, index) => (
+              <TrackedLink
+                key={retailer.name}
+                href={retailer.href}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                eventName="deals_retailer_shortcut_click"
+                eventParams={{
+                  slot: index + 1,
+                  retailer_name: retailer.name,
+                  retailer_label: retailer.label,
+                  affiliate_link: retailer.affiliateLink,
+                }}
+                className="group rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_14px_36px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#a56f43]">
+                      {retailer.label}
+                    </p>
+                    <h3 className="mt-3 text-2xl font-black tracking-tight text-[#201d1a] transition-colors group-hover:text-[#8b5f39]">
+                      {retailer.name}
+                    </h3>
+                  </div>
+                  <span
+                    className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] ${
+                      retailer.affiliateLink
+                        ? "border border-[#f5d7b8] bg-[#fff3e7] text-[#a65d1a]"
+                        : "border border-[#d8cbbb] bg-[#f8f2ed] text-[#7b5d44]"
+                    }`}
+                  >
+                    {retailer.affiliateLink ? "Affiliate link" : "Direct link"}
+                  </span>
+                </div>
+                <p className="mt-4 text-sm leading-7 text-[#6b635b] sm:text-base">
+                  {retailer.description}
+                </p>
+                <div className="mt-5 rounded-2xl border border-[#eadfd6] bg-[#fcfaf8] px-4 py-3 text-sm leading-7 text-[#5d544c]">
+                  <strong className="font-semibold text-[#201d1a]">Best for:</strong> {retailer.fit}
+                </div>
+                <span className="mt-6 inline-flex text-sm font-semibold text-[#8b5f39]">
+                  {retailer.cta} →
+                </span>
+              </TrackedLink>
+            ))}
+          </div>
+
+          <p className="mt-5 text-xs leading-6 text-[#8a7a6d]">
+            Retailer shortcuts are meant for shoppers who prefer to browse by store first. Amazon
+            links are labeled as affiliate links; the other retailer shortcuts above point directly
+            to each store.
+          </p>
+        </section>
 
         <section
           id="category-shortcuts"

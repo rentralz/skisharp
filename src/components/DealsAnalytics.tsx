@@ -6,11 +6,13 @@ import { trackEvent } from "@/lib/analytics";
 type DealsAnalyticsProps = {
   lastScanned: string;
   featuredCommunityCount: number;
+  retailerShortcutCount: number;
   affiliateShortcutCount: number;
 };
 
 const SECTION_LABELS = {
   "community-picks": "community_picks",
+  "retailer-shortcuts": "retailer_shortcuts",
   "category-shortcuts": "category_shortcuts",
   "deal-alerts": "deal_alerts",
   "trust-notes": "trust_notes",
@@ -19,6 +21,7 @@ const SECTION_LABELS = {
 export default function DealsAnalytics({
   lastScanned,
   featuredCommunityCount,
+  retailerShortcutCount,
   affiliateShortcutCount,
 }: DealsAnalyticsProps) {
   useEffect(() => {
@@ -29,11 +32,12 @@ export default function DealsAnalytics({
 
     trackEvent("deals_page_impression", {
       featured_community_count: featuredCommunityCount,
+      retailer_shortcut_count: retailerShortcutCount,
       affiliate_shortcut_count: affiliateShortcutCount,
       has_featured_community_deals: featuredCommunityCount > 0,
       hours_since_last_scan: hoursSinceScan,
     });
-  }, [affiliateShortcutCount, featuredCommunityCount, lastScanned]);
+  }, [affiliateShortcutCount, featuredCommunityCount, retailerShortcutCount, lastScanned]);
 
   useEffect(() => {
     const milestones = [25, 50, 75, 100];
