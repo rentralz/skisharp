@@ -169,40 +169,44 @@ const RETAILER_SHORTCUTS = [
     href: "https://www.rei.com/c/skiing",
     label: "Direct retailer",
     affiliateLink: false,
+    focus: "Easy returns",
     description:
       "Best for outerwear, layering, and lower-risk mainstream picks when you want easier returns and familiar brands.",
     fit: "Great for jackets, pants, and base-layer rebuilds.",
-    cta: "Browse REI ski gear",
+    cta: "See current REI ski deals",
   },
   {
     name: "evo",
     href: "https://www.evo.com/shop/ski",
     label: "Direct retailer",
     affiliateLink: false,
+    focus: "Full-kit browsing",
     description:
       "A good first stop when you want a broader mix of skis, boots, apparel, and end-of-season markdowns in one place.",
     fit: "Strong for full-kit browsing when you have not narrowed the category yet.",
-    cta: "Browse evo ski deals",
+    cta: "See current evo ski markdowns",
   },
   {
     name: "Backcountry",
     href: "https://www.backcountry.com/cat/ski",
     label: "Direct retailer",
     affiliateLink: false,
+    focus: "Premium upgrades",
     description:
       "Useful for premium brands, technical outerwear, and higher-ticket gear where better filtering can save time.",
     fit: "Worth checking for premium jackets, skis, and boot upgrades.",
-    cta: "Browse Backcountry ski gear",
+    cta: "Browse Backcountry ski sale",
   },
   {
     name: "Amazon",
     href: "https://www.amazon.com/s?k=ski+gear+deals&tag=turnlab-20",
     label: "Affiliate retailer",
     affiliateLink: true,
+    focus: "Quick extras",
     description:
       "Fast for accessories, base layers, replacement basics, and quick add-on buys when convenience matters more than deep curation.",
     fit: "Best for goggles, gloves, balaclavas, socks, and smaller gear extras.",
-    cta: "Browse Amazon ski deals",
+    cta: "Check Amazon ski essentials deals",
   },
 ] as const;
 
@@ -243,6 +247,17 @@ function formatScanLabel(dateStr: string): string {
     month: "short",
     day: "numeric",
   })}`;
+}
+
+function getHoursSince(dateStr: string) {
+  return Math.max(0, Math.round((Date.now() - new Date(dateStr).getTime()) / (1000 * 60 * 60)));
+}
+
+function getRecencyBucket(hoursSince: number) {
+  if (hoursSince <= 24) return "0_24h";
+  if (hoursSince <= 72) return "24_72h";
+  if (hoursSince <= 168) return "3_7d";
+  return "7d_plus";
 }
 
 function isLikelyRelevantDeal(deal: Deal): boolean {
@@ -292,15 +307,18 @@ export default function DealsPage() {
   const amazonSearches = deals.filter((deal) => deal.isAmazonSearch);
   const featuredCommunityDeals = communityDeals.slice(0, 3);
   const primaryCtaHref = featuredCommunityDeals.length > 0 ? "#community-picks" : "#retailer-shortcuts";
-  const primaryCtaLabel = featuredCommunityDeals.length > 0 ? "See community picks" : "Shop by retailer";
+  const primaryCtaLabel = featuredCommunityDeals.length > 0 ? "See today’s top ski deals" : "Shop ski deals by retailer";
   const secondaryCtaHref = featuredCommunityDeals.length > 0 ? "#retailer-shortcuts" : "#category-shortcuts";
-  const secondaryCtaLabel = featuredCommunityDeals.length > 0 ? "Shop top retailers" : "Shop deal categories";
+  const secondaryCtaLabel = featuredCommunityDeals.length > 0 ? "Shop ski deals by retailer" : "Shop ski deals by category";
   const trustItems = [
     formatScanLabel(lastScanned),
+    "Community-picked links",
     "Direct source links",
     "Affiliate links labeled",
   ];
   const dealAlertsEnabled = Boolean(process.env.DEALS_ALERTS_WEBHOOK_URL) || !process.env.VERCEL;
+  const scanAgeHours = getHoursSince(lastScanned);
+  const scanRecencyBucket = getRecencyBucket(scanAgeHours);
   const featuredDealsListId = `${DEALS_URL}#featured-community-deals`;
   const retailerShortcutsListId = `${DEALS_URL}#retailer-shortcuts-list`;
   const categoryShortcutsListId = `${DEALS_URL}#category-shortcuts-list`;
@@ -413,6 +431,8 @@ export default function DealsPage() {
           featuredCommunityCount={featuredCommunityDeals.length}
           retailerShortcutCount={RETAILER_SHORTCUTS.length}
           affiliateShortcutCount={amazonSearches.length}
+          dealAlertsEnabled={dealAlertsEnabled}
+          scanRecencyBucket={scanRecencyBucket}
         />
         <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-[32px] border border-[#eadfd6] bg-[linear-gradient(135deg,#fffaf5_0%,#fffefc_55%,#f4ece5_100%)] p-6 shadow-[0_20px_70px_rgba(119,85,53,0.08)] sm:p-8 lg:p-10">
@@ -457,6 +477,12 @@ export default function DealsPage() {
                   </TrackedLink>
                 </div>
 
+                <p className="mt-4 max-w-3xl text-sm leading-7 text-[#6b635b] sm:text-base">
+                  Want the strongest current deals first? Start with community picks. Already trust
+                  a retailer or know the gear category you want? The next shortcuts get you there
+                  faster.
+                </p>
+
                 <div className="mt-6 flex flex-wrap gap-3">
                   {trustItems.map((item) => (
                     <span
@@ -478,23 +504,18 @@ export default function DealsPage() {
                   Faster browsing, clearer labels, direct links.
                 </h2>
                 <p className="relative mt-4 text-sm leading-7 text-white/75 sm:text-base">
-                  Community picks point to their original source, retailer shortcuts help you shop
-                  the stores that match your buying style, and category paths stay visible when you
-                  already know the gear you need.
+                  This page is built to help you make a first click faster without hiding where the
+                  links go or how the shortcuts work.
                 </p>
                 <ul className="relative mt-6 space-y-3 text-sm leading-7 text-white/80 sm:text-base">
                   <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-                    Updated timing is shown up front.
+                    Updated timing is visible before you click out.
                   </li>
                   <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-                    Community picks link to the original post or retailer source.
+                    Community picks point back to the original deal source.
                   </li>
                   <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-                    Retailer shortcuts help you start with the stores most likely to have what you
-                    want.
-                  </li>
-                  <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-                    Category shortcuts are labeled so affiliate links never feel hidden.
+                    Retailer and category shortcuts stay clearly labeled, including affiliate links.
                   </li>
                 </ul>
               </aside>
@@ -513,11 +534,12 @@ export default function DealsPage() {
                   Community picks
                 </p>
                 <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-                  Start with the links that already earned attention.
+                  Want the strongest current deals first?
                 </h2>
               </div>
               <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
-                When a community pick is strong enough to be useful, it shows up here first.
+                Start here. These are the deals that already earned attention and still look worth
+                checking.
               </p>
             </div>
 
@@ -536,7 +558,12 @@ export default function DealsPage() {
                       badge: index === 0 ? "top_pick" : index === 1 ? "worth_a_look" : "community_pick",
                       source: deal.source,
                       category: deal.category,
+                      category_label: category.label,
                       deal_title: deal.title,
+                      cta_label: "Open original sale page",
+                      section_name: "community_picks",
+                      deal_age_hours: getHoursSince(deal.posted),
+                      deal_age_bucket: getRecencyBucket(getHoursSince(deal.posted)),
                     }}
                     className="group rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_14px_36px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
                   >
@@ -574,7 +601,7 @@ export default function DealsPage() {
                     </div>
 
                     <span className="mt-6 inline-flex text-sm font-semibold text-[#8b5f39]">
-                      Open original deal →
+                      Open original sale page →
                     </span>
                   </TrackedLink>
                 );
@@ -593,12 +620,12 @@ export default function DealsPage() {
                 Shop by retailer
               </p>
               <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-                Start with the store that matches how you shop.
+                Already trust a store? Start there.
               </h2>
             </div>
             <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
-              Some shoppers want the hottest deal first. Others want the right retailer first.
-              These shortcuts are for the second group.
+              Use these shortcuts when you would rather check live sale pages from a retailer you
+              already know than scan every deal one by one.
             </p>
           </div>
 
@@ -614,7 +641,10 @@ export default function DealsPage() {
                   slot: index + 1,
                   retailer_name: retailer.name,
                   retailer_label: retailer.label,
+                  retailer_focus: retailer.focus,
                   affiliate_link: retailer.affiliateLink,
+                  cta_label: retailer.cta,
+                  section_name: "retailer_shortcuts",
                 }}
                 className="group rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_14px_36px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
               >
@@ -627,15 +657,20 @@ export default function DealsPage() {
                       {retailer.name}
                     </h3>
                   </div>
-                  <span
-                    className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] ${
-                      retailer.affiliateLink
-                        ? "border border-[#f5d7b8] bg-[#fff3e7] text-[#a65d1a]"
-                        : "border border-[#d8cbbb] bg-[#f8f2ed] text-[#7b5d44]"
-                    }`}
-                  >
-                    {retailer.affiliateLink ? "Affiliate link" : "Direct link"}
-                  </span>
+                  <div className="flex flex-col items-end gap-2 text-right">
+                    <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[#7b5d44]">
+                      {retailer.focus}
+                    </span>
+                    <span
+                      className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] ${
+                        retailer.affiliateLink
+                          ? "border border-[#f5d7b8] bg-[#fff3e7] text-[#a65d1a]"
+                          : "border border-[#d8cbbb] bg-[#f8f2ed] text-[#7b5d44]"
+                      }`}
+                    >
+                      {retailer.affiliateLink ? "Affiliate link" : "Direct link"}
+                    </span>
+                  </div>
                 </div>
                 <p className="mt-4 text-sm leading-7 text-[#6b635b] sm:text-base">
                   {retailer.description}
@@ -667,13 +702,13 @@ export default function DealsPage() {
                 Shop by category
               </p>
               <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-                Use the fast lane when you already know what gear you want.
+                Already know the gear you need?
               </h2>
             </div>
             <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
               {featuredCommunityDeals.length > 0
-                ? "Browse a category directly when you already know what gear you need."
-                : "Browse a category directly when you already know what gear you need. Community picks return when there is something genuinely useful to feature."}
+                ? "Jump straight to a category and compare current sale pages faster."
+                : "Jump straight to a category and compare current sale pages faster. Community picks return when there is something genuinely useful to feature."}
             </p>
           </div>
 
@@ -690,9 +725,12 @@ export default function DealsPage() {
                   eventParams={{
                     slot: index + 1,
                     category: deal.category,
+                    category_label: category.label,
                     shortcut_title: cleanAmazonTitle(deal.title),
                     source: deal.source,
                     affiliate_link: true,
+                    cta_label: category.cta,
+                    section_name: "category_shortcuts",
                   }}
                   className="group flex h-full flex-col rounded-[26px] border border-[#eadfd6] bg-white p-6 shadow-[0_12px_30px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
                 >

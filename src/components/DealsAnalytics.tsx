@@ -8,6 +8,8 @@ type DealsAnalyticsProps = {
   featuredCommunityCount: number;
   retailerShortcutCount: number;
   affiliateShortcutCount: number;
+  dealAlertsEnabled: boolean;
+  scanRecencyBucket: string;
 };
 
 const SECTION_LABELS = {
@@ -23,6 +25,8 @@ export default function DealsAnalytics({
   featuredCommunityCount,
   retailerShortcutCount,
   affiliateShortcutCount,
+  dealAlertsEnabled,
+  scanRecencyBucket,
 }: DealsAnalyticsProps) {
   useEffect(() => {
     const hoursSinceScan = Math.max(
@@ -35,9 +39,18 @@ export default function DealsAnalytics({
       retailer_shortcut_count: retailerShortcutCount,
       affiliate_shortcut_count: affiliateShortcutCount,
       has_featured_community_deals: featuredCommunityCount > 0,
+      deal_alerts_enabled: dealAlertsEnabled,
       hours_since_last_scan: hoursSinceScan,
+      scan_recency_bucket: scanRecencyBucket,
     });
-  }, [affiliateShortcutCount, featuredCommunityCount, retailerShortcutCount, lastScanned]);
+  }, [
+    affiliateShortcutCount,
+    dealAlertsEnabled,
+    featuredCommunityCount,
+    retailerShortcutCount,
+    lastScanned,
+    scanRecencyBucket,
+  ]);
 
   useEffect(() => {
     const milestones = [25, 50, 75, 100];
