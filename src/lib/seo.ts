@@ -4,6 +4,11 @@ export const SITE_NAME = "TurnLab";
 export const SITE_URL = "https://turnlab.co";
 export const DEFAULT_OG_IMAGE = "/og-image.png";
 
+export type BreadcrumbSchemaItem = {
+  name: string;
+  path: string;
+};
+
 type BuildPageMetadataInput = {
   title: string;
   description: string;
@@ -67,6 +72,42 @@ export function buildPageMetadata({
       title: resolvedSocialTitle,
       description: resolvedSocialDescription,
       images: [DEFAULT_OG_IMAGE],
+    },
+  };
+}
+
+export function buildBreadcrumbSchema(items: BreadcrumbSchemaItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: buildAbsoluteUrl(item.path),
+    })),
+  };
+}
+
+export function buildWebPageSchema({
+  name,
+  description,
+  path,
+}: {
+  name: string;
+  description: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name,
+    description,
+    url: buildAbsoluteUrl(path),
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL,
     },
   };
 }
