@@ -77,10 +77,18 @@ export default function AboutPage() {
       cta: "Explore the library",
     },
     {
-      title: "Start with beginner turns",
-      description: "Open the green-level collection if you want a calm first progression.",
-      href: "/techniques?rating=green",
-      cta: "View beginner path",
+      title: "Start ski basics",
+      description:
+        "Jump straight into wedge turns, speed control, and the first ski progression most beginners need.",
+      href: "/techniques/wedge-turns?discipline=ski",
+      cta: "Open ski starter",
+    },
+    {
+      title: "Start snowboard basics",
+      description:
+        "Open the athletic stance starter page to build edge awareness and calm first-turn confidence.",
+      href: "/techniques/snowboard-athletic-stance?discipline=snowboard",
+      cta: "Open snowboard starter",
     },
   ];
 
