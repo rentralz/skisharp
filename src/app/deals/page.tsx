@@ -306,6 +306,11 @@ export default function DealsPage() {
   const communityDeals = deals.filter((deal) => !deal.isAmazonSearch && isLikelyRelevantDeal(deal));
   const amazonSearches = deals.filter((deal) => deal.isAmazonSearch);
   const featuredCommunityDeals = communityDeals.slice(0, 3);
+  const topCommunityDeal = featuredCommunityDeals[0];
+  const nextCommunityDeals = featuredCommunityDeals.slice(1);
+  const topCommunityCategory = topCommunityDeal
+    ? CATEGORY_LABELS[topCommunityDeal.category] || CATEGORY_LABELS.other
+    : null;
   const primaryCtaHref = featuredCommunityDeals.length > 0 ? "#community-picks" : "#retailer-shortcuts";
   const primaryCtaLabel = featuredCommunityDeals.length > 0 ? "See today’s top ski deals" : "Shop ski deals by retailer";
   const secondaryCtaHref = featuredCommunityDeals.length > 0 ? "#retailer-shortcuts" : "#category-shortcuts";
@@ -497,16 +502,80 @@ export default function DealsPage() {
 
               <aside className="relative overflow-hidden rounded-[28px] border border-[#2f2822] bg-[#1f1b18] p-6 text-white shadow-[0_16px_50px_rgba(43,30,18,0.18)]">
                 <div className="absolute -right-12 -top-10 h-36 w-36 rounded-full bg-[#d8b08b]/20 blur-3xl" />
-                <p className="relative text-xs font-semibold uppercase tracking-[0.24em] text-[#d8b08b]">
-                  What you can expect here
-                </p>
-                <h2 className="relative mt-3 text-2xl font-black tracking-tight text-white">
-                  Faster browsing, clearer labels, direct links.
-                </h2>
-                <p className="relative mt-4 text-sm leading-7 text-white/75 sm:text-base">
-                  This page is built to help you make a first click faster without hiding where the
-                  links go or how the shortcuts work.
-                </p>
+                {topCommunityDeal && topCommunityCategory ? (
+                  <>
+                    <p className="relative text-xs font-semibold uppercase tracking-[0.24em] text-[#d8b08b]">
+                      Best place to start
+                    </p>
+                    <h2 className="relative mt-3 text-2xl font-black tracking-tight text-white">
+                      Top deal right now, with the most useful first click already picked.
+                    </h2>
+                    <p className="relative mt-4 text-sm leading-7 text-white/75 sm:text-base">
+                      If you only open one deal first, make it this one. Then come back and compare the
+                      retailer and category shortcuts below.
+                    </p>
+                    <TrackedLink
+                      href={topCommunityDeal.url}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      eventName="deals_top_pick_spotlight_click"
+                      eventParams={{
+                        slot: 1,
+                        source: topCommunityDeal.source,
+                        category: topCommunityDeal.category,
+                        category_label: topCommunityCategory.label,
+                        deal_title: topCommunityDeal.title,
+                        cta_label: "Open today’s highlighted deal",
+                        section_name: "hero_spotlight",
+                        deal_age_hours: getHoursSince(topCommunityDeal.posted),
+                        deal_age_bucket: getRecencyBucket(getHoursSince(topCommunityDeal.posted)),
+                      }}
+                      className="group relative mt-6 block rounded-[24px] border border-white/10 bg-white/8 p-5 transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]/70 hover:bg-white/12"
+                    >
+                      <div className="flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#f3cfaa]">
+                        <span className="rounded-full border border-[#d8b08b]/40 bg-[#d8b08b]/10 px-3 py-1 text-[#f3cfaa]">
+                          Top deal right now
+                        </span>
+                        <span>{timeAgo(topCommunityDeal.posted)}</span>
+                      </div>
+                      <h3 className="mt-4 text-xl font-bold leading-8 text-white transition-colors group-hover:text-[#ffe5cb]">
+                        {topCommunityDeal.title}
+                      </h3>
+                      <p className="mt-3 text-sm leading-7 text-white/75">
+                        {topCommunityCategory.description}
+                      </p>
+                      <div className="mt-4 flex flex-wrap gap-2 text-xs text-white/80 sm:text-sm">
+                        <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
+                          {topCommunityDeal.sourceIcon} {topCommunityDeal.source}
+                        </span>
+                        <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
+                          {topCommunityCategory.emoji} {topCommunityCategory.label}
+                        </span>
+                        {typeof topCommunityDeal.score === "number" ? (
+                          <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
+                            ▲ {topCommunityDeal.score}
+                          </span>
+                        ) : null}
+                      </div>
+                      <span className="mt-5 inline-flex text-sm font-semibold text-[#f3cfaa]">
+                        Open today’s highlighted deal →
+                      </span>
+                    </TrackedLink>
+                  </>
+                ) : (
+                  <>
+                    <p className="relative text-xs font-semibold uppercase tracking-[0.24em] text-[#d8b08b]">
+                      What you can expect here
+                    </p>
+                    <h2 className="relative mt-3 text-2xl font-black tracking-tight text-white">
+                      Faster browsing, clearer labels, direct links.
+                    </h2>
+                    <p className="relative mt-4 text-sm leading-7 text-white/75 sm:text-base">
+                      This page is built to help you make a first click faster without hiding where the
+                      links go or how the shortcuts work.
+                    </p>
+                  </>
+                )}
                 <ul className="relative mt-6 space-y-3 text-sm leading-7 text-white/80 sm:text-base">
                   <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
                     Updated timing is visible before you click out.
@@ -528,9 +597,12 @@ export default function DealsPage() {
             id="community-picks"
             className="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8"
           >
-            <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
+                <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-[#fff6ee] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[#8b5f39]">
+                  Best starting point for most shoppers
+                </div>
+                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
                   Community picks
                 </p>
                 <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
@@ -539,73 +611,144 @@ export default function DealsPage() {
               </div>
               <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
                 Start here. These are the deals that already earned attention and still look worth
-                checking.
+                checking before you branch into store or category browsing.
               </p>
             </div>
 
-            <div className="mt-6 grid gap-4 lg:grid-cols-3">
-              {featuredCommunityDeals.map((deal, index) => {
-                const category = CATEGORY_LABELS[deal.category] || CATEGORY_LABELS.other;
-                return (
-                  <TrackedLink
-                    key={`${deal.url}-${index}`}
-                    href={deal.url}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    eventName="deals_featured_click"
-                    eventParams={{
-                      slot: index + 1,
-                      badge: index === 0 ? "top_pick" : index === 1 ? "worth_a_look" : "community_pick",
-                      source: deal.source,
-                      category: deal.category,
-                      category_label: category.label,
-                      deal_title: deal.title,
-                      cta_label: "Open original sale page",
-                      section_name: "community_picks",
-                      deal_age_hours: getHoursSince(deal.posted),
-                      deal_age_bucket: getRecencyBucket(getHoursSince(deal.posted)),
-                    }}
-                    className="group rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_14px_36px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
-                  >
-                    <div className="flex items-center justify-between gap-3">
-                      <span className="inline-flex items-center rounded-full bg-[#f5ece3] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[#8b5f39]">
-                        {index === 0 ? "Top pick" : index === 1 ? "Worth a look" : "Community pick"}
-                      </span>
-                      <span className="text-xs font-medium text-[#6d655d]">{timeAgo(deal.posted)}</span>
-                    </div>
-
-                    <h3 className="mt-5 text-xl font-bold leading-8 text-[#201d1a] transition-colors group-hover:text-[#8b5f39]">
-                      {deal.title}
-                    </h3>
-                    <p className="mt-3 text-sm leading-7 text-[#6b635b]">
-                      {category.description}
-                    </p>
-
-                    <div className="mt-5 flex flex-wrap gap-2 text-sm text-[#6b625b]">
-                      <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1">
-                        {deal.sourceIcon} {deal.source}
-                      </span>
-                      <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1">
-                        {category.emoji} {category.label}
-                      </span>
-                      {typeof deal.score === "number" ? (
-                        <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1">
-                          ▲ {deal.score}
-                        </span>
-                      ) : null}
-                      {typeof deal.comments === "number" && deal.comments > 0 ? (
-                        <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1">
-                          💬 {deal.comments}
-                        </span>
-                      ) : null}
-                    </div>
-
-                    <span className="mt-6 inline-flex text-sm font-semibold text-[#8b5f39]">
-                      Open original sale page →
+            <div className="mt-6 grid gap-4 lg:grid-cols-[1.35fr_0.95fr]">
+              {topCommunityDeal && topCommunityCategory ? (
+                <TrackedLink
+                  href={topCommunityDeal.url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  eventName="deals_featured_click"
+                  eventParams={{
+                    slot: 1,
+                    badge: "top_pick",
+                    source: topCommunityDeal.source,
+                    category: topCommunityDeal.category,
+                    category_label: topCommunityCategory.label,
+                    deal_title: topCommunityDeal.title,
+                    cta_label: "Open original sale page",
+                    section_name: "community_picks",
+                    placement: "community_spotlight",
+                    deal_age_hours: getHoursSince(topCommunityDeal.posted),
+                    deal_age_bucket: getRecencyBucket(getHoursSince(topCommunityDeal.posted)),
+                  }}
+                  className="group rounded-[30px] border border-[#dbc6b1] bg-[linear-gradient(135deg,#fffdfb_0%,#fff7ef_100%)] p-7 shadow-[0_18px_50px_rgba(92,68,43,0.08)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#cda27a]"
+                >
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <span className="inline-flex items-center rounded-full bg-[#201d1a] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-white">
+                      Top pick right now
                     </span>
-                  </TrackedLink>
-                );
-              })}
+                    <span className="text-sm font-medium text-[#6d655d]">{timeAgo(topCommunityDeal.posted)}</span>
+                  </div>
+                  <h3 className="mt-5 max-w-3xl text-2xl font-black leading-9 text-[#201d1a] transition-colors group-hover:text-[#8b5f39] sm:text-[2rem]">
+                    {topCommunityDeal.title}
+                  </h3>
+                  <p className="mt-4 max-w-2xl text-sm leading-7 text-[#6b635b] sm:text-base">
+                    {topCommunityCategory.description} Best if you want the quickest high-confidence click before comparing anything else.
+                  </p>
+                  <div className="mt-5 flex flex-wrap gap-2 text-sm text-[#6b625b]">
+                    <span className="rounded-full border border-[#eadfd6] bg-white px-3 py-1">
+                      {topCommunityDeal.sourceIcon} {topCommunityDeal.source}
+                    </span>
+                    <span className="rounded-full border border-[#eadfd6] bg-white px-3 py-1">
+                      {topCommunityCategory.emoji} {topCommunityCategory.label}
+                    </span>
+                    {typeof topCommunityDeal.score === "number" ? (
+                      <span className="rounded-full border border-[#eadfd6] bg-white px-3 py-1">
+                        ▲ {topCommunityDeal.score}
+                      </span>
+                    ) : null}
+                    {typeof topCommunityDeal.comments === "number" && topCommunityDeal.comments > 0 ? (
+                      <span className="rounded-full border border-[#eadfd6] bg-white px-3 py-1">
+                        💬 {topCommunityDeal.comments}
+                      </span>
+                    ) : null}
+                  </div>
+                  <div className="mt-6 rounded-[24px] border border-[#eadfd6] bg-white/80 px-4 py-4 text-sm leading-7 text-[#5d544c]">
+                    <strong className="font-semibold text-[#201d1a]">Why start here:</strong> it is the most prominently surfaced current deal on the page, with the original source and category context shown before you leave TurnLab.
+                  </div>
+                  <span className="mt-6 inline-flex text-sm font-semibold text-[#8b5f39]">
+                    Open original sale page →
+                  </span>
+                </TrackedLink>
+              ) : null}
+
+              <div className="space-y-4">
+                {nextCommunityDeals.length > 0 ? (
+                  <div className="rounded-[28px] border border-[#eadfd6] bg-white p-5 shadow-[0_14px_36px_rgba(92,68,43,0.05)]">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a56f43]">
+                      Next best clicks
+                    </p>
+                    <p className="mt-3 text-sm leading-7 text-[#6b635b]">
+                      After the top pick, these are the next deals worth comparing without starting your
+                      search from scratch.
+                    </p>
+                  </div>
+                ) : null}
+                {nextCommunityDeals.map((deal, index) => {
+                  const category = CATEGORY_LABELS[deal.category] || CATEGORY_LABELS.other;
+                  return (
+                    <TrackedLink
+                      key={`${deal.url}-${index + 1}`}
+                      href={deal.url}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      eventName="deals_featured_click"
+                      eventParams={{
+                        slot: index + 2,
+                        badge: index === 0 ? "worth_a_look" : "community_pick",
+                        source: deal.source,
+                        category: deal.category,
+                        category_label: category.label,
+                        deal_title: deal.title,
+                        cta_label: "Open original sale page",
+                        section_name: "community_picks",
+                        placement: "community_supporting",
+                        deal_age_hours: getHoursSince(deal.posted),
+                        deal_age_bucket: getRecencyBucket(getHoursSince(deal.posted)),
+                      }}
+                      className="group rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_14px_36px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
+                    >
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="inline-flex items-center rounded-full bg-[#f5ece3] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[#8b5f39]">
+                          {index === 0 ? "Worth a look" : "Community pick"}
+                        </span>
+                        <span className="text-xs font-medium text-[#6d655d]">{timeAgo(deal.posted)}</span>
+                      </div>
+                      <h3 className="mt-5 text-xl font-bold leading-8 text-[#201d1a] transition-colors group-hover:text-[#8b5f39]">
+                        {deal.title}
+                      </h3>
+                      <p className="mt-3 text-sm leading-7 text-[#6b635b]">
+                        {category.description}
+                      </p>
+                      <div className="mt-5 flex flex-wrap gap-2 text-sm text-[#6b625b]">
+                        <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1">
+                          {deal.sourceIcon} {deal.source}
+                        </span>
+                        <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1">
+                          {category.emoji} {category.label}
+                        </span>
+                        {typeof deal.score === "number" ? (
+                          <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1">
+                            ▲ {deal.score}
+                          </span>
+                        ) : null}
+                        {typeof deal.comments === "number" && deal.comments > 0 ? (
+                          <span className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1">
+                            💬 {deal.comments}
+                          </span>
+                        ) : null}
+                      </div>
+                      <span className="mt-6 inline-flex text-sm font-semibold text-[#8b5f39]">
+                        Open original sale page →
+                      </span>
+                    </TrackedLink>
+                  );
+                })}
+              </div>
             </div>
           </section>
         ) : null}
