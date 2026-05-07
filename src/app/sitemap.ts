@@ -1,13 +1,18 @@
 import type { MetadataRoute } from "next";
+import dealsData from "@/data/deals.json";
 import { techniques } from "@/data/techniques";
+import { maxSeoDate, parseSeoDate } from "@/lib/seo";
 
 const BASE_URL = "https://turnlab.co";
-const LAST_UPDATED = "2026-03-22";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const latestTechniqueUpdate = maxSeoDate(...techniques.map((technique) => parseSeoDate(technique.updatedAt)));
+  const latestDealsUpdate = parseSeoDate(dealsData.lastScanned);
+  const latestSiteUpdate = maxSeoDate(latestTechniqueUpdate, latestDealsUpdate) ?? new Date();
+
   const techniqueUrls: MetadataRoute.Sitemap = techniques.map((t) => ({
     url: `${BASE_URL}/techniques/${t.slug}`,
-    lastModified: LAST_UPDATED,
+    lastModified: parseSeoDate(t.updatedAt) ?? latestTechniqueUpdate ?? latestSiteUpdate,
     changeFrequency: "monthly",
     priority: 0.8,
   }));
@@ -15,79 +20,79 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: BASE_URL,
-      lastModified: LAST_UPDATED,
+      lastModified: latestSiteUpdate,
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: `${BASE_URL}/techniques`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestTechniqueUpdate ?? latestSiteUpdate,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/slope-ratings`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestTechniqueUpdate ?? latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.85,
     },
     {
       url: `${BASE_URL}/snow-conditions`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestTechniqueUpdate ?? latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.85,
     },
     {
       url: `${BASE_URL}/clothing-guide`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${BASE_URL}/quiz`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestTechniqueUpdate ?? latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/conditions-match`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestTechniqueUpdate ?? latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.85,
     },
     {
       url: `${BASE_URL}/progress`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestTechniqueUpdate ?? latestSiteUpdate,
       changeFrequency: "weekly",
       priority: 0.7,
     },
     {
       url: `${BASE_URL}/about`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.5,
     },
     {
       url: `${BASE_URL}/deals`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestDealsUpdate ?? latestSiteUpdate,
       changeFrequency: "daily",
       priority: 0.85,
     },
     {
       url: `${BASE_URL}/budget-gear`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.85,
     },
     {
       url: `${BASE_URL}/equipment-guide`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.85,
     },
     {
       url: `${BASE_URL}/resorts`,
-      lastModified: LAST_UPDATED,
+      lastModified: latestSiteUpdate,
       changeFrequency: "monthly",
       priority: 0.8,
     },

@@ -4,12 +4,15 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "What to Wear Skiing",
   description:
     "Complete guide to ski clothing for every weather condition. Layering system, gear recommendations for cold, warm, powder, wind, and spring skiing days.",
-};
+  path: "/clothing-guide",
+  keywords: ["what to wear skiing", "ski clothing guide", "ski layering system", "ski jacket and pants guide"],
+});
 
 const layeringSystem = [
   {

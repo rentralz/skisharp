@@ -4,12 +4,15 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Ski Equipment Guide",
   description:
     "Complete guide to ski equipment — skis, boots, bindings, poles, helmets, and goggles. How to choose the right gear for your level and style.",
-};
+  path: "/equipment-guide",
+  keywords: ["ski equipment guide", "how to choose skis", "ski boots guide", "beginner ski equipment"],
+});
 
 const equipment = [
   {

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -5,6 +6,7 @@ import HomeDisciplineShowcase from "@/components/HomeDisciplineShowcase";
 import HomeHeroDisciplineSwitch from "@/components/HomeHeroDisciplineSwitch";
 import HomeDisciplineLibraryCta from "@/components/HomeDisciplineLibraryCta";
 import { DISCIPLINES, type Discipline } from "@/data/disciplines";
+import { buildAbsoluteUrl } from "@/lib/seo";
 import {
   getTechniqueBySlug,
   techniques,
@@ -12,6 +14,53 @@ import {
   type Technique,
   type VideoEntry,
 } from "@/data/techniques";
+
+const HOME_TITLE = "TurnLab — Master Every Turn";
+const HOME_DESCRIPTION =
+  "Curated ski and snowboard technique guides with structured learning paths, video breakdowns, drills, and feel cues that help you improve faster on snow.";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: HOME_TITLE,
+  },
+  description: HOME_DESCRIPTION,
+  keywords: [
+    "ski techniques",
+    "snowboard techniques",
+    "ski instruction videos",
+    "snowboard instruction videos",
+    "ski drills",
+    "how to ski better",
+    "how to snowboard better",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: HOME_TITLE,
+    description:
+      "The internet's best ski and snowboard instruction videos — curated, organized, and structured into learning paths that actually work.",
+    url: buildAbsoluteUrl("/"),
+    siteName: "TurnLab",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: HOME_TITLE,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: HOME_TITLE,
+    description:
+      "Curated ski and snowboard technique guides with step-by-step video breakdowns, drills, and progression paths.",
+    images: ["/og-image.png"],
+  },
+};
 
 type HomePathKey = "beginner" | "intermediate" | "expert";
 
@@ -249,9 +298,35 @@ export default function HomePage() {
   ];
 
   const homeShowcaseContent = buildHomeShowcaseContent();
+  const homeJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": buildAbsoluteUrl("/#organization"),
+        name: "TurnLab",
+        url: buildAbsoluteUrl("/"),
+        logo: buildAbsoluteUrl("/icon.svg"),
+      },
+      {
+        "@type": "WebSite",
+        "@id": buildAbsoluteUrl("/#website"),
+        url: buildAbsoluteUrl("/"),
+        name: "TurnLab",
+        description: HOME_DESCRIPTION,
+        publisher: {
+          "@id": buildAbsoluteUrl("/#organization"),
+        },
+      },
+    ],
+  };
 
   return (
     <div className="flex min-h-full flex-col bg-[#fcfaf8] font-[family-name:var(--font-inter)] text-[#1f1f1f]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
       <Navbar />
 
       <main id="main-content" className="flex-1">

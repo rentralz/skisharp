@@ -14,6 +14,9 @@ const inter = Inter({
   display: "swap",
 });
 
+const GOOGLE_SITE_VERIFICATION =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || process.env.GOOGLE_SITE_VERIFICATION || undefined;
+
 export const metadata: Metadata = {
   title: {
     default: "TurnLab — Master Every Turn",
@@ -45,6 +48,13 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   metadataBase: new URL("https://turnlab.co"),
+  applicationName: "TurnLab",
+  publisher: "TurnLab",
+  verification: GOOGLE_SITE_VERIFICATION
+    ? {
+        google: GOOGLE_SITE_VERIFICATION,
+      }
+    : undefined,
   icons: {
     icon: "/icon.svg",
   },

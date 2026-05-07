@@ -5,12 +5,15 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { techniques } from "@/data/techniques";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Snow Conditions Guide",
   description:
     "How to adapt your skiing technique for different snow conditions — groomed, powder, ice, crud, slush, windpack, and variable snow. Adjust your stance, edge, and turn shape for every surface.",
-};
+  path: "/snow-conditions",
+  keywords: ["snow conditions skiing", "ski powder technique", "how to ski ice", "ski variable snow"],
+});
 
 const snowTypes = [
   {

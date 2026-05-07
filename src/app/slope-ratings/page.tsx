@@ -5,12 +5,15 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { techniques } from "@/data/techniques";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Slope Ratings Explained",
   description:
     "Understand ski slope difficulty ratings — from green circle beginner runs to double black diamond expert terrain. Learn what each trail marker means and which techniques you need.",
-};
+  path: "/slope-ratings",
+  keywords: ["slope ratings explained", "green blue black ski trails", "ski trail difficulty", "double black diamond meaning"],
+});
 
 const ratings = [
   {

@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { DISCIPLINES } from "@/data/disciplines";
 import { techniques, getTechniqueBySlug } from "@/data/techniques";
+import { buildPageMetadata } from "@/lib/seo";
 import DifficultyBadge from "@/components/DifficultyBadge";
 import VideoEmbed from "@/components/VideoEmbed";
 import Navbar from "@/components/Navbar";
@@ -29,11 +30,23 @@ export async function generateMetadata({
 
   const disciplineInfo = DISCIPLINES[technique.discipline];
   const disciplineNoun = technique.discipline === "ski" ? "skiing" : "snowboarding";
+  const keywords = Array.from(
+    new Set([
+      technique.title,
+      `${disciplineInfo.label.toLowerCase()} technique`,
+      `${technique.title.toLowerCase()} ${disciplineNoun}`,
+      ...technique.terrain.map((terrain) => `${terrain.toLowerCase()} ${disciplineNoun}`),
+    ]),
+  );
 
-  return {
-    title: `${technique.title} | ${disciplineInfo.label} Technique`,
+  return buildPageMetadata({
+    title: `${technique.title} | ${disciplineInfo.label} Technique | TurnLab`,
     description: `Learn ${technique.title} for ${disciplineNoun}. ${technique.description}`,
-  };
+    path: `/techniques/${technique.slug}`,
+    keywords,
+    socialTitle: `${technique.title} | ${disciplineInfo.label} Technique | TurnLab`,
+    socialDescription: `${technique.promise} Learn ${technique.title} for ${disciplineNoun} with curated video breakdowns, drills, and feel cues from TurnLab.`,
+  });
 }
 
 export default async function TechniqueDetailPage({

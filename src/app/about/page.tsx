@@ -4,12 +4,15 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import { techniques } from "@/data/techniques";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "About TurnLab",
+export const metadata: Metadata = buildPageMetadata({
+  title: "About",
   description:
     "TurnLab is a curated ski and snowboard technique knowledge hub — expert-selected videos, organized into learning paths, and free for everyone.",
-};
+  path: "/about",
+  keywords: ["about TurnLab", "ski learning hub", "snowboard learning hub", "ski technique videos"],
+});
 
 export default function AboutPage() {
   const totalVideos = techniques.reduce(

@@ -3,12 +3,15 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Budget Ski Gear Under $250",
   description:
     "Complete budget ski clothing setup for under $250 on Amazon. Everything a first-time skier needs — jacket, pants, base layers, gloves, goggles, and more.",
-};
+  path: "/budget-gear",
+  keywords: ["budget ski gear", "cheap ski clothing", "ski gear under 250", "beginner ski gear list"],
+});
 
 const AFFILIATE_TAG = "turnlab-20";
 

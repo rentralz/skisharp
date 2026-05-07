@@ -3,12 +3,15 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Ski Resorts Worldwide",
   description:
     "Explore ski resorts around the world grouped by region. North America, Europe, Japan, South America, Oceania, and more — with key stats and what each resort is known for.",
-};
+  path: "/resorts",
+  keywords: ["ski resorts worldwide", "best ski resorts", "ski resorts by region", "ski resort guide"],
+});
 
 interface Resort {
   name: string;
