@@ -68,8 +68,8 @@ export default function TechniqueGrid({
 
   return (
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-      {techniques.map((technique) => (
-        <TechniqueCard key={technique.id} technique={technique} />
+      {techniques.map((technique, index) => (
+        <TechniqueCard key={technique.id} technique={technique} position={index + 1} filterContext={filters} />
       ))}
     </div>
   );

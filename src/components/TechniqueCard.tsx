@@ -1,26 +1,45 @@
-import Link from "next/link";
 import { DISCIPLINES } from "@/data/disciplines";
 import type { Technique } from "@/data/techniques";
+import type { FilterState } from "@/hooks/useTechniqueFilters";
 import DifficultyBadge from "./DifficultyBadge";
 import DifficultyDots from "./badges/DifficultyDots";
 import ReadTime from "./badges/ReadTime";
 import UpdatedBadge from "./badges/UpdatedBadge";
 import ShareButton from "./ShareButton";
 import TerrainTags from "./TerrainTags";
+import TrackedLink from "./TrackedLink";
 
 interface Props {
   technique: Technique;
+  position: number;
+  filterContext: FilterState;
 }
 
-export default function TechniqueCard({ technique }: Props) {
+export default function TechniqueCard({ technique, position, filterContext }: Props) {
   const primaryVideo =
     technique.youtubeVideos.find((video) => video.isPrimary) ?? technique.youtubeVideos[0];
   const disciplineInfo = DISCIPLINES[technique.discipline];
   const techniqueHref = `/techniques/${technique.slug}?discipline=${technique.discipline}`;
 
   return (
-    <Link
+    <TrackedLink
       href={techniqueHref}
+      linkKind="next"
+      eventName="technique_card_click"
+      eventParams={{
+        technique_slug: technique.slug,
+        technique_title: technique.title,
+        discipline: technique.discipline,
+        difficulty: technique.difficulty,
+        rating: technique.rating,
+        primary_terrain: technique.terrain[0] ?? "unknown",
+        terrain_count: technique.terrain.length,
+        card_position: position,
+        listing_discipline_filter: filterContext.discipline,
+        listing_rating_filter: filterContext.rating,
+        listing_terrain_filter: filterContext.terrain,
+        surface: "techniques_grid",
+      }}
       aria-label={`View ${disciplineInfo.label.toLowerCase()} technique: ${technique.title}`}
       className="group block rounded-xl overflow-hidden bg-white border border-gray-200 hover:shadow-lg transition-all duration-300"
     >
@@ -82,6 +101,6 @@ export default function TechniqueCard({ technique }: Props) {
         <TerrainTags terrain={technique.terrain} />
         {technique.updatedAt && <UpdatedBadge date={technique.updatedAt} />}
       </div>
-    </Link>
+    </TrackedLink>
   );
 }

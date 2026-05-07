@@ -2,6 +2,7 @@
 
 import { type TechniqueId } from "@/data/techniques";
 import { useProgress } from "@/hooks/useProgress";
+import { trackEvent } from "@/lib/analytics";
 
 interface Props {
   techniqueId: TechniqueId;
@@ -12,12 +13,31 @@ export default function ProgressButtons({ techniqueId }: Props) {
   const practiced = isPracticed(techniqueId);
   const bookmarked = isBookmarked(techniqueId);
 
+  const handlePracticedToggle = () => {
+    trackEvent("technique_progress_toggle", {
+      technique_id: techniqueId,
+      next_state: practiced ? "remove_practiced" : "mark_practiced",
+      current_streak: stats.streak,
+      practiced_count: stats.practicedCount,
+    });
+    togglePracticed(techniqueId);
+  };
+
+  const handleBookmarkToggle = () => {
+    trackEvent("technique_bookmark_toggle", {
+      technique_id: techniqueId,
+      next_state: bookmarked ? "remove_bookmark" : "save_bookmark",
+      bookmarked_count: stats.bookmarkedCount,
+    });
+    toggleBookmark(techniqueId);
+  };
+
   return (
     <div className="flex flex-col gap-3">
       {/* Action buttons */}
       <div className="flex items-center gap-2">
         <button
-          onClick={() => togglePracticed(techniqueId)}
+          onClick={handlePracticedToggle}
           className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
             practiced
               ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
@@ -39,7 +59,7 @@ export default function ProgressButtons({ techniqueId }: Props) {
         </button>
 
         <button
-          onClick={() => toggleBookmark(techniqueId)}
+          onClick={handleBookmarkToggle}
           className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
             bookmarked
               ? "bg-amber-50 text-amber-700 border border-amber-200"

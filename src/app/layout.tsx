@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -78,7 +79,9 @@ export default function RootLayout({
       )}
       <body className="min-h-screen bg-white dark:bg-[#111] text-[#222] dark:text-gray-100">
         <PostHogProvider>
-          <GoogleAnalytics />
+          <Suspense fallback={null}>
+            <GoogleAnalytics />
+          </Suspense>
           <SkipNav />
           <PageTransition>{children}</PageTransition>
           <Analytics />

@@ -1,9 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import TrackedLink from "@/components/TrackedLink";
 import { DISCIPLINES, type Discipline } from "@/data/disciplines";
 import { getTechniqueBySlug } from "@/data/techniques";
 import {
@@ -13,6 +13,7 @@ import {
   type SkillResult,
 } from "@/data/quiz";
 import { useDisciplinePreference } from "@/hooks/useDisciplinePreference";
+import { trackEvent } from "@/lib/analytics";
 
 function DifficultyDot({ rating }: { rating: SkillResult["rating"] }) {
   const dotClassName =
@@ -46,6 +47,10 @@ export default function QuizPage() {
   const totalScore = answers.reduce((sum, answer) => sum + answer, 0);
 
   const handleDisciplineSelect = (discipline: Discipline) => {
+    trackEvent("quiz_start", {
+      discipline,
+      total_questions: getQuizTrack(discipline).questions.length,
+    });
     setSelectedDiscipline(discipline);
     setPreferredDiscipline(discipline);
     setCurrentQuestionIndex(0);
@@ -54,9 +59,17 @@ export default function QuizPage() {
   };
 
   const handleAnswer = (option: QuestionOption) => {
-    if (!track) {
+    if (!track || !activeQuestion || !selectedDiscipline) {
       return;
     }
+
+    trackEvent("quiz_answer_select", {
+      discipline: selectedDiscipline,
+      question_id: activeQuestion.id,
+      question_index: currentQuestionIndex + 1,
+      answer_label: option.label,
+      answer_points: option.points,
+    });
 
     const nextAnswers = [...answers, option.points];
 
@@ -67,17 +80,34 @@ export default function QuizPage() {
     }
 
     const score = nextAnswers.reduce((sum, answer) => sum + answer, 0);
+    const nextResult = track.getResult(score);
+    trackEvent("quiz_complete", {
+      discipline: selectedDiscipline,
+      score,
+      result_level: nextResult.level,
+      result_rating: nextResult.rating,
+      result_title: nextResult.title,
+      recommended_techniques: nextResult.techniques.length,
+    });
     setAnswers(nextAnswers);
-    setResult(track.getResult(score));
+    setResult(nextResult);
   };
 
   const restart = () => {
+    trackEvent("quiz_restart", {
+      discipline: selectedDiscipline ?? "unknown",
+      had_result: Boolean(result),
+    });
     setCurrentQuestionIndex(0);
     setAnswers([]);
     setResult(null);
   };
 
   const changeDiscipline = () => {
+    trackEvent("quiz_change_discipline", {
+      previous_discipline: selectedDiscipline ?? "unknown",
+      had_result: Boolean(result),
+    });
     setSelectedDiscipline(null);
     setCurrentQuestionIndex(0);
     setAnswers([]);
@@ -189,9 +219,18 @@ export default function QuizPage() {
                       const label = technique?.title ?? slug.replace(/-/g, " ");
 
                       return (
-                        <Link
+                        <TrackedLink
                           key={slug}
                           href={`/techniques/${slug}?discipline=${selectedDiscipline}`}
+                          linkKind="next"
+                          eventName="quiz_result_technique_click"
+                          eventParams={{
+                            discipline: selectedDiscipline,
+                            result_rating: result.rating,
+                            result_level: result.level,
+                            technique_slug: slug,
+                            technique_title: label,
+                          }}
                           className="group flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-[#B4835A] hover:shadow-sm transition-all"
                         >
                           <DifficultyDot rating={result.rating} />
@@ -199,7 +238,7 @@ export default function QuizPage() {
                             {label}
                           </span>
                           <span className="text-[#aaa] text-xs ml-auto">→</span>
-                        </Link>
+                        </TrackedLink>
                       );
                     })}
                   </div>
@@ -213,12 +252,19 @@ export default function QuizPage() {
                 </div>
 
                 <div className="flex flex-wrap gap-3">
-                  <Link
+                  <TrackedLink
                     href={`/techniques?discipline=${selectedDiscipline}&rating=${result.rating}`}
+                    linkKind="next"
+                    eventName="quiz_result_browse_cta_click"
+                    eventParams={{
+                      discipline: selectedDiscipline,
+                      result_rating: result.rating,
+                      result_level: result.level,
+                    }}
                     className="bg-[#222] hover:bg-[#333] text-white font-medium px-6 py-2.5 rounded-full text-sm transition-colors"
                   >
                     Browse {disciplineInfo.label.toLowerCase()} techniques →
-                  </Link>
+                  </TrackedLink>
                   <button
                     onClick={changeDiscipline}
                     className="bg-white border border-gray-200 hover:border-gray-300 text-[#222] font-medium px-6 py-2.5 rounded-full text-sm transition-colors"

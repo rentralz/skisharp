@@ -1,10 +1,11 @@
 "use client";
 
-import Link from "next/link";
-import { techniques } from "@/data/techniques";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import TrackedLink from "@/components/TrackedLink";
+import { techniques } from "@/data/techniques";
 import { useProgress } from "@/hooks/useProgress";
+import { trackEvent } from "@/lib/analytics";
 
 export default function ProgressPage() {
   const { stats, isPracticed, isBookmarked, togglePracticed, toggleBookmark } = useProgress();
@@ -105,13 +106,31 @@ export default function ProgressPage() {
             <div className="space-y-2">
               {bookmarkedTechniques.map((t) => (
                 <div key={t.id} className="flex items-center justify-between p-3 rounded-xl border border-gray-200">
-                  <Link href={`/techniques/${t.slug}?discipline=${t.discipline}`} className="text-sm text-[#222] hover:text-[#B4835A] transition-colors font-medium">
+                  <TrackedLink
+                    href={`/techniques/${t.slug}?discipline=${t.discipline}`}
+                    linkKind="next"
+                    eventName="progress_saved_technique_click"
+                    eventParams={{
+                      technique_slug: t.slug,
+                      technique_title: t.title,
+                      discipline: t.discipline,
+                    }}
+                    className="text-sm text-[#222] hover:text-[#B4835A] transition-colors font-medium"
+                  >
                     {t.title}
-                  </Link>
+                  </TrackedLink>
                   <div className="flex items-center gap-2">
                     {isPracticed(t.id) && <span className="text-xs text-emerald-600">✓ practiced</span>}
                     <button
-                      onClick={() => toggleBookmark(t.id)}
+                      onClick={() => {
+                        trackEvent("progress_saved_remove_click", {
+                          technique_id: t.id,
+                          technique_slug: t.slug,
+                          technique_title: t.title,
+                          discipline: t.discipline,
+                        });
+                        toggleBookmark(t.id);
+                      }}
                       className="text-xs text-[#aaa] hover:text-red-500 transition-colors"
                     >
                       remove
@@ -130,11 +149,29 @@ export default function ProgressPage() {
             <div className="space-y-2">
               {practicedTechniques.map((t) => (
                 <div key={t.id} className="flex items-center justify-between p-3 rounded-xl border border-emerald-100 bg-emerald-50/30">
-                  <Link href={`/techniques/${t.slug}?discipline=${t.discipline}`} className="text-sm text-[#222] hover:text-[#B4835A] transition-colors font-medium">
+                  <TrackedLink
+                    href={`/techniques/${t.slug}?discipline=${t.discipline}`}
+                    linkKind="next"
+                    eventName="progress_practiced_technique_click"
+                    eventParams={{
+                      technique_slug: t.slug,
+                      technique_title: t.title,
+                      discipline: t.discipline,
+                    }}
+                    className="text-sm text-[#222] hover:text-[#B4835A] transition-colors font-medium"
+                  >
                     {t.title}
-                  </Link>
+                  </TrackedLink>
                   <button
-                    onClick={() => togglePracticed(t.id)}
+                    onClick={() => {
+                      trackEvent("progress_practiced_undo_click", {
+                        technique_id: t.id,
+                        technique_slug: t.slug,
+                        technique_title: t.title,
+                        discipline: t.discipline,
+                      });
+                      togglePracticed(t.id);
+                    }}
                     className="text-xs text-[#aaa] hover:text-red-500 transition-colors"
                   >
                     undo
@@ -155,12 +192,24 @@ export default function ProgressPage() {
               as practiced as you work through them.
             </p>
             <div className="flex items-center justify-center gap-3">
-              <Link href="/quiz" className="bg-[#222] hover:bg-[#333] text-white font-medium px-5 py-2 rounded-full text-sm transition-colors">
+              <TrackedLink
+                href="/quiz"
+                linkKind="next"
+                eventName="progress_empty_state_cta_click"
+                eventParams={{ cta_target: "quiz" }}
+                className="bg-[#222] hover:bg-[#333] text-white font-medium px-5 py-2 rounded-full text-sm transition-colors"
+              >
                 Take the Quiz →
-              </Link>
-              <Link href="/techniques" className="text-[#B4835A] text-sm font-medium hover:text-[#9A7049] transition-colors">
+              </TrackedLink>
+              <TrackedLink
+                href="/techniques"
+                linkKind="next"
+                eventName="progress_empty_state_cta_click"
+                eventParams={{ cta_target: "techniques" }}
+                className="text-[#B4835A] text-sm font-medium hover:text-[#9A7049] transition-colors"
+              >
                 Browse Techniques
-              </Link>
+              </TrackedLink>
             </div>
           </div>
         )}

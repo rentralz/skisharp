@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
-import { techniques } from "@/data/techniques";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import TrackedLink from "@/components/TrackedLink";
+import { techniques } from "@/data/techniques";
+import { trackEvent } from "@/lib/analytics";
 
 const CONDITIONS = [
   { id: "groomed", label: "Groomed / Corduroy", emoji: "🟦", desc: "Fresh corduroy, packed runs" },
@@ -30,6 +31,15 @@ const CONDITION_TO_TERRAIN: Record<string, string[]> = {
 
 export default function ConditionsMatchPage() {
   const [selected, setSelected] = useState<string | null>(null);
+
+  const handleConditionToggle = (conditionId: string) => {
+    const nextSelected = selected === conditionId ? null : conditionId;
+    trackEvent("conditions_match_select", {
+      selected_condition: conditionId,
+      interaction: nextSelected ? "select" : "clear",
+    });
+    setSelected(nextSelected);
+  };
 
   const matchedTechniques = selected
     ? techniques.filter((t) => {
@@ -60,7 +70,7 @@ export default function ConditionsMatchPage() {
           {CONDITIONS.map((c) => (
             <button
               key={c.id}
-              onClick={() => setSelected(selected === c.id ? null : c.id)}
+              onClick={() => handleConditionToggle(c.id)}
               className={`p-4 rounded-xl border text-center transition-all ${
                 selected === c.id
                   ? "border-[#B4835A] bg-[#F5F2EF] shadow-sm"
@@ -86,9 +96,18 @@ export default function ConditionsMatchPage() {
                 {matchedTechniques.map((t) => {
                   const vid = t.youtubeVideos.find((v: { isPrimary?: boolean }) => v.isPrimary) ?? t.youtubeVideos[0];
                   return (
-                    <Link
+                    <TrackedLink
                       key={t.id}
                       href={`/techniques/${t.slug}?discipline=${t.discipline}`}
+                      linkKind="next"
+                      eventName="conditions_match_result_click"
+                      eventParams={{
+                        selected_condition: selected,
+                        technique_slug: t.slug,
+                        technique_title: t.title,
+                        discipline: t.discipline,
+                        rating: t.rating,
+                      }}
                       className="group flex items-center gap-4 p-3 rounded-xl border border-gray-200 hover:border-[#B4835A] hover:shadow-sm transition-all"
                     >
                       {vid && (
@@ -117,13 +136,22 @@ export default function ConditionsMatchPage() {
                         </div>
                       </div>
                       <span className="text-[#aaa] group-hover:text-[#B4835A] transition-colors">→</span>
-                    </Link>
+                    </TrackedLink>
                   );
                 })}
               </div>
             ) : (
               <p className="text-[#888] text-sm py-8 text-center">
-                No specific techniques matched. <Link href="/techniques" className="text-[#B4835A] underline">Browse all techniques →</Link>
+                No specific techniques matched. {" "}
+                <TrackedLink
+                  href="/techniques"
+                  linkKind="next"
+                  eventName="conditions_match_fallback_click"
+                  eventParams={{ selected_condition: selected }}
+                  className="text-[#B4835A] underline"
+                >
+                  Browse all techniques →
+                </TrackedLink>
               </p>
             )}
           </div>

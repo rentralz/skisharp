@@ -15,6 +15,7 @@ type TrackedLinkProps = {
   rel?: string;
   linkKind?: "anchor" | "next";
   onClick?: MouseEventHandler<HTMLAnchorElement>;
+  ariaLabel?: string;
 };
 
 export default function TrackedLink({
@@ -27,19 +28,20 @@ export default function TrackedLink({
   rel,
   linkKind = "anchor",
   onClick,
+  ariaLabel,
 }: TrackedLinkProps) {
   const handleClick = withLinkTracking(eventName, href, eventParams, onClick);
 
   if (linkKind === "next") {
     return (
-      <Link href={href} className={className} onClick={handleClick}>
+      <Link href={href} className={className} onClick={handleClick} aria-label={ariaLabel}>
         {children}
       </Link>
     );
   }
 
   return (
-    <a href={href} target={target} rel={rel} className={className} onClick={handleClick}>
+    <a href={href} target={target} rel={rel} className={className} onClick={handleClick} aria-label={ariaLabel}>
       {children}
     </a>
   );
