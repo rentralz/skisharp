@@ -120,6 +120,20 @@ export default function AboutPage() {
                 scattered. TurnLab brings order to the chaos so you can spend less time
                 searching and more time improving.
               </p>
+              <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <Link
+                  href="/quiz"
+                  className="inline-flex items-center justify-center rounded-full bg-[#201d1a] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#35302a]"
+                >
+                  Take the 1-minute quiz
+                </Link>
+                <Link
+                  href="/techniques"
+                  className="inline-flex items-center justify-center rounded-full border border-[#d8c7b8] bg-white/90 px-5 py-3 text-sm font-semibold text-[#7d5431] transition-colors hover:border-[#c6af99] hover:bg-white"
+                >
+                  Browse all techniques
+                </Link>
+              </div>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
