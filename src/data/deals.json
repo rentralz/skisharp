@@ -1,6 +1,6 @@
 {
-  "lastScanned": "2026-05-07T14:52:13.597Z",
-  "totalDeals": 23,
+  "lastScanned": "2026-05-08T14:18:28.163Z",
+  "totalDeals": 21,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 118,
@@ -104,28 +104,12 @@
       "posted": "2026-04-08T15:14:55.000Z"
     },
     {
-      "title": "$12.99 | Spyder Womens Micro French Terry LS Base Layer Top at Woot!",
-      "url": "https://slickdeals.net/f/19396008-12-99-spyder-womens-micro-french-terry-ls-base-layer-top-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-04-08T11:03:31.000Z"
-    },
-    {
-      "title": "$12.99 | Spyder Womens Micro Terry Base Layer Bottom at Woot!",
-      "url": "https://slickdeals.net/f/19395453-12-99-spyder-womens-micro-terry-base-layer-bottom-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-04-08T05:15:22.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     },
     {
@@ -134,7 +118,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     },
     {
@@ -143,7 +127,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     },
     {
@@ -152,7 +136,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     },
     {
@@ -161,7 +145,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     },
     {
@@ -170,7 +154,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     },
     {
@@ -179,7 +163,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     },
     {
@@ -188,7 +172,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     },
     {
@@ -197,7 +181,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-07T14:52:13.594Z",
+      "posted": "2026-05-08T14:18:28.161Z",
       "isAmazonSearch": true
     }
   ]
