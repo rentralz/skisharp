@@ -21,7 +21,7 @@ const LEVEL_LINKS = [
 
 const START_HERE_LINKS = [
   { href: "/quiz", label: "Take the 1-minute quiz" },
-  { href: "/conditions-match", label: "What should I ski today?" },
+  { href: "/conditions-match", label: "Browse by snow conditions" },
   { href: "/about", label: "How TurnLab works" },
 ];
 
