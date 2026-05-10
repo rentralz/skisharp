@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { isDiscipline, type Discipline } from "../../data/disciplines";
 
 interface NavLink {
   href: string;
@@ -58,6 +59,20 @@ function getLocationSnapshot() {
   return `${window.location.pathname}${window.location.search}`;
 }
 
+function getTechniqueDiscipline(pathname: string): Discipline | null {
+  if (!pathname.startsWith("/techniques/")) {
+    return null;
+  }
+
+  const slug = pathname.slice("/techniques/".length);
+
+  if (!slug) {
+    return null;
+  }
+
+  return slug.startsWith("snowboard-") ? "snowboard" : "ski";
+}
+
 /**
  * Returns the href of the currently active link.
  * Supports exact match and prefix matching, including discipline-aware techniques links.
@@ -65,7 +80,10 @@ function getLocationSnapshot() {
 export function useActiveLink(links: NavLink[]): string | null {
   const location = useSyncExternalStore(subscribe, getLocationSnapshot, () => "");
   const [pathname, search = ""] = location.split("?");
-  const activeDiscipline = new URLSearchParams(search).get("discipline");
+  const searchDiscipline = new URLSearchParams(search).get("discipline");
+  const activeDiscipline = isDiscipline(searchDiscipline)
+    ? searchDiscipline
+    : getTechniqueDiscipline(pathname);
 
   for (const link of links) {
     if (link.href.startsWith("/techniques?discipline=")) {
