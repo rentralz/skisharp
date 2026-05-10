@@ -48,7 +48,7 @@ const CATEGORY_RULES = [
 const SKI_CONTEXT_PATTERN = /\b(ski|skis|snow|goggle|goggles|helmet|helmets|balaclava|merino|base layer|baselayer|thermal|spyder|smartwool|arctix|waterproofing|lift ticket|pass|ikon|epic|snow gear|winter)\b/i;
 const DEAL_PATTERN = /(\bdeal\b|\bdiscount\b|\bclearance\b|\bmarkdown\b|\bcoupon\b|\bpromo\b|\bsale\b|%\s*off|\bfrom\s*[$€£]|[$€£]\s?\d|\boff season\b|\bsave\b)/i;
 const QUESTION_PATTERN = /(\?|\b(help|advice|review|sizing|length|best time|where to sell|looking for|anyone|what|when|how|should i|good for beginner|trying to figure out)\b)/i;
-const NEGATIVE_PATTERN = /(harley|road king|motorcycle|windshield|shield\/screen|sales tax|air freshener|smart watch|graphic short sleeve|crusher tee|t-?rex|cleansing oil|dark ski scent|women's graphic tee|men's graphic tee|fleece jacket)/i;
+const NEGATIVE_PATTERN = /(harley|road king|motorcycle|windshield|shield\/screen|sales tax|air freshener|smart watch|graphic short sleeve|crusher tee|t-?rex|cleansing oil|dark ski scent|women's graphic tee|men's graphic tee|fleece jacket|\bgolf\b|stand bag|disc golf)/i;
 
 function classifyDeal(title) {
   for (const [category, pattern] of CATEGORY_RULES) {

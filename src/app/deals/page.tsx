@@ -225,6 +225,24 @@ interface Deal {
 
 type RetailerShortcut = (typeof RETAILER_SHORTCUTS)[number];
 
+const HERO_QUICK_PATH_CATEGORIES = ["jackets", "goggles", "boots", "skis"] as const;
+
+const FEATURED_CATEGORY_PRIORITY: Record<string, number> = {
+  jackets: 90,
+  skis: 88,
+  boots: 86,
+  goggles: 84,
+  helmets: 80,
+  pants: 76,
+  baselayers: 74,
+  gloves: 70,
+  socks: 68,
+  passes: 66,
+  accessories: 58,
+  packs: 40,
+  other: 24,
+};
+
 function timeAgo(dateStr: string): string {
   const diff = Date.now() - new Date(dateStr).getTime();
   const hours = Math.floor(diff / (1000 * 60 * 60));
@@ -264,10 +282,14 @@ function isLikelyRelevantDeal(deal: Deal): boolean {
   const haystack = `${deal.title} ${deal.url} ${deal.source}`.toLowerCase();
   const positivePattern =
     /ski|snow|winter|goggle|helmet|jacket|pant|merino|base layer|baselayer|boot|binding|pole|ikon|epic|lift|powder|outerwear/;
-  const negativePattern = /harley|road king|motorcycle|windshield|shield|screen/;
+  const negativePattern = /harley|road king|motorcycle|windshield|shield|screen|\bgolf\b|stand bag|disc golf/;
 
   if (negativePattern.test(haystack)) {
     return false;
+  }
+
+  if (deal.category === "packs" || deal.category === "accessories") {
+    return positivePattern.test(haystack);
   }
 
   if (deal.category !== "other") {
@@ -275,6 +297,12 @@ function isLikelyRelevantDeal(deal: Deal): boolean {
   }
 
   return positivePattern.test(haystack);
+}
+
+function getFeaturedDealScore(deal: Deal): number {
+  const categoryPriority = FEATURED_CATEGORY_PRIORITY[deal.category] ?? FEATURED_CATEGORY_PRIORITY.other;
+  const agePenaltyInDays = getHoursSince(deal.posted) / 24;
+  return categoryPriority - agePenaltyInDays;
 }
 
 function cleanAmazonTitle(title: string): string {
@@ -305,21 +333,27 @@ export default function DealsPage() {
 
   const communityDeals = deals.filter((deal) => !deal.isAmazonSearch && isLikelyRelevantDeal(deal));
   const amazonSearches = deals.filter((deal) => deal.isAmazonSearch);
-  const featuredCommunityDeals = communityDeals.slice(0, 3);
+  const featuredCommunityDeals = [...communityDeals]
+    .sort((a, b) => getFeaturedDealScore(b) - getFeaturedDealScore(a))
+    .slice(0, 3);
   const topCommunityDeal = featuredCommunityDeals[0];
   const nextCommunityDeals = featuredCommunityDeals.slice(1);
   const topCommunityCategory = topCommunityDeal
     ? CATEGORY_LABELS[topCommunityDeal.category] || CATEGORY_LABELS.other
     : null;
   const primaryCtaHref = featuredCommunityDeals.length > 0 ? "#community-picks" : "#retailer-shortcuts";
-  const primaryCtaLabel = featuredCommunityDeals.length > 0 ? "See today’s top ski deals" : "Shop ski deals by retailer";
-  const secondaryCtaHref = featuredCommunityDeals.length > 0 ? "#retailer-shortcuts" : "#category-shortcuts";
-  const secondaryCtaLabel = featuredCommunityDeals.length > 0 ? "Shop ski deals by retailer" : "Shop ski deals by category";
+  const primaryCtaLabel = featuredCommunityDeals.length > 0 ? "See best current deals" : "Shop ski deals by retailer";
+  const secondaryCtaHref = "#category-shortcuts";
+  const secondaryCtaLabel = "Browse by category";
+  const recentCommunityDealCount = communityDeals.filter((deal) => getHoursSince(deal.posted) <= 24 * 14).length;
+  const heroQuickPathDeals = HERO_QUICK_PATH_CATEGORIES.map((category) =>
+    amazonSearches.find((deal) => deal.category === category),
+  ).filter((deal): deal is Deal => Boolean(deal));
   const trustItems = [
     formatScanLabel(lastScanned),
-    "Community-picked links",
-    "Direct source links",
-    "Affiliate links labeled",
+    `${recentCommunityDealCount} community finds from the last 14 days`,
+    `${amazonSearches.length} category shortcuts`,
+    "Affiliate links clearly labeled",
   ];
   const dealAlertsEnabled = Boolean(process.env.DEALS_ALERTS_WEBHOOK_URL) || !process.env.VERCEL;
   const scanAgeHours = getHoursSince(lastScanned);
@@ -441,18 +475,18 @@ export default function DealsPage() {
         />
         <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-[32px] border border-[#eadfd6] bg-[linear-gradient(135deg,#fffaf5_0%,#fffefc_55%,#f4ece5_100%)] p-6 shadow-[0_20px_70px_rgba(119,85,53,0.08)] sm:p-8 lg:p-10">
-            <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+            <div className="grid gap-8 lg:grid-cols-[1.08fr_0.92fr] lg:items-start">
               <div>
                 <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43] shadow-sm">
-                  Ski deals &amp; sales
+                  Best ski deals today
                 </div>
                 <h1 className="mt-5 max-w-4xl text-4xl font-black tracking-tight text-[#201d1a] sm:text-5xl lg:text-6xl">
-                  Find the ski deals worth clicking faster.
+                  Find the ski deals worth clicking before the good sizes disappear.
                 </h1>
                 <p className="mt-5 max-w-3xl text-base leading-8 text-[#5f5a55] sm:text-lg">
-                  TurnLab brings together community picks, retailer shortcuts, and category paths so
-                  you can check useful ski deals faster without bouncing between generic search
-                  results.
+                  TurnLab surfaces the best ski deals from community finds, retailer sale pages, and
+                  high-intent gear categories so you can spot real savings faster without digging
+                  through junk threads or generic storefront search results.
                 </p>
 
                 <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -483,9 +517,9 @@ export default function DealsPage() {
                 </div>
 
                 <p className="mt-4 max-w-3xl text-sm leading-7 text-[#6b635b] sm:text-base">
-                  Want the strongest current deals first? Start with community picks. Already trust
-                  a retailer or know the gear category you want? The next shortcuts get you there
-                  faster.
+                  Start with curated community finds if you want the strongest current opportunities
+                  first. Use the retailer and category fast lanes when you already know what you want
+                  to compare.
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-3">
@@ -498,22 +532,70 @@ export default function DealsPage() {
                     </span>
                   ))}
                 </div>
+
+                {heroQuickPathDeals.length > 0 ? (
+                  <div className="mt-8 rounded-[28px] border border-[#eadfd6] bg-white/80 p-5 shadow-[0_10px_30px_rgba(92,68,43,0.04)]">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a56f43]">
+                      Fast lanes for high-intent shoppers
+                    </p>
+                    <p className="mt-3 max-w-2xl text-sm leading-7 text-[#6b635b]">
+                      If you already know the category you care about, jump straight to a cleaner deal path.
+                    </p>
+                    <div className="mt-4 flex flex-wrap gap-3">
+                      {heroQuickPathDeals.map((deal) => {
+                        const category = CATEGORY_LABELS[deal.category] || CATEGORY_LABELS.other;
+                        return (
+                          <TrackedLink
+                            key={`hero-quick-path-${deal.category}`}
+                            href={deal.url}
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            eventName="deals_hero_quick_path_click"
+                            eventParams={{
+                              category: deal.category,
+                              category_label: category.label,
+                              cta_label: category.cta,
+                              link_url: deal.url,
+                            }}
+                            className="inline-flex items-center gap-2 rounded-full border border-[#dccabc] bg-[#fffaf5] px-4 py-2 text-sm font-semibold text-[#7d5431] transition-colors hover:border-[#c9ae96] hover:bg-white"
+                          >
+                            <span>{category.emoji}</span>
+                            <span>{category.label}</span>
+                            <span aria-hidden="true">→</span>
+                          </TrackedLink>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : null}
               </div>
 
-              <aside className="relative overflow-hidden rounded-[28px] border border-[#2f2822] bg-[#1f1b18] p-6 text-white shadow-[0_16px_50px_rgba(43,30,18,0.18)]">
-                <div className="absolute -right-12 -top-10 h-36 w-36 rounded-full bg-[#d8b08b]/20 blur-3xl" />
-                {topCommunityDeal && topCommunityCategory ? (
-                  <>
-                    <p className="relative text-xs font-semibold uppercase tracking-[0.24em] text-[#d8b08b]">
-                      Best place to start
-                    </p>
-                    <h2 className="relative mt-3 text-2xl font-black tracking-tight text-white">
-                      Top deal right now, with the most useful first click already picked.
-                    </h2>
-                    <p className="relative mt-4 text-sm leading-7 text-white/75 sm:text-base">
-                      If you only open one deal first, make it this one. Then come back and compare the
-                      retailer and category shortcuts below.
-                    </p>
+              <aside className="space-y-4 lg:pl-2">
+                <div className="relative overflow-hidden rounded-[28px] border border-[#2f2822] bg-[#1f1b18] p-6 text-white shadow-[0_16px_50px_rgba(43,30,18,0.18)]">
+                  <div className="absolute -right-12 -top-10 h-36 w-36 rounded-full bg-[#d8b08b]/20 blur-3xl" />
+                  <p className="relative text-xs font-semibold uppercase tracking-[0.24em] text-[#d8b08b]">
+                    Why start here
+                  </p>
+                  <h2 className="relative mt-3 text-2xl font-black tracking-tight text-white">
+                    Curated paths first. Monetized shortcuts second.
+                  </h2>
+                  <p className="relative mt-4 text-sm leading-7 text-white/75 sm:text-base">
+                    The page is built to prove value before asking you to click out: best community finds
+                    first, trusted retailers second, affiliate shortcuts clearly labeled.
+                  </p>
+                  <ul className="relative mt-6 space-y-3 text-sm leading-7 text-white/80 sm:text-base">
+                    <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
+                      Community picks keep the original source visible before you leave TurnLab.
+                    </li>
+                    <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
+                      Retailer shortcuts help when you trust a store more than a thread.
+                    </li>
+                    <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
+                      Category shortcuts are a fast lane for jackets, boots, goggles, and skis.
+                    </li>
+                  </ul>
+
+                  {topCommunityDeal && topCommunityCategory ? (
                     <TrackedLink
                       href={topCommunityDeal.url}
                       target="_blank"
@@ -525,7 +607,7 @@ export default function DealsPage() {
                         category: topCommunityDeal.category,
                         category_label: topCommunityCategory.label,
                         deal_title: topCommunityDeal.title,
-                        cta_label: "Open today’s highlighted deal",
+                        cta_label: "Open current standout deal",
                         section_name: "hero_spotlight",
                         deal_age_hours: getHoursSince(topCommunityDeal.posted),
                         deal_age_bucket: getRecencyBucket(getHoursSince(topCommunityDeal.posted)),
@@ -534,16 +616,13 @@ export default function DealsPage() {
                     >
                       <div className="flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#f3cfaa]">
                         <span className="rounded-full border border-[#d8b08b]/40 bg-[#d8b08b]/10 px-3 py-1 text-[#f3cfaa]">
-                          Top deal right now
+                          Current standout
                         </span>
                         <span>{timeAgo(topCommunityDeal.posted)}</span>
                       </div>
-                      <h3 className="mt-4 text-xl font-bold leading-8 text-white transition-colors group-hover:text-[#ffe5cb]">
+                      <h3 className="mt-4 text-lg font-bold leading-7 text-white transition-colors group-hover:text-[#ffe5cb]">
                         {topCommunityDeal.title}
                       </h3>
-                      <p className="mt-3 text-sm leading-7 text-white/75">
-                        {topCommunityCategory.description}
-                      </p>
                       <div className="mt-4 flex flex-wrap gap-2 text-xs text-white/80 sm:text-sm">
                         <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
                           {topCommunityDeal.sourceIcon} {topCommunityDeal.source}
@@ -551,42 +630,17 @@ export default function DealsPage() {
                         <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
                           {topCommunityCategory.emoji} {topCommunityCategory.label}
                         </span>
-                        {typeof topCommunityDeal.score === "number" ? (
-                          <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
-                            ▲ {topCommunityDeal.score}
-                          </span>
-                        ) : null}
                       </div>
                       <span className="mt-5 inline-flex text-sm font-semibold text-[#f3cfaa]">
-                        Open today’s highlighted deal →
+                        Open current standout deal →
                       </span>
                     </TrackedLink>
-                  </>
-                ) : (
-                  <>
-                    <p className="relative text-xs font-semibold uppercase tracking-[0.24em] text-[#d8b08b]">
-                      What you can expect here
-                    </p>
-                    <h2 className="relative mt-3 text-2xl font-black tracking-tight text-white">
-                      Faster browsing, clearer labels, direct links.
-                    </h2>
-                    <p className="relative mt-4 text-sm leading-7 text-white/75 sm:text-base">
-                      This page is built to help you make a first click faster without hiding where the
-                      links go or how the shortcuts work.
-                    </p>
-                  </>
-                )}
-                <ul className="relative mt-6 space-y-3 text-sm leading-7 text-white/80 sm:text-base">
-                  <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-                    Updated timing is visible before you click out.
-                  </li>
-                  <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-                    Community picks point back to the original deal source.
-                  </li>
-                  <li className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-                    Retailer and category shortcuts stay clearly labeled, including affiliate links.
-                  </li>
-                </ul>
+                  ) : null}
+                </div>
+
+                <div id="deal-alerts">
+                  <DealsAlertSignup enabled={dealAlertsEnabled} />
+                </div>
               </aside>
             </div>
           </div>
@@ -600,18 +654,18 @@ export default function DealsPage() {
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div>
                 <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-[#fff6ee] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[#8b5f39]">
-                  Best starting point for most shoppers
+                  Best current community finds
                 </div>
                 <p className="mt-4 text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
                   Community picks
                 </p>
                 <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-                  Want the strongest current deals first?
+                  Start with the deals that already look worth your first click.
                 </h2>
               </div>
               <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
-                Start here. These are the deals that already earned attention and still look worth
-                checking before you branch into store or category browsing.
+                These are the community finds that still look relevant, commercially useful, and worth
+                comparing before you drop into generic store browsing.
               </p>
             </div>
 
@@ -639,7 +693,7 @@ export default function DealsPage() {
                 >
                   <div className="flex flex-wrap items-center justify-between gap-3">
                     <span className="inline-flex items-center rounded-full bg-[#201d1a] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-white">
-                      Top pick right now
+                      Best current pick
                     </span>
                     <span className="text-sm font-medium text-[#6d655d]">{timeAgo(topCommunityDeal.posted)}</span>
                   </div>
@@ -668,7 +722,7 @@ export default function DealsPage() {
                     ) : null}
                   </div>
                   <div className="mt-6 rounded-[24px] border border-[#eadfd6] bg-white/80 px-4 py-4 text-sm leading-7 text-[#5d544c]">
-                    <strong className="font-semibold text-[#201d1a]">Why start here:</strong> it is the most prominently surfaced current deal on the page, with the original source and category context shown before you leave TurnLab.
+                    <strong className="font-semibold text-[#201d1a]">Why this leads:</strong> stronger gear categories and clearer value typically outperform generic or ambiguous first clicks.
                   </div>
                   <span className="mt-6 inline-flex text-sm font-semibold text-[#8b5f39]">
                     Open original sale page →
@@ -904,46 +958,6 @@ export default function DealsPage() {
             category shortcuts above are affiliate links, which means TurnLab may earn a small
             commission at no extra cost to you.
           </p>
-        </section>
-
-        <section id="deal-alerts" className="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
-          <div className="grid gap-5 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
-            <div className="rounded-[30px] border border-[#eadfd6] bg-[linear-gradient(140deg,#fffaf5_0%,#fffefc_60%,#f3ece5_100%)] p-6 shadow-[0_14px_40px_rgba(92,68,43,0.06)] sm:p-7 lg:p-8">
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
-                Deal alerts
-              </p>
-              <h2 className="mt-3 max-w-2xl text-3xl font-black tracking-tight text-[#201d1a] sm:text-4xl">
-                Get the best ski deals before the best sizes disappear.
-              </h2>
-              <p className="mt-4 max-w-2xl text-sm leading-7 text-[#6b635b] sm:text-base">
-                If you want the strongest deals without checking every thread yourself, TurnLab
-                can turn the best current picks into a short email instead of another open tab.
-              </p>
-
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
-                {[
-                  "Best picks only, not an every-day blast.",
-                  "Good for sizing-sensitive gear like jackets, boots, and goggles.",
-                  "Clear labels when a shortcut is affiliate-linked.",
-                  "Built for shoppers who want speed without hiding the source.",
-                ].map((item) => (
-                  <div
-                    key={item}
-                    className="rounded-2xl border border-[#eadfd6] bg-white/85 px-4 py-3 text-sm leading-7 text-[#5f564e]"
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
-
-              <p className="mt-5 text-xs leading-6 text-[#8a7a6d]">
-                Suggested cadence: one short roundup a week during normal periods, plus quicker
-                alerts when a genuinely strong seasonal deal shows up.
-              </p>
-            </div>
-
-            <DealsAlertSignup enabled={dealAlertsEnabled} />
-          </div>
         </section>
 
         <section className="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
