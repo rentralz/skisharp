@@ -1,20 +1,12 @@
 {
-  "lastScanned": "2026-05-09T13:54:10.564Z",
-  "totalDeals": 19,
+  "lastScanned": "2026-05-10T13:57:02.136Z",
+  "totalDeals": 17,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 118,
+    "slickdeals": 117,
     "amazon": 9
   },
   "deals": [
-    {
-      "title": "Cobra Ultralight Pro Stand Bag (Ski Patrol/ Black) $129.99 + Free Shipping",
-      "url": "https://slickdeals.net/f/19495779-cobra-ultralight-pro-stand-bag-ski-patrol-black-129-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "packs",
-      "posted": "2026-05-06T13:27:33.000Z"
-    },
     {
       "title": "$9.16* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
       "url": "https://slickdeals.net/f/19482351-9-16-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -80,20 +72,12 @@
       "posted": "2026-04-11T23:03:32.000Z"
     },
     {
-      "title": "Ozark Trail Girls' Snow and Ski Hooded Jacket (Size XS-XXL) $18.81 + Free S&H w/ Walmart+ or on $35+",
-      "url": "https://slickdeals.net/f/19400544-ozark-trail-girls-snow-and-ski-hooded-jacket-size-xs-xxl-18-81-free-s-h-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-04-09T15:02:37.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     },
     {
@@ -102,7 +86,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     },
     {
@@ -111,7 +95,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     },
     {
@@ -120,7 +104,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     },
     {
@@ -129,7 +113,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     },
     {
@@ -138,7 +122,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     },
     {
@@ -147,7 +131,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     },
     {
@@ -156,7 +140,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     },
     {
@@ -165,7 +149,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-09T13:54:10.562Z",
+      "posted": "2026-05-10T13:57:02.134Z",
       "isAmazonSearch": true
     }
   ]
