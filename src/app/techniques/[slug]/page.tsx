@@ -12,6 +12,32 @@ import Footer from "@/components/Footer";
 import AdUnit from "@/components/AdUnit";
 import ProgressButtons from "@/components/ProgressButtons";
 
+function getRelatedTechniques(current: typeof techniques[number], prevSlug: string | null, nextSlug: string | null) {
+  const excluded = new Set([
+    current.slug,
+    prevSlug,
+    nextSlug,
+    ...current.prerequisites,
+    ...current.nextSteps,
+  ]);
+
+  const scored = techniques
+    .filter((t) => t.discipline === current.discipline && !excluded.has(t.id) && !excluded.has(t.slug))
+    .map((t) => {
+      let score = 0;
+      const sharedTerrain = t.terrain.filter((tr) => current.terrain.includes(tr));
+      score += sharedTerrain.length * 5;
+      if (t.rating === current.rating) score += 3;
+      if (Math.abs(t.difficulty - current.difficulty) <= 1) score += 1;
+      return { technique: t, score, sharedTerrain };
+    })
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 4);
+
+  return scored;
+}
+
 export function generateStaticParams() {
   return techniques.map((technique) => ({ slug: technique.slug }));
 }
@@ -72,6 +98,8 @@ export default async function TechniqueDetailPage({
   const currentIndex = disciplineTechniques.findIndex((entry) => entry.slug === slug);
   const prev = currentIndex > 0 ? disciplineTechniques[currentIndex - 1] : null;
   const next = currentIndex < disciplineTechniques.length - 1 ? disciplineTechniques[currentIndex + 1] : null;
+
+  const related = getRelatedTechniques(technique, prev?.slug ?? null, next?.slug ?? null);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -338,6 +366,38 @@ export default async function TechniqueDetailPage({
           </div>
         </section>
       </main>
+
+      {related.length > 0 && (
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-gray-900 mb-5">Related Techniques</h2>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {related.map(({ technique: rt, sharedTerrain }) => (
+                <Link
+                  key={rt.slug}
+                  href={detailHref(rt.slug)}
+                  className="group rounded-xl bg-white border border-gray-200 hover:border-[#e8722a]/40 hover:shadow-md transition-all p-4"
+                >
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-gray-50 border border-gray-200 text-gray-600 font-medium">
+                      {rt.rating}
+                    </span>
+                    {sharedTerrain.length > 0 && (
+                      <span className="text-[10px] text-[#e8722a] font-medium uppercase tracking-wide">
+                        {sharedTerrain.join(" · ")}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-gray-900 text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
+                    {rt.title}
+                  </p>
+                  <p className="text-gray-400 text-xs mt-1 line-clamp-2">{rt.description}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        </div>
+      )}
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <AdUnit slot="technique-detail" format="horizontal" />
