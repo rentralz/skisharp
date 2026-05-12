@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-05-11T15:36:48.364Z",
-  "totalDeals": 17,
+  "lastScanned": "2026-05-12T14:51:59.236Z",
+  "totalDeals": 18,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 117,
+    "slickdeals": 118,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "REI Co-op Men's Merino 185 Long-Sleeve Half-Zip Base Layer Top (Oak Brown) $19.83",
+      "url": "https://slickdeals.net/f/19514280-rei-co-op-men-s-merino-185-long-sleeve-half-zip-base-layer-top-oak-brown-19-83?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-05-12T09:28:06.000Z"
+    },
+    {
+      "title": "Amazon: Adidas Alphaskin Balaclava Ski Mask $8.82 (Reg $35.00, ~75% Off) + FS w/ Prime",
+      "url": "https://slickdeals.net/f/19513398-amazon-adidas-alphaskin-balaclava-ski-mask-8-82-reg-35-00-75-off-fs-w-prime?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-05-12T03:18:25.000Z"
+    },
     {
       "title": "$9.16* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
       "url": "https://slickdeals.net/f/19482351-9-16-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -64,20 +80,12 @@
       "posted": "2026-04-13T16:20:17.000Z"
     },
     {
-      "title": "adidas Alphaskin Balaclava Ski Mask (Grey) $10.30 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19409367-adidas-alphaskin-balaclava-ski-mask-grey-10-30-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-04-11T23:03:32.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     },
     {
@@ -86,7 +94,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     },
     {
@@ -95,7 +103,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     },
     {
@@ -104,7 +112,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     },
     {
@@ -113,7 +121,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     },
     {
@@ -122,7 +130,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     },
     {
@@ -131,7 +139,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     },
     {
@@ -140,7 +148,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     },
     {
@@ -149,7 +157,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-11T15:36:48.361Z",
+      "posted": "2026-05-12T14:51:59.233Z",
       "isAmazonSearch": true
     }
   ]
