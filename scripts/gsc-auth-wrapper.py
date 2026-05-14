@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-One-time Google Search Console OAuth setup.
-Uses a fixed localhost callback on port 8080 so it matches the TurnLab GCP setup.
-"""
+"""Write the Google auth URL to a file, wait for the localhost callback, and save the token."""
 
 import os
 import pickle
@@ -17,6 +14,8 @@ SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 CREDENTIALS_DIR = Path.home() / ".config" / "turnlab" / "gsc"
 CLIENT_SECRETS_PATH = CREDENTIALS_DIR / "client_secrets.json"
 TOKEN_PATH = CREDENTIALS_DIR / "token.pickle"
+URL_FILE = CREDENTIALS_DIR / "auth_url.txt"
+PORT_FILE = CREDENTIALS_DIR / "auth_port.txt"
 REDIRECT_PORT = 8080
 REDIRECT_URI = f"http://localhost:{REDIRECT_PORT}/"
 CALLBACK_TIMEOUT_SECONDS = 300
@@ -27,27 +26,15 @@ def ensure_private_dir(path: Path) -> None:
     os.chmod(path, 0o700)
 
 
+def write_private_text(path: Path, content: str) -> None:
+    path.write_text(content)
+    os.chmod(path, 0o600)
+
+
 def write_private_pickle(path: Path, payload) -> None:
     with open(path, "wb") as handle:
         pickle.dump(payload, handle)
     os.chmod(path, 0o600)
-
-
-def print_setup_instructions() -> None:
-    print(f"ERROR: {CLIENT_SECRETS_PATH} not found.", flush=True)
-    print(flush=True)
-    print("To set up:", flush=True)
-    print("1. Go to https://console.cloud.google.com/", flush=True)
-    print("2. Create/select a project", flush=True)
-    print("3. Enable 'Google Search Console API'", flush=True)
-    print("4. Go to APIs & Services > Credentials", flush=True)
-    print("5. Create OAuth 2.0 credentials (Desktop app)", flush=True)
-    print("6. If using this fixed localhost callback, add this redirect URI:", flush=True)
-    print(f"   {REDIRECT_URI}", flush=True)
-    print("7. Download JSON and save it to:", flush=True)
-    print(f"   {CLIENT_SECRETS_PATH}", flush=True)
-    print(flush=True)
-    print("Then run this script again.", flush=True)
 
 
 def enable_localhost_oauth_transport() -> None:
@@ -60,13 +47,8 @@ def enable_localhost_oauth_transport() -> None:
 def main() -> int:
     ensure_private_dir(CREDENTIALS_DIR)
 
-    print("=" * 60, flush=True)
-    print("TurnLab Google Search Console OAuth Setup", flush=True)
-    print("=" * 60, flush=True)
-    print(flush=True)
-
     if not CLIENT_SECRETS_PATH.exists():
-        print_setup_instructions()
+        print(f"ERROR: Missing client secrets at {CLIENT_SECRETS_PATH}", flush=True)
         return 1
 
     callback_state = {"expected_state": None, "path": None, "error": None}
@@ -103,7 +85,6 @@ def main() -> int:
         server = HTTPServer(("localhost", REDIRECT_PORT), CallbackHandler)
     except OSError as exc:
         print(f"ERROR: Could not bind localhost:{REDIRECT_PORT}: {exc}", flush=True)
-        print("Stop the process using port 8080 and try again.", flush=True)
         return 1
 
     try:
@@ -115,11 +96,9 @@ def main() -> int:
             access_type="offline",
         )
 
-        print("Open this URL and approve access:", flush=True)
-        print(flush=True)
-        print(auth_url, flush=True)
-        print(flush=True)
-        print(f"Waiting for Google callback on {REDIRECT_URI}", flush=True)
+        write_private_text(URL_FILE, f"{auth_url}\n")
+        write_private_text(PORT_FILE, f"{REDIRECT_PORT}\n")
+        print(f"URL_WRITTEN port={REDIRECT_PORT}", flush=True)
 
         server.timeout = 1
         deadline = time.time() + CALLBACK_TIMEOUT_SECONDS
@@ -134,19 +113,16 @@ def main() -> int:
         authorization_response = f"http://localhost:{REDIRECT_PORT}{callback_state['path']}"
         flow.fetch_token(authorization_response=authorization_response)
     except Exception as exc:
-        print(f"ERROR: OAuth setup failed: {exc}", flush=True)
+        print(f"ERROR: {exc}", flush=True)
         return 1
     finally:
         server.server_close()
+        URL_FILE.unlink(missing_ok=True)
+        PORT_FILE.unlink(missing_ok=True)
 
     write_private_pickle(TOKEN_PATH, flow.credentials)
 
-    print(flush=True)
-    print(f"✅ Token saved to {TOKEN_PATH}", flush=True)
-    print("The weekly Search Console cron can now run automatically.", flush=True)
-    print(flush=True)
-    print("Test it now with:", flush=True)
-    print("  scripts/run-gsc-report.sh", flush=True)
+    print("SUCCESS", flush=True)
     return 0
 
 
