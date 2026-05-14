@@ -83,9 +83,9 @@ export const techniques: Technique[] = [
     youtubeVideos: [
       {
         videoId: "T1BsQPFdt7w",
-        channel: "Snowboard Addiction",
-        channelUrl: "https://www.youtube.com/@snowboardaddiction",
-        title: "Beginners Lesson 3.0 Snowplow wedge turns",
+        channel: "Dropinsnow",
+        channelUrl: "https://www.youtube.com/@dropinsnow",
+        title: "SKIING FOR BEGINNERS, LESSON 3.0 - Snowplow, wedge or snowplough turns",
         isPrimary: true,
         teachingStyle: "High-energy, beginner-friendly breakdown",
       },
