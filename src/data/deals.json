@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-05-13T15:15:30.002Z",
-  "totalDeals": 18,
+  "lastScanned": "2026-05-14T03:24:05.670Z",
+  "totalDeals": 22,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 117,
+    "slickdeals": 104,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Smartwool Men's Intraknit Thermal Merino Colorblock Crew Base Layer Top (2 Colors) $49.83 at REI w/ Free Store Pickup or Free S&H on $60+",
+      "url": "https://slickdeals.net/f/19520433-smartwool-men-s-intraknit-thermal-merino-colorblock-crew-base-layer-top-2-colors-49-83-at-rei-w-free-store-pickup-or-free-s-h-on-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-05-14T00:02:09.000Z"
+    },
+    {
+      "title": "$7.94* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
+      "url": "https://slickdeals.net/f/19519887-7-94-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-05-13T20:16:11.000Z"
+    },
     {
       "title": "REI Co-op Men's Merino 185 Long-Sleeve Half-Zip Base Layer Top (Oak Brown) $19.83",
       "url": "https://slickdeals.net/f/19514280-rei-co-op-men-s-merino-185-long-sleeve-half-zip-base-layer-top-oak-brown-19-83?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -24,12 +40,12 @@
       "posted": "2026-05-12T03:18:25.000Z"
     },
     {
-      "title": "$9.16* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
-      "url": "https://slickdeals.net/f/19482351-9-16-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "title": "Oakley Youth XS O-FRAME MX Goggles $23.07 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19476273-oakley-youth-xs-o-frame-mx-goggles-23-07-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-05-02T07:50:05.000Z"
+      "category": "goggles",
+      "posted": "2026-04-30T15:59:13.000Z"
     },
     {
       "title": "REI Co-op Men's Heavyweight 100% Merino Wool Base Layer Half-Zip Top (Cherrywood or Teal) $49.83 + Free Store Pickup",
@@ -72,12 +88,28 @@
       "posted": "2026-04-25T18:33:26.000Z"
     },
     {
-      "title": "Smartwool Women's Intraknit Colorblock Quarter-Zip Thermal Merino Base Layer (Mink) $59.99 + Free Shipping",
-      "url": "https://slickdeals.net/f/19415310-smartwool-women-s-intraknit-colorblock-quarter-zip-thermal-merino-base-layer-mink-59-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "title": "WOSPORTS 4K Night Vision Goggles: 16MP, up to 80x Magnification, 10X Optical & 8X Digital Zoom, 1315FT Vision, 3\" Screen, 5000mAh $71.49",
+      "url": "https://slickdeals.net/f/19440603-wosports-4k-night-vision-goggles-16mp-up-to-80x-magnification-10x-optical-8x-digital-zoom-1315ft-vision-3-screen-5000mah-71-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-04-13T16:20:17.000Z"
+      "category": "goggles",
+      "posted": "2026-04-20T15:40:29.000Z"
+    },
+    {
+      "title": "Dewalt DPG82-11C Concealer Clear Anti-Fog Dual Mold Safety Goggle, Clear Lens, 1 Pair $5",
+      "url": "https://slickdeals.net/f/19438443-dewalt-dpg82-11c-concealer-clear-anti-fog-dual-mold-safety-goggle-clear-lens-1-pair-5?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-04-20T05:15:56.000Z"
+    },
+    {
+      "title": "WOSPORTS 4K Night Vision Goggles: 16MP, up to 80x Magnification, 10X Optical & 8X Digital Zoom, 1015FT Vision, 3\" Screen, 5000mAh $71.49",
+      "url": "https://slickdeals.net/f/19431105-wosports-4k-night-vision-goggles-16mp-up-to-80x-magnification-10x-optical-8x-digital-zoom-1015ft-vision-3-screen-5000mah-71-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-04-17T14:50:29.000Z"
     },
     {
       "title": "🔍 Ski Jackets on Sale",
@@ -85,7 +117,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     },
     {
@@ -94,7 +126,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     },
     {
@@ -103,7 +135,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     },
     {
@@ -112,7 +144,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     },
     {
@@ -121,7 +153,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     },
     {
@@ -130,7 +162,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     },
     {
@@ -139,7 +171,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     },
     {
@@ -148,7 +180,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     },
     {
@@ -157,7 +189,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-13T15:15:29.999Z",
+      "posted": "2026-05-14T03:24:05.669Z",
       "isAmazonSearch": true
     }
   ]
