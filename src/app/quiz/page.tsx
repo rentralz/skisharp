@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TrackedLink from "@/components/TrackedLink";
 import { DISCIPLINES, type Discipline } from "@/data/disciplines";
-import { getTechniqueBySlug } from "@/data/techniques";
+import { getTechniqueBySlug, techniques } from "@/data/techniques";
 import {
   QUIZ_DISCIPLINE_OPTIONS,
   getQuizTrack,
@@ -28,6 +28,41 @@ function DifficultyDot({ rating }: { rating: SkillResult["rating"] }) {
   return <span className={`w-2 h-2 rounded-full shrink-0 ${dotClassName}`} />;
 }
 
+const QUIZ_TRACK_SUMMARY: Record<Discipline, { questionCount: number; techniqueCount: number }> = {
+  ski: {
+    questionCount: getQuizTrack("ski").questions.length,
+    techniqueCount: techniques.filter((technique) => technique.discipline === "ski").length,
+  },
+  snowboard: {
+    questionCount: getQuizTrack("snowboard").questions.length,
+    techniqueCount: techniques.filter((technique) => technique.discipline === "snowboard").length,
+  },
+};
+
+const QUIZ_START_PROMISES = [
+  {
+    label: "Quick read",
+    value: `${QUIZ_TRACK_SUMMARY.ski.questionCount}–${QUIZ_TRACK_SUMMARY.snowboard.questionCount} prompts`,
+    detail: "Short enough to finish before overthinking, but specific enough to avoid generic advice.",
+  },
+  {
+    label: "Useful result",
+    value: "Level + next goal",
+    detail: "See where you are now and what to practice next instead of getting a vague beginner/intermediate label.",
+  },
+  {
+    label: "Curated follow-through",
+    value: `${techniques.length} mapped techniques`,
+    detail: "Jump straight into the right TurnLab techniques after the result — no YouTube wandering required.",
+  },
+];
+
+const QUIZ_START_OUTCOMES = [
+  "A discipline-specific level based on how you actually ride right now",
+  "Hand-picked techniques that match your current level and next breakthrough",
+  "A cleaner first click into the library instead of guessing where to start",
+];
+
 export default function QuizPage() {
   const { setDiscipline: setPreferredDiscipline } = useDisciplinePreference();
   const [selectedDiscipline, setSelectedDiscipline] = useState<Discipline | null>(null);
@@ -40,9 +75,9 @@ export default function QuizPage() {
     [selectedDiscipline],
   );
 
-  const totalSteps = (track?.questions.length ?? 0) + 1;
-  const currentStep = selectedDiscipline ? currentQuestionIndex + 2 : 1;
-  const progress = track ? Math.round(((currentStep - 1) / totalSteps) * 100) : 0;
+  const totalSteps = track?.questions.length ?? 0;
+  const currentStep = track ? currentQuestionIndex + 1 : 0;
+  const progress = track && totalSteps > 0 ? Math.round((currentStep / totalSteps) * 100) : 0;
   const activeQuestion = track?.questions[currentQuestionIndex];
   const totalScore = answers.reduce((sum, answer) => sum + answer, 0);
 
@@ -120,12 +155,15 @@ export default function QuizPage() {
     <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <Navbar />
 
-      <main id="main-content" className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {!result && (
+      <main
+        id="main-content"
+        className={`${!selectedDiscipline ? "max-w-5xl" : "max-w-2xl"} mx-auto px-4 sm:px-6 lg:px-8 py-12`}
+      >
+        {selectedDiscipline && !result && track && (
           <div className="mb-8">
             <div className="flex items-center justify-between mb-2">
               <span className="text-xs text-[#aaa] font-medium">
-                Step {currentStep} of {totalSteps}
+                Question {currentStep} of {totalSteps}
               </span>
               <span className="text-xs text-[#aaa]">{progress}%</span>
             </div>
@@ -139,37 +177,124 @@ export default function QuizPage() {
         )}
 
         {!selectedDiscipline ? (
-          <>
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#B4835A] mb-3">
-              Skill quiz
-            </p>
-            <h1 className="text-2xl md:text-3xl font-bold text-[#222] mb-3">
-              Which discipline do you want this quiz to assess?
-            </h1>
-            <p className="text-[#646464] mb-8">
-              Choose ski or snowboard first so we can send you through the right questions and technique recommendations.
-            </p>
+          <section className="grid gap-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(320px,400px)] lg:items-start">
+            <div>
+              <div className="inline-flex flex-wrap items-center gap-2 rounded-full border border-[#ead9ca] bg-[#f9f3ed] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[#9b6a41]">
+                <span>Skill quiz</span>
+                <span className="text-[#d1b59d]">•</span>
+                <span>About 1 minute</span>
+                <span className="text-[#d1b59d]">•</span>
+                <span>No signup</span>
+              </div>
 
-            <div className="space-y-3">
-              {QUIZ_DISCIPLINE_OPTIONS.map((option, index) => (
-                <button
-                  key={option.discipline}
-                  onClick={() => handleDisciplineSelect(option.discipline)}
-                  className="w-full text-left p-4 rounded-xl border border-gray-200 hover:border-[#B4835A] hover:bg-[#F5F2EF]/30 transition-all text-sm text-[#222] font-medium group"
-                >
-                  <span className="flex items-start gap-3">
-                    <span className="w-7 h-7 rounded-full bg-gray-100 group-hover:bg-[#B4835A] group-hover:text-white text-[#646464] text-xs font-bold flex items-center justify-center transition-colors shrink-0 mt-0.5">
-                      {String.fromCharCode(65 + index)}
-                    </span>
-                    <span>
-                      <span className="block text-base text-[#222]">{option.label}</span>
-                      <span className="block text-xs text-[#777] mt-1 leading-5">{option.detail}</span>
-                    </span>
-                  </span>
-                </button>
-              ))}
+              <h1 className="mt-5 text-3xl font-bold leading-tight text-[#222] sm:text-4xl md:text-[2.8rem] md:leading-[1.1]">
+                Find your level fast — then get the right technique to practice next.
+              </h1>
+
+              <p className="mt-4 max-w-2xl text-base leading-7 text-[#554d46] sm:text-lg">
+                Answer a short ski or snowboard check and TurnLab will point you toward the best next move,
+                not just hand you a vague label. You&apos;ll finish with a level, a next goal, and curated
+                technique recommendations that match how you actually ride right now.
+              </p>
+
+              <div className="mt-8 grid gap-3 sm:grid-cols-3">
+                {QUIZ_START_PROMISES.map((item) => (
+                  <div key={item.label} className="rounded-2xl border border-[#ebe3dc] bg-white p-4 shadow-sm">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#9b6a41]">
+                      {item.label}
+                    </p>
+                    <p className="mt-2 text-lg font-semibold text-[#201d1a]">{item.value}</p>
+                    <p className="mt-2 text-sm leading-6 text-[#6c6259]">{item.detail}</p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-8">
+                <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-[#B4835A]">
+                  Choose your discipline to start
+                </p>
+
+                <div className="space-y-3">
+                  {QUIZ_DISCIPLINE_OPTIONS.map((option, index) => {
+                    const summary = QUIZ_TRACK_SUMMARY[option.discipline];
+
+                    return (
+                      <button
+                        key={option.discipline}
+                        onClick={() => handleDisciplineSelect(option.discipline)}
+                        className="w-full rounded-2xl border border-gray-200 bg-white p-5 text-left text-sm font-medium text-[#222] shadow-sm transition-all hover:-translate-y-0.5 hover:border-[#B4835A] hover:bg-[#F5F2EF]/40 hover:shadow-md group"
+                      >
+                        <span className="flex items-start gap-4">
+                          <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gray-100 text-xs font-bold text-[#646464] transition-colors group-hover:bg-[#B4835A] group-hover:text-white">
+                            {String.fromCharCode(65 + index)}
+                          </span>
+                          <span className="min-w-0 flex-1">
+                            <span className="flex flex-wrap items-center gap-2">
+                              <span className="block text-lg text-[#222]">{option.label}</span>
+                              <span className="rounded-full bg-[#f5efe8] px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-[#9b6a41]">
+                                {summary.questionCount} quick questions
+                              </span>
+                            </span>
+                            <span className="mt-2 block text-sm leading-6 text-[#544b44]">{option.detail}</span>
+                            <span className="mt-3 flex flex-wrap gap-2 text-xs text-[#5f564f]">
+                              <span className="rounded-full border border-[#eadfd3] px-2.5 py-1">
+                                {summary.techniqueCount} curated techniques behind the result
+                              </span>
+                              <span className="rounded-full border border-[#eadfd3] px-2.5 py-1">
+                                Instant level + next-goal summary
+                              </span>
+                            </span>
+                            <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#9b6a41]">
+                              Start {option.label.toLowerCase()} quiz
+                              <span aria-hidden="true">→</span>
+                            </span>
+                          </span>
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
-          </>
+
+            <div className="rounded-[28px] border border-[#eadfd3] bg-[#f8f4ef] p-6 shadow-sm lg:sticky lg:top-24">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#9b6a41]">What you get</p>
+              <h2 className="mt-3 text-2xl font-bold leading-tight text-[#201d1a]">
+                Not just a label — a clean next move for your next day on snow.
+              </h2>
+              <p className="mt-3 text-sm leading-6 text-[#4f463f]">
+                The quiz is designed to reduce guesswork fast. Finish it once, then jump straight into the
+                techniques that match your real level instead of randomly sampling videos.
+              </p>
+
+              <div className="mt-5 rounded-2xl bg-white p-5 shadow-sm ring-1 ring-[#efe4d9]">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#9b6a41]">
+                  After your result
+                </p>
+                <ul className="mt-4 space-y-3 text-sm leading-6 text-[#f0e6dc]">
+                  {QUIZ_START_OUTCOMES.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <span className="mt-1 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#201d1a] text-[10px] font-bold text-white">
+                        ✓
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="mt-5 grid grid-cols-2 gap-3">
+                <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-[#efe4d9]">
+                  <p className="text-2xl font-bold text-[#201d1a]">{techniques.length}</p>
+                  <p className="mt-1 text-sm leading-5 text-[#efe5db]">Curated techniques mapped into TurnLab progressions</p>
+                </div>
+                <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-[#efe4d9]">
+                  <p className="text-2xl font-bold text-[#201d1a]">2</p>
+                  <p className="mt-1 text-sm leading-5 text-[#efe5db]">Discipline-specific quiz paths with tailored results</p>
+                </div>
+              </div>
+            </div>
+          </section>
         ) : result || !track || !activeQuestion ? (
           <div>
             <div className="flex flex-wrap items-center justify-between gap-3 mb-8">
