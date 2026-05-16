@@ -52,7 +52,7 @@ export default function Footer() {
                 href="/quiz"
                 className="inline-flex items-center justify-center rounded-full bg-[#1f1b18] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#312b26]"
               >
-                Start with the quiz
+                Take the 1-minute quiz
               </Link>
               <Link
                 href="/techniques"
