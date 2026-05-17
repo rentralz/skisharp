@@ -165,7 +165,7 @@ export default function HomeDisciplineShowcase({ contentByDiscipline }: Props) {
               Featured {disciplineLabel} techniques
             </p>
             <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-              Featured techniques that feel worth clicking.
+              Featured {disciplineLabel} techniques worth learning next.
             </h2>
           </div>
           <Link
