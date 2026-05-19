@@ -170,8 +170,8 @@ export default async function TechniqueDetailPage({
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-2">Watch &amp; Learn</h2>
           {technique.youtubeVideos.length > 1 && (
-            <p className="text-xs text-gray-500 mb-3">
-              Not clicking? Try a different teaching style below:
+            <p className="mb-3 max-w-2xl text-sm font-medium leading-6 text-[#5f5146]">
+              Not clicking? Try a different teaching style below.
             </p>
           )}
           <VideoEmbed videos={technique.youtubeVideos} />
