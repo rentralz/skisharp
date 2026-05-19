@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-05-18T15:57:16.298Z",
-  "totalDeals": 21,
+  "lastScanned": "2026-05-19T15:50:57.122Z",
+  "totalDeals": 22,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 98,
+    "slickdeals": 99,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aegend No Leaking Anti Fog UV Protection Swimming Goggles w/ Case (Aqua & Bright Rose) $7.49 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19537278-aegend-no-leaking-anti-fog-uv-protection-swimming-goggles-w-case-aqua-bright-rose-7-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-05-19T01:57:26.000Z"
+    },
     {
       "title": "Smartwool Men's Intraknit Thermal Merino Colorblock Crew Base Layer Top (2 Colors) $49.83 at REI w/ Free Store Pickup or Free S&H on $60+",
       "url": "https://slickdeals.net/f/19520433-smartwool-men-s-intraknit-thermal-merino-colorblock-crew-base-layer-top-2-colors-49-83-at-rei-w-free-store-pickup-or-free-s-h-on-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -109,7 +117,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     },
     {
@@ -118,7 +126,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     },
     {
@@ -127,7 +135,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     },
     {
@@ -136,7 +144,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     },
     {
@@ -145,7 +153,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     },
     {
@@ -154,7 +162,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     },
     {
@@ -163,7 +171,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     },
     {
@@ -172,7 +180,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     },
     {
@@ -181,7 +189,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-18T15:57:16.296Z",
+      "posted": "2026-05-19T15:50:57.118Z",
       "isAmazonSearch": true
     }
   ]
