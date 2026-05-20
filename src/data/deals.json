@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-05-19T15:50:57.122Z",
-  "totalDeals": 22,
+  "lastScanned": "2026-05-20T15:57:25.047Z",
+  "totalDeals": 20,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 99,
+    "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
@@ -96,28 +96,12 @@
       "posted": "2026-04-25T18:33:26.000Z"
     },
     {
-      "title": "WOSPORTS 4K Night Vision Goggles: 16MP, up to 80x Magnification, 10X Optical & 8X Digital Zoom, 1315FT Vision, 3\" Screen, 5000mAh $71.49",
-      "url": "https://slickdeals.net/f/19440603-wosports-4k-night-vision-goggles-16mp-up-to-80x-magnification-10x-optical-8x-digital-zoom-1315ft-vision-3-screen-5000mah-71-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-04-20T15:40:29.000Z"
-    },
-    {
-      "title": "Dewalt DPG82-11C Concealer Clear Anti-Fog Dual Mold Safety Goggle, Clear Lens, 1 Pair $5",
-      "url": "https://slickdeals.net/f/19438443-dewalt-dpg82-11c-concealer-clear-anti-fog-dual-mold-safety-goggle-clear-lens-1-pair-5?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-04-20T05:15:56.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     },
     {
@@ -126,7 +110,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     },
     {
@@ -135,7 +119,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     },
     {
@@ -144,7 +128,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     },
     {
@@ -153,7 +137,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     },
     {
@@ -162,7 +146,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     },
     {
@@ -171,7 +155,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     },
     {
@@ -180,7 +164,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     },
     {
@@ -189,7 +173,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-19T15:50:57.118Z",
+      "posted": "2026-05-20T15:57:25.044Z",
       "isAmazonSearch": true
     }
   ]
