@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-05-20T15:57:25.047Z",
-  "totalDeals": 20,
+  "lastScanned": "2026-05-21T15:52:24.940Z",
+  "totalDeals": 19,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 96,
+    "slickdeals": 94,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "3-Pack Aegend Kids' Swimming Goggles (various) $12.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19543752-3-pack-aegend-kids-swimming-goggles-various-12-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-05-20T18:40:00.000Z"
+    },
     {
       "title": "Aegend No Leaking Anti Fog UV Protection Swimming Goggles w/ Case (Aqua & Bright Rose) $7.49 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19537278-aegend-no-leaking-anti-fog-uv-protection-swimming-goggles-w-case-aqua-bright-rose-7-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -64,22 +72,6 @@
       "posted": "2026-04-29T01:26:30.000Z"
     },
     {
-      "title": "$12.99 | Spyder Womens Micro French Terry Base Layer Bottom at Woot!",
-      "url": "https://slickdeals.net/f/19460814-12-99-spyder-womens-micro-french-terry-base-layer-bottom-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-04-26T06:44:42.000Z"
-    },
-    {
-      "title": "$11.99 | Spyder Womens Micro French Terry LS Crew Base Layer at Woot!",
-      "url": "https://slickdeals.net/f/19460592-11-99-spyder-womens-micro-french-terry-ls-crew-base-layer-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-04-26T05:09:51.000Z"
-    },
-    {
       "title": "$29.99 | Spyder Mens 3-in-1 Snow Ski System Jkt at Woot!",
       "url": "https://slickdeals.net/f/19460583-29-99-spyder-mens-3-in-1-snow-ski-system-jkt-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -101,7 +93,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     },
     {
@@ -110,7 +102,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     },
     {
@@ -119,7 +111,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     },
     {
@@ -128,7 +120,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     },
     {
@@ -137,7 +129,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     },
     {
@@ -146,7 +138,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     },
     {
@@ -155,7 +147,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     },
     {
@@ -164,7 +156,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     },
     {
@@ -173,7 +165,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-20T15:57:25.044Z",
+      "posted": "2026-05-21T15:52:24.935Z",
       "isAmazonSearch": true
     }
   ]
