@@ -68,7 +68,7 @@ export default function AboutPage() {
 
   const startHereLinks = [
     {
-      title: "Take the skill quiz",
+      title: "Take the 1-minute quiz",
       description: "Get a quick recommendation for the right learning path.",
       href: "/quiz",
       cta: "Find your level",
@@ -231,7 +231,7 @@ export default function AboutPage() {
               Pick the fastest way into the library
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-[#646464]">
-              New to TurnLab? Start with a quick skill check, browse the full technique
+              New to TurnLab? Start with the 1-minute quiz, browse the full technique
               library, or jump straight into beginner-friendly fundamentals.
             </p>
 
