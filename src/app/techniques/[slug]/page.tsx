@@ -121,7 +121,7 @@ export default async function TechniqueDetailPage({
         "@type": "VideoObject",
         name: technique.youtubeVideos[0].title,
         embedUrl: `https://www.youtube.com/embed/${technique.youtubeVideos[0].videoId}`,
-        thumbnailUrl: `https://img.youtube.com/vi/${technique.youtubeVideos[0].videoId}/maxresdefault.jpg`,
+        thumbnailUrl: `https://img.youtube.com/vi/${technique.youtubeVideos[0].videoId}/hqdefault.jpg`,
       },
     }),
   };
