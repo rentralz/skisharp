@@ -12,6 +12,18 @@ import Footer from "@/components/Footer";
 import AdUnit from "@/components/AdUnit";
 import ProgressButtons from "@/components/ProgressButtons";
 
+function formatStructuredDataDate(value?: string) {
+  if (!value) {
+    return undefined;
+  }
+
+  if (/^\d{4}-\d{2}$/.test(value)) {
+    return `${value}-01`;
+  }
+
+  return value;
+}
+
 function getRelatedTechniques(current: typeof techniques[number], prevSlug: string | null, nextSlug: string | null) {
   const excluded = new Set([
     current.slug,
@@ -100,6 +112,9 @@ export default async function TechniqueDetailPage({
   const next = currentIndex < disciplineTechniques.length - 1 ? disciplineTechniques[currentIndex + 1] : null;
 
   const related = getRelatedTechniques(technique, prev?.slug ?? null, next?.slug ?? null);
+  const primaryVideo = technique.youtubeVideos[0];
+  const videoDescription = `${technique.promise} ${technique.description}`;
+  const videoUploadDate = formatStructuredDataDate(technique.updatedAt);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -116,12 +131,14 @@ export default async function TechniqueDetailPage({
       name: timestamp.label,
       text: timestamp.detail,
     })),
-    ...(technique.youtubeVideos[0] && {
+    ...(primaryVideo && {
       video: {
         "@type": "VideoObject",
-        name: technique.youtubeVideos[0].title,
-        embedUrl: `https://www.youtube.com/embed/${technique.youtubeVideos[0].videoId}`,
-        thumbnailUrl: `https://img.youtube.com/vi/${technique.youtubeVideos[0].videoId}/hqdefault.jpg`,
+        name: primaryVideo.title,
+        description: videoDescription,
+        embedUrl: `https://www.youtube.com/embed/${primaryVideo.videoId}`,
+        thumbnailUrl: `https://img.youtube.com/vi/${primaryVideo.videoId}/hqdefault.jpg`,
+        ...(videoUploadDate && { uploadDate: videoUploadDate }),
       },
     }),
   };
