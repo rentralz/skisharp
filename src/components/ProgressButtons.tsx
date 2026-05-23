@@ -81,6 +81,10 @@ export default function ProgressButtons({ techniqueId }: Props) {
         </button>
       </div>
 
+      <p className="text-xs text-[#7a6d61]">
+        Saved on this device — no account needed.
+      </p>
+
       {/* Mini streak indicator */}
       {stats.streak > 0 && (
         <p className="text-xs text-[#B4835A] font-medium">
