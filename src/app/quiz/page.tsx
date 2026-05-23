@@ -271,7 +271,7 @@ export default function QuizPage() {
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#9b6a41]">
                   After your result
                 </p>
-                <ul className="mt-4 space-y-3 text-sm leading-6 text-[#f0e6dc]">
+                <ul className="mt-4 space-y-3 text-sm leading-6 text-[#4f463f]">
                   {QUIZ_START_OUTCOMES.map((item) => (
                     <li key={item} className="flex items-start gap-3">
                       <span className="mt-1 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#201d1a] text-[10px] font-bold text-white">
@@ -286,11 +286,11 @@ export default function QuizPage() {
               <div className="mt-5 grid grid-cols-2 gap-3">
                 <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-[#efe4d9]">
                   <p className="text-2xl font-bold text-[#201d1a]">{techniques.length}</p>
-                  <p className="mt-1 text-sm leading-5 text-[#efe5db]">Curated techniques mapped into TurnLab progressions</p>
+                  <p className="mt-1 text-sm leading-5 text-[#6f6258]">Curated techniques mapped into TurnLab progressions</p>
                 </div>
                 <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-[#efe4d9]">
                   <p className="text-2xl font-bold text-[#201d1a]">2</p>
-                  <p className="mt-1 text-sm leading-5 text-[#efe5db]">Discipline-specific quiz paths with tailored results</p>
+                  <p className="mt-1 text-sm leading-5 text-[#6f6258]">Discipline-specific quiz paths with tailored results</p>
                 </div>
               </div>
             </div>
