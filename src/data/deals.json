@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-05-22T15:24:18.034Z",
-  "totalDeals": 19,
+  "lastScanned": "2026-05-23T14:03:34.531Z",
+  "totalDeals": 20,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 94,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "WOSPORTS 4K Night Vision Goggles: 16MP, up to 80x Magnification, 10X Optical & 8X Digital Zoom, 1315FT Vision, 3\" Screen, 5000mAh $80",
+      "url": "https://slickdeals.net/f/19550202-wosports-4k-night-vision-goggles-16mp-up-to-80x-magnification-10x-optical-8x-digital-zoom-1315ft-vision-3-screen-5000mah-80?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-05-22T13:39:13.000Z"
+    },
     {
       "title": "3-Pack Aegend Kids' Swimming Goggles (various) $12.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19543752-3-pack-aegend-kids-swimming-goggles-various-12-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -93,7 +101,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     },
     {
@@ -102,7 +110,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     },
     {
@@ -111,7 +119,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     },
     {
@@ -120,7 +128,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     },
     {
@@ -129,7 +137,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     },
     {
@@ -138,7 +146,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     },
     {
@@ -147,7 +155,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     },
     {
@@ -156,7 +164,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     },
     {
@@ -165,7 +173,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-22T15:24:18.032Z",
+      "posted": "2026-05-23T14:03:34.528Z",
       "isAmazonSearch": true
     }
   ]
