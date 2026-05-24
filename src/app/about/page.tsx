@@ -66,6 +66,33 @@ export default function AboutPage() {
     },
   ];
 
+  const howItWorks = [
+    {
+      step: "01",
+      title: "Start with the right entry point",
+      description:
+        "Take the quiz for a fast recommendation, or jump straight into the library when you already know your level.",
+      href: "/quiz",
+      cta: "Take the quiz",
+    },
+    {
+      step: "02",
+      title: "Watch the clearest lesson first",
+      description:
+        "Open a technique page to get the primary video, a backup teaching style, and the context behind what matters most.",
+      href: "/techniques/wedge-turns?discipline=ski",
+      cta: "See a starter technique",
+    },
+    {
+      step: "03",
+      title: "Leave with a practice plan",
+      description:
+        "Use drills, feel cues, common fixes, and next steps so your next on-snow session has a clear focus.",
+      href: "/progress",
+      cta: "View progress tools",
+    },
+  ];
+
   const startHereLinks = [
     {
       title: "Take the 1-minute quiz",
@@ -163,6 +190,48 @@ export default function AboutPage() {
                   </p>
                   <p className="mt-2 text-sm font-semibold text-[#7d5431]">{stat.label}</p>
                   <p className="mt-2 text-sm leading-6 text-[#6f665e]">{stat.detail}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="py-12 lg:py-14">
+          <div className="rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_12px_28px_rgba(119,85,53,0.05)] sm:p-8">
+            <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+                  How TurnLab works
+                </p>
+                <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
+                  From “where do I start?” to a focused practice day in three steps.
+                </h2>
+              </div>
+              <p className="max-w-2xl text-sm leading-7 text-[#6f665e] sm:text-base">
+                If you&apos;re new here, this is the fastest way to use the library without
+                bouncing between random pages.
+              </p>
+            </div>
+
+            <div className="mt-8 grid gap-4 lg:grid-cols-3">
+              {howItWorks.map((item) => (
+                <div
+                  key={item.step}
+                  className="rounded-3xl border border-[#ece3db] bg-[#fcf8f4] p-6 shadow-[0_10px_24px_rgba(119,85,53,0.04)]"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+                    Step {item.step}
+                  </p>
+                  <h3 className="mt-3 text-xl font-bold text-[#201d1a]">{item.title}</h3>
+                  <p className="mt-3 text-sm leading-7 text-[#6f665e] sm:text-base">
+                    {item.description}
+                  </p>
+                  <Link
+                    href={item.href}
+                    className="mt-5 inline-flex items-center text-sm font-semibold text-[#7d5431] transition-colors hover:text-[#a56f43]"
+                  >
+                    {item.cta} →
+                  </Link>
                 </div>
               ))}
             </div>
