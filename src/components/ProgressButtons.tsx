@@ -1,5 +1,6 @@
 "use client";
 
+import TrackedLink from "@/components/TrackedLink";
 import { type TechniqueId } from "@/data/techniques";
 import { useProgress } from "@/hooks/useProgress";
 import { trackEvent } from "@/lib/analytics";
@@ -82,7 +83,19 @@ export default function ProgressButtons({ techniqueId }: Props) {
       </div>
 
       <p className="text-xs text-[#7a6d61]">
-        Saved on this device — no account needed.
+        Saved on this device — no account needed. {" "}
+        <TrackedLink
+          href="/progress"
+          linkKind="next"
+          eventName="technique_progress_page_click"
+          eventParams={{
+            source: "technique_progress_buttons",
+            technique_id: techniqueId,
+          }}
+          className="font-medium text-[#7d5431] underline-offset-2 transition-colors hover:text-[#a56f43] hover:underline"
+        >
+          View your progress →
+        </TrackedLink>
       </p>
 
       {/* Mini streak indicator */}
