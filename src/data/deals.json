@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-05-25T15:29:20.344Z",
-  "totalDeals": 24,
+  "lastScanned": "2026-05-26T16:10:35.407Z",
+  "totalDeals": 21,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 96,
+    "slickdeals": 95,
     "amazon": 9
   },
   "deals": [
@@ -104,36 +104,12 @@
       "posted": "2026-04-30T15:59:13.000Z"
     },
     {
-      "title": "REI Co-op Men's Heavyweight 100% Merino Wool Base Layer Half-Zip Top (Cherrywood or Teal) $49.83 + Free Store Pickup",
-      "url": "https://slickdeals.net/f/19470804-rei-co-op-men-s-heavyweight-100-merino-wool-base-layer-half-zip-top-cherrywood-or-teal-49-83-free-store-pickup?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-04-29T01:26:30.000Z"
-    },
-    {
-      "title": "$29.99 | Spyder Mens 3-in-1 Snow Ski System Jkt at Woot!",
-      "url": "https://slickdeals.net/f/19460583-29-99-spyder-mens-3-in-1-snow-ski-system-jkt-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-04-26T05:09:12.000Z"
-    },
-    {
-      "title": "Waterproofing & Fabric Treatment with PTEF $6.74",
-      "url": "https://slickdeals.net/f/19459548-waterproofing-fabric-treatment-with-ptef-6-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-04-25T18:33:26.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     },
     {
@@ -142,7 +118,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     },
     {
@@ -151,7 +127,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     },
     {
@@ -160,7 +136,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     },
     {
@@ -169,7 +145,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     },
     {
@@ -178,7 +154,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     },
     {
@@ -187,7 +163,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     },
     {
@@ -196,7 +172,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     },
     {
@@ -205,7 +181,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-25T15:29:20.342Z",
+      "posted": "2026-05-26T16:10:35.404Z",
       "isAmazonSearch": true
     }
   ]
