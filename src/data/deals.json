@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-05-31T14:12:52.667Z",
-  "totalDeals": 20,
+  "lastScanned": "2026-06-01T18:17:34.071Z",
+  "totalDeals": 21,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 94,
+    "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "$2.20 - Wonder Nation Boys 2-Piece Ski Graphic Beanie Hat and Tech Gloves Set",
+      "url": "https://slickdeals.net/f/19580469-2-20-wonder-nation-boys-2-piece-ski-graphic-beanie-hat-and-tech-gloves-set?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-05-31T21:47:35.000Z"
+    },
     {
       "title": "Kids Swim Goggles 180° Snorkel Diving Mask with Nose Cover, Anti-Fog $7 Amazon FS Prime or $35",
       "url": "https://slickdeals.net/f/19554351-kids-swim-goggles-180-snorkel-diving-mask-with-nose-cover-anti-fog-7-amazon-fs-prime-or-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -101,7 +109,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     },
     {
@@ -110,7 +118,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     },
     {
@@ -119,7 +127,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     },
     {
@@ -128,7 +136,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     },
     {
@@ -137,7 +145,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     },
     {
@@ -146,7 +154,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     },
     {
@@ -155,7 +163,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     },
     {
@@ -164,7 +172,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     },
     {
@@ -173,7 +181,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-05-31T14:12:52.665Z",
+      "posted": "2026-06-01T18:17:34.069Z",
       "isAmazonSearch": true
     }
   ]
