@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-06-03T14:01:24.900Z",
-  "totalDeals": 24,
+  "lastScanned": "2026-06-03T17:18:38.838Z",
+  "totalDeals": 23,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 98,
+    "slickdeals": 97,
     "amazon": 9
   },
   "deals": [
@@ -104,14 +104,6 @@
       "posted": "2026-05-19T01:57:26.000Z"
     },
     {
-      "title": "Smartwool Men's Intraknit Thermal Merino Colorblock Crew Base Layer Top (2 Colors) $49.83 at REI w/ Free Store Pickup or Free S&H on $60+",
-      "url": "https://slickdeals.net/f/19520433-smartwool-men-s-intraknit-thermal-merino-colorblock-crew-base-layer-top-2-colors-49-83-at-rei-w-free-store-pickup-or-free-s-h-on-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-05-14T00:02:09.000Z"
-    },
-    {
       "title": "$7.94* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
       "url": "https://slickdeals.net/f/19519887-7-94-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -133,7 +125,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     },
     {
@@ -142,7 +134,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     },
     {
@@ -151,7 +143,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     },
     {
@@ -160,7 +152,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     },
     {
@@ -169,7 +161,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     },
     {
@@ -178,7 +170,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     },
     {
@@ -187,7 +179,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     },
     {
@@ -196,7 +188,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     },
     {
@@ -205,7 +197,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-03T14:01:24.899Z",
+      "posted": "2026-06-03T17:18:38.836Z",
       "isAmazonSearch": true
     }
   ]
