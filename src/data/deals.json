@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-06-06T02:01:36.686Z",
+  "lastScanned": "2026-06-06T14:01:31.972Z",
   "totalDeals": 24,
   "sourceStats": {
     "reddit": 0,
@@ -128,12 +128,21 @@
       "posted": "2026-05-12T03:18:25.000Z"
     },
     {
+      "title": "🔍 Ski Jackets on Sale",
+      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "jackets",
+      "posted": "2026-06-06T14:01:31.971Z",
+      "isAmazonSearch": true
+    },
+    {
       "title": "🔍 Ski Pants Clearance",
       "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-06T02:01:36.685Z",
+      "posted": "2026-06-06T14:01:31.971Z",
       "isAmazonSearch": true
     },
     {
@@ -142,7 +151,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-06T02:01:36.685Z",
+      "posted": "2026-06-06T14:01:31.971Z",
       "isAmazonSearch": true
     },
     {
@@ -151,7 +160,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-06T02:01:36.685Z",
+      "posted": "2026-06-06T14:01:31.971Z",
       "isAmazonSearch": true
     },
     {
@@ -160,7 +169,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-06T02:01:36.685Z",
+      "posted": "2026-06-06T14:01:31.971Z",
       "isAmazonSearch": true
     },
     {
@@ -169,7 +178,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-06T02:01:36.685Z",
+      "posted": "2026-06-06T14:01:31.971Z",
       "isAmazonSearch": true
     },
     {
@@ -178,7 +187,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-06T02:01:36.685Z",
+      "posted": "2026-06-06T14:01:31.971Z",
       "isAmazonSearch": true
     },
     {
@@ -187,7 +196,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-06T02:01:36.685Z",
+      "posted": "2026-06-06T14:01:31.971Z",
       "isAmazonSearch": true
     },
     {
@@ -196,16 +205,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-06T02:01:36.685Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Jackets on Sale",
-      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "jackets",
-      "posted": "2026-06-06T02:01:36.684Z",
+      "posted": "2026-06-06T14:01:31.971Z",
       "isAmazonSearch": true
     }
   ]
