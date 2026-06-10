@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-06-09T15:28:02.461Z",
-  "totalDeals": 24,
+  "lastScanned": "2026-06-10T16:09:27.534Z",
+  "totalDeals": 27,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 94,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "$17.99 | Carhartt Men's MBL131 Base Force Heavyweight Base Layer Poly-Wool Crew at Woot!",
+      "url": "https://slickdeals.net/f/19613526-17-99-carhartt-men-s-mbl131-base-force-heavyweight-base-layer-poly-wool-crew-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-06-10T12:42:17.000Z"
+    },
+    {
+      "title": "$15.19: Bell Rally Child Helmet, Blue Fins",
+      "url": "https://slickdeals.net/f/19610673-15-19-bell-rally-child-helmet-blue-fins?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "helmets",
+      "posted": "2026-06-09T18:32:06.000Z"
+    },
+    {
+      "title": "2-Count Aegend Adult Mirrored Anti-Fog Swim Goggles w/ UV Protection (Aqua/Clear or Aqua/Light Orange) $7.49 ($3.75 each) + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19606623-2-count-aegend-adult-mirrored-anti-fog-swim-goggles-w-uv-protection-aqua-clear-or-aqua-light-orange-7-49-3-75-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-06-08T17:20:16.000Z"
+    },
     {
       "title": "2-Pack Aegend Anti-Fog Anti-UV Kids' Swim Goggles $8.49 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19593930-2-pack-aegend-anti-fog-anti-uv-kids-swim-goggles-8-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -133,7 +157,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     },
     {
@@ -142,7 +166,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     },
     {
@@ -151,7 +175,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     },
     {
@@ -160,7 +184,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     },
     {
@@ -169,7 +193,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     },
     {
@@ -178,7 +202,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     },
     {
@@ -187,7 +211,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     },
     {
@@ -196,7 +220,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     },
     {
@@ -205,7 +229,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-09T15:28:02.459Z",
+      "posted": "2026-06-10T16:09:27.531Z",
       "isAmazonSearch": true
     }
   ]
