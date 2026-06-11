@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-06-10T16:09:27.534Z",
-  "totalDeals": 27,
+  "lastScanned": "2026-06-11T16:23:19.431Z",
+  "totalDeals": 28,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 94,
+    "slickdeals": 95,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aegend Kids' Anti-Fog Swim Goggles (various colors, ages 3-8) from $4.99 + Free Shipping w/ Prime or on $35+ $7.49",
+      "url": "https://slickdeals.net/f/19615662-aegend-kids-anti-fog-swim-goggles-various-colors-ages-3-8-from-4-99-free-shipping-w-prime-or-on-35-7-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-06-10T22:08:53.000Z"
+    },
+    {
+      "title": "(4 pack) Aqua Dolfino Youth Latex Free Swim Mask Goggle for Children 6+, Blue $14.97",
+      "url": "https://slickdeals.net/f/19614708-4-pack-aqua-dolfino-youth-latex-free-swim-mask-goggle-for-children-6-blue-14-97?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-06-10T17:20:12.000Z"
+    },
     {
       "title": "$17.99 | Carhartt Men's MBL131 Base Force Heavyweight Base Layer Poly-Wool Crew at Woot!",
       "url": "https://slickdeals.net/f/19613526-17-99-carhartt-men-s-mbl131-base-force-heavyweight-base-layer-poly-wool-crew-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -144,20 +160,12 @@
       "posted": "2026-05-13T20:16:11.000Z"
     },
     {
-      "title": "Amazon: Adidas Alphaskin Balaclava Ski Mask $8.82 (Reg $35.00, ~75% Off) + FS w/ Prime",
-      "url": "https://slickdeals.net/f/19513398-amazon-adidas-alphaskin-balaclava-ski-mask-8-82-reg-35-00-75-off-fs-w-prime?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-05-12T03:18:25.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     },
     {
@@ -166,7 +174,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     },
     {
@@ -175,7 +183,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     },
     {
@@ -184,7 +192,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     },
     {
@@ -193,7 +201,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     },
     {
@@ -202,7 +210,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     },
     {
@@ -211,7 +219,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     },
     {
@@ -220,7 +228,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     },
     {
@@ -229,7 +237,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-10T16:09:27.531Z",
+      "posted": "2026-06-11T16:23:19.429Z",
       "isAmazonSearch": true
     }
   ]
