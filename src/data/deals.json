@@ -1,6 +1,6 @@
 {
-  "lastScanned": "2026-06-16T17:22:05.425Z",
-  "totalDeals": 29,
+  "lastScanned": "2026-06-17T16:05:19.893Z",
+  "totalDeals": 30,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 95,
@@ -9,11 +9,19 @@
   "deals": [
     {
       "title": "WOSPORTS 4K Night Vision Goggles: 16MP, up to 80x Magnification, 10X Optical & 8X Digital Zoom, 1315FT Vision, 3\" Screen, 5000mAh $80.99",
-      "url": "https://slickdeals.net/f/19621359-wosports-4k-night-vision-goggles-16mp-up-to-80x-magnification-10x-optical-8x-digital-zoom-1315ft-vision-3-screen-5000mah-80-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "url": "https://slickdeals.net/f/19636602-wosports-4k-night-vision-goggles-16mp-up-to-80x-magnification-10x-optical-8x-digital-zoom-1315ft-vision-3-screen-5000mah-80-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
-      "posted": "2026-06-12T10:57:19.000Z"
+      "posted": "2026-06-16T16:53:15.000Z"
+    },
+    {
+      "title": "50% Off Seago Kids Swim Goggles Snorkel Diving Mask for Youth (Ages 5–15) $6.99",
+      "url": "https://slickdeals.net/f/19634178-50-off-seago-kids-swim-goggles-snorkel-diving-mask-for-youth-ages-5-15-6-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-06-16T02:15:48.000Z"
     },
     {
       "title": "Aegend Swim Goggles 2-Pack, No Leaking Anti-Fog UV Protection Mirrored Swim Glasses for Adults - $7.49 @ Amazon",
@@ -173,7 +181,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     },
     {
@@ -182,7 +190,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     },
     {
@@ -191,7 +199,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     },
     {
@@ -200,7 +208,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     },
     {
@@ -209,7 +217,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     },
     {
@@ -218,7 +226,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     },
     {
@@ -227,7 +235,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     },
     {
@@ -236,7 +244,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     },
     {
@@ -245,7 +253,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-16T17:22:05.422Z",
+      "posted": "2026-06-17T16:05:19.890Z",
       "isAmazonSearch": true
     }
   ]
