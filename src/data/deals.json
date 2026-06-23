@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-06-22T17:14:17.368Z",
-  "totalDeals": 11,
+  "lastScanned": "2026-06-23T15:25:12.246Z",
+  "totalDeals": 12,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 105,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Gravity Grabber - Ultimate Ski & Snowboard Wall Rack - 3 Pack | Garage Organization | Ski Storage Rack | Snowboard Storage Rack $79.99",
+      "url": "https://slickdeals.net/f/19668417-gravity-grabber-ultimate-ski-snowboard-wall-rack-3-pack-garage-organization-ski-storage-rack-snowboard-storage-rack-79-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "packs",
+      "posted": "2026-06-23T14:48:08.000Z"
+    },
     {
       "title": "$17.99 | Carhartt Men's MBL131 Base Force Heavyweight Base Layer Poly-Wool Crew at Woot!",
       "url": "https://slickdeals.net/f/19613526-17-99-carhartt-men-s-mbl131-base-force-heavyweight-base-layer-poly-wool-crew-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -29,7 +37,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     },
     {
@@ -38,7 +46,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     },
     {
@@ -47,7 +55,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     },
     {
@@ -56,7 +64,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     },
     {
@@ -65,7 +73,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     },
     {
@@ -74,7 +82,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     },
     {
@@ -83,7 +91,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     },
     {
@@ -92,7 +100,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     },
     {
@@ -101,7 +109,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-22T17:14:17.365Z",
+      "posted": "2026-06-23T15:25:12.243Z",
       "isAmazonSearch": true
     }
   ]
