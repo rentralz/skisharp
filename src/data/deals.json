@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-06-26T14:48:11.184Z",
-  "totalDeals": 34,
+  "lastScanned": "2026-06-27T14:07:12.849Z",
+  "totalDeals": 35,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 103,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aegend Swim Goggles, No-Leaking Anti-Fog Swimming Goggles for Adults $7.49",
+      "url": "https://slickdeals.net/f/19688703-aegend-swim-goggles-no-leaking-anti-fog-swimming-goggles-for-adults-7-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-06-26T10:43:05.000Z"
+    },
     {
       "title": "Aegend Swim Goggles, Swimming Goggles No Leaking Full Protection Adult Men Women Youth, Black-color Lens $4.03",
       "url": "https://slickdeals.net/f/19676670-aegend-swim-goggles-swimming-goggles-no-leaking-full-protection-adult-men-women-youth-black-color-lens-4-03?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -213,7 +221,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     },
     {
@@ -222,7 +230,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     },
     {
@@ -231,7 +239,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     },
     {
@@ -240,7 +248,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     },
     {
@@ -249,7 +257,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     },
     {
@@ -258,7 +266,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     },
     {
@@ -267,7 +275,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     },
     {
@@ -276,7 +284,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     },
     {
@@ -285,7 +293,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-26T14:48:11.182Z",
+      "posted": "2026-06-27T14:07:12.847Z",
       "isAmazonSearch": true
     }
   ]
