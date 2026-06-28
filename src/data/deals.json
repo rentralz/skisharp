@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-06-27T14:07:12.849Z",
-  "totalDeals": 35,
+  "lastScanned": "2026-06-28T14:17:09.957Z",
+  "totalDeals": 36,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 103,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "50% Off Kids Swim Goggles 2-Pack (Ages 3–12) – Only $6.74 at Amazon",
+      "url": "https://slickdeals.net/f/19694124-50-off-kids-swim-goggles-2-pack-ages-3-12-only-6-74-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-06-27T15:38:48.000Z"
+    },
     {
       "title": "Aegend Swim Goggles, No-Leaking Anti-Fog Swimming Goggles for Adults $7.49",
       "url": "https://slickdeals.net/f/19688703-aegend-swim-goggles-no-leaking-anti-fog-swimming-goggles-for-adults-7-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -221,7 +229,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     },
     {
@@ -230,7 +238,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     },
     {
@@ -239,7 +247,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     },
     {
@@ -248,7 +256,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     },
     {
@@ -257,7 +265,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     },
     {
@@ -266,7 +274,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     },
     {
@@ -275,7 +283,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     },
     {
@@ -284,7 +292,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     },
     {
@@ -293,7 +301,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-27T14:07:12.847Z",
+      "posted": "2026-06-28T14:17:09.955Z",
       "isAmazonSearch": true
     }
   ]
