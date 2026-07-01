@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-06-30T14:44:07.559Z",
-  "totalDeals": 35,
+  "lastScanned": "2026-07-01T15:12:57.236Z",
+  "totalDeals": 34,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 101,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "$8.86* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
+      "url": "https://slickdeals.net/f/19705677-8-86-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-06-30T18:48:09.000Z"
+    },
+    {
+      "title": "Aegend Swim Goggles for Kids 3-8 $9.99",
+      "url": "https://slickdeals.net/f/19704585-aegend-swim-goggles-for-kids-3-8-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-06-30T14:14:35.000Z"
+    },
     {
       "title": "50% Off Kids Swim Goggles 2-Pack (Ages 3–12) – Only $6.74 at Amazon",
       "url": "https://slickdeals.net/f/19694124-50-off-kids-swim-goggles-2-pack-ages-3-12-only-6-74-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -192,36 +208,12 @@
       "posted": "2026-06-01T17:04:51.000Z"
     },
     {
-      "title": "50% Off Seago Kids Swim Goggles 2-Pack (Anti-Fog, UV Protection, Wide View) – $7.49 Shipped w/ Code",
-      "url": "https://slickdeals.net/f/19582701-50-off-seago-kids-swim-goggles-2-pack-anti-fog-uv-protection-wide-view-7-49-shipped-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-06-01T14:19:13.000Z"
-    },
-    {
-      "title": "GXCROR Cooling Breathable Balaclava Face Mask Sun UV Protection Hood Shiesty Mask for Cycling Fishing Running Various Colors $7.49",
-      "url": "https://slickdeals.net/f/19582647-gxcror-cooling-breathable-balaclava-face-mask-sun-uv-protection-hood-shiesty-mask-for-cycling-fishing-running-various-colors-7-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-06-01T14:10:36.000Z"
-    },
-    {
-      "title": "$2.20 - Wonder Nation Boys 2-Piece Ski Graphic Beanie Hat and Tech Gloves Set",
-      "url": "https://slickdeals.net/f/19580469-2-20-wonder-nation-boys-2-piece-ski-graphic-beanie-hat-and-tech-gloves-set?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-05-31T21:47:35.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     },
     {
@@ -230,7 +222,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     },
     {
@@ -239,7 +231,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     },
     {
@@ -248,7 +240,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     },
     {
@@ -257,7 +249,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     },
     {
@@ -266,7 +258,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     },
     {
@@ -275,7 +267,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     },
     {
@@ -284,7 +276,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     },
     {
@@ -293,7 +285,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-06-30T14:44:07.556Z",
+      "posted": "2026-07-01T15:12:57.234Z",
       "isAmazonSearch": true
     }
   ]
