@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-07-03T14:33:25.740Z",
-  "totalDeals": 33,
+  "lastScanned": "2026-07-04T13:59:27.541Z",
+  "totalDeals": 34,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 81,
+    "slickdeals": 95,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aegend Men's or Women's Swimming Goggles (Aqua) $3.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19715979-aegend-men-s-or-women-s-swimming-goggles-aqua-3-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-03T02:54:52.000Z"
+    },
     {
       "title": "$8.86* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
       "url": "https://slickdeals.net/f/19705677-8-86-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -205,7 +213,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     },
     {
@@ -214,7 +222,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     },
     {
@@ -223,7 +231,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     },
     {
@@ -232,7 +240,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     },
     {
@@ -241,7 +249,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     },
     {
@@ -250,7 +258,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     },
     {
@@ -259,7 +267,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     },
     {
@@ -268,7 +276,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     },
     {
@@ -277,7 +285,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-03T14:33:25.738Z",
+      "posted": "2026-07-04T13:59:27.539Z",
       "isAmazonSearch": true
     }
   ]
