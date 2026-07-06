@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-07-05T14:09:52.340Z",
-  "totalDeals": 34,
+  "lastScanned": "2026-07-06T15:55:08.944Z",
+  "totalDeals": 35,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 95,
+    "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Oakley O Frame MX Jet Black Ski/Snowboard Goggles $29.06 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19725924-oakley-o-frame-mx-jet-black-ski-snowboard-goggles-29-06-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-06T04:06:59.000Z"
+    },
     {
       "title": "$4.83 | Neiko 53874A Clear Protective Lab Safety Goggles at Amazon",
       "url": "https://slickdeals.net/f/19721757-4-83-neiko-53874a-clear-protective-lab-safety-goggles-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -213,7 +221,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     },
     {
@@ -222,7 +230,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     },
     {
@@ -231,7 +239,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     },
     {
@@ -240,7 +248,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     },
     {
@@ -249,7 +257,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     },
     {
@@ -258,7 +266,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     },
     {
@@ -267,7 +275,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     },
     {
@@ -276,7 +284,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     },
     {
@@ -285,7 +293,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-05T14:09:52.337Z",
+      "posted": "2026-07-06T15:55:08.942Z",
       "isAmazonSearch": true
     }
   ]
