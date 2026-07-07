@@ -1,6 +1,6 @@
 {
-  "lastScanned": "2026-07-06T15:55:08.944Z",
-  "totalDeals": 35,
+  "lastScanned": "2026-07-07T15:15:37.665Z",
+  "totalDeals": 36,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 96,
@@ -16,12 +16,28 @@
       "posted": "2026-07-06T04:06:59.000Z"
     },
     {
+      "title": "2-Pack Aegend Anti-Fog Anti-UV Kids' Swim Goggles $6.99",
+      "url": "https://slickdeals.net/f/19723542-2-pack-aegend-anti-fog-anti-uv-kids-swim-goggles-6-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-05T11:11:10.000Z"
+    },
+    {
       "title": "$4.83 | Neiko 53874A Clear Protective Lab Safety Goggles at Amazon",
       "url": "https://slickdeals.net/f/19721757-4-83-neiko-53874a-clear-protective-lab-safety-goggles-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-07-04T19:49:10.000Z"
+    },
+    {
+      "title": "Mechanix Wear ColdWork Winter Work Gloves, FastFit & Original, multiple sizes 9.48-19.48 plus S&S discount",
+      "url": "https://slickdeals.net/f/19721028-mechanix-wear-coldwork-winter-work-gloves-fastfit-original-multiple-sizes-9-48-19-48-plus-s-s-discount?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-07-04T14:15:52.000Z"
     },
     {
       "title": "2-Pack Vorshape Adult Swim Goggles w/ Anti-Fog & UV Protection (various) $7.49 + Free Shipping w/ Prime or on $35+",
@@ -208,20 +224,12 @@
       "posted": "2026-06-09T18:32:06.000Z"
     },
     {
-      "title": "2-Count Aegend Adult Mirrored Anti-Fog Swim Goggles w/ UV Protection (Aqua/Clear or Aqua/Light Orange) $7.49 ($3.75 each) + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19606623-2-count-aegend-adult-mirrored-anti-fog-swim-goggles-w-uv-protection-aqua-clear-or-aqua-light-orange-7-49-3-75-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-06-08T17:20:16.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     },
     {
@@ -230,7 +238,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     },
     {
@@ -239,7 +247,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     },
     {
@@ -248,7 +256,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     },
     {
@@ -257,7 +265,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     },
     {
@@ -266,7 +274,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     },
     {
@@ -275,7 +283,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     },
     {
@@ -284,7 +292,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     },
     {
@@ -293,7 +301,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-06T15:55:08.942Z",
+      "posted": "2026-07-07T15:15:37.661Z",
       "isAmazonSearch": true
     }
   ]
