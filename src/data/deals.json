@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-07-07T15:15:37.665Z",
-  "totalDeals": 36,
+  "lastScanned": "2026-07-08T14:41:31.482Z",
+  "totalDeals": 37,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aegend Adult Mirrored Swimming Goggles w/ Adjustable Bungee Strap (Transparent Rose Red) $3.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19728492-aegend-adult-mirrored-swimming-goggles-w-adjustable-bungee-strap-transparent-rose-red-3-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-06T17:31:25.000Z"
+    },
+    {
+      "title": "Aegend Swim Goggles for Kids Age 3-8 Anti-Fog Clear Vision Full Protection Goggles Perfect for Toddler Swimming (Blue-1 Pack) $4.49",
+      "url": "https://slickdeals.net/f/19727817-aegend-swim-goggles-for-kids-age-3-8-anti-fog-clear-vision-full-protection-goggles-perfect-for-toddler-swimming-blue-1-pack-4-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-06T14:51:54.000Z"
+    },
     {
       "title": "Oakley O Frame MX Jet Black Ski/Snowboard Goggles $29.06 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19725924-oakley-o-frame-mx-jet-black-ski-snowboard-goggles-29-06-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -208,14 +224,6 @@
       "posted": "2026-06-11T13:46:21.000Z"
     },
     {
-      "title": "(4 pack) Aqua Dolfino Youth Latex Free Swim Mask Goggle for Children 6+, Blue $14.97",
-      "url": "https://slickdeals.net/f/19614708-4-pack-aqua-dolfino-youth-latex-free-swim-mask-goggle-for-children-6-blue-14-97?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-06-10T17:20:12.000Z"
-    },
-    {
       "title": "$15.19: Bell Rally Child Helmet, Blue Fins",
       "url": "https://slickdeals.net/f/19610673-15-19-bell-rally-child-helmet-blue-fins?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -229,7 +237,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     },
     {
@@ -238,7 +246,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     },
     {
@@ -247,7 +255,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     },
     {
@@ -256,7 +264,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     },
     {
@@ -265,7 +273,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     },
     {
@@ -274,7 +282,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     },
     {
@@ -283,7 +291,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     },
     {
@@ -292,7 +300,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     },
     {
@@ -301,7 +309,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-07T15:15:37.661Z",
+      "posted": "2026-07-08T14:41:31.479Z",
       "isAmazonSearch": true
     }
   ]
