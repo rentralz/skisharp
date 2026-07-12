@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-07-11T13:55:12.523Z",
-  "totalDeals": 37,
+  "lastScanned": "2026-07-12T13:57:05.032Z",
+  "totalDeals": 36,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 95,
+    "slickdeals": 94,
     "amazon": 9
   },
   "deals": [
@@ -160,14 +160,6 @@
       "posted": "2026-06-24T02:20:55.000Z"
     },
     {
-      "title": "Patagonia Women's Capilene Thermal Long Sleeve Crew Top (Black) $28.85 + Free Pickup",
-      "url": "https://slickdeals.net/f/19669227-patagonia-women-s-capilene-thermal-long-sleeve-crew-top-black-28-85-free-pickup?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-06-23T16:01:56.000Z"
-    },
-    {
       "title": "$19.72: Sellstrom Odyssey II Wildland Fire Safety Goggles, Anti-Fog Anti-Scratch, FR Strap, ANSI Z87.1",
       "url": "https://slickdeals.net/f/19667820-19-72-sellstrom-odyssey-ii-wildland-fire-safety-goggles-anti-fog-anti-scratch-fr-strap-ansi-z87-1?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -237,7 +229,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     },
     {
@@ -246,7 +238,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     },
     {
@@ -255,7 +247,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     },
     {
@@ -264,7 +256,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     },
     {
@@ -273,7 +265,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     },
     {
@@ -282,7 +274,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     },
     {
@@ -291,7 +283,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     },
     {
@@ -300,7 +292,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     },
     {
@@ -309,7 +301,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-11T13:55:12.521Z",
+      "posted": "2026-07-12T13:57:05.029Z",
       "isAmazonSearch": true
     }
   ]
