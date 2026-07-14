@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-07-13T15:12:15.745Z",
+  "lastScanned": "2026-07-14T14:14:53.739Z",
   "totalDeals": 36,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 94,
+    "slickdeals": 95,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Seago Kids Swim Goggles Snorkel Diving Mask for Youth(5-15), Anti-Fog 180° Clear View $6.49",
+      "url": "https://slickdeals.net/f/19754703-seago-kids-swim-goggles-snorkel-diving-mask-for-youth-5-15-anti-fog-180-clear-view-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-13T13:08:21.000Z"
+    },
+    {
+      "title": "Aegend Men's or Women's Swim Goggles (Aqua) $3.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19742004-aegend-men-s-or-women-s-swim-goggles-aqua-3-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-09T19:04:39.000Z"
+    },
     {
       "title": "2-Piece PISIQI Women's Thermal Ultra-Soft Long Johns Set from $7.13 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19741746-2-piece-pisiqi-women-s-thermal-ultra-soft-long-johns-set-from-7-13-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -208,28 +224,12 @@
       "posted": "2026-06-18T12:56:47.000Z"
     },
     {
-      "title": "WOSPORTS 4K Night Vision Goggles: 16MP, up to 80x Magnification, 10X Optical & 8X Digital Zoom, 1315FT Vision, 3\" Screen, 5000mAh $80.99",
-      "url": "https://slickdeals.net/f/19636602-wosports-4k-night-vision-goggles-16mp-up-to-80x-magnification-10x-optical-8x-digital-zoom-1315ft-vision-3-screen-5000mah-80-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-06-16T16:53:15.000Z"
-    },
-    {
-      "title": "50% Off Seago Kids Swim Goggles Snorkel Diving Mask for Youth (Ages 5–15) $6.99",
-      "url": "https://slickdeals.net/f/19634178-50-off-seago-kids-swim-goggles-snorkel-diving-mask-for-youth-ages-5-15-6-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-06-16T02:15:48.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     },
     {
@@ -238,7 +238,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     },
     {
@@ -247,7 +247,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     },
     {
@@ -256,7 +256,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     },
     {
@@ -265,7 +265,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     },
     {
@@ -274,7 +274,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     },
     {
@@ -283,7 +283,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     },
     {
@@ -292,7 +292,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     },
     {
@@ -301,7 +301,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-13T15:12:15.743Z",
+      "posted": "2026-07-14T14:14:53.736Z",
       "isAmazonSearch": true
     }
   ]
