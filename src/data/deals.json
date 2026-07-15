@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-07-14T14:14:53.739Z",
-  "totalDeals": 36,
+  "lastScanned": "2026-07-15T14:10:46.976Z",
+  "totalDeals": 37,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 95,
+    "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Ozark Trail Girls Snow and Ski Hooded Zip-Up Jacket, Sizes 4-18 $13.18",
+      "url": "https://slickdeals.net/f/19761015-ozark-trail-girls-snow-and-ski-hooded-zip-up-jacket-sizes-4-18-13-18?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-07-14T17:59:36.000Z"
+    },
     {
       "title": "Seago Kids Swim Goggles Snorkel Diving Mask for Youth(5-15), Anti-Fog 180° Clear View $6.49",
       "url": "https://slickdeals.net/f/19754703-seago-kids-swim-goggles-snorkel-diving-mask-for-youth-5-15-anti-fog-180-clear-view-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -229,7 +237,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     },
     {
@@ -238,7 +246,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     },
     {
@@ -247,7 +255,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     },
     {
@@ -256,7 +264,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     },
     {
@@ -265,7 +273,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     },
     {
@@ -274,7 +282,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     },
     {
@@ -283,7 +291,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     },
     {
@@ -292,7 +300,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     },
     {
@@ -301,7 +309,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-14T14:14:53.736Z",
+      "posted": "2026-07-15T14:10:46.974Z",
       "isAmazonSearch": true
     }
   ]
