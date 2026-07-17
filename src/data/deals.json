@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-07-16T14:24:21.076Z",
+  "lastScanned": "2026-07-17T14:04:02.555Z",
   "totalDeals": 39,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 99,
+    "slickdeals": 97,
     "amazon": 9
   },
   "deals": [
@@ -16,8 +16,8 @@
       "posted": "2026-07-16T03:01:35.000Z"
     },
     {
-      "title": "2-Pack Aegend Kids' Anti-Fog Swim Goggles (Aqua & Bright Rose) $5.98 ($2.99 each) + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19766391-2-pack-aegend-kids-anti-fog-swim-goggles-aqua-bright-rose-5-98-2-99-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "title": "2-Pack Aegend Kids' Anti-Fog Swim Goggles w/ Ear Plugs and Nose Clip $6 & More",
+      "url": "https://slickdeals.net/f/19766391-2-pack-aegend-kids-anti-fog-swim-goggles-w-ear-plugs-and-nose-clip-6-more?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
@@ -62,6 +62,14 @@
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-07-14T17:59:36.000Z"
+    },
+    {
+      "title": "Aegend No Leaking Anti Fog UV Protection Swimming Goggles w/ Case from $4",
+      "url": "https://slickdeals.net/f/19757037-aegend-no-leaking-anti-fog-uv-protection-swimming-goggles-w-case-from-4?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-13T21:04:17.000Z"
     },
     {
       "title": "Seago Kids Swim Goggles Snorkel Diving Mask for Youth(5-15), Anti-Fog 180° Clear View $6.49",
@@ -232,14 +240,6 @@
       "posted": "2026-06-24T02:20:55.000Z"
     },
     {
-      "title": "$19.72: Sellstrom Odyssey II Wildland Fire Safety Goggles, Anti-Fog Anti-Scratch, FR Strap, ANSI Z87.1",
-      "url": "https://slickdeals.net/f/19667820-19-72-sellstrom-odyssey-ii-wildland-fire-safety-goggles-anti-fog-anti-scratch-fr-strap-ansi-z87-1?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-06-23T13:56:19.000Z"
-    },
-    {
       "title": "$6.99 | Arctix Snowplow Gloves at Woot!",
       "url": "https://slickdeals.net/f/19647189-6-99-arctix-snowplow-gloves-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -253,7 +253,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     },
     {
@@ -262,7 +262,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     },
     {
@@ -271,7 +271,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     },
     {
@@ -280,7 +280,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     },
     {
@@ -289,7 +289,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     },
     {
@@ -298,7 +298,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     },
     {
@@ -307,7 +307,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     },
     {
@@ -316,7 +316,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     },
     {
@@ -325,7 +325,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-16T14:24:21.073Z",
+      "posted": "2026-07-17T14:04:02.553Z",
       "isAmazonSearch": true
     }
   ]
