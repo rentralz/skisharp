@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-07-18T13:50:21.576Z",
-  "totalDeals": 39,
+  "lastScanned": "2026-07-19T13:54:15.472Z",
+  "totalDeals": 38,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 97,
+    "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "VisioGear Night Thunder X3 4K Night Vision Goggles for Adults, 2000ft Range, 5000mAh Battery, 32GB Card, AI Color Mode $38.99",
+      "url": "https://slickdeals.net/f/19776546-visiogear-night-thunder-x3-4k-night-vision-goggles-for-adults-2000ft-range-5000mah-battery-32gb-card-ai-color-mode-38-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-18T07:52:21.000Z"
+    },
     {
       "title": "3-Pack Aegend Kids' Swimming Goggles (various) $6.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19775424-3-pack-aegend-kids-swimming-goggles-various-6-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -232,28 +240,12 @@
       "posted": "2026-06-30T14:14:35.000Z"
     },
     {
-      "title": "50% Off Kids Swim Goggles 2-Pack (Ages 3–12) – Only $6.74 at Amazon",
-      "url": "https://slickdeals.net/f/19694124-50-off-kids-swim-goggles-2-pack-ages-3-12-only-6-74-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-06-27T15:38:48.000Z"
-    },
-    {
-      "title": "$6.99 | Arctix Snowplow Gloves at Woot!",
-      "url": "https://slickdeals.net/f/19647189-6-99-arctix-snowplow-gloves-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-06-19T06:57:41.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     },
     {
@@ -262,7 +254,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     },
     {
@@ -271,7 +263,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     },
     {
@@ -280,7 +272,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     },
     {
@@ -289,7 +281,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     },
     {
@@ -298,7 +290,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     },
     {
@@ -307,7 +299,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     },
     {
@@ -316,7 +308,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     },
     {
@@ -325,7 +317,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-18T13:50:21.574Z",
+      "posted": "2026-07-19T13:54:15.470Z",
       "isAmazonSearch": true
     }
   ]
