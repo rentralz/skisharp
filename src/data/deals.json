@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-07-22T14:23:03.608Z",
-  "totalDeals": 39,
+  "lastScanned": "2026-07-23T14:33:14.202Z",
+  "totalDeals": 38,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 96,
+    "slickdeals": 95,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "2-Pack Vorshape Adult Anti-Fog Swimming Goggles (Aqua & Clear Blue) $4.87 ($2.43 each) + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19797018-2-pack-vorshape-adult-anti-fog-swimming-goggles-aqua-clear-blue-4-87-2-43-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-22T20:16:41.000Z"
+    },
+    {
+      "title": "Aegend Swim Goggles for Adults Kids - 220°Wide View Anti-Fog Goggles with Mesh Bag for Indoor Outdoor Pool Beach Swimming $7.49",
+      "url": "https://slickdeals.net/f/19795698-aegend-swim-goggles-for-adults-kids-220-wide-view-anti-fog-goggles-with-mesh-bag-for-indoor-outdoor-pool-beach-swimming-7-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-22T15:02:57.000Z"
+    },
     {
       "title": "$8.74* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
       "url": "https://slickdeals.net/f/19794477-8-74-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -216,14 +232,6 @@
       "posted": "2026-07-05T11:11:10.000Z"
     },
     {
-      "title": "$4.83 | Neiko 53874A Clear Protective Lab Safety Goggles at Amazon",
-      "url": "https://slickdeals.net/f/19721757-4-83-neiko-53874a-clear-protective-lab-safety-goggles-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-04T19:49:10.000Z"
-    },
-    {
       "title": "Mechanix Wear ColdWork Winter Work Gloves, FastFit & Original, multiple sizes 9.48-19.48 plus S&S discount",
       "url": "https://slickdeals.net/f/19721028-mechanix-wear-coldwork-winter-work-gloves-fastfit-original-multiple-sizes-9-48-19-48-plus-s-s-discount?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -232,28 +240,12 @@
       "posted": "2026-07-04T14:15:52.000Z"
     },
     {
-      "title": "2-Pack Vorshape Adult Swim Goggles w/ Anti-Fog & UV Protection (various) $7.49 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19718229-2-pack-vorshape-adult-swim-goggles-w-anti-fog-uv-protection-various-7-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-03T17:08:37.000Z"
-    },
-    {
-      "title": "Aegend Men's or Women's Swimming Goggles (Aqua) $3.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19715979-aegend-men-s-or-women-s-swimming-goggles-aqua-3-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-03T02:54:52.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     },
     {
@@ -262,7 +254,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     },
     {
@@ -271,7 +263,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     },
     {
@@ -280,7 +272,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     },
     {
@@ -289,7 +281,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     },
     {
@@ -298,7 +290,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     },
     {
@@ -307,7 +299,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     },
     {
@@ -316,7 +308,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     },
     {
@@ -325,7 +317,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-22T14:23:03.605Z",
+      "posted": "2026-07-23T14:33:14.199Z",
       "isAmazonSearch": true
     }
   ]
