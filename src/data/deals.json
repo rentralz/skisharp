@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-07-26T13:57:47.913Z",
+  "lastScanned": "2026-07-27T15:14:17.712Z",
   "totalDeals": 35,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 92,
+    "slickdeals": 93,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aegend Adults / Kids 220° Wide View Anti-Fog Swim Goggles with Mesh Bag (Light Blue) $5.56 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19811589-aegend-adults-kids-220-wide-view-anti-fog-swim-goggles-with-mesh-bag-light-blue-5-56-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-27T00:00:23.000Z"
+    },
     {
       "title": "3-Pack QALLY Kids' Anti-UV Anti-Fog Swimming Goggles (Ages 4-16) $11.49 ($3.83 each) + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19799199-3-pack-qally-kids-anti-uv-anti-fog-swimming-goggles-ages-4-16-11-49-3-83-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -200,14 +208,6 @@
       "posted": "2026-07-08T03:28:22.000Z"
     },
     {
-      "title": "Aegend Adult Mirrored Swimming Goggles w/ Adjustable Bungee Strap (Transparent Rose Red) $3.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19728492-aegend-adult-mirrored-swimming-goggles-w-adjustable-bungee-strap-transparent-rose-red-3-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-06T17:31:25.000Z"
-    },
-    {
       "title": "Mechanix Wear ColdWork Winter Work Gloves, FastFit & Original, multiple sizes 9.48-19.48 plus S&S discount",
       "url": "https://slickdeals.net/f/19721028-mechanix-wear-coldwork-winter-work-gloves-fastfit-original-multiple-sizes-9-48-19-48-plus-s-s-discount?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -221,7 +221,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     },
     {
@@ -230,7 +230,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     },
     {
@@ -239,7 +239,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     },
     {
@@ -248,7 +248,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     },
     {
@@ -257,7 +257,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     },
     {
@@ -266,7 +266,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     },
     {
@@ -275,7 +275,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     },
     {
@@ -284,7 +284,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     },
     {
@@ -293,7 +293,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-26T13:57:47.910Z",
+      "posted": "2026-07-27T15:14:17.709Z",
       "isAmazonSearch": true
     }
   ]
