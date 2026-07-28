@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-07-27T15:14:17.712Z",
-  "totalDeals": 35,
+  "lastScanned": "2026-07-28T14:38:29.233Z",
+  "totalDeals": 37,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 93,
+    "slickdeals": 95,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "$50.76 w/coupon - DryGuy Shoe, Boot, Garment & Gear Electric Dryer, Quick Drying for Ski, Work, Sports Equipment – Energy Efficient, Odor Eliminating Design",
+      "url": "https://slickdeals.net/f/19817385-50-76-w-coupon-dryguy-shoe-boot-garment-gear-electric-dryer-quick-drying-for-ski-work-sports-equipment-energy-efficient-odor-eliminating-design?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "boots",
+      "posted": "2026-07-28T13:47:08.000Z"
+    },
+    {
+      "title": "Assos MILLE GT cycling Winter Bib Tights C2 No Insert $110",
+      "url": "https://slickdeals.net/f/19811643-assos-mille-gt-cycling-winter-bib-tights-c2-no-insert-110?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-07-27T01:07:59.000Z"
+    },
     {
       "title": "Aegend Adults / Kids 220° Wide View Anti-Fog Swim Goggles with Mesh Bag (Light Blue) $5.56 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19811589-aegend-adults-kids-220-wide-view-anti-fog-swim-goggles-with-mesh-bag-light-blue-5-56-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -221,7 +237,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     },
     {
@@ -230,7 +246,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     },
     {
@@ -239,7 +255,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     },
     {
@@ -248,7 +264,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     },
     {
@@ -257,7 +273,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     },
     {
@@ -266,7 +282,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     },
     {
@@ -275,7 +291,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     },
     {
@@ -284,7 +300,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     },
     {
@@ -293,7 +309,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-27T15:14:17.709Z",
+      "posted": "2026-07-28T14:38:29.231Z",
       "isAmazonSearch": true
     }
   ]
