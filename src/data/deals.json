@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-07-28T14:38:29.233Z",
+  "lastScanned": "2026-07-29T14:32:06.749Z",
   "totalDeals": 37,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 95,
+    "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Speedo Women's Vanquisher 3.0 Mirror Goggles (Green/Pink) — $16.00 (50% off $32) + Free Shipping on $50+ @ Speedo",
+      "url": "https://slickdeals.net/f/19817586-speedo-women-s-vanquisher-3-0-mirror-goggles-green-pink-16-00-50-off-32-free-shipping-on-50-speedo?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-28T14:36:51.000Z"
+    },
+    {
+      "title": "Pixel Panda Kids Swim Goggles with Fabric Strap for 3-12, No Hair Pulling, Blue $5.84",
+      "url": "https://slickdeals.net/f/19817568-pixel-panda-kids-swim-goggles-with-fabric-strap-for-3-12-no-hair-pulling-blue-5-84?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-28T14:32:20.000Z"
+    },
     {
       "title": "$50.76 w/coupon - DryGuy Shoe, Boot, Garment & Gear Electric Dryer, Quick Drying for Ski, Work, Sports Equipment – Energy Efficient, Odor Eliminating Design",
       "url": "https://slickdeals.net/f/19817385-50-76-w-coupon-dryguy-shoe-boot-garment-gear-electric-dryer-quick-drying-for-ski-work-sports-equipment-energy-efficient-odor-eliminating-design?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +30,14 @@
       "sourceIcon": "💰",
       "category": "boots",
       "posted": "2026-07-28T13:47:08.000Z"
+    },
+    {
+      "title": "Aegend Kids Swim Goggles, Pack of 2 Swimming Goggles for Children Boys & Girls Age 3-14 $6.49",
+      "url": "https://slickdeals.net/f/19815966-aegend-kids-swim-goggles-pack-of-2-swimming-goggles-for-children-boys-girls-age-3-14-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-28T02:38:41.000Z"
     },
     {
       "title": "Assos MILLE GT cycling Winter Bib Tights C2 No Insert $110",
@@ -200,30 +224,6 @@
       "posted": "2026-07-09T19:04:39.000Z"
     },
     {
-      "title": "WOSPORTS 4K Night Vision Goggles: 16MP Photo, up to 80x Magnification, 10X Optical & 8X Digital Zoom, 1015FT Vision, 3\" Screen, 5000mAh $79.99",
-      "url": "https://slickdeals.net/f/19741554-wosports-4k-night-vision-goggles-16mp-photo-up-to-80x-magnification-10x-optical-8x-digital-zoom-1015ft-vision-3-screen-5000mah-79-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-09T17:45:03.000Z"
-    },
-    {
-      "title": "Seago Swim Goggles 2 Pack Anti-Fog Anti-UV Wide View Swimming Goggles for Kids $7.49",
-      "url": "https://slickdeals.net/f/19735746-seago-swim-goggles-2-pack-anti-fog-anti-uv-wide-view-swimming-goggles-for-kids-7-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-08T12:29:15.000Z"
-    },
-    {
-      "title": "TELUHA Night Vision Goggles for Adults, 4K Night Vision Binoculars with 5000mAh Rechargeable Battery and 32GB TF Card for Hunting, Wildlife Observation and Security $79.98",
-      "url": "https://slickdeals.net/f/19734744-teluha-night-vision-goggles-for-adults-4k-night-vision-binoculars-with-5000mah-rechargeable-battery-and-32gb-tf-card-for-hunting-wildlife-observation-and-security-79-98?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-08T03:28:22.000Z"
-    },
-    {
       "title": "Mechanix Wear ColdWork Winter Work Gloves, FastFit & Original, multiple sizes 9.48-19.48 plus S&S discount",
       "url": "https://slickdeals.net/f/19721028-mechanix-wear-coldwork-winter-work-gloves-fastfit-original-multiple-sizes-9-48-19-48-plus-s-s-discount?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -237,7 +237,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     },
     {
@@ -246,7 +246,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     },
     {
@@ -255,7 +255,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     },
     {
@@ -264,7 +264,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     },
     {
@@ -273,7 +273,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     },
     {
@@ -282,7 +282,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     },
     {
@@ -291,7 +291,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     },
     {
@@ -300,7 +300,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     },
     {
@@ -309,7 +309,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-28T14:38:29.231Z",
+      "posted": "2026-07-29T14:32:06.746Z",
       "isAmazonSearch": true
     }
   ]
