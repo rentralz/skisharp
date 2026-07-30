@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-07-29T14:32:06.749Z",
+  "lastScanned": "2026-07-30T14:32:50.112Z",
   "totalDeals": 37,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 96,
+    "slickdeals": 95,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "2-Pack Aegend Kids Swim Goggles $4.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19821660-2-pack-aegend-kids-swim-goggles-4-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-29T14:41:05.000Z"
+    },
+    {
+      "title": "2-Count Aegend Kids' Swim Goggles w/ Anti-Fog Lenses, UV Protection, Ear Plugs & Nose Clips (Select Colors) $4.99 ($2.50 each) + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19817724-2-count-aegend-kids-swim-goggles-w-anti-fog-lenses-uv-protection-ear-plugs-nose-clips-select-colors-4-99-2-50-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-28T15:05:33.000Z"
+    },
     {
       "title": "Speedo Women's Vanquisher 3.0 Mirror Goggles (Green/Pink) — $16.00 (50% off $32) + Free Shipping on $50+ @ Speedo",
       "url": "https://slickdeals.net/f/19817586-speedo-women-s-vanquisher-3-0-mirror-goggles-green-pink-16-00-50-off-32-free-shipping-on-50-speedo?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -208,22 +224,6 @@
       "posted": "2026-07-13T21:04:17.000Z"
     },
     {
-      "title": "Seago Kids Swim Goggles Snorkel Diving Mask for Youth(5-15), Anti-Fog 180° Clear View $6.49",
-      "url": "https://slickdeals.net/f/19754703-seago-kids-swim-goggles-snorkel-diving-mask-for-youth-5-15-anti-fog-180-clear-view-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-13T13:08:21.000Z"
-    },
-    {
-      "title": "Aegend Men's or Women's Swim Goggles (Aqua) $3.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19742004-aegend-men-s-or-women-s-swim-goggles-aqua-3-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-09T19:04:39.000Z"
-    },
-    {
       "title": "Mechanix Wear ColdWork Winter Work Gloves, FastFit & Original, multiple sizes 9.48-19.48 plus S&S discount",
       "url": "https://slickdeals.net/f/19721028-mechanix-wear-coldwork-winter-work-gloves-fastfit-original-multiple-sizes-9-48-19-48-plus-s-s-discount?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -237,7 +237,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     },
     {
@@ -246,7 +246,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     },
     {
@@ -255,7 +255,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     },
     {
@@ -264,7 +264,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     },
     {
@@ -273,7 +273,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     },
     {
@@ -282,7 +282,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     },
     {
@@ -291,7 +291,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     },
     {
@@ -300,7 +300,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     },
     {
@@ -309,7 +309,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-07-29T14:32:06.746Z",
+      "posted": "2026-07-30T14:32:50.110Z",
       "isAmazonSearch": true
     }
   ]
