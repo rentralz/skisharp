@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-08-01T13:56:04.607Z",
-  "totalDeals": 38,
+  "lastScanned": "2026-08-02T13:55:51.824Z",
+  "totalDeals": 39,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 98,
+    "slickdeals": 97,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "6-Piece MeetHoo Men's Thermal Fleece Lined Underwear Set $20.62 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19830060-6-piece-meethoo-men-s-thermal-fleece-lined-underwear-set-20-62-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-07-31T20:56:32.000Z"
+    },
     {
       "title": "EverSport 2 Pack Kids Swim Goggles Age 8-16 Extra Silicone Layer, Swimming Goggles for kids $6.49",
       "url": "https://slickdeals.net/f/19828692-eversport-2-pack-kids-swim-goggles-age-8-16-extra-silicone-layer-swimming-goggles-for-kids-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -245,7 +253,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     },
     {
@@ -254,7 +262,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     },
     {
@@ -263,7 +271,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     },
     {
@@ -272,7 +280,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     },
     {
@@ -281,7 +289,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     },
     {
@@ -290,7 +298,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     },
     {
@@ -299,7 +307,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     },
     {
@@ -308,7 +316,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     },
     {
@@ -317,7 +325,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-01T13:56:04.604Z",
+      "posted": "2026-08-02T13:55:51.822Z",
       "isAmazonSearch": true
     }
   ]
