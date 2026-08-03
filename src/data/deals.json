@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-08-02T13:55:51.824Z",
-  "totalDeals": 39,
+  "lastScanned": "2026-08-03T15:17:13.302Z",
+  "totalDeals": 38,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 97,
+    "slickdeals": 94,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "[Prime] 2-Pack Vvinca Kids No Leaking Wide View Swim Goggles w/ Anti-Fog/UV (Various) from $12.34 + Free Shipping $6.17",
+      "url": "https://slickdeals.net/f/19835865-prime-2-pack-vvinca-kids-no-leaking-wide-view-swim-goggles-w-anti-fog-uv-various-from-12-34-free-shipping-6-17?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-02T22:43:00.000Z"
+    },
+    {
+      "title": "[Prime] 2-Pack EverSport Kids Frame Less Swim Goggles w/ Anti-fog UV Protection (2 colors) $6.49 + Free Shipping",
+      "url": "https://slickdeals.net/f/19835835-prime-2-pack-eversport-kids-frame-less-swim-goggles-w-anti-fog-uv-protection-2-colors-6-49-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-02T22:31:10.000Z"
+    },
     {
       "title": "6-Piece MeetHoo Men's Thermal Fleece Lined Underwear Set $20.62 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19830060-6-piece-meethoo-men-s-thermal-fleece-lined-underwear-set-20-62-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -208,22 +224,6 @@
       "posted": "2026-07-17T21:58:30.000Z"
     },
     {
-      "title": "2-Pk Aegend UV Adult Swim Goggles (Green/Purple Iridescent & Transparent Pink Lenses) $6.55 & More",
-      "url": "https://slickdeals.net/f/19772043-2-pk-aegend-uv-adult-swim-goggles-green-purple-iridescent-transparent-pink-lenses-6-55-more?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-17T04:19:23.000Z"
-    },
-    {
-      "title": "2-Pack Aegend Kids' & Teen Wide Frame UV Protection Swim Goggles: Kids' from $6.76 ($3.38 each), Teen from $6.49 ($3.25 each) + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19771974-2-pack-aegend-kids-teen-wide-frame-uv-protection-swim-goggles-kids-from-6-76-3-38-each-teen-from-6-49-3-25-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-17T03:50:50.000Z"
-    },
-    {
       "title": "Giro Ringo Ski & Snowboard Goggles w/ VIVID Lens $28.15 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19767339-giro-ringo-ski-snowboard-goggles-w-vivid-lens-28-15-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -240,38 +240,12 @@
       "posted": "2026-07-14T17:59:36.000Z"
     },
     {
-      "title": "Mechanix Wear ColdWork Winter Work Gloves, FastFit & Original, multiple sizes 9.48-19.48 plus S&S discount",
-      "url": "https://slickdeals.net/f/19721028-mechanix-wear-coldwork-winter-work-gloves-fastfit-original-multiple-sizes-9-48-19-48-plus-s-s-discount?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-07-04T14:15:52.000Z"
-    },
-    {
-      "title": "🔍 Ski Jackets on Sale",
-      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "jackets",
-      "posted": "2026-08-02T13:55:51.822Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Pants Clearance",
-      "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "pants",
-      "posted": "2026-08-02T13:55:51.822Z",
-      "isAmazonSearch": true
-    },
-    {
       "title": "🔍 Ski Goggles Deals",
       "url": "https://www.amazon.com/s?k=ski+goggles+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-02T13:55:51.822Z",
+      "posted": "2026-08-03T15:17:13.300Z",
       "isAmazonSearch": true
     },
     {
@@ -280,7 +254,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-02T13:55:51.822Z",
+      "posted": "2026-08-03T15:17:13.300Z",
       "isAmazonSearch": true
     },
     {
@@ -289,7 +263,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-02T13:55:51.822Z",
+      "posted": "2026-08-03T15:17:13.300Z",
       "isAmazonSearch": true
     },
     {
@@ -298,7 +272,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-02T13:55:51.822Z",
+      "posted": "2026-08-03T15:17:13.300Z",
       "isAmazonSearch": true
     },
     {
@@ -307,7 +281,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-02T13:55:51.822Z",
+      "posted": "2026-08-03T15:17:13.300Z",
       "isAmazonSearch": true
     },
     {
@@ -316,7 +290,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-02T13:55:51.822Z",
+      "posted": "2026-08-03T15:17:13.300Z",
       "isAmazonSearch": true
     },
     {
@@ -325,7 +299,25 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-02T13:55:51.822Z",
+      "posted": "2026-08-03T15:17:13.300Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Jackets on Sale",
+      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "jackets",
+      "posted": "2026-08-03T15:17:13.299Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Pants Clearance",
+      "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "pants",
+      "posted": "2026-08-03T15:17:13.299Z",
       "isAmazonSearch": true
     }
   ]
