@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-08-04T14:40:04.472Z",
-  "totalDeals": 38,
+  "lastScanned": "2026-08-05T14:34:12.981Z",
+  "totalDeals": 39,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 94,
+    "slickdeals": 92,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Gobik Base Layer Men's Black Lead Large for cycling $36",
+      "url": "https://slickdeals.net/f/19844769-gobik-base-layer-men-s-black-lead-large-for-cycling-36?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-08-05T02:56:08.000Z"
+    },
     {
       "title": "[Prime] 2-Pack Vvinca Kids No Leaking Wide View Swim Goggles w/ Anti-Fog/UV (Various) from $12.34 + Free Shipping $6.17",
       "url": "https://slickdeals.net/f/19835865-prime-2-pack-vvinca-kids-no-leaking-wide-view-swim-goggles-w-anti-fog-uv-various-from-12-34-free-shipping-6-17?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -78,14 +86,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-07-29T14:41:05.000Z"
-    },
-    {
-      "title": "55% Off 2-Pack Keary Swim Goggles for Adults & Youth – $6.99",
-      "url": "https://slickdeals.net/f/19821471-55-off-2-pack-keary-swim-goggles-for-adults-youth-6-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-29T13:52:05.000Z"
     },
     {
       "title": "2-Count Aegend Kids' Swim Goggles w/ Anti-Fog Lenses, UV Protection, Ear Plugs & Nose Clips (Select Colors) $4.99 ($2.50 each) + Free Shipping w/ Prime or on $35+",
@@ -224,6 +224,14 @@
       "posted": "2026-07-17T21:58:30.000Z"
     },
     {
+      "title": "2-Pk Aegend UV Adult Swim Goggles (Green/Purple Iridescent & Transparent Pink Lenses) $6.55 & More",
+      "url": "https://slickdeals.net/f/19772043-2-pk-aegend-uv-adult-swim-goggles-green-purple-iridescent-transparent-pink-lenses-6-55-more?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-07-17T04:19:23.000Z"
+    },
+    {
       "title": "Giro Ringo Ski & Snowboard Goggles w/ VIVID Lens $28.15 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19767339-giro-ringo-ski-snowboard-goggles-w-vivid-lens-28-15-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -245,7 +253,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     },
     {
@@ -254,7 +262,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     },
     {
@@ -263,7 +271,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     },
     {
@@ -272,7 +280,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     },
     {
@@ -281,7 +289,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     },
     {
@@ -290,7 +298,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     },
     {
@@ -299,7 +307,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     },
     {
@@ -308,7 +316,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     },
     {
@@ -317,7 +325,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-04T14:40:04.470Z",
+      "posted": "2026-08-05T14:34:12.979Z",
       "isAmazonSearch": true
     }
   ]
