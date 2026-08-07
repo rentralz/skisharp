@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-08-06T14:35:41.847Z",
+  "lastScanned": "2026-08-07T13:40:16.345Z",
   "totalDeals": 38,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 92,
+    "slickdeals": 91,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aegend Kids' Anti-Fog Swim Goggles: 1-Pack (various) $2.96, 2-Pack (various) $4.94 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19851372-aegend-kids-anti-fog-swim-goggles-1-pack-various-2-96-2-pack-various-4-94-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-06T20:29:24.000Z"
+    },
+    {
+      "title": "$6.99 | OnWander Waterproof Winter Warm Gloves at Woot!",
+      "url": "https://slickdeals.net/f/19848675-6-99-onwander-waterproof-winter-warm-gloves-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-08-06T05:04:06.000Z"
+    },
     {
       "title": "3-Pack CIFOYA Kids Swim Goggles w/ Anti-Fog & UV Protection (3 Colors) $11.49 ($3.83 each) + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19847520-3-pack-cifoya-kids-swim-goggles-w-anti-fog-uv-protection-3-colors-11-49-3-83-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -208,22 +224,6 @@
       "posted": "2026-07-21T12:49:24.000Z"
     },
     {
-      "title": "VisioGear Night Thunder X3 4K Night Vision Goggles for Adults, 2000ft Range, 5000mAh Battery, 32GB Card, AI Color Mode $38.99",
-      "url": "https://slickdeals.net/f/19776546-visiogear-night-thunder-x3-4k-night-vision-goggles-for-adults-2000ft-range-5000mah-battery-32gb-card-ai-color-mode-38-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-18T07:52:21.000Z"
-    },
-    {
-      "title": "3-Pack Aegend Kids' Swimming Goggles (various) $6.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19775424-3-pack-aegend-kids-swimming-goggles-various-6-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-18T00:02:17.000Z"
-    },
-    {
       "title": "Giro Ringo Ski & Snowboard Goggles w/ VIVID Lens $28.15 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19767339-giro-ringo-ski-snowboard-goggles-w-vivid-lens-28-15-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -245,7 +245,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     },
     {
@@ -254,7 +254,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     },
     {
@@ -263,7 +263,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     },
     {
@@ -272,7 +272,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     },
     {
@@ -281,7 +281,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     },
     {
@@ -290,7 +290,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     },
     {
@@ -299,7 +299,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     },
     {
@@ -308,7 +308,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     },
     {
@@ -317,7 +317,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-06T14:35:41.845Z",
+      "posted": "2026-08-07T13:40:16.342Z",
       "isAmazonSearch": true
     }
   ]
