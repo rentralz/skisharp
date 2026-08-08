@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-08-07T13:40:16.345Z",
-  "totalDeals": 38,
+  "lastScanned": "2026-08-08T13:12:35.836Z",
+  "totalDeals": 39,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 91,
+    "slickdeals": 89,
     "amazon": 9
   },
   "deals": [
@@ -14,6 +14,14 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-08-06T20:29:24.000Z"
+    },
+    {
+      "title": "Amazon: Keary 2-Pack Kids Swim Goggles (Blue/Black) w/ UV Protection & Anti-Fog - $6.99",
+      "url": "https://slickdeals.net/f/19850055-amazon-keary-2-pack-kids-swim-goggles-blue-black-w-uv-protection-anti-fog-6-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-06T14:18:22.000Z"
     },
     {
       "title": "$6.99 | OnWander Waterproof Winter Warm Gloves at Woot!",
@@ -245,7 +253,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     },
     {
@@ -254,7 +262,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     },
     {
@@ -263,7 +271,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     },
     {
@@ -272,7 +280,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     },
     {
@@ -281,7 +289,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     },
     {
@@ -290,7 +298,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     },
     {
@@ -299,7 +307,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     },
     {
@@ -308,7 +316,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     },
     {
@@ -317,7 +325,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-07T13:40:16.342Z",
+      "posted": "2026-08-08T13:12:35.834Z",
       "isAmazonSearch": true
     }
   ]
