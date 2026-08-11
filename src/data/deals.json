@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-08-10T13:45:28.907Z",
-  "totalDeals": 39,
+  "lastScanned": "2026-08-11T13:43:19.158Z",
+  "totalDeals": 38,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 89,
+    "slickdeals": 87,
     "amazon": 9
   },
   "deals": [
@@ -224,14 +224,6 @@
       "posted": "2026-07-22T07:15:13.000Z"
     },
     {
-      "title": "2 Pack Kids Swim Goggles for Toddler,Anti-Fog Waterproof Anti-UV Clear Vision Water Pool Goggles $5.39",
-      "url": "https://slickdeals.net/f/19790706-2-pack-kids-swim-goggles-for-toddler-anti-fog-waterproof-anti-uv-clear-vision-water-pool-goggles-5-39?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-21T12:49:24.000Z"
-    },
-    {
       "title": "Giro Ringo Ski & Snowboard Goggles w/ VIVID Lens $28.15 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19767339-giro-ringo-ski-snowboard-goggles-w-vivid-lens-28-15-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -253,7 +245,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     },
     {
@@ -262,7 +254,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     },
     {
@@ -271,7 +263,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     },
     {
@@ -280,7 +272,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     },
     {
@@ -289,7 +281,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     },
     {
@@ -298,7 +290,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     },
     {
@@ -307,7 +299,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     },
     {
@@ -316,7 +308,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     },
     {
@@ -325,7 +317,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-10T13:45:28.905Z",
+      "posted": "2026-08-11T13:43:19.155Z",
       "isAmazonSearch": true
     }
   ]
