@@ -1,15 +1,23 @@
 {
-  "lastScanned": "2026-08-11T13:43:19.158Z",
-  "totalDeals": 38,
+  "lastScanned": "2026-08-12T13:48:05.170Z",
+  "totalDeals": 39,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 87,
+    "slickdeals": 84,
     "amazon": 9
   },
   "deals": [
     {
-      "title": "Aegend Kids' Anti-Fog Swim Goggles: 1-Pack (various) $2.96, 2-Pack (various) $4.94 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19851372-aegend-kids-anti-fog-swim-goggles-1-pack-various-2-96-2-pack-various-4-94-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "title": "Kids 3-Pack QALLY Kids Anti-Fog UV Protection Swimming Goggles (Ages 4-16, Various) $9.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19867767-kids-3-pack-qally-kids-anti-fog-uv-protection-swimming-goggles-ages-4-16-various-9-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-11T18:52:02.000Z"
+    },
+    {
+      "title": "Aegend Kids' Swim Goggles w/ Anti-Fog Lenses, Ear Plugs & Nose Clips from $2.95",
+      "url": "https://slickdeals.net/f/19851372-aegend-kids-swim-goggles-w-anti-fog-lenses-ear-plugs-nose-clips-from-2-95?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
@@ -245,7 +253,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     },
     {
@@ -254,7 +262,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     },
     {
@@ -263,7 +271,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     },
     {
@@ -272,7 +280,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     },
     {
@@ -281,7 +289,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     },
     {
@@ -290,7 +298,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     },
     {
@@ -299,7 +307,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     },
     {
@@ -308,7 +316,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     },
     {
@@ -317,7 +325,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-11T13:43:19.155Z",
+      "posted": "2026-08-12T13:48:05.167Z",
       "isAmazonSearch": true
     }
   ]
