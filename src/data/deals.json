@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-08-19T13:09:34.176Z",
-  "totalDeals": 38,
+  "lastScanned": "2026-08-20T13:11:43.030Z",
+  "totalDeals": 40,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 88,
+    "slickdeals": 91,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "3-Pair Ekouaer Women's Lightweight Thermal Underwear Base Layer $19.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19899552-3-pair-ekouaer-women-s-lightweight-thermal-underwear-base-layer-19-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-08-20T01:52:41.000Z"
+    },
+    {
+      "title": "VISIOGEAR Night Thunder X3 4K Night Vision Goggles for Adults, 2000ft Range, 5000mAh Battery, 32GB Card, AI Color Mode $39.99",
+      "url": "https://slickdeals.net/f/19896639-visiogear-night-thunder-x3-4k-night-vision-goggles-for-adults-2000ft-range-5000mah-battery-32gb-card-ai-color-mode-39-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-19T11:12:45.000Z"
+    },
     {
       "title": "Aegend Swim Goggles for Adult Kid 220° Wide View Goggles for Swimming $5.59 AC + Free Shipping",
       "url": "https://slickdeals.net/f/19893915-aegend-swim-goggles-for-adult-kid-220-wide-view-goggles-for-swimming-5-59-ac-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +30,14 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-08-18T17:39:18.000Z"
+    },
+    {
+      "title": "[Prime] YANIKY Multifunctional Cooling Moisture-Wicking Do-Rag Bandana/Helmet Liner/Neck Gaiter (Black or Color Mixing) $4.99 + Free Shipping",
+      "url": "https://slickdeals.net/f/19893276-prime-yaniky-multifunctional-cooling-moisture-wicking-do-rag-bandana-helmet-liner-neck-gaiter-black-or-color-mixing-4-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "helmets",
+      "posted": "2026-08-18T15:19:15.000Z"
     },
     {
       "title": "[AC] $5.69* | 2-Pack Aegend Kids' Anti-Fog Swim Goggles w/ Ear Plugs and Nose Clip at Amazon",
@@ -216,14 +240,6 @@
       "posted": "2026-07-28T14:36:51.000Z"
     },
     {
-      "title": "Pixel Panda Kids Swim Goggles with Fabric Strap for 3-12, No Hair Pulling, Blue $5.84",
-      "url": "https://slickdeals.net/f/19817568-pixel-panda-kids-swim-goggles-with-fabric-strap-for-3-12-no-hair-pulling-blue-5-84?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-28T14:32:20.000Z"
-    },
-    {
       "title": "$50.76 w/coupon - DryGuy Shoe, Boot, Garment & Gear Electric Dryer, Quick Drying for Ski, Work, Sports Equipment – Energy Efficient, Odor Eliminating Design",
       "url": "https://slickdeals.net/f/19817385-50-76-w-coupon-dryguy-shoe-boot-garment-gear-electric-dryer-quick-drying-for-ski-work-sports-equipment-energy-efficient-odor-eliminating-design?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -245,7 +261,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     },
     {
@@ -254,7 +270,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     },
     {
@@ -263,7 +279,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     },
     {
@@ -272,7 +288,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     },
     {
@@ -281,7 +297,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     },
     {
@@ -290,7 +306,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     },
     {
@@ -299,7 +315,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     },
     {
@@ -308,7 +324,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     },
     {
@@ -317,7 +333,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-19T13:09:34.174Z",
+      "posted": "2026-08-20T13:11:43.028Z",
       "isAmazonSearch": true
     }
   ]
