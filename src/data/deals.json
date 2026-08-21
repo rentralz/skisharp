@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-08-20T13:11:43.030Z",
-  "totalDeals": 40,
+  "lastScanned": "2026-08-21T13:11:39.452Z",
+  "totalDeals": 39,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 91,
+    "slickdeals": 90,
     "amazon": 9
   },
   "deals": [
@@ -248,20 +248,12 @@
       "posted": "2026-07-28T13:47:08.000Z"
     },
     {
-      "title": "$8.74* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
-      "url": "https://slickdeals.net/f/19794477-8-74-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-07-22T07:15:13.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     },
     {
@@ -270,7 +262,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     },
     {
@@ -279,7 +271,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     },
     {
@@ -288,7 +280,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     },
     {
@@ -297,7 +289,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     },
     {
@@ -306,7 +298,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     },
     {
@@ -315,7 +307,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     },
     {
@@ -324,7 +316,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     },
     {
@@ -333,7 +325,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-20T13:11:43.028Z",
+      "posted": "2026-08-21T13:11:39.450Z",
       "isAmazonSearch": true
     }
   ]
