@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-08-22T13:01:30.870Z",
-  "totalDeals": 41,
+  "lastScanned": "2026-08-23T13:02:49.965Z",
+  "totalDeals": 43,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 94,
+    "slickdeals": 99,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "UTWGN Men's Ski Jacket Winter Warm Snow Coat Waterproof Windbreaker Hooded Work Outerwear Snowboarding Jackets $19.99",
+      "url": "https://slickdeals.net/f/19911522-utwgn-men-s-ski-jacket-winter-warm-snow-coat-waterproof-windbreaker-hooded-work-outerwear-snowboarding-jackets-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-08-22T23:16:41.000Z"
+    },
+    {
+      "title": "[NEW] $13.19 | HydraHyde Insulated Split Leather Winter Work Gloves (Wells Lamont 1196) at Amazon",
+      "url": "https://slickdeals.net/f/19908435-new-13-19-hydrahyde-insulated-split-leather-winter-work-gloves-wells-lamont-1196-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-08-21T22:25:40.000Z"
+    },
     {
       "title": "CAMELSPORTS Men's 3-in-1 Waterproof Hooded Mountain Ski Jacket (3 colors) $24.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19908024-camelsports-men-s-3-in-1-waterproof-hooded-mountain-ski-jacket-3-colors-24-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -38,6 +54,14 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-08-21T03:31:05.000Z"
+    },
+    {
+      "title": "3-Pack Aegend Kids' Anti-Fog Swim Goggles $6.99 ($2.33 each) + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19903935-3-pack-aegend-kids-anti-fog-swim-goggles-6-99-2-33-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-20T22:13:11.000Z"
     },
     {
       "title": "3-Pair Ekouaer Women's Lightweight Thermal Underwear Base Layer $19.99 + Free Shipping w/ Prime or on $35+",
@@ -248,14 +272,6 @@
       "posted": "2026-07-29T14:41:05.000Z"
     },
     {
-      "title": "55% Off 2-Pack Keary Swim Goggles for Adults & Youth – $6.99",
-      "url": "https://slickdeals.net/f/19821471-55-off-2-pack-keary-swim-goggles-for-adults-youth-6-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-29T13:52:05.000Z"
-    },
-    {
       "title": "$50.76 w/coupon - DryGuy Shoe, Boot, Garment & Gear Electric Dryer, Quick Drying for Ski, Work, Sports Equipment – Energy Efficient, Odor Eliminating Design",
       "url": "https://slickdeals.net/f/19817385-50-76-w-coupon-dryguy-shoe-boot-garment-gear-electric-dryer-quick-drying-for-ski-work-sports-equipment-energy-efficient-odor-eliminating-design?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -269,7 +285,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     },
     {
@@ -278,7 +294,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     },
     {
@@ -287,7 +303,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     },
     {
@@ -296,7 +312,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     },
     {
@@ -305,7 +321,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     },
     {
@@ -314,7 +330,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     },
     {
@@ -323,7 +339,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     },
     {
@@ -332,7 +348,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     },
     {
@@ -341,7 +357,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-22T13:01:30.867Z",
+      "posted": "2026-08-23T13:02:49.964Z",
       "isAmazonSearch": true
     }
   ]
