@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-08-23T13:02:49.965Z",
-  "totalDeals": 43,
+  "lastScanned": "2026-08-24T13:13:32.867Z",
+  "totalDeals": 44,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 99,
+    "slickdeals": 100,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Giro Neo Snow Helmet - Metallic Coal/Tan - Size S (52-55.5cm) $30.22",
+      "url": "https://slickdeals.net/f/19914393-giro-neo-snow-helmet-metallic-coal-tan-size-s-52-55-5cm-30-22?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "helmets",
+      "posted": "2026-08-23T19:46:52.000Z"
+    },
     {
       "title": "UTWGN Men's Ski Jacket Winter Warm Snow Coat Waterproof Windbreaker Hooded Work Outerwear Snowboarding Jackets $19.99",
       "url": "https://slickdeals.net/f/19911522-utwgn-men-s-ski-jacket-winter-warm-snow-coat-waterproof-windbreaker-hooded-work-outerwear-snowboarding-jackets-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +22,14 @@
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-08-22T23:16:41.000Z"
+    },
+    {
+      "title": "Amazon - Keary Swim Goggles with Nose Cover for Adult Anti-Fog 180° Clear View - $4.99",
+      "url": "https://slickdeals.net/f/19910355-amazon-keary-swim-goggles-with-nose-cover-for-adult-anti-fog-180-clear-view-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-22T13:55:58.000Z"
     },
     {
       "title": "[NEW] $13.19 | HydraHyde Insulated Split Leather Winter Work Gloves (Wells Lamont 1196) at Amazon",
@@ -264,14 +280,6 @@
       "posted": "2026-07-29T17:01:17.000Z"
     },
     {
-      "title": "2-Pack Aegend Kids Swim Goggles $4.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19821660-2-pack-aegend-kids-swim-goggles-4-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-29T14:41:05.000Z"
-    },
-    {
       "title": "$50.76 w/coupon - DryGuy Shoe, Boot, Garment & Gear Electric Dryer, Quick Drying for Ski, Work, Sports Equipment – Energy Efficient, Odor Eliminating Design",
       "url": "https://slickdeals.net/f/19817385-50-76-w-coupon-dryguy-shoe-boot-garment-gear-electric-dryer-quick-drying-for-ski-work-sports-equipment-energy-efficient-odor-eliminating-design?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -285,7 +293,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     },
     {
@@ -294,7 +302,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     },
     {
@@ -303,7 +311,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     },
     {
@@ -312,7 +320,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     },
     {
@@ -321,7 +329,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     },
     {
@@ -330,7 +338,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     },
     {
@@ -339,7 +347,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     },
     {
@@ -348,7 +356,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     },
     {
@@ -357,7 +365,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-23T13:02:49.964Z",
+      "posted": "2026-08-24T13:13:32.865Z",
       "isAmazonSearch": true
     }
   ]
