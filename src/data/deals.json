@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-08-24T13:13:32.867Z",
+  "lastScanned": "2026-08-25T13:11:50.457Z",
   "totalDeals": 44,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 100,
+    "slickdeals": 97,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "WOSPORTS 4K 48MP Night Vision Goggles, 80X Total Magnification, 1315FT Vision, 5000mAh Battery, IPX Waterproof $69.99",
+      "url": "https://slickdeals.net/f/19917189-wosports-4k-48mp-night-vision-goggles-80x-total-magnification-1315ft-vision-5000mah-battery-ipx-waterproof-69-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-24T12:22:35.000Z"
+    },
     {
       "title": "Giro Neo Snow Helmet - Metallic Coal/Tan - Size S (52-55.5cm) $30.22",
       "url": "https://slickdeals.net/f/19914393-giro-neo-snow-helmet-metallic-coal-tan-size-s-52-55-5cm-30-22?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -272,14 +280,6 @@
       "posted": "2026-07-31T00:26:24.000Z"
     },
     {
-      "title": "Aegend Adults & Youth Anti-Fog Swim Goggles (Aqua Blue) $2.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19822299-aegend-adults-youth-anti-fog-swim-goggles-aqua-blue-2-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-29T17:01:17.000Z"
-    },
-    {
       "title": "$50.76 w/coupon - DryGuy Shoe, Boot, Garment & Gear Electric Dryer, Quick Drying for Ski, Work, Sports Equipment – Energy Efficient, Odor Eliminating Design",
       "url": "https://slickdeals.net/f/19817385-50-76-w-coupon-dryguy-shoe-boot-garment-gear-electric-dryer-quick-drying-for-ski-work-sports-equipment-energy-efficient-odor-eliminating-design?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -293,7 +293,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     },
     {
@@ -302,7 +302,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     },
     {
@@ -311,7 +311,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     },
     {
@@ -320,7 +320,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     },
     {
@@ -329,7 +329,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     },
     {
@@ -338,7 +338,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     },
     {
@@ -347,7 +347,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     },
     {
@@ -356,7 +356,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     },
     {
@@ -365,7 +365,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-24T13:13:32.865Z",
+      "posted": "2026-08-25T13:11:50.454Z",
       "isAmazonSearch": true
     }
   ]
