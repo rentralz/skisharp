@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-08-25T13:11:50.457Z",
-  "totalDeals": 44,
+  "lastScanned": "2026-08-26T13:17:13.940Z",
+  "totalDeals": 46,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 97,
+    "slickdeals": 99,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "REI Co-op Men's or Women's Midweight Base Layer Half-Zip Top (Various) $19.83 + Free Store Pickup at REI or FS on $60+",
+      "url": "https://slickdeals.net/f/19924323-rei-co-op-men-s-or-women-s-midweight-base-layer-half-zip-top-various-19-83-free-store-pickup-at-rei-or-fs-on-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-08-25T18:01:10.000Z"
+    },
+    {
+      "title": "REI Co-op Merino 185 Men's Long-Sleeve Half-Zip Base Layer Top (Various) $29.83 + Free Shipping w/ REI Co-op membership or $60+",
+      "url": "https://slickdeals.net/f/19924167-rei-co-op-merino-185-men-s-long-sleeve-half-zip-base-layer-top-various-29-83-free-shipping-w-rei-co-op-membership-or-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-08-25T17:31:37.000Z"
+    },
+    {
+      "title": "2-Pack Aegend Kids' Swim Goggles w/ Anti-Fog UV Protection Lenses (Red & Pink) $6.99 ($3.49 each) + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19923765-2-pack-aegend-kids-swim-goggles-w-anti-fog-uv-protection-lenses-red-pink-6-99-3-49-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-25T16:11:21.000Z"
+    },
     {
       "title": "WOSPORTS 4K 48MP Night Vision Goggles, 80X Total Magnification, 1315FT Vision, 5000mAh Battery, IPX Waterproof $69.99",
       "url": "https://slickdeals.net/f/19917189-wosports-4k-48mp-night-vision-goggles-80x-total-magnification-1315ft-vision-5000mah-battery-ipx-waterproof-69-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -272,14 +296,6 @@
       "posted": "2026-07-31T02:36:15.000Z"
     },
     {
-      "title": "Amazon ~ 3M Lab Goggles/Safety Glasses 2 pair $6.74 after promo (1 pair $4.49)",
-      "url": "https://slickdeals.net/f/19827291-amazon-3m-lab-goggles-safety-glasses-2-pair-6-74-after-promo-1-pair-4-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-31T00:26:24.000Z"
-    },
-    {
       "title": "$50.76 w/coupon - DryGuy Shoe, Boot, Garment & Gear Electric Dryer, Quick Drying for Ski, Work, Sports Equipment – Energy Efficient, Odor Eliminating Design",
       "url": "https://slickdeals.net/f/19817385-50-76-w-coupon-dryguy-shoe-boot-garment-gear-electric-dryer-quick-drying-for-ski-work-sports-equipment-energy-efficient-odor-eliminating-design?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -293,7 +309,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     },
     {
@@ -302,7 +318,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     },
     {
@@ -311,7 +327,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     },
     {
@@ -320,7 +336,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     },
     {
@@ -329,7 +345,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     },
     {
@@ -338,7 +354,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     },
     {
@@ -347,7 +363,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     },
     {
@@ -356,7 +372,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     },
     {
@@ -365,7 +381,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-25T13:11:50.454Z",
+      "posted": "2026-08-26T13:17:13.938Z",
       "isAmazonSearch": true
     }
   ]
