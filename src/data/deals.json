@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-08-26T13:17:13.940Z",
+  "lastScanned": "2026-08-27T22:17:06.408Z",
   "totalDeals": 46,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 99,
+    "slickdeals": 98,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "GoPro MAX2 Ski Bundle $379.99",
+      "url": "https://slickdeals.net/f/19934535-gopro-max2-ski-bundle-379-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "skis",
+      "posted": "2026-08-27T19:56:51.000Z"
+    },
+    {
+      "title": "Giro Balance II OTG Ski & Snowboard Goggles w/ VIVID Lens (Stone Tan Stacked) $38.24 + Free Shipping",
+      "url": "https://slickdeals.net/f/19928280-giro-balance-ii-otg-ski-snowboard-goggles-w-vivid-lens-stone-tan-stacked-38-24-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-26T14:54:41.000Z"
+    },
+    {
+      "title": "Holoswim 2 Pro AR Smart Swimming Goggles $74.50 + Free Shipping",
+      "url": "https://slickdeals.net/f/19925382-holoswim-2-pro-ar-smart-swimming-goggles-74-50-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-25T22:09:51.000Z"
+    },
     {
       "title": "REI Co-op Men's or Women's Midweight Base Layer Half-Zip Top (Various) $19.83 + Free Store Pickup at REI or FS on $60+",
       "url": "https://slickdeals.net/f/19924323-rei-co-op-men-s-or-women-s-midweight-base-layer-half-zip-top-various-19-83-free-store-pickup-at-rei-or-fs-on-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -280,36 +304,12 @@
       "posted": "2026-07-31T12:59:25.000Z"
     },
     {
-      "title": "$6.99 | Adult Swim Goggles with Nose Cover- Black at Woot!",
-      "url": "https://slickdeals.net/f/19827915-6-99-adult-swim-goggles-with-nose-cover-black-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-31T05:08:26.000Z"
-    },
-    {
-      "title": "TELUHA Night Vision Goggles for Adults, 4K Night Vision Binoculars with 5000mAh Rechargeable Battery and 32GB TF Card for Hunting, Wildlife Observation and Security $39.99",
-      "url": "https://slickdeals.net/f/19827540-teluha-night-vision-goggles-for-adults-4k-night-vision-binoculars-with-5000mah-rechargeable-battery-and-32gb-tf-card-for-hunting-wildlife-observation-and-security-39-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-07-31T02:36:15.000Z"
-    },
-    {
-      "title": "$50.76 w/coupon - DryGuy Shoe, Boot, Garment & Gear Electric Dryer, Quick Drying for Ski, Work, Sports Equipment – Energy Efficient, Odor Eliminating Design",
-      "url": "https://slickdeals.net/f/19817385-50-76-w-coupon-dryguy-shoe-boot-garment-gear-electric-dryer-quick-drying-for-ski-work-sports-equipment-energy-efficient-odor-eliminating-design?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "boots",
-      "posted": "2026-07-28T13:47:08.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     },
     {
@@ -318,7 +318,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     },
     {
@@ -327,7 +327,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     },
     {
@@ -336,7 +336,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     },
     {
@@ -345,7 +345,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     },
     {
@@ -354,7 +354,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     },
     {
@@ -363,7 +363,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     },
     {
@@ -372,7 +372,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     },
     {
@@ -381,7 +381,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-26T13:17:13.938Z",
+      "posted": "2026-08-27T22:17:06.405Z",
       "isAmazonSearch": true
     }
   ]
