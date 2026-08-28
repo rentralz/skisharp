@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-08-27T22:17:06.408Z",
-  "totalDeals": 46,
+  "lastScanned": "2026-08-28T22:21:55.630Z",
+  "totalDeals": 47,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 98,
+    "slickdeals": 99,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Scorpion EXO Exo R430 Full Face Helmet Paradox Red: Sm $16.44, Med $35.20, Lrg $27.64 + Shipping",
+      "url": "https://slickdeals.net/f/19939656-scorpion-exo-exo-r430-full-face-helmet-paradox-red-sm-16-44-med-35-20-lrg-27-64-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "helmets",
+      "posted": "2026-08-28T22:05:57.000Z"
+    },
     {
       "title": "GoPro MAX2 Ski Bundle $379.99",
       "url": "https://slickdeals.net/f/19934535-gopro-max2-ski-bundle-379-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -309,7 +317,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     },
     {
@@ -318,7 +326,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     },
     {
@@ -327,7 +335,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     },
     {
@@ -336,7 +344,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     },
     {
@@ -345,7 +353,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     },
     {
@@ -354,7 +362,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     },
     {
@@ -363,7 +371,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     },
     {
@@ -372,7 +380,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     },
     {
@@ -381,7 +389,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-27T22:17:06.405Z",
+      "posted": "2026-08-28T22:21:55.628Z",
       "isAmazonSearch": true
     }
   ]
