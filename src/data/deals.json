@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-08-29T16:44:28.722Z",
-  "totalDeals": 48,
+  "lastScanned": "2026-08-30T16:42:16.834Z",
+  "totalDeals": 49,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 103,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Labeol Kids Balaclava Ski Mask w/ Adjustable Zippers (Pure Blue) $6.89 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19943676-labeol-kids-balaclava-ski-mask-w-adjustable-zippers-pure-blue-6-89-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-08-30T05:25:23.000Z"
+    },
     {
       "title": "Scorpion EXO Exo R430 Full Face Helmet Paradox Red: Sm $16.44, Med $35.20, Lrg $27.64 + Shipping",
       "url": "https://slickdeals.net/f/19939656-scorpion-exo-exo-r430-full-face-helmet-paradox-red-sm-16-44-med-35-20-lrg-27-64-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -38,6 +46,14 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-08-28T13:52:00.000Z"
+    },
+    {
+      "title": "Amazon – NSSIW 3-Pack Adult Swim Goggles - $12.99–$13.99 w/ Code",
+      "url": "https://slickdeals.net/f/19937721-amazon-nssiw-3-pack-adult-swim-goggles-12-99-13-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-08-28T13:47:27.000Z"
     },
     {
       "title": "GoPro MAX2 Ski Bundle $379.99",
@@ -312,20 +328,12 @@
       "posted": "2026-08-06T05:04:06.000Z"
     },
     {
-      "title": "3-Pack CIFOYA Kids Swim Goggles w/ Anti-Fog & UV Protection (3 Colors) $11.49 ($3.83 each) + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19847520-3-pack-cifoya-kids-swim-goggles-w-anti-fog-uv-protection-3-colors-11-49-3-83-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-05T20:18:25.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     },
     {
@@ -334,7 +342,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     },
     {
@@ -343,7 +351,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     },
     {
@@ -352,7 +360,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     },
     {
@@ -361,7 +369,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     },
     {
@@ -370,7 +378,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     },
     {
@@ -379,7 +387,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     },
     {
@@ -388,7 +396,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     },
     {
@@ -397,7 +405,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-08-29T16:44:28.719Z",
+      "posted": "2026-08-30T16:42:16.830Z",
       "isAmazonSearch": true
     }
   ]
