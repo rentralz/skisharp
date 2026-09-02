@@ -1,12 +1,44 @@
 {
-  "lastScanned": "2026-09-01T16:41:15.049Z",
-  "totalDeals": 49,
+  "lastScanned": "2026-09-02T16:35:55.123Z",
+  "totalDeals": 51,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 102,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "$8.85* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
+      "url": "https://slickdeals.net/f/19958745-8-85-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-09-02T07:09:40.000Z"
+    },
+    {
+      "title": "2-Pack Aegend Fabric Strap Swim Goggles w/ Nose Cover & Case (Various) from $8.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19956288-2-pack-aegend-fabric-strap-swim-goggles-w-nose-cover-case-various-from-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-01T19:30:06.000Z"
+    },
+    {
+      "title": "Club Med Ski Days Up To $1040 Instant Savings Plus More in the Alps, Canada and Japan Resorts - Book by September 15, 2026",
+      "url": "https://slickdeals.net/f/19955934-club-med-ski-days-up-to-1040-instant-savings-plus-more-in-the-alps-canada-and-japan-resorts-book-by-september-15-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "skis",
+      "posted": "2026-09-01T18:25:26.000Z"
+    },
+    {
+      "title": "Mossy Oak Men’s Base Layers Set Compression Pants & Shirt Thermal Wear for Men, Grey Melange Large $9.99",
+      "url": "https://slickdeals.net/f/19955847-mossy-oak-men-s-base-layers-set-compression-pants-shirt-thermal-wear-for-men-grey-melange-large-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-09-01T18:02:59.000Z"
+    },
     {
       "title": "Labeol Kids Balaclava Ski Mask w/ Adjustable Zippers (Pure Blue) $6.89 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19943676-labeol-kids-balaclava-ski-mask-w-adjustable-zippers-pure-blue-6-89-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -272,14 +304,6 @@
       "posted": "2026-08-13T11:49:52.000Z"
     },
     {
-      "title": "2-Pack Aegend Fabric Strap Swim Goggles w/ Nose Cover & Case (Various) from $8.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19872042-2-pack-aegend-fabric-strap-swim-goggles-w-nose-cover-case-various-from-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-12T19:27:33.000Z"
-    },
-    {
       "title": "REI Women's Co-op Midweight Base Layer Half-Zip Top (Various) $29.83 + Free Shipping $60+",
       "url": "https://slickdeals.net/f/19871136-rei-women-s-co-op-midweight-base-layer-half-zip-top-various-29-83-free-shipping-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -312,14 +336,6 @@
       "posted": "2026-08-06T20:29:24.000Z"
     },
     {
-      "title": "Amazon: Keary 2-Pack Kids Swim Goggles (Blue/Black) w/ UV Protection & Anti-Fog - $6.99",
-      "url": "https://slickdeals.net/f/19850055-amazon-keary-2-pack-kids-swim-goggles-blue-black-w-uv-protection-anti-fog-6-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-06T14:18:22.000Z"
-    },
-    {
       "title": "$6.99 | OnWander Waterproof Winter Warm Gloves at Woot!",
       "url": "https://slickdeals.net/f/19848675-6-99-onwander-waterproof-winter-warm-gloves-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -333,7 +349,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     },
     {
@@ -342,7 +358,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     },
     {
@@ -351,7 +367,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     },
     {
@@ -360,7 +376,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     },
     {
@@ -369,7 +385,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     },
     {
@@ -378,7 +394,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     },
     {
@@ -387,7 +403,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     },
     {
@@ -396,7 +412,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     },
     {
@@ -405,7 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-01T16:41:15.046Z",
+      "posted": "2026-09-02T16:35:55.121Z",
       "isAmazonSearch": true
     }
   ]
