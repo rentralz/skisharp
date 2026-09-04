@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-03T16:26:44.845Z",
+  "lastScanned": "2026-09-04T16:22:44.349Z",
   "totalDeals": 51,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 101,
+    "slickdeals": 100,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Amazon - Water Space 2 Pack Swim Goggles for Adult Youth - $4.99",
+      "url": "https://slickdeals.net/f/19965921-amazon-water-space-2-pack-swim-goggles-for-adult-youth-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-03T15:21:18.000Z"
+    },
     {
       "title": "6-Pack Frienda Full-Head Face Cover Breathable Balaclava Ski Masks (Various Colors) $7.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19964064-6-pack-frienda-full-head-face-cover-breathable-balaclava-ski-masks-various-colors-7-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -312,14 +320,6 @@
       "posted": "2026-08-13T20:22:38.000Z"
     },
     {
-      "title": "REI Co-op Men's Midweight Base Layer Half-Zip Top (Various) $29.93",
-      "url": "https://slickdeals.net/f/19874448-rei-co-op-men-s-midweight-base-layer-half-zip-top-various-29-93?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-08-13T11:49:52.000Z"
-    },
-    {
       "title": "WOSPORTS 4K 48MP Night Vision Goggles, 80X Total Magnification, 1315FT Vision, Rechargeable 5000mAh Battery, IPX Waterproof $69.99",
       "url": "https://slickdeals.net/f/19870641-wosports-4k-48mp-night-vision-goggles-80x-total-magnification-1315ft-vision-rechargeable-5000mah-battery-ipx-waterproof-69-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -349,7 +349,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     },
     {
@@ -358,7 +358,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     },
     {
@@ -367,7 +367,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     },
     {
@@ -376,7 +376,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     },
     {
@@ -385,7 +385,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     },
     {
@@ -394,7 +394,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     },
     {
@@ -403,7 +403,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     },
     {
@@ -412,7 +412,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     },
     {
@@ -421,7 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-03T16:26:44.842Z",
+      "posted": "2026-09-04T16:22:44.347Z",
       "isAmazonSearch": true
     }
   ]
