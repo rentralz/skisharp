@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-09-04T16:22:44.349Z",
-  "totalDeals": 51,
+  "lastScanned": "2026-09-05T15:15:40.697Z",
+  "totalDeals": 50,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 100,
+    "slickdeals": 102,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Ekouaer Women's Thermal Base Layer Pajama Sets (Various) $7.49 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19974108-ekouaer-women-s-thermal-base-layer-pajama-sets-various-7-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-05T04:44:45.000Z"
+    },
+    {
+      "title": "CIFOYA Kids Swim Goggles, 3 Pack Swimming Goggles for Kids 4-16, Anti-Fog UV Protection Pool Glasses for Boys Girls $11.49 AC + Free Shipping",
+      "url": "https://slickdeals.net/f/19973292-cifoya-kids-swim-goggles-3-pack-swimming-goggles-for-kids-4-16-anti-fog-uv-protection-pool-glasses-for-boys-girls-11-49-ac-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-04T23:52:26.000Z"
+    },
     {
       "title": "Amazon - Water Space 2 Pack Swim Goggles for Adult Youth - $4.99",
       "url": "https://slickdeals.net/f/19965921-amazon-water-space-2-pack-swim-goggles-for-adult-youth-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -296,14 +312,6 @@
       "posted": "2026-08-17T18:17:17.000Z"
     },
     {
-      "title": "Sailwind Men's Wool Base Layer Long Sleeve Crewneck Thermal Shirt $8.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19889517-sailwind-men-s-wool-base-layer-long-sleeve-crewneck-thermal-shirt-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-08-17T16:58:55.000Z"
-    },
-    {
       "title": "Aegend Adult & Youth Swim Goggles w/ Anti-Fog UV-Protective Lenses, Quick-Release Clasp & Case (Select Styles/Colors) $2.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19879902-aegend-adult-youth-swim-goggles-w-anti-fog-uv-protective-lenses-quick-release-clasp-case-select-styles-colors-2-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -328,28 +336,12 @@
       "posted": "2026-08-12T12:39:56.000Z"
     },
     {
-      "title": "Kids 3-Pack QALLY Kids Anti-Fog UV Protection Swimming Goggles (Ages 4-16, Various) $9.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19867767-kids-3-pack-qally-kids-anti-fog-uv-protection-swimming-goggles-ages-4-16-various-9-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-11T18:52:02.000Z"
-    },
-    {
-      "title": "$6.99 | OnWander Waterproof Winter Warm Gloves at Woot!",
-      "url": "https://slickdeals.net/f/19848675-6-99-onwander-waterproof-winter-warm-gloves-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-08-06T05:04:06.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     },
     {
@@ -358,7 +350,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     },
     {
@@ -367,7 +359,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     },
     {
@@ -376,7 +368,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     },
     {
@@ -385,7 +377,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     },
     {
@@ -394,7 +386,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     },
     {
@@ -403,7 +395,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     },
     {
@@ -412,7 +404,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     },
     {
@@ -421,7 +413,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-04T16:22:44.347Z",
+      "posted": "2026-09-05T15:15:40.695Z",
       "isAmazonSearch": true
     }
   ]
