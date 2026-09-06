@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-09-05T15:15:40.697Z",
-  "totalDeals": 50,
+  "lastScanned": "2026-09-06T15:29:05.594Z",
+  "totalDeals": 49,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 102,
+    "slickdeals": 100,
     "amazon": 9
   },
   "deals": [
@@ -328,20 +328,12 @@
       "posted": "2026-08-13T20:22:38.000Z"
     },
     {
-      "title": "WOSPORTS 4K 48MP Night Vision Goggles, 80X Total Magnification, 1315FT Vision, Rechargeable 5000mAh Battery, IPX Waterproof $69.99",
-      "url": "https://slickdeals.net/f/19870641-wosports-4k-48mp-night-vision-goggles-80x-total-magnification-1315ft-vision-rechargeable-5000mah-battery-ipx-waterproof-69-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-12T12:39:56.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     },
     {
@@ -350,7 +342,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     },
     {
@@ -359,7 +351,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     },
     {
@@ -368,7 +360,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     },
     {
@@ -377,7 +369,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     },
     {
@@ -386,7 +378,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     },
     {
@@ -395,7 +387,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     },
     {
@@ -404,7 +396,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     },
     {
@@ -413,7 +405,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-05T15:15:40.695Z",
+      "posted": "2026-09-06T15:29:05.592Z",
       "isAmazonSearch": true
     }
   ]
