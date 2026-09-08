@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-07T17:45:17.277Z",
-  "totalDeals": 48,
+  "lastScanned": "2026-09-08T16:39:31.832Z",
+  "totalDeals": 46,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 99,
+    "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aegend Diving Mask for Adult Youth Diver Anti-Fog Comfort Snorkel Goggles $7.99",
+      "url": "https://slickdeals.net/f/19982088-aegend-diving-mask-for-adult-youth-diver-anti-fog-comfort-snorkel-goggles-7-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-07T14:05:36.000Z"
+    },
     {
       "title": "Ekouaer Women's Thermal Base Layer Pajama Sets (Various) $7.49 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/19974108-ekouaer-women-s-thermal-base-layer-pajama-sets-various-7-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -128,14 +136,6 @@
       "posted": "2026-08-28T13:47:27.000Z"
     },
     {
-      "title": "GoPro MAX2 Ski Bundle $379.99",
-      "url": "https://slickdeals.net/f/19934535-gopro-max2-ski-bundle-379-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "skis",
-      "posted": "2026-08-27T19:56:51.000Z"
-    },
-    {
       "title": "Ekouaer Womens Turtleneck Long Sleeve Shirts Basic Thermal Underwear Tops $4.99",
       "url": "https://slickdeals.net/f/19933869-ekouaer-womens-turtleneck-long-sleeve-shirts-basic-thermal-underwear-tops-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -158,22 +158,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-08-25T22:09:51.000Z"
-    },
-    {
-      "title": "REI Co-op Men's or Women's Midweight Base Layer Half-Zip Top (Various) $19.83 + Free Store Pickup at REI or FS on $60+",
-      "url": "https://slickdeals.net/f/19924323-rei-co-op-men-s-or-women-s-midweight-base-layer-half-zip-top-various-19-83-free-store-pickup-at-rei-or-fs-on-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-08-25T18:01:10.000Z"
-    },
-    {
-      "title": "REI Co-op Merino 185 Men's Long-Sleeve Half-Zip Base Layer Top (Various) $29.83 + Free Shipping w/ REI Co-op membership or $60+",
-      "url": "https://slickdeals.net/f/19924167-rei-co-op-merino-185-men-s-long-sleeve-half-zip-base-layer-top-various-29-83-free-shipping-w-rei-co-op-membership-or-60?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-08-25T17:31:37.000Z"
     },
     {
       "title": "2-Pack Aegend Kids' Swim Goggles w/ Anti-Fog UV Protection Lenses (Red & Pink) $6.99 ($3.49 each) + Free Shipping w/ Prime or on $35+",
@@ -325,7 +309,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     },
     {
@@ -334,7 +318,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     },
     {
@@ -343,7 +327,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     },
     {
@@ -352,7 +336,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     },
     {
@@ -361,7 +345,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     },
     {
@@ -370,7 +354,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     },
     {
@@ -379,7 +363,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     },
     {
@@ -388,7 +372,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     },
     {
@@ -397,7 +381,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-07T17:45:17.274Z",
+      "posted": "2026-09-08T16:39:31.830Z",
       "isAmazonSearch": true
     }
   ]
