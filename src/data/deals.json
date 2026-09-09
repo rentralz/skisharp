@@ -1,6 +1,6 @@
 {
-  "lastScanned": "2026-09-08T16:39:31.832Z",
-  "totalDeals": 46,
+  "lastScanned": "2026-09-09T16:39:47.417Z",
+  "totalDeals": 48,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 96,
@@ -8,12 +8,44 @@
   },
   "deals": [
     {
+      "title": "Helly Hansen Alpha 4.0 Ski Jacket - Waterproof, Insulated, RECCO $179.99 (L, XL)",
+      "url": "https://slickdeals.net/f/19991823-helly-hansen-alpha-4-0-ski-jacket-waterproof-insulated-recco-179-99-l-xl?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-09-09T13:38:01.000Z"
+    },
+    {
+      "title": "Outdoor Research Archangel Bib Snow Pant - Women's $174.74",
+      "url": "https://slickdeals.net/f/19990716-outdoor-research-archangel-bib-snow-pant-women-s-174-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-09-09T07:14:22.000Z"
+    },
+    {
+      "title": "Prime: Aegend Swim Goggles 220° Wide View Anti Fog UV Protection Multiple Colors/Sizes Available $7.69 + Free Shipping",
+      "url": "https://slickdeals.net/f/19982103-prime-aegend-swim-goggles-220-wide-view-anti-fog-uv-protection-multiple-colors-sizes-available-7-69-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-07T14:07:52.000Z"
+    },
+    {
       "title": "Aegend Diving Mask for Adult Youth Diver Anti-Fog Comfort Snorkel Goggles $7.99",
       "url": "https://slickdeals.net/f/19982088-aegend-diving-mask-for-adult-youth-diver-anti-fog-comfort-snorkel-goggles-7-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-07T14:05:36.000Z"
+    },
+    {
+      "title": "WARMTUYO 4K Night Vision Goggles for Adults, Digital Binoculars with Camera $44.99",
+      "url": "https://slickdeals.net/f/19981917-warmtuyo-4k-night-vision-goggles-for-adults-digital-binoculars-with-camera-44-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-07T13:31:40.000Z"
     },
     {
       "title": "Ekouaer Women's Thermal Base Layer Pajama Sets (Various) $7.49 + Free Shipping w/ Prime or on $35+",
@@ -288,28 +320,12 @@
       "posted": "2026-08-17T18:17:17.000Z"
     },
     {
-      "title": "Aegend Adult & Youth Swim Goggles w/ Anti-Fog UV-Protective Lenses, Quick-Release Clasp & Case (Select Styles/Colors) $2.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19879902-aegend-adult-youth-swim-goggles-w-anti-fog-uv-protective-lenses-quick-release-clasp-case-select-styles-colors-2-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-14T19:27:35.000Z"
-    },
-    {
-      "title": "Keary Anti-Fog UV Protection Swim Goggles (Black) $3.50 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19876299-keary-anti-fog-uv-protection-swim-goggles-black-3-50-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-13T20:22:38.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     },
     {
@@ -318,7 +334,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     },
     {
@@ -327,7 +343,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     },
     {
@@ -336,7 +352,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     },
     {
@@ -345,7 +361,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     },
     {
@@ -354,7 +370,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     },
     {
@@ -363,7 +379,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     },
     {
@@ -372,7 +388,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     },
     {
@@ -381,7 +397,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-08T16:39:31.830Z",
+      "posted": "2026-09-09T16:39:47.415Z",
       "isAmazonSearch": true
     }
   ]
