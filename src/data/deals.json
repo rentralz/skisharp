@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-09-13T16:19:07.414Z",
-  "totalDeals": 50,
+  "lastScanned": "2026-09-14T18:05:16.824Z",
+  "totalDeals": 53,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 94,
+    "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Aspen Snowmass (Aspen Mountain, Highlands, Buttermilk & Snowmass) 80th Anniversary Ski Lift Tickets $80 on Dec 12 & 13; $3.75 on Dec 14 Only *Limited Quantity*",
+      "url": "https://slickdeals.net/f/20013729-aspen-snowmass-aspen-mountain-highlands-buttermilk-snowmass-80th-anniversary-ski-lift-tickets-80-on-dec-12-13-3-75-on-dec-14-only-limited-quantity?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "skis",
+      "posted": "2026-09-14T16:20:44.000Z"
+    },
+    {
+      "title": "CAMEL CROWN Men's Waterproof Ski Jacket w/ Detachable Hood & Fleece Lining (various) $24.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20013708-camel-crown-men-s-waterproof-ski-jacket-w-detachable-hood-fleece-lining-various-24-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-09-14T16:19:13.000Z"
+    },
+    {
+      "title": "Prime: Barjneel Mens Fleece Lined Sweatpants Winter Thermal Joggers $19.54 + Free Shipping",
+      "url": "https://slickdeals.net/f/20012826-prime-barjneel-mens-fleece-lined-sweatpants-winter-thermal-joggers-19-54-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-14T14:17:40.000Z"
+    },
     {
       "title": "CAMELSPORTS Mens Winter Jacket Waterproof Warm Snow Ski Jackets Faux Fur Fleece Rain Coats with Removable Hood $19.99",
       "url": "https://slickdeals.net/f/20002911-camelsports-mens-winter-jacket-waterproof-warm-snow-ski-jackets-faux-fur-fleece-rain-coats-with-removable-hood-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -341,7 +365,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     },
     {
@@ -350,7 +374,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     },
     {
@@ -359,7 +383,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     },
     {
@@ -368,7 +392,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     },
     {
@@ -377,7 +401,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     },
     {
@@ -386,7 +410,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     },
     {
@@ -395,7 +419,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     },
     {
@@ -404,7 +428,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     },
     {
@@ -413,7 +437,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-13T16:19:07.411Z",
+      "posted": "2026-09-14T18:05:16.822Z",
       "isAmazonSearch": true
     }
   ]
