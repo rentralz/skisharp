@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-14T18:05:16.824Z",
-  "totalDeals": 53,
+  "lastScanned": "2026-09-15T17:00:50.118Z",
+  "totalDeals": 54,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "LOMON 2 Piece Set, Thermal Underwear for Women Starting at $7.49 AC",
+      "url": "https://slickdeals.net/f/20017983-lomon-2-piece-set-thermal-underwear-for-women-starting-at-7-49-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-15T14:14:39.000Z"
+    },
     {
       "title": "Aspen Snowmass (Aspen Mountain, Highlands, Buttermilk & Snowmass) 80th Anniversary Ski Lift Tickets $80 on Dec 12 & 13; $3.75 on Dec 14 Only *Limited Quantity*",
       "url": "https://slickdeals.net/f/20013729-aspen-snowmass-aspen-mountain-highlands-buttermilk-snowmass-80th-anniversary-ski-lift-tickets-80-on-dec-12-13-3-75-on-dec-14-only-limited-quantity?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -24,12 +32,28 @@
       "posted": "2026-09-14T16:19:13.000Z"
     },
     {
+      "title": "QALLY Kids Swim Goggles, 3 Pack Swimming Goggles for Kids 4-16 $12.49",
+      "url": "https://slickdeals.net/f/20013492-qally-kids-swim-goggles-3-pack-swimming-goggles-for-kids-4-16-12-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-14T15:51:13.000Z"
+    },
+    {
       "title": "Prime: Barjneel Mens Fleece Lined Sweatpants Winter Thermal Joggers $19.54 + Free Shipping",
       "url": "https://slickdeals.net/f/20012826-prime-barjneel-mens-fleece-lined-sweatpants-winter-thermal-joggers-19-54-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-09-14T14:17:40.000Z"
+    },
+    {
+      "title": "Freela Kids Swim Goggles, 2 Packs Swimming Goggles for Kids 3-14, Anti Fog UV Protection No Leaking $5.99",
+      "url": "https://slickdeals.net/f/20012619-freela-kids-swim-goggles-2-packs-swimming-goggles-for-kids-3-14-anti-fog-uv-protection-no-leaking-5-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-14T13:27:00.000Z"
     },
     {
       "title": "CAMELSPORTS Mens Winter Jacket Waterproof Warm Snow Ski Jackets Faux Fur Fleece Rain Coats with Removable Hood $19.99",
@@ -336,22 +360,6 @@
       "posted": "2026-08-21T03:31:05.000Z"
     },
     {
-      "title": "3-Pack Aegend Kids' Anti-Fog Swim Goggles $6.99 ($2.33 each) + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19903935-3-pack-aegend-kids-anti-fog-swim-goggles-6-99-2-33-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-20T22:13:11.000Z"
-    },
-    {
-      "title": "VISIOGEAR Night Thunder X3 4K Night Vision Goggles for Adults, 2000ft Range, 5000mAh Battery, 32GB Card, AI Color Mode $39.99",
-      "url": "https://slickdeals.net/f/19896639-visiogear-night-thunder-x3-4k-night-vision-goggles-for-adults-2000ft-range-5000mah-battery-32gb-card-ai-color-mode-39-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-19T11:12:45.000Z"
-    },
-    {
       "title": "[Prime] YANIKY Multifunctional Cooling Moisture-Wicking Do-Rag Bandana/Helmet Liner/Neck Gaiter (Black or Color Mixing) $4.99 + Free Shipping",
       "url": "https://slickdeals.net/f/19893276-prime-yaniky-multifunctional-cooling-moisture-wicking-do-rag-bandana-helmet-liner-neck-gaiter-black-or-color-mixing-4-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -365,7 +373,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     },
     {
@@ -374,7 +382,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     },
     {
@@ -383,7 +391,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     },
     {
@@ -392,7 +400,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     },
     {
@@ -401,7 +409,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     },
     {
@@ -410,7 +418,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     },
     {
@@ -419,7 +427,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     },
     {
@@ -428,7 +436,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     },
     {
@@ -437,7 +445,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-14T18:05:16.822Z",
+      "posted": "2026-09-15T17:00:50.115Z",
       "isAmazonSearch": true
     }
   ]
