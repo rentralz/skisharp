@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-15T17:00:50.118Z",
-  "totalDeals": 54,
+  "lastScanned": "2026-09-16T16:57:49.635Z",
+  "totalDeals": 55,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 96,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Amazon – BOOJO Men's Fleece-Lined Thermal Underwear Set - $18.99 w/ Code",
+      "url": "https://slickdeals.net/f/20023404-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-18-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-16T16:04:39.000Z"
+    },
     {
       "title": "LOMON 2 Piece Set, Thermal Underwear for Women Starting at $7.49 AC",
       "url": "https://slickdeals.net/f/20017983-lomon-2-piece-set-thermal-underwear-for-women-starting-at-7-49-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -38,6 +46,14 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-14T15:51:13.000Z"
+    },
+    {
+      "title": "Ceoutdoor Mens Flannel Jacket Fleece Sherpa Plaid Winter Zip Up Hoodies $19.99",
+      "url": "https://slickdeals.net/f/20012910-ceoutdoor-mens-flannel-jacket-fleece-sherpa-plaid-winter-zip-up-hoodies-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-09-14T14:32:13.000Z"
     },
     {
       "title": "Prime: Barjneel Mens Fleece Lined Sweatpants Winter Thermal Joggers $19.54 + Free Shipping",
@@ -174,14 +190,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-07T13:31:40.000Z"
-    },
-    {
-      "title": "Ekouaer Women's Thermal Base Layer Pajama Sets (Various) $7.49 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19974108-ekouaer-women-s-thermal-base-layer-pajama-sets-various-7-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-05T04:44:45.000Z"
     },
     {
       "title": "CIFOYA Kids Swim Goggles, 3 Pack Swimming Goggles for Kids 4-16, Anti-Fog UV Protection Pool Glasses for Boys Girls $11.49 AC + Free Shipping",
@@ -373,7 +381,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     },
     {
@@ -382,7 +390,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     },
     {
@@ -391,7 +399,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     },
     {
@@ -400,7 +408,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     },
     {
@@ -409,7 +417,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     },
     {
@@ -418,7 +426,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     },
     {
@@ -427,7 +435,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     },
     {
@@ -436,7 +444,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     },
     {
@@ -445,7 +453,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-15T17:00:50.115Z",
+      "posted": "2026-09-16T16:57:49.634Z",
       "isAmazonSearch": true
     }
   ]
