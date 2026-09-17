@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-16T16:57:49.635Z",
+  "lastScanned": "2026-09-17T17:01:00.386Z",
   "totalDeals": 55,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 96,
+    "slickdeals": 98,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "LOL Surprise Girls' Pink Swim Goggles w/ Hard Shell Case & Mesh Drawstring Bag $3.67 + Free Shipping w/ Walmart+ or on $35+",
+      "url": "https://slickdeals.net/f/20024670-lol-surprise-girls-pink-swim-goggles-w-hard-shell-case-mesh-drawstring-bag-3-67-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-09-16T20:19:46.000Z"
+    },
     {
       "title": "Amazon – BOOJO Men's Fleece-Lined Thermal Underwear Set - $18.99 w/ Code",
       "url": "https://slickdeals.net/f/20023404-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-18-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +22,14 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-09-16T16:04:39.000Z"
+    },
+    {
+      "title": "Two pack Swim Goggles for Kids, $4.67 w/ code",
+      "url": "https://slickdeals.net/f/20022912-two-pack-swim-goggles-for-kids-4-67-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-16T14:30:08.000Z"
     },
     {
       "title": "LOMON 2 Piece Set, Thermal Underwear for Women Starting at $7.49 AC",
@@ -126,6 +142,14 @@
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-09-10T14:41:57.000Z"
+    },
+    {
+      "title": "GOESTRIC Waterproof Insulated Winter Work Gloves $6",
+      "url": "https://slickdeals.net/f/19996461-goestric-waterproof-insulated-winter-work-gloves-6?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-09-10T13:41:24.000Z"
     },
     {
       "title": "WISHBETY 4K Night Vision Goggles for Adult,16X Zoom Night Vision Binoculars $44.99",
@@ -344,14 +368,6 @@
       "posted": "2026-08-21T20:35:22.000Z"
     },
     {
-      "title": "Aegend Swim Goggles with Nose Cover for Adults, Tempered Glass Mask $9.49",
-      "url": "https://slickdeals.net/f/19907928-aegend-swim-goggles-with-nose-cover-for-adults-tempered-glass-mask-9-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-21T19:59:17.000Z"
-    },
-    {
       "title": "$6.98 AMAZON TRENDOUX Winter Gloves for Men Women Med or Large - Upgraded Touch Screen Cold Weather Thermal Warm Knit Glove",
       "url": "https://slickdeals.net/f/19904724-6-98-amazon-trendoux-winter-gloves-for-men-women-med-or-large-upgraded-touch-screen-cold-weather-thermal-warm-knit-glove?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -360,28 +376,12 @@
       "posted": "2026-08-21T03:36:21.000Z"
     },
     {
-      "title": "Vorshape Swim Goggles for 2 Pack Clear Vision Anti-Fog Anti-UV Comfort Fit Goggles $4.49",
-      "url": "https://slickdeals.net/f/19904715-vorshape-swim-goggles-for-2-pack-clear-vision-anti-fog-anti-uv-comfort-fit-goggles-4-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-21T03:31:05.000Z"
-    },
-    {
-      "title": "[Prime] YANIKY Multifunctional Cooling Moisture-Wicking Do-Rag Bandana/Helmet Liner/Neck Gaiter (Black or Color Mixing) $4.99 + Free Shipping",
-      "url": "https://slickdeals.net/f/19893276-prime-yaniky-multifunctional-cooling-moisture-wicking-do-rag-bandana-helmet-liner-neck-gaiter-black-or-color-mixing-4-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "helmets",
-      "posted": "2026-08-18T15:19:15.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     },
     {
@@ -390,7 +390,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     },
     {
@@ -399,7 +399,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     },
     {
@@ -408,7 +408,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     },
     {
@@ -417,7 +417,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     },
     {
@@ -426,7 +426,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     },
     {
@@ -435,7 +435,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     },
     {
@@ -444,7 +444,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     },
     {
@@ -453,7 +453,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-16T16:57:49.634Z",
+      "posted": "2026-09-17T17:01:00.383Z",
       "isAmazonSearch": true
     }
   ]
