@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-09-18T16:25:21.591Z",
-  "totalDeals": 59,
+  "lastScanned": "2026-09-19T15:54:10.312Z",
+  "totalDeals": 60,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 106,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Amazon – Barjneel Men’s Fleece-Lined Thermal Underwear Bottoms - $7.99 w/ Code",
+      "url": "https://slickdeals.net/f/20034420-amazon-barjneel-men-s-fleece-lined-thermal-underwear-bottoms-7-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-18T20:29:49.000Z"
+    },
+    {
+      "title": "WISHBETY 4K Night Vision Goggles for Adult,5000mAh Night Vision Binoculars $44.99",
+      "url": "https://slickdeals.net/f/20034243-wishbety-4k-night-vision-goggles-for-adult-5000mah-night-vision-binoculars-44-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-18T19:57:42.000Z"
+    },
     {
       "title": "CAMEL CROWN Women's Waterproof Winter Ski Jacket w/ Hood (Black, Dark Purple) from $19.99-$29.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20032110-camel-crown-women-s-waterproof-winter-ski-jacket-w-hood-black-dark-purple-from-19-99-29-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -360,14 +376,6 @@
       "posted": "2026-08-25T16:11:21.000Z"
     },
     {
-      "title": "WOSPORTS 4K 48MP Night Vision Goggles, 80X Total Magnification, 1315FT Vision, 5000mAh Battery, IPX Waterproof $69.99",
-      "url": "https://slickdeals.net/f/19917189-wosports-4k-48mp-night-vision-goggles-80x-total-magnification-1315ft-vision-5000mah-battery-ipx-waterproof-69-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-24T12:22:35.000Z"
-    },
-    {
       "title": "Giro Neo Snow Helmet - Metallic Coal/Tan - Size S (52-55.5cm) $30.22",
       "url": "https://slickdeals.net/f/19914393-giro-neo-snow-helmet-metallic-coal-tan-size-s-52-55-5cm-30-22?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -413,7 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +430,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +439,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +448,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     },
     {
@@ -449,7 +457,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     },
     {
@@ -458,7 +466,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     },
     {
@@ -467,7 +475,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     },
     {
@@ -476,7 +484,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     },
     {
@@ -485,7 +493,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-18T16:25:21.589Z",
+      "posted": "2026-09-19T15:54:10.310Z",
       "isAmazonSearch": true
     }
   ]
