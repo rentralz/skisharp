@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-09-19T15:54:10.312Z",
-  "totalDeals": 60,
+  "lastScanned": "2026-09-20T16:08:14.310Z",
+  "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 106,
+    "slickdeals": 107,
     "amazon": 9
   },
   "deals": [
@@ -22,6 +22,14 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-18T19:57:42.000Z"
+    },
+    {
+      "title": "Amazon - 2-Pack Kids Swim Goggles with Nose Cover Anti-Shattered No-Leak 3-15 - $8.79",
+      "url": "https://slickdeals.net/f/20033355-amazon-2-pack-kids-swim-goggles-with-nose-cover-anti-shattered-no-leak-3-15-8-79?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-18T16:20:53.000Z"
     },
     {
       "title": "CAMEL CROWN Women's Waterproof Winter Ski Jacket w/ Hood (Black, Dark Purple) from $19.99-$29.99 + Free Shipping w/ Prime or on $35+",
@@ -368,14 +376,6 @@
       "posted": "2026-08-25T22:09:51.000Z"
     },
     {
-      "title": "2-Pack Aegend Kids' Swim Goggles w/ Anti-Fog UV Protection Lenses (Red & Pink) $6.99 ($3.49 each) + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19923765-2-pack-aegend-kids-swim-goggles-w-anti-fog-uv-protection-lenses-red-pink-6-99-3-49-each-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-25T16:11:21.000Z"
-    },
-    {
       "title": "Giro Neo Snow Helmet - Metallic Coal/Tan - Size S (52-55.5cm) $30.22",
       "url": "https://slickdeals.net/f/19914393-giro-neo-snow-helmet-metallic-coal-tan-size-s-52-55-5cm-30-22?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -408,20 +408,12 @@
       "posted": "2026-08-21T20:35:22.000Z"
     },
     {
-      "title": "$6.98 AMAZON TRENDOUX Winter Gloves for Men Women Med or Large - Upgraded Touch Screen Cold Weather Thermal Warm Knit Glove",
-      "url": "https://slickdeals.net/f/19904724-6-98-amazon-trendoux-winter-gloves-for-men-women-med-or-large-upgraded-touch-screen-cold-weather-thermal-warm-knit-glove?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-08-21T03:36:21.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     },
     {
@@ -430,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     },
     {
@@ -439,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     },
     {
@@ -448,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     },
     {
@@ -457,7 +449,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     },
     {
@@ -466,7 +458,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     },
     {
@@ -475,7 +467,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     },
     {
@@ -484,7 +476,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     },
     {
@@ -493,7 +485,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-19T15:54:10.310Z",
+      "posted": "2026-09-20T16:08:14.308Z",
       "isAmazonSearch": true
     }
   ]
