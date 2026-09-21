@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-20T16:08:14.310Z",
-  "totalDeals": 59,
+  "lastScanned": "2026-09-21T18:12:57.680Z",
+  "totalDeals": 57,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 107,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Amazon – BOOJO Men's Fleece-Lined Thermal Underwear Set - $13.99 w/ Code",
+      "url": "https://slickdeals.net/f/20043951-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-13-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-21T15:28:53.000Z"
+    },
     {
       "title": "Amazon – Barjneel Men’s Fleece-Lined Thermal Underwear Bottoms - $7.99 w/ Code",
       "url": "https://slickdeals.net/f/20034420-amazon-barjneel-men-s-fleece-lined-thermal-underwear-bottoms-7-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -182,14 +190,6 @@
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-09-11T14:07:20.000Z"
-    },
-    {
-      "title": "Barjneel Men's Fleece Lined Thermal Underwear Long Johns Base Layer Pants (Black) from $8.89 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19998423-barjneel-men-s-fleece-lined-thermal-underwear-long-johns-base-layer-pants-black-from-8-89-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-09-10T20:09:13.000Z"
     },
     {
       "title": "Amazon - Seago Kids Swim Goggles with Nose Cover Anti-Fog Swimming Mask Youth 5-15 - $4.99",
@@ -392,28 +392,12 @@
       "posted": "2026-08-22T23:16:41.000Z"
     },
     {
-      "title": "[NEW] $13.19 | HydraHyde Insulated Split Leather Winter Work Gloves (Wells Lamont 1196) at Amazon",
-      "url": "https://slickdeals.net/f/19908435-new-13-19-hydrahyde-insulated-split-leather-winter-work-gloves-wells-lamont-1196-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-08-21T22:25:40.000Z"
-    },
-    {
-      "title": "CAMELSPORTS Men's 3-in-1 Waterproof Hooded Mountain Ski Jacket (3 colors) $24.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19908024-camelsports-men-s-3-in-1-waterproof-hooded-mountain-ski-jacket-3-colors-24-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-08-21T20:35:22.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     },
     {
@@ -449,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     },
     {
@@ -458,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     },
     {
@@ -467,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     },
     {
@@ -476,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     },
     {
@@ -485,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-20T16:08:14.308Z",
+      "posted": "2026-09-21T18:12:57.678Z",
       "isAmazonSearch": true
     }
   ]
