@@ -1,6 +1,6 @@
 {
-  "lastScanned": "2026-09-21T18:12:57.680Z",
-  "totalDeals": 57,
+  "lastScanned": "2026-09-22T16:58:26.744Z",
+  "totalDeals": 55,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 107,
@@ -9,11 +9,19 @@
   "deals": [
     {
       "title": "Amazon – BOOJO Men's Fleece-Lined Thermal Underwear Set - $13.99 w/ Code",
-      "url": "https://slickdeals.net/f/20043951-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-13-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "url": "https://slickdeals.net/f/20048667-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-13-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "baselayers",
-      "posted": "2026-09-21T15:28:53.000Z"
+      "posted": "2026-09-22T14:39:48.000Z"
+    },
+    {
+      "title": "2 Packs Freela Kids Swim Goggles, Swimming Goggles for Kids 3-14 Anti Fog UV Protection No Leaking $5.99",
+      "url": "https://slickdeals.net/f/20043186-2-packs-freela-kids-swim-goggles-swimming-goggles-for-kids-3-14-anti-fog-uv-protection-no-leaking-5-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-21T13:18:24.000Z"
     },
     {
       "title": "Amazon – Barjneel Men’s Fleece-Lined Thermal Underwear Bottoms - $7.99 w/ Code",
@@ -174,14 +182,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-09-11T18:55:08.000Z"
-    },
-    {
-      "title": "Amazon – 2-Pack Men's Fleece-Lined Thermal Underwear Pants - $17.49 w/ Code",
-      "url": "https://slickdeals.net/f/20001876-amazon-2-pack-men-s-fleece-lined-thermal-underwear-pants-17-49-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-09-11T15:28:32.000Z"
     },
     {
       "title": "CAMELSPORTS Men's Winter Ski Jacket Snow Coats Waterproof Detachable Hood Windproof Rain Jackets $24.99",
@@ -368,14 +368,6 @@
       "posted": "2026-08-26T14:54:41.000Z"
     },
     {
-      "title": "Holoswim 2 Pro AR Smart Swimming Goggles $74.50 + Free Shipping",
-      "url": "https://slickdeals.net/f/19925382-holoswim-2-pro-ar-smart-swimming-goggles-74-50-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-25T22:09:51.000Z"
-    },
-    {
       "title": "Giro Neo Snow Helmet - Metallic Coal/Tan - Size S (52-55.5cm) $30.22",
       "url": "https://slickdeals.net/f/19914393-giro-neo-snow-helmet-metallic-coal-tan-size-s-52-55-5cm-30-22?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -384,20 +376,12 @@
       "posted": "2026-08-23T19:46:52.000Z"
     },
     {
-      "title": "UTWGN Men's Ski Jacket Winter Warm Snow Coat Waterproof Windbreaker Hooded Work Outerwear Snowboarding Jackets $19.99",
-      "url": "https://slickdeals.net/f/19911522-utwgn-men-s-ski-jacket-winter-warm-snow-coat-waterproof-windbreaker-hooded-work-outerwear-snowboarding-jackets-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-08-22T23:16:41.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     },
     {
@@ -406,7 +390,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     },
     {
@@ -415,7 +399,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     },
     {
@@ -424,7 +408,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     },
     {
@@ -433,7 +417,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     },
     {
@@ -442,7 +426,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     },
     {
@@ -451,7 +435,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     },
     {
@@ -460,7 +444,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     },
     {
@@ -469,7 +453,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-21T18:12:57.678Z",
+      "posted": "2026-09-22T16:58:26.742Z",
       "isAmazonSearch": true
     }
   ]
