@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-09-22T16:58:26.744Z",
+  "lastScanned": "2026-09-23T17:01:32.144Z",
   "totalDeals": 55,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 107,
+    "slickdeals": 108,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "3-Pack Ekouaer Women's Lightweight Thermal Underwear Base Layer $14.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20054001-3-pack-ekouaer-women-s-lightweight-thermal-underwear-base-layer-14-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-23T16:49:19.000Z"
+    },
+    {
+      "title": "EyePop 3-in-1 Interchangeable Kids' Swim Goggle Set $1.78 + Free Shipping w/ Walmart+ or on $35+",
+      "url": "https://slickdeals.net/f/20049102-eyepop-3-in-1-interchangeable-kids-swim-goggle-set-1-78-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-22T15:43:05.000Z"
+    },
     {
       "title": "Amazon – BOOJO Men's Fleece-Lined Thermal Underwear Set - $13.99 w/ Code",
       "url": "https://slickdeals.net/f/20048667-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-13-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -150,14 +166,6 @@
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-09-14T14:32:13.000Z"
-    },
-    {
-      "title": "Prime: Barjneel Mens Fleece Lined Sweatpants Winter Thermal Joggers $19.54 + Free Shipping",
-      "url": "https://slickdeals.net/f/20012826-prime-barjneel-mens-fleece-lined-sweatpants-winter-thermal-joggers-19-54-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-14T14:17:40.000Z"
     },
     {
       "title": "Freela Kids Swim Goggles, 2 Packs Swimming Goggles for Kids 3-14, Anti Fog UV Protection No Leaking $5.99",
@@ -368,20 +376,12 @@
       "posted": "2026-08-26T14:54:41.000Z"
     },
     {
-      "title": "Giro Neo Snow Helmet - Metallic Coal/Tan - Size S (52-55.5cm) $30.22",
-      "url": "https://slickdeals.net/f/19914393-giro-neo-snow-helmet-metallic-coal-tan-size-s-52-55-5cm-30-22?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "helmets",
-      "posted": "2026-08-23T19:46:52.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     },
     {
@@ -390,7 +390,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     },
     {
@@ -399,7 +399,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     },
     {
@@ -408,7 +408,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     },
     {
@@ -417,7 +417,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     },
     {
@@ -426,7 +426,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     },
     {
@@ -435,7 +435,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     },
     {
@@ -444,7 +444,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     },
     {
@@ -453,7 +453,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-22T16:58:26.742Z",
+      "posted": "2026-09-23T17:01:32.142Z",
       "isAmazonSearch": true
     }
   ]
