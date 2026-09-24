@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-09-23T17:01:32.144Z",
-  "totalDeals": 55,
+  "lastScanned": "2026-09-24T17:12:59.225Z",
+  "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 108,
+    "slickdeals": 110,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "[Prime Members] AstroAI Windproof Ski Mask, Winter Thermal Fleece Balaclava $6.49",
+      "url": "https://slickdeals.net/f/20057523-prime-members-astroai-windproof-ski-mask-winter-thermal-fleece-balaclava-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-24T14:50:32.000Z"
+    },
+    {
+      "title": "3-Pack 2-Piece Ekouaer Women's Lightweight Base Layer Thermal Underwear Sets (Black/Black/Grey, Sizes Small -X-Large) $14.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20056767-3-pack-2-piece-ekouaer-women-s-lightweight-base-layer-thermal-underwear-sets-black-black-grey-sizes-small-x-large-14-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-24T11:15:38.000Z"
+    },
+    {
+      "title": "1-Pack Ekouaer Women's Thermal Underwear Long Johns Base Layer Set (Black) $7.50, 3-Pack from $20 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20054595-1-pack-ekouaer-women-s-thermal-underwear-long-johns-base-layer-set-black-7-50-3-pack-from-20-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-23T19:23:27.000Z"
+    },
     {
       "title": "3-Pack Ekouaer Women's Lightweight Thermal Underwear Base Layer $14.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20054001-3-pack-ekouaer-women-s-lightweight-thermal-underwear-base-layer-14-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +38,30 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-09-23T16:49:19.000Z"
+    },
+    {
+      "title": "Amazon – Fleece Lined Leggings Women with Pockets - Winter Thermal Water Resistant - $16.49 w/ Code",
+      "url": "https://slickdeals.net/f/20053575-amazon-fleece-lined-leggings-women-with-pockets-winter-thermal-water-resistant-16-49-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-23T15:26:47.000Z"
+    },
+    {
+      "title": "Amazon – Pixel Panda Winter Waterproof Thermal Gloves for Men Women, 3M Thinsulate - $8.99 w/ Code",
+      "url": "https://slickdeals.net/f/20053431-amazon-pixel-panda-winter-waterproof-thermal-gloves-for-men-women-3m-thinsulate-8-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-23T15:07:36.000Z"
+    },
+    {
+      "title": "Amazon - 2 Pack Swim Goggles for Kids 3-14 Anti-Fog & UV Wide View Boys Girls - $5.49",
+      "url": "https://slickdeals.net/f/20053059-amazon-2-pack-swim-goggles-for-kids-3-14-anti-fog-uv-wide-view-boys-girls-5-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-23T13:36:03.000Z"
     },
     {
       "title": "EyePop 3-in-1 Interchangeable Kids' Swim Goggle Set $1.78 + Free Shipping w/ Walmart+ or on $35+",
@@ -30,6 +78,14 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-09-22T14:39:48.000Z"
+    },
+    {
+      "title": "Outdoor Faucet Covers for Winter, Actgan 8.3\"H x 6\"W Thickened Outside Garden Faucet Socks for Freeze Protection, Reusable Insulated Faucet Covers, 2 Pack, Black $3.99",
+      "url": "https://slickdeals.net/f/20044170-outdoor-faucet-covers-for-winter-actgan-8-3-h-x-6-w-thickened-outside-garden-faucet-socks-for-freeze-protection-reusable-insulated-faucet-covers-2-pack-black-3-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "socks",
+      "posted": "2026-09-21T15:57:19.000Z"
     },
     {
       "title": "2 Packs Freela Kids Swim Goggles, Swimming Goggles for Kids 3-14 Anti Fog UV Protection No Leaking $5.99",
@@ -158,14 +214,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-14T15:51:13.000Z"
-    },
-    {
-      "title": "Ceoutdoor Mens Flannel Jacket Fleece Sherpa Plaid Winter Zip Up Hoodies $19.99",
-      "url": "https://slickdeals.net/f/20012910-ceoutdoor-mens-flannel-jacket-fleece-sherpa-plaid-winter-zip-up-hoodies-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-09-14T14:32:13.000Z"
     },
     {
       "title": "Freela Kids Swim Goggles, 2 Packs Swimming Goggles for Kids 3-14, Anti Fog UV Protection No Leaking $5.99",
@@ -352,22 +400,6 @@
       "posted": "2026-08-28T14:22:26.000Z"
     },
     {
-      "title": "Amazon – CIFOYA 3-Pack Kids Swim Goggles - $11.49–$12.99 w/ Code",
-      "url": "https://slickdeals.net/f/19937733-amazon-cifoya-3-pack-kids-swim-goggles-11-49-12-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-28T13:52:00.000Z"
-    },
-    {
-      "title": "Amazon – NSSIW 3-Pack Adult Swim Goggles - $12.99–$13.99 w/ Code",
-      "url": "https://slickdeals.net/f/19937721-amazon-nssiw-3-pack-adult-swim-goggles-12-99-13-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-28T13:47:27.000Z"
-    },
-    {
       "title": "Giro Balance II OTG Ski & Snowboard Goggles w/ VIVID Lens (Stone Tan Stacked) $38.24 + Free Shipping",
       "url": "https://slickdeals.net/f/19928280-giro-balance-ii-otg-ski-snowboard-goggles-w-vivid-lens-stone-tan-stacked-38-24-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -381,7 +413,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     },
     {
@@ -390,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     },
     {
@@ -399,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     },
     {
@@ -408,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     },
     {
@@ -417,7 +449,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     },
     {
@@ -426,7 +458,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     },
     {
@@ -435,7 +467,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     },
     {
@@ -444,7 +476,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     },
     {
@@ -453,7 +485,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-23T17:01:32.142Z",
+      "posted": "2026-09-24T17:12:59.223Z",
       "isAmazonSearch": true
     }
   ]
