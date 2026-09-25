@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-24T17:12:59.225Z",
-  "totalDeals": 59,
+  "lastScanned": "2026-09-25T17:13:02.624Z",
+  "totalDeals": 56,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 110,
+    "slickdeals": 109,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Marvmys Women's Cotton Mock Neck Base Layer $4.99 AC",
+      "url": "https://slickdeals.net/f/20058549-marvmys-women-s-cotton-mock-neck-base-layer-4-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-24T18:51:26.000Z"
+    },
     {
       "title": "[Prime Members] AstroAI Windproof Ski Mask, Winter Thermal Fleece Balaclava $6.49",
       "url": "https://slickdeals.net/f/20057523-prime-members-astroai-windproof-ski-mask-winter-thermal-fleece-balaclava-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -168,28 +176,12 @@
       "posted": "2026-09-16T20:19:46.000Z"
     },
     {
-      "title": "Amazon – BOOJO Men's Fleece-Lined Thermal Underwear Set - $18.99 w/ Code",
-      "url": "https://slickdeals.net/f/20023404-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-18-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-16T16:04:39.000Z"
-    },
-    {
       "title": "Two pack Swim Goggles for Kids, $4.67 w/ code",
       "url": "https://slickdeals.net/f/20022912-two-pack-swim-goggles-for-kids-4-67-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-16T14:30:08.000Z"
-    },
-    {
-      "title": "LOMON 2 Piece Set, Thermal Underwear for Women Starting at $7.49 AC",
-      "url": "https://slickdeals.net/f/20017983-lomon-2-piece-set-thermal-underwear-for-women-starting-at-7-49-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-15T14:14:39.000Z"
     },
     {
       "title": "Aspen Snowmass (Aspen Mountain, Highlands, Buttermilk & Snowmass) 80th Anniversary Ski Lift Tickets $80 on Dec 12 & 13; $3.75 on Dec 14 Only *Limited Quantity*",
@@ -392,28 +384,12 @@
       "posted": "2026-08-28T16:42:23.000Z"
     },
     {
-      "title": "Vtiisama Night Vision Goggles, 4K Night Vision Binoculars for Adults $39.99",
-      "url": "https://slickdeals.net/f/19937838-vtiisama-night-vision-goggles-4k-night-vision-binoculars-for-adults-39-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-28T14:22:26.000Z"
-    },
-    {
-      "title": "Giro Balance II OTG Ski & Snowboard Goggles w/ VIVID Lens (Stone Tan Stacked) $38.24 + Free Shipping",
-      "url": "https://slickdeals.net/f/19928280-giro-balance-ii-otg-ski-snowboard-goggles-w-vivid-lens-stone-tan-stacked-38-24-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-08-26T14:54:41.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +398,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +407,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +416,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     },
     {
@@ -449,7 +425,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     },
     {
@@ -458,7 +434,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     },
     {
@@ -467,7 +443,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     },
     {
@@ -476,7 +452,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     },
     {
@@ -485,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-24T17:12:59.223Z",
+      "posted": "2026-09-25T17:13:02.622Z",
       "isAmazonSearch": true
     }
   ]
