@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-09-25T17:13:02.624Z",
+  "lastScanned": "2026-09-26T16:25:09.915Z",
   "totalDeals": 56,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 109,
+    "slickdeals": 104,
     "amazon": 9
   },
   "deals": [
@@ -389,7 +389,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     },
     {
@@ -398,7 +398,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     },
     {
@@ -407,7 +407,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     },
     {
@@ -416,7 +416,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     },
     {
@@ -425,7 +425,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     },
     {
@@ -434,7 +434,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     },
     {
@@ -443,7 +443,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     },
     {
@@ -452,7 +452,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     },
     {
@@ -461,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-25T17:13:02.622Z",
+      "posted": "2026-09-26T16:25:09.913Z",
       "isAmazonSearch": true
     }
   ]
