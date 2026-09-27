@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-09-26T16:25:09.915Z",
-  "totalDeals": 56,
+  "lastScanned": "2026-09-27T16:59:19.681Z",
+  "totalDeals": 57,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 104,
+    "slickdeals": 106,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "CAMEL CROWN Women's Ski Jacket Winter Snow Coat Warm Fleece Mountain Waterproof $29.98",
+      "url": "https://slickdeals.net/f/20065224-camel-crown-women-s-ski-jacket-winter-snow-coat-warm-fleece-mountain-waterproof-29-98?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-09-26T23:53:37.000Z"
+    },
+    {
+      "title": "Schwer 100% Waterproof Winter Work Gloves Latex Coated, CR3302-1 $4.99",
+      "url": "https://slickdeals.net/f/20062512-schwer-100-waterproof-winter-work-gloves-latex-coated-cr3302-1-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-09-25T21:13:37.000Z"
+    },
     {
       "title": "Marvmys Women's Cotton Mock Neck Base Layer $4.99 AC",
       "url": "https://slickdeals.net/f/20058549-marvmys-women-s-cotton-mock-neck-base-layer-4-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -376,20 +392,12 @@
       "posted": "2026-08-30T05:25:23.000Z"
     },
     {
-      "title": "POROLIR Outdoor Faucet Covers for Winter Freeze Protection, Outside Garden Faucet Socks for Winter Hose Bibs Insulated Spigot Cover, 2 Pack Black $4.99",
-      "url": "https://slickdeals.net/f/19938516-porolir-outdoor-faucet-covers-for-winter-freeze-protection-outside-garden-faucet-socks-for-winter-hose-bibs-insulated-spigot-cover-2-pack-black-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-08-28T16:42:23.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     },
     {
@@ -398,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     },
     {
@@ -407,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     },
     {
@@ -416,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     },
     {
@@ -425,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     },
     {
@@ -434,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     },
     {
@@ -443,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     },
     {
@@ -452,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     },
     {
@@ -461,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-26T16:25:09.913Z",
+      "posted": "2026-09-27T16:59:19.678Z",
       "isAmazonSearch": true
     }
   ]
