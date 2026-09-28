@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-27T16:59:19.681Z",
+  "lastScanned": "2026-09-28T19:41:27.840Z",
   "totalDeals": 57,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 106,
+    "slickdeals": 105,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Demon Phantom Helmet with Audio and Snow Supra Goggle $35.00",
+      "url": "https://slickdeals.net/f/20068050-demon-phantom-helmet-with-audio-and-snow-supra-goggle-35-00?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-28T02:29:55.000Z"
+    },
     {
       "title": "CAMEL CROWN Women's Ski Jacket Winter Snow Coat Warm Fleece Mountain Waterproof $29.98",
       "url": "https://slickdeals.net/f/20065224-camel-crown-women-s-ski-jacket-winter-snow-coat-warm-fleece-mountain-waterproof-29-98?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -150,14 +158,6 @@
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-09-18T11:26:32.000Z"
-    },
-    {
-      "title": "Arc'teryx Sabre Bib Ski & Snowboard Pants $245",
-      "url": "https://slickdeals.net/f/20030031-arc-teryx-sabre-bib-ski-snowboard-pants-245?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-09-17T21:55:38.000Z"
     },
     {
       "title": "CAMEL CROWN Men's Ski Snow Jacket Waterproof Winter Snow Coat Windproof Warm Fleece Lining Hooded Parka Rain Jacket Black/Grey L $22.99",
@@ -397,7 +397,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     },
     {
@@ -406,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     },
     {
@@ -415,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     },
     {
@@ -424,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     },
     {
@@ -433,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     },
     {
@@ -442,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     },
     {
@@ -451,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     },
     {
@@ -460,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     },
     {
@@ -469,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-27T16:59:19.678Z",
+      "posted": "2026-09-28T19:41:27.837Z",
       "isAmazonSearch": true
     }
   ]
