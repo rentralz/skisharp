@@ -127,19 +127,6 @@ async function fetchText(url) {
   return res.text();
 }
 
-async function fetchJson(url) {
-  const res = await fetch(url, {
-    headers: { "User-Agent": USER_AGENT },
-    signal: AbortSignal.timeout(15000),
-  });
-
-  if (!res.ok) {
-    throw new Error(`${res.status} ${res.statusText}`);
-  }
-
-  return res.json();
-}
-
 function parseRssItems(xml) {
   const itemRegex = /<item>[\s\S]*?<title>([\s\S]*?)<\/title>[\s\S]*?<link>([\s\S]*?)<\/link>[\s\S]*?<pubDate>([\s\S]*?)<\/pubDate>[\s\S]*?<\/item>/g;
   const items = [];
@@ -158,13 +145,48 @@ function parseRssItems(xml) {
 
 // Make a dead source visible: a GitHub Actions warning annotation shows on the
 // run page (the workflow otherwise stays green while a source returns nothing).
-function warnSourceDown(source, detail) {
-  const message = `${source} returned nothing: every request failed (${detail}).`;
+function warnSourceDown(source, reason) {
+  const message = `${source} returned nothing: ${reason}.`;
   if (process.env.GITHUB_ACTIONS === "true") {
     console.log(`::warning title=${source} deal source down::${message}`);
   } else {
     console.warn(`⚠️  ${message}`);
   }
+}
+
+// Reddit blocks logged-out API reads (403 since ~2026-08-30), so the scanner
+// uses an app-only OAuth token from a registered "script" app. Credentials come
+// from GitHub Actions secrets; without them Reddit is skipped with a warning.
+const REDDIT_CLIENT_ID = process.env.REDDIT_CLIENT_ID || "";
+const REDDIT_CLIENT_SECRET = process.env.REDDIT_CLIENT_SECRET || "";
+// Reddit's API rules ask for "<platform>:<app id>:<version> (by /u/<username>)".
+const REDDIT_USER_AGENT = `script:co.turnlab.deal-scanner:v1.2${
+  process.env.REDDIT_USERNAME ? ` (by /u/${process.env.REDDIT_USERNAME})` : ""
+}`;
+
+async function getRedditToken() {
+  const credentials = Buffer.from(`${REDDIT_CLIENT_ID}:${REDDIT_CLIENT_SECRET}`).toString("base64");
+  const res = await fetch("https://www.reddit.com/api/v1/access_token", {
+    method: "POST",
+    headers: {
+      Authorization: `Basic ${credentials}`,
+      "Content-Type": "application/x-www-form-urlencoded",
+      "User-Agent": REDDIT_USER_AGENT,
+    },
+    body: "grant_type=client_credentials",
+    signal: AbortSignal.timeout(15000),
+  });
+
+  if (!res.ok) {
+    throw new Error(`${res.status} ${res.statusText}`);
+  }
+
+  const data = await res.json();
+  if (!data.access_token) {
+    throw new Error(`no access_token in response (${data.error ?? "unknown error"})`);
+  }
+
+  return data.access_token;
 }
 
 // ─── Reddit Scanner ──────────────────────────────────────
@@ -173,10 +195,30 @@ async function scanReddit() {
   let failures = 0;
   let lastError = "";
 
+  if (!REDDIT_CLIENT_ID || !REDDIT_CLIENT_SECRET) {
+    warnSourceDown("Reddit", "REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET are not set, and Reddit blocks logged-out API reads");
+    return deals;
+  }
+
+  let token;
+  try {
+    token = await getRedditToken();
+  } catch (error) {
+    warnSourceDown("Reddit", `could not get an OAuth token (${error.message})`);
+    return deals;
+  }
+
   for (const sub of REDDIT_SUBREDDITS) {
     try {
-      const url = `https://www.reddit.com/r/${sub}/search.json?restrict_sr=1&sort=new&t=month&limit=30&q=${encodeURIComponent(REDDIT_QUERY)}`;
-      const data = await fetchJson(url);
+      const url = `https://oauth.reddit.com/r/${sub}/search?restrict_sr=1&sort=new&t=month&limit=30&raw_json=1&q=${encodeURIComponent(REDDIT_QUERY)}`;
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${token}`, "User-Agent": REDDIT_USER_AGENT },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (!res.ok) {
+        throw new Error(`${res.status} ${res.statusText}`);
+      }
+      const data = await res.json();
 
       for (const post of data?.data?.children || []) {
         const d = post.data;
@@ -205,7 +247,7 @@ async function scanReddit() {
   }
 
   if (failures === REDDIT_SUBREDDITS.length) {
-    warnSourceDown("Reddit", `last error: ${lastError}`);
+    warnSourceDown("Reddit", `every request failed (last error: ${lastError})`);
   }
 
   return deals;
@@ -243,7 +285,7 @@ async function scanSlickDeals() {
   }
 
   if (failures === SLICKDEALS_QUERIES.length) {
-    warnSourceDown("SlickDeals", `last error: ${lastError}`);
+    warnSourceDown("SlickDeals", `every request failed (last error: ${lastError})`);
   }
 
   return deals;
