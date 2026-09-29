@@ -98,8 +98,8 @@ export default function PrivacyPage() {
             <p>
               If you sign up for deal alerts, we store your email address, the gear interest you
               chose, the time you signed up, the page you came from, and your browser&apos;s user-agent
-              string. We use them only to send deal alerts, through our email service provider. Every
-              alert includes an unsubscribe link, or you can email us to be removed.
+              string. We use them only to send deal alerts, through our email service provider. To stop
+              getting alerts or have your address deleted, email us and we&apos;ll remove it.
             </p>
           </div>
         </section>

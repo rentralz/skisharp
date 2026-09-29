@@ -3,10 +3,8 @@ import type { Metadata } from "next";
 export const SITE_NAME = "TurnLab";
 export const SITE_URL = "https://turnlab.co";
 export const DEFAULT_OG_IMAGE = "/og-image.png";
-// TODO(owner): replace before shipping /privacy and /terms. turnlab.co has no
-// MX records today, so any @turnlab.co address would bounce until email
-// forwarding (e.g. Cloudflare Email Routing or ImprovMX) is set up.
-export const CONTACT_EMAIL = "REPLACE-ME@example.com";
+// Forwarded by ForwardEmail (MX + encrypted TXT records on Vercel DNS).
+export const CONTACT_EMAIL = "hello@turnlab.co";
 
 export type BreadcrumbSchemaItem = {
   name: string;
