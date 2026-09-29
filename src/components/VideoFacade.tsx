@@ -8,9 +8,14 @@ interface Props {
   embedUrl: string;
 }
 
+// The player loads when scrolled into view because Google's video indexing
+// needs the embed in the rendered page without a click. It must not autoplay
+// on that load; only a click on the poster means "play now".
 export default function VideoFacade({ title, posterUrl, embedUrl }: Props) {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [loadedBy, setLoadedBy] = useState<"view" | "click" | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const isLoaded = loadedBy !== null;
+  const src = loadedBy === "click" ? `${embedUrl}&autoplay=1` : embedUrl;
 
   useEffect(() => {
     const el = containerRef.current;
@@ -19,7 +24,7 @@ export default function VideoFacade({ title, posterUrl, embedUrl }: Props) {
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
-          setIsLoaded(true);
+          setLoadedBy((current) => current ?? "view");
           observer.disconnect();
         }
       },
@@ -39,7 +44,7 @@ export default function VideoFacade({ title, posterUrl, embedUrl }: Props) {
       {isLoaded ? (
         <iframe
           className="absolute inset-0 w-full h-full"
-          src={embedUrl}
+          src={src}
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -48,7 +53,7 @@ export default function VideoFacade({ title, posterUrl, embedUrl }: Props) {
       ) : (
         <button
           className="absolute inset-0 w-full h-full group"
-          onClick={() => setIsLoaded(true)}
+          onClick={() => setLoadedBy("click")}
           aria-label={`Play ${title}`}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}

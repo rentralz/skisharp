@@ -15,7 +15,7 @@ export default function VideoEmbed({ videos }: Props) {
 
   const activeVideo = videos[activeIndex];
   const posterUrl = `https://img.youtube.com/vi/${activeVideo.videoId}/hqdefault.jpg`;
-  const embedUrl = `https://www.youtube-nocookie.com/embed/${activeVideo.videoId}?autoplay=1&rel=0&modestbranding=1`;
+  const embedUrl = `https://www.youtube-nocookie.com/embed/${activeVideo.videoId}?rel=0&modestbranding=1`;
 
   return (
     <div className="space-y-3">
