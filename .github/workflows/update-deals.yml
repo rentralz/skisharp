@@ -25,6 +25,10 @@ jobs:
         run: npm ci
 
       - name: Refresh deals data
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME: ${{ vars.REDDIT_USERNAME }}
         run: npm run scan:deals
 
       - name: Commit updated deals data
