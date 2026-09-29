@@ -90,7 +90,7 @@ export default function TechniqueCard({ technique, position, filterContext }: Pr
           <ShareButton url={techniqueHref} />
         </div>
 
-        <h3 className="text-gray-900 font-semibold text-lg mb-1.5 group-hover:text-[#e8722a] transition-colors">
+        <h3 className="text-gray-900 font-semibold text-lg mb-1.5 group-hover:text-[#b35816] transition-colors">
           {technique.title}
         </h3>
 

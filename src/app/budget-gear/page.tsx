@@ -126,7 +126,7 @@ export default function BudgetGearPage() {
       <main id="main-content">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
+          <p className="text-[#b35816] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Starter kit
           </p>
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
@@ -187,7 +187,7 @@ export default function BudgetGearPage() {
                     <h3 className="text-gray-900 font-bold">
                       {index + 1}. {item.name}
                     </h3>
-                    <span className="text-[#e8722a] text-sm font-semibold">
+                    <span className="text-[#b35816] text-sm font-semibold">
                       {item.price}
                     </span>
                   </div>
@@ -262,7 +262,7 @@ export default function BudgetGearPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">🤔 Rent or Buy?</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             <div>
-              <h3 className="text-[#e8722a] font-bold text-sm mb-2">ALWAYS BUY (clothing)</h3>
+              <h3 className="text-[#b35816] font-bold text-sm mb-2">ALWAYS BUY (clothing)</h3>
               <p className="text-gray-500 text-sm">
                 Jacket, pants, base layers, socks, gloves, goggles, helmet. Rental
                 clothing is overpriced, worn out, and never fits right. This budget

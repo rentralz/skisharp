@@ -58,7 +58,7 @@ export default function TechniqueGrid({
         <p className="mt-2 text-sm max-w-xl mx-auto">{detail}</p>
         <button
           onClick={onClearFilters}
-          className="mt-4 text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
+          className="mt-4 text-[#b35816] hover:text-[#f08040] text-sm font-medium transition-colors"
         >
           Clear filters
         </button>

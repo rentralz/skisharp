@@ -132,7 +132,7 @@ export default function SnowConditionsPage() {
       <main id="main-content">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
+          <p className="text-[#b35816] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Conditions guide
           </p>
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
@@ -168,7 +168,7 @@ export default function SnowConditionsPage() {
                 {/* Adjustments grid */}
                 <div className="grid sm:grid-cols-2 gap-4 mb-6">
                   <div className="p-4 rounded-xl bg-gray-50">
-                    <h4 className="text-xs font-semibold text-[#e8722a] uppercase tracking-wide mb-2">What it feels like</h4>
+                    <h4 className="text-xs font-semibold text-[#b35816] uppercase tracking-wide mb-2">What it feels like</h4>
                     <p className="text-sm text-gray-600">{s.feel}</p>
                   </div>
                   <div className="p-4 rounded-xl bg-gray-50">
@@ -193,7 +193,7 @@ export default function SnowConditionsPage() {
 
                 {/* Tip */}
                 <div className="p-4 rounded-xl bg-[#e8722a]/5 border border-[#e8722a]/15 mb-5">
-                  <h4 className="text-xs font-semibold text-[#e8722a] uppercase tracking-wide mb-2">💡 Tip of the day</h4>
+                  <h4 className="text-xs font-semibold text-[#b35816] uppercase tracking-wide mb-2">💡 Tip of the day</h4>
                   <p className="text-sm text-gray-600">{s.tipOfDay}</p>
                 </div>
 

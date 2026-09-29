@@ -74,7 +74,7 @@ export default function TechniquesPage() {
       <main id="main-content">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
+          <p className="text-[#b35816] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Curated technique library
           </p>
           <h1 className="text-4xl font-extrabold text-gray-900 mb-3">Ski &amp; Snowboard Techniques</h1>

@@ -19,7 +19,7 @@ export default function VideoTabSwitcher({ videos, activeIndex, onSelect }: Prop
           onClick={() => onSelect(i)}
           className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
             i === activeIndex
-              ? "bg-[#e8722a] text-white"
+              ? "bg-[#b35816] text-white"
               : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"
           }`}
         >

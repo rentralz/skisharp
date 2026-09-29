@@ -213,7 +213,7 @@ export default function ClothingGuidePage() {
       <main id="main-content">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
+          <p className="text-[#b35816] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Gear guide
           </p>
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
@@ -245,7 +245,7 @@ export default function ClothingGuidePage() {
                   <span className="text-2xl">{l.icon}</span>
                   <div>
                     <h3 className="text-lg font-bold text-gray-900">{l.layer}</h3>
-                    <p className="text-sm text-[#e8722a]">{l.purpose}</p>
+                    <p className="text-sm text-[#b35816]">{l.purpose}</p>
                   </div>
                 </div>
                 <div className="grid sm:grid-cols-2 gap-4 mb-3">
@@ -300,14 +300,14 @@ export default function ClothingGuidePage() {
                     <ul className="space-y-2">
                       {c.clothing.map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
-                          <span className="text-[#e8722a] mt-0.5">✓</span>
+                          <span className="text-[#b35816] mt-0.5">✓</span>
                           {item}
                         </li>
                       ))}
                     </ul>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-[#e8722a] uppercase tracking-wide mb-3">Pro tips</h4>
+                    <h4 className="text-sm font-semibold text-[#b35816] uppercase tracking-wide mb-3">Pro tips</h4>
                     <ul className="space-y-2">
                       {c.protips.map((tip, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-500">

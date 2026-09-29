@@ -102,7 +102,7 @@ export default function TechniquesPageClient() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="mb-6">
-        <p className="text-xs font-semibold text-[#e8722a] uppercase tracking-[0.2em] mb-2">Live filters</p>
+        <p className="text-xs font-semibold text-[#b35816] uppercase tracking-[0.2em] mb-2">Live filters</p>
         <h2 className="text-2xl font-bold text-gray-900 mb-2">{resultHeadline}</h2>
         <p className="text-gray-500">{resultDescription}</p>
         <p className="text-sm text-gray-500 mt-2">{countLabel}</p>

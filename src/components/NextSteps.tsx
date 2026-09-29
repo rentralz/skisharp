@@ -19,7 +19,7 @@ export default function NextSteps({
             href={href}
             className="block p-4 rounded-xl bg-white border border-gray-200 hover:border-[#e8722a]/40 hover:shadow-md transition-all group"
           >
-            <span className="text-sm font-semibold text-[#e8722a] group-hover:text-[#d4621a] transition-colors">
+            <span className="text-sm font-semibold text-[#b35816] group-hover:text-[#d4621a] transition-colors">
               {label}
             </span>
             <p className="text-xs text-gray-500 mt-1">{description}</p>

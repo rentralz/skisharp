@@ -47,7 +47,7 @@ export default function TechniqueIndex() {
                         <li key={technique.slug}>
                           <Link
                             href={`/techniques/${technique.slug}`}
-                            className="text-sm text-gray-700 underline-offset-4 hover:text-[#e8722a] hover:underline focus-visible:rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e8722a]"
+                            className="text-sm text-gray-700 underline-offset-4 hover:text-[#b35816] hover:underline focus-visible:rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e8722a]"
                           >
                             {technique.title}
                           </Link>

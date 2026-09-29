@@ -82,6 +82,124 @@ html.dark [class*="text-[#9a8471]"] {
   color: #d8b08b !important;
 }
 
+/* Accent text is darkened to #b35816 for contrast on light surfaces; on dark
+   surfaces the original brand orange reads better (5.9:1 on #191512). */
+html.dark [class*="text-[#b35816]"] {
+  color: #e8722a !important;
+}
+
+/* Dark mode, part 2: Tailwind palette classes and the remaining pale/hex
+   shades the hand-picked lists above missed (855 axe contrast failures on 9
+   pages before this block). Listed after the accent rule so a base text-gray
+   class wins over a hover accent on the same element. */
+html.dark [class*="bg-[#fff6ee]"],
+html.dark [class*="bg-[#fffdfb]"],
+html.dark [class*="bg-[#fff3e7]"],
+html.dark [class*="bg-[#fff1ee]"],
+html.dark [class*="bg-[#fffaf5]"],
+html.dark [class*="bg-[#fff7f0]"],
+html.dark [class*="bg-[#fff5eb]"],
+html.dark [class*="bg-[#ffe0d7]"],
+html.dark [class*="bg-[#fcf8f4]"],
+html.dark [class*="bg-[#f9f3ed]"],
+html.dark [class*="bg-[#f8f4ef]"],
+html.dark [class*="bg-[#f8f2ed]"],
+html.dark [class*="bg-[#f7fbf8]"],
+html.dark [class*="bg-[#f5efe8]"],
+html.dark [class*="bg-[#f4ece5]"],
+html.dark [class*="bg-emerald-50"],
+html.dark [class*="bg-green-50"],
+html.dark [class*="bg-red-50"],
+html.dark [class*="bg-blue-50"],
+html.dark [class*="bg-amber-50"],
+html.dark [class*="bg-orange-50"],
+html.dark [class*="bg-purple-50"],
+html.dark [class*="bg-yellow-50"] {
+  background-color: #1f1a16 !important;
+}
+
+html.dark [class*="text-gray-900"],
+html.dark [class*="text-gray-800"],
+html.dark [class*="text-gray-700"] {
+  color: #f5f5f5 !important;
+}
+
+html.dark [class*="text-gray-600"],
+html.dark [class*="text-gray-500"],
+html.dark [class*="text-[#3f4c45]"],
+html.dark [class*="text-[#403a34]"],
+html.dark [class*="text-[#5d544c]"],
+html.dark [class*="text-[#5f564f]"],
+html.dark [class*="text-[#6b625b]"] {
+  color: #c7c7c7 !important;
+}
+
+html.dark [class*="text-[#9b6a41]"] {
+  color: #d8b08b !important;
+}
+
+html.dark [class*="text-blue-700"],
+html.dark [class*="text-blue-800"] {
+  color: #93c5fd !important;
+}
+
+html.dark [class*="text-green-700"],
+html.dark [class*="text-emerald-700"],
+html.dark [class*="text-emerald-800"],
+html.dark [class*="text-[#166534]"] {
+  color: #86efac !important;
+}
+
+html.dark [class*="text-purple-700"] {
+  color: #d8b4fe !important;
+}
+
+html.dark [class*="text-red-700"] {
+  color: #fca5a5 !important;
+}
+
+html.dark [class*="bg-[#dcf3e4]"],
+html.dark [class*="bg-[#eff8f1]"],
+html.dark [class*="bg-[#effaf3]"] {
+  background-color: #1f1a16 !important;
+}
+
+html.dark [class*="text-[#4f463f]"],
+html.dark [class*="text-[#544b44]"],
+html.dark [class*="text-[#554d46]"],
+html.dark [class*="text-[#5f5146]"],
+html.dark [class*="text-[#5f5a55]"],
+html.dark [class*="text-[#6f6258]"],
+html.dark [class*="text-[#7a5a41]"],
+html.dark [class*="text-[#7a6d61]"],
+html.dark [class*="text-[#7a6e63]"],
+html.dark [class*="text-[#7b5d44]"],
+html.dark [class*="text-[#8a7a6d]"] {
+  color: #c7c7c7 !important;
+}
+
+html.dark [class*="text-[#8a5a2f]"],
+html.dark [class*="text-[#a65d1a]"] {
+  color: #d8b08b !important;
+}
+
+html.dark [class*="text-[#7a271a]"],
+html.dark [class*="text-[#b24d2b]"],
+html.dark [class*="text-[#b42318]"] {
+  color: #fca5a5 !important;
+}
+
+html.dark [class*="text-[#2f6f44]"] {
+  color: #86efac !important;
+}
+
+/* Orange buttons keep their dark label (6:1); the gray-900 rule above would
+   otherwise turn it light (2.8:1). Exact-class match (~=) so hover-only
+   classes like hover:bg-[#e8722a] don't trigger it. */
+html.dark [class~="bg-[#e8722a]"][class~="text-gray-900"] {
+  color: #111 !important;
+}
+
 /* AdSense marks units it could not fill; collapse them instead of leaving a gap. */
 ins.adsbygoogle[data-ad-status="unfilled"] {
   display: none !important;

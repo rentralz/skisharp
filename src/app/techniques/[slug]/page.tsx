@@ -185,7 +185,7 @@ export default async function TechniqueDetailPage({
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-3">
             {technique.title}
           </h1>
-          <p className="text-lg text-[#e8722a] font-medium leading-relaxed max-w-2xl mb-4">
+          <p className="text-lg text-[#b35816] font-medium leading-relaxed max-w-2xl mb-4">
             {technique.promise}
           </p>
           <p className="text-base text-gray-500 leading-relaxed max-w-2xl mb-5">{technique.description}</p>
@@ -216,7 +216,7 @@ export default async function TechniqueDetailPage({
                     />
                     <div className="pl-5">
                       <div className="flex items-center gap-3 mb-0.5">
-                        <span className="text-[#e8722a] font-mono text-sm font-bold">
+                        <span className="text-[#b35816] font-mono text-sm font-bold">
                           {timestamp.time}
                         </span>
                         <span className="text-gray-900 font-semibold text-sm">{timestamp.label}</span>
@@ -283,7 +283,7 @@ export default async function TechniqueDetailPage({
                   key={index}
                   className="flex gap-4 p-4 rounded-xl bg-[#e8722a]/5 border border-[#e8722a]/15 hover:border-[#e8722a]/25 transition-colors"
                 >
-                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#e8722a]/15 border border-[#e8722a]/25 text-[#e8722a] text-sm font-bold flex items-center justify-center">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#e8722a]/15 border border-[#e8722a]/25 text-[#b35816] text-sm font-bold flex items-center justify-center">
                     {index + 1}
                   </span>
                   <p className="text-gray-600 text-sm leading-relaxed pt-0.5">{drill}</p>
@@ -308,7 +308,7 @@ export default async function TechniqueDetailPage({
                       <li key={prerequisiteSlug}>
                         <Link
                           href={detailHref(prerequisiteSlug)}
-                          className="text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
+                          className="text-[#b35816] hover:text-[#f08040] text-sm font-medium transition-colors"
                         >
                           &larr; {prerequisite.title}
                         </Link>
@@ -331,7 +331,7 @@ export default async function TechniqueDetailPage({
                       <li key={nextSlug}>
                         <Link
                           href={detailHref(nextSlug)}
-                          className="text-[#e8722a] hover:text-[#f08040] text-sm font-medium transition-colors"
+                          className="text-[#b35816] hover:text-[#f08040] text-sm font-medium transition-colors"
                         >
                           {nextTechnique.title} &rarr;
                         </Link>
@@ -353,7 +353,7 @@ export default async function TechniqueDetailPage({
                 className="group rounded-xl bg-white border border-gray-200 hover:border-gray-300 p-4 transition-all"
               >
                 <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">&larr; Previous</p>
-                <p className="text-gray-900 text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
+                <p className="text-gray-900 text-sm font-semibold group-hover:text-[#b35816] transition-colors line-clamp-2">
                   {prev.title}
                 </p>
                 <p className="text-gray-500 text-xs mt-1">Level {prev.difficulty}</p>
@@ -366,9 +366,9 @@ export default async function TechniqueDetailPage({
             )}
 
             <div className="rounded-xl bg-[#e8722a]/10 border border-[#e8722a]/25 p-4">
-              <p className="text-xs text-[#e8722a] uppercase tracking-wide mb-2">Current</p>
+              <p className="text-xs text-[#b35816] uppercase tracking-wide mb-2">Current</p>
               <p className="text-gray-900 text-sm font-semibold line-clamp-2">{technique.title}</p>
-              <p className="text-[#e8722a]/60 text-xs mt-1">Level {technique.difficulty}</p>
+              <p className="text-[#b35816] text-xs mt-1">Level {technique.difficulty}</p>
             </div>
 
             {next ? (
@@ -377,7 +377,7 @@ export default async function TechniqueDetailPage({
                 className="group rounded-xl bg-white border border-gray-200 hover:border-gray-300 p-4 transition-all"
               >
                 <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">Next Up &rarr;</p>
-                <p className="text-gray-900 text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
+                <p className="text-gray-900 text-sm font-semibold group-hover:text-[#b35816] transition-colors line-clamp-2">
                   {next.title}
                 </p>
                 <p className="text-gray-500 text-xs mt-1">Level {next.difficulty}</p>
@@ -408,12 +408,12 @@ export default async function TechniqueDetailPage({
                       {rt.rating}
                     </span>
                     {sharedTerrain.length > 0 && (
-                      <span className="text-[10px] text-[#e8722a] font-medium uppercase tracking-wide">
+                      <span className="text-[10px] text-[#b35816] font-medium uppercase tracking-wide">
                         {sharedTerrain.join(" · ")}
                       </span>
                     )}
                   </div>
-                  <p className="text-gray-900 text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
+                  <p className="text-gray-900 text-sm font-semibold group-hover:text-[#b35816] transition-colors line-clamp-2">
                     {rt.title}
                   </p>
                   <p className="text-gray-400 text-xs mt-1 line-clamp-2">{rt.description}</p>

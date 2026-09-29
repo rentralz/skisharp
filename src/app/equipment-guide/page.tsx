@@ -230,7 +230,7 @@ export default function EquipmentGuidePage() {
       <main id="main-content">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
+          <p className="text-[#b35816] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Gear guide
           </p>
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Equipment Guide</h1>
@@ -278,7 +278,7 @@ export default function EquipmentGuidePage() {
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
                       <h3 className="text-gray-900 font-bold">{c.type}</h3>
                       {"waist" in c && (
-                        <span className="text-[#e8722a] text-sm font-medium">
+                        <span className="text-[#b35816] text-sm font-medium">
                           {(c as { waist: string }).waist} waist
                         </span>
                       )}
@@ -300,13 +300,13 @@ export default function EquipmentGuidePage() {
 
               {/* Sizing tips */}
               <div className="p-5 rounded-xl bg-[#e8722a]/5 border border-[#e8722a]/15">
-                <h4 className="text-sm font-semibold text-[#e8722a] uppercase tracking-wide mb-3">
+                <h4 className="text-sm font-semibold text-[#b35816] uppercase tracking-wide mb-3">
                   Sizing & buying tips
                 </h4>
                 <ul className="space-y-2">
                   {e.sizingTips.map((tip, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
-                      <span className="text-[#e8722a] mt-0.5">→</span>
+                      <span className="text-[#b35816] mt-0.5">→</span>
                       {tip}
                     </li>
                   ))}

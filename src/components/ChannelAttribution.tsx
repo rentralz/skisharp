@@ -13,7 +13,7 @@ export default function ChannelAttribution({ video }: Props) {
           href={video.channelUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#e8722a] hover:text-[#f08040] transition-colors font-medium"
+          className="text-[#b35816] hover:text-[#f08040] transition-colors font-medium"
         >
           {video.channel}
         </a>
@@ -25,7 +25,7 @@ export default function ChannelAttribution({ video }: Props) {
         href={video.channelUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-xs px-3 py-1 rounded-full bg-[#e8722a]/10 border border-[#e8722a]/20 text-[#e8722a] hover:bg-[#e8722a]/20 transition-colors font-medium"
+        className="text-xs px-3 py-1 rounded-full bg-[#e8722a]/10 border border-[#e8722a]/20 text-[#b35816] hover:bg-[#e8722a]/20 transition-colors font-medium"
       >
         Subscribe
       </a>
