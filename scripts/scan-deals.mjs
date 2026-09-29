@@ -8,6 +8,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { decodeHtml, fetchText, normalizeWhitespace, parseRssItems, warnSourceDown } from "./lib/feeds.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEALS_PATH = path.join(__dirname, "..", "src", "data", "deals.json");
@@ -57,21 +58,6 @@ function classifyDeal(title) {
   return "other";
 }
 
-function decodeHtml(text) {
-  return text
-    .replace(/<!\[CDATA\[|\]\]>/g, "")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#039;/g, "'")
-    .replace(/&apos;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">");
-}
-
-function normalizeWhitespace(text) {
-  return text.replace(/\s+/g, " ").trim();
-}
-
 function canonicalizeTitle(title) {
   return normalizeWhitespace(
     decodeHtml(title)
@@ -112,46 +98,6 @@ function isLikelyDiscussionPost(title, url = "") {
   if (!looksLikeRedditThread) return false;
   if (!hasExplicitPriceSignal(title) && !/(discount|clearance|coupon|promo|%\s*off|markdown)/i.test(title)) return true;
   return QUESTION_PATTERN.test(title) && !hasExplicitPriceSignal(title);
-}
-
-async function fetchText(url) {
-  const res = await fetch(url, {
-    headers: { "User-Agent": USER_AGENT },
-    signal: AbortSignal.timeout(15000),
-  });
-
-  if (!res.ok) {
-    throw new Error(`${res.status} ${res.statusText}`);
-  }
-
-  return res.text();
-}
-
-function parseRssItems(xml) {
-  const itemRegex = /<item>[\s\S]*?<title>([\s\S]*?)<\/title>[\s\S]*?<link>([\s\S]*?)<\/link>[\s\S]*?<pubDate>([\s\S]*?)<\/pubDate>[\s\S]*?<\/item>/g;
-  const items = [];
-  let match;
-
-  while ((match = itemRegex.exec(xml)) !== null) {
-    items.push({
-      title: normalizeWhitespace(decodeHtml(match[1])),
-      link: normalizeWhitespace(decodeHtml(match[2])),
-      pubDate: normalizeWhitespace(decodeHtml(match[3])),
-    });
-  }
-
-  return items;
-}
-
-// Make a dead source visible: a GitHub Actions warning annotation shows on the
-// run page (the workflow otherwise stays green while a source returns nothing).
-function warnSourceDown(source, reason) {
-  const message = `${source} returned nothing: ${reason}.`;
-  if (process.env.GITHUB_ACTIONS === "true") {
-    console.log(`::warning title=${source} deal source down::${message}`);
-  } else {
-    console.warn(`⚠️  ${message}`);
-  }
 }
 
 // Reddit blocks logged-out API reads (403 since ~2026-08-30), so the scanner
@@ -265,7 +211,7 @@ async function scanSlickDeals() {
   for (const query of SLICKDEALS_QUERIES) {
     try {
       const url = `https://slickdeals.net/newsearch.php?searcharea=deals&searchin=first&sort=newest&rss=1&q=${encodeURIComponent(query)}`;
-      const xml = await fetchText(url);
+      const xml = await fetchText(url, USER_AGENT);
       const items = parseRssItems(xml);
 
       for (const item of items) {
