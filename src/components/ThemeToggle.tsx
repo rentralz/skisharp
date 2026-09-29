@@ -2,10 +2,11 @@
 
 import { useEffect, useState } from "react";
 
+// Dark mode is opt-in only: its CSS overrides cover a hand-picked set of
+// colors, and following the OS setting put invisible headings in front of
+// every dark-OS visitor who never asked for it.
 function getPreferredThemeState() {
-  const storedTheme = window.localStorage.getItem("theme");
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  return storedTheme ? storedTheme === "dark" : prefersDark;
+  return window.localStorage.getItem("theme") === "dark";
 }
 
 export default function ThemeToggle() {

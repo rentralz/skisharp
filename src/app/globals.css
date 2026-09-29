@@ -81,14 +81,15 @@ html.dark [class*="text-[#9a8471]"] {
   color: #d8b08b !important;
 }
 
-/* Page transition animations */
-.page-transition-hidden {
-  opacity: 0;
-  transform: translateY(8px);
+/* AdSense marks units it could not fill; collapse them instead of leaving a gap. */
+ins.adsbygoogle[data-ad-status="unfilled"] {
+  display: none !important;
 }
 
+/* Page fade-in. No `forwards`: the end state equals the base style, so no
+   transform lingers on the page wrapper afterwards. */
 .page-transition-visible {
-  animation: page-fade-in 0.35s ease-out forwards;
+  animation: page-fade-in 0.35s ease-out;
 }
 
 @keyframes page-fade-in {
@@ -104,9 +105,8 @@ html.dark [class*="text-[#9a8471]"] {
 
 /* Respect reduced motion preferences */
 @media (prefers-reduced-motion: reduce) {
-  .page-transition-hidden {
-    opacity: 1;
-    transform: none;
+  html {
+    scroll-behavior: auto;
   }
 
   .page-transition-visible {

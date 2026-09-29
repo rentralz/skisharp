@@ -11,12 +11,19 @@ interface AdUnitProps {
 // Replace with your actual AdSense publisher ID
 const ADSENSE_PUB_ID = process.env.NEXT_PUBLIC_ADSENSE_PUB_ID || "";
 
+// data-ad-slot must be the numeric ad-unit ID from the AdSense console. A
+// named placeholder makes Google answer 400 and leaves an empty box behind.
+function isAdUnitId(slot: string) {
+  return /^\d+$/.test(slot);
+}
+
 export default function AdUnit({ slot, format = "auto", className = "" }: AdUnitProps) {
   const adRef = useRef<HTMLDivElement>(null);
   const pushed = useRef(false);
+  const canRender = Boolean(ADSENSE_PUB_ID) && isAdUnitId(slot);
 
   useEffect(() => {
-    if (!ADSENSE_PUB_ID || pushed.current) return;
+    if (!canRender || pushed.current) return;
     try {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
@@ -24,9 +31,9 @@ export default function AdUnit({ slot, format = "auto", className = "" }: AdUnit
     } catch {
       // AdSense not loaded or blocked
     }
-  }, []);
+  }, [canRender]);
 
-  if (!ADSENSE_PUB_ID) return null; // Don't render anything without a publisher ID
+  if (!canRender) return null; // No publisher ID or no real ad-unit ID: render nothing
 
   return (
     <div className={`ad-container my-6 ${className}`} ref={adRef}>
