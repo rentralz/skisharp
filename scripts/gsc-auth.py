@@ -19,7 +19,7 @@ CLIENT_SECRETS_PATH = CREDENTIALS_DIR / "client_secrets.json"
 TOKEN_PATH = CREDENTIALS_DIR / "token.pickle"
 REDIRECT_PORT = 8080
 REDIRECT_URI = f"http://localhost:{REDIRECT_PORT}/"
-CALLBACK_TIMEOUT_SECONDS = 300
+CALLBACK_TIMEOUT_SECONDS = int(os.environ.get("GSC_AUTH_TIMEOUT_SECONDS", "300"))
 
 
 def ensure_private_dir(path: Path) -> None:
@@ -119,7 +119,11 @@ def main() -> int:
         print(flush=True)
         print(auth_url, flush=True)
         print(flush=True)
-        print(f"Waiting for Google callback on {REDIRECT_URI}", flush=True)
+        print(
+            f"Waiting for Google callback on {REDIRECT_URI} "
+            f"(timeout: {CALLBACK_TIMEOUT_SECONDS}s)",
+            flush=True,
+        )
 
         server.timeout = 1
         deadline = time.time() + CALLBACK_TIMEOUT_SECONDS

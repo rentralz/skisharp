@@ -18,7 +18,7 @@ URL_FILE = CREDENTIALS_DIR / "auth_url.txt"
 PORT_FILE = CREDENTIALS_DIR / "auth_port.txt"
 REDIRECT_PORT = 8080
 REDIRECT_URI = f"http://localhost:{REDIRECT_PORT}/"
-CALLBACK_TIMEOUT_SECONDS = 300
+CALLBACK_TIMEOUT_SECONDS = int(os.environ.get("GSC_AUTH_TIMEOUT_SECONDS", "300"))
 
 
 def ensure_private_dir(path: Path) -> None:
