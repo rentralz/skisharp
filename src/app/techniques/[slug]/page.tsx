@@ -11,6 +11,8 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import AdUnit from "@/components/AdUnit";
 import ProgressButtons from "@/components/ProgressButtons";
+import TechniqueGuideArticle from "@/components/TechniqueGuideArticle";
+import { getTechniqueGuide } from "@/data/guides";
 
 function formatStructuredDataDate(value?: string) {
   if (!value) {
@@ -102,6 +104,7 @@ export default async function TechniqueDetailPage({
   const disciplineInfo = DISCIPLINES[technique.discipline];
   const disciplineNoun = technique.discipline === "ski" ? "skiing" : "snowboarding";
   const disciplineHref = `/techniques?discipline=${technique.discipline}`;
+  const guide = getTechniqueGuide(slug);
   const detailHref = (targetSlug: string) => `/techniques/${targetSlug}`;
 
   const disciplineTechniques = techniques.filter(
@@ -292,6 +295,8 @@ export default async function TechniqueDetailPage({
             </div>
           </section>
         )}
+
+        {guide && <TechniqueGuideArticle guide={guide} title={technique.title} />}
 
         {(technique.prerequisites.length > 0 || technique.nextSteps.length > 0) && (
           <div className="grid sm:grid-cols-2 gap-6">

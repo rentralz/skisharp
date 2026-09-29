@@ -65,7 +65,7 @@ export const techniques: Technique[] = [
     ],
     feels: [
       "Your legs feel like a compass opening and closing as you steer across the slope",
-      "Pressing through your heel creates the most reliable braking drag",
+      "Pushing the tails wider while keeping your shins against the boot tongues creates the braking",
       "Speed drops naturally when you turn across the fall line — the slope does the work",
     ],
     mistakes: [
@@ -109,9 +109,9 @@ export const techniques: Technique[] = [
     rating: "green",
     terrain: ["Groomed"],
     description:
-      "An aggressive braking technique — pivot both skis perpendicular to the fall line and dig your edges in to stop instantly.",
+      "A quick, decisive braking technique — pivot both skis perpendicular to the fall line and set your edges to stop in a short distance.",
     promise:
-      "You'll be able to stop on a dime from any speed, giving you confidence on steeper green runs.",
+      "You'll be able to stop in a short distance with a quick, decisive pivot, giving you confidence on steeper green runs.",
     timestamps: [
       { time: "0:20", label: "Weight centering", detail: "Equal weight, knees bent before the stop" },
       { time: "1:00", label: "The pivot", detail: "Rotate both skis together 90° across the fall line" },
@@ -119,7 +119,7 @@ export const techniques: Technique[] = [
       { time: "3:30", label: "Both sides", detail: "Practice stopping left and right equally" },
     ],
     feels: [
-      "Like you're slamming the brakes — decisive, not gradual",
+      "Like a quick, decisive pivot and a smooth, firm edge set — not gradual",
       "Your uphill edges biting hard into the snow",
       "Your upper body staying calm while your legs pivot",
     ],
@@ -267,7 +267,7 @@ export const techniques: Technique[] = [
     description:
       "The foundation of confident skiing — carving turns with both skis moving in unison across the fall line.",
     promise:
-      "You'll stop snow-plowing and start carving clean arcs down groomed runs with speed and control.",
+      "You'll stop snow-plowing and start linking rounded, controlled parallel turns down groomed runs with speed and control.",
     timestamps: [
       { time: "0:30", label: "Stance setup", detail: "Hip-width apart, knees flexed, weight centered" },
       { time: "1:15", label: "Edge engagement", detail: "Tipping both skis to initiate the turn" },
@@ -659,7 +659,7 @@ export const techniques: Technique[] = [
     drills: [
       "Slalom poles practice: ski a slalom course on a groomed run — the pole-gap focus directly trains tree-gap awareness",
       "Edge-of-the-trees traverse: ski the boundary of a tree line, dipping in for one or two turns and back out — builds confidence incrementally",
-      "Follow the leader: ski tight behind a more experienced skier through a gentle tree section — mirroring their line removes decision fatigue",
+      "Follow the leader: ski a safe distance behind a more experienced skier through a gentle tree section, keeping them in sight — watching their line removes decision fatigue",
     ],
     prerequisites: ["parallel-turns", "short-radius-turns"],
     nextSteps: ["powder-floating", "steep-terrain"],
@@ -737,7 +737,7 @@ export const techniques: Technique[] = [
     rating: "black",
     terrain: ["Groomed", "Steep"],
     description:
-      "The mental and physical adjustments needed when the slope pitches above 35 degrees — committing to the fall line and trusting your edges when retreat feels impossible.",
+      "The mental and physical adjustments needed when a slope gets steep enough to feel intimidating — committing to the fall line and trusting your edges when retreat feels impossible.",
     promise:
       "Black diamonds will stop feeling terrifying and start feeling like a calculated, manageable challenge you actively seek out.",
     timestamps: [
@@ -757,9 +757,9 @@ export const techniques: Technique[] = [
       { mistake: "Stopping mid-slope to reset mentally", fix: "Keep moving with short turns — stopping on steep terrain is often harder than skiing it" },
     ],
     drills: [
-      "Steeper pitch progression: each day go one notch steeper than comfortable and ski 3 laps — your brain needs repetition to recalibrate fear",
+      "Steeper pitch progression: once your current terrain feels fully controlled, step up one notch steeper and ski 3 laps — your brain needs repetition to recalibrate fear",
       "Sideslip with edge control: stand on a steep slope and practice pure sideslipping — builds confidence that you can control speed anytime",
-      "Fall line focus: point straight down the fall line for 3 seconds then turn — trains the commitment instinct that steep terrain demands",
+      "Short-radius rhythm: on a moderate pitch, link quick short-radius turns without pausing between them — trains the commitment instinct that steep terrain demands while keeping your speed in check",
     ],
     prerequisites: ["parallel-turns", "short-radius-turns", "hip-angulation"],
     nextSteps: ["mogul-absorption", "tree-skiing"],
@@ -791,7 +791,7 @@ export const techniques: Technique[] = [
     rating: "black",
     terrain: ["Powder"],
     description:
-      "Staying on top of deep snow by weighting both skis equally, sitting slightly back, and making wide, round turns.",
+      "Staying on top of deep snow by weighting both skis equally, staying centered over your feet, and making wide, round turns.",
     promise:
       "Deep powder days will transform from scary survival mode into the best skiing of your life.",
     timestamps: [
@@ -808,7 +808,7 @@ export const techniques: Technique[] = [
     mistakes: [
       { mistake: "Weighting the downhill ski like on groomers", fix: "Equal weight — downhill bias sinks that ski in pow" },
       { mistake: "Making quick, sharp turns", fix: "Slow down your turn initiation — wide arcs float better" },
-      { mistake: "Staying too upright", fix: "Slight back seat is correct in deep powder" },
+      { mistake: "Staying too upright", fix: "Stay centered over your feet — ease back only slightly if the tips start to dive" },
     ],
     drills: [
       "Flat snow bounce: on a gentle groomed slope, practice a deliberate up-down rhythm with both feet equally — builds the equal-weighting muscle memory",
@@ -1561,7 +1561,7 @@ export const techniques: Technique[] = [
     drills: [
       "Counted garlands: perform exactly 10 garlands in one direction then 10 in the other — forces equal attention to both sides",
       "Garlands to full turn: do 3 garlands then complete one full turn — the contrast between half and full turn teaches you what initiation feels like",
-      "Narrow stance garlands: perform garlands with feet touching — the close stance amplifies any imbalance and improves edge sensitivity",
+      "Balanced stance garlands: perform garlands with your feet a comfortable, hip-width apart — a stable base improves edge sensitivity",
     ],
     prerequisites: ["wedge-christie"],
     nextSteps: ["parallel-turns", "edge-control-basics"],
@@ -3226,7 +3226,7 @@ export const techniques: Technique[] = [
     feels: [
       "Quieter and more intimate than a bluebird day — rain skiing has its own meditative quality",
       "The snow feels heavier and more resistant at first — lean into turns with more commitment than on groomed hardpack",
-      "Wet clothes and steamy goggles are the real challenge — proper gear eliminates 80% of the discomfort",
+      "Wet clothes and steamy goggles are the real challenge — proper gear makes a big difference to the discomfort",
     ],
     mistakes: [
       { mistake: "Skiing at normal speed with reduced visibility", fix: "Slow down proportionally to visibility — treat rain like flat light, it hides the same terrain hazards" },
@@ -3235,7 +3235,7 @@ export const techniques: Technique[] = [
     ],
     drills: [
       "Deliberate initiation practice: on a wet day, consciously start each turn earlier than usual — feel how wet snow needs extra lead time compared to groomed hardpack",
-      "Speed audit: ski a familiar run and compare your normal speed to a 30% reduced speed on the wet day — recheck your usual reference points",
+      "Speed audit: ski a familiar run at a noticeably slower pace than usual on the wet day — recheck your usual reference points",
       "Gear check lap: do one slow warmup run to feel how your skis and gear are performing in the wet before committing to normal terrain",
     ],
     prerequisites: ["parallel-turns"],
