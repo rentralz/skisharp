@@ -156,9 +156,22 @@ function parseRssItems(xml) {
   return items;
 }
 
+// Make a dead source visible: a GitHub Actions warning annotation shows on the
+// run page (the workflow otherwise stays green while a source returns nothing).
+function warnSourceDown(source, detail) {
+  const message = `${source} returned nothing: every request failed (${detail}).`;
+  if (process.env.GITHUB_ACTIONS === "true") {
+    console.log(`::warning title=${source} deal source down::${message}`);
+  } else {
+    console.warn(`⚠️  ${message}`);
+  }
+}
+
 // ─── Reddit Scanner ──────────────────────────────────────
 async function scanReddit() {
   const deals = [];
+  let failures = 0;
+  let lastError = "";
 
   for (const sub of REDDIT_SUBREDDITS) {
     try {
@@ -185,8 +198,14 @@ async function scanReddit() {
         });
       }
     } catch (error) {
+      failures += 1;
+      lastError = error.message;
       console.error(`Reddit r/${sub} error:`, error.message);
     }
+  }
+
+  if (failures === REDDIT_SUBREDDITS.length) {
+    warnSourceDown("Reddit", `last error: ${lastError}`);
   }
 
   return deals;
@@ -195,6 +214,8 @@ async function scanReddit() {
 // ─── SlickDeals RSS Scanner ──────────────────────────────
 async function scanSlickDeals() {
   const deals = [];
+  let failures = 0;
+  let lastError = "";
 
   for (const query of SLICKDEALS_QUERIES) {
     try {
@@ -215,8 +236,14 @@ async function scanSlickDeals() {
         });
       }
     } catch (error) {
+      failures += 1;
+      lastError = error.message;
       console.error(`SlickDeals query "${query}" error:`, error.message);
     }
+  }
+
+  if (failures === SLICKDEALS_QUERIES.length) {
+    warnSourceDown("SlickDeals", `last error: ${lastError}`);
   }
 
   return deals;
