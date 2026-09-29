@@ -80,7 +80,7 @@ export default function AboutPage() {
       title: "Watch the clearest lesson first",
       description:
         "Open a technique page to get the primary video, a backup teaching style, and the context behind what matters most.",
-      href: "/techniques/wedge-turns?discipline=ski",
+      href: "/techniques/wedge-turns",
       cta: "See a starter technique",
     },
     {
@@ -110,14 +110,14 @@ export default function AboutPage() {
       title: "Start ski basics",
       description:
         "Jump straight into wedge turns, speed control, and the first ski progression most beginners need.",
-      href: "/techniques/wedge-turns?discipline=ski",
+      href: "/techniques/wedge-turns",
       cta: "Open ski starter",
     },
     {
       title: "Start snowboard basics",
       description:
         "Open the athletic stance starter page to build edge awareness and calm first-turn confidence.",
-      href: "/techniques/snowboard-athletic-stance?discipline=snowboard",
+      href: "/techniques/snowboard-athletic-stance",
       cta: "Open snowboard starter",
     },
   ];

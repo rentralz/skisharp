@@ -102,7 +102,7 @@ export default async function TechniqueDetailPage({
   const disciplineInfo = DISCIPLINES[technique.discipline];
   const disciplineNoun = technique.discipline === "ski" ? "skiing" : "snowboarding";
   const disciplineHref = `/techniques?discipline=${technique.discipline}`;
-  const detailHref = (targetSlug: string) => `/techniques/${targetSlug}?discipline=${technique.discipline}`;
+  const detailHref = (targetSlug: string) => `/techniques/${targetSlug}`;
 
   const disciplineTechniques = techniques.filter(
     (entry) => entry.discipline === technique.discipline,

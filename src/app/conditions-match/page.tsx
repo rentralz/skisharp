@@ -98,7 +98,7 @@ export default function ConditionsMatchPage() {
                   return (
                     <TrackedLink
                       key={t.id}
-                      href={`/techniques/${t.slug}?discipline=${t.discipline}`}
+                      href={`/techniques/${t.slug}`}
                       linkKind="next"
                       eventName="conditions_match_result_click"
                       eventParams={{

@@ -19,7 +19,7 @@ export default function TechniqueCard({ technique, position, filterContext }: Pr
   const primaryVideo =
     technique.youtubeVideos.find((video) => video.isPrimary) ?? technique.youtubeVideos[0];
   const disciplineInfo = DISCIPLINES[technique.discipline];
-  const techniqueHref = `/techniques/${technique.slug}?discipline=${technique.discipline}`;
+  const techniqueHref = `/techniques/${technique.slug}`;
 
   return (
     <TrackedLink

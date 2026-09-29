@@ -107,7 +107,7 @@ export default function ProgressPage() {
               {bookmarkedTechniques.map((t) => (
                 <div key={t.id} className="flex items-center justify-between p-3 rounded-xl border border-gray-200">
                   <TrackedLink
-                    href={`/techniques/${t.slug}?discipline=${t.discipline}`}
+                    href={`/techniques/${t.slug}`}
                     linkKind="next"
                     eventName="progress_saved_technique_click"
                     eventParams={{
@@ -150,7 +150,7 @@ export default function ProgressPage() {
               {practicedTechniques.map((t) => (
                 <div key={t.id} className="flex items-center justify-between p-3 rounded-xl border border-emerald-100 bg-emerald-50/30">
                   <TrackedLink
-                    href={`/techniques/${t.slug}?discipline=${t.discipline}`}
+                    href={`/techniques/${t.slug}`}
                     linkKind="next"
                     eventName="progress_practiced_technique_click"
                     eventParams={{

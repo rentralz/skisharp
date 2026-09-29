@@ -2,6 +2,8 @@ import { Suspense } from "react";
 import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import TechniquesPageClient from "@/components/TechniquesPageClient";
+import TechniqueIndex from "@/components/TechniqueIndex";
+import Footer from "@/components/Footer";
 import { techniques } from "@/data/techniques";
 
 function TechniquesResultsFallback() {
@@ -40,6 +42,9 @@ export default function TechniquesPage() {
       <Suspense fallback={<TechniquesResultsFallback />}>
         <TechniquesPageClient />
       </Suspense>
+
+      <TechniqueIndex />
+      <Footer />
     </div>
   );
 }

@@ -108,7 +108,7 @@ export default function HomeDisciplineShowcase({ contentByDiscipline }: Props) {
           {showcase.learningPaths.map((path) => (
             <Link
               key={`${discipline}-${path.level}`}
-              href={`${path.href}?discipline=${discipline}`}
+              href={path.href}
               className="group overflow-hidden rounded-[28px] border border-[#eadfd6] bg-white shadow-[0_14px_32px_rgba(92,68,43,0.06)] transition-all hover:-translate-y-1 hover:shadow-[0_22px_48px_rgba(92,68,43,0.12)]"
             >
               <div className="relative">
@@ -183,7 +183,7 @@ export default function HomeDisciplineShowcase({ contentByDiscipline }: Props) {
             return (
               <Link
                 key={technique.id}
-                href={`/techniques/${technique.slug}?discipline=${discipline}`}
+                href={`/techniques/${technique.slug}`}
                 className="group overflow-hidden rounded-[28px] border border-[#eadfd6] bg-white shadow-[0_14px_32px_rgba(92,68,43,0.06)] transition-all hover:-translate-y-1 hover:shadow-[0_22px_48px_rgba(92,68,43,0.12)]"
               >
                 <div className="grid gap-0 sm:grid-cols-[220px_1fr]">

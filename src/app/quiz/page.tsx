@@ -346,7 +346,7 @@ export default function QuizPage() {
                       return (
                         <TrackedLink
                           key={slug}
-                          href={`/techniques/${slug}?discipline=${selectedDiscipline}`}
+                          href={`/techniques/${slug}`}
                           linkKind="next"
                           eventName="quiz_result_technique_click"
                           eventParams={{
