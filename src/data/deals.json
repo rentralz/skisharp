@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-09-28T19:41:27.840Z",
-  "totalDeals": 57,
+  "lastScanned": "2026-09-29T18:05:40.103Z",
+  "totalDeals": 58,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 105,
+    "slickdeals": 106,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "1-Pair Schwer 100% Waterproof Latex Coated Winter Work Gloves (Winter Orange, size M, L or XXL) $2.99 w/ S&S + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20072115-1-pair-schwer-100-waterproof-latex-coated-winter-work-gloves-winter-orange-size-m-l-or-xxl-2-99-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-09-28T22:11:33.000Z"
+    },
+    {
+      "title": "Aegend Swim Goggles, Swimming Goggles No Leaking Full Protect Adult Youth $4.74",
+      "url": "https://slickdeals.net/f/20069655-aegend-swim-goggles-swimming-goggles-no-leaking-full-protect-adult-youth-4-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-28T12:58:38.000Z"
+    },
     {
       "title": "Demon Phantom Helmet with Audio and Snow Supra Goggle $35.00",
       "url": "https://slickdeals.net/f/20068050-demon-phantom-helmet-with-audio-and-snow-supra-goggle-35-00?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +30,14 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-28T02:29:55.000Z"
+    },
+    {
+      "title": "180° Wide Two pack Swim Goggles for Kids, $5.49 w/ code",
+      "url": "https://slickdeals.net/f/20066730-180-wide-two-pack-swim-goggles-for-kids-5-49-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-27T13:34:57.000Z"
     },
     {
       "title": "CAMEL CROWN Women's Ski Jacket Winter Snow Coat Warm Fleece Mountain Waterproof $29.98",
@@ -376,28 +400,12 @@
       "posted": "2026-09-02T07:09:40.000Z"
     },
     {
-      "title": "2-Pack Aegend Fabric Strap Swim Goggles w/ Nose Cover & Case (Various) from $8.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19956288-2-pack-aegend-fabric-strap-swim-goggles-w-nose-cover-case-various-from-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-01T19:30:06.000Z"
-    },
-    {
-      "title": "Labeol Kids Balaclava Ski Mask w/ Adjustable Zippers (Pure Blue) $6.89 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/19943676-labeol-kids-balaclava-ski-mask-w-adjustable-zippers-pure-blue-6-89-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-08-30T05:25:23.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     },
     {
@@ -406,7 +414,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     },
     {
@@ -415,7 +423,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     },
     {
@@ -424,7 +432,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     },
     {
@@ -433,7 +441,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     },
     {
@@ -442,7 +450,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     },
     {
@@ -451,7 +459,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     },
     {
@@ -460,7 +468,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     },
     {
@@ -469,7 +477,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-28T19:41:27.837Z",
+      "posted": "2026-09-29T18:05:40.101Z",
       "isAmazonSearch": true
     }
   ]
