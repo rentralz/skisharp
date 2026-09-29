@@ -3,13 +3,13 @@ export const DISCIPLINES = {
     label: "Ski",
     pluralLabel: "Skiing",
     libraryHref: "/techniques?discipline=ski",
-    ctaLabel: "Browse ski techniques",
+    ctaLabel: "Explore the ski library",
   },
   snowboard: {
     label: "Snowboard",
     pluralLabel: "Snowboarding",
     libraryHref: "/techniques?discipline=snowboard",
-    ctaLabel: "Browse snowboard techniques",
+    ctaLabel: "Explore the snowboard library",
   },
 } as const;
 
