@@ -13,16 +13,23 @@ export async function fetchText(url, userAgent) {
   return res.text();
 }
 
+// String.fromCodePoint throws on out-of-range values; a malformed entity in one
+// feed title must not abort a whole scan, so invalid ones are left as-is.
+function decodeCodePoint(entity, codePoint) {
+  const valid = codePoint <= 0x10ffff && (codePoint < 0xd800 || codePoint > 0xdfff);
+  return valid ? String.fromCodePoint(codePoint) : entity;
+}
+
 export function decodeHtml(text) {
   return text
     .replace(/<!\[CDATA\[|\]\]>/g, "")
-    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
-    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(Number(dec)))
+    .replace(/&amp;/g, "&")
+    .replace(/&#x([0-9a-f]+);/gi, (entity, hex) => decodeCodePoint(entity, parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (entity, dec) => decodeCodePoint(entity, Number(dec)))
     .replace(/&quot;/g, '"')
     .replace(/&apos;/g, "'")
     .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&amp;/g, "&");
+    .replace(/&gt;/g, ">");
 }
 
 export function normalizeWhitespace(text) {

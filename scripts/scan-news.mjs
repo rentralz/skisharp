@@ -86,7 +86,7 @@ async function main() {
 
   if (items.length === 0) {
     // Keep the last good file rather than blanking the page.
-    warnSourceDown("Ski news", "no stories from any feed; news.json left unchanged");
+    warnSourceDown("Ski news", "no usable stories (feeds failed, or every item was filtered out or too old); news.json left unchanged");
     return;
   }
 
