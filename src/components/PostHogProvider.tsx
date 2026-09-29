@@ -7,6 +7,9 @@ import { usePathname, useSearchParams } from "next/navigation";
 
 const POSTHOG_KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY || "";
 const POSTHOG_HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com";
+// Session replay is kept but sampled: roughly 1 in 4 sessions is recorded.
+// Set here, it overrides the sample rate in the PostHog project settings.
+const SESSION_RECORDING_SAMPLE_RATE = 0.25;
 
 // Initialize PostHog once at module level (not inside useEffect)
 if (typeof window !== "undefined" && POSTHOG_KEY) {
@@ -16,6 +19,7 @@ if (typeof window !== "undefined" && POSTHOG_KEY) {
     capture_pageview: false, // We capture manually below for SPA nav
     capture_pageleave: true,
     autocapture: true,
+    session_recording: { sampleRate: SESSION_RECORDING_SAMPLE_RATE },
   });
 }
 
