@@ -138,7 +138,16 @@ export default function Footer() {
 
         <div className="mt-10 border-t border-[#e2d4c8] pt-6 text-sm text-[#8b7b6d] sm:flex sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} TurnLab. Curated instruction, full credit to original creators.</p>
-          <p className="mt-2 sm:mt-0">Free to use. Built for better ski days.</p>
+          <p className="mt-2 sm:mt-0">
+            Free to use. Built for better ski days.{" "}
+            <Link href="/privacy" className="underline underline-offset-4 hover:text-[#222]">
+              Privacy
+            </Link>{" "}
+            ·{" "}
+            <Link href="/terms" className="underline underline-offset-4 hover:text-[#222]">
+              Terms
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
