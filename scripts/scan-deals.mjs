@@ -195,8 +195,11 @@ async function scanReddit() {
   let failures = 0;
   let lastError = "";
 
+  // Not configured is a deliberate state, not an outage: since Nov 2025 new
+  // Reddit API apps need manual approval (Responsible Builder Policy). Warn
+  // only when credentials exist but fail.
   if (!REDDIT_CLIENT_ID || !REDDIT_CLIENT_SECRET) {
-    warnSourceDown("Reddit", "REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET are not set, and Reddit blocks logged-out API reads");
+    console.log("ℹ️  Reddit skipped: no API credentials configured.");
     return deals;
   }
 
