@@ -31,15 +31,20 @@ jobs:
           REDDIT_USERNAME: ${{ vars.REDDIT_USERNAME }}
         run: npm run scan:deals
 
+      - name: Refresh ski news
+        # A news failure must not cost the day's deals update.
+        continue-on-error: true
+        run: npm run scan:news
+
       - name: Commit updated deals data
         run: |
-          if git diff --quiet -- src/data/deals.json; then
-            echo "No deals changes to commit"
+          if git diff --quiet -- src/data/deals.json src/data/news.json; then
+            echo "No deals or news changes to commit"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/deals.json
-          git commit -m "chore: update ski deals data"
+          git add src/data/deals.json src/data/news.json
+          git commit -m "chore: update ski deals and news data"
           git push

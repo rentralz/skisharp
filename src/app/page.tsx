@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HomeDisciplineShowcase from "@/components/HomeDisciplineShowcase";
+import LatestSkiNews from "@/components/LatestSkiNews";
 import HomeHeroDisciplineSwitch from "@/components/HomeHeroDisciplineSwitch";
 import HomeDisciplineLibraryCta from "@/components/HomeDisciplineLibraryCta";
 import { DISCIPLINES, type Discipline } from "@/data/disciplines";
@@ -464,6 +465,8 @@ export default function HomePage() {
           </section>
 
           <HomeDisciplineShowcase contentByDiscipline={homeShowcaseContent} />
+
+          <LatestSkiNews />
 
           <section className="pb-16 pt-6 md:pb-20">
             <div className="rounded-[32px] bg-[#1f1b18] px-6 py-8 text-white shadow-[0_24px_70px_rgba(31,27,24,0.22)] sm:px-8 sm:py-10 lg:px-10">

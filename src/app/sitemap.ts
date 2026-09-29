@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import dealsData from "@/data/deals.json";
+import newsData from "@/data/news.json";
 import { techniques } from "@/data/techniques";
 import { maxSeoDate, parseSeoDate } from "@/lib/seo";
 
@@ -18,6 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   return [
+    {
+      url: `${BASE_URL}/news`,
+      lastModified: parseSeoDate(newsData.lastScanned) ?? latestSiteUpdate,
+      changeFrequency: "daily",
+      priority: 0.7,
+    },
     {
       url: `${BASE_URL}/privacy`,
       lastModified: new Date("2026-09-29"),

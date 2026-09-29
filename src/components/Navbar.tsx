@@ -44,6 +44,7 @@ export default function Navbar() {
     { href: "/quiz", label: "Quiz" },
     { href: "/about", label: "About" },
     { href: "/deals", label: "Deals" },
+    { href: "/news", label: "News" },
   ];
 
   const activeHref = useActiveLink(navLinks);
