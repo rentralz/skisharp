@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { DISCIPLINES } from "@/data/disciplines";
 import { techniques, getTechniqueBySlug } from "@/data/techniques";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildBreadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 import DifficultyBadge from "@/components/DifficultyBadge";
 import VideoEmbed from "@/components/VideoEmbed";
 import Navbar from "@/components/Navbar";
@@ -143,11 +143,19 @@ export default async function TechniqueDetailPage({
     }),
   };
 
+  // Mirrors the visible breadcrumb trail; the middle crumb uses the canonical
+  // /techniques URL rather than the ?discipline= filter link.
+  const breadcrumbJsonLd = buildBreadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: `${disciplineInfo.label} Techniques`, path: "/techniques" },
+    { name: technique.title, path: `/techniques/${technique.slug}` },
+  ]);
+
   return (
     <div className="min-h-screen bg-white font-[family-name:var(--font-inter)]">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([jsonLd, breadcrumbJsonLd]) }}
       />
 
       <Navbar />
