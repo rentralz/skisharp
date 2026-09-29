@@ -129,7 +129,8 @@ export default function SnowConditionsPage() {
       <Navbar />
       <Breadcrumbs crumbs={[{label:'Snow Conditions'}]} />
 
-      <div id="main-content" className="bg-white border-b border-gray-200">
+      <main id="main-content">
+      <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Conditions guide
@@ -171,22 +172,22 @@ export default function SnowConditionsPage() {
                     <p className="text-sm text-gray-600">{s.feel}</p>
                   </div>
                   <div className="p-4 rounded-xl bg-gray-50">
-                    <h4 className="text-xs font-semibold text-blue-400 uppercase tracking-wide mb-2">Stance adjustment</h4>
+                    <h4 className="text-xs font-semibold text-blue-700 uppercase tracking-wide mb-2">Stance adjustment</h4>
                     <p className="text-sm text-gray-600">{s.stanceAdjust}</p>
                   </div>
                   <div className="p-4 rounded-xl bg-gray-50">
-                    <h4 className="text-xs font-semibold text-green-400 uppercase tracking-wide mb-2">Edge adjustment</h4>
+                    <h4 className="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">Edge adjustment</h4>
                     <p className="text-sm text-gray-600">{s.edgeAdjust}</p>
                   </div>
                   <div className="p-4 rounded-xl bg-gray-50">
-                    <h4 className="text-xs font-semibold text-purple-400 uppercase tracking-wide mb-2">Turn shape</h4>
+                    <h4 className="text-xs font-semibold text-purple-700 uppercase tracking-wide mb-2">Turn shape</h4>
                     <p className="text-sm text-gray-600">{s.turnAdjust}</p>
                   </div>
                 </div>
 
                 {/* Danger */}
                 <div className="p-4 rounded-xl bg-red-950/30 border border-red-800/20 mb-5">
-                  <h4 className="text-xs font-semibold text-red-400 uppercase tracking-wide mb-2">⚠️ Watch out</h4>
+                  <h4 className="text-xs font-semibold text-red-700 uppercase tracking-wide mb-2">⚠️ Watch out</h4>
                   <p className="text-sm text-gray-600">{s.danger}</p>
                 </div>
 
@@ -251,6 +252,7 @@ export default function SnowConditionsPage() {
           { href: '/equipment-guide', label: 'Equipment Guide →', description: 'Choose the right skis, boots, and gear for every condition' },
         ]} />
       </div>
+      </main>
       <Footer />
     </div>
   );

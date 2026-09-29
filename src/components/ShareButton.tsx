@@ -15,7 +15,7 @@ export default function ShareButton({ url }: { url: string }) {
   return (
     <button
       onClick={handleCopy}
-      className="text-xs text-[#aaa] hover:text-[#B4835A] transition-colors"
+      className="text-xs text-[#767676] hover:text-[#B4835A] transition-colors"
       aria-label={copied ? "Link copied" : "Copy link"}
     >
       {copied ? "✓ Copied" : "Share"}

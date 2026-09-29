@@ -48,7 +48,7 @@ export default function Breadcrumbs({ crumbs }: BreadcrumbsProps) {
   if (items.length === 0) return null;
 
   return (
-    <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 text-sm text-[#aaa]">
+    <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 text-sm text-[#767676]">
       <ol className="flex items-center gap-2">
         <li>
           <Link href="/" className="hover:text-[#222] transition-colors">Home</Link>

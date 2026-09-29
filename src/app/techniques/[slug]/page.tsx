@@ -348,7 +348,7 @@ export default async function TechniqueDetailPage({
                 <p className="text-gray-900 text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
                   {prev.title}
                 </p>
-                <p className="text-gray-400 text-xs mt-1">Level {prev.difficulty}</p>
+                <p className="text-gray-500 text-xs mt-1">Level {prev.difficulty}</p>
               </Link>
             ) : (
               <div className="rounded-xl border border-gray-200 p-4 opacity-30">
@@ -372,7 +372,7 @@ export default async function TechniqueDetailPage({
                 <p className="text-gray-900 text-sm font-semibold group-hover:text-[#e8722a] transition-colors line-clamp-2">
                   {next.title}
                 </p>
-                <p className="text-gray-400 text-xs mt-1">Level {next.difficulty}</p>
+                <p className="text-gray-500 text-xs mt-1">Level {next.difficulty}</p>
               </Link>
             ) : (
               <div className="rounded-xl border border-gray-200 p-4 opacity-30">

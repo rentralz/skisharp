@@ -245,7 +245,8 @@ export default function ResortsPage() {
       <Navbar />
       <Breadcrumbs crumbs={[{label:'Resorts'}]} />
 
-      <div id="main-content" className="bg-white border-b border-gray-200">
+      <main id="main-content">
+      <div className="bg-white border-b border-gray-200">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Where to ski
@@ -311,12 +312,12 @@ export default function ResortsPage() {
                           {(resort.vertical || resort.terrain) && (
                             <div className="flex flex-wrap gap-2 text-xs">
                               {resort.vertical && (
-                                <span className="px-2 py-0.5 rounded-full bg-blue-900/40 text-blue-300 border border-blue-700/30">
+                                <span className="px-2 py-0.5 rounded-full bg-blue-50 text-blue-800 border border-blue-200">
                                   ↕ {resort.vertical}
                                 </span>
                               )}
                               {resort.terrain && (
-                                <span className="px-2 py-0.5 rounded-full bg-emerald-900/40 text-emerald-300 border border-emerald-700/30">
+                                <span className="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
                                   ⛰ {resort.terrain}
                                 </span>
                               )}
@@ -353,6 +354,7 @@ export default function ResortsPage() {
           { href: '/snow-conditions', label: 'Snow Conditions →', description: 'Learn to adapt your skiing to groomed, powder, ice, and more' },
         ]} />
       </div>
+      </main>
       <Footer />
     </div>
   );

@@ -15,6 +15,10 @@ const DEALS_DESCRIPTION =
 const DEALS_SOCIAL_DESCRIPTION =
   "Community finds, retailer sale shortcuts, and ski gear deal paths in one place — built to help you spot worthwhile discounts faster.";
 
+// Relative labels ("3h ago", "Updated just now") and recency ranking use
+// Date.now(); regenerate hourly so they don't freeze at build time.
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: DEALS_TITLE,
   description: DEALS_DESCRIPTION,
@@ -177,7 +181,7 @@ const RETAILER_SHORTCUTS = [
   },
   {
     name: "evo",
-    href: "https://www.evo.com/shop/ski",
+    href: "https://www.evo.com/collections/ski",
     label: "Direct retailer",
     affiliateLink: false,
     focus: "Full-kit browsing",
@@ -464,7 +468,8 @@ export default function DealsPage() {
       <Navbar />
       <Breadcrumbs crumbs={[{ label: "Deals" }]} />
 
-      <div id="main-content" className="pb-16">
+      <main id="main-content">
+      <div className="pb-16">
         <DealsAnalytics
           lastScanned={lastScanned}
           featuredCommunityCount={featuredCommunityDeals.length}
@@ -826,7 +831,7 @@ export default function DealsPage() {
             </p>
           </div>
 
-          <div className="mt-6 grid gap-4 lg:grid-cols-2">
+          <div className="mt-6 grid grid-cols-1 gap-4 lg:grid-cols-2">
             {RETAILER_SHORTCUTS.map((retailer, index) => (
               <TrackedLink
                 key={retailer.name}
@@ -845,7 +850,7 @@ export default function DealsPage() {
                 }}
                 className="group rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_14px_36px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
               >
-                <div className="flex items-start justify-between gap-4">
+                <div className="flex flex-wrap items-start justify-between gap-4">
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#a56f43]">
                       {retailer.label}
@@ -954,7 +959,8 @@ export default function DealsPage() {
           </div>
 
           <p className="mt-5 text-xs leading-6 text-[#8a7a6d]">
-            Disclosure: TurnLab is a participant in the Amazon Associates Program. Some
+            Disclosure: As an Amazon Associate I earn from qualifying purchases. TurnLab is a
+            participant in the Amazon Associates Program. Some
             category shortcuts above are affiliate links, which means TurnLab may earn a small
             commission at no extra cost to you.
           </p>
@@ -1037,6 +1043,7 @@ export default function DealsPage() {
         </section>
       </div>
 
+      </main>
       <Footer />
     </div>
   );

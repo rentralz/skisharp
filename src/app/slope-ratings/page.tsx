@@ -148,7 +148,8 @@ export default function SlopeRatingsPage() {
       <Breadcrumbs crumbs={[{label:'Slope Ratings'}]} />
 
       {/* Hero */}
-      <div id="main-content" className="bg-white border-b border-gray-200">
+      <main id="main-content">
+      <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Essential knowledge
@@ -316,6 +317,7 @@ export default function SlopeRatingsPage() {
           { href: '/techniques', label: 'All Techniques →', description: 'Browse all 30+ technique guides by level and terrain' },
         ]} />
       </div>
+      </main>
       <Footer />
     </div>
   );

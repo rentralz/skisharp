@@ -80,7 +80,7 @@ export default function ConditionsMatchPage() {
             >
               <span className="text-2xl block mb-1">{c.emoji}</span>
               <span className="text-sm font-medium text-[#222] block">{c.label}</span>
-              <span className="text-[10px] text-[#aaa]">{c.desc}</span>
+              <span className="text-[10px] text-[#767676]">{c.desc}</span>
             </button>
           ))}
         </div>
@@ -132,10 +132,10 @@ export default function ConditionsMatchPage() {
                             t.rating === "blue" ? "bg-blue-500" :
                             t.rating === "black" ? "bg-gray-800" : "bg-purple-600"
                           }`} />
-                          <span className="text-[10px] text-[#aaa]">Level {t.difficulty}</span>
+                          <span className="text-[10px] text-[#767676]">Level {t.difficulty}</span>
                         </div>
                       </div>
-                      <span className="text-[#aaa] group-hover:text-[#B4835A] transition-colors">→</span>
+                      <span className="text-[#767676] group-hover:text-[#B4835A] transition-colors">→</span>
                     </TrackedLink>
                   );
                 })}
@@ -158,7 +158,7 @@ export default function ConditionsMatchPage() {
         )}
 
         {!selected && (
-          <div className="text-center py-8 text-[#aaa]">
+          <div className="text-center py-8 text-[#767676]">
             <p className="text-4xl mb-3">👆</p>
             <p className="text-sm">Pick a condition above to see matching techniques</p>
           </div>

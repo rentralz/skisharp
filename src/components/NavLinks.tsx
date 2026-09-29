@@ -29,7 +29,7 @@ export default function NavLinks({ links, activeHref, onClick, mobile }: Props) 
           : `inline-flex h-14 items-center border-b-2 transition-colors ${
               active
                 ? "border-[#B4835A] font-medium text-[#222]"
-                : "border-transparent text-[#8b8178] hover:border-[#dfcfbf] hover:text-[#222]"
+                : "border-transparent text-[#6b635b] hover:border-[#dfcfbf] hover:text-[#222]"
             }`;
 
         return (

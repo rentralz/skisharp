@@ -123,7 +123,8 @@ export default function BudgetGearPage() {
       <Navbar />
       <Breadcrumbs crumbs={[{ label: "Budget Gear" }]} />
 
-      <div id="main-content" className="bg-white border-b border-gray-200">
+      <main id="main-content">
+      <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <p className="text-[#e8722a] text-sm font-medium uppercase tracking-[0.2em] mb-4">
             Starter kit
@@ -280,8 +281,9 @@ export default function BudgetGearPage() {
         </section>
 
         {/* Affiliate disclosure */}
-        <p className="mt-8 text-xs text-gray-400 leading-relaxed">
-          <strong>Disclosure:</strong> TurnLab is a participant in the Amazon
+        <p className="mt-8 text-xs text-gray-500 leading-relaxed">
+          <strong>Disclosure:</strong> As an Amazon Associate I earn from qualifying
+          purchases. TurnLab is a participant in the Amazon
           Associates Program. Links on this page are affiliate links — if you buy
           through them, we earn a small commission at no extra cost to you. We only
           recommend gear we&apos;d actually use on the mountain.
@@ -311,6 +313,7 @@ export default function BudgetGearPage() {
         </div>
       </div>
 
+      </main>
       <Footer />
     </div>
   );

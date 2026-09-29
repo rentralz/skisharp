@@ -162,10 +162,10 @@ export default function QuizPage() {
         {selectedDiscipline && !result && track && (
           <div className="mb-8">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-xs text-[#aaa] font-medium">
+              <span className="text-xs text-[#767676] font-medium">
                 Question {currentStep} of {totalSteps}
               </span>
-              <span className="text-xs text-[#aaa]">{progress}%</span>
+              <span className="text-xs text-[#767676]">{progress}%</span>
             </div>
             <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
               <div
@@ -362,7 +362,7 @@ export default function QuizPage() {
                           <span className="text-sm text-[#222] group-hover:text-[#B4835A] transition-colors font-medium">
                             {label}
                           </span>
-                          <span className="text-[#aaa] text-xs ml-auto">→</span>
+                          <span className="text-[#767676] text-xs ml-auto">→</span>
                         </TrackedLink>
                       );
                     })}

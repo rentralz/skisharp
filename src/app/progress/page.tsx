@@ -69,7 +69,7 @@ export default function ProgressPage() {
               style={{ width: `${progressPct}%` }}
             />
           </div>
-          <p className="text-xs text-[#aaa] mt-1">{stats.practicedCount} of {totalTechniques} techniques</p>
+          <p className="text-xs text-[#767676] mt-1">{stats.practicedCount} of {totalTechniques} techniques</p>
         </div>
 
         {/* Progress by level */}
@@ -131,7 +131,7 @@ export default function ProgressPage() {
                         });
                         toggleBookmark(t.id);
                       }}
-                      className="text-xs text-[#aaa] hover:text-red-500 transition-colors"
+                      className="text-xs text-[#767676] hover:text-red-500 transition-colors"
                     >
                       remove
                     </button>
@@ -172,7 +172,7 @@ export default function ProgressPage() {
                       });
                       togglePracticed(t.id);
                     }}
-                    className="text-xs text-[#aaa] hover:text-red-500 transition-colors"
+                    className="text-xs text-[#767676] hover:text-red-500 transition-colors"
                   >
                     undo
                   </button>

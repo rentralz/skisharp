@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { DISCIPLINES } from "@/data/disciplines";
 import { useDisciplinePreference } from "@/hooks/useDisciplinePreference";
@@ -13,7 +13,22 @@ import { useActiveLink } from "./hooks/useActiveLink";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
   const { setDiscipline } = useDisciplinePreference();
+
+  useEffect(() => {
+    if (!menuOpen) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        menuButtonRef.current?.focus();
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [menuOpen]);
 
   const navLinks: NavLink[] = [
     {
@@ -53,8 +68,9 @@ export default function Navbar() {
           <div className="flex items-center gap-2 md:hidden">
             <ThemeToggle />
             <button
+              ref={menuButtonRef}
               onClick={() => setMenuOpen((open) => !open)}
-              className="rounded-lg p-2 text-[#aaa] transition-colors hover:text-[#222]"
+              className="rounded-lg p-2 text-[#767676] transition-colors hover:text-[#222]"
               aria-label="Toggle navigation menu"
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
