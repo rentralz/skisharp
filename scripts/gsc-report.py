@@ -12,7 +12,9 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from collections import defaultdict
 
+from google.auth.exceptions import RefreshError
 from google.auth.transport.requests import Request
+from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 # ---------------------------------------------------------------------------
@@ -23,15 +25,39 @@ SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 CREDENTIALS_DIR = Path.home() / ".config" / "turnlab" / "gsc"
 TOKEN_PATH = CREDENTIALS_DIR / "token.pickle"
 CLIENT_SECRETS_PATH = CREDENTIALS_DIR / "client_secrets.json"
+# Preferred for cron: a service-account key never needs browser re-consent.
+# Add the service account's email as a user on the Search Console property.
+SERVICE_ACCOUNT_PATH = CREDENTIALS_DIR / "service_account.json"
 
 DAYS_SHORT = 7    # recent trend
 DAYS_LONG = 28    # broader view
 
 
+def print_setup_instructions():
+    print("Setup options:", file=sys.stderr)
+    print("A) Service account (recommended for cron, never expires):", file=sys.stderr)
+    print("   1. console.cloud.google.com > IAM & Admin > Service Accounts > Create", file=sys.stderr)
+    print("   2. Keys > Add key > JSON, save it to:", file=sys.stderr)
+    print(f"      {SERVICE_ACCOUNT_PATH}", file=sys.stderr)
+    print("   3. search.google.com/search-console > Settings > Users and permissions >", file=sys.stderr)
+    print("      Add user: the service account email, permission Restricted", file=sys.stderr)
+    print("B) OAuth user token:", file=sys.stderr)
+    print("   1. Google Auth Platform > Audience: set publishing status to 'In production'", file=sys.stderr)
+    print("      (apps left in 'Testing' get refresh tokens that expire after 7 days)", file=sys.stderr)
+    print("   2. Run: python3 scripts/gsc-auth-manual.py", file=sys.stderr)
+
+
 def get_credentials():
-    """Load or refresh OAuth credentials."""
+    """Load service-account credentials, or load/refresh the OAuth token."""
+    if SERVICE_ACCOUNT_PATH.exists():
+        return service_account.Credentials.from_service_account_file(
+            str(SERVICE_ACCOUNT_PATH), scopes=SCOPES
+        )
+
     if not TOKEN_PATH.exists():
-        print("ERROR: No OAuth token found. Run scripts/gsc-auth.py first.")
+        print("ERROR: No Search Console credentials found.", file=sys.stderr)
+        print(file=sys.stderr)
+        print_setup_instructions()
         sys.exit(1)
 
     with open(TOKEN_PATH, "rb") as token:
@@ -39,11 +65,21 @@ def get_credentials():
 
     if not creds.valid:
         if creds.expired and creds.refresh_token:
-            creds.refresh(Request())
+            try:
+                creds.refresh(Request())
+            except RefreshError as e:
+                print(f"ERROR: Google rejected the saved OAuth refresh token ({e}).", file=sys.stderr)
+                print("The token was revoked or expired. If the OAuth app is still in", file=sys.stderr)
+                print("'Testing' status, every new token dies again after 7 days.", file=sys.stderr)
+                print(file=sys.stderr)
+                print_setup_instructions()
+                sys.exit(1)
             with open(TOKEN_PATH, "wb") as token:
                 pickle.dump(creds, token)
         else:
-            print("ERROR: Token expired and cannot be refreshed. Run scripts/gsc-auth.py again.")
+            print("ERROR: Token expired and cannot be refreshed.", file=sys.stderr)
+            print(file=sys.stderr)
+            print_setup_instructions()
             sys.exit(1)
 
     return creds
@@ -221,19 +257,6 @@ def format_report(short_rows, long_rows, page_rows, query_page_rows):
 
 
 def main():
-    if not TOKEN_PATH.exists():
-        print("ERROR: No OAuth token found.")
-        print(f"Run: python scripts/gsc-auth.py")
-        print()
-        print("Setup instructions:")
-        print("1. Go to https://console.cloud.google.com/")
-        print("2. Create/select a project")
-        print("3. Enable 'Google Search Console API'")
-        print("4. APIs & Services > Credentials > Create OAuth 2.0 (Desktop app)")
-        print(f"5. Download JSON to {CLIENT_SECRETS_PATH}")
-        print("6. Run: python scripts/gsc-auth.py")
-        sys.exit(1)
-
     creds = get_credentials()
     service = build("webmasters", "v3", credentials=creds, cache_discovery=False)
 
