@@ -22,6 +22,33 @@ export type DealAlertSignupState = {
   };
 };
 
+// Best-effort abuse brake, counted per client IP inside one warm server
+// instance. It won't stop a distributed attack, but it stops a single script
+// from pushing hundreds of addresses into the list.
+const SIGNUP_WINDOW_MS = 10 * 60 * 1000;
+const MAX_SIGNUPS_PER_WINDOW = 5;
+const MAX_TRACKED_CLIENTS = 1000;
+const recentSignupsByClient = new Map<string, number[]>();
+
+function isRateLimited(clientKey: string, now: number) {
+  if (recentSignupsByClient.size > MAX_TRACKED_CLIENTS) {
+    for (const [key, times] of recentSignupsByClient) {
+      if (times.every((time) => now - time >= SIGNUP_WINDOW_MS)) {
+        recentSignupsByClient.delete(key);
+      }
+    }
+  }
+
+  const recent = (recentSignupsByClient.get(clientKey) ?? []).filter((time) => now - time < SIGNUP_WINDOW_MS);
+  if (recent.length >= MAX_SIGNUPS_PER_WINDOW) {
+    recentSignupsByClient.set(clientKey, recent);
+    return true;
+  }
+
+  recentSignupsByClient.set(clientKey, [...recent, now]);
+  return false;
+}
+
 async function writeLocalLead(payload: Record<string, string>) {
   await appendFile("/tmp/turnlab-deal-alert-signups.jsonl", `${JSON.stringify(payload)}\n`, "utf8");
 }
@@ -62,6 +89,15 @@ export async function submitDealAlertSignup(
   }
 
   const headersList = await headers();
+  // Vercel sets x-forwarded-for itself (client-supplied values are replaced).
+  const clientKey = headersList.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+  if (isRateLimited(clientKey, Date.now())) {
+    return {
+      status: "error",
+      message: "Too many signups from this connection. Please try again in a few minutes.",
+    };
+  }
+
   const payload = {
     email,
     interest,
