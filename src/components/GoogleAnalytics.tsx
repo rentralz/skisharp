@@ -1,33 +1,13 @@
 "use client";
 
 import Script from "next/script";
-import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, useRef } from "react";
-import { trackPageView } from "@/lib/analytics";
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "";
 
+// Client-side navigations are counted by GA4's enhanced measurement ("page
+// changes based on browser history events"). Sending a manual page_view on
+// top of that recorded every in-site navigation twice.
 export default function GoogleAnalytics() {
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const hasSkippedInitialPageView = useRef(false);
-  const queryString = searchParams.toString();
-
-  useEffect(() => {
-    if (!GA_MEASUREMENT_ID) {
-      return;
-    }
-
-    if (!hasSkippedInitialPageView.current) {
-      hasSkippedInitialPageView.current = true;
-      return;
-    }
-
-    const search = queryString ? `?${queryString}` : "";
-    const url = `${window.location.origin}${pathname}${search}`;
-    trackPageView(url, document.title);
-  }, [pathname, queryString]);
-
   if (!GA_MEASUREMENT_ID) {
     return null;
   }

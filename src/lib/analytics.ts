@@ -22,20 +22,6 @@ export function isGaEnabled() {
   return Boolean(GA_MEASUREMENT_ID);
 }
 
-export function trackPageView(url: string, title?: string) {
-  if (typeof window === "undefined" || !window.gtag || !GA_MEASUREMENT_ID) {
-    return;
-  }
-
-  const location = new URL(url);
-
-  window.gtag("event", "page_view", {
-    page_title: title,
-    page_location: location.toString(),
-    page_path: `${location.pathname}${location.search}`,
-  });
-}
-
 export function trackEvent(name: string, params: AnalyticsParams = {}) {
   if (typeof window === "undefined" || !window.gtag || !GA_MEASUREMENT_ID) {
     return;
