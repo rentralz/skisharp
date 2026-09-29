@@ -37,6 +37,11 @@ function isRateLimited(clientKey: string, now: number) {
         recentSignupsByClient.delete(key);
       }
     }
+    // Hard cap under a flood of distinct IPs: drop the oldest-inserted keys.
+    for (const key of recentSignupsByClient.keys()) {
+      if (recentSignupsByClient.size <= MAX_TRACKED_CLIENTS) break;
+      recentSignupsByClient.delete(key);
+    }
   }
 
   const recent = (recentSignupsByClient.get(clientKey) ?? []).filter((time) => now - time < SIGNUP_WINDOW_MS);

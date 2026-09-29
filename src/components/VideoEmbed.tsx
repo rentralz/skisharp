@@ -25,6 +25,9 @@ export default function VideoEmbed({ videos }: Props) {
         onSelect={(i) => setActiveIndex(i)}
       />
       <VideoFacade
+        // Remount per video so a poster click on one tab doesn't make the
+        // next tab's video autoplay.
+        key={activeVideo.videoId}
         title={activeVideo.title}
         posterUrl={posterUrl}
         embedUrl={embedUrl}

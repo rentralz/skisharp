@@ -20,7 +20,7 @@ export default function VideoTabSwitcher({ videos, activeIndex, onSelect }: Prop
           className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
             i === activeIndex
               ? "bg-[#b35816] text-white"
-              : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"
+              : "bg-gray-100 text-gray-700 hover:bg-gray-200 hover:text-gray-900"
           }`}
         >
           {video.isPrimary ? "Primary" : `Alt ${i}`}: {video.channel}
