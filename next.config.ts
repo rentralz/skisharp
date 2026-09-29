@@ -1,10 +1,10 @@
 import type { NextConfig } from "next";
 
 // No Content-Security-Policy yet: AdSense, GA4, PostHog and YouTube need an
-// allowlist built from observed traffic (start it as Report-Only).
+// allowlist built from observed traffic (start it as Report-Only). No
+// X-Frame-Options either: AdSense's ad-preview tool loads the site in a frame.
 const SECURITY_HEADERS = [
   { key: "X-Content-Type-Options", value: "nosniff" },
-  { key: "X-Frame-Options", value: "DENY" },
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
 ];
