@@ -5,12 +5,31 @@ interface Props {
   title: string;
 }
 
+function formatReviewedAt(value: string) {
+  const [year, month] = value.split("-").map(Number);
+
+  if (!year || !month) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat("en", {
+    month: "long",
+    timeZone: "UTC",
+    year: "numeric",
+  }).format(new Date(Date.UTC(year, month - 1, 1)));
+}
+
 // Server component: guide text is rendered into the HTML and never shipped
 // as client JS.
 export default function TechniqueGuideArticle({ guide, title }: Props) {
   return (
     <section aria-labelledby="full-guide-heading" className="border-t border-gray-200 pt-10">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#b35816] mb-2">The full guide</p>
+      <div className="mb-3 flex flex-wrap items-center gap-3">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#b35816]">The full guide</p>
+        <p className="rounded-full border border-[#e8ddd4] bg-[#fcfaf8] px-3 py-1 text-xs font-semibold text-[#6f665e]">
+          Reviewed {formatReviewedAt(guide.reviewedAt)}
+        </p>
+      </div>
       <h2 id="full-guide-heading" className="text-2xl font-bold text-gray-900 mb-4">
         How to learn {title}
       </h2>
