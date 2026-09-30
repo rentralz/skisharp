@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-09-29T20:40:00.800Z",
+  "lastScanned": "2026-09-30T18:00:09.402Z",
   "totalDeals": 58,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 106,
+    "slickdeals": 102,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Wrangler Men's Brushed Performance Thermal Long Sleeve Base Layer Shirt (Dark Military Green or Naval Academy, M-2XL) $4.47 + Free Shipping w/ Walmart+ or on $35+",
+      "url": "https://slickdeals.net/f/20078997-wrangler-men-s-brushed-performance-thermal-long-sleeve-base-layer-shirt-dark-military-green-or-naval-academy-m-2xl-4-47-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-09-30T15:26:11.000Z"
+    },
     {
       "title": "1-Pair Schwer 100% Waterproof Latex Coated Winter Work Gloves (Winter Orange, size M, L or XXL) $2.99 w/ S&S + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20072115-1-pair-schwer-100-waterproof-latex-coated-winter-work-gloves-winter-orange-size-m-l-or-xxl-2-99-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -150,14 +158,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-21T13:18:24.000Z"
-    },
-    {
-      "title": "Amazon – Barjneel Men’s Fleece-Lined Thermal Underwear Bottoms - $7.99 w/ Code",
-      "url": "https://slickdeals.net/f/20034420-amazon-barjneel-men-s-fleece-lined-thermal-underwear-bottoms-7-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-18T20:29:49.000Z"
     },
     {
       "title": "WISHBETY 4K Night Vision Goggles for Adult,5000mAh Night Vision Binoculars $44.99",
@@ -405,7 +405,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     },
     {
@@ -414,7 +414,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     },
     {
@@ -423,7 +423,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     },
     {
@@ -432,7 +432,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     },
     {
@@ -441,7 +441,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     },
     {
@@ -450,7 +450,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     },
     {
@@ -459,7 +459,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     },
     {
@@ -468,7 +468,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     },
     {
@@ -477,7 +477,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-09-29T20:40:00.797Z",
+      "posted": "2026-09-30T18:00:09.399Z",
       "isAmazonSearch": true
     }
   ]
