@@ -170,41 +170,41 @@ export default function SnowConditionsPage() {
                 {/* Adjustments grid */}
                 <div className="grid sm:grid-cols-2 gap-4 mb-6">
                   <div className="p-4 rounded-xl bg-gray-50">
-                    <h4 className="text-xs font-semibold text-[#b35816] uppercase tracking-wide mb-2">What it feels like</h4>
+                    <h3 className="text-xs font-semibold text-[#b35816] uppercase tracking-wide mb-2">What it feels like</h3>
                     <p className="text-sm text-gray-600">{s.feel}</p>
                   </div>
                   <div className="p-4 rounded-xl bg-gray-50">
-                    <h4 className="text-xs font-semibold text-blue-700 uppercase tracking-wide mb-2">Stance adjustment</h4>
+                    <h3 className="text-xs font-semibold text-blue-700 uppercase tracking-wide mb-2">Stance adjustment</h3>
                     <p className="text-sm text-gray-600">{s.stanceAdjust}</p>
                   </div>
                   <div className="p-4 rounded-xl bg-gray-50">
-                    <h4 className="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">Edge adjustment</h4>
+                    <h3 className="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">Edge adjustment</h3>
                     <p className="text-sm text-gray-600">{s.edgeAdjust}</p>
                   </div>
                   <div className="p-4 rounded-xl bg-gray-50">
-                    <h4 className="text-xs font-semibold text-purple-700 uppercase tracking-wide mb-2">Turn shape</h4>
+                    <h3 className="text-xs font-semibold text-purple-700 uppercase tracking-wide mb-2">Turn shape</h3>
                     <p className="text-sm text-gray-600">{s.turnAdjust}</p>
                   </div>
                 </div>
 
                 {/* Danger */}
                 <div className="p-4 rounded-xl bg-red-950/30 border border-red-800/20 mb-5">
-                  <h4 className="text-xs font-semibold text-red-700 uppercase tracking-wide mb-2">⚠️ Watch out</h4>
+                  <h3 className="text-xs font-semibold text-red-700 uppercase tracking-wide mb-2">⚠️ Watch out</h3>
                   <p className="text-sm text-gray-600">{s.danger}</p>
                 </div>
 
                 {/* Tip */}
                 <div className="p-4 rounded-xl bg-[#e8722a]/5 border border-[#e8722a]/15 mb-5">
-                  <h4 className="text-xs font-semibold text-[#b35816] uppercase tracking-wide mb-2">💡 Tip of the day</h4>
+                  <h3 className="text-xs font-semibold text-[#b35816] uppercase tracking-wide mb-2">💡 Tip of the day</h3>
                   <p className="text-sm text-gray-600">{s.tipOfDay}</p>
                 </div>
 
                 {/* Linked techniques */}
                 {relatedTechniques.length > 0 && (
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-3">
+                    <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-3">
                       Related techniques
-                    </h4>
+                    </h3>
                     <div className="flex flex-wrap gap-2">
                       {relatedTechniques.map((t) => (
                         <Link
