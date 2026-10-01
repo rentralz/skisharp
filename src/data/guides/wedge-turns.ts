@@ -16,6 +16,7 @@ const guide: TechniqueGuide = {
       heading: "Before you start",
       paragraphs: [
         "All you need is snugly buckled boots and the ability to glide a few feet on flat snow. Start in a beginner area or on a gentle slope that runs out onto flat ground, so the terrain slows you down if a turn doesn't.",
+        "A good beginner check is that you can stop twice in a row before you try linking turns. If stopping feels rushed, make the slope gentler before adding speed or distance.",
         "Soft, freshly groomed snow is the friendliest surface, and a helmet is worth wearing from day one. Before you push off, glance uphill to check that no one is coming. When you stop, pull over to the side of the run where people above can see you.",
       ],
     },
