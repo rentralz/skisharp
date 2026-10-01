@@ -13,7 +13,7 @@ Each item is a technique slug that has no long-form guide yet. The job writes
 get an independent fact-check before shipping (see the job prompt). Ordered by
 search demand and the beginner progression, with snowboard guides interleaved.
 
-- [ ] speed-control
+- [x] speed-control: 2026-10-01
 - [ ] snowboard-athletic-stance
 - [ ] snowplow-stop
 - [ ] sideslipping

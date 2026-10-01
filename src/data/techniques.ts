@@ -158,7 +158,7 @@ export const techniques: Technique[] = [
     description:
       "Managing your velocity deliberately using turn shape, edge angle, and slope selection — not just relying on stops to avoid going too fast.",
     promise:
-      "You'll stop white-knuckling down slopes and start choosing exactly how fast you go on any gradient.",
+      "You should be able to use turn shape, edge angle, and terrain choices to keep your speed more predictable on groomed green terrain.",
     timestamps: [
       { time: "0:40", label: "Turn shape = speed shape", detail: "Rounder, more across-the-hill turns = slower speed without stopping" },
       { time: "1:30", label: "Edge angle basics", detail: "More edge angle digs in harder and scrubs more speed per turn" },
