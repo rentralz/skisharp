@@ -77,7 +77,7 @@ search demand and the beginner progression, with snowboard guides interleaved.
 Used when an A item can't be completed safely in a run (for example the
 independent fact-check is unavailable), or once A is done.
 
-- [ ] Stale counts: five NextSteps blurbs say "30+" technique guides; there are 78 (equipment-guide, slope-ratings, snow-conditions, clothing-guide, resorts). Derive the number from `techniques.length` instead of hardcoding it.
+- [x] Stale counts: five NextSteps blurbs say "30+" technique guides; there are 78 (equipment-guide, slope-ratings, snow-conditions, clothing-guide, resorts). Derive the number from `techniques.length` instead of hardcoding it: 2026-10-01
 - [ ] /snow-conditions skips heading levels (H2 then H4, seven times). Make the condition sub-labels h3, keeping their current look.
 - [ ] /conditions-match: axe reports a heading-order violation (H1 followed by H3 before a condition is chosen). Fix the level without changing the visuals.
 - [ ] Quiz accessibility: after answering with the keyboard, focus drops to <body>. Move focus to the next question heading, and give the progress bar role="progressbar" with aria-valuenow/min/max (src/app/quiz/page.tsx).

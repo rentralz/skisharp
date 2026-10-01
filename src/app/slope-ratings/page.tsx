@@ -15,6 +15,8 @@ export const metadata: Metadata = buildPageMetadata({
   keywords: ["slope ratings explained", "green blue black ski trails", "ski trail difficulty", "double black diamond meaning"],
 });
 
+const techniqueGuideCount = techniques.length;
+
 const ratings = [
   {
     symbol: "🟢",
@@ -314,7 +316,7 @@ export default function SlopeRatingsPage() {
         <NextSteps links={[
           { href: '/techniques?rating=green', label: 'Green Run Techniques →', description: 'Build the fundamentals — wedge turns, hockey stop, speed control' },
           { href: '/techniques?rating=black', label: 'Black Diamond Techniques →', description: 'Moguls, steep terrain, and expert-level skills' },
-          { href: '/techniques', label: 'All Techniques →', description: 'Browse all 30+ technique guides by level and terrain' },
+          { href: '/techniques', label: 'All Techniques →', description: `Browse all ${techniqueGuideCount} technique guides by level and terrain` },
         ]} />
       </div>
       </main>

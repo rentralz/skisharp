@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { techniques } from "@/data/techniques";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -12,6 +13,8 @@ export const metadata: Metadata = buildPageMetadata({
   path: "/resorts",
   keywords: ["ski resorts worldwide", "best ski resorts", "ski resorts by region", "ski resort guide"],
 });
+
+const techniqueGuideCount = techniques.length;
 
 interface Resort {
   name: string;
@@ -349,7 +352,7 @@ export default function ResortsPage() {
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <NextSteps links={[
-          { href: '/techniques', label: 'Browse Techniques →', description: '30+ expert-curated skiing technique guides with video breakdowns' },
+          { href: '/techniques', label: 'Browse Techniques →', description: `${techniqueGuideCount} expert-curated skiing technique guides with video breakdowns` },
           { href: '/equipment-guide', label: 'Equipment Guide →', description: 'Choose the right skis, boots, and gear for your level and style' },
           { href: '/snow-conditions', label: 'Snow Conditions →', description: 'Learn to adapt your skiing to groomed, powder, ice, and more' },
         ]} />

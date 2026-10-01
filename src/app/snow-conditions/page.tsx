@@ -15,6 +15,8 @@ export const metadata: Metadata = buildPageMetadata({
   keywords: ["snow conditions skiing", "ski powder technique", "how to ski ice", "ski variable snow"],
 });
 
+const techniqueGuideCount = techniques.length;
+
 const snowTypes = [
   {
     name: "Groomed Corduroy",
@@ -247,7 +249,7 @@ export default function SnowConditionsPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <NextSteps links={[
-          { href: '/techniques', label: 'Browse Techniques →', description: '30+ expert-curated skiing technique guides with video breakdowns' },
+          { href: '/techniques', label: 'Browse Techniques →', description: `${techniqueGuideCount} expert-curated skiing technique guides with video breakdowns` },
           { href: '/slope-ratings', label: 'Slope Ratings →', description: 'Understand difficulty ratings and which runs match your skill level' },
           { href: '/equipment-guide', label: 'Equipment Guide →', description: 'Choose the right skis, boots, and gear for every condition' },
         ]} />

@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { techniques } from "@/data/techniques";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -13,6 +14,8 @@ export const metadata: Metadata = buildPageMetadata({
   path: "/equipment-guide",
   keywords: ["ski equipment guide", "how to choose skis", "ski boots guide", "beginner ski equipment"],
 });
+
+const techniqueGuideCount = techniques.length;
 
 const equipment = [
   {
@@ -352,7 +355,7 @@ export default function EquipmentGuidePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <NextSteps links={[
-          { href: '/techniques', label: 'Browse Techniques →', description: '30+ expert-curated skiing technique guides with video breakdowns' },
+          { href: '/techniques', label: 'Browse Techniques →', description: `${techniqueGuideCount} expert-curated skiing technique guides with video breakdowns` },
           { href: '/clothing-guide', label: 'Clothing Guide →', description: 'What to wear for every weather condition on the mountain' },
           { href: '/slope-ratings', label: 'Slope Ratings →', description: 'Understand difficulty ratings and which runs match your skill level' },
         ]} />

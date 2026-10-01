@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import NextSteps from "@/components/NextSteps";
+import { techniques } from "@/data/techniques";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -13,6 +14,8 @@ export const metadata: Metadata = buildPageMetadata({
   path: "/clothing-guide",
   keywords: ["what to wear skiing", "ski clothing guide", "ski layering system", "ski jacket and pants guide"],
 });
+
+const techniqueGuideCount = techniques.length;
 
 const layeringSystem = [
   {
@@ -365,7 +368,7 @@ export default function ClothingGuidePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <NextSteps links={[
-          { href: '/techniques', label: 'Browse Techniques →', description: '30+ expert-curated skiing technique guides with video breakdowns' },
+          { href: '/techniques', label: 'Browse Techniques →', description: `${techniqueGuideCount} expert-curated skiing technique guides with video breakdowns` },
           { href: '/equipment-guide', label: 'Equipment Guide →', description: 'Skis, boots, bindings, and gear — how to choose the right setup' },
           { href: '/snow-conditions', label: 'Snow Conditions →', description: 'Learn to adapt your skiing to groomed, powder, ice, and more' },
         ]} />
