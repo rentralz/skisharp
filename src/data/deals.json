@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-01T18:25:59.175Z",
-  "totalDeals": 60,
+  "lastScanned": "2026-10-02T17:52:56.281Z",
+  "totalDeals": 58,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 103,
+    "slickdeals": 101,
     "amazon": 9
   },
   "deals": [
@@ -118,14 +118,6 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-09-23T16:49:19.000Z"
-    },
-    {
-      "title": "Amazon – Fleece Lined Leggings Women with Pockets - Winter Thermal Water Resistant - $16.49 w/ Code",
-      "url": "https://slickdeals.net/f/20053575-amazon-fleece-lined-leggings-women-with-pockets-winter-thermal-water-resistant-16-49-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-23T15:26:47.000Z"
     },
     {
       "title": "Amazon – Pixel Panda Winter Waterproof Thermal Gloves for Men Women, 3M Thinsulate - $8.99 w/ Code",
@@ -408,20 +400,12 @@
       "posted": "2026-09-02T18:07:09.000Z"
     },
     {
-      "title": "$8.85* | adidas Alphaskin Balaclava Ski Mask (Tree Camo Alumina/Grey Six) at Amazon",
-      "url": "https://slickdeals.net/f/19958745-8-85-adidas-alphaskin-balaclava-ski-mask-tree-camo-alumina-grey-six-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-09-02T07:09:40.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     },
     {
@@ -430,7 +414,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     },
     {
@@ -439,7 +423,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     },
     {
@@ -448,7 +432,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     },
     {
@@ -457,7 +441,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     },
     {
@@ -466,7 +450,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     },
     {
@@ -475,7 +459,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     },
     {
@@ -484,7 +468,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     },
     {
@@ -493,7 +477,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-01T18:25:59.173Z",
+      "posted": "2026-10-02T17:52:56.278Z",
       "isAmazonSearch": true
     }
   ]
