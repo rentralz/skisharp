@@ -12,6 +12,7 @@ import parallelTurns from "./parallel-turns";
 import polePlanting from "./pole-planting";
 import powderFloating from "./powder-floating";
 import skiingInRain from "./skiing-in-rain";
+import snowboardAthleticStance from "./snowboard-athletic-stance";
 import snowboardFallingLeaf from "./snowboard-falling-leaf";
 import snowboardHeelsideTurns from "./snowboard-heelside-turns";
 import snowboardLinkedTurns from "./snowboard-linked-turns";
@@ -35,6 +36,7 @@ const GUIDES: TechniqueGuide[] = [
   polePlanting,
   powderFloating,
   skiingInRain,
+  snowboardAthleticStance,
   snowboardFallingLeaf,
   snowboardHeelsideTurns,
   snowboardLinkedTurns,

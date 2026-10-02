@@ -14,7 +14,7 @@ get an independent fact-check before shipping (see the job prompt). Ordered by
 search demand and the beginner progression, with snowboard guides interleaved.
 
 - [x] speed-control: 2026-10-01
-- [ ] snowboard-athletic-stance
+- [x] snowboard-athletic-stance: 2026-10-02
 - [ ] snowplow-stop
 - [ ] sideslipping
 - [ ] snowboard-side-slipping
