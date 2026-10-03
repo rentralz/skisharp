@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-02T17:52:56.281Z",
-  "totalDeals": 58,
+  "lastScanned": "2026-10-03T16:19:10.738Z",
+  "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 101,
+    "slickdeals": 104,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "tasc Performance Men's Elevation Merino Long Sleeve Base Layer T-Shirt (Jade) $24.99 at REI w/ Free Store Pickup",
+      "url": "https://slickdeals.net/f/20090823-tasc-performance-men-s-elevation-merino-long-sleeve-base-layer-t-shirt-jade-24-99-at-rei-w-free-store-pickup?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-03T00:38:55.000Z"
+    },
+    {
+      "title": "WOW World of Watersports Ace Racing 1-Person Towable Ski Tube $46.19 + Free Shipping w/ Walmart+ or on $35+",
+      "url": "https://slickdeals.net/f/20090208-wow-world-of-watersports-ace-racing-1-person-towable-ski-tube-46-19-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "skis",
+      "posted": "2026-10-02T20:11:51.000Z"
+    },
     {
       "title": "3-Pairs Schwer 3/4 Double-Dipped Coating Winter Work Gloves $6.59 w/ S&S + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20084619-3-pairs-schwer-3-4-double-dipped-coating-winter-work-gloves-6-59-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +30,14 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-10-01T17:18:48.000Z"
+    },
+    {
+      "title": "Amazon – Pixel Panda 3M Thinsulate Waterproof Winter Gloves - $8.99–$9.99 w/ Code",
+      "url": "https://slickdeals.net/f/20084214-amazon-pixel-panda-3m-thinsulate-waterproof-winter-gloves-8-99-9-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-01T16:07:43.000Z"
     },
     {
       "title": "Libin Women's Fleece Lined Pants Stretch Thermal Pants Zip Pockets 29/31 - $17.49 AC",
@@ -384,28 +408,12 @@
       "posted": "2026-09-04T23:52:26.000Z"
     },
     {
-      "title": "Amazon - Water Space 2 Pack Swim Goggles for Adult Youth - $4.99",
-      "url": "https://slickdeals.net/f/19965921-amazon-water-space-2-pack-swim-goggles-for-adult-youth-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-03T15:21:18.000Z"
-    },
-    {
-      "title": "MAOYSSEN Men's Mountain Winter Coat $19.99",
-      "url": "https://slickdeals.net/f/19961592-maoyssen-men-s-mountain-winter-coat-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-09-02T18:07:09.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     },
     {
@@ -414,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     },
     {
@@ -423,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     },
     {
@@ -432,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     },
     {
@@ -441,7 +449,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     },
     {
@@ -450,7 +458,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     },
     {
@@ -459,7 +467,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     },
     {
@@ -468,7 +476,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     },
     {
@@ -477,7 +485,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-02T17:52:56.278Z",
+      "posted": "2026-10-03T16:19:10.735Z",
       "isAmazonSearch": true
     }
   ]
