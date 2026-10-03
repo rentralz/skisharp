@@ -27,7 +27,7 @@ const RESORTS = [
   { name: "Alta", region: "Utah", lat: 40.5884, lon: -111.6386, elevationM: 2900 },
   { name: "Park City", region: "Utah", lat: 40.6514, lon: -111.508, elevationM: 2560 },
   { name: "Vail", region: "Colorado", lat: 39.6061, lon: -106.355, elevationM: 3000 },
-  { name: "Breckenridge", region: "Colorado", lat: 39.4817, lon: -106.0384, elevationM: 3400 },
+  { name: "Breckenridge", region: "Colorado", lat: 39.4805, lon: -106.0666, elevationM: 3400 },
   { name: "Jackson Hole", region: "Wyoming", lat: 43.5875, lon: -110.8279, elevationM: 2550 },
   { name: "Big Sky", region: "Montana", lat: 45.2857, lon: -111.4018, elevationM: 2700 },
   { name: "Palisades Tahoe", region: "California", lat: 39.197, lon: -120.2357, elevationM: 2300 },
@@ -88,11 +88,13 @@ async function main() {
   const expectedDays = PAST_DAYS + FORECAST_DAYS;
   const resorts = [];
 
+  const problems = [];
   locations.forEach((location, index) => {
     const resort = RESORTS[index];
     const daily = location?.daily?.snowfall_sum;
-    if (!Array.isArray(daily) || daily.length !== expectedDays) {
-      console.warn(`⚠️  ${resort.name}: unexpected data, skipped`);
+    const sameDays = JSON.stringify(location?.daily?.time) === JSON.stringify(days);
+    if (!Array.isArray(daily) || daily.length !== expectedDays || !sameDays) {
+      problems.push(resort.name);
       return;
     }
 
@@ -108,8 +110,10 @@ async function main() {
     console.log(`📊 ${resort.name}: past 7 days ${resorts.at(-1).past7}" · next 3 days ${resorts.at(-1).next3}"`);
   });
 
-  if (resorts.length === 0 || days.length !== expectedDays) {
-    warnSourceDown("Snow report", "no usable resort data; snow.json left unchanged");
+  // All or nothing: a partial batch would silently drop resorts from the site.
+  if (problems.length > 0 || days.length !== expectedDays) {
+    const detail = problems.length > 0 ? `bad data for ${problems.join(", ")}` : "unexpected day count";
+    warnSourceDown("Snow report", `${detail}; snow.json left unchanged`);
     return;
   }
 

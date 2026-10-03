@@ -21,6 +21,10 @@ const HOME_TITLE = "TurnLab — Master Every Turn";
 const HOME_DESCRIPTION =
   "Curated ski and snowboard technique guides with structured learning paths, video breakdowns, drills, and feel cues that help you improve faster on snow.";
 
+// Hourly regeneration keeps the snow band's "today" and staleness check honest
+// even on days when no commit triggers a rebuild.
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: {
     absolute: HOME_TITLE,

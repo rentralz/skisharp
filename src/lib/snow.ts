@@ -19,6 +19,9 @@ export const snowResorts = snowData.resorts as SnowResort[];
 const SNOWY_THRESHOLD_IN = 1;
 const BIG_TOTAL_IN = 6;
 const SNOW_TIME_ZONE = "America/Denver";
+// The page is rebuilt at least daily, but the snow step can fail on its own.
+const STALE_AFTER_HOURS = 36;
+const HIDE_AFTER_HOURS = 96;
 
 export function formatInches(value: number) {
   if (value <= 0) return "0″";
@@ -74,4 +77,15 @@ export function quietWeekSummary(resorts: SnowResort[]) {
     : `No new snow at the ${resorts.length} resorts we track this week`;
   const ahead = forecastMax > 0 ? `up to ${formatInches(forecastMax)} in the 3-day forecast` : "none in the 3-day forecast";
   return `${past}, and ${ahead}.`;
+}
+
+// Evaluated when the page is built (static render).
+export function snowAgeHours(nowMs: number = Date.now()) {
+  return (nowMs - Date.parse(snowUpdated)) / 3_600_000;
+}
+
+export function snowFreshness(nowMs: number = Date.now()): "fresh" | "stale" | "hidden" {
+  const age = snowAgeHours(nowMs);
+  if (!Number.isFinite(age) || age > HIDE_AFTER_HOURS) return "hidden";
+  return age > STALE_AFTER_HOURS ? "stale" : "fresh";
 }

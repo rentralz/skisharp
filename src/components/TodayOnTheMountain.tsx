@@ -8,6 +8,7 @@ import {
   rankBySnow,
   snowDays,
   snowHeadline,
+  snowFreshness,
   snowResorts,
   snowTodayIndex,
   snowUpdated,
@@ -20,7 +21,9 @@ const MIN_SCALE_IN = 3; // keeps a trace from filling the whole chart
 // Rebuilt daily with fresh Open-Meteo data, so the headline, date and order
 // change with the weather. Server-rendered: no client JS, no runtime fetch.
 export default function TodayOnTheMountain() {
-  if (snowResorts.length === 0 || snowDays.length === 0) {
+  const freshness = snowFreshness();
+  // Days-old data must not claim to be "today"; very old data isn't shown.
+  if (snowResorts.length === 0 || snowDays.length === 0 || freshness === "hidden") {
     return null;
   }
 
@@ -37,7 +40,7 @@ export default function TodayOnTheMountain() {
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#8b5f39]">
-              Today on the mountain · {dateLabel}
+              {freshness === "fresh" ? `Today on the mountain · ${dateLabel}` : `Snow report · as of ${dateLabel}`}
             </p>
             <h2 id="today-on-the-mountain" className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
               {snowHeadline(snowResorts)}

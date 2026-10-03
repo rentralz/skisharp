@@ -187,13 +187,13 @@ export default function HomeDisciplineShowcase({ contentByDiscipline }: Props) {
                 className="group overflow-hidden rounded-[28px] border border-[#eadfd6] bg-white shadow-[0_14px_32px_rgba(92,68,43,0.06)] transition-all hover:-translate-y-1 hover:shadow-[0_22px_48px_rgba(92,68,43,0.12)]"
               >
                 <div className="grid gap-0 sm:grid-cols-[220px_1fr]">
-                  <div className="relative h-56 overflow-hidden sm:h-full sm:min-h-[220px]">
+                  <div className="relative h-56 overflow-hidden sm:h-full">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={`https://img.youtube.com/vi/${technique.primaryVideo.videoId}/hqdefault.jpg`}
                       alt={technique.title}
                       loading="lazy"
-                      className="yt-thumb-crop transition-transform duration-500 group-hover:scale-[1.04]"
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent sm:bg-gradient-to-r sm:from-transparent sm:to-transparent" />
                   </div>
