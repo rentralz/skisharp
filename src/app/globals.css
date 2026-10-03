@@ -200,6 +200,43 @@ html.dark [class~="bg-[#e8722a]"][class~="text-gray-900"] {
   color: #111 !important;
 }
 
+/* Snow report mini charts (TodayOnTheMountain / SnowChart). One hue, two
+   steps: measured days vs forecast, each validated >= 3:1 on its surface. */
+.snow-bar-past {
+  fill: #24578f;
+}
+.snow-bar-forecast {
+  fill: #5a90cc;
+}
+.snow-baseline,
+.snow-today-tick {
+  stroke: #d8cfc6;
+  stroke-width: 1;
+}
+html.dark .snow-bar-past {
+  fill: #5f97d4;
+}
+html.dark .snow-bar-forecast {
+  fill: #36659c;
+}
+html.dark .snow-baseline,
+html.dark .snow-today-tick {
+  stroke: rgba(255, 255, 255, 0.18);
+}
+
+/* YouTube hqdefault thumbnails are 4:3 with the 16:9 frame letterboxed: the
+   black bars are exactly the top and bottom 12.5%. Sizing the image to 133.33%
+   of its box and centring it pushes the bars outside any container shape. */
+.yt-thumb-crop {
+  position: absolute;
+  left: 0;
+  top: -16.667%;
+  width: 100%;
+  height: 133.334%;
+  max-width: none;
+  object-fit: cover;
+}
+
 /* AdSense marks units it could not fill; collapse them instead of leaving a gap. */
 ins.adsbygoogle[data-ad-status="unfilled"] {
   display: none !important;

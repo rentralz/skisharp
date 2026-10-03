@@ -51,7 +51,7 @@ export default function TechniqueCard({ technique, position, filterContext }: Pr
             alt={`Video thumbnail: ${technique.title} ${disciplineInfo.label.toLowerCase()} technique`}
             loading="lazy"
             decoding="async"
-            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            className="yt-thumb-crop group-hover:scale-105 transition-transform duration-300"
           />
         )}
 

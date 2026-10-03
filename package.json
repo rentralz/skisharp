@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "scan:deals": "node scripts/scan-deals.mjs",
-    "scan:news": "node scripts/scan-news.mjs"
+    "scan:news": "node scripts/scan-news.mjs",
+    "scan:snow": "node scripts/scan-snow.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

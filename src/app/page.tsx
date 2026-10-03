@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HomeDisciplineShowcase from "@/components/HomeDisciplineShowcase";
 import LatestSkiNews from "@/components/LatestSkiNews";
+import TodayOnTheMountain from "@/components/TodayOnTheMountain";
 import HomeHeroDisciplineSwitch from "@/components/HomeHeroDisciplineSwitch";
 import HomeDisciplineLibraryCta from "@/components/HomeDisciplineLibraryCta";
 import { DISCIPLINES, type Discipline } from "@/data/disciplines";
@@ -147,24 +148,6 @@ const FEATURED_TECHNIQUE_SLUGS: Record<Discipline, string[]> = {
     "snowboard-powder-basics",
   ],
 };
-
-const valueProps = [
-  {
-    title: "Curated, not cluttered",
-    description:
-      "We pull the clearest ski and snowboard instruction from YouTube and remove the noise, fluff, and dead ends.",
-  },
-  {
-    title: "Built around progression",
-    description:
-      "Every technique points to prerequisites and next steps, so you always know what to work on next.",
-  },
-  {
-    title: "Practical on-snow coaching",
-    description:
-      "Expect feel cues, common mistakes, and drills you can take straight onto the mountain.",
-  },
-];
 
 function getPrimaryVideo(technique: Technique): VideoEntry {
   const primaryVideo = technique.youtubeVideos.find((video) => video.isPrimary) ?? technique.youtubeVideos[0];
@@ -371,8 +354,9 @@ export default function HomePage() {
 
                   <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#6c6259]">
                     <span>✓ Free forever</span>
-                    <span>✓ Ski + snowboard progressions</span>
-                    <span>✓ Multiple teaching styles per skill</span>
+                    <span>✓ Curated, not cluttered</span>
+                    <span>✓ Built around progression</span>
+                    <span>✓ Feel cues, mistakes &amp; drills for every skill</span>
                   </div>
                 </div>
 
@@ -430,39 +414,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="py-8 md:py-12">
-            <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
-                  Why TurnLab works
-                </p>
-                <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
-                  Less searching. More deliberate progression.
-                </h2>
-              </div>
-              <p className="max-w-2xl text-sm leading-7 text-[#6c6259] sm:text-base">
-                Stop bouncing between random videos and start progressing with a system that
-                feels calm, credible, and practical whether you ski or snowboard.
-              </p>
-            </div>
-
-            <div className="mt-6 grid gap-4 md:grid-cols-3">
-              {valueProps.map((item, index) => (
-                <div
-                  key={item.title}
-                  className="rounded-3xl border border-[#ece3db] bg-white p-6 shadow-[0_12px_30px_rgba(92,68,43,0.05)]"
-                >
-                  <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#f5ece3] text-sm font-bold text-[#a56f43]">
-                    0{index + 1}
-                  </div>
-                  <h3 className="mt-4 text-xl font-bold text-[#201d1a]">{item.title}</h3>
-                  <p className="mt-3 text-sm leading-7 text-[#6b635b] sm:text-base">
-                    {item.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
+          <TodayOnTheMountain />
 
           <HomeDisciplineShowcase contentByDiscipline={homeShowcaseContent} />
 
