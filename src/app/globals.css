@@ -200,27 +200,19 @@ html.dark [class~="bg-[#e8722a]"][class~="text-gray-900"] {
   color: #111 !important;
 }
 
-/* Snow report mini charts (TodayOnTheMountain / SnowChart). One hue, two
-   steps: measured days vs forecast, each validated >= 3:1 on its surface. */
-.snow-bar-past {
+/* Snow forecast mini charts (TodayOnTheMountain / SnowChart): one series,
+   validated >= 3:1 against its tile surface in each theme. */
+.snow-bar {
   fill: #24578f;
 }
-.snow-bar-forecast {
-  fill: #5a90cc;
-}
-.snow-baseline,
-.snow-today-tick {
+.snow-baseline {
   stroke: #d8cfc6;
   stroke-width: 1;
 }
-html.dark .snow-bar-past {
+html.dark .snow-bar {
   fill: #5f97d4;
 }
-html.dark .snow-bar-forecast {
-  fill: #36659c;
-}
-html.dark .snow-baseline,
-html.dark .snow-today-tick {
+html.dark .snow-baseline {
   stroke: rgba(255, 255, 255, 0.18);
 }
 

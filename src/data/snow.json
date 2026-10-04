@@ -1,220 +1,110 @@
 {
-  "updated": "2026-10-03T16:19:12.371Z",
-  "source": "Open-Meteo weather model, estimated at mid-mountain elevation",
+  "updated": "2026-10-04T06:36:28.295Z",
+  "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-09-26",
-    "2026-09-27",
-    "2026-09-28",
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01",
-    "2026-10-02",
-    "2026-10-03",
     "2026-10-04",
     "2026-10-05",
     "2026-10-06"
   ],
-  "todayIndex": 7,
   "resorts": [
     {
       "name": "Alta",
       "region": "Utah",
-      "elevationM": 2900,
+      "elevationM": 2987,
       "daily": [
-        0,
-        0,
-        0.2,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0
       ],
-      "past7": 0.2,
       "next3": 0
     },
     {
       "name": "Park City",
       "region": "Utah",
-      "elevationM": 2560,
+      "elevationM": 2743,
       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0
       ],
-      "past7": 0,
       "next3": 0
     },
     {
       "name": "Vail",
       "region": "Colorado",
-      "elevationM": 3000,
+      "elevationM": 3005,
       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0
       ],
-      "past7": 0,
       "next3": 0
     },
     {
       "name": "Breckenridge",
       "region": "Colorado",
-      "elevationM": 3400,
+      "elevationM": 3291,
       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0.1,
-        0,
-        0,
-        0,
         0,
         0,
         0
       ],
-      "past7": 0.1,
       "next3": 0
     },
     {
       "name": "Jackson Hole",
       "region": "Wyoming",
-      "elevationM": 2550,
+      "elevationM": 2384,
       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0
       ],
-      "past7": 0,
       "next3": 0
     },
     {
       "name": "Big Sky",
       "region": "Montana",
-      "elevationM": 2700,
+      "elevationM": 2819,
       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0
       ],
-      "past7": 0,
       "next3": 0
     },
     {
       "name": "Palisades Tahoe",
       "region": "California",
-      "elevationM": 2300,
+      "elevationM": 2251,
       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0
       ],
-      "past7": 0,
       "next3": 0
     },
     {
       "name": "Mammoth Mountain",
       "region": "California",
-      "elevationM": 2900,
+      "elevationM": 3009,
       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0
       ],
-      "past7": 0,
-      "next3": 0
-    },
-    {
-      "name": "Whistler Blackcomb",
-      "region": "British Columbia",
-      "elevationM": 1500,
-      "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "past7": 0,
       "next3": 0
     },
     {
       "name": "Killington",
       "region": "Vermont",
-      "elevationM": 830,
+      "elevationM": 792,
       "daily": [
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        null
       ],
-      "past7": 0,
       "next3": 0
     }
   ]

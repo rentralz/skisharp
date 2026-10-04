@@ -1,16 +1,17 @@
 import SnowChart from "@/components/SnowChart";
 import {
+  bandDayCount,
   formatInches,
   formatSnowDay,
   formatSnowUpdated,
-  isSnowyWeek,
-  quietWeekSummary,
+  forecastSpanLabel,
+  isSnowyForecast,
+  quietForecastSummary,
   rankBySnow,
   snowDays,
-  snowHeadline,
   snowFreshness,
+  snowHeadline,
   snowResorts,
-  snowTodayIndex,
   snowUpdated,
 } from "@/lib/snow";
 
@@ -18,21 +19,21 @@ const TILE_COUNT = 6;
 const MOBILE_TILE_COUNT = 3;
 const MIN_SCALE_IN = 3; // keeps a trace from filling the whole chart
 
-// Rebuilt daily with fresh Open-Meteo data, so the headline, date and order
-// change with the weather. Server-rendered: no client JS, no runtime fetch.
+// Refreshed daily from the National Weather Service forecast, so the headline,
+// date and order change with the weather. Server-rendered: no client JS.
 export default function TodayOnTheMountain() {
   const freshness = snowFreshness();
-  // Days-old data must not claim to be "today"; very old data isn't shown.
+  // Yesterday's forecast must not claim to be "today"; old forecasts aren't shown.
   if (snowResorts.length === 0 || snowDays.length === 0 || freshness === "hidden") {
     return null;
   }
 
-  const snowy = isSnowyWeek(snowResorts);
+  const snowy = isSnowyForecast(snowResorts);
   const ranked = rankBySnow(snowResorts);
   const tiles = ranked.slice(0, TILE_COUNT);
   const scaleMax = Math.max(MIN_SCALE_IN, ...tiles.flatMap((resort) => resort.daily.map((value) => value ?? 0)));
-  const dateLabel = formatSnowDay(snowDays[snowTodayIndex], { weekday: "long", month: "long", day: "numeric" });
-  const todayLeft = `${((snowTodayIndex + 0.5) / snowDays.length) * 100}%`;
+  const dateLabel = formatSnowDay(snowDays[0], { weekday: "long", month: "long", day: "numeric" });
+  const bandDays = bandDayCount(snowResorts);
 
   return (
     <section aria-labelledby="today-on-the-mountain" className="py-8 md:py-12">
@@ -40,19 +41,19 @@ export default function TodayOnTheMountain() {
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#8b5f39]">
-              {freshness === "fresh" ? `Today on the mountain · ${dateLabel}` : `Snow report · as of ${dateLabel}`}
+              {freshness === "fresh" ? `Today on the mountain · ${dateLabel}` : `Snow forecast · as of ${dateLabel}`}
             </p>
             <h2 id="today-on-the-mountain" className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
               {snowHeadline(snowResorts)}
             </h2>
             {!snowy && (
               <p className="mt-2 max-w-2xl text-sm leading-7 text-[#6b635b] sm:text-base">
-                {quietWeekSummary(snowResorts)}
+                {quietForecastSummary(snowResorts)}
               </p>
             )}
           </div>
           <p className="text-xs text-[#6b635b]">
-            Snowfall estimates · updated <time dateTime={snowUpdated}>{formatSnowUpdated(snowUpdated)} MT</time>
+            NWS snow forecast · updated <time dateTime={snowUpdated}>{formatSnowUpdated(snowUpdated)} MT</time>
           </p>
         </div>
 
@@ -68,38 +69,26 @@ export default function TodayOnTheMountain() {
                   <h3 className="font-bold text-[#201d1a]">{resort.name}</h3>
                   <span className="text-xs text-[#6b635b]">{resort.region}</span>
                 </div>
-                <dl className="mt-2 grid grid-cols-2 gap-2">
-                  <div>
-                    <dt className="text-xs text-[#6b635b]">Past 7 days</dt>
-                    <dd className="text-2xl font-black text-[#201d1a]">{formatInches(resort.past7)}</dd>
-                  </div>
-                  <div>
-                    <dt className="text-xs text-[#6b635b]">Next 3 days</dt>
-                    <dd className="text-2xl font-semibold text-[#201d1a]">{formatInches(resort.next3)}</dd>
-                  </div>
-                </dl>
-                <div className="mt-3">
+                <div className="mt-3 flex items-end justify-between gap-4">
+                  <dl>
+                    <dt className="text-xs text-[#6b635b]">{forecastSpanLabel(resort)}</dt>
+                    <dd className="text-3xl font-black text-[#201d1a]">{formatInches(resort.next3)}</dd>
+                  </dl>
                   <SnowChart
                     values={resort.daily}
                     days={snowDays}
-                    todayIndex={snowTodayIndex}
                     scaleMax={scaleMax}
                     label={`${resort.name}, ${resort.region}`}
                   />
-                  <div className="relative mt-1 h-4 text-[11px] text-[#6b635b]" aria-hidden="true">
-                    <span className="absolute left-0">7 days ago</span>
-                    <span className="absolute -translate-x-1/2" style={{ left: todayLeft }}>
-                      today
-                    </span>
-                    <span className="absolute right-0">forecast</span>
-                  </div>
                 </div>
               </li>
             ))}
           </ul>
         ) : (
           <div className="mt-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#6b635b]">Past 7 days</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#6b635b]">
+              {bandDays === 1 ? "Today" : `Next ${bandDays} days`}
+            </p>
             <ul className="mt-2 flex flex-wrap gap-2">
               {ranked.map((resort) => (
                 <li
@@ -107,7 +96,7 @@ export default function TodayOnTheMountain() {
                   className="rounded-full border border-[#eadfd6] bg-[#fcfaf8] px-3 py-1.5 text-sm text-[#201d1a]"
                 >
                   <span className="font-semibold">{resort.name}</span>{" "}
-                  <span className="text-[#6b635b]">{formatInches(resort.past7)}</span>
+                  <span className="text-[#6b635b]">{formatInches(resort.next3)}</span>
                 </li>
               ))}
             </ul>
@@ -115,8 +104,8 @@ export default function TodayOnTheMountain() {
         )}
 
         <p className="mt-5 text-xs leading-6 text-[#6b635b]">
-          Weather-model estimates from Open-Meteo at mid-mountain elevation, not official resort reports.
-          Check the resort&apos;s own snow report before you go.
+          Snowfall forecasts from the National Weather Service for a mid-mountain point at each resort, not
+          official resort reports. Check the resort&apos;s own snow report before you go.
         </p>
       </div>
     </section>
