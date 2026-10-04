@@ -11,6 +11,7 @@ import mogulAbsorption from "./mogul-absorption";
 import parallelTurns from "./parallel-turns";
 import polePlanting from "./pole-planting";
 import powderFloating from "./powder-floating";
+import sideslipping from "./sideslipping";
 import skiingInRain from "./skiing-in-rain";
 import snowboardAthleticStance from "./snowboard-athletic-stance";
 import snowboardFallingLeaf from "./snowboard-falling-leaf";
@@ -36,6 +37,7 @@ const GUIDES: TechniqueGuide[] = [
   parallelTurns,
   polePlanting,
   powderFloating,
+  sideslipping,
   skiingInRain,
   snowboardAthleticStance,
   snowboardFallingLeaf,
