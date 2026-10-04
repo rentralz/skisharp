@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T06:36:28.295Z",
+  "updated": "2026-10-04T07:24:00.191Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -103,7 +103,7 @@
       "daily": [
         0,
         0,
-        null
+        0
       ],
       "next3": 0
     }

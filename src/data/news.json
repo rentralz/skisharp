@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-10-03T16:19:11.401Z",
+  "lastScanned": "2026-10-04T07:24:00.031Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,30 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "Dolomiti Superski, Italy, Invests €100 Million in New Lifts, Slopes, and Snowmaking Ahead of 2026-27 Season",
+      "url": "https://snowbrains.com/dolomiti-superski-italy-invests-e100-million-in-new-lifts-slopes-and-snowmaking-ahead-of-2026-27-season/",
+      "source": "SnowBrains",
+      "published": "2026-10-04T07:15:32.000Z"
+    },
+    {
+      "title": "Storm Skiing 10/3/2026: Holiday Valley’s Chairlift Diaspora with GM Dennis Eshbaugh",
+      "url": "https://www.stormskiing.com/p/storm-skiing-1032026-holiday-valleys",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-03T23:02:59.000Z"
+    },
+    {
+      "title": "The Race to Open: Which Resort Does the SnowBrains Team Expect to Open First in 2026-27",
+      "url": "https://snowbrains.com/the-race-to-open-which-resort-does-snowbrains-expect-to-open-first-in-2026-27/",
+      "source": "SnowBrains",
+      "published": "2026-10-03T20:29:33.000Z"
+    },
+    {
+      "title": "After 40 Years This New Mexico Nordic Ski Area Will Not Open This Winter",
+      "url": "https://unofficialnetworks.com/2026/10/03/enchanted-forest-new-mexico-closed/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-03T17:02:28.000Z"
+    },
     {
       "title": "Stowe Seeks State Approval To Cut Two New Trails",
       "url": "https://unofficialnetworks.com/2026/10/03/stowe-state-approval-new-trails/",
@@ -237,18 +261,6 @@
       "published": "2026-10-02T07:14:12.000Z"
     },
     {
-      "title": "Two Decades of Ski Season’s Craziest Race: Which U.S. Resorts Opened First?",
-      "url": "https://snowbrains.com/first-ski-resort-open-north-america-20-years/",
-      "source": "SnowBrains",
-      "published": "2026-10-02T06:09:01.000Z"
-    },
-    {
-      "title": "Red Bull Legends Inn Will Be Held at Snowbird, UT, for the First Time This Winter",
-      "url": "https://snowbrains.com/red-bull-legends-inn-will-be-held-at-snowbird-ut-for-the-first-time-this-winter/",
-      "source": "SnowBrains",
-      "published": "2026-10-01T23:50:59.000Z"
-    },
-    {
       "title": "Finnish Ski Resort Gets Jumpstart On Opening Day Thanks To Snow Stockpiled From Last Winter",
       "url": "https://unofficialnetworks.com/2026/10/01/levi-opening-day/",
       "source": "Unofficial Networks",
@@ -271,12 +283,6 @@
       "url": "https://unofficialnetworks.com/2026/10/01/first-snowfall-forecast-ryan-hall/",
       "source": "Unofficial Networks",
       "published": "2026-10-01T19:44:59.000Z"
-    },
-    {
-      "title": "These Are The Weather Conditions Required For A Ski Resort To Start Snowmaking",
-      "url": "https://unofficialnetworks.com/2026/10/01/weather-conditions-for-snowmaking/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-01T17:53:34.000Z"
     },
     {
       "title": "Taos, New Mexico Sees First Significant Snowfall of the Season",
@@ -361,12 +367,6 @@
       "url": "https://www.skimag.com/gear/ski-reviews/all-mountain-wide-skis/best-womens-all-mountain-wide-skis/",
       "source": "SKI Magazine",
       "published": "2026-09-28T13:00:43.000Z"
-    },
-    {
-      "title": "Storm Skiing 9/26/2026: Fixing America’s Broken Ski School Model with Snow Schoolers’ Brian Bensch",
-      "url": "https://www.stormskiing.com/p/storm-skiing-9262026-fixing-americas",
-      "source": "Storm Skiing Journal",
-      "published": "2026-09-26T12:20:52.000Z"
     }
   ]
 }
