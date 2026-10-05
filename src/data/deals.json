@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-10-04T16:51:32.210Z",
-  "totalDeals": 59,
+  "lastScanned": "2026-10-05T11:00:42.148Z",
+  "totalDeals": 60,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 104,
+    "slickdeals": 105,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "32% Off Airfares Between Seattle SeaTac / Paine Field and Many West Coast Top Mountain (Ski/Snowboard) Destinations - Book by October 5, 2026",
+      "url": "https://slickdeals.net/f/20098308-32-off-airfares-between-seattle-seatac-paine-field-and-many-west-coast-top-mountain-ski-snowboard-destinations-book-by-october-5-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "skis",
+      "posted": "2026-10-05T02:32:39.000Z"
+    },
+    {
+      "title": "WARMTUYO 4K Night Vision Goggles for Adults, Digital Binoculars with Camera $44.99",
+      "url": "https://slickdeals.net/f/20093304-warmtuyo-4k-night-vision-goggles-for-adults-digital-binoculars-with-camera-44-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-03T19:14:29.000Z"
+    },
+    {
+      "title": "Seago 2 Pack Swim Goggles for Kids 3-14 Anti-Fog & UV Wide View Boys Girls $6.49",
+      "url": "https://slickdeals.net/f/20090967-seago-2-pack-swim-goggles-for-kids-3-14-anti-fog-uv-wide-view-boys-girls-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-03T01:58:56.000Z"
+    },
     {
       "title": "tasc Performance Men's Elevation Merino Long Sleeve Base Layer T-Shirt (Jade) $24.99 at REI w/ Free Store Pickup",
       "url": "https://slickdeals.net/f/20090823-tasc-performance-men-s-elevation-merino-long-sleeve-base-layer-t-shirt-jade-24-99-at-rei-w-free-store-pickup?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -392,28 +416,12 @@
       "posted": "2026-09-07T14:05:36.000Z"
     },
     {
-      "title": "WARMTUYO 4K Night Vision Goggles for Adults, Digital Binoculars with Camera $44.99",
-      "url": "https://slickdeals.net/f/19981917-warmtuyo-4k-night-vision-goggles-for-adults-digital-binoculars-with-camera-44-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-07T13:31:40.000Z"
-    },
-    {
-      "title": "CIFOYA Kids Swim Goggles, 3 Pack Swimming Goggles for Kids 4-16, Anti-Fog UV Protection Pool Glasses for Boys Girls $11.49 AC + Free Shipping",
-      "url": "https://slickdeals.net/f/19973292-cifoya-kids-swim-goggles-3-pack-swimming-goggles-for-kids-4-16-anti-fog-uv-protection-pool-glasses-for-boys-girls-11-49-ac-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-04T23:52:26.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +430,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +439,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +448,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     },
     {
@@ -449,7 +457,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     },
     {
@@ -458,7 +466,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     },
     {
@@ -467,7 +475,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     },
     {
@@ -476,7 +484,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     },
     {
@@ -485,7 +493,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-04T16:51:32.207Z",
+      "posted": "2026-10-05T11:00:42.145Z",
       "isAmazonSearch": true
     }
   ]
