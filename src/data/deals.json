@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-05T11:00:42.148Z",
-  "totalDeals": 60,
+  "lastScanned": "2026-10-05T20:40:00.967Z",
+  "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 105,
+    "slickdeals": 102,
     "amazon": 9
   },
   "deals": [
@@ -190,14 +190,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-09-22T15:43:05.000Z"
-    },
-    {
-      "title": "Amazon – BOOJO Men's Fleece-Lined Thermal Underwear Set - $13.99 w/ Code",
-      "url": "https://slickdeals.net/f/20048667-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-13-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-22T14:39:48.000Z"
     },
     {
       "title": "Outdoor Faucet Covers for Winter, Actgan 8.3\"H x 6\"W Thickened Outside Garden Faucet Socks for Freeze Protection, Reusable Insulated Faucet Covers, 2 Pack, Black $3.99",
@@ -421,7 +413,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     },
     {
@@ -430,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     },
     {
@@ -439,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     },
     {
@@ -448,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     },
     {
@@ -457,7 +449,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     },
     {
@@ -466,7 +458,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     },
     {
@@ -475,7 +467,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     },
     {
@@ -484,7 +476,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     },
     {
@@ -493,7 +485,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-05T11:00:42.145Z",
+      "posted": "2026-10-05T20:40:00.963Z",
       "isAmazonSearch": true
     }
   ]
