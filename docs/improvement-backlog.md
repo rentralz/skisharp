@@ -17,7 +17,7 @@ search demand and the beginner progression, with snowboard guides interleaved.
 - [x] snowboard-athletic-stance: 2026-10-02
 - [x] snowplow-stop: 2026-10-03
 - [x] sideslipping: 2026-10-04
-- [ ] snowboard-side-slipping
+- [x] snowboard-side-slipping: 2026-10-05
 - [ ] switch-skiing
 - [ ] spring-corn-snow
 - [ ] getting-up

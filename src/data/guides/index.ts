@@ -18,6 +18,7 @@ import snowboardFallingLeaf from "./snowboard-falling-leaf";
 import snowboardHeelsideTurns from "./snowboard-heelside-turns";
 import snowboardLinkedTurns from "./snowboard-linked-turns";
 import snowboardPowderBasics from "./snowboard-powder-basics";
+import snowboardSideSlipping from "./snowboard-side-slipping";
 import snowboardToesideTurns from "./snowboard-toeside-turns";
 import snowplowStop from "./snowplow-stop";
 import speedControl from "./speed-control";
@@ -44,6 +45,7 @@ const GUIDES: TechniqueGuide[] = [
   snowboardHeelsideTurns,
   snowboardLinkedTurns,
   snowboardPowderBasics,
+  snowboardSideSlipping,
   snowboardToesideTurns,
   snowplowStop,
   speedControl,
