@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-06T11:00:41.092Z",
-  "totalDeals": 59,
+  "lastScanned": "2026-10-06T18:23:21.592Z",
+  "totalDeals": 60,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 102,
+    "slickdeals": 103,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Women's Fleece Lined Leggings Thermal Warm Winter Leggings High Waisted Tummy Control Jogger Yoga Pants with Pockets - $23.98",
+      "url": "https://slickdeals.net/f/20113563-women-s-fleece-lined-leggings-thermal-warm-winter-leggings-high-waisted-tummy-control-jogger-yoga-pants-with-pockets-23-98?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-10-06T15:22:17.000Z"
+    },
+    {
+      "title": "Benirap Winter Gloves Touchscreen Windproof Thermal Gloves Men Women + $18.99 - Amazon $13.29",
+      "url": "https://slickdeals.net/f/20111319-benirap-winter-gloves-touchscreen-windproof-thermal-gloves-men-women-18-99-amazon-13-29?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-06T12:46:42.000Z"
+    },
     {
       "title": "32% Off Airfares Between Seattle SeaTac / Paine Field and Many West Coast Top Mountain (Ski/Snowboard) Destinations - Book by October 5, 2026",
       "url": "https://slickdeals.net/f/20098308-32-off-airfares-between-seattle-seatac-paine-field-and-many-west-coast-top-mountain-ski-snowboard-destinations-book-by-october-5-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -158,14 +174,6 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-09-23T19:23:27.000Z"
-    },
-    {
-      "title": "3-Pack Ekouaer Women's Lightweight Thermal Underwear Base Layer $14.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/20054001-3-pack-ekouaer-women-s-lightweight-thermal-underwear-base-layer-14-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-23T16:49:19.000Z"
     },
     {
       "title": "Amazon – Pixel Panda Winter Waterproof Thermal Gloves for Men Women, 3M Thinsulate - $8.99 w/ Code",
@@ -413,7 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +430,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +439,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +448,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     },
     {
@@ -449,7 +457,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     },
     {
@@ -458,7 +466,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     },
     {
@@ -467,7 +475,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     },
     {
@@ -476,7 +484,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     },
     {
@@ -485,7 +493,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-06T11:00:41.091Z",
+      "posted": "2026-10-06T18:23:21.591Z",
       "isAmazonSearch": true
     }
   ]
