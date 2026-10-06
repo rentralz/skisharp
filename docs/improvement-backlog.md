@@ -18,7 +18,7 @@ search demand and the beginner progression, with snowboard guides interleaved.
 - [x] snowplow-stop: 2026-10-03
 - [x] sideslipping: 2026-10-04
 - [x] snowboard-side-slipping: 2026-10-05
-- [ ] switch-skiing
+- [x] switch-skiing: 2026-10-06
 - [ ] spring-corn-snow
 - [ ] getting-up
 - [ ] snowboard-speed-control

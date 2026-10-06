@@ -23,6 +23,7 @@ import snowboardToesideTurns from "./snowboard-toeside-turns";
 import snowplowStop from "./snowplow-stop";
 import speedControl from "./speed-control";
 import steepTerrain from "./steep-terrain";
+import switchSkiing from "./switch-skiing";
 import treeSkiing from "./tree-skiing";
 import wedgeTurns from "./wedge-turns";
 
@@ -50,6 +51,7 @@ const GUIDES: TechniqueGuide[] = [
   snowplowStop,
   speedControl,
   steepTerrain,
+  switchSkiing,
   treeSkiing,
   wedgeTurns,
 ];

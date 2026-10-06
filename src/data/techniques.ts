@@ -3175,7 +3175,7 @@ export const techniques: Technique[] = [
       "Your forward skiing feels noticeably more fluid after a session of switch work — the cross-training benefit is real",
     ],
     mistakes: [
-      { mistake: "Looking down the slope the wrong way instead of over your shoulder", fix: "Always look in the direction you're traveling — look over the shoulder on the side your tips are pointing" },
+      { mistake: "Looking down the slope the wrong way instead of over your shoulder", fix: "Always look in the direction you're traveling — choose the shoulder check that lets you see the open space you're moving into" },
       { mistake: "Going too fast before the switch stance is stable", fix: "Learn switch on the gentlest green run possible — speed amplifies the disorientation dramatically" },
       { mistake: "Reverting to forward skiing the moment it gets hard", fix: "Commit to staying switch for entire runs — the discomfort is temporary and progress requires time in the position" },
     ],
