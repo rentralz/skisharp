@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-06T18:23:21.592Z",
-  "totalDeals": 60,
+  "lastScanned": "2026-10-07T11:00:38.601Z",
+  "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 103,
+    "slickdeals": 102,
     "amazon": 9
   },
   "deals": [
@@ -166,14 +166,6 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-09-24T11:15:38.000Z"
-    },
-    {
-      "title": "1-Pack Ekouaer Women's Thermal Underwear Long Johns Base Layer Set (Black) $7.50, 3-Pack from $20 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/20054595-1-pack-ekouaer-women-s-thermal-underwear-long-johns-base-layer-set-black-7-50-3-pack-from-20-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-23T19:23:27.000Z"
     },
     {
       "title": "Amazon – Pixel Panda Winter Waterproof Thermal Gloves for Men Women, 3M Thinsulate - $8.99 w/ Code",
@@ -421,7 +413,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     },
     {
@@ -430,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     },
     {
@@ -439,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     },
     {
@@ -448,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     },
     {
@@ -457,7 +449,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     },
     {
@@ -466,7 +458,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     },
     {
@@ -475,7 +467,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     },
     {
@@ -484,7 +476,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     },
     {
@@ -493,7 +485,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-06T18:23:21.591Z",
+      "posted": "2026-10-07T11:00:38.598Z",
       "isAmazonSearch": true
     }
   ]
