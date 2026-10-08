@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-08T11:00:37.547Z",
-  "totalDeals": 57,
+  "lastScanned": "2026-10-08T18:51:57.935Z",
+  "totalDeals": 56,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 101,
+    "slickdeals": 100,
     "amazon": 9
   },
   "deals": [
@@ -150,14 +150,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-09-25T21:13:37.000Z"
-    },
-    {
-      "title": "Marvmys Women's Cotton Mock Neck Base Layer $4.99 AC",
-      "url": "https://slickdeals.net/f/20058549-marvmys-women-s-cotton-mock-neck-base-layer-4-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-24T18:51:26.000Z"
     },
     {
       "title": "[Prime Members] AstroAI Windproof Ski Mask, Winter Thermal Fleece Balaclava $6.49",
@@ -397,7 +389,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     },
     {
@@ -406,7 +398,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     },
     {
@@ -415,7 +407,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     },
     {
@@ -424,7 +416,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     },
     {
@@ -433,7 +425,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     },
     {
@@ -442,7 +434,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     },
     {
@@ -451,7 +443,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     },
     {
@@ -460,7 +452,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     },
     {
@@ -469,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-08T11:00:37.544Z",
+      "posted": "2026-10-08T18:51:57.933Z",
       "isAmazonSearch": true
     }
   ]
