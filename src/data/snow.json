@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-07T18:57:39.336Z",
+  "updated": "2026-10-08T11:00:38.514Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-07",
     "2026-10-08",
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-10"
   ],
   "resorts": [
     {
@@ -70,9 +70,9 @@
       "daily": [
         0,
         0,
-        0
+        1.4
       ],
-      "next3": 0
+      "next3": 1.4
     },
     {
       "name": "Palisades Tahoe",

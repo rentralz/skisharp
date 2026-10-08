@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-07T18:57:38.071Z",
-  "totalDeals": 56,
+  "lastScanned": "2026-10-08T11:00:37.547Z",
+  "totalDeals": 57,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 100,
+    "slickdeals": 101,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "$10.13 | Speedo Swim Goggles Biofuse 2.0 Junior at Woot!",
+      "url": "https://slickdeals.net/f/20119755-10-13-speedo-swim-goggles-biofuse-2-0-junior-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-07T05:11:23.000Z"
+    },
     {
       "title": "Women's Fleece Lined Leggings Thermal Warm Winter Leggings High Waisted Tummy Control Jogger Yoga Pants with Pockets - $23.98",
       "url": "https://slickdeals.net/f/20113563-women-s-fleece-lined-leggings-thermal-warm-winter-leggings-high-waisted-tummy-control-jogger-yoga-pants-with-pockets-23-98?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -389,7 +397,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     },
     {
@@ -398,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     },
     {
@@ -407,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     },
     {
@@ -416,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     },
     {
@@ -425,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     },
     {
@@ -434,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     },
     {
@@ -443,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     },
     {
@@ -452,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     },
     {
@@ -461,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-07T18:57:38.068Z",
+      "posted": "2026-10-08T11:00:37.544Z",
       "isAmazonSearch": true
     }
   ]
