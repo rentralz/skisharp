@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-10-08T18:51:57.935Z",
+  "lastScanned": "2026-10-09T11:00:46.382Z",
   "totalDeals": 56,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 100,
+    "slickdeals": 103,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 $14.24 AC",
+      "url": "https://slickdeals.net/f/20132385-freela-kids-ski-goggles-snowboard-snow-anti-fog-youth-toddler-for-3-14-14-24-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-09T03:38:38.000Z"
+    },
+    {
+      "title": "G Gradual Women's Fleece Lined Leggings with 5 Pockets Water Resistant Warm Thermal Pants High Waisted Winter Running Gear (Heather Light Grey,L) $11.99",
+      "url": "https://slickdeals.net/f/20129946-g-gradual-women-s-fleece-lined-leggings-with-5-pockets-water-resistant-warm-thermal-pants-high-waisted-winter-running-gear-heather-light-grey-l-11-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-10-08T16:19:41.000Z"
+    },
+    {
+      "title": "Aegend Swim Goggles, Swimming Goggles No Leaking Full Protect Adult Youth $4.74",
+      "url": "https://slickdeals.net/f/20128761-aegend-swim-goggles-swimming-goggles-no-leaking-full-protect-adult-youth-4-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-08T12:38:47.000Z"
+    },
     {
       "title": "$10.13 | Speedo Swim Goggles Biofuse 2.0 Junior at Woot!",
       "url": "https://slickdeals.net/f/20119755-10-13-speedo-swim-goggles-biofuse-2-0-junior-at-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -110,14 +134,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-09-28T22:11:33.000Z"
-    },
-    {
-      "title": "Aegend Swim Goggles, Swimming Goggles No Leaking Full Protect Adult Youth $4.74",
-      "url": "https://slickdeals.net/f/20069655-aegend-swim-goggles-swimming-goggles-no-leaking-full-protect-adult-youth-4-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-28T12:58:38.000Z"
     },
     {
       "title": "Demon Phantom Helmet with Audio and Snow Supra Goggle $35.00",
@@ -368,28 +384,12 @@
       "posted": "2026-09-09T13:38:01.000Z"
     },
     {
-      "title": "Outdoor Research Women's Limited Edition Cloudchaser 3L Bibs snow pants $192.5",
-      "url": "https://slickdeals.net/f/19990866-outdoor-research-women-s-limited-edition-cloudchaser-3l-bibs-snow-pants-192-5?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-09-09T07:44:24.000Z"
-    },
-    {
-      "title": "Outdoor Research Archangel Bib Snow Pant - Women's $174.74",
-      "url": "https://slickdeals.net/f/19990716-outdoor-research-archangel-bib-snow-pant-women-s-174-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-09-09T07:14:22.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     },
     {
@@ -398,7 +398,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     },
     {
@@ -407,7 +407,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     },
     {
@@ -416,7 +416,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     },
     {
@@ -425,7 +425,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     },
     {
@@ -434,7 +434,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     },
     {
@@ -443,7 +443,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     },
     {
@@ -452,7 +452,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     },
     {
@@ -461,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-08T18:51:57.933Z",
+      "posted": "2026-10-09T11:00:46.379Z",
       "isAmazonSearch": true
     }
   ]
