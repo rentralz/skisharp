@@ -4,6 +4,7 @@ import carvedTurns from "./carved-turns";
 import counterRotation from "./counter-rotation";
 import fallingLeaf from "./falling-leaf";
 import garlandExercise from "./garland-exercise";
+import gettingUp from "./getting-up";
 import herringbone from "./herringbone";
 import hockeyStop from "./hockey-stop";
 import iceTechnique from "./ice-technique";
@@ -33,6 +34,7 @@ const GUIDES: TechniqueGuide[] = [
   counterRotation,
   fallingLeaf,
   garlandExercise,
+  gettingUp,
   herringbone,
   hockeyStop,
   iceTechnique,
