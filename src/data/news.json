@@ -1,13 +1,121 @@
 {
-  "lastScanned": "2026-10-09T11:00:47.137Z",
+  "lastScanned": "2026-10-09T18:22:00.907Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
     "SnowBrains": 15,
     "Unofficial Networks": 15,
-    "Storm Skiing Journal": 15
+    "Storm Skiing Journal": 14
   },
   "items": [
+    {
+      "title": "Jamie Anderson, Chloe Kim and Red Gerard Headline U.S. Snowboard 2026-27 Roster",
+      "url": "https://snowbrains.com/jamie-anderson-chloe-kim-and-red-gerard-headline-u-s-snowboard-2026-27-roster/",
+      "source": "SnowBrains",
+      "published": "2026-10-09T17:55:20.000Z"
+    },
+    {
+      "title": "Which of Western Canada's Ski Areas Will Open First?",
+      "url": "https://www.powder.com/news/western-canada-ski-resorts-opening-dates-2026",
+      "source": "POWDER",
+      "published": "2026-10-09T17:53:02.000Z"
+    },
+    {
+      "title": "Mt. Hutt To Invest $12 Million On New Base Building",
+      "url": "https://www.powder.com/news/mt-hutt-new-base-building",
+      "source": "POWDER",
+      "published": "2026-10-09T17:46:54.000Z"
+    },
+    {
+      "title": "New AI Technology Aims to Improve Chairlift Safety at Ski Resorts",
+      "url": "https://unofficialnetworks.com/2026/10/09/ai-technology-improve-chairlift-safety/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-09T17:28:59.000Z"
+    },
+    {
+      "title": "Utah Ski Resorts’ 2026-27 Opening Dates",
+      "url": "https://snowbrains.com/utah-ski-resorts-2026-27-opening-dates/",
+      "source": "SnowBrains",
+      "published": "2026-10-09T17:08:07.000Z"
+    },
+    {
+      "title": "Utah Ski Resort Staff Make Bold Predictions for This Winter’s Snowfall",
+      "url": "https://unofficialnetworks.com/2026/10/09/ski-resort-staff-snow-predictions/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-09T17:02:30.000Z"
+    },
+    {
+      "title": "Spencer Harkins Leads Mammut's Unwellness Retreat, New Video Series Dropping Soon",
+      "url": "https://www.powder.com/news/spencer-harkins-unwellness-retreat-mammut",
+      "source": "POWDER",
+      "published": "2026-10-09T16:37:54.000Z"
+    },
+    {
+      "title": "If You Want Ski Gear At 70% Discounts, We Hope You’re In One of These 4 Cities",
+      "url": "https://unofficialnetworks.com/2026/10/09/america-biggest-ski-swap/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-09T16:22:31.000Z"
+    },
+    {
+      "title": "Colorado Ski Area Is Giving 1,300 Local Students A Free Day On The Mountain",
+      "url": "https://unofficialnetworks.com/2026/10/09/colorado-ski-area-students-free-ski-day/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-09T16:15:17.000Z"
+    },
+    {
+      "title": "Lindsey Vonn Named to U.S. Alpine Ski Team Despite Olympic Injuries for 2026-27 Season",
+      "url": "https://snowbrains.com/us-alpine-ski-team-2026-27/",
+      "source": "SnowBrains",
+      "published": "2026-10-09T15:57:51.000Z"
+    },
+    {
+      "title": "The Snow League Announces Season Two Roster Featuring Olympic Champions",
+      "url": "https://unofficialnetworks.com/2026/10/09/snow-league-announces-season-two-roster/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-09T15:23:38.000Z"
+    },
+    {
+      "title": "French Ski Areas Contribute €40 Million Annually to Grassroots Sports Ahead of 2030 Olympics",
+      "url": "https://unofficialnetworks.com/2026/10/09/french-ski-areas-grassroots-sports/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-09T15:03:47.000Z"
+    },
+    {
+      "title": "Winter Forecast Shows Growing Potential for a Cold and Snowy February and March",
+      "url": "https://unofficialnetworks.com/2026/10/09/direct-weather-winter-forecast-october/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-09T14:38:04.000Z"
+    },
+    {
+      "title": "Norwegian Snowboarder Marcus Kleveland Leaves Team Red Bull",
+      "url": "https://snowbrains.com/norwegian-snowboarder-marcus-kleveland-leaves-team-red-bull/",
+      "source": "SnowBrains",
+      "published": "2026-10-09T14:28:12.000Z"
+    },
+    {
+      "title": "Abandoned Ski Resort Demolition Nears As Officials Drop Heritage Proposal",
+      "url": "https://unofficialnetworks.com/2026/10/09/abandoned-canadian-ski-resort-demo/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-09T13:53:23.000Z"
+    },
+    {
+      "title": "Lively and Quick, Atomic's Maverick 105 CTI Packs Performance Into a Lightweight Package",
+      "url": "https://www.powder.com/gear/atomic-maverick-cti-105-review-2027",
+      "source": "POWDER",
+      "published": "2026-10-09T13:42:00.000Z"
+    },
+    {
+      "title": "The 9 Best Ski Gloves and Mittens of 2027",
+      "url": "https://www.skimag.com/gear/gloves/best-ski-gloves-and-mittens/",
+      "source": "SKI Magazine",
+      "published": "2026-10-09T13:04:37.000Z"
+    },
+    {
+      "title": "Curious About Carving but Still Love the Bumps? Elan Developed a Ski That Can Do Both",
+      "url": "https://www.powder.com/gear/elan-ripstick-102-skis-review-2027",
+      "source": "POWDER",
+      "published": "2026-10-09T11:48:00.000Z"
+    },
     {
       "title": "Strong El Niño Through March? The El Niño Ski Season Outlook Says It’s Likely",
       "url": "https://snowbrains.com/el-nino-ski-season-october-update/",
@@ -171,46 +279,10 @@
       "published": "2026-10-08T16:16:58.000Z"
     },
     {
-      "title": "New Ski Film Follows Descent From Nearly 20,000 Foot Bolivian Peak",
-      "url": "https://unofficialnetworks.com/2026/10/08/alto-bolivia-ski-film-huayna-potosi/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-08T15:57:24.000Z"
-    },
-    {
       "title": "Colorado Ski Resorts’ Confirmed 2026-27 Opening Dates",
       "url": "https://snowbrains.com/colorado-ski-resorts-confirmed-2026-27-opening-dates/",
       "source": "SnowBrains",
       "published": "2026-10-08T15:39:25.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Sharp Weekend Cooldown, Light Snow for BC/Alberta",
-      "url": "https://snowbrains.com/snowbrains-forecast-sharp-weekend-cooldown-light-snow-for-bc-alberta/",
-      "source": "SnowBrains",
-      "published": "2026-10-08T15:11:24.000Z"
-    },
-    {
-      "title": "NOAA Says El Niño Continues To Strengthen Ahead Of Winter 2026-27",
-      "url": "https://unofficialnetworks.com/2026/10/08/el-nino-continues-to-strengthen/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-08T15:02:44.000Z"
-    },
-    {
-      "title": "Valle Nevado Extends Ski Season Into November After Historic October Snowfall",
-      "url": "https://unofficialnetworks.com/2026/10/08/valle-nevado-extends-season-into-november/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-08T14:45:59.000Z"
-    },
-    {
-      "title": "Construction Begins New Ski-In, Ski-Out Club Med Resort at Mont-Tremblant",
-      "url": "https://unofficialnetworks.com/2026/10/08/construction-begins-new-ski-in-ski-out-club-med-resort-at-mont-tremblant/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-08T13:51:52.000Z"
-    },
-    {
-      "title": "Valle Nevado, Chile, Extends Its Season Again Until November 8",
-      "url": "https://snowbrains.com/valle-nevado-chile-extends-its-season-again-until-november-8/",
-      "source": "SnowBrains",
-      "published": "2026-10-08T12:52:02.000Z"
     },
     {
       "title": "Dynastar's Unapologetically Stiff Twin-Tip Skis Bridges the Gap Between Park and Freeride",
@@ -223,12 +295,6 @@
       "url": "https://www.powder.com/gear/armada-whitewalker-108-skis-review-2027",
       "source": "POWDER",
       "published": "2026-10-08T12:24:00.000Z"
-    },
-    {
-      "title": "Austrian Skier Marco Schwarz Steps Away from Slalom Races",
-      "url": "https://snowbrains.com/austrian-skier-schwarz-drops-slalom/",
-      "source": "SnowBrains",
-      "published": "2026-10-08T12:04:53.000Z"
     },
     {
       "title": "Eagle Point Owner Sets Goal for Reopening After Devastating Wildfire",
@@ -247,66 +313,6 @@
       "url": "https://www.powder.com/gear/blizzard-rustler-11-skis-review-2027",
       "source": "POWDER",
       "published": "2026-10-08T11:36:00.000Z"
-    },
-    {
-      "title": "ThirtyTwo Releases Snowboards for the First Time",
-      "url": "https://snowbrains.com/thirtytwo-releases-snowboards-for-the-first-time/",
-      "source": "SnowBrains",
-      "published": "2026-10-08T11:01:39.000Z"
-    },
-    {
-      "title": "It Won't Stop Snowing in Chile as Resorts Tally Feet of Snow",
-      "url": "https://www.powder.com/news/wont-stop-snowing-chile-feet",
-      "source": "POWDER",
-      "published": "2026-10-08T10:39:00.000Z"
-    },
-    {
-      "title": "U.S. Alpine Ski Team Names 2026-27 Roster, Lindsey Vonn Included",
-      "url": "https://www.powder.com/news/us-alpine-team-names-2026-27-roster",
-      "source": "POWDER",
-      "published": "2026-10-08T09:40:00.000Z"
-    },
-    {
-      "title": "If You Know, You Know: The Colorado Mountain That Attracts The World’s Best Skiers",
-      "url": "https://www.powder.com/ski-resorts/how-to-heli-ski-silverton-colorado",
-      "source": "POWDER",
-      "published": "2026-10-07T23:09:52.000Z"
-    },
-    {
-      "title": "Beartooth Highway Will Close Early For The Season Ahead Of Incoming Winter Weather",
-      "url": "https://unofficialnetworks.com/2026/10/07/beartooth-highway-closing/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-07T21:34:16.000Z"
-    },
-    {
-      "title": "Utah Is Adding More New Ski Terrain Than Any Other State This Winter And Its By A Longshot",
-      "url": "https://unofficialnetworks.com/2026/10/07/utah-is-adding-more-new-ski-terrain-than-any-other-state-this-winter-and-its-by-a-longshot/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-07T20:53:42.000Z"
-    },
-    {
-      "title": "From Lifts to Lodges, These Are the Biggest Improvements Coming to Utah's Ski Resorts",
-      "url": "https://www.powder.com/news/biggest-improvements-utah-ski-resorts-2026-27",
-      "source": "POWDER",
-      "published": "2026-10-07T19:33:41.000Z"
-    },
-    {
-      "title": "Review: 2027 Nordica Santa Ana 97",
-      "url": "https://www.powder.com/gear/nordica-santa-ana-97-skis-review-2027",
-      "source": "POWDER",
-      "published": "2026-10-07T18:57:43.000Z"
-    },
-    {
-      "title": "Rockstar Energy Open Returns to Breckenridge for 2026 Snowboard Competition",
-      "url": "https://unofficialnetworks.com/2026/10/07/rockstar-energy-open-returns-to-breckenridge/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-07T18:55:10.000Z"
-    },
-    {
-      "title": "Vail Resorts Hit With New Lawsuit Over Alleged Ski Pass Price-Fixing",
-      "url": "https://unofficialnetworks.com/2026/10/07/vail-resorts-shareholder-lawsuit-price-fixing/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-07T18:30:40.000Z"
     },
     {
       "title": "Your Dream Japan Ski Trip Might Start With the Pass You Already Have",
@@ -343,12 +349,6 @@
       "url": "https://www.stormskiing.com/p/storm-skiing-1062026-breaking-down",
       "source": "Storm Skiing Journal",
       "published": "2026-10-06T17:51:21.000Z"
-    },
-    {
-      "title": "This All-Mountain Ski Is All Fun, No Work. And Now It’s $500 Off.",
-      "url": "https://www.skimag.com/gear/ski-reviews/all-mountain-wide-skis/fischer-ranger-108-deal/",
-      "source": "SKI Magazine",
-      "published": "2026-10-06T16:36:51.000Z"
     },
     {
       "title": "Storm News 9/28/2026: Alterra Appoints Kelly Vohs CEO + Mountain Creek GM Evan Kovach",

@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-09T11:00:46.382Z",
-  "totalDeals": 56,
+  "lastScanned": "2026-10-09T18:22:00.209Z",
+  "totalDeals": 55,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 103,
+    "slickdeals": 102,
     "amazon": 9
   },
   "deals": [
@@ -24,8 +24,8 @@
       "posted": "2026-10-08T16:19:41.000Z"
     },
     {
-      "title": "Aegend Swim Goggles, Swimming Goggles No Leaking Full Protect Adult Youth $4.74",
-      "url": "https://slickdeals.net/f/20128761-aegend-swim-goggles-swimming-goggles-no-leaking-full-protect-adult-youth-4-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "title": "$4.74 w/ code Aegend Swim Goggles for Kids & Adult",
+      "url": "https://slickdeals.net/f/20128761-4-74-w-code-aegend-swim-goggles-for-kids-adult?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
@@ -134,6 +134,14 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-09-28T22:11:33.000Z"
+    },
+    {
+      "title": "Aegend Swim Goggles, Swimming Goggles No Leaking Full Protect Adult Youth $4.74",
+      "url": "https://slickdeals.net/f/20069655-aegend-swim-goggles-swimming-goggles-no-leaking-full-protect-adult-youth-4-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-09-28T12:58:38.000Z"
     },
     {
       "title": "Demon Phantom Helmet with Audio and Snow Supra Goggle $35.00",
@@ -368,28 +376,12 @@
       "posted": "2026-09-10T03:41:31.000Z"
     },
     {
-      "title": "2 Pack Anti-Fog Swim Goggles, 180° Panoramic Wide View $4.99 w/ code",
-      "url": "https://slickdeals.net/f/19992090-2-pack-anti-fog-swim-goggles-180-panoramic-wide-view-4-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-09T14:24:21.000Z"
-    },
-    {
-      "title": "Helly Hansen Alpha 4.0 Ski Jacket - Waterproof, Insulated, RECCO $179.99 (L, XL)",
-      "url": "https://slickdeals.net/f/19991823-helly-hansen-alpha-4-0-ski-jacket-waterproof-insulated-recco-179-99-l-xl?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-09-09T13:38:01.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     },
     {
@@ -398,7 +390,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     },
     {
@@ -407,7 +399,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     },
     {
@@ -416,7 +408,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     },
     {
@@ -425,7 +417,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     },
     {
@@ -434,7 +426,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     },
     {
@@ -443,7 +435,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     },
     {
@@ -452,7 +444,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     },
     {
@@ -461,7 +453,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-09T11:00:46.379Z",
+      "posted": "2026-10-09T18:22:00.207Z",
       "isAmazonSearch": true
     }
   ]
