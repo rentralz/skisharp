@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-09T18:22:00.209Z",
-  "totalDeals": 55,
+  "lastScanned": "2026-10-10T11:00:41.559Z",
+  "totalDeals": 53,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 102,
+    "slickdeals": 101,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "2 Pack Anti-Fog Swim Goggles, $4.99 w/ code",
+      "url": "https://slickdeals.net/f/20134518-2-pack-anti-fog-swim-goggles-4-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-09T15:25:23.000Z"
+    },
     {
       "title": "Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 $14.24 AC",
       "url": "https://slickdeals.net/f/20132385-freela-kids-ski-goggles-snowboard-snow-anti-fog-youth-toddler-for-3-14-14-24-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -110,14 +118,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-10-01T16:07:43.000Z"
-    },
-    {
-      "title": "Libin Women's Fleece Lined Pants Stretch Thermal Pants Zip Pockets 29/31 - $17.49 AC",
-      "url": "https://slickdeals.net/f/20079573-libin-women-s-fleece-lined-pants-stretch-thermal-pants-zip-pockets-29-31-17-49-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-09-30T17:45:41.000Z"
     },
     {
       "title": "Wrangler Men's Brushed Performance Thermal Long Sleeve Base Layer Shirt (Dark Military Green or Naval Academy, M-2XL) $4.47 + Free Shipping w/ Walmart+ or on $35+",
@@ -360,28 +360,12 @@
       "posted": "2026-09-10T14:41:57.000Z"
     },
     {
-      "title": "GOESTRIC Waterproof Insulated Winter Work Gloves $6",
-      "url": "https://slickdeals.net/f/19996461-goestric-waterproof-insulated-winter-work-gloves-6?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-09-10T13:41:24.000Z"
-    },
-    {
-      "title": "WISHBETY 4K Night Vision Goggles for Adult,16X Zoom Night Vision Binoculars $44.99",
-      "url": "https://slickdeals.net/f/19994814-wishbety-4k-night-vision-goggles-for-adult-16x-zoom-night-vision-binoculars-44-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-10T03:41:31.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     },
     {
@@ -390,7 +374,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     },
     {
@@ -399,7 +383,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     },
     {
@@ -408,7 +392,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     },
     {
@@ -417,7 +401,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     },
     {
@@ -426,7 +410,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     },
     {
@@ -435,7 +419,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     },
     {
@@ -444,7 +428,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     },
     {
@@ -453,7 +437,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-09T18:22:00.207Z",
+      "posted": "2026-10-10T11:00:41.556Z",
       "isAmazonSearch": true
     }
   ]

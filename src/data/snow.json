@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-09T18:22:01.068Z",
+  "updated": "2026-10-10T11:00:42.424Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-09",
     "2026-10-10",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-12"
   ],
   "resorts": [
     {
@@ -68,11 +68,11 @@
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        0,
-        0.2,
-        8.2
+        0.3,
+        7.1,
+        5
       ],
-      "next3": 8.4
+      "next3": 12.4
     },
     {
       "name": "Palisades Tahoe",
@@ -92,9 +92,9 @@
       "daily": [
         0,
         0,
-        0
+        2.4
       ],
-      "next3": 0
+      "next3": 2.4
     },
     {
       "name": "Killington",
