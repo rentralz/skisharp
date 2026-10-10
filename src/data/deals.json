@@ -1,6 +1,6 @@
 {
-  "lastScanned": "2026-10-10T11:00:41.559Z",
-  "totalDeals": 53,
+  "lastScanned": "2026-10-10T17:21:05.551Z",
+  "totalDeals": 51,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 101,
@@ -344,28 +344,12 @@
       "posted": "2026-09-11T14:07:20.000Z"
     },
     {
-      "title": "Amazon - Seago Kids Swim Goggles with Nose Cover Anti-Fog Swimming Mask Youth 5-15 - $4.99",
-      "url": "https://slickdeals.net/f/19997268-amazon-seago-kids-swim-goggles-with-nose-cover-anti-fog-swimming-mask-youth-5-15-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-10T16:18:29.000Z"
-    },
-    {
-      "title": "CAMEL CROWN Women's Ski Jacket Waterproof Warm Winter Snow Coat Hooded Mountain Outdoor Windbreaker Windproof Jacket $24.99",
-      "url": "https://slickdeals.net/f/19996770-camel-crown-women-s-ski-jacket-waterproof-warm-winter-snow-coat-hooded-mountain-outdoor-windbreaker-windproof-jacket-24-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-09-10T14:41:57.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     },
     {
@@ -374,7 +358,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     },
     {
@@ -383,7 +367,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     },
     {
@@ -392,7 +376,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     },
     {
@@ -401,7 +385,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     },
     {
@@ -410,7 +394,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     },
     {
@@ -419,7 +403,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     },
     {
@@ -428,7 +412,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     },
     {
@@ -437,7 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-10T11:00:41.556Z",
+      "posted": "2026-10-10T17:21:05.549Z",
       "isAmazonSearch": true
     }
   ]
