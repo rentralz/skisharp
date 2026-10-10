@@ -21,7 +21,7 @@ search demand and the beginner progression, with snowboard guides interleaved.
 - [x] switch-skiing: 2026-10-06
 - [x] spring-corn-snow: 2026-10-08
 - [x] getting-up: 2026-10-09
-- [ ] snowboard-speed-control
+- [x] snowboard-speed-control: 2026-10-10
 - [ ] chairlift-basics
 - [ ] snowboard-chairlift-basics
 - [ ] athletic-stance
