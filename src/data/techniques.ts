@@ -1325,30 +1325,30 @@ export const techniques: Technique[] = [
     description:
       "Loading, riding, and unloading a chairlift safely — the essential mountain skill that gets you back to the top for every run.",
     promise:
-      "Chairlift anxiety will disappear completely and you will load and unload smoothly without slowing down the line.",
+      "You'll learn a calm sequence for loading, riding, and unloading so chairlift rides feel more predictable and safer.",
     timestamps: [
-      { time: "0:25", label: "Loading the chair", detail: "Wait behind the line, move into position when signaled, and sit back firmly as the chair arrives" },
+      { time: "0:25", label: "Loading the chair", detail: "Wait behind the line, move into position when signaled, and sit fully onto the seat as the chair arrives" },
       { time: "1:10", label: "Securing yourself", detail: "Lower the safety bar and rest your skis on the footrest — relax for the ride" },
       { time: "2:20", label: "Preparing to unload", detail: "Raise the bar early, tips up, and be ready to stand as the chair reaches the ramp" },
       { time: "3:30", label: "Unloading cleanly", detail: "Stand up with tips pointing forward and glide straight ahead away from the chair" },
     ],
     feels: [
-      "The chair scoops you from behind — sit back into it rather than reaching for it",
+      "The chair scoops you from behind — sit fully onto the seat rather than reaching for it",
       "A smooth glide off the ramp when you stand at exactly the right moment — too early and you stumble, too late and you twist",
-      "Looking back once to confirm the chair has cleared you before moving off to the side",
+      "Keep looking where you want to go, glide straight ahead until you are clear of the ramp, then move to the designated side",
     ],
     mistakes: [
       { mistake: "Standing up too early on the unload ramp", fix: "Wait until your skis are flat on the ramp before pushing off — let the slope do the work" },
-      { mistake: "Poles tangled or pointing downward on loading", fix: "Loop poles over one wrist and hold them parallel to the ground during loading" },
+      { mistake: "Poles tangled or pointing downward on loading", fix: "Keep pole straps off your wrists and hold both poles together in one hand with tips pointing forward or sideways, clear of your skis and the chair" },
       { mistake: "Moving away too slowly after unloading", fix: "Skate or glide immediately to the designated area — don't stop at the ramp" },
     ],
     drills: [
       "Watch before you load: spend 5 minutes observing others load and unload before your first attempt — pattern recognition speeds up learning enormously",
       "Verbal countdown: silently count to yourself as the ramp approaches — 3, 2, 1, stand — gives you a consistent unload timing cue",
-      "Early bar raise: get in the habit of raising the safety bar at the second-to-last lift tower — builds the timing habit before it is urgent",
+      "Posted-sign bar raise: raise the restraint bar at the posted sign or before the unload ramp, after telling your seatmates and confirming everyone is ready",
     ],
-    prerequisites: [],
-    nextSteps: ["getting-up", "wedge-turns"],
+    prerequisites: ["getting-up", "snowplow-stop"],
+    nextSteps: ["wedge-turns"],
     youtubeVideos: [
       {
         videoId: "21U4WyZmU_M",

@@ -1,6 +1,7 @@
 import { getTechniqueBySlug } from "@/data/techniques";
 import type { TechniqueGuide } from "./types";
 import carvedTurns from "./carved-turns";
+import chairliftBasics from "./chairlift-basics";
 import counterRotation from "./counter-rotation";
 import fallingLeaf from "./falling-leaf";
 import garlandExercise from "./garland-exercise";
@@ -32,6 +33,7 @@ import wedgeTurns from "./wedge-turns";
 
 const GUIDES: TechniqueGuide[] = [
   carvedTurns,
+  chairliftBasics,
   counterRotation,
   fallingLeaf,
   garlandExercise,

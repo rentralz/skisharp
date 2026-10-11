@@ -22,7 +22,7 @@ search demand and the beginner progression, with snowboard guides interleaved.
 - [x] spring-corn-snow: 2026-10-08
 - [x] getting-up: 2026-10-09
 - [x] snowboard-speed-control: 2026-10-10
-- [ ] chairlift-basics
+- [x] chairlift-basics: 2026-10-11
 - [ ] snowboard-chairlift-basics
 - [ ] athletic-stance
 - [ ] short-turns
