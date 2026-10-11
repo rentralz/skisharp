@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T11:00:46.795Z",
+  "updated": "2026-10-11T17:41:46.552Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -68,11 +68,11 @@
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        5.7,
+        5.6,
         2.3,
         0
       ],
-      "next3": 8
+      "next3": 7.9
     },
     {
       "name": "Palisades Tahoe",

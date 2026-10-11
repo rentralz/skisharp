@@ -1,6 +1,6 @@
 {
-  "lastScanned": "2026-10-11T11:00:45.507Z",
-  "totalDeals": 52,
+  "lastScanned": "2026-10-11T17:41:45.598Z",
+  "totalDeals": 51,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 101,
@@ -344,12 +344,13 @@
       "posted": "2026-09-11T18:55:08.000Z"
     },
     {
-      "title": "CAMELSPORTS Men's Winter Ski Jacket Snow Coats Waterproof Detachable Hood Windproof Rain Jackets $24.99",
-      "url": "https://slickdeals.net/f/20001555-camelsports-men-s-winter-ski-jacket-snow-coats-waterproof-detachable-hood-windproof-rain-jackets-24-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
+      "title": "🔍 Ski Jackets on Sale",
+      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-09-11T14:07:20.000Z"
+      "posted": "2026-10-11T17:41:45.595Z",
+      "isAmazonSearch": true
     },
     {
       "title": "🔍 Ski Pants Clearance",
@@ -357,7 +358,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-11T11:00:45.505Z",
+      "posted": "2026-10-11T17:41:45.595Z",
       "isAmazonSearch": true
     },
     {
@@ -366,7 +367,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-11T11:00:45.505Z",
+      "posted": "2026-10-11T17:41:45.595Z",
       "isAmazonSearch": true
     },
     {
@@ -375,7 +376,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-11T11:00:45.505Z",
+      "posted": "2026-10-11T17:41:45.595Z",
       "isAmazonSearch": true
     },
     {
@@ -384,7 +385,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-11T11:00:45.505Z",
+      "posted": "2026-10-11T17:41:45.595Z",
       "isAmazonSearch": true
     },
     {
@@ -393,7 +394,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-11T11:00:45.505Z",
+      "posted": "2026-10-11T17:41:45.595Z",
       "isAmazonSearch": true
     },
     {
@@ -402,7 +403,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-11T11:00:45.505Z",
+      "posted": "2026-10-11T17:41:45.595Z",
       "isAmazonSearch": true
     },
     {
@@ -411,7 +412,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-11T11:00:45.505Z",
+      "posted": "2026-10-11T17:41:45.595Z",
       "isAmazonSearch": true
     },
     {
@@ -420,16 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-11T11:00:45.505Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Jackets on Sale",
-      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "jackets",
-      "posted": "2026-10-11T11:00:45.504Z",
+      "posted": "2026-10-11T17:41:45.595Z",
       "isAmazonSearch": true
     }
   ]
