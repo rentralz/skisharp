@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-10T17:21:05.551Z",
-  "totalDeals": 51,
+  "lastScanned": "2026-10-11T11:00:45.507Z",
+  "totalDeals": 52,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 101,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Water Space Kids Swim Goggles with Nose Cover Anti-Shattered No-Leak 3-15 - $7.99 - $12.99 after coupon",
+      "url": "https://slickdeals.net/f/20139669-water-space-kids-swim-goggles-with-nose-cover-anti-shattered-no-leak-3-15-7-99-12-99-after-coupon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-10T19:38:23.000Z"
+    },
+    {
+      "title": "Aloodor Workout Sets for Women 2 Piece Outfits Casual Loose Fitting Tops Winter Clothing for women $12.47",
+      "url": "https://slickdeals.net/f/20135451-aloodor-workout-sets-for-women-2-piece-outfits-casual-loose-fitting-tops-winter-clothing-for-women-12-47?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "other",
+      "posted": "2026-10-09T18:58:36.000Z"
+    },
     {
       "title": "2 Pack Anti-Fog Swim Goggles, $4.99 w/ code",
       "url": "https://slickdeals.net/f/20134518-2-pack-anti-fog-swim-goggles-4-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -94,14 +110,6 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-03T00:38:55.000Z"
-    },
-    {
-      "title": "WOW World of Watersports Ace Racing 1-Person Towable Ski Tube $46.19 + Free Shipping w/ Walmart+ or on $35+",
-      "url": "https://slickdeals.net/f/20090208-wow-world-of-watersports-ace-racing-1-person-towable-ski-tube-46-19-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "skis",
-      "posted": "2026-10-02T20:11:51.000Z"
     },
     {
       "title": "3-Pairs Schwer 3/4 Double-Dipped Coating Winter Work Gloves $6.59 w/ S&S + Free Shipping w/ Prime or on $35+",
@@ -344,21 +352,12 @@
       "posted": "2026-09-11T14:07:20.000Z"
     },
     {
-      "title": "🔍 Ski Jackets on Sale",
-      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "jackets",
-      "posted": "2026-10-10T17:21:05.549Z",
-      "isAmazonSearch": true
-    },
-    {
       "title": "🔍 Ski Pants Clearance",
       "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-10T17:21:05.549Z",
+      "posted": "2026-10-11T11:00:45.505Z",
       "isAmazonSearch": true
     },
     {
@@ -367,7 +366,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-10T17:21:05.549Z",
+      "posted": "2026-10-11T11:00:45.505Z",
       "isAmazonSearch": true
     },
     {
@@ -376,7 +375,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-10T17:21:05.549Z",
+      "posted": "2026-10-11T11:00:45.505Z",
       "isAmazonSearch": true
     },
     {
@@ -385,7 +384,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-10T17:21:05.549Z",
+      "posted": "2026-10-11T11:00:45.505Z",
       "isAmazonSearch": true
     },
     {
@@ -394,7 +393,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-10T17:21:05.549Z",
+      "posted": "2026-10-11T11:00:45.505Z",
       "isAmazonSearch": true
     },
     {
@@ -403,7 +402,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-10T17:21:05.549Z",
+      "posted": "2026-10-11T11:00:45.505Z",
       "isAmazonSearch": true
     },
     {
@@ -412,7 +411,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-10T17:21:05.549Z",
+      "posted": "2026-10-11T11:00:45.505Z",
       "isAmazonSearch": true
     },
     {
@@ -421,7 +420,16 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-10T17:21:05.549Z",
+      "posted": "2026-10-11T11:00:45.505Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Jackets on Sale",
+      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "jackets",
+      "posted": "2026-10-11T11:00:45.504Z",
       "isAmazonSearch": true
     }
   ]
