@@ -23,7 +23,7 @@ search demand and the beginner progression, with snowboard guides interleaved.
 - [x] getting-up: 2026-10-09
 - [x] snowboard-speed-control: 2026-10-10
 - [x] chairlift-basics: 2026-10-11
-- [ ] snowboard-chairlift-basics
+- [x] snowboard-chairlift-basics: 2026-10-12
 - [ ] athletic-stance
 - [ ] short-turns
 - [ ] snowboard-basic-carving

@@ -16,6 +16,7 @@ import powderFloating from "./powder-floating";
 import sideslipping from "./sideslipping";
 import skiingInRain from "./skiing-in-rain";
 import snowboardAthleticStance from "./snowboard-athletic-stance";
+import snowboardChairliftBasics from "./snowboard-chairlift-basics";
 import snowboardFallingLeaf from "./snowboard-falling-leaf";
 import snowboardHeelsideTurns from "./snowboard-heelside-turns";
 import snowboardLinkedTurns from "./snowboard-linked-turns";
@@ -48,6 +49,7 @@ const GUIDES: TechniqueGuide[] = [
   sideslipping,
   skiingInRain,
   snowboardAthleticStance,
+  snowboardChairliftBasics,
   snowboardFallingLeaf,
   snowboardHeelsideTurns,
   snowboardLinkedTurns,
