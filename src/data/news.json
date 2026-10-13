@@ -1,13 +1,73 @@
 {
-  "lastScanned": "2026-10-12T21:17:10.329Z",
+  "lastScanned": "2026-10-13T11:00:43.192Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
     "SnowBrains": 15,
     "Unofficial Networks": 15,
-    "Storm Skiing Journal": 11
+    "Storm Skiing Journal": 10
   },
   "items": [
+    {
+      "title": "Daring Skiers Take Snowless Skiing To New Heights With Absurd Stunt Reel",
+      "url": "https://www.powder.com/news/bpc-snowless-skiing-to-new-heights",
+      "source": "POWDER",
+      "published": "2026-10-13T10:38:00.000Z"
+    },
+    {
+      "title": "Snowmaking Is Underway at Mt. Rose as Tahoe's Earliest Opening Approaches",
+      "url": "https://www.powder.com/news/snowmaking-underway-mt-rose-ski-tahoe",
+      "source": "POWDER",
+      "published": "2026-10-13T09:47:00.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Another Foot Possible in Utah’s Cottonwoods",
+      "url": "https://snowbrains.com/snowbrains-forecast-another-foot-possible-in-utahs-cottonwoods/",
+      "source": "SnowBrains",
+      "published": "2026-10-13T02:03:46.000Z"
+    },
+    {
+      "title": "The North American Wife Carrying Championship Returns To Maine With Beer & Cash On The Line",
+      "url": "https://unofficialnetworks.com/2026/10/12/the-north-american-wife-carrying-championship-returns-to-maine-with-beer-cash-on-the-line/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-13T00:56:11.000Z"
+    },
+    {
+      "title": "Titlis-Engelberg, Switzerland, Delays Glacier Ski Season Opening by 2 Weeks",
+      "url": "https://snowbrains.com/titlis-engelberg-switzerland-delays-glacier-ski-season-opening-by-2-weeks/",
+      "source": "SnowBrains",
+      "published": "2026-10-12T22:42:37.000Z"
+    },
+    {
+      "title": "Where in the World Would You Ski: Top 7 Bucket List Countries According to SnowBrains Readers",
+      "url": "https://snowbrains.com/where-in-the-world-would-you-ski-top-7-bucket-list-countries-according-to-snowbrains-readers/",
+      "source": "SnowBrains",
+      "published": "2026-10-12T22:12:40.000Z"
+    },
+    {
+      "title": "Kimberley Alpine Resort, BC, Installs Lift Station for New Tamarack Chairlift",
+      "url": "https://snowbrains.com/kimberley-new-chairlift-terminal/",
+      "source": "SnowBrains",
+      "published": "2026-10-12T22:01:49.000Z"
+    },
+    {
+      "title": "23-Year-Old Local Speed Rider Dies on the North Face of Chamonix’s Aiguille du Midi",
+      "url": "https://snowbrains.com/23-year-old-local-speed-rider-dies-on-the-north-face-of-chamonixs-aiguille-du-midi/",
+      "source": "SnowBrains",
+      "published": "2026-10-12T21:57:14.000Z"
+    },
+    {
+      "title": "Where Experts Say Early-Season Skiing Could Be Best During the 2026–’27 El Niño.",
+      "url": "https://www.skimag.com/news/2026-2027-el-nino-early-season-forecast/",
+      "source": "SKI Magazine",
+      "published": "2026-10-12T21:37:03.000Z"
+    },
+    {
+      "title": "Hot Tub With a View — This Austrian Inventor Wants to Turn Ski Gondolas Into Floating Spas",
+      "url": "https://snowbrains.com/bubblepeak-hot-tub-gondola-paul-demschar/",
+      "source": "SnowBrains",
+      "published": "2026-10-12T21:17:53.000Z"
+    },
     {
       "title": "2022 Olympic Champion Walter Wallberg to Sit Out 2026-27 Season",
       "url": "https://snowbrains.com/2022-olympic-champion-walter-wallberg-to-sit-out-2026-27-season/",
@@ -189,40 +249,16 @@
       "published": "2026-10-11T20:33:46.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Southwest Montana Leads the Remaining Snowfall in the Northern Rockies (MT/WY/ID)",
-      "url": "https://snowbrains.com/snowbrains-forecast-southwest-montana-leads-the-remaining-snowfall-in-the-northern-rockies-mt-wy-id/",
-      "source": "SnowBrains",
-      "published": "2026-10-11T20:15:08.000Z"
-    },
-    {
-      "title": "[PHOTOS] First Snowfall of 2026-27 Season Arrives Across European Resorts",
-      "url": "https://snowbrains.com/first-snowfall-of-2026-27-europea/",
-      "source": "SnowBrains",
-      "published": "2026-10-11T20:12:08.000Z"
-    },
-    {
       "title": "Ontario Ski Area Announces New Chairlift For The 2027-28 Season",
       "url": "https://unofficialnetworks.com/2026/10/11/hidden-valley-new-chairlift/",
       "source": "Unofficial Networks",
       "published": "2026-10-11T16:02:43.000Z"
     },
     {
-      "title": "How to Prepare Your Car for Winter Weather",
-      "url": "https://snowbrains.com/car-preparation-for-winter-weather/",
-      "source": "SnowBrains",
-      "published": "2026-10-11T15:10:04.000Z"
-    },
-    {
       "title": "Hardcore Skier Ranks His Favorite Utah Ski Resorts",
       "url": "https://unofficialnetworks.com/2026/10/11/lucas-catania-favorite-utah-resorts/",
       "source": "Unofficial Networks",
       "published": "2026-10-11T15:06:40.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Tasmania Leads Australia’s Brief Spring Snowfall",
-      "url": "https://snowbrains.com/snowbrains-forecast-tasmania-leads-australias-brief-spring-snowfall/",
-      "source": "SnowBrains",
-      "published": "2026-10-11T14:09:33.000Z"
     },
     {
       "title": "Oregon Ski Resort Turns Its Chairlift Into A Haunted Halloween Trick-Or-Treat Experience",
@@ -243,24 +279,6 @@
       "published": "2026-10-11T12:20:00.000Z"
     },
     {
-      "title": "Sun Valley, ID, Releases 2026-27 FIS Alpine World Cup Finals Schedule",
-      "url": "https://snowbrains.com/sun-valley-id-releases-2027-world-cup-finals-schedule/",
-      "source": "SnowBrains",
-      "published": "2026-10-11T11:49:09.000Z"
-    },
-    {
-      "title": "Two Injured in October Avalanche Near Eklutna Lake, AK — Dog Still Missing",
-      "url": "https://snowbrains.com/alaska-avalanche-pepper-peak-eklutna-lake-dog-missing/",
-      "source": "SnowBrains",
-      "published": "2026-10-11T08:15:10.000Z"
-    },
-    {
-      "title": "Olympic Snowboard Legend Danny Kass Confirmed As U.S. Slopestyle Team Head Coach",
-      "url": "https://unofficialnetworks.com/2026/10/10/danny-kass-us-snowboard-team-coach/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-10T16:29:53.000Z"
-    },
-    {
       "title": "Dynastar's 100mm Freeride Ski Is Capable of Handling Almost Any Snow Condition",
       "url": "https://www.powder.com/gear/dynastar-m-free-100-skis-review-2027",
       "source": "POWDER",
@@ -271,18 +289,6 @@
       "url": "https://www.powder.com/gear/elan-ripstick-94-w-black-edition-review-2027",
       "source": "POWDER",
       "published": "2026-10-10T12:48:00.000Z"
-    },
-    {
-      "title": "Review: 2027 Blizzard Canvas 100",
-      "url": "https://www.powder.com/gear/blizzard-canvas-100-skis-review-2027",
-      "source": "POWDER",
-      "published": "2026-10-10T12:34:00.000Z"
-    },
-    {
-      "title": "Eggs, Bacon, Frozen Nose Hairs and Blower Powder With High Sierra Snowcat & Yurt",
-      "url": "https://www.powder.com/ski-trips/high-sierra-snowcat-powder-skiing-california",
-      "source": "POWDER",
-      "published": "2026-10-10T11:10:00.000Z"
     },
     {
       "title": "The Expedition Cruise Line That Takes Guests Way Beyond the Viewing Deck",
@@ -331,12 +337,6 @@
       "url": "https://www.skimag.com/ski-resort-life/best-season-passes-for-japan/",
       "source": "SKI Magazine",
       "published": "2026-10-07T16:33:38.000Z"
-    },
-    {
-      "title": "The Best Backcountry Skis of 2027, Tested and Reviewed",
-      "url": "https://www.skimag.com/gear/ski-reviews/backcountry-skis/best-backcountry-skis/",
-      "source": "SKI Magazine",
-      "published": "2026-10-07T14:00:06.000Z"
     },
     {
       "title": "Loon Follows Post-Expansion Expansion Plan with Another Expansion Plan",

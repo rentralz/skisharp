@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-12T21:17:08.779Z",
-  "totalDeals": 51,
+  "lastScanned": "2026-10-13T11:00:42.084Z",
+  "totalDeals": 53,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 101,
+    "slickdeals": 104,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Dragon Alliance Snow Goggles (various styles/colors) from $18 + Free Shipping",
+      "url": "https://slickdeals.net/f/20147832-dragon-alliance-snow-goggles-various-styles-colors-from-18-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-12T18:20:08.000Z"
+    },
     {
       "title": "Roadbox Thermal Underwear Set for Women Fleece Lined Long Johns Base Layer $9.99",
       "url": "https://slickdeals.net/f/20144208-roadbox-thermal-underwear-set-for-women-fleece-lined-long-johns-base-layer-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +22,14 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-12T03:20:14.000Z"
+    },
+    {
+      "title": "Schwer 3 Pairs Winter Work Gloves, 3/4 Double-Dipped Coating, CR3313 $10.55",
+      "url": "https://slickdeals.net/f/20142249-schwer-3-pairs-winter-work-gloves-3-4-double-dipped-coating-cr3313-10-55?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-11T16:27:39.000Z"
     },
     {
       "title": "Amazon – RIGWARL Touchscreen Winter Gloves - $7.19–$8.99 w/ Code",
@@ -30,6 +46,14 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-10-10T19:38:23.000Z"
+    },
+    {
+      "title": "Pixel Panda Waterproof Winter Snow Gloves w/ 3M Thinsulate (Black) $9",
+      "url": "https://slickdeals.net/f/20138844-pixel-panda-waterproof-winter-snow-gloves-w-3m-thinsulate-black-9?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-10T15:00:47.000Z"
     },
     {
       "title": "Aloodor Workout Sets for Women 2 Piece Outfits Casual Loose Fitting Tops Winter Clothing for women $12.47",
@@ -94,14 +118,6 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-06T12:46:42.000Z"
-    },
-    {
-      "title": "32% Off Airfares Between Seattle SeaTac / Paine Field and Many West Coast Top Mountain (Ski/Snowboard) Destinations - Book by October 5, 2026",
-      "url": "https://slickdeals.net/f/20098308-32-off-airfares-between-seattle-seatac-paine-field-and-many-west-coast-top-mountain-ski-snowboard-destinations-book-by-october-5-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "skis",
-      "posted": "2026-10-05T02:32:39.000Z"
     },
     {
       "title": "WARMTUYO 4K Night Vision Goggles for Adults, Digital Binoculars with Camera $44.99",
@@ -349,7 +365,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     },
     {
@@ -358,7 +374,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     },
     {
@@ -367,7 +383,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     },
     {
@@ -376,7 +392,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     },
     {
@@ -385,7 +401,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     },
     {
@@ -394,7 +410,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     },
     {
@@ -403,7 +419,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     },
     {
@@ -412,7 +428,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     },
     {
@@ -421,7 +437,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-12T21:17:08.777Z",
+      "posted": "2026-10-13T11:00:42.082Z",
       "isAmazonSearch": true
     }
   ]
