@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-13T11:00:42.084Z",
-  "totalDeals": 53,
+  "lastScanned": "2026-10-13T19:18:17.141Z",
+  "totalDeals": 54,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 104,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Amazon – Thermal Underwear for Men - Fleece Lined Base Layer Long Johns Set - $14.99 w/ Code",
+      "url": "https://slickdeals.net/f/20152755-amazon-thermal-underwear-for-men-fleece-lined-base-layer-long-johns-set-14-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-13T15:14:11.000Z"
+    },
+    {
+      "title": "Thermal Underwear for Men Long Johns Set Winter Base Layer Top and Bottom $9.99",
+      "url": "https://slickdeals.net/f/20152224-thermal-underwear-for-men-long-johns-set-winter-base-layer-top-and-bottom-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-13T14:14:16.000Z"
+    },
     {
       "title": "Dragon Alliance Snow Goggles (various styles/colors) from $18 + Free Shipping",
       "url": "https://slickdeals.net/f/20147832-dragon-alliance-snow-goggles-various-styles-colors-from-18-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -110,14 +126,6 @@
       "sourceIcon": "💰",
       "category": "pants",
       "posted": "2026-10-06T15:22:17.000Z"
-    },
-    {
-      "title": "Benirap Winter Gloves Touchscreen Windproof Thermal Gloves Men Women + $18.99 - Amazon $13.29",
-      "url": "https://slickdeals.net/f/20111319-benirap-winter-gloves-touchscreen-windproof-thermal-gloves-men-women-18-99-amazon-13-29?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-06T12:46:42.000Z"
     },
     {
       "title": "WARMTUYO 4K Night Vision Goggles for Adults, Digital Binoculars with Camera $44.99",
@@ -365,7 +373,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     },
     {
@@ -374,7 +382,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     },
     {
@@ -383,7 +391,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     },
     {
@@ -392,7 +400,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     },
     {
@@ -401,7 +409,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     },
     {
@@ -410,7 +418,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     },
     {
@@ -419,7 +427,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     },
     {
@@ -428,7 +436,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     },
     {
@@ -437,7 +445,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-13T11:00:42.082Z",
+      "posted": "2026-10-13T19:18:17.138Z",
       "isAmazonSearch": true
     }
   ]

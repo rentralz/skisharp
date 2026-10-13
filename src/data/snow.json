@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T11:00:43.362Z",
+  "updated": "2026-10-13T19:18:18.071Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -13,22 +13,22 @@
       "region": "Utah",
       "elevationM": 2987,
       "daily": [
-        4.6,
-        1.2,
+        2.5,
+        0,
         0
       ],
-      "next3": 5.8
+      "next3": 2.5
     },
     {
       "name": "Park City",
       "region": "Utah",
       "elevationM": 2743,
       "daily": [
-        1.6,
-        0.3,
+        1.4,
+        0,
         0
       ],
-      "next3": 1.9
+      "next3": 1.4
     },
     {
       "name": "Vail",
@@ -36,10 +36,10 @@
       "elevationM": 3005,
       "daily": [
         0,
-        1.5,
-        1.2
+        2.1,
+        1.6
       ],
-      "next3": 2.7
+      "next3": 3.7
     },
     {
       "name": "Breckenridge",
@@ -47,10 +47,10 @@
       "elevationM": 3291,
       "daily": [
         0,
-        2.5,
+        2.4,
         0.9
       ],
-      "next3": 3.4
+      "next3": 3.3
     },
     {
       "name": "Jackson Hole",
