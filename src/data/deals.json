@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-14T11:00:38.828Z",
-  "totalDeals": 57,
+  "lastScanned": "2026-10-14T17:11:58.685Z",
+  "totalDeals": 51,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 107,
+    "slickdeals": 104,
     "amazon": 9
   },
   "deals": [
@@ -128,14 +128,6 @@
       "posted": "2026-10-09T03:38:38.000Z"
     },
     {
-      "title": "G Gradual Women's Fleece Lined Leggings with 5 Pockets Water Resistant Warm Thermal Pants High Waisted Winter Running Gear (Heather Light Grey,L) $11.99",
-      "url": "https://slickdeals.net/f/20129946-g-gradual-women-s-fleece-lined-leggings-with-5-pockets-water-resistant-warm-thermal-pants-high-waisted-winter-running-gear-heather-light-grey-l-11-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-10-08T16:19:41.000Z"
-    },
-    {
       "title": "$4.74 w/ code Aegend Swim Goggles for Kids & Adult",
       "url": "https://slickdeals.net/f/20128761-4-74-w-code-aegend-swim-goggles-for-kids-adult?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -198,14 +190,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-10-01T16:07:43.000Z"
-    },
-    {
-      "title": "Wrangler Men's Brushed Performance Thermal Long Sleeve Base Layer Shirt (Dark Military Green or Naval Academy, M-2XL) $4.47 + Free Shipping w/ Walmart+ or on $35+",
-      "url": "https://slickdeals.net/f/20078997-wrangler-men-s-brushed-performance-thermal-long-sleeve-base-layer-shirt-dark-military-green-or-naval-academy-m-2xl-4-47-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-30T15:26:11.000Z"
     },
     {
       "title": "1-Pair Schwer 100% Waterproof Latex Coated Winter Work Gloves (Winter Orange, size M, L or XXL) $2.99 w/ S&S + Free Shipping w/ Prime or on $35+",
@@ -360,44 +344,12 @@
       "posted": "2026-09-16T14:30:08.000Z"
     },
     {
-      "title": "Aspen Snowmass (Aspen Mountain, Highlands, Buttermilk & Snowmass) 80th Anniversary Ski Lift Tickets $80 on Dec 12 & 13; $3.75 on Dec 14 Only *Limited Quantity*",
-      "url": "https://slickdeals.net/f/20013729-aspen-snowmass-aspen-mountain-highlands-buttermilk-snowmass-80th-anniversary-ski-lift-tickets-80-on-dec-12-13-3-75-on-dec-14-only-limited-quantity?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "skis",
-      "posted": "2026-09-14T16:20:44.000Z"
-    },
-    {
-      "title": "CAMEL CROWN Men's Waterproof Ski Jacket w/ Detachable Hood & Fleece Lining (various) $24.99 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/20013708-camel-crown-men-s-waterproof-ski-jacket-w-detachable-hood-fleece-lining-various-24-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-09-14T16:19:13.000Z"
-    },
-    {
-      "title": "QALLY Kids Swim Goggles, 3 Pack Swimming Goggles for Kids 4-16 $12.49",
-      "url": "https://slickdeals.net/f/20013492-qally-kids-swim-goggles-3-pack-swimming-goggles-for-kids-4-16-12-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-14T15:51:13.000Z"
-    },
-    {
-      "title": "Freela Kids Swim Goggles, 2 Packs Swimming Goggles for Kids 3-14, Anti Fog UV Protection No Leaking $5.99",
-      "url": "https://slickdeals.net/f/20012619-freela-kids-swim-goggles-2-packs-swimming-goggles-for-kids-3-14-anti-fog-uv-protection-no-leaking-5-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-14T13:27:00.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     },
     {
@@ -406,7 +358,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     },
     {
@@ -415,7 +367,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     },
     {
@@ -424,7 +376,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     },
     {
@@ -433,7 +385,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     },
     {
@@ -442,7 +394,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     },
     {
@@ -451,7 +403,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     },
     {
@@ -460,7 +412,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     },
     {
@@ -469,7 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-14T11:00:38.826Z",
+      "posted": "2026-10-14T17:11:58.683Z",
       "isAmazonSearch": true
     }
   ]
