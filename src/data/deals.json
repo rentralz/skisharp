@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-13T19:18:17.141Z",
-  "totalDeals": 54,
+  "lastScanned": "2026-10-14T11:00:38.828Z",
+  "totalDeals": 57,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 104,
+    "slickdeals": 107,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Ekouaer Womens Thermal Long Sleeve Crewneck Top Soft Base Layer Everyday Comfort Thermal Shirt $12.99",
+      "url": "https://slickdeals.net/f/20155569-ekouaer-womens-thermal-long-sleeve-crewneck-top-soft-base-layer-everyday-comfort-thermal-shirt-12-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-14T03:10:35.000Z"
+    },
     {
       "title": "Amazon – Thermal Underwear for Men - Fleece Lined Base Layer Long Johns Set - $14.99 w/ Code",
       "url": "https://slickdeals.net/f/20152755-amazon-thermal-underwear-for-men-fleece-lined-base-layer-long-johns-set-14-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -16,12 +24,36 @@
       "posted": "2026-10-13T15:14:11.000Z"
     },
     {
+      "title": "MOERDENG Women's Softshell Waterproof Winter Jacket w/ Detachable Hood and Multiple Zipper Pockets (Various, Sizes S-L) from $16.19 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20152701-moerdeng-women-s-softshell-waterproof-winter-jacket-w-detachable-hood-and-multiple-zipper-pockets-various-sizes-s-l-from-16-19-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-10-13T15:06:46.000Z"
+    },
+    {
+      "title": "Momcozy Universal Stroller Gloves, Plush Weatherproof Winter Handmuffs $24.99 + Free Shipping",
+      "url": "https://slickdeals.net/f/20152254-momcozy-universal-stroller-gloves-plush-weatherproof-winter-handmuffs-24-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-13T14:17:40.000Z"
+    },
+    {
       "title": "Thermal Underwear for Men Long Johns Set Winter Base Layer Top and Bottom $9.99",
       "url": "https://slickdeals.net/f/20152224-thermal-underwear-for-men-long-johns-set-winter-base-layer-top-and-bottom-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-13T14:14:16.000Z"
+    },
+    {
+      "title": "Outdoor Faucet Covers for Winter, Actgan 8.3\"H x 6\"W Thickened Outside Garden Faucet Socks for Freeze Protection, Reusable Insulated Faucet Covers, 2 Pack, Black $4.50 AC",
+      "url": "https://slickdeals.net/f/20148687-outdoor-faucet-covers-for-winter-actgan-8-3-h-x-6-w-thickened-outside-garden-faucet-socks-for-freeze-protection-reusable-insulated-faucet-covers-2-pack-black-4-50-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "socks",
+      "posted": "2026-10-12T21:04:09.000Z"
     },
     {
       "title": "Dragon Alliance Snow Goggles (various styles/colors) from $18 + Free Shipping",
@@ -304,14 +336,6 @@
       "posted": "2026-09-17T19:29:33.000Z"
     },
     {
-      "title": "Pixel Panda 3M Winter Waterproof Snow Gloves $8.99 AC",
-      "url": "https://slickdeals.net/f/20028132-pixel-panda-3m-winter-waterproof-snow-gloves-8-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-09-17T14:47:04.000Z"
-    },
-    {
       "title": "Outdoor Faucet Covers for Winter, Outside Garden Faucet Socks for Freeze Protection, 2 Pack, Black $4",
       "url": "https://slickdeals.net/f/20025996-outdoor-faucet-covers-for-winter-outside-garden-faucet-socks-for-freeze-protection-2-pack-black-4?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -373,7 +397,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     },
     {
@@ -382,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     },
     {
@@ -391,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     },
     {
@@ -400,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     },
     {
@@ -409,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     },
     {
@@ -418,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     },
     {
@@ -427,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     },
     {
@@ -436,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     },
     {
@@ -445,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-13T19:18:17.138Z",
+      "posted": "2026-10-14T11:00:38.826Z",
       "isAmazonSearch": true
     }
   ]
