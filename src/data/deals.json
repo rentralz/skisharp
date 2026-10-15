@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-15T11:00:45.949Z",
-  "totalDeals": 53,
+  "lastScanned": "2026-10-15T17:02:35.370Z",
+  "totalDeals": 55,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 105,
+    "slickdeals": 107,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "No Boundaries Mens Knit Ski Mask, One Size, Green - $3.64",
+      "url": "https://slickdeals.net/f/20163084-no-boundaries-mens-knit-ski-mask-one-size-green-3-64?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-10-15T14:52:15.000Z"
+    },
+    {
+      "title": "No Boundaries Mens Knit Ski Mask $2.79 + Free S&H w/ Walmart+ or $35+",
+      "url": "https://slickdeals.net/f/20162430-no-boundaries-mens-knit-ski-mask-2-79-free-s-h-w-walmart-or-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-10-15T12:31:38.000Z"
+    },
     {
       "title": "VISIOGEAR 4K Night Vision Goggles for Adults, AI Color Boost Mode, Night Vision Binoculars with 40MP Photos & Video Recording $38.99",
       "url": "https://slickdeals.net/f/20159301-visiogear-4k-night-vision-goggles-for-adults-ai-color-boost-mode-night-vision-binoculars-with-40mp-photos-video-recording-38-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -365,7 +381,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     },
     {
@@ -374,7 +390,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     },
     {
@@ -383,7 +399,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     },
     {
@@ -392,7 +408,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     },
     {
@@ -401,7 +417,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     },
     {
@@ -410,7 +426,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     },
     {
@@ -419,7 +435,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     },
     {
@@ -428,7 +444,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     },
     {
@@ -437,7 +453,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-15T11:00:45.946Z",
+      "posted": "2026-10-15T17:02:35.368Z",
       "isAmazonSearch": true
     }
   ]
