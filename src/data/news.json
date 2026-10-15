@@ -1,13 +1,163 @@
 {
-  "lastScanned": "2026-10-14T17:11:59.618Z",
+  "lastScanned": "2026-10-15T11:00:46.897Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
     "SnowBrains": 15,
     "Unofficial Networks": 15,
-    "Storm Skiing Journal": 11
+    "Storm Skiing Journal": 12
   },
   "items": [
+    {
+      "title": "Why a New Ski Lift at Whistler Blackcomb Looks Like It's Floating in Space",
+      "url": "https://www.powder.com/news/whistler-blackcomb-floating-lift",
+      "source": "POWDER",
+      "published": "2026-10-15T10:18:00.000Z"
+    },
+    {
+      "title": "British Columbia’s Newest Cat Ski Operator is All About The Flow State",
+      "url": "https://snowbrains.com/flowline-british-columbia-newest-cat-ski-operator/",
+      "source": "SnowBrains",
+      "published": "2026-10-15T08:58:48.000Z"
+    },
+    {
+      "title": "The Race to Open Is On as Loveland, CO, Fires Up Snowguns",
+      "url": "https://snowbrains.com/loveland-ski-area-starts-snowmaking-2026/",
+      "source": "SnowBrains",
+      "published": "2026-10-15T07:50:44.000Z"
+    },
+    {
+      "title": "Beloved French Resort L’Alpe du Grand Serre Avoids Closure With S.A.T.A. Lease",
+      "url": "https://snowbrains.com/beloved-french-resort-lalpe-du-grand-serre-avoids-closure-with-s-a-t-a-lease/",
+      "source": "SnowBrains",
+      "published": "2026-10-15T07:24:27.000Z"
+    },
+    {
+      "title": "[PHOTOS] Arizona Snowbowl Fires Up Snowguns Ahead of November Opening",
+      "url": "https://snowbrains.com/arizona-snowbowl-starts-snowmaking-october-2026/",
+      "source": "SnowBrains",
+      "published": "2026-10-15T06:35:05.000Z"
+    },
+    {
+      "title": "You Can Ski Free Every Sunday This Winter at Colorado’s Historic Howelsen Hill",
+      "url": "https://snowbrains.com/free-skiing-sundays-howelsen-hill/",
+      "source": "SnowBrains",
+      "published": "2026-10-15T06:07:47.000Z"
+    },
+    {
+      "title": "Alta, UT, Report: “How Much Did It Actually Snow?” | Dispelling the Misinformation in Little Cottonwood Canyon",
+      "url": "https://snowbrains.com/alta-ut-report-how-much-did-it-actually-snow-dispelling-the-misinformation-in-little-cottonwood-canyon/",
+      "source": "SnowBrains",
+      "published": "2026-10-15T03:25:09.000Z"
+    },
+    {
+      "title": "FIS Skiers And Snowboarders To Compete Inside A Dubai Mall",
+      "url": "https://unofficialnetworks.com/2026/10/14/ski-snowboard-competition-dubai-shopping-mall/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-15T01:01:29.000Z"
+    },
+    {
+      "title": "Jackson Hole Mountain Resort, WY, To Host 4th Annual Ski in Jeans Day with $35 Tickets",
+      "url": "https://snowbrains.com/jackson-hole-ski-in-jeans-day-december-events-2/",
+      "source": "SnowBrains",
+      "published": "2026-10-15T00:57:59.000Z"
+    },
+    {
+      "title": "Deer Valley Is Getting Bigger. Again.",
+      "url": "https://www.skimag.com/ski-resort-life/northern-rockies/deer-valley-is-getting-bigger-again/",
+      "source": "SKI Magazine",
+      "published": "2026-10-15T00:08:16.000Z"
+    },
+    {
+      "title": "The Storm 10/14/2026: Purgatory CEO Dave Rathbun on Expansion, Snowmaking, $9 Lift Tickets",
+      "url": "https://www.stormskiing.com/p/the-storm-10142026-purgatory-ceo",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-14T22:33:13.000Z"
+    },
+    {
+      "title": "[PHOTOS] Silverton Mountain, CO, Guides Score October Powder — Again",
+      "url": "https://snowbrains.com/silverton-october-snowfall-2026/",
+      "source": "SnowBrains",
+      "published": "2026-10-14T22:23:19.000Z"
+    },
+    {
+      "title": "Oasis Officially Launches Proxy Fight to Win 4 Board Seats at Vail Resorts",
+      "url": "https://snowbrains.com/oasis-officially-launches-proxy-fight-to-win-4-board-seats-at-vail-resorts/",
+      "source": "SnowBrains",
+      "published": "2026-10-14T21:55:51.000Z"
+    },
+    {
+      "title": "K-1 Gondola at Killington, VT, Will Undergo Significant Upgrades Next Summer",
+      "url": "https://snowbrains.com/killington-k-1-gondola-upgrade/",
+      "source": "SnowBrains",
+      "published": "2026-10-14T21:44:33.000Z"
+    },
+    {
+      "title": "The Experts At Doppelmayr Explain The Secrets Behind Haul Rope Splicing",
+      "url": "https://unofficialnetworks.com/2026/10/14/how-chairlift-cable-is-spliced/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-14T21:17:17.000Z"
+    },
+    {
+      "title": "The Best Women’s Ski Pants and Bibs of 2027",
+      "url": "https://www.skimag.com/gear/ski-apparel/pants/best-womens-ski-pants/",
+      "source": "SKI Magazine",
+      "published": "2026-10-14T20:21:05.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Canterbury Leads a Windy Spring Storm in New Zealand",
+      "url": "https://snowbrains.com/snowbrains-forecast-canterbury-leads-a-windy-spring-storm-in-new-zealand/",
+      "source": "SnowBrains",
+      "published": "2026-10-14T20:04:24.000Z"
+    },
+    {
+      "title": "Snow Has Arrived at Silverton Mountain, Colorado and Skiers Are Making Powder Turns",
+      "url": "https://www.powder.com/news/snow-silverton-mountain-october-2026",
+      "source": "POWDER",
+      "published": "2026-10-14T19:55:46.000Z"
+    },
+    {
+      "title": "Combat Veteran Creates Protective Ski Baselayer After Nearly Puncturing A Lung On The Slopes",
+      "url": "https://unofficialnetworks.com/2026/10/14/argopelt-ski-base-layer-body-protection/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-14T19:26:48.000Z"
+    },
+    {
+      "title": "Arizona Snowbowl Fires Up Snowmaking as Temps Drop and El Niño Approaches",
+      "url": "https://www.powder.com/news/arizona-snowbowl-fires-up-snowmaking",
+      "source": "POWDER",
+      "published": "2026-10-14T18:57:19.000Z"
+    },
+    {
+      "title": "Alta Ski Area Adds Pricey Fines for Skiers Who No-Show Parking Reservations",
+      "url": "https://www.powder.com/news/alta-ski-area-parking-reservation-no-show-fines",
+      "source": "POWDER",
+      "published": "2026-10-14T18:21:59.000Z"
+    },
+    {
+      "title": "The Best All-Mountain Skis of 2027",
+      "url": "https://www.powder.com/gear/the-best-all-mountain-skis-of-2027",
+      "source": "POWDER",
+      "published": "2026-10-14T17:55:40.000Z"
+    },
+    {
+      "title": "Snowmaking Is Officially Underway At This Arizona Ski Resort",
+      "url": "https://unofficialnetworks.com/2026/10/14/arizona-snowbowl-snowmaking-begins/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-14T17:55:21.000Z"
+    },
+    {
+      "title": "Snowbird Isn’t Open Yet, But Ski Season Has Already Started For This Skier",
+      "url": "https://unofficialnetworks.com/2026/10/14/ski-season-snowbird-early-tearns/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-14T17:47:46.000Z"
+    },
+    {
+      "title": "Stunning Photos Show Alta Ski Area's First Major Snowfall of the Season",
+      "url": "https://www.powder.com/news/stunning-photos-alta-first-snow-foliage",
+      "source": "POWDER",
+      "published": "2026-10-14T17:16:40.000Z"
+    },
     {
       "title": "Japan Ski Tours Launches 8-Day Women’s Indy Pass Powder Retreat for 2027",
       "url": "https://unofficialnetworks.com/2026/10/14/japan-ski-tours-womens-retreat/",
@@ -111,58 +261,16 @@
       "published": "2026-10-14T02:03:26.000Z"
     },
     {
-      "title": "[PHOTOS] Mammoth Mountain, CA, Gets Fresh Dusting of Snow as Opening Day Nears",
-      "url": "https://snowbrains.com/mammoth-mountain-ca-gets-fresh-dusting-of-snow/",
-      "source": "SnowBrains",
-      "published": "2026-10-14T01:53:59.000Z"
-    },
-    {
       "title": "The 8 Best Ski Gear Deals We Found in Evo’s Anniversary Sale",
       "url": "https://www.skimag.com/gear/evo-anniversary-sale-2026/",
       "source": "SKI Magazine",
       "published": "2026-10-13T22:35:39.000Z"
     },
     {
-      "title": "Looking Into the Past, Present, & Future of Timberline Lodge with Its President Jeff Kohnstamm | SnowBrains Podcast Ep. 107",
-      "url": "https://snowbrains.com/snowbrains-podcast-timberline-lodge/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T22:00:37.000Z"
-    },
-    {
-      "title": "Zermatt, Switzerland, Could Potentially Host World Cup Downhill in 2028",
-      "url": "https://snowbrains.com/zermatt-switzerland-could-potentially-host-world-cup-downhill-in-2028/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T21:44:45.000Z"
-    },
-    {
-      "title": "Zermatt is Scheduled to Reopen on Wednesday, October 14",
-      "url": "https://snowbrains.com/zermatt-is-scheduled-to-reopen-on-wednesday-october-14/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T21:33:38.000Z"
-    },
-    {
-      "title": "Freeride World Tour Releases 2027 Roster",
-      "url": "https://snowbrains.com/freeride-world-tour-releases-2027-roster/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T21:27:08.000Z"
-    },
-    {
-      "title": "When Will it Snow on the East Coast? Here are Record First Snowfalls, State by State",
-      "url": "https://snowbrains.com/earliest-snowfall-east-coast-records-by-state/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T21:13:53.000Z"
-    },
-    {
       "title": "Colorado Ski Season Could Start This Month, Here’s When Resorts Plan To Open",
       "url": "https://unofficialnetworks.com/2026/10/13/colorado-ski-resort-opening-dates/",
       "source": "Unofficial Networks",
       "published": "2026-10-13T21:13:10.000Z"
-    },
-    {
-      "title": "Italian Skier Giovanni Franzoni Joins Red Bull",
-      "url": "https://snowbrains.com/italian-skier-giovanni-franzoni-joins-red-bull/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T21:00:14.000Z"
     },
     {
       "title": "9 Resorts Where Kids 12 and Under Ski for Free",
@@ -189,12 +297,6 @@
       "published": "2026-10-13T18:26:48.000Z"
     },
     {
-      "title": "SnowBrains 2026-27 Ski Season Forecast, Region by Region: El Niño Favors the High Sierra Over the Northern Rockies",
-      "url": "https://snowbrains.com/2026-27-ski-season-forecast/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T18:19:07.000Z"
-    },
-    {
       "title": "The Storm 10/13/2026: Cloudflare CEO Matthew Prince Thinks Vail Should Sell Him Park City",
       "url": "https://www.stormskiing.com/p/the-storm-10132026-cloudflare-ceo",
       "source": "Storm Skiing Journal",
@@ -207,12 +309,6 @@
       "published": "2026-10-13T17:59:15.000Z"
     },
     {
-      "title": "Jackson Hole’s Ski in Jeans Day Is Back With $35 Lift Tickets",
-      "url": "https://unofficialnetworks.com/2026/10/13/jackson-holes-ski-in-jeans-day-is-back-with-35-lift-tickets/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-13T17:52:30.000Z"
-    },
-    {
       "title": "Widespread Winter Storm Brings First Snowfall to Colorado's Ski Resorts",
       "url": "https://www.powder.com/news/widespread-winter-storm-first-snow-colorado-resorts",
       "source": "POWDER",
@@ -223,84 +319,6 @@
       "url": "https://www.powder.com/news/ski-in-jeans-day-jackson-hole-2026",
       "source": "POWDER",
       "published": "2026-10-13T17:24:51.000Z"
-    },
-    {
-      "title": "The 5 Biggest Unwritten Rules of Ski Lifts, According to Skiers",
-      "url": "https://unofficialnetworks.com/2026/10/13/unwritten-rules-of-ski-lifts/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-13T17:09:03.000Z"
-    },
-    {
-      "title": "Utah Ski Resorts Are Making Major Changes Ahead Of The 2034 Winter Olympics",
-      "url": "https://unofficialnetworks.com/2026/10/13/utah-ski-resort-upgrades-2034-winter-olympics/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-13T16:22:51.000Z"
-    },
-    {
-      "title": "VIDEO ROUNDUP: Montana Skiers Take Advantage Of Massive October Snowstorm",
-      "url": "https://unofficialnetworks.com/2026/10/13/montana-skiing-and-snowboarding-october/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-13T16:19:44.000Z"
-    },
-    {
-      "title": "Keystone Has Lift Tickets On Sale For Next Saturday, October 24th",
-      "url": "https://unofficialnetworks.com/2026/10/13/keystone-lift-tickets-on-sale/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-13T15:42:40.000Z"
-    },
-    {
-      "title": "[VIDEOS] Skiers Score Early-Season Powder in Montana After October Storm",
-      "url": "https://snowbrains.com/montana-snowstorm-powder-bridger-bowl-showdown/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T13:48:55.000Z"
-    },
-    {
-      "title": "They May Not Be Convenient, but These Are the Skis You Want on the Best Day of the Season",
-      "url": "https://www.powder.com/gear/nordica-unleashed-120-skis-review-2027",
-      "source": "POWDER",
-      "published": "2026-10-13T13:41:00.000Z"
-    },
-    {
-      "title": "2027 Women's Ski Buying Guide",
-      "url": "https://www.powder.com/gear/womens-ski-buying-guide-2027",
-      "source": "POWDER",
-      "published": "2026-10-13T12:19:00.000Z"
-    },
-    {
-      "title": "Review: 2027 Völkl Revolt 101",
-      "url": "https://www.powder.com/gear/volkl-revolt-101-skis-review-2027",
-      "source": "POWDER",
-      "published": "2026-10-13T11:56:00.000Z"
-    },
-    {
-      "title": "Skiing's Most Iconic Accessory Gets An Update",
-      "url": "https://www.powder.com/gear/skiings-most-iconic-accessory-voile-strap",
-      "source": "POWDER",
-      "published": "2026-10-13T11:53:00.000Z"
-    },
-    {
-      "title": "Is Keystone, CO, Opening Day Next Week? Lift Tickets Go on Sale for October 24",
-      "url": "https://snowbrains.com/keystone-opening-day-lift-tickets/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T11:49:25.000Z"
-    },
-    {
-      "title": "Daring Skiers Take Snowless Skiing To New Heights With Absurd Stunt Reel",
-      "url": "https://www.powder.com/news/bpc-snowless-skiing-to-new-heights",
-      "source": "POWDER",
-      "published": "2026-10-13T10:38:00.000Z"
-    },
-    {
-      "title": "Snowmaking Is Underway at Mt. Rose as Tahoe's Earliest Opening Approaches",
-      "url": "https://www.powder.com/news/snowmaking-underway-mt-rose-ski-tahoe",
-      "source": "POWDER",
-      "published": "2026-10-13T09:47:00.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Another Foot Possible in Utah’s Cottonwoods",
-      "url": "https://snowbrains.com/snowbrains-forecast-another-foot-possible-in-utahs-cottonwoods/",
-      "source": "SnowBrains",
-      "published": "2026-10-13T02:03:46.000Z"
     },
     {
       "title": "Where Experts Say Early-Season Skiing Could Be Best During the 2026–’27 El Niño",
@@ -333,18 +351,6 @@
       "published": "2026-10-09T09:00:28.000Z"
     },
     {
-      "title": "We Got a Sneak Peek at Halfdays’ New Gore-Tex Collection for Women. Here’s What We Didn’t Expect.",
-      "url": "https://www.skimag.com/gear/halfdays-gore-tex-collection-testing-review/",
-      "source": "SKI Magazine",
-      "published": "2026-10-09T02:04:27.000Z"
-    },
-    {
-      "title": "Think Skiing Is Hard? How About Adding Some Horsepower. We Sat Down With Skijor Canada’s Founder to Learn More About This Epic Sport.",
-      "url": "https://www.skimag.com/videos/warren-miller-feature-films/skijor-canada-banff/",
-      "source": "SKI Magazine",
-      "published": "2026-10-08T17:58:11.000Z"
-    },
-    {
       "title": "Loon Follows Post-Expansion Expansion Plan with Another Expansion Plan",
       "url": "https://www.stormskiing.com/p/loon-follows-post-expansion-expansion",
       "source": "Storm Skiing Journal",
@@ -361,12 +367,6 @@
       "url": "https://www.stormskiing.com/p/storm-news-9282026-alterra-appoints",
       "source": "Storm Skiing Journal",
       "published": "2026-10-05T17:51:59.000Z"
-    },
-    {
-      "title": "Storm Skiing 10/3/2026: Holiday Valley’s Chairlift Diaspora with GM Dennis Eshbaugh",
-      "url": "https://www.stormskiing.com/p/storm-skiing-1032026-holiday-valleys",
-      "source": "Storm Skiing Journal",
-      "published": "2026-10-03T23:02:59.000Z"
     }
   ]
 }

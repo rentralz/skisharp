@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-14T17:11:59.726Z",
+  "updated": "2026-10-15T11:00:47.060Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-14",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-17"
   ],
   "resorts": [
     {
@@ -13,44 +13,44 @@
       "region": "Utah",
       "elevationM": 2987,
       "daily": [
-        1.4,
+        0,
         0,
         0
       ],
-      "next3": 1.4
+      "next3": 0
     },
     {
       "name": "Park City",
       "region": "Utah",
       "elevationM": 2743,
       "daily": [
-        0.4,
+        0,
         0,
         0
       ],
-      "next3": 0.4
+      "next3": 0
     },
     {
       "name": "Vail",
       "region": "Colorado",
       "elevationM": 3005,
       "daily": [
-        1.7,
-        1.7,
+        1.6,
+        0,
         0
       ],
-      "next3": 3.4
+      "next3": 1.6
     },
     {
       "name": "Breckenridge",
       "region": "Colorado",
       "elevationM": 3291,
       "daily": [
-        2.2,
-        1.2,
+        0.5,
+        0,
         0
       ],
-      "next3": 3.4
+      "next3": 0.5
     },
     {
       "name": "Jackson Hole",
@@ -103,9 +103,9 @@
       "daily": [
         0,
         0,
-        0
+        0.1
       ],
-      "next3": 0
+      "next3": 0.1
     }
   ]
 }

@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-14T17:11:58.685Z",
-  "totalDeals": 51,
+  "lastScanned": "2026-10-15T11:00:45.949Z",
+  "totalDeals": 53,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 104,
+    "slickdeals": 105,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "VISIOGEAR 4K Night Vision Goggles for Adults, AI Color Boost Mode, Night Vision Binoculars with 40MP Photos & Video Recording $38.99",
+      "url": "https://slickdeals.net/f/20159301-visiogear-4k-night-vision-goggles-for-adults-ai-color-boost-mode-night-vision-binoculars-with-40mp-photos-video-recording-38-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-14T17:58:46.000Z"
+    },
     {
       "title": "Ekouaer Womens Thermal Long Sleeve Crewneck Top Soft Base Layer Everyday Comfort Thermal Shirt $12.99",
       "url": "https://slickdeals.net/f/20155569-ekouaer-womens-thermal-long-sleeve-crewneck-top-soft-base-layer-everyday-comfort-thermal-shirt-12-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +22,14 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-14T03:10:35.000Z"
+    },
+    {
+      "title": "3-Pack Ekouaer Women's Long Sleeve Crew Neck Thermal Tops w/ Thumb Hole (Various Color Sets) $15 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20154585-3-pack-ekouaer-women-s-long-sleeve-crew-neck-thermal-tops-w-thumb-hole-various-color-sets-15-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-13T21:48:00.000Z"
     },
     {
       "title": "Amazon – Thermal Underwear for Men - Fleece Lined Base Layer Long Johns Set - $14.99 w/ Code",
@@ -30,6 +46,22 @@
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-10-13T15:06:46.000Z"
+    },
+    {
+      "title": "Amazon – RIGWARL Waterproof Winter Gloves for Women Men with 3M Thinsulate - $8.39–$9.59 w/ Code",
+      "url": "https://slickdeals.net/f/20152506-amazon-rigwarl-waterproof-winter-gloves-for-women-men-with-3m-thinsulate-8-39-9-59-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-13T14:49:17.000Z"
+    },
+    {
+      "title": "Amazon – RIGWARL Winter Running Gloves for Men Women - $8.63–$9.59 w/ Code",
+      "url": "https://slickdeals.net/f/20152503-amazon-rigwarl-winter-running-gloves-for-men-women-8-63-9-59-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-13T14:48:04.000Z"
     },
     {
       "title": "Momcozy Universal Stroller Gloves, Plush Weatherproof Winter Handmuffs $24.99 + Free Shipping",
@@ -168,14 +200,6 @@
       "posted": "2026-10-03T01:58:56.000Z"
     },
     {
-      "title": "tasc Performance Men's Elevation Merino Long Sleeve Base Layer T-Shirt (Jade) $24.99 at REI w/ Free Store Pickup",
-      "url": "https://slickdeals.net/f/20090823-tasc-performance-men-s-elevation-merino-long-sleeve-base-layer-t-shirt-jade-24-99-at-rei-w-free-store-pickup?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-03T00:38:55.000Z"
-    },
-    {
       "title": "3-Pairs Schwer 3/4 Double-Dipped Coating Winter Work Gloves $6.59 w/ S&S + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20084619-3-pairs-schwer-3-4-double-dipped-coating-winter-work-gloves-6-59-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -246,14 +270,6 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-09-24T14:50:32.000Z"
-    },
-    {
-      "title": "Amazon – Pixel Panda Winter Waterproof Thermal Gloves for Men Women, 3M Thinsulate - $8.99 w/ Code",
-      "url": "https://slickdeals.net/f/20053431-amazon-pixel-panda-winter-waterproof-thermal-gloves-for-men-women-3m-thinsulate-8-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-23T15:07:36.000Z"
     },
     {
       "title": "Amazon - 2 Pack Swim Goggles for Kids 3-14 Anti-Fog & UV Wide View Boys Girls - $5.49",
@@ -349,7 +365,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     },
     {
@@ -358,7 +374,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     },
     {
@@ -367,7 +383,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     },
     {
@@ -376,7 +392,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     },
     {
@@ -385,7 +401,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     },
     {
@@ -394,7 +410,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     },
     {
@@ -403,7 +419,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     },
     {
@@ -412,7 +428,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     },
     {
@@ -421,7 +437,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-14T17:11:58.683Z",
+      "posted": "2026-10-15T11:00:45.946Z",
       "isAmazonSearch": true
     }
   ]
