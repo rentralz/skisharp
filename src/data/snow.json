@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-15T17:02:36.161Z",
+  "updated": "2026-10-16T11:00:43.903Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-15",
     "2026-10-16",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18"
   ],
   "resorts": [
     {
@@ -35,22 +35,22 @@
       "region": "Colorado",
       "elevationM": 3005,
       "daily": [
-        0.7,
+        0,
         0,
         0
       ],
-      "next3": 0.7
+      "next3": 0
     },
     {
       "name": "Breckenridge",
       "region": "Colorado",
       "elevationM": 3291,
       "daily": [
-        0.2,
+        0,
         0,
         0
       ],
-      "next3": 0.2
+      "next3": 0
     },
     {
       "name": "Jackson Hole",
@@ -103,9 +103,9 @@
       "daily": [
         0,
         0,
-        0.1
+        0
       ],
-      "next3": 0.1
+      "next3": 0
     }
   ]
 }

@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-15T17:02:35.370Z",
-  "totalDeals": 55,
+  "lastScanned": "2026-10-16T11:00:43.140Z",
+  "totalDeals": 57,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 107,
+    "slickdeals": 108,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Japan Airlines Discount Code For $50 or $200 Off Airfares From USA to Hokkaido For Ski Season - Book by November 14, 2026",
+      "url": "https://slickdeals.net/f/20164338-japan-airlines-discount-code-for-50-or-200-off-airfares-from-usa-to-hokkaido-for-ski-season-book-by-november-14-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "skis",
+      "posted": "2026-10-15T18:54:50.000Z"
+    },
+    {
+      "title": "Amazon – Pixel Panda 3M Thinsulate Winter Gloves - $7.79–$8.39 w/ Code",
+      "url": "https://slickdeals.net/f/20163687-amazon-pixel-panda-3m-thinsulate-winter-gloves-7-79-8-39-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-15T16:40:38.000Z"
+    },
     {
       "title": "No Boundaries Mens Knit Ski Mask, One Size, Green - $3.64",
       "url": "https://slickdeals.net/f/20163084-no-boundaries-mens-knit-ski-mask-one-size-green-3-64?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -381,7 +397,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     },
     {
@@ -390,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     },
     {
@@ -399,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     },
     {
@@ -408,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     },
     {
@@ -417,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     },
     {
@@ -426,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     },
     {
@@ -435,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     },
     {
@@ -444,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     },
     {
@@ -453,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-15T17:02:35.368Z",
+      "posted": "2026-10-16T11:00:43.137Z",
       "isAmazonSearch": true
     }
   ]
