@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-16T11:00:43.140Z",
+  "lastScanned": "2026-10-16T16:40:50.187Z",
   "totalDeals": 57,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 108,
+    "slickdeals": 109,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Amazon - Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 - $11.99",
+      "url": "https://slickdeals.net/f/20167731-amazon-freela-kids-ski-goggles-snowboard-snow-anti-fog-youth-toddler-for-3-14-11-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-16T14:43:28.000Z"
+    },
     {
       "title": "Japan Airlines Discount Code For $50 or $200 Off Airfares From USA to Hokkaido For Ski Season - Book by November 14, 2026",
       "url": "https://slickdeals.net/f/20164338-japan-airlines-discount-code-for-50-or-200-off-airfares-from-usa-to-hokkaido-for-ski-season-book-by-november-14-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -384,29 +392,12 @@
       "posted": "2026-09-16T20:19:46.000Z"
     },
     {
-      "title": "Two pack Swim Goggles for Kids, $4.67 w/ code",
-      "url": "https://slickdeals.net/f/20022912-two-pack-swim-goggles-for-kids-4-67-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-16T14:30:08.000Z"
-    },
-    {
-      "title": "🔍 Ski Jackets on Sale",
-      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "jackets",
-      "posted": "2026-10-16T11:00:43.137Z",
-      "isAmazonSearch": true
-    },
-    {
       "title": "🔍 Ski Pants Clearance",
       "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-16T11:00:43.137Z",
+      "posted": "2026-10-16T16:40:50.186Z",
       "isAmazonSearch": true
     },
     {
@@ -415,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-16T11:00:43.137Z",
+      "posted": "2026-10-16T16:40:50.186Z",
       "isAmazonSearch": true
     },
     {
@@ -424,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-16T11:00:43.137Z",
+      "posted": "2026-10-16T16:40:50.186Z",
       "isAmazonSearch": true
     },
     {
@@ -433,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-16T11:00:43.137Z",
+      "posted": "2026-10-16T16:40:50.186Z",
       "isAmazonSearch": true
     },
     {
@@ -442,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-16T11:00:43.137Z",
+      "posted": "2026-10-16T16:40:50.186Z",
       "isAmazonSearch": true
     },
     {
@@ -451,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-16T11:00:43.137Z",
+      "posted": "2026-10-16T16:40:50.186Z",
       "isAmazonSearch": true
     },
     {
@@ -460,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-16T11:00:43.137Z",
+      "posted": "2026-10-16T16:40:50.186Z",
       "isAmazonSearch": true
     },
     {
@@ -469,7 +460,16 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-16T11:00:43.137Z",
+      "posted": "2026-10-16T16:40:50.186Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Jackets on Sale",
+      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "jackets",
+      "posted": "2026-10-16T16:40:50.185Z",
       "isAmazonSearch": true
     }
   ]
