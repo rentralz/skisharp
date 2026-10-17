@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-16T16:40:51.062Z",
+  "updated": "2026-10-17T11:00:38.930Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-16",
     "2026-10-17",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-19"
   ],
   "resorts": [
     {
