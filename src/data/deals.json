@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-17T15:36:55.678Z",
-  "totalDeals": 58,
+  "lastScanned": "2026-10-18T11:00:37.606Z",
+  "totalDeals": 57,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 109,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Realtree Men's Grand Canyon 2-Piece Thermal Top & Pants Set (Black, M, XL & 2XL) $8.56 + Free Shipping w/ Walmart+",
+      "url": "https://slickdeals.net/f/20172252-realtree-men-s-grand-canyon-2-piece-thermal-top-pants-set-black-m-xl-2xl-8-56-free-shipping-w-walmart?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-10-17T17:54:58.000Z"
+    },
     {
       "title": "NSSIW Ski Goggles for Men Women Youth, OTG Snowboard Goggles Snow Goggles with Anti Fog and UV Protection Over Glasses 2 Pack​ $23.99 AC",
       "url": "https://slickdeals.net/f/20169327-nssiw-ski-goggles-for-men-women-youth-otg-snowboard-goggles-snow-goggles-with-anti-fog-and-uv-protection-over-glasses-2-pack-23-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -248,14 +256,6 @@
       "posted": "2026-10-07T05:11:23.000Z"
     },
     {
-      "title": "Women's Fleece Lined Leggings Thermal Warm Winter Leggings High Waisted Tummy Control Jogger Yoga Pants with Pockets - $23.98",
-      "url": "https://slickdeals.net/f/20113563-women-s-fleece-lined-leggings-thermal-warm-winter-leggings-high-waisted-tummy-control-jogger-yoga-pants-with-pockets-23-98?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-10-06T15:22:17.000Z"
-    },
-    {
       "title": "WARMTUYO 4K Night Vision Goggles for Adults, Digital Binoculars with Camera $44.99",
       "url": "https://slickdeals.net/f/20093304-warmtuyo-4k-night-vision-goggles-for-adults-digital-binoculars-with-camera-44-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -392,20 +392,12 @@
       "posted": "2026-09-18T11:26:32.000Z"
     },
     {
-      "title": "CAMEL CROWN Men's Ski Snow Jacket Waterproof Winter Snow Coat Windproof Warm Fleece Lining Hooded Parka Rain Jacket Black/Grey L $22.99",
-      "url": "https://slickdeals.net/f/20029509-camel-crown-men-s-ski-snow-jacket-waterproof-winter-snow-coat-windproof-warm-fleece-lining-hooded-parka-rain-jacket-black-grey-l-22-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-09-17T19:29:33.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     },
     {
@@ -414,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     },
     {
@@ -423,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     },
     {
@@ -432,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     },
     {
@@ -441,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     },
     {
@@ -450,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     },
     {
@@ -459,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     },
     {
@@ -468,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     },
     {
@@ -477,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-17T15:36:55.677Z",
+      "posted": "2026-10-18T11:00:37.602Z",
       "isAmazonSearch": true
     }
   ]
