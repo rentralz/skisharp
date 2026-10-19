@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T11:00:41.261Z",
+  "updated": "2026-10-19T18:43:45.995Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -92,9 +92,9 @@
       "daily": [
         0,
         0,
-        0.7
+        0.2
       ],
-      "next3": 0.7
+      "next3": 0.2
     },
     {
       "name": "Killington",
