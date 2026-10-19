@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-18T15:53:21.291Z",
-  "totalDeals": 56,
+  "lastScanned": "2026-10-19T11:00:40.261Z",
+  "totalDeals": 54,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 109,
+    "slickdeals": 108,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Winter Gloves Touchscreen Windproof Thermal Gloves Men Women Cycling Running Climbing $11.29 - Amazon",
+      "url": "https://slickdeals.net/f/20174079-winter-gloves-touchscreen-windproof-thermal-gloves-men-women-cycling-running-climbing-11-29-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-18T09:47:51.000Z"
+    },
     {
       "title": "Realtree Men's Grand Canyon 2-Piece Thermal Top & Pants Set (Black, M, XL & 2XL) $8.56 + Free Shipping w/ Walmart+",
       "url": "https://slickdeals.net/f/20172252-realtree-men-s-grand-canyon-2-piece-thermal-top-pants-set-black-m-xl-2xl-8-56-free-shipping-w-walmart?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -288,14 +296,6 @@
       "posted": "2026-10-01T16:07:43.000Z"
     },
     {
-      "title": "1-Pair Schwer 100% Waterproof Latex Coated Winter Work Gloves (Winter Orange, size M, L or XXL) $2.99 w/ S&S + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/20072115-1-pair-schwer-100-waterproof-latex-coated-winter-work-gloves-winter-orange-size-m-l-or-xxl-2-99-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-09-28T22:11:33.000Z"
-    },
-    {
       "title": "Aegend Swim Goggles, Swimming Goggles No Leaking Full Protect Adult Youth $4.74",
       "url": "https://slickdeals.net/f/20069655-aegend-swim-goggles-swimming-goggles-no-leaking-full-protect-adult-youth-4-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -368,28 +368,12 @@
       "posted": "2026-09-21T13:18:24.000Z"
     },
     {
-      "title": "WISHBETY 4K Night Vision Goggles for Adult,5000mAh Night Vision Binoculars $44.99",
-      "url": "https://slickdeals.net/f/20034243-wishbety-4k-night-vision-goggles-for-adult-5000mah-night-vision-binoculars-44-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-18T19:57:42.000Z"
-    },
-    {
-      "title": "Amazon - 2-Pack Kids Swim Goggles with Nose Cover Anti-Shattered No-Leak 3-15 - $8.79",
-      "url": "https://slickdeals.net/f/20033355-amazon-2-pack-kids-swim-goggles-with-nose-cover-anti-shattered-no-leak-3-15-8-79?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-18T16:20:53.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     },
     {
@@ -398,7 +382,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     },
     {
@@ -407,7 +391,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     },
     {
@@ -416,7 +400,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     },
     {
@@ -425,7 +409,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     },
     {
@@ -434,7 +418,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     },
     {
@@ -443,7 +427,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     },
     {
@@ -452,7 +436,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     },
     {
@@ -461,7 +445,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-18T15:53:21.287Z",
+      "posted": "2026-10-19T11:00:40.259Z",
       "isAmazonSearch": true
     }
   ]
