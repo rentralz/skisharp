@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-10-19T18:43:45.833Z",
+  "lastScanned": "2026-10-20T11:00:36.975Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,66 @@
     "Storm Skiing Journal": 11
   },
   "items": [
+    {
+      "title": "Where Do I Find the Snow? Using Meteorological Data to Find Fresh Powder",
+      "url": "https://snowbrains.com/where-do-i-find-the-snow-using-meteorological-data-to-find-fresh-powder/",
+      "source": "SnowBrains",
+      "published": "2026-10-20T10:30:47.000Z"
+    },
+    {
+      "title": "The Story Behind POWDER Magazine's 2026/27 Cover",
+      "url": "https://www.powder.com/news/story-behind-powder-2026-27-cover",
+      "source": "POWDER",
+      "published": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "title": "Toggenburg Mountain, NY, Set to Reopen after Four-Year Battle in Court",
+      "url": "https://snowbrains.com/toggenburg-mountain-reopen-after-court-battle/",
+      "source": "SnowBrains",
+      "published": "2026-10-20T00:25:57.000Z"
+    },
+    {
+      "title": "$280 Million Transformation Coming To Vermont’s Largest Ski Resort",
+      "url": "https://unofficialnetworks.com/2026/10/19/killington-280-million-ski-resort-transformation/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-19T22:11:06.000Z"
+    },
+    {
+      "title": "Mendoza, Argentina, Report: Couloirs So Good It Should Have Been Criminal",
+      "url": "https://snowbrains.com/mendoza-argentina-report-couloirs-so-good-it-should-have-been-criminal/",
+      "source": "SnowBrains",
+      "published": "2026-10-19T21:51:32.000Z"
+    },
+    {
+      "title": "Retired American Cross-Country Skier Jessie Diggins Will Ski Wisconsin’s Famous Birkebeiner",
+      "url": "https://snowbrains.com/retired-american-cross-country-skier-jessie-diggins-will-ski-the-birkebeiner/",
+      "source": "SnowBrains",
+      "published": "2026-10-19T20:41:23.000Z"
+    },
+    {
+      "title": "Canadian Ski Racer Valérie Grenier Injures Knee During Training in Sölden, Austria",
+      "url": "https://snowbrains.com/canadian-ski-racer-valerie-grenier-injured-solden-2026/",
+      "source": "SnowBrains",
+      "published": "2026-10-19T20:25:28.000Z"
+    },
+    {
+      "title": "Kimberley Mountain Resort Makes Progress on New Quad Chairlift",
+      "url": "https://www.powder.com/news/kimberley-mountain-resort-new-quad-chairlift",
+      "source": "POWDER",
+      "published": "2026-10-19T20:15:03.000Z"
+    },
+    {
+      "title": "Storm News 10/19/2026: Toggenburg NY, Closed Since 2021, to Reopen Under New Ownership",
+      "url": "https://www.stormskiing.com/p/storm-news-10192026-toggenburg-ny",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-19T19:51:00.000Z"
+    },
+    {
+      "title": "Frequent FIS World Championships Ill-Received By International Ski Federations",
+      "url": "https://snowbrains.com/frequent-fis-world-championships-ill-received-by-ski-federations/",
+      "source": "SnowBrains",
+      "published": "2026-10-19T19:49:20.000Z"
+    },
     {
       "title": "Aleksander Aamodt Kilde Says He's \"Gutted\" After Achilles Rupture",
       "url": "https://www.powder.com/news/aleksander-aamodt-kilde-gutted-achilles-rupture",
@@ -81,7 +141,7 @@
       "published": "2026-10-19T15:12:07.000Z"
     },
     {
-      "title": "3 Dead After Avalanche Sweeps Backcountry Skiers Into Lagoon in Chile",
+      "title": "3 Dead After Avalanche Sweeps Backcountry Mountaineers Into Lagoon in Chile",
       "url": "https://www.skimag.com/news/chile-spring-avalanche-kills-three/",
       "source": "SKI Magazine",
       "published": "2026-10-19T14:56:46.000Z"
@@ -201,52 +261,10 @@
       "published": "2026-10-18T09:23:00.000Z"
     },
     {
-      "title": "Man Dies in Avalanche on Mount Dixon in New Zealand’s Aoraki/Mount Cook National Park",
-      "url": "https://snowbrains.com/man-dies-in-avalanche-on-mount-dixon-nz/",
-      "source": "SnowBrains",
-      "published": "2026-10-18T08:44:42.000Z"
-    },
-    {
-      "title": "Alta Ski Area, UT, Announces Changes to its Parking Policy for the 2026-27 Winter",
-      "url": "https://snowbrains.com/alta-ski-area-ut-announces-changes-to-its-parking-policy-for-the-2026-27-winter/",
-      "source": "SnowBrains",
-      "published": "2026-10-18T08:18:53.000Z"
-    },
-    {
-      "title": "80 Years of the Legend: Arapahoe Basin, CO, Celebrates 80th Anniversary This Season",
-      "url": "https://snowbrains.com/the-legend-arapahoe-basin-80th-season/",
-      "source": "SnowBrains",
-      "published": "2026-10-18T06:47:23.000Z"
-    },
-    {
-      "title": "3 Dead After Avalanche Strikes Near Ski Portillo in Chile",
-      "url": "https://snowbrains.com/3-dead-avalanche-strikes-near-ski-portillo-chile/",
-      "source": "SnowBrains",
-      "published": "2026-10-17T21:47:00.000Z"
-    },
-    {
-      "title": "French Company MND Reports Record Year as Remote Avalanche Control Systems Expand Worldwide",
-      "url": "https://snowbrains.com/mnd-reports-record-year-avalanche-control-system-sales/",
-      "source": "SnowBrains",
-      "published": "2026-10-17T20:22:57.000Z"
-    },
-    {
-      "title": "Killington’s Snowmaking Starts A Full Two Weeks Earlier Than Last Year",
-      "url": "https://snowbrains.com/killingtons-snowmaking-starts-a-full-two-weeks-earlier-than-last-year/",
-      "source": "SnowBrains",
-      "published": "2026-10-17T17:38:53.000Z"
-    },
-    {
       "title": "Maine Ski Resort Scraps Plans To Reuse Another Resort’s Chairlift In Favor of Brand-New Quad",
       "url": "https://unofficialnetworks.com/2026/10/17/sugarloaf-chairlift-replacement-update/",
       "source": "Unofficial Networks",
       "published": "2026-10-17T17:19:12.000Z"
-    },
-    {
-      "title": "What’s New At New Hampshire Ski Resorts For The 2026-27 Season",
-      "url": "https://unofficialnetworks.com/2026/10/17/new-hampshire-upgrades-2026/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-17T12:16:40.000Z"
     },
     {
       "title": "Nearing 60, This Skier and Filmmaker Still Drops Cliffs. Here's Why.",
@@ -315,18 +333,6 @@
       "published": "2026-10-16T12:21:03.000Z"
     },
     {
-      "title": "Whitefish To Open Two New Glades This Season Thanks To Wildfire Mitigation",
-      "url": "https://www.powder.com/news/whitefish-new-glades-wildfire-mitigation",
-      "source": "POWDER",
-      "published": "2026-10-16T10:22:00.000Z"
-    },
-    {
-      "title": "Ultralight Avalanche Shovel Maker Gets In Hot Water With Pro Athletes",
-      "url": "https://www.powder.com/gear/ultralight-avalanche-shovel-purepeak-statement",
-      "source": "POWDER",
-      "published": "2026-10-15T21:48:58.000Z"
-    },
-    {
       "title": "Storm Skiing 10/15/2026: Nub’s Nob GM Ben Doornbos on Lift Upgrades and Sticking With Indy Pass",
       "url": "https://www.stormskiing.com/p/storm-skiing-10152026-nubs-nob-gm",
       "source": "Storm Skiing Journal",
@@ -361,12 +367,6 @@
       "url": "https://www.stormskiing.com/p/loon-follows-post-expansion-expansion",
       "source": "Storm Skiing Journal",
       "published": "2026-10-06T21:07:44.000Z"
-    },
-    {
-      "title": "Storm Skiing 10/6/2026: Breaking Down Epic, Ikon, Indy, Mountain Collective with PeakRankings Founder Sam Weintraub",
-      "url": "https://www.stormskiing.com/p/storm-skiing-1062026-breaking-down",
-      "source": "Storm Skiing Journal",
-      "published": "2026-10-06T17:51:21.000Z"
     }
   ]
 }

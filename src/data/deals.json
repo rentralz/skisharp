@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-19T18:43:45.180Z",
-  "totalDeals": 54,
+  "lastScanned": "2026-10-20T11:00:36.113Z",
+  "totalDeals": 56,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 108,
+    "slickdeals": 111,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "2-pack Anti-fog Wide Swim Goggles for Kids, $5.99 with code",
+      "url": "https://slickdeals.net/f/20178222-2-pack-anti-fog-wide-swim-goggles-for-kids-5-99-with-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-19T13:57:49.000Z"
+    },
+    {
+      "title": "$7.19, FS Prime, Amazon Basics Snow Brush with Ice Scraper, Ergonomic Grip,Black,Blue, Woot!",
+      "url": "https://slickdeals.net/f/20177373-7-19-fs-prime-amazon-basics-snow-brush-with-ice-scraper-ergonomic-grip-black-blue-woot?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "other",
+      "posted": "2026-10-19T09:29:14.000Z"
+    },
     {
       "title": "Winter Gloves Touchscreen Windproof Thermal Gloves Men Women Cycling Running Climbing $11.29 - Amazon",
       "url": "https://slickdeals.net/f/20174079-winter-gloves-touchscreen-windproof-thermal-gloves-men-women-cycling-running-climbing-11-29-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -373,7 +389,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     },
     {
@@ -382,7 +398,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     },
     {
@@ -391,7 +407,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     },
     {
@@ -400,7 +416,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     },
     {
@@ -409,7 +425,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     },
     {
@@ -418,7 +434,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     },
     {
@@ -427,7 +443,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     },
     {
@@ -436,7 +452,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     },
     {
@@ -445,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-19T18:43:45.177Z",
+      "posted": "2026-10-20T11:00:36.111Z",
       "isAmazonSearch": true
     }
   ]
