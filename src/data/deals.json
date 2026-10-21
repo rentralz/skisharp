@@ -1,12 +1,44 @@
 {
-  "lastScanned": "2026-10-20T17:08:56.640Z",
-  "totalDeals": 56,
+  "lastScanned": "2026-10-21T11:00:42.550Z",
+  "totalDeals": 60,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 111,
+    "slickdeals": 115,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Ekouaer Thermal Underwear for Women Long Johns Base Layer Winter Clothes $7.99",
+      "url": "https://slickdeals.net/f/20184132-ekouaer-thermal-underwear-for-women-long-johns-base-layer-winter-clothes-7-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-20T18:28:48.000Z"
+    },
+    {
+      "title": "Keary 2 Pack Kids Swim Goggles Panoramic HD view Anti-Fog & UV Girls Boys 3-15 $7.49",
+      "url": "https://slickdeals.net/f/20182659-keary-2-pack-kids-swim-goggles-panoramic-hd-view-anti-fog-uv-girls-boys-3-15-7-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-20T13:28:21.000Z"
+    },
+    {
+      "title": "Amazon Basics Snow Brush with Ice Scraper, Ergonomic Grip,Black,Blue 26.18” (66.5cm) inches $8.99",
+      "url": "https://slickdeals.net/f/20181612-amazon-basics-snow-brush-with-ice-scraper-ergonomic-grip-black-blue-26-18-66-5cm-inches-8-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "other",
+      "posted": "2026-10-20T05:56:38.000Z"
+    },
+    {
+      "title": "ATERCEL Winter Running Gloves - $6.99 After coupon",
+      "url": "https://slickdeals.net/f/20179371-atercel-winter-running-gloves-6-99-after-coupon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-19T17:48:12.000Z"
+    },
     {
       "title": "2-pack Anti-fog Wide Swim Goggles for Kids, $5.99 with code",
       "url": "https://slickdeals.net/f/20178222-2-pack-anti-fog-wide-swim-goggles-for-kids-5-99-with-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -192,8 +224,8 @@
       "posted": "2026-10-12T21:04:09.000Z"
     },
     {
-      "title": "Dragon Alliance Snow Goggles (various styles/colors) from $18 + Free Shipping",
-      "url": "https://slickdeals.net/f/20147832-dragon-alliance-snow-goggles-various-styles-colors-from-18-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "title": "Dragon Alliance Snow Goggles (Various Styles/Colors) From $18 + Free S/H",
+      "url": "https://slickdeals.net/f/20147832-dragon-alliance-snow-goggles-various-styles-colors-from-18-free-s-h?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
@@ -389,7 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     },
     {
@@ -398,7 +430,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     },
     {
@@ -407,7 +439,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     },
     {
@@ -416,7 +448,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     },
     {
@@ -425,7 +457,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     },
     {
@@ -434,7 +466,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     },
     {
@@ -443,7 +475,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     },
     {
@@ -452,7 +484,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     },
     {
@@ -461,7 +493,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-20T17:08:56.638Z",
+      "posted": "2026-10-21T11:00:42.547Z",
       "isAmazonSearch": true
     }
   ]
