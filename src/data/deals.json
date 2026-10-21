@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-21T11:00:42.550Z",
-  "totalDeals": 60,
+  "lastScanned": "2026-10-21T17:14:05.711Z",
+  "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 115,
+    "slickdeals": 116,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "PRIME MEMBERS: Odoland Ski Helmet with 2-in-1 Visor 14 vents and Adjustable Dial Fit ASTM Certified Goggles $31.49 AC + Free Shipping",
+      "url": "https://slickdeals.net/f/20188362-prime-members-odoland-ski-helmet-with-2-in-1-visor-14-vents-and-adjustable-dial-fit-astm-certified-goggles-31-49-ac-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-21T16:52:24.000Z"
+    },
     {
       "title": "Ekouaer Thermal Underwear for Women Long Johns Base Layer Winter Clothes $7.99",
       "url": "https://slickdeals.net/f/20184132-ekouaer-thermal-underwear-for-women-long-johns-base-layer-winter-clothes-7-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -400,28 +408,12 @@
       "posted": "2026-09-22T15:43:05.000Z"
     },
     {
-      "title": "Outdoor Faucet Covers for Winter, Actgan 8.3\"H x 6\"W Thickened Outside Garden Faucet Socks for Freeze Protection, Reusable Insulated Faucet Covers, 2 Pack, Black $3.99",
-      "url": "https://slickdeals.net/f/20044170-outdoor-faucet-covers-for-winter-actgan-8-3-h-x-6-w-thickened-outside-garden-faucet-socks-for-freeze-protection-reusable-insulated-faucet-covers-2-pack-black-3-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "socks",
-      "posted": "2026-09-21T15:57:19.000Z"
-    },
-    {
-      "title": "2 Packs Freela Kids Swim Goggles, Swimming Goggles for Kids 3-14 Anti Fog UV Protection No Leaking $5.99",
-      "url": "https://slickdeals.net/f/20043186-2-packs-freela-kids-swim-goggles-swimming-goggles-for-kids-3-14-anti-fog-uv-protection-no-leaking-5-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-21T13:18:24.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     },
     {
@@ -430,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     },
     {
@@ -439,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     },
     {
@@ -448,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     },
     {
@@ -457,7 +449,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     },
     {
@@ -466,7 +458,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     },
     {
@@ -475,7 +467,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     },
     {
@@ -484,7 +476,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     },
     {
@@ -493,7 +485,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-21T11:00:42.547Z",
+      "posted": "2026-10-21T17:14:05.708Z",
       "isAmazonSearch": true
     }
   ]
