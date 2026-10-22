@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-22T11:00:33.282Z",
+  "lastScanned": "2026-10-22T17:12:10.630Z",
   "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 115,
+    "slickdeals": 116,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Ekouaer 3 Pack Thermal Underwear for Men Waffle Long Johns Base Layer Pants $19.99",
+      "url": "https://slickdeals.net/f/20192805-ekouaer-3-pack-thermal-underwear-for-men-waffle-long-johns-base-layer-pants-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-10-22T14:38:52.000Z"
+    },
     {
       "title": "RUIXUE Winter Gloves for Men Women, Warm Touchscreen for running, cycling ( Black, L) $11.69 AC",
       "url": "https://slickdeals.net/f/20189697-ruixue-winter-gloves-for-men-women-warm-touchscreen-for-running-cycling-black-l-11-69-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -400,20 +408,12 @@
       "posted": "2026-09-23T13:36:03.000Z"
     },
     {
-      "title": "EyePop 3-in-1 Interchangeable Kids' Swim Goggle Set $1.78 + Free Shipping w/ Walmart+ or on $35+",
-      "url": "https://slickdeals.net/f/20049102-eyepop-3-in-1-interchangeable-kids-swim-goggle-set-1-78-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-22T15:43:05.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     },
     {
@@ -449,7 +449,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     },
     {
@@ -458,7 +458,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     },
     {
@@ -467,7 +467,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     },
     {
@@ -476,7 +476,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     },
     {
@@ -485,7 +485,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-22T11:00:33.280Z",
+      "posted": "2026-10-22T17:12:10.629Z",
       "isAmazonSearch": true
     }
   ]

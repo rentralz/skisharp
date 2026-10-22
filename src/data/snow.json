@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T11:00:34.380Z",
+  "updated": "2026-10-22T17:12:11.456Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -14,10 +14,10 @@
       "elevationM": 2987,
       "daily": [
         0,
-        0.9,
+        1,
         0.1
       ],
-      "next3": 1
+      "next3": 1.1
     },
     {
       "name": "Park City",
