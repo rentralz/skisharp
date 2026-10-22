@@ -1,19 +1,35 @@
 {
-  "lastScanned": "2026-10-21T17:14:05.711Z",
+  "lastScanned": "2026-10-22T11:00:33.282Z",
   "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 116,
+    "slickdeals": 115,
     "amazon": 9
   },
   "deals": [
     {
-      "title": "PRIME MEMBERS: Odoland Ski Helmet with 2-in-1 Visor 14 vents and Adjustable Dial Fit ASTM Certified Goggles $31.49 AC + Free Shipping",
-      "url": "https://slickdeals.net/f/20188362-prime-members-odoland-ski-helmet-with-2-in-1-visor-14-vents-and-adjustable-dial-fit-astm-certified-goggles-31-49-ac-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "title": "RUIXUE Winter Gloves for Men Women, Warm Touchscreen for running, cycling ( Black, L) $11.69 AC",
+      "url": "https://slickdeals.net/f/20189697-ruixue-winter-gloves-for-men-women-warm-touchscreen-for-running-cycling-black-l-11-69-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-21T22:46:02.000Z"
+    },
+    {
+      "title": "PRIME MEMBERS: Odoland Ski Helmet with 2-in-1 Visor 14 vents and Adjustable Dial Fit ASTM Certified Goggles L $31.49 AC + Free Shipping",
+      "url": "https://slickdeals.net/f/20188362-prime-members-odoland-ski-helmet-with-2-in-1-visor-14-vents-and-adjustable-dial-fit-astm-certified-goggles-l-31-49-ac-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-10-21T16:52:24.000Z"
+    },
+    {
+      "title": "Naturalrise Gloves for Men & Women,Winter Work Gloves for Cold Weather,Waterproof Work Gloves $5.99",
+      "url": "https://slickdeals.net/f/20187594-naturalrise-gloves-for-men-women-winter-work-gloves-for-cold-weather-waterproof-work-gloves-5-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-21T14:24:27.000Z"
     },
     {
       "title": "Ekouaer Thermal Underwear for Women Long Johns Base Layer Winter Clothes $7.99",
@@ -22,6 +38,14 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-20T18:28:48.000Z"
+    },
+    {
+      "title": "$5.59ac AMAZON Winter Gloves for Men Women Warm Touchscreen Running Gloves Size Medium",
+      "url": "https://slickdeals.net/f/20183262-5-59ac-amazon-winter-gloves-for-men-women-warm-touchscreen-running-gloves-size-medium?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-20T15:28:38.000Z"
     },
     {
       "title": "Keary 2 Pack Kids Swim Goggles Panoramic HD view Anti-Fog & UV Girls Boys 3-15 $7.49",
@@ -280,14 +304,6 @@
       "posted": "2026-10-10T15:00:47.000Z"
     },
     {
-      "title": "Aloodor Workout Sets for Women 2 Piece Outfits Casual Loose Fitting Tops Winter Clothing for women $12.47",
-      "url": "https://slickdeals.net/f/20135451-aloodor-workout-sets-for-women-2-piece-outfits-casual-loose-fitting-tops-winter-clothing-for-women-12-47?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "other",
-      "posted": "2026-10-09T18:58:36.000Z"
-    },
-    {
       "title": "2 Pack Anti-Fog Swim Goggles, $4.99 w/ code",
       "url": "https://slickdeals.net/f/20134518-2-pack-anti-fog-swim-goggles-4-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -334,22 +350,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-10-03T01:58:56.000Z"
-    },
-    {
-      "title": "3-Pairs Schwer 3/4 Double-Dipped Coating Winter Work Gloves $6.59 w/ S&S + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/20084619-3-pairs-schwer-3-4-double-dipped-coating-winter-work-gloves-6-59-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-01T17:18:48.000Z"
-    },
-    {
-      "title": "Amazon – Pixel Panda 3M Thinsulate Waterproof Winter Gloves - $8.99–$9.99 w/ Code",
-      "url": "https://slickdeals.net/f/20084214-amazon-pixel-panda-3m-thinsulate-waterproof-winter-gloves-8-99-9-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-01T16:07:43.000Z"
     },
     {
       "title": "Aegend Swim Goggles, Swimming Goggles No Leaking Full Protect Adult Youth $4.74",
@@ -413,7 +413,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     },
     {
@@ -449,7 +449,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     },
     {
@@ -458,7 +458,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     },
     {
@@ -467,7 +467,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     },
     {
@@ -476,7 +476,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     },
     {
@@ -485,7 +485,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-21T17:14:05.708Z",
+      "posted": "2026-10-22T11:00:33.280Z",
       "isAmazonSearch": true
     }
   ]
