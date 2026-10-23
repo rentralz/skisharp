@@ -1,13 +1,127 @@
 {
-  "lastScanned": "2026-10-22T17:12:11.345Z",
+  "lastScanned": "2026-10-23T11:00:47.104Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
     "SnowBrains": 15,
     "Unofficial Networks": 15,
-    "Storm Skiing Journal": 12
+    "Storm Skiing Journal": 13
   },
   "items": [
+    {
+      "title": "Beloved Oregon Ski Area Mt. Ashland Seeks $1.87 Million In Donations To Replace Aging Chairlifts",
+      "url": "https://www.powder.com/news/mt-ashland-replacing-chairlifts-fundraiser",
+      "source": "POWDER",
+      "published": "2026-10-23T10:44:00.000Z"
+    },
+    {
+      "title": "[PHOTOS] Mammoth Mountain, CA, Picks Up 3–5 Inches of Snow in October Storm",
+      "url": "https://snowbrains.com/photos-mammoth-mountain-ca-picks-up-3-5-inches-of-snow-in-october-storm/",
+      "source": "SnowBrains",
+      "published": "2026-10-23T10:31:50.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Up to 35 cm in Europe’s Western Alps Before a Warmup",
+      "url": "https://snowbrains.com/snowbrains-forecast-up-to-35-cm-in-europes-western-alps-before-a-warmup/",
+      "source": "SnowBrains",
+      "published": "2026-10-23T08:06:01.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Pacific Northwest Weekend Snow Favors Coastal British Columbia",
+      "url": "https://snowbrains.com/snowbrains-forecast-pacific-northwest-weekend-snow-favors-coastal-british-columbia/",
+      "source": "SnowBrains",
+      "published": "2026-10-23T02:07:13.000Z"
+    },
+    {
+      "title": "Storm Skiing 10/22/2026: Vail Pushes Back on Proxy Fight + Jackson Hogen on Selecting Ski Gear in the Digital Age",
+      "url": "https://www.stormskiing.com/p/storm-skiing-10222026-vail-pushes",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-23T00:37:53.000Z"
+    },
+    {
+      "title": "Czech Ski Resort Špindlerův Mlýn Deploys €50 Million Investment",
+      "url": "https://snowbrains.com/czech-ski-resort-spindleruv-mlyn-deploys-e50-million-investment/",
+      "source": "SnowBrains",
+      "published": "2026-10-23T00:36:22.000Z"
+    },
+    {
+      "title": "FIS Launches Free 24/7 World Cup Streaming Channel for the U.S. and Canada",
+      "url": "https://snowbrains.com/fis-launches-free-ski-snowboard-world-cup-streaming-channel/",
+      "source": "SnowBrains",
+      "published": "2026-10-23T00:07:37.000Z"
+    },
+    {
+      "title": "New Hampshire's King Pine Ski Area Eyes Expansion",
+      "url": "https://www.powder.com/news/new-hampshire-king-pine-ski-area-expansion",
+      "source": "POWDER",
+      "published": "2026-10-22T21:08:29.000Z"
+    },
+    {
+      "title": "Residents Push Colorado Town To End Eldora Ski Area Purchase Immediately",
+      "url": "https://unofficialnetworks.com/2026/10/22/nederland-residents-oppose-eldora-ski-area-purchase/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-22T20:15:36.000Z"
+    },
+    {
+      "title": "Colorado Avalanche Information Center Uses New Tools to Measure Avalanche Distance",
+      "url": "https://snowbrains.com/caic-using-new-tools-to-measure-avalanche-distance/",
+      "source": "SnowBrains",
+      "published": "2026-10-22T19:57:52.000Z"
+    },
+    {
+      "title": "Watch: The Rossignol Sender Free 100 Can Do It All",
+      "url": "https://www.powder.com/gear/video-review-rossignol-sender-free-100",
+      "source": "POWDER",
+      "published": "2026-10-22T19:20:13.000Z"
+    },
+    {
+      "title": "Why Atomic's Bent 110 Remains a Cult Favorite Years After Hitting the Market",
+      "url": "https://www.powder.com/gear/video-review-atomic-bent-110",
+      "source": "POWDER",
+      "published": "2026-10-22T19:14:30.000Z"
+    },
+    {
+      "title": "Widespread Snow Hits Lake Tahoe and Mammoth",
+      "url": "https://www.powder.com/news/widespread-snow-hits-lake-tahoe-and-mammoth",
+      "source": "POWDER",
+      "published": "2026-10-22T19:11:41.000Z"
+    },
+    {
+      "title": "Oregon’s Mt. Ashland Seeks $1.87 Million in Donations to Replace Aging Chairlift",
+      "url": "https://snowbrains.com/mt-ashland-windsor-chairlift-replacement-fundraiser/",
+      "source": "SnowBrains",
+      "published": "2026-10-22T18:32:08.000Z"
+    },
+    {
+      "title": "Southwestern Colorado Ski Resort Plans Big Projects For Next Few Years",
+      "url": "https://unofficialnetworks.com/2026/10/22/purgatory-resort-future-plans/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-22T18:20:13.000Z"
+    },
+    {
+      "title": "Wyoming Ski Resort Working On Glade Expansion",
+      "url": "https://unofficialnetworks.com/2026/10/22/meadowlark-lodge-glade-expansion/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-22T18:15:54.000Z"
+    },
+    {
+      "title": "It's Only October, But Colorado Forecasters Are Already Warning About Avalanches",
+      "url": "https://www.powder.com/news/october-avalanche-warning-colorado",
+      "source": "POWDER",
+      "published": "2026-10-22T18:12:09.000Z"
+    },
+    {
+      "title": "Montana’s Second-Largest Ski Resort Adds Two New Glades For The 2026-27 Season",
+      "url": "https://unofficialnetworks.com/2026/10/22/whitefish-mountain-new-glades/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-22T18:09:41.000Z"
+    },
+    {
+      "title": "Avalanche Hazards Are Already Developing Across Colorado",
+      "url": "https://unofficialnetworks.com/2026/10/22/avalanche-hazards-developing-colorado/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-22T17:58:44.000Z"
+    },
     {
       "title": "Big Sky Could See 17 Inches of Snow From Late-October Storms",
       "url": "https://unofficialnetworks.com/2026/10/22/big-sky-17-inches-snow/",
@@ -93,12 +207,6 @@
       "published": "2026-10-22T12:58:34.000Z"
     },
     {
-      "title": "North America’s Oldest Operating Ski Area Is Bringing Back Ski Free Sunday Program",
-      "url": "https://unofficialnetworks.com/2026/10/22/howelsen-hill-free-ski-sundays/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-22T12:56:29.000Z"
-    },
-    {
       "title": "Snowbound Expo Promises Big Gear Deals—and Plenty of Preseason Stoke",
       "url": "https://www.skimag.com/performance/competitions-and-events/snowbound-expo-november-2026/",
       "source": "SKI Magazine",
@@ -147,46 +255,10 @@
       "published": "2026-10-21T21:37:01.000Z"
     },
     {
-      "title": "Ski Resort Defends Excavator Work on Melting Glacier After Video Sparks Backlash",
-      "url": "https://unofficialnetworks.com/2026/10/21/ski-resort-glacier-excavator-work-backlash/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-21T20:17:03.000Z"
-    },
-    {
       "title": "SnowBrains Forecast: 15-20 cm More for South America’s Central Andes through Saturday",
       "url": "https://snowbrains.com/snowbrains-forecast-15-20-cm-more-for-south-americas-central-andes-through-saturday/",
       "source": "SnowBrains",
       "published": "2026-10-21T20:03:32.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Modest Mountain Snow Returns to Utah Late This Week",
-      "url": "https://snowbrains.com/snowbrains-forecast-modest-mountain-snow-returns-to-utah-late-this-week/",
-      "source": "SnowBrains",
-      "published": "2026-10-21T19:48:35.000Z"
-    },
-    {
-      "title": "Doppelmayr Just Opened New 160,000-Square-Foot Ski Lift Factory in Utah",
-      "url": "https://unofficialnetworks.com/2026/10/21/doppelmayr-just-opened-new-160000-square-foot-ski-lift-factory-in-utah/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-21T19:20:48.000Z"
-    },
-    {
-      "title": "Alpine Legend Marcel Hirscher’s Comeback Delayed, Won’t Race in Sölden",
-      "url": "https://snowbrains.com/alpine-legend-marcel-hirschers-comeback-delayed-wont-race-in-solden/",
-      "source": "SnowBrains",
-      "published": "2026-10-21T19:14:18.000Z"
-    },
-    {
-      "title": "How Olympian Paula Moltzan Preps for the Sölden Alpine World Cup Opening",
-      "url": "https://unofficialnetworks.com/2026/10/21/day-in-life-paula-moltzan-alpine-skier/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-21T18:51:49.000Z"
-    },
-    {
-      "title": "No U.S. Ski Resorts Showed Up To Canadian Ski Show",
-      "url": "https://unofficialnetworks.com/2026/10/21/ottawa-ski-show-2026/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-21T18:46:47.000Z"
     },
     {
       "title": "Watch: The Rossignol Sender 118 Is the Ultimate Ski for Powder Days and Hard Chargers",
@@ -249,70 +321,10 @@
       "published": "2026-10-21T11:44:22.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Up to 15 cm for Sölden as Europe Turns Colder",
-      "url": "https://snowbrains.com/snowbrains-forecast-up-to-15-cm-for-solden-as-europe-turns-colder/",
-      "source": "SnowBrains",
-      "published": "2026-10-21T08:04:08.000Z"
-    },
-    {
-      "title": "Brian Head Resort, UT, Introduces Ski and Snowboard Lessons Starting at $59",
-      "url": "https://snowbrains.com/brian-head-resort-ut-introduces-ski-and-snowboard-lessons-starting-at-59/",
-      "source": "SnowBrains",
-      "published": "2026-10-21T07:25:28.000Z"
-    },
-    {
-      "title": "Utah Ski Lift Manufacturer Skytrac Inc. Celebrates 100th Lift Sold",
-      "url": "https://snowbrains.com/skytrac-sells-100th-chairlift-utah-manufacturing/",
-      "source": "SnowBrains",
-      "published": "2026-10-21T07:24:24.000Z"
-    },
-    {
-      "title": "Shiffrin by Kilde’s Side After Achilles Tear: “You, My King, Have the Strongest Soul I’ve Ever Known”",
-      "url": "https://snowbrains.com/shiffrin-kilde-achilles-tear/",
-      "source": "SnowBrains",
-      "published": "2026-10-21T07:23:02.000Z"
-    },
-    {
-      "title": "Utah’s Alta Ski Area Opens to Uphill Traffic Following Early-Season Storm",
-      "url": "https://snowbrains.com/alta-ski-area-opens-uphill-traffic/",
-      "source": "SnowBrains",
-      "published": "2026-10-21T05:38:16.000Z"
-    },
-    {
-      "title": "Raide Drops HUGE 2027 Product Updates",
-      "url": "https://www.powder.com/gear/raide-drops-huge-2027-product-updates",
-      "source": "POWDER",
-      "published": "2026-10-20T22:20:25.000Z"
-    },
-    {
-      "title": "Utah's New Ski Area Unveils Trail Map, Lift Tickets Are Just $20 This Season",
-      "url": "https://www.powder.com/news/utah-new-ski-area-trail-map",
-      "source": "POWDER",
-      "published": "2026-10-20T20:58:56.000Z"
-    },
-    {
-      "title": "Skiers Turn Kicking Horse Into Terrain Park for High Octane SLVSH Match Up",
-      "url": "https://www.powder.com/news/kicking-horse-all-mountain-slvsh",
-      "source": "POWDER",
-      "published": "2026-10-20T20:54:06.000Z"
-    },
-    {
       "title": "Storm News 10/20/2026: Inside Greek Peak’s Massive Snowmaking Upgrade",
       "url": "https://www.stormskiing.com/p/storm-news-10202026-inside-greek",
       "source": "Storm Skiing Journal",
       "published": "2026-10-20T20:20:43.000Z"
-    },
-    {
-      "title": "Three Feet of Snow Possible as Winter Storm Slams Alaska",
-      "url": "https://www.powder.com/news/three-feet-snow-alaska-winter-storm",
-      "source": "POWDER",
-      "published": "2026-10-20T17:45:58.000Z"
-    },
-    {
-      "title": "Anon Launches Collab Collection with French Artist Lucas Beaufort",
-      "url": "https://www.powder.com/gear/anon-collab-collection-french-artist-lucas-beaufort",
-      "source": "POWDER",
-      "published": "2026-10-20T16:15:57.000Z"
     },
     {
       "title": "She’s Building the Women’s Ski She Couldn’t Find",
@@ -325,12 +337,6 @@
       "url": "https://www.stormskiing.com/p/welcome-to-the-storm-30",
       "source": "Storm Skiing Journal",
       "published": "2026-10-20T15:23:10.000Z"
-    },
-    {
-      "title": "Review: Salomon's Updated 2027 S/LAB Shift Alpha BOA Boots",
-      "url": "https://www.powder.com/gear/review-2027-salomon-s-lab-shift-alpha-boa-boots",
-      "source": "POWDER",
-      "published": "2026-10-20T14:47:00.000Z"
     },
     {
       "title": "Storm News 10/19/2026: Toggenburg NY, Closed Since 2021, to Reopen Under New Ownership",
@@ -361,12 +367,6 @@
       "url": "https://www.skimag.com/gear/ski-reviews/all-mountain-skis/first-look-the-austrian-made-athlete-approved-ready-for-anything-freeride-98/",
       "source": "SKI Magazine",
       "published": "2026-10-16T20:09:29.000Z"
-    },
-    {
-      "title": "Storm Skiing 10/15/2026: Nub’s Nob GM Ben Doornbos on Lift Upgrades and Sticking With Indy Pass",
-      "url": "https://www.stormskiing.com/p/storm-skiing-10152026-nubs-nob-gm",
-      "source": "Storm Skiing Journal",
-      "published": "2026-10-15T20:56:37.000Z"
     }
   ]
 }

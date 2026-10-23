@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-22T17:12:11.456Z",
+  "updated": "2026-10-23T11:00:47.263Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-22",
     "2026-10-23",
-    "2026-10-24"
+    "2026-10-24",
+    "2026-10-25"
   ],
   "resorts": [
     {
@@ -13,22 +13,22 @@
       "region": "Utah",
       "elevationM": 2987,
       "daily": [
+        1.1,
         0,
-        1,
-        0.1
+        0.2
       ],
-      "next3": 1.1
+      "next3": 1.3
     },
     {
       "name": "Park City",
       "region": "Utah",
       "elevationM": 2743,
       "daily": [
+        0.1,
         0,
-        0.2,
         0
       ],
-      "next3": 0.2
+      "next3": 0.1
     },
     {
       "name": "Vail",
@@ -37,9 +37,9 @@
       "daily": [
         0,
         0,
-        0
+        0.1
       ],
-      "next3": 0
+      "next3": 0.1
     },
     {
       "name": "Breckenridge",
@@ -47,32 +47,32 @@
       "elevationM": 3291,
       "daily": [
         0,
-        0,
-        0.7
+        0.1,
+        0.2
       ],
-      "next3": 0.7
+      "next3": 0.3
     },
     {
       "name": "Jackson Hole",
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        0,
         0.2,
-        0.1
+        0,
+        0
       ],
-      "next3": 0.3
+      "next3": 0.2
     },
     {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
+        6.6,
         0,
-        6.4,
-        0.1
+        0
       ],
-      "next3": 6.5
+      "next3": 6.6
     },
     {
       "name": "Palisades Tahoe",
@@ -90,11 +90,11 @@
       "region": "California",
       "elevationM": 3009,
       "daily": [
-        2,
+        0,
         0,
         0
       ],
-      "next3": 2
+      "next3": 0
     },
     {
       "name": "Killington",

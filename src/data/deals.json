@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-22T17:12:10.630Z",
-  "totalDeals": 59,
+  "lastScanned": "2026-10-23T11:00:37.875Z",
+  "totalDeals": 58,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 116,
+    "slickdeals": 114,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "$6.96 AMAZON by Achiou - Ski Mask Balaclava for Men and Women, All-Season Face Mask",
+      "url": "https://slickdeals.net/f/20195559-6-96-amazon-by-achiou-ski-mask-balaclava-for-men-and-women-all-season-face-mask?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-10-23T02:42:14.000Z"
+    },
     {
       "title": "Ekouaer 3 Pack Thermal Underwear for Men Waffle Long Johns Base Layer Pants $19.99",
       "url": "https://slickdeals.net/f/20192805-ekouaer-3-pack-thermal-underwear-for-men-waffle-long-johns-base-layer-pants-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -128,28 +136,12 @@
       "posted": "2026-10-16T19:14:49.000Z"
     },
     {
-      "title": "Amazon – Fleece Lined Leggings Women High Waisted Thermal Warm Winter - $8.44–$9.74 w/ Code",
-      "url": "https://slickdeals.net/f/20168217-amazon-fleece-lined-leggings-women-high-waisted-thermal-warm-winter-8-44-9-74-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-16T16:00:53.000Z"
-    },
-    {
       "title": "Amazon - Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 - $11.99",
       "url": "https://slickdeals.net/f/20167731-amazon-freela-kids-ski-goggles-snowboard-snow-anti-fog-youth-toddler-for-3-14-11-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-10-16T14:43:28.000Z"
-    },
-    {
-      "title": "Japan Airlines Discount Code For $50 or $200 Off Airfares From USA to Hokkaido For Ski Season - Book by November 14, 2026",
-      "url": "https://slickdeals.net/f/20164338-japan-airlines-discount-code-for-50-or-200-off-airfares-from-usa-to-hokkaido-for-ski-season-book-by-november-14-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "skis",
-      "posted": "2026-10-15T18:54:50.000Z"
     },
     {
       "title": "Amazon – Pixel Panda 3M Thinsulate Winter Gloves - $7.79–$8.39 w/ Code",
@@ -413,7 +405,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +414,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +423,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +432,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     },
     {
@@ -449,7 +441,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     },
     {
@@ -458,7 +450,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     },
     {
@@ -467,7 +459,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     },
     {
@@ -476,7 +468,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     },
     {
@@ -485,7 +477,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-22T17:12:10.629Z",
+      "posted": "2026-10-23T11:00:37.872Z",
       "isAmazonSearch": true
     }
   ]
