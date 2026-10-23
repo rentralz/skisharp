@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-23T11:00:37.875Z",
-  "totalDeals": 58,
+  "lastScanned": "2026-10-23T17:09:14.925Z",
+  "totalDeals": 56,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 114,
+    "slickdeals": 102,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "QALLY Ski Goggles 2 pack - $23.49 - $27.49 After coupon",
+      "url": "https://slickdeals.net/f/20198241-qally-ski-goggles-2-pack-23-49-27-49-after-coupon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-23T17:01:21.000Z"
+    },
+    {
+      "title": "Ski Patrol Blu Ray $9.76 Amazon.com",
+      "url": "https://slickdeals.net/f/20196609-ski-patrol-blu-ray-9-76-amazon-com?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "skis",
+      "posted": "2026-10-23T11:49:07.000Z"
+    },
     {
       "title": "$6.96 AMAZON by Achiou - Ski Mask Balaclava for Men and Women, All-Season Face Mask",
       "url": "https://slickdeals.net/f/20195559-6-96-amazon-by-achiou-ski-mask-balaclava-for-men-and-women-all-season-face-mask?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -128,14 +144,6 @@
       "posted": "2026-10-16T20:48:16.000Z"
     },
     {
-      "title": "SWISSWELL Kids Winter Ski Jacket Waterproof Snow Coat Outerwear for Boys or Girls $22.99 AC",
-      "url": "https://slickdeals.net/f/20169072-swisswell-kids-winter-ski-jacket-waterproof-snow-coat-outerwear-for-boys-or-girls-22-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-10-16T19:14:49.000Z"
-    },
-    {
       "title": "Amazon - Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 - $11.99",
       "url": "https://slickdeals.net/f/20167731-amazon-freela-kids-ski-goggles-snowboard-snow-anti-fog-youth-toddler-for-3-14-11-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -206,14 +214,6 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-13T15:14:11.000Z"
-    },
-    {
-      "title": "MOERDENG Women's Softshell Waterproof Winter Jacket w/ Detachable Hood and Multiple Zipper Pockets (Various, Sizes S-L) from $16.19 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/20152701-moerdeng-women-s-softshell-waterproof-winter-jacket-w-detachable-hood-and-multiple-zipper-pockets-various-sizes-s-l-from-16-19-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-10-13T15:06:46.000Z"
     },
     {
       "title": "Amazon – RIGWARL Waterproof Winter Gloves for Women Men with 3M Thinsulate - $8.39–$9.59 w/ Code",
@@ -376,14 +376,6 @@
       "posted": "2026-09-27T13:34:57.000Z"
     },
     {
-      "title": "CAMEL CROWN Women's Ski Jacket Winter Snow Coat Warm Fleece Mountain Waterproof $29.98",
-      "url": "https://slickdeals.net/f/20065224-camel-crown-women-s-ski-jacket-winter-snow-coat-warm-fleece-mountain-waterproof-29-98?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-09-26T23:53:37.000Z"
-    },
-    {
       "title": "[Prime Members] AstroAI Windproof Ski Mask, Winter Thermal Fleece Balaclava $6.49",
       "url": "https://slickdeals.net/f/20057523-prime-members-astroai-windproof-ski-mask-winter-thermal-fleece-balaclava-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -392,20 +384,12 @@
       "posted": "2026-09-24T14:50:32.000Z"
     },
     {
-      "title": "Amazon - 2 Pack Swim Goggles for Kids 3-14 Anti-Fog & UV Wide View Boys Girls - $5.49",
-      "url": "https://slickdeals.net/f/20053059-amazon-2-pack-swim-goggles-for-kids-3-14-anti-fog-uv-wide-view-boys-girls-5-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-23T13:36:03.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     },
     {
@@ -414,7 +398,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     },
     {
@@ -423,7 +407,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     },
     {
@@ -432,7 +416,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     },
     {
@@ -441,7 +425,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     },
     {
@@ -450,7 +434,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     },
     {
@@ -459,7 +443,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     },
     {
@@ -468,7 +452,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     },
     {
@@ -477,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-23T11:00:37.872Z",
+      "posted": "2026-10-23T17:09:14.923Z",
       "isAmazonSearch": true
     }
   ]

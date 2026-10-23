@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-10-23T11:00:47.104Z",
+  "lastScanned": "2026-10-23T17:09:18.833Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,60 @@
     "Storm Skiing Journal": 13
   },
   "items": [
+    {
+      "title": "Mila De Le Rue Signs With Armada Ahead of Freeride World Tour Debut",
+      "url": "https://www.powder.com/news/mila-de-le-rue-armada",
+      "source": "POWDER",
+      "published": "2026-10-23T16:00:00.000Z"
+    },
+    {
+      "title": "5 Pieces Of Gym Equipment That Can Actually Improve Your Skiing",
+      "url": "https://unofficialnetworks.com/2026/10/23/gym-equipment-improve-your-skiing/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-23T15:44:30.000Z"
+    },
+    {
+      "title": "Mount Fuji’s 132-Year Snow-Sighting Tradition Comes to an End",
+      "url": "https://snowbrains.com/mount-fuji-snow-sighting-tradition-ends/",
+      "source": "SnowBrains",
+      "published": "2026-10-23T15:31:57.000Z"
+    },
+    {
+      "title": "Snowmaking Update: Colorado Ski Resorts Inch Closer To Opening Day",
+      "url": "https://unofficialnetworks.com/2026/10/23/colorado-ski-snowmaking-update/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-23T15:14:03.000Z"
+    },
+    {
+      "title": "The U.S. Women Have Something to Prove in Sölden This Weekend. Here’s Who—and How—to Watch.",
+      "url": "https://www.skimag.com/performance/competitions-and-events/racing/womens-world-cup-opener-solden/",
+      "source": "SKI Magazine",
+      "published": "2026-10-23T14:51:27.000Z"
+    },
+    {
+      "title": "This Nevada Ski Area Just Received A 99-Year Lease Extension",
+      "url": "https://unofficialnetworks.com/2026/10/23/nevada-ski-area-99-year-lease/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-23T14:29:45.000Z"
+    },
+    {
+      "title": "World’s First Rotating Real-Snow Ski Tunnel Moves Closer to Reality",
+      "url": "https://unofficialnetworks.com/2026/10/23/worlds-first-rotating-real-snow-ski-tunnel-australia/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-23T14:24:19.000Z"
+    },
+    {
+      "title": "How British Columbia’s Permanent Time Change Is Affecting Ski Resort Operating Hours",
+      "url": "https://unofficialnetworks.com/2026/10/23/bc-permanent-time-change-ski-resorts/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-23T13:53:28.000Z"
+    },
+    {
+      "title": "Costumed Skiers Kick Off Japan’s Ski Season Beneath Mount Fuji",
+      "url": "https://unofficialnetworks.com/2026/10/23/japan-ski-season-opens/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-23T13:31:39.000Z"
+    },
     {
       "title": "Beloved Oregon Ski Area Mt. Ashland Seeks $1.87 Million In Donations To Replace Aging Chairlifts",
       "url": "https://www.powder.com/news/mt-ashland-replacing-chairlifts-fundraiser",
@@ -111,12 +165,6 @@
       "published": "2026-10-22T18:12:09.000Z"
     },
     {
-      "title": "Montana’s Second-Largest Ski Resort Adds Two New Glades For The 2026-27 Season",
-      "url": "https://unofficialnetworks.com/2026/10/22/whitefish-mountain-new-glades/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-22T18:09:41.000Z"
-    },
-    {
       "title": "Avalanche Hazards Are Already Developing Across Colorado",
       "url": "https://unofficialnetworks.com/2026/10/22/avalanche-hazards-developing-colorado/",
       "source": "Unofficial Networks",
@@ -159,40 +207,10 @@
       "published": "2026-10-22T15:39:26.000Z"
     },
     {
-      "title": "Powder Mountain Installs 31,000 Pound Haul Rope for Landmark DMI Lift Expansion",
-      "url": "https://unofficialnetworks.com/2026/10/22/powder-mountain-dmi-haul-rope/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-22T15:22:23.000Z"
-    },
-    {
-      "title": "FOR SALE: Southern California Ski Resort Hits The Market After Private Club Plan Fails ($3.275 Million)",
-      "url": "https://unofficialnetworks.com/2026/10/22/for-sale-southern-california-ski-resort-hits-the-market-after-private-club-plan-fails-3-275-million/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-22T15:07:56.000Z"
-    },
-    {
-      "title": "Ski Racing vs. Freeride: Which Discipline Is Skiing’s Ultimate Test of Courage?",
-      "url": "https://unofficialnetworks.com/2026/10/22/alpine-ski-racing-vs-freeride-skiing/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-22T14:51:24.000Z"
-    },
-    {
-      "title": "A Record-Breaking El Niño Is Here, But A Rare Pacific Shift Could Change Everything",
-      "url": "https://unofficialnetworks.com/2026/10/22/direct-weather-pacific-shift-winter/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-22T14:29:03.000Z"
-    },
-    {
       "title": "SnowBrains Forecast: Cooler Weekend Brings Modest Mountain Snow to Colorado",
       "url": "https://snowbrains.com/snowbrains-forecast-cooler-weekend-brings-modest-mountain-snow-to-colorado/",
       "source": "SnowBrains",
       "published": "2026-10-22T14:05:15.000Z"
-    },
-    {
-      "title": "Pennsylvania Ski Resort Will Refund a Season Pass to Whoever Names Its New Ski Trail",
-      "url": "https://unofficialnetworks.com/2026/10/22/camelback-new-double-black-trail-naming-contest/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-22T14:00:13.000Z"
     },
     {
       "title": "The Best Gifts for Skiers",
@@ -255,12 +273,6 @@
       "published": "2026-10-21T21:37:01.000Z"
     },
     {
-      "title": "SnowBrains Forecast: 15-20 cm More for South America’s Central Andes through Saturday",
-      "url": "https://snowbrains.com/snowbrains-forecast-15-20-cm-more-for-south-americas-central-andes-through-saturday/",
-      "source": "SnowBrains",
-      "published": "2026-10-21T20:03:32.000Z"
-    },
-    {
       "title": "Watch: The Rossignol Sender 118 Is the Ultimate Ski for Powder Days and Hard Chargers",
       "url": "https://www.powder.com/gear/video-review-rossignol-sender-118",
       "source": "POWDER",
@@ -301,12 +313,6 @@
       "url": "https://www.powder.com/news/camelback-new-double-black-trail-name",
       "source": "POWDER",
       "published": "2026-10-21T13:11:28.000Z"
-    },
-    {
-      "title": "Review: 2027 Dynafit Radical Pro Boot",
-      "url": "https://www.powder.com/gear/dynafit-radical-pro-touring-boot-review-2027",
-      "source": "POWDER",
-      "published": "2026-10-21T12:13:00.000Z"
     },
     {
       "title": "The Best Heated Gloves and Mittens of 2027",
@@ -361,12 +367,6 @@
       "url": "https://www.skimag.com/news/chile-spring-avalanche-kills-three/",
       "source": "SKI Magazine",
       "published": "2026-10-19T14:56:46.000Z"
-    },
-    {
-      "title": "First Look: the Austrian-Made, Athlete-Approved, Ready-for-Anything FREERIDE 98",
-      "url": "https://www.skimag.com/gear/ski-reviews/all-mountain-skis/first-look-the-austrian-made-athlete-approved-ready-for-anything-freeride-98/",
-      "source": "SKI Magazine",
-      "published": "2026-10-16T20:09:29.000Z"
     }
   ]
 }
