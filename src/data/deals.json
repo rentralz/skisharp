@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-24T11:00:37.123Z",
-  "totalDeals": 64,
+  "lastScanned": "2026-10-24T15:58:28.503Z",
+  "totalDeals": 62,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 119,
+    "slickdeals": 117,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "GXCROR Windproof Balaclava Ski Mask for Adults and Kids with Mesh $6.49 AC",
+      "url": "https://slickdeals.net/f/20201661-gxcror-windproof-balaclava-ski-mask-for-adults-and-kids-with-mesh-6-49-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-10-24T15:48:10.000Z"
+    },
     {
       "title": "2-Piece Deangelmon Women's Fleece Lined Thermal Underwear Long Johns Base Layer Set (Various Colors) $9.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20200632-2-piece-deangelmon-women-s-fleece-lined-thermal-underwear-long-johns-base-layer-set-various-colors-9-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -264,14 +272,6 @@
       "posted": "2026-10-13T21:48:00.000Z"
     },
     {
-      "title": "Amazon – Thermal Underwear for Men - Fleece Lined Base Layer Long Johns Set - $14.99 w/ Code",
-      "url": "https://slickdeals.net/f/20152755-amazon-thermal-underwear-for-men-fleece-lined-base-layer-long-johns-set-14-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-13T15:14:11.000Z"
-    },
-    {
       "title": "MOERDENG Women's Softshell Waterproof Winter Jacket w/ Detachable Hood and Multiple Zipper Pockets (Various, Sizes S-L) from $16.19 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20152701-moerdeng-women-s-softshell-waterproof-winter-jacket-w-detachable-hood-and-multiple-zipper-pockets-various-sizes-s-l-from-16-19-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -302,14 +302,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-10-13T14:17:40.000Z"
-    },
-    {
-      "title": "Thermal Underwear for Men Long Johns Set Winter Base Layer Top and Bottom $9.99",
-      "url": "https://slickdeals.net/f/20152224-thermal-underwear-for-men-long-johns-set-winter-base-layer-top-and-bottom-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-13T14:14:16.000Z"
     },
     {
       "title": "Outdoor Faucet Covers for Winter, Actgan 8.3\"H x 6\"W Thickened Outside Garden Faucet Socks for Freeze Protection, Reusable Insulated Faucet Covers, 2 Pack, Black $4.50 AC",
@@ -440,20 +432,12 @@
       "posted": "2026-09-26T23:53:37.000Z"
     },
     {
-      "title": "[Prime Members] AstroAI Windproof Ski Mask, Winter Thermal Fleece Balaclava $6.49",
-      "url": "https://slickdeals.net/f/20057523-prime-members-astroai-windproof-ski-mask-winter-thermal-fleece-balaclava-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-09-24T14:50:32.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     },
     {
@@ -462,7 +446,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     },
     {
@@ -471,7 +455,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     },
     {
@@ -480,7 +464,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     },
     {
@@ -489,7 +473,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     },
     {
@@ -498,7 +482,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     },
     {
@@ -507,7 +491,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     },
     {
@@ -516,7 +500,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     },
     {
@@ -525,7 +509,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-24T11:00:37.121Z",
+      "posted": "2026-10-24T15:58:28.500Z",
       "isAmazonSearch": true
     }
   ]
