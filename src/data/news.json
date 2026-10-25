@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-10-25T11:00:37.413Z",
+  "lastScanned": "2026-10-25T16:22:45.062Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,54 @@
     "Storm Skiing Journal": 12
   },
   "items": [
+    {
+      "title": "SnowBrains Forecast: Japan’s Midweek Snow Favors Hokkaido",
+      "url": "https://snowbrains.com/snowbrains-forecast-japans-midweek-snow-favors-hokkaido/",
+      "source": "SnowBrains",
+      "published": "2026-10-25T15:19:29.000Z"
+    },
+    {
+      "title": "Major Colorado Ski Resort Is Letting Beginners Learn For Free With Public Access Magic Carpet Rides",
+      "url": "https://unofficialnetworks.com/2026/10/25/colorado-ski-resort-free-magic-carpet-beginners/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-25T14:21:54.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Up to a Foot at Schweitzer as the Northern Rockies (MT/WY/ID) Turn Colder",
+      "url": "https://snowbrains.com/snowbrains-forecast-up-to-a-foot-at-schweitzer-as-the-northern-rockies-mt-wy-id-turn-colder/",
+      "source": "SnowBrains",
+      "published": "2026-10-25T14:13:19.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Midweek Snow and Colder Air Build the Base Across BC/Alberta",
+      "url": "https://snowbrains.com/snowbrains-forecast-midweek-snow-and-colder-air-build-the-base-across-bc-alberta/",
+      "source": "SnowBrains",
+      "published": "2026-10-25T14:05:38.000Z"
+    },
+    {
+      "title": "Where’s the Snow? North America’s 7-Day Powder Finder Forecast",
+      "url": "https://snowbrains.com/snowbrains-7-day-snow-forecast-top-resorts-october-25-2026/",
+      "source": "SnowBrains",
+      "published": "2026-10-25T13:42:10.000Z"
+    },
+    {
+      "title": "Underdog Paula Moltzan Claims First World Cup Victory in Austria, Shiffrin Finishes Seventh",
+      "url": "https://www.powder.com/news/paula-moltzen-solden-world-cup-victory",
+      "source": "POWDER",
+      "published": "2026-10-25T12:49:01.000Z"
+    },
+    {
+      "title": "Gloves vs. Mittens? Skiers Share Which Keeps Their Hands Warmer",
+      "url": "https://unofficialnetworks.com/2026/10/25/gloves-vs-mittens-skiers-answer/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-25T12:15:00.000Z"
+    },
+    {
+      "title": "American Paula Moltzan Secures First-Ever World Cup Victory",
+      "url": "https://unofficialnetworks.com/2026/10/25/american-paula-moltzan-secures-first-ever-world-cup-victory/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-25T12:10:00.000Z"
+    },
     {
       "title": "The Ski Monster Is Expanding From Boston to the Twin Cities, and It's Owner Has a Not-So Secret Trick To His Success",
       "url": "https://www.powder.com/news/ski-monster-expansion-minnesota",
@@ -201,24 +249,6 @@
       "published": "2026-10-23T14:29:45.000Z"
     },
     {
-      "title": "World’s First Rotating Real-Snow Ski Tunnel Moves Closer to Reality",
-      "url": "https://unofficialnetworks.com/2026/10/23/worlds-first-rotating-real-snow-ski-tunnel-australia/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-23T14:24:19.000Z"
-    },
-    {
-      "title": "How British Columbia’s Permanent Time Change Is Affecting Ski Resort Operating Hours",
-      "url": "https://unofficialnetworks.com/2026/10/23/bc-permanent-time-change-ski-resorts/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-23T13:53:28.000Z"
-    },
-    {
-      "title": "Costumed Skiers Kick Off Japan’s Ski Season Beneath Mount Fuji",
-      "url": "https://unofficialnetworks.com/2026/10/23/japan-ski-season-opens/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-23T13:31:39.000Z"
-    },
-    {
       "title": "Beloved Oregon Ski Area Mt. Ashland Seeks $1.87 Million In Donations To Replace Aging Chairlifts",
       "url": "https://www.powder.com/news/mt-ashland-replacing-chairlifts-fundraiser",
       "source": "POWDER",
@@ -231,34 +261,10 @@
       "published": "2026-10-23T10:31:50.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Up to 35 cm in Europe’s Western Alps Before a Warmup",
-      "url": "https://snowbrains.com/snowbrains-forecast-up-to-35-cm-in-europes-western-alps-before-a-warmup/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T08:06:01.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Pacific Northwest Weekend Snow Favors Coastal British Columbia",
-      "url": "https://snowbrains.com/snowbrains-forecast-pacific-northwest-weekend-snow-favors-coastal-british-columbia/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T02:07:13.000Z"
-    },
-    {
       "title": "Storm Skiing 10/22/2026: Vail Pushes Back on Proxy Fight + Jackson Hogen on Selecting Ski Gear in the Digital Age",
       "url": "https://www.stormskiing.com/p/storm-skiing-10222026-vail-pushes",
       "source": "Storm Skiing Journal",
       "published": "2026-10-23T00:37:53.000Z"
-    },
-    {
-      "title": "Czech Ski Resort Špindlerův Mlýn Deploys €50 Million Investment",
-      "url": "https://snowbrains.com/czech-ski-resort-spindleruv-mlyn-deploys-e50-million-investment/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T00:36:22.000Z"
-    },
-    {
-      "title": "FIS Launches Free 24/7 World Cup Streaming Channel for the U.S. and Canada",
-      "url": "https://snowbrains.com/fis-launches-free-ski-snowboard-world-cup-streaming-channel/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T00:07:37.000Z"
     },
     {
       "title": "New Hampshire's King Pine Ski Area Eyes Expansion",
@@ -301,12 +307,6 @@
       "url": "https://www.skimag.com/gear/ski-apparel/the-best-gifts-for-skiers/",
       "source": "SKI Magazine",
       "published": "2026-10-22T13:24:14.000Z"
-    },
-    {
-      "title": "Valerie Festavan Talks Highs, Lows, and Her New Ski Movie: \"Barbwire Heart\"",
-      "url": "https://www.powder.com/news/valerie-festavan-barbwire-heart",
-      "source": "POWDER",
-      "published": "2026-10-22T12:58:34.000Z"
     },
     {
       "title": "Snowbound Expo Promises Big Gear Deals—and Plenty of Preseason Stoke",

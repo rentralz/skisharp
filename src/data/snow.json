@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T11:00:37.577Z",
+  "updated": "2026-10-25T16:22:45.249Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -59,9 +59,9 @@
       "daily": [
         0,
         0.1,
-        1.8
+        2.2
       ],
-      "next3": 1.9
+      "next3": 2.3
     },
     {
       "name": "Big Sky",
@@ -69,10 +69,10 @@
       "elevationM": 2819,
       "daily": [
         0,
-        0.5,
-        2.7
+        0.4,
+        4.6
       ],
-      "next3": 3.2
+      "next3": 5
     },
     {
       "name": "Palisades Tahoe",
