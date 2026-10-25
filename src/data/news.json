@@ -1,13 +1,49 @@
 {
-  "lastScanned": "2026-10-24T15:58:29.565Z",
+  "lastScanned": "2026-10-25T11:00:37.413Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
     "SnowBrains": 15,
     "Unofficial Networks": 15,
-    "Storm Skiing Journal": 13
+    "Storm Skiing Journal": 12
   },
   "items": [
+    {
+      "title": "The Ski Monster Is Expanding From Boston to the Twin Cities, and It's Owner Has a Not-So Secret Trick To His Success",
+      "url": "https://www.powder.com/news/ski-monster-expansion-minnesota",
+      "source": "POWDER",
+      "published": "2026-10-25T09:51:00.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: A Colder Week Builds an October Base Across the Pacific Northwest",
+      "url": "https://snowbrains.com/snowbrains-forecast-a-colder-week-builds-an-october-base-across-the-pacific-northwest/",
+      "source": "SnowBrains",
+      "published": "2026-10-25T02:10:43.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Tuesday Snow Follows Fierce Winds in New Zealand",
+      "url": "https://snowbrains.com/snowbrains-forecast-tuesday-snow-follows-fierce-winds-in-new-zealand/",
+      "source": "SnowBrains",
+      "published": "2026-10-25T02:03:47.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: South America’s Central Andes Favor a 15-25 cm Refresh",
+      "url": "https://snowbrains.com/snowbrains-forecast-south-americas-central-andes-favor-a-15-25-cm-refresh/",
+      "source": "SnowBrains",
+      "published": "2026-10-24T20:03:33.000Z"
+    },
+    {
+      "title": "What You Should Consider When Planning a Ski Trip",
+      "url": "https://snowbrains.com/things-to-consider-when-planning-a-ski-trip1/",
+      "source": "SnowBrains",
+      "published": "2026-10-24T16:36:51.000Z"
+    },
+    {
+      "title": "Fly Into Jackson Hole And Get Free Lift Tickets At 3 Ski Resorts",
+      "url": "https://unofficialnetworks.com/2026/10/24/wyoming-ski-resorts-free-lift-tickets-airport/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-24T16:25:48.000Z"
+    },
     {
       "title": "Ski Season In New England Unofficially Underway",
       "url": "https://unofficialnetworks.com/2026/10/24/ski-ward-opening-2026/",
@@ -231,18 +267,6 @@
       "published": "2026-10-22T21:08:29.000Z"
     },
     {
-      "title": "Residents Push Colorado Town To End Eldora Ski Area Purchase Immediately",
-      "url": "https://unofficialnetworks.com/2026/10/22/nederland-residents-oppose-eldora-ski-area-purchase/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-22T20:15:36.000Z"
-    },
-    {
-      "title": "Colorado Avalanche Information Center Uses New Tools to Measure Avalanche Distance",
-      "url": "https://snowbrains.com/caic-using-new-tools-to-measure-avalanche-distance/",
-      "source": "SnowBrains",
-      "published": "2026-10-22T19:57:52.000Z"
-    },
-    {
       "title": "Watch: The Rossignol Sender Free 100 Can Do It All",
       "url": "https://www.powder.com/gear/video-review-rossignol-sender-free-100",
       "source": "POWDER",
@@ -261,12 +285,6 @@
       "published": "2026-10-22T19:11:41.000Z"
     },
     {
-      "title": "Oregon’s Mt. Ashland Seeks $1.87 Million in Donations to Replace Aging Chairlift",
-      "url": "https://snowbrains.com/mt-ashland-windsor-chairlift-replacement-fundraiser/",
-      "source": "SnowBrains",
-      "published": "2026-10-22T18:32:08.000Z"
-    },
-    {
       "title": "It's Only October, But Colorado Forecasters Are Already Warning About Avalanches",
       "url": "https://www.powder.com/news/october-avalanche-warning-colorado",
       "source": "POWDER",
@@ -277,12 +295,6 @@
       "url": "https://www.powder.com/news/valle-nevado-chile-october-2026-conditions-report",
       "source": "POWDER",
       "published": "2026-10-22T15:39:26.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Cooler Weekend Brings Modest Mountain Snow to Colorado",
-      "url": "https://snowbrains.com/snowbrains-forecast-cooler-weekend-brings-modest-mountain-snow-to-colorado/",
-      "source": "SnowBrains",
-      "published": "2026-10-22T14:05:15.000Z"
     },
     {
       "title": "The Best Gifts for Skiers",
@@ -303,22 +315,10 @@
       "published": "2026-10-22T11:00:23.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Friday Mountain Snow and Colder Air for the Northern Rockies (MT/WY/ID)",
-      "url": "https://snowbrains.com/snowbrains-forecast-friday-mountain-snow-and-colder-air-for-the-northern-rockies-mt-wy-id/",
-      "source": "SnowBrains",
-      "published": "2026-10-22T02:03:19.000Z"
-    },
-    {
       "title": "Storm Skiing 10/21/2026: Lee Canyon’s Big Expansion Ambitions, with GM Josh Bean",
       "url": "https://www.stormskiing.com/p/storm-skiing-10212026-lee-canyons",
       "source": "Storm Skiing Journal",
       "published": "2026-10-21T23:15:24.000Z"
-    },
-    {
-      "title": "Watch: The Rossignol Sender 118 Is the Ultimate Ski for Powder Days and Hard Chargers",
-      "url": "https://www.powder.com/gear/video-review-rossignol-sender-118",
-      "source": "POWDER",
-      "published": "2026-10-21T18:46:05.000Z"
     },
     {
       "title": "Are Ski Resorts Wasting Water to Make Snow? Here’s What the Science Says.",

@@ -1,15 +1,23 @@
 {
-  "lastScanned": "2026-10-24T15:58:28.503Z",
-  "totalDeals": 62,
+  "lastScanned": "2026-10-25T11:00:36.752Z",
+  "totalDeals": 63,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 117,
+    "slickdeals": 118,
     "amazon": 9
   },
   "deals": [
     {
-      "title": "GXCROR Windproof Balaclava Ski Mask for Adults and Kids with Mesh $6.49 AC",
-      "url": "https://slickdeals.net/f/20201661-gxcror-windproof-balaclava-ski-mask-for-adults-and-kids-with-mesh-6-49-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "title": "Thermal Underwear for Men Base Layer Cotton for Cold Weather​​ (Large) Black $15.99",
+      "url": "https://slickdeals.net/f/20201754-thermal-underwear-for-men-base-layer-cotton-for-cold-weather-large-black-15-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-24T16:18:56.000Z"
+    },
+    {
+      "title": "GXCROR Windproof Balaclava Ski Mask w/ Fleece-Like Lining & Breathable Mesh $6.50",
+      "url": "https://slickdeals.net/f/20201661-gxcror-windproof-balaclava-ski-mask-w-fleece-like-lining-breathable-mesh-6-50?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "accessories",
@@ -38,6 +46,14 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-10-24T05:37:11.000Z"
+    },
+    {
+      "title": "Rapbin Womens Fall and Winter Drawstring Wide Leg Fleece Lined Sweat Pants $14.44 AC",
+      "url": "https://slickdeals.net/f/20199426-rapbin-womens-fall-and-winter-drawstring-wide-leg-fleece-lined-sweat-pants-14-44-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-10-23T22:58:52.000Z"
     },
     {
       "title": "Southwest Vacations Bundled Ski Destination Packages (Flight & Hotel) Up to $125 Off & Skis Fly Free - Book by November 2, 2026",
@@ -344,14 +360,6 @@
       "posted": "2026-10-10T19:38:23.000Z"
     },
     {
-      "title": "Pixel Panda Waterproof Winter Snow Gloves w/ 3M Thinsulate (Black) $9",
-      "url": "https://slickdeals.net/f/20138844-pixel-panda-waterproof-winter-snow-gloves-w-3m-thinsulate-black-9?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-10T15:00:47.000Z"
-    },
-    {
       "title": "2 Pack Anti-Fog Swim Goggles, $4.99 w/ code",
       "url": "https://slickdeals.net/f/20134518-2-pack-anti-fog-swim-goggles-4-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -437,7 +445,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     },
     {
@@ -446,7 +454,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     },
     {
@@ -455,7 +463,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     },
     {
@@ -464,7 +472,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     },
     {
@@ -473,7 +481,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     },
     {
@@ -482,7 +490,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     },
     {
@@ -491,7 +499,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     },
     {
@@ -500,7 +508,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     },
     {
@@ -509,7 +517,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-24T15:58:28.500Z",
+      "posted": "2026-10-25T11:00:36.749Z",
       "isAmazonSearch": true
     }
   ]
