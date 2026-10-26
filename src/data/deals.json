@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-25T16:22:43.996Z",
-  "totalDeals": 63,
+  "lastScanned": "2026-10-26T11:00:38.953Z",
+  "totalDeals": 61,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 118,
+    "slickdeals": 116,
     "amazon": 9
   },
   "deals": [
@@ -272,22 +272,6 @@
       "posted": "2026-10-14T17:58:46.000Z"
     },
     {
-      "title": "Ekouaer Womens Thermal Long Sleeve Crewneck Top Soft Base Layer Everyday Comfort Thermal Shirt $12.99",
-      "url": "https://slickdeals.net/f/20155569-ekouaer-womens-thermal-long-sleeve-crewneck-top-soft-base-layer-everyday-comfort-thermal-shirt-12-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-14T03:10:35.000Z"
-    },
-    {
-      "title": "3-Pack Ekouaer Women's Long Sleeve Crew Neck Thermal Tops w/ Thumb Hole (Various Color Sets) $15 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/20154585-3-pack-ekouaer-women-s-long-sleeve-crew-neck-thermal-tops-w-thumb-hole-various-color-sets-15-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-13T21:48:00.000Z"
-    },
-    {
       "title": "MOERDENG Women's Softshell Waterproof Winter Jacket w/ Detachable Hood and Multiple Zipper Pockets (Various, Sizes S-L) from $16.19 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20152701-moerdeng-women-s-softshell-waterproof-winter-jacket-w-detachable-hood-and-multiple-zipper-pockets-various-sizes-s-l-from-16-19-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -445,7 +429,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     },
     {
@@ -454,7 +438,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     },
     {
@@ -463,7 +447,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     },
     {
@@ -472,7 +456,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     },
     {
@@ -481,7 +465,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     },
     {
@@ -490,7 +474,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     },
     {
@@ -499,7 +483,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     },
     {
@@ -508,7 +492,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     },
     {
@@ -517,7 +501,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-25T16:22:43.994Z",
+      "posted": "2026-10-26T11:00:38.950Z",
       "isAmazonSearch": true
     }
   ]

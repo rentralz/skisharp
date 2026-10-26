@@ -1,13 +1,37 @@
 {
-  "lastScanned": "2026-10-25T16:22:45.062Z",
+  "lastScanned": "2026-10-26T11:00:39.946Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
-    "SnowBrains": 15,
+    "SnowBrains": 14,
     "Unofficial Networks": 15,
     "Storm Skiing Journal": 12
   },
   "items": [
+    {
+      "title": "Vail Raises Conflict-of-Interest Questions Over Matthew Prince’s Links to Oasis Board Nominees",
+      "url": "https://snowbrains.com/vail-raises-conflict-of-interest-questions-over-matthew-princes-links-to-oasis-board-nominees/",
+      "source": "SnowBrains",
+      "published": "2026-10-26T09:25:43.000Z"
+    },
+    {
+      "title": "HEAD Celebrates 20 Years of Supershape Ski With Limited-Edition e-Magnum",
+      "url": "https://snowbrains.com/head-celebrates-20-years-of-supershape-ski/",
+      "source": "SnowBrains",
+      "published": "2026-10-26T08:00:16.000Z"
+    },
+    {
+      "title": "Austrian Ski Racer Julia Scheib Confirms She Is Okay After Heavy Crash in Sölden, Austria",
+      "url": "https://snowbrains.com/julia-scheib-okay-post-crash-2026/",
+      "source": "SnowBrains",
+      "published": "2026-10-26T04:29:40.000Z"
+    },
+    {
+      "title": "British Columbia Ski Resorts Get an Early Taste of Winter",
+      "url": "https://snowbrains.com/british-columbia-ski-resorts-first-snowfall-october-2026/",
+      "source": "SnowBrains",
+      "published": "2026-10-26T01:03:49.000Z"
+    },
     {
       "title": "SnowBrains Forecast: Japan’s Midweek Snow Favors Hokkaido",
       "url": "https://snowbrains.com/snowbrains-forecast-japans-midweek-snow-favors-hokkaido/",
@@ -123,28 +147,10 @@
       "published": "2026-10-24T00:38:00.000Z"
     },
     {
-      "title": "Painter Sues Deer Valley, UT, Over Ski Lift That Allegedly Started Without Warning",
-      "url": "https://snowbrains.com/painter-sues-deer-valley-ut-over-ski-lift-accident/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T22:53:11.000Z"
-    },
-    {
       "title": "Storm Skiing 10/23/2026: Powder Mountain CEO Brandi Hammon on Expansion, $99 Lift Tickets, & New Lifts",
       "url": "https://www.stormskiing.com/p/storm-skiing-10232026-powder-mountain",
       "source": "Storm Skiing Journal",
       "published": "2026-10-23T21:46:11.000Z"
-    },
-    {
-      "title": "Rising Star Lara Colturi Expands into Speed Disciplines And Hires Olympic Medalist Johan Clarey as Coach",
-      "url": "https://snowbrains.com/rising-star-lara-colturi-expands-into-speed-disciplines-and-hires-olympic-medalist-johan-clarey-as-coach/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T20:42:54.000Z"
-    },
-    {
-      "title": "Historic Mount Waterman, CA, Back on Market for $3.3 Million After Plans for Private Club Collapse",
-      "url": "https://snowbrains.com/mount-waterman-ski-lifts-for-sale-again/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T20:35:15.000Z"
     },
     {
       "title": "The Salomon QST X is A Combo Between a Swiss Army Knife and a Meat Cleaver",
@@ -225,12 +231,6 @@
       "published": "2026-10-23T15:44:30.000Z"
     },
     {
-      "title": "Mount Fuji’s 132-Year Snow-Sighting Tradition Comes to an End",
-      "url": "https://snowbrains.com/mount-fuji-snow-sighting-tradition-ends/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T15:31:57.000Z"
-    },
-    {
       "title": "Snowmaking Update: Colorado Ski Resorts Inch Closer To Opening Day",
       "url": "https://unofficialnetworks.com/2026/10/23/colorado-ski-snowmaking-update/",
       "source": "Unofficial Networks",
@@ -253,12 +253,6 @@
       "url": "https://www.powder.com/news/mt-ashland-replacing-chairlifts-fundraiser",
       "source": "POWDER",
       "published": "2026-10-23T10:44:00.000Z"
-    },
-    {
-      "title": "[PHOTOS] Mammoth Mountain, CA, Picks Up 3–5 Inches of Snow in October Storm",
-      "url": "https://snowbrains.com/photos-mammoth-mountain-ca-picks-up-3-5-inches-of-snow-in-october-storm/",
-      "source": "SnowBrains",
-      "published": "2026-10-23T10:31:50.000Z"
     },
     {
       "title": "Storm Skiing 10/22/2026: Vail Pushes Back on Proxy Fight + Jackson Hogen on Selecting Ski Gear in the Digital Age",
@@ -367,6 +361,12 @@
       "url": "https://www.skimag.com/gear/ski-reviews/all-mountain-skis/best-ski-deals-up-to-50-percent-off/",
       "source": "SKI Magazine",
       "published": "2026-10-19T16:54:48.000Z"
+    },
+    {
+      "title": "Why Red Bull Got Into the Ski Business—And Teamed Up with an Austrian Racing Legend to Do It",
+      "url": "https://www.skimag.com/culture/why-red-bull-got-into-the-ski-business-and-teamed-up-with-an-austrian-racing-legend-to-do-it/",
+      "source": "SKI Magazine",
+      "published": "2026-10-19T15:58:35.000Z"
     }
   ]
 }

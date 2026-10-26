@@ -1,28 +1,17 @@
 {
-  "updated": "2026-10-25T16:22:45.249Z",
+  "updated": "2026-10-26T11:00:40.113Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-25",
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28"
   ],
   "resorts": [
     {
       "name": "Alta",
       "region": "Utah",
       "elevationM": 2987,
-      "daily": [
-        0.1,
-        0.1,
-        0.6
-      ],
-      "next3": 0.8
-    },
-    {
-      "name": "Park City",
-      "region": "Utah",
-      "elevationM": 2743,
       "daily": [
         0,
         0,
@@ -31,9 +20,42 @@
       "next3": 0.4
     },
     {
+      "name": "Park City",
+      "region": "Utah",
+      "elevationM": 2743,
+      "daily": [
+        0,
+        0,
+        0.2
+      ],
+      "next3": 0.2
+    },
+    {
       "name": "Vail",
       "region": "Colorado",
       "elevationM": 3005,
+      "daily": [
+        0.1,
+        0,
+        0
+      ],
+      "next3": 0.1
+    },
+    {
+      "name": "Breckenridge",
+      "region": "Colorado",
+      "elevationM": 3291,
+      "daily": [
+        0.8,
+        0,
+        0
+      ],
+      "next3": 0.8
+    },
+    {
+      "name": "Jackson Hole",
+      "region": "Wyoming",
+      "elevationM": 2384,
       "daily": [
         0.1,
         0.5,
@@ -42,37 +64,15 @@
       "next3": 0.6
     },
     {
-      "name": "Breckenridge",
-      "region": "Colorado",
-      "elevationM": 3291,
-      "daily": [
-        0.3,
-        0.2,
-        0
-      ],
-      "next3": 0.5
-    },
-    {
-      "name": "Jackson Hole",
-      "region": "Wyoming",
-      "elevationM": 2384,
-      "daily": [
-        0,
-        0.1,
-        2.2
-      ],
-      "next3": 2.3
-    },
-    {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        0,
-        0.4,
-        4.6
+        1.6,
+        2.1,
+        0
       ],
-      "next3": 5
+      "next3": 3.7
     },
     {
       "name": "Palisades Tahoe",
