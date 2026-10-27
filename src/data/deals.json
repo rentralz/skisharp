@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-10-27T11:00:40.507Z",
-  "totalDeals": 64,
+  "lastScanned": "2026-10-27T18:01:44.265Z",
+  "totalDeals": 65,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 117,
+    "slickdeals": 118,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Sireck Windproof & Water-Resistant Thermal Fleece Balaclava Ski Mask $8.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20217471-sireck-windproof-water-resistant-thermal-fleece-balaclava-ski-mask-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-27T16:15:10.000Z"
+    },
+    {
+      "title": "Amazon – Men's Fleece-Lined Thermal Long Johns - $5.99 w/ Code",
+      "url": "https://slickdeals.net/f/20216823-amazon-men-s-fleece-lined-thermal-long-johns-5-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-27T14:44:56.000Z"
+    },
+    {
+      "title": "Amazon – 2-Pack Men's Fleece-Lined Thermal Long Johns - $9.79-$18.89 w/ Code",
+      "url": "https://slickdeals.net/f/20216814-amazon-2-pack-men-s-fleece-lined-thermal-long-johns-9-79-18-89-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-27T14:44:03.000Z"
+    },
     {
       "title": "GXCROR Waterproof Winter Gloves for Men & Women, Touchscreen 3M Thinsulate Thermal Gloves $9.99",
       "url": "https://slickdeals.net/f/20214189-gxcror-waterproof-winter-gloves-for-men-women-touchscreen-3m-thinsulate-thermal-gloves-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -240,14 +264,6 @@
       "posted": "2026-10-18T09:47:51.000Z"
     },
     {
-      "title": "Realtree Men's Grand Canyon 2-Piece Thermal Top & Pants Set (Black, M, XL & 2XL) $8.56 + Free Shipping w/ Walmart+",
-      "url": "https://slickdeals.net/f/20172252-realtree-men-s-grand-canyon-2-piece-thermal-top-pants-set-black-m-xl-2xl-8-56-free-shipping-w-walmart?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-10-17T17:54:58.000Z"
-    },
-    {
       "title": "NSSIW Ski Goggles for Men Women Youth, OTG Snowboard Goggles Snow Goggles with Anti Fog and UV Protection Over Glasses 2 Pack​ $23.99 AC",
       "url": "https://slickdeals.net/f/20169327-nssiw-ski-goggles-for-men-women-youth-otg-snowboard-goggles-snow-goggles-with-anti-fog-and-uv-protection-over-glasses-2-pack-23-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -440,20 +456,12 @@
       "posted": "2026-09-28T02:29:55.000Z"
     },
     {
-      "title": "180° Wide Two pack Swim Goggles for Kids, $5.49 w/ code",
-      "url": "https://slickdeals.net/f/20066730-180-wide-two-pack-swim-goggles-for-kids-5-49-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-27T13:34:57.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     },
     {
@@ -462,7 +470,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     },
     {
@@ -471,7 +479,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     },
     {
@@ -480,7 +488,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     },
     {
@@ -489,7 +497,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     },
     {
@@ -498,7 +506,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     },
     {
@@ -507,7 +515,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     },
     {
@@ -516,7 +524,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     },
     {
@@ -525,7 +533,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-27T11:00:40.505Z",
+      "posted": "2026-10-27T18:01:44.262Z",
       "isAmazonSearch": true
     }
   ]
