@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-26T18:41:09.182Z",
+  "updated": "2026-10-27T11:00:41.949Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-26",
     "2026-10-27",
-    "2026-10-28"
+    "2026-10-28",
+    "2026-10-29"
   ],
   "resorts": [
     {
@@ -14,10 +14,10 @@
       "elevationM": 2987,
       "daily": [
         0,
-        0,
-        0.4
+        0.2,
+        0
       ],
-      "next3": 0.4
+      "next3": 0.2
     },
     {
       "name": "Park City",
@@ -25,10 +25,10 @@
       "elevationM": 2743,
       "daily": [
         0,
-        0,
-        0.2
+        0.1,
+        0
       ],
-      "next3": 0.2
+      "next3": 0.1
     },
     {
       "name": "Vail",
@@ -46,33 +46,33 @@
       "region": "Colorado",
       "elevationM": 3291,
       "daily": [
-        0.1,
+        0,
         0,
         0
       ],
-      "next3": 0.1
+      "next3": 0
     },
     {
       "name": "Jackson Hole",
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        0.4,
-        0.5,
+        0.1,
+        0.2,
         0
       ],
-      "next3": 0.9
+      "next3": 0.3
     },
     {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        2.5,
-        2.4,
+        2.9,
+        0,
         0
       ],
-      "next3": 4.9
+      "next3": 2.9
     },
     {
       "name": "Palisades Tahoe",
