@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-10-27T18:01:44.265Z",
-  "totalDeals": 65,
+  "lastScanned": "2026-10-28T11:00:33.985Z",
+  "totalDeals": 67,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 118,
+    "slickdeals": 127,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Merino Wool Compression Socks for Women and Men $12.99 AC",
+      "url": "https://slickdeals.net/f/20218719-merino-wool-compression-socks-for-women-and-men-12-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "socks",
+      "posted": "2026-10-27T20:06:48.000Z"
+    },
+    {
+      "title": "AXEVMEN Lightweight Hiking Running Cycling Touch‑Screen Winter Gloves $6.49",
+      "url": "https://slickdeals.net/f/20218197-axevmen-lightweight-hiking-running-cycling-touch-screen-winter-gloves-6-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-27T18:37:01.000Z"
+    },
     {
       "title": "Sireck Windproof & Water-Resistant Thermal Fleece Balaclava Ski Mask $8.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20217471-sireck-windproof-water-resistant-thermal-fleece-balaclava-ski-mask-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +30,14 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-27T16:15:10.000Z"
+    },
+    {
+      "title": "Amazon – RIGWARL Waterproof Touchscreen Winter Gloves - $7.19-$8.66 w/ Code",
+      "url": "https://slickdeals.net/f/20216895-amazon-rigwarl-waterproof-touchscreen-winter-gloves-7-19-8-66-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-27T14:51:50.000Z"
     },
     {
       "title": "Amazon – Men's Fleece-Lined Thermal Long Johns - $5.99 w/ Code",
@@ -32,12 +56,36 @@
       "posted": "2026-10-27T14:44:03.000Z"
     },
     {
+      "title": "$13.75 | TYR Adult Blackhawk Racing Goggles - Streamlined Performance Swim Goggles at Amazon",
+      "url": "https://slickdeals.net/f/20215413-13-75-tyr-adult-blackhawk-racing-goggles-streamlined-performance-swim-goggles-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-27T10:45:23.000Z"
+    },
+    {
+      "title": "$16.25 | TYR Adult Black Ops 140 EV Goggles - Racing Performance Swim Goggles at Amazon",
+      "url": "https://slickdeals.net/f/20215395-16-25-tyr-adult-black-ops-140-ev-goggles-racing-performance-swim-goggles-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-10-27T10:43:17.000Z"
+    },
+    {
       "title": "GXCROR Waterproof Winter Gloves for Men & Women, Touchscreen 3M Thinsulate Thermal Gloves $9.99",
       "url": "https://slickdeals.net/f/20214189-gxcror-waterproof-winter-gloves-for-men-women-touchscreen-3m-thinsulate-thermal-gloves-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-27T03:58:55.000Z"
+    },
+    {
+      "title": "HexArmor 4073W Chrome SLT Winter Impact Glove $17.99",
+      "url": "https://slickdeals.net/f/20214039-hexarmor-4073w-chrome-slt-winter-impact-glove-17-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-27T03:20:54.000Z"
     },
     {
       "title": "No Boundaries Men's Knit Ski Mask (Various Colors) $2.88 + Free Shipping w/ Walmart+ or on $35+",
@@ -134,22 +182,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-10-23T17:01:21.000Z"
-    },
-    {
-      "title": "Amazon – Fleece Lined Leggings Women - Winter Thermal Warm Thick Lining Pants - $8.99 w/ Code",
-      "url": "https://slickdeals.net/f/20197848-amazon-fleece-lined-leggings-women-winter-thermal-warm-thick-lining-pants-8-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-10-23T15:58:20.000Z"
-    },
-    {
-      "title": "Ski Patrol Blu Ray $9.76 Amazon.com",
-      "url": "https://slickdeals.net/f/20196609-ski-patrol-blu-ray-9-76-amazon-com?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "skis",
-      "posted": "2026-10-23T11:49:07.000Z"
     },
     {
       "title": "$6.96 AMAZON by Achiou - Ski Mask Balaclava for Men and Women, All-Season Face Mask",
@@ -376,14 +408,6 @@
       "posted": "2026-10-12T18:20:08.000Z"
     },
     {
-      "title": "Schwer 3 Pairs Winter Work Gloves, 3/4 Double-Dipped Coating, CR3313 $10.55",
-      "url": "https://slickdeals.net/f/20142249-schwer-3-pairs-winter-work-gloves-3-4-double-dipped-coating-cr3313-10-55?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-11T16:27:39.000Z"
-    },
-    {
       "title": "Water Space Kids Swim Goggles with Nose Cover Anti-Shattered No-Leak 3-15 - $7.99 - $12.99 after coupon",
       "url": "https://slickdeals.net/f/20139669-water-space-kids-swim-goggles-with-nose-cover-anti-shattered-no-leak-3-15-7-99-12-99-after-coupon?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -448,20 +472,12 @@
       "posted": "2026-09-28T12:58:38.000Z"
     },
     {
-      "title": "Demon Phantom Helmet with Audio and Snow Supra Goggle $35.00",
-      "url": "https://slickdeals.net/f/20068050-demon-phantom-helmet-with-audio-and-snow-supra-goggle-35-00?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-09-28T02:29:55.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     },
     {
@@ -470,7 +486,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     },
     {
@@ -479,7 +495,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     },
     {
@@ -488,7 +504,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     },
     {
@@ -497,7 +513,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     },
     {
@@ -506,7 +522,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     },
     {
@@ -515,7 +531,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     },
     {
@@ -524,7 +540,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     },
     {
@@ -533,7 +549,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-27T18:01:44.262Z",
+      "posted": "2026-10-28T11:00:33.983Z",
       "isAmazonSearch": true
     }
   ]
