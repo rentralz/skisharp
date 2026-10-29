@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-29T11:00:38.161Z",
-  "totalDeals": 65,
+  "lastScanned": "2026-10-29T18:29:05.780Z",
+  "totalDeals": 62,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 126,
+    "slickdeals": 122,
     "amazon": 9
   },
   "deals": [
@@ -200,14 +200,6 @@
       "posted": "2026-10-23T02:42:14.000Z"
     },
     {
-      "title": "Ekouaer 3 Pack Thermal Underwear for Men Waffle Long Johns Base Layer Pants $19.99",
-      "url": "https://slickdeals.net/f/20192805-ekouaer-3-pack-thermal-underwear-for-men-waffle-long-johns-base-layer-pants-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-10-22T14:38:52.000Z"
-    },
-    {
       "title": "Amazon – Kids Waterproof 3M Thinsulate Winter Gloves - $8.39–$8.99 w/ Code",
       "url": "https://slickdeals.net/f/20192724-amazon-kids-waterproof-3m-thinsulate-winter-gloves-8-39-8-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -238,14 +230,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-10-21T14:24:27.000Z"
-    },
-    {
-      "title": "Ekouaer Thermal Underwear for Women Long Johns Base Layer Winter Clothes $7.99",
-      "url": "https://slickdeals.net/f/20184132-ekouaer-thermal-underwear-for-women-long-johns-base-layer-winter-clothes-7-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-20T18:28:48.000Z"
     },
     {
       "title": "$5.59ac AMAZON Winter Gloves for Men Women Warm Touchscreen Running Gloves Size Medium",
@@ -376,14 +360,6 @@
       "posted": "2026-10-13T15:06:46.000Z"
     },
     {
-      "title": "Amazon – RIGWARL Waterproof Winter Gloves for Women Men with 3M Thinsulate - $8.39–$9.59 w/ Code",
-      "url": "https://slickdeals.net/f/20152506-amazon-rigwarl-waterproof-winter-gloves-for-women-men-with-3m-thinsulate-8-39-9-59-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-13T14:49:17.000Z"
-    },
-    {
       "title": "Outdoor Faucet Covers for Winter, Actgan 8.3\"H x 6\"W Thickened Outside Garden Faucet Socks for Freeze Protection, Reusable Insulated Faucet Covers, 2 Pack, Black $4.50 AC",
       "url": "https://slickdeals.net/f/20148687-outdoor-faucet-covers-for-winter-actgan-8-3-h-x-6-w-thickened-outside-garden-faucet-socks-for-freeze-protection-reusable-insulated-faucet-covers-2-pack-black-4-50-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -461,7 +437,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     },
     {
@@ -470,7 +446,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     },
     {
@@ -479,7 +455,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     },
     {
@@ -488,7 +464,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     },
     {
@@ -497,7 +473,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     },
     {
@@ -506,7 +482,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     },
     {
@@ -515,7 +491,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     },
     {
@@ -524,7 +500,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     },
     {
@@ -533,7 +509,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-29T11:00:38.158Z",
+      "posted": "2026-10-29T18:29:05.776Z",
       "isAmazonSearch": true
     }
   ]

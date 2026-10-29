@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-10-29T11:00:38.891Z",
+  "lastScanned": "2026-10-29T18:29:06.904Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,114 @@
     "Storm Skiing Journal": 12
   },
   "items": [
+    {
+      "title": "California Ski Resort To Open Snow Tubing for Halloween Weekend",
+      "url": "https://www.powder.com/news/sugar-bowl-snow-tubing-halloween",
+      "source": "POWDER",
+      "published": "2026-10-29T18:23:55.000Z"
+    },
+    {
+      "title": "Four Ski Passes That Let Kids Ski Dozens of Days for Less Than $100",
+      "url": "https://unofficialnetworks.com/2026/10/29/cheap-kids-ski-passes/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T18:03:37.000Z"
+    },
+    {
+      "title": "Federal Researchers Warn of Potentially Record-Setting El Niño: What It Could Mean for Ski Country",
+      "url": "https://unofficialnetworks.com/2026/10/29/federal-researchers-record-setting-el-nino-ski-season/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T17:49:53.000Z"
+    },
+    {
+      "title": "Concert Lineup Announced For Killington Cup",
+      "url": "https://unofficialnetworks.com/2026/10/29/killington-cup-music-2026/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T17:37:10.000Z"
+    },
+    {
+      "title": "Free Browser Game Lets Skiers Race Down 6,000+ Real Ski Resorts",
+      "url": "https://unofficialnetworks.com/2026/10/29/free-browser-game-real-ski-resorts/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T17:36:41.000Z"
+    },
+    {
+      "title": "Canada’s Second-Largest Ski Resort Details Improvements For The 2026-27 Season",
+      "url": "https://unofficialnetworks.com/2026/10/29/sun-peaks-whats-new/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T17:32:19.000Z"
+    },
+    {
+      "title": "Where Did the Midweight Ski Touring Boot Go?",
+      "url": "https://www.skimag.com/gear/backcountry-ski-gear/midweight-ski-touring-boots/",
+      "source": "SKI Magazine",
+      "published": "2026-10-29T16:54:38.000Z"
+    },
+    {
+      "title": "U.S. Mint Introducing New Quarter Featuring A Snowboarder",
+      "url": "https://unofficialnetworks.com/2026/10/29/us-mint-snowboarder-quarter/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T16:51:51.000Z"
+    },
+    {
+      "title": "Beaver Creek Installs 16 Automated Snow Guns Ahead of Birds of Prey World Cup Event",
+      "url": "https://unofficialnetworks.com/2026/10/29/beaver-creek-16-snow-guns-birds-of-prey-world-cup/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T16:37:47.000Z"
+    },
+    {
+      "title": "Another Colorado Ski Resort Opens This Week as 2026-27 Season Gets Underway",
+      "url": "https://www.powder.com/news/keystone-ski-resort-confirms-opening-day",
+      "source": "POWDER",
+      "published": "2026-10-29T16:34:20.000Z"
+    },
+    {
+      "title": "7 Ski Resorts Step Up to Help Skiers Displaced by Devastating Utah Wildfire",
+      "url": "https://unofficialnetworks.com/2026/10/29/ski-resorts-help-eagle-point-wildfire-passholders/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T16:14:43.000Z"
+    },
+    {
+      "title": "This Lightweight Rescue Tarp Can Turn Your Avalanche Shovels Into An Emergency Sled",
+      "url": "https://unofficialnetworks.com/2026/10/29/backcountry-emergency-sled-avalanche-shovels/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T16:00:55.000Z"
+    },
+    {
+      "title": "Aspen Snowmass Shares Look at Highly Specialized Cable Splicing Process",
+      "url": "https://unofficialnetworks.com/2026/10/29/aspen-snowmass-cable-splicing-process/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T15:12:40.000Z"
+    },
+    {
+      "title": "The 15 Best Small Ski Resorts for Powder Lovers in North America",
+      "url": "https://snowbrains.com/best-small-ski-areas-powder-skiing-north-america/",
+      "source": "SnowBrains",
+      "published": "2026-10-29T14:45:36.000Z"
+    },
+    {
+      "title": "40 Years In, This Swedish Brand Continues Innovating",
+      "url": "https://www.powder.com/news/peak-performance-continues-innovating-40-years",
+      "source": "POWDER",
+      "published": "2026-10-29T14:19:00.000Z"
+    },
+    {
+      "title": "The Freeride World Tour Is Headed To Snowbird, Utah",
+      "url": "https://www.powder.com/news/snowbird-freeride-world-tour-announcement",
+      "source": "POWDER",
+      "published": "2026-10-29T13:30:00.000Z"
+    },
+    {
+      "title": "The Best Photos and Videos From Arapahoe Basin's Winter 26/27 Opening Day",
+      "url": "https://www.powder.com/news/arapahoe-basin-opening-day-photos-2026",
+      "source": "POWDER",
+      "published": "2026-10-29T13:26:09.000Z"
+    },
+    {
+      "title": "Iconic California Ski Resort Aerial Tram Undergoing Major Overhaul Ahead of Winter",
+      "url": "https://unofficialnetworks.com/2026/10/29/palisades-tahoe-aerial-tram-maintenance/",
+      "source": "Unofficial Networks",
+      "published": "2026-10-29T13:21:05.000Z"
+    },
     {
       "title": "Keystone Resort Announces Opening Date For 2026-27 Season",
       "url": "https://unofficialnetworks.com/2026/10/29/keystone-2026-opening-day/",
@@ -87,18 +195,6 @@
       "published": "2026-10-28T21:02:10.000Z"
     },
     {
-      "title": "Brighton Resort Opens Voting for 2026-27 Design the Sign Contest",
-      "url": "https://unofficialnetworks.com/2026/10/28/brighton-resort-opens-voting-for-2026-27-design-the-sign-contest/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T21:02:10.000Z"
-    },
-    {
-      "title": "Colorado Avalanche Forecasts Return November 1 With Redesigned Website",
-      "url": "https://unofficialnetworks.com/2026/10/28/avalanche-forecast-return-in-colorado/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T20:52:32.000Z"
-    },
-    {
       "title": "The U.S. Mint Will Make Quarters Featuring a Snowboarder",
       "url": "https://snowbrains.com/the-u-s-mint-will-make-quarters-featuring-a-snowboarder/",
       "source": "SnowBrains",
@@ -135,30 +231,6 @@
       "published": "2026-10-28T17:30:54.000Z"
     },
     {
-      "title": "From Hollywood to Chocolate Bars: 5 Mountains That Became Pop Culture Icons",
-      "url": "https://unofficialnetworks.com/2026/10/28/five-famous-mountains-pop-culture-logos/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T17:00:04.000Z"
-    },
-    {
-      "title": "National Ski Areas Association President & CEO Michael Reitzell To Step Down",
-      "url": "https://unofficialnetworks.com/2026/10/28/nsaa-president-michael-reitzell-steps-down/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T16:03:26.000Z"
-    },
-    {
-      "title": "Vermont Ski Town Inventor Creates “Bidet Style” Solution for Snow-Covered Backup Cameras",
-      "url": "https://unofficialnetworks.com/2026/10/28/backup-camera-bidet/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T15:38:09.000Z"
-    },
-    {
-      "title": "New Mexico Ski Resort Proposes Nearly Doubling Its Skiable Terrain, Pending Forest Service Approval",
-      "url": "https://unofficialnetworks.com/2026/10/28/sipapu-ski-resort-915-acre-expansion/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T14:36:10.000Z"
-    },
-    {
       "title": "The Best Climbing Skins for Skis of 2027",
       "url": "https://www.skimag.com/gear/backcountry-ski-gear/the-best-climbing-skins/",
       "source": "SKI Magazine",
@@ -171,18 +243,6 @@
       "published": "2026-10-28T14:25:33.000Z"
     },
     {
-      "title": "Toyota U.S. Grand Prix Returns to Breckenridge After 12-Year Hiatus",
-      "url": "https://unofficialnetworks.com/2026/10/28/toyota-us-grand-prix-breckenridge/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T14:24:03.000Z"
-    },
-    {
-      "title": "The Dead Month: A Ski Town Shoulder Season Survival Guide.",
-      "url": "https://unofficialnetworks.com/2026/10/28/the-dead-month-a-ski-town-shoulder-season-survival-guide/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T14:23:55.000Z"
-    },
-    {
       "title": "Arapahoe Basin, CO, Opens Today With Lifts Spinning at 11 a.m.",
       "url": "https://snowbrains.com/arapahoe-basin-opening-day-80th-season/",
       "source": "SnowBrains",
@@ -193,18 +253,6 @@
       "url": "https://www.powder.com/news/arapahoe-basin-colorado-opening-day-ski-2026",
       "source": "POWDER",
       "published": "2026-10-28T14:15:39.000Z"
-    },
-    {
-      "title": "New Mexico Ski Resort Has Big Expansion Plans",
-      "url": "https://unofficialnetworks.com/2026/10/28/sipapu-big-expansion-plans/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T14:07:44.000Z"
-    },
-    {
-      "title": "Arapahoe Basin Kicks Off 80th Season TODAY",
-      "url": "https://unofficialnetworks.com/2026/10/28/arapahoe-basin-opens-today/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-28T13:53:11.000Z"
     },
     {
       "title": "Vail Resorts’ Biggest-Ever Food Investment Upgrades Ski Lodge Burgers, Pizza, and Fries, With No Price Hikes Beyond Inflation",
@@ -243,22 +291,10 @@
       "published": "2026-10-28T07:18:12.000Z"
     },
     {
-      "title": "16 Year Old Tourist Seriously Injured in Ski Accident at Stubai Glacier, Austria",
-      "url": "https://snowbrains.com/16-year-old-tourist-seriously-injured-in-ski-accident-at-stubai-glacier/",
-      "source": "SnowBrains",
-      "published": "2026-10-28T01:27:04.000Z"
-    },
-    {
       "title": "Storm News 10/27/2026: Andy Bigford Says Powdr Should “Pull the Plug” on Selling Eldora to Nederland",
       "url": "https://www.stormskiing.com/p/storm-news-10272026-andy-bigford",
       "source": "Storm Skiing Journal",
       "published": "2026-10-27T20:54:28.000Z"
-    },
-    {
-      "title": "Big Mountain Snowboarding Legends Jeremy Jones & Xavier de Le Rue Reunite In Italy After 15 Years",
-      "url": "https://unofficialnetworks.com/2026/10/27/big-mountain-snowboarding-legends-reunite/",
-      "source": "Unofficial Networks",
-      "published": "2026-10-27T20:45:59.000Z"
     },
     {
       "title": "The Overlooked Muscle You Need to Strengthen For Better Knee Health This Ski Season",
@@ -279,40 +315,10 @@
       "published": "2026-10-27T17:40:11.000Z"
     },
     {
-      "title": "Crested Butte, Colorado, Kicks Off Snowmaking as 2026-27 Ski Season Approaches",
-      "url": "https://www.powder.com/news/crested-butte-colorado-starts-snowmaking",
-      "source": "POWDER",
-      "published": "2026-10-27T16:59:38.000Z"
-    },
-    {
-      "title": "Barbie Says Shaun White is 'Kenough'",
-      "url": "https://www.powder.com/news/shaun-white-barbie-ken-doll",
-      "source": "POWDER",
-      "published": "2026-10-27T16:00:00.000Z"
-    },
-    {
-      "title": "Maine's Sunday River Launches Huge Snowmaking Push as Temps Plummet, and the Photos Are Glorious",
-      "url": "https://www.powder.com/news/sunday-river-maine-snowmaking-photos-october",
-      "source": "POWDER",
-      "published": "2026-10-27T14:14:50.000Z"
-    },
-    {
       "title": "A Complete Breakdown of Snow Pass’ 14-Mountain Debut Roster",
       "url": "https://www.stormskiing.com/p/a-complete-breakdown-of-snow-pass",
       "source": "Storm Skiing Journal",
       "published": "2026-10-27T13:16:23.000Z"
-    },
-    {
-      "title": "Colorado Skier's Head Buried In October Avalanche On Popular 14er",
-      "url": "https://www.powder.com/news/colorado-skier-buried-avalanche-mount-bross-october",
-      "source": "POWDER",
-      "published": "2026-10-27T13:08:18.000Z"
-    },
-    {
-      "title": "Historic Los Angeles Ski Area Mt. Waterman Is Back on the Market for $3.2 Million",
-      "url": "https://www.powder.com/news/los-angeles-ski-area-mt-waterman-for-sale",
-      "source": "POWDER",
-      "published": "2026-10-27T12:35:40.000Z"
     },
     {
       "title": "Your Ski Gear Has Been Sitting All Summer. Here’s What to Check Before You Get on the Snow.",
@@ -361,12 +367,6 @@
       "url": "https://www.stormskiing.com/p/storm-skiing-10212026-lee-canyons",
       "source": "Storm Skiing Journal",
       "published": "2026-10-21T23:15:24.000Z"
-    },
-    {
-      "title": "Are Ski Resorts Wasting Water to Make Snow? Here’s What the Science Says.",
-      "url": "https://www.skimag.com/ski-resort-life/early-season-snowmaking-misconceptions/",
-      "source": "SKI Magazine",
-      "published": "2026-10-21T17:28:11.000Z"
     }
   ]
 }
