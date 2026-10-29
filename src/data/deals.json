@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-10-28T18:21:19.652Z",
-  "totalDeals": 67,
+  "lastScanned": "2026-10-29T11:00:38.161Z",
+  "totalDeals": 65,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 127,
+    "slickdeals": 126,
     "amazon": 9
   },
   "deals": [
@@ -174,14 +174,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-10-24T05:37:11.000Z"
-    },
-    {
-      "title": "Rapbin Womens Fall and Winter Drawstring Wide Leg Fleece Lined Sweat Pants $14.44 AC",
-      "url": "https://slickdeals.net/f/20199426-rapbin-womens-fall-and-winter-drawstring-wide-leg-fleece-lined-sweat-pants-14-44-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-10-23T22:58:52.000Z"
     },
     {
       "title": "Southwest Vacations Bundled Ski Destination Packages (Flight & Hotel) Up to $125 Off & Skis Fly Free - Book by November 2, 2026",
@@ -392,14 +384,6 @@
       "posted": "2026-10-13T14:49:17.000Z"
     },
     {
-      "title": "Amazon – RIGWARL Winter Running Gloves for Men Women - $8.63–$9.59 w/ Code",
-      "url": "https://slickdeals.net/f/20152503-amazon-rigwarl-winter-running-gloves-for-men-women-8-63-9-59-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-13T14:48:04.000Z"
-    },
-    {
       "title": "Outdoor Faucet Covers for Winter, Actgan 8.3\"H x 6\"W Thickened Outside Garden Faucet Socks for Freeze Protection, Reusable Insulated Faucet Covers, 2 Pack, Black $4.50 AC",
       "url": "https://slickdeals.net/f/20148687-outdoor-faucet-covers-for-winter-actgan-8-3-h-x-6-w-thickened-outside-garden-faucet-socks-for-freeze-protection-reusable-insulated-faucet-covers-2-pack-black-4-50-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -477,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     },
     {
@@ -486,7 +470,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     },
     {
@@ -495,7 +479,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     },
     {
@@ -504,7 +488,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     },
     {
@@ -513,7 +497,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     },
     {
@@ -522,7 +506,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     },
     {
@@ -531,7 +515,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     },
     {
@@ -540,7 +524,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     },
     {
@@ -549,7 +533,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-28T18:21:19.650Z",
+      "posted": "2026-10-29T11:00:38.158Z",
       "isAmazonSearch": true
     }
   ]

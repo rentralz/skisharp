@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-28T18:21:30.418Z",
+  "updated": "2026-10-29T11:00:39.039Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-28",
     "2026-10-29",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-10-31"
   ],
   "resorts": [
     {
@@ -13,11 +13,11 @@
       "region": "Utah",
       "elevationM": 2987,
       "daily": [
-        0.2,
+        0,
         0,
         0
       ],
-      "next3": 0.2
+      "next3": 0
     },
     {
       "name": "Park City",
@@ -81,9 +81,9 @@
       "daily": [
         0,
         0,
-        0
+        0.8
       ],
-      "next3": 0
+      "next3": 0.8
     },
     {
       "name": "Mammoth Mountain",
@@ -91,10 +91,10 @@
       "elevationM": 3009,
       "daily": [
         0,
-        0,
-        0
+        0.6,
+        0.8
       ],
-      "next3": 0
+      "next3": 1.4
     },
     {
       "name": "Killington",
