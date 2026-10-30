@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T11:00:55.291Z",
+  "updated": "2026-10-30T18:01:12.664Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -15,9 +15,9 @@
       "daily": [
         0,
         0,
-        7.9
+        11.9
       ],
-      "next3": 7.9
+      "next3": 11.9
     },
     {
       "name": "Park City",
@@ -26,9 +26,9 @@
       "daily": [
         0,
         0,
-        2.2
+        4.1
       ],
-      "next3": 2.2
+      "next3": 4.1
     },
     {
       "name": "Vail",
