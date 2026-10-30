@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-29T18:29:07.054Z",
+  "updated": "2026-10-30T11:00:55.291Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-29",
     "2026-10-30",
-    "2026-10-31"
+    "2026-10-31",
+    "2026-11-01"
   ],
   "resorts": [
     {
@@ -15,9 +15,9 @@
       "daily": [
         0,
         0,
-        0
+        7.9
       ],
-      "next3": 0
+      "next3": 7.9
     },
     {
       "name": "Park City",
@@ -26,9 +26,9 @@
       "daily": [
         0,
         0,
-        0
+        2.2
       ],
-      "next3": 0
+      "next3": 2.2
     },
     {
       "name": "Vail",
@@ -69,10 +69,10 @@
       "elevationM": 2819,
       "daily": [
         0,
-        0,
-        0
+        0.1,
+        2.7
       ],
-      "next3": 0
+      "next3": 2.8
     },
     {
       "name": "Palisades Tahoe",
@@ -80,21 +80,21 @@
       "elevationM": 2251,
       "daily": [
         0,
-        0,
-        0.8
+        1.6,
+        0.5
       ],
-      "next3": 0.8
+      "next3": 2.1
     },
     {
       "name": "Mammoth Mountain",
       "region": "California",
       "elevationM": 3009,
       "daily": [
-        0,
-        0.6,
-        0.8
+        1.2,
+        2.4,
+        2.1
       ],
-      "next3": 1.4
+      "next3": 5.7
     },
     {
       "name": "Killington",

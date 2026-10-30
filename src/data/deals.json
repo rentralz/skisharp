@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-10-29T18:29:05.780Z",
-  "totalDeals": 62,
+  "lastScanned": "2026-10-30T11:00:54.289Z",
+  "totalDeals": 63,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 122,
+    "slickdeals": 119,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "REI Co-op Men's Swiftland Thermal Running Half-Zip Pullover (Blue or Black, Limited Sizes) $26.93 + Free Shipping w/ REI Membership or on $100+",
+      "url": "https://slickdeals.net/f/20226435-rei-co-op-men-s-swiftland-thermal-running-half-zip-pullover-blue-or-black-limited-sizes-26-93-free-shipping-w-rei-membership-or-on-100?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-10-29T09:22:15.000Z"
+    },
     {
       "title": "Amazon – Men’s Fleece-Lined Thermal Underwear Set $8.90-$11.39 w/ Code",
       "url": "https://slickdeals.net/f/20222607-amazon-men-s-fleece-lined-thermal-underwear-set-8-90-11-39-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -46,6 +54,14 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-10-27T16:15:10.000Z"
+    },
+    {
+      "title": "Amazon – Pixel Panda Waterproof 3M Thinsulate Winter Gloves - $9.99 w/ Code",
+      "url": "https://slickdeals.net/f/20216910-amazon-pixel-panda-waterproof-3m-thinsulate-winter-gloves-9-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-10-27T14:52:29.000Z"
     },
     {
       "title": "Amazon – RIGWARL Waterproof Touchscreen Winter Gloves - $7.19-$8.66 w/ Code",
@@ -320,14 +336,6 @@
       "posted": "2026-10-15T16:40:38.000Z"
     },
     {
-      "title": "$15 fs LSD via Walmart: KOITHOT 3 Pcs Winter Beanie Hat with Brim and Ear Flaps Knitted Line Neck Warmer Touchscreen Gloves Set for Men Black",
-      "url": "https://slickdeals.net/f/20163654-15-fs-lsd-via-walmart-koithot-3-pcs-winter-beanie-hat-with-brim-and-ear-flaps-knitted-line-neck-warmer-touchscreen-gloves-set-for-men-black?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-15T16:35:27.000Z"
-    },
-    {
       "title": "No Boundaries Mens Knit Ski Mask, One Size, Green - $3.64",
       "url": "https://slickdeals.net/f/20163084-no-boundaries-mens-knit-ski-mask-one-size-green-3-64?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -437,7 +445,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     },
     {
@@ -446,7 +454,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     },
     {
@@ -455,7 +463,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     },
     {
@@ -464,7 +472,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     },
     {
@@ -473,7 +481,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     },
     {
@@ -482,7 +490,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     },
     {
@@ -491,7 +499,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     },
     {
@@ -500,7 +508,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     },
     {
@@ -509,7 +517,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-10-29T18:29:05.776Z",
+      "posted": "2026-10-30T11:00:54.286Z",
       "isAmazonSearch": true
     }
   ]
