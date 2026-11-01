@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-11-01T12:01:10.970Z",
-  "totalDeals": 67,
+  "lastScanned": "2026-11-01T17:57:00.820Z",
+  "totalDeals": 66,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 123,
+    "slickdeals": 122,
     "amazon": 9
   },
   "deals": [
@@ -214,14 +214,6 @@
       "sourceIcon": "💰",
       "category": "accessories",
       "posted": "2026-10-26T12:07:14.000Z"
-    },
-    {
-      "title": "Thermal Underwear for Men Base Layer Cotton for Cold Weather​​ (Large) Black $15.99",
-      "url": "https://slickdeals.net/f/20201754-thermal-underwear-for-men-base-layer-cotton-for-cold-weather-large-black-15-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-24T16:18:56.000Z"
     },
     {
       "title": "GXCROR Windproof Balaclava Ski Mask w/ Fleece-Like Lining & Breathable Mesh $6.50",
@@ -472,66 +464,12 @@
       "posted": "2026-10-07T05:11:23.000Z"
     },
     {
-      "title": "🔍 Ski Jackets on Sale",
-      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "jackets",
-      "posted": "2026-11-01T12:01:10.967Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Pants Clearance",
-      "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "pants",
-      "posted": "2026-11-01T12:01:10.967Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Goggles Deals",
-      "url": "https://www.amazon.com/s?k=ski+goggles+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "goggles",
-      "posted": "2026-11-01T12:01:10.967Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Helmet Deals",
-      "url": "https://www.amazon.com/s?k=ski+helmet+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "helmets",
-      "posted": "2026-11-01T12:01:10.967Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Gloves on Sale",
-      "url": "https://www.amazon.com/s?k=ski+gloves+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "gloves",
-      "posted": "2026-11-01T12:01:10.967Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Merino Ski Socks Deals",
-      "url": "https://www.amazon.com/s?k=merino+wool+ski+socks+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "socks",
-      "posted": "2026-11-01T12:01:10.967Z",
-      "isAmazonSearch": true
-    },
-    {
       "title": "🔍 Base Layer Deals",
       "url": "https://www.amazon.com/s?k=ski+base+layer+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-01T12:01:10.967Z",
+      "posted": "2026-11-01T17:57:00.818Z",
       "isAmazonSearch": true
     },
     {
@@ -540,7 +478,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-01T12:01:10.967Z",
+      "posted": "2026-11-01T17:57:00.818Z",
       "isAmazonSearch": true
     },
     {
@@ -549,7 +487,61 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-01T12:01:10.967Z",
+      "posted": "2026-11-01T17:57:00.818Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Jackets on Sale",
+      "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "jackets",
+      "posted": "2026-11-01T17:57:00.817Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Pants Clearance",
+      "url": "https://www.amazon.com/s?k=ski+pants+clearance&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "pants",
+      "posted": "2026-11-01T17:57:00.817Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Goggles Deals",
+      "url": "https://www.amazon.com/s?k=ski+goggles+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "goggles",
+      "posted": "2026-11-01T17:57:00.817Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Helmet Deals",
+      "url": "https://www.amazon.com/s?k=ski+helmet+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "helmets",
+      "posted": "2026-11-01T17:57:00.817Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Gloves on Sale",
+      "url": "https://www.amazon.com/s?k=ski+gloves+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "gloves",
+      "posted": "2026-11-01T17:57:00.817Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Merino Ski Socks Deals",
+      "url": "https://www.amazon.com/s?k=merino+wool+ski+socks+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "socks",
+      "posted": "2026-11-01T17:57:00.817Z",
       "isAmazonSearch": true
     }
   ]
