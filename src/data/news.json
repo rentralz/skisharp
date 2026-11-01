@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-10-31T17:16:18.712Z",
+  "lastScanned": "2026-11-01T12:01:12.063Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,48 @@
     "Storm Skiing Journal": 14
   },
   "items": [
+    {
+      "title": "Skiing Vermont's Pre-pre-Season Isn't for the Faint of Heart",
+      "url": "https://www.powder.com/news/vermont-snowless-skiing-pre-pre-season",
+      "source": "POWDER",
+      "published": "2026-11-01T11:57:00.000Z"
+    },
+    {
+      "title": "Wolf Creek Ski Area Closes One Day After Opening as Record Flooding Hits Colorado",
+      "url": "https://snowbrains.com/wolf-creek-ski-area-closes-one-day-after-opening-as-record-flooding-hits-colorado/",
+      "source": "SnowBrains",
+      "published": "2026-11-01T07:44:18.000Z"
+    },
+    {
+      "title": "Ski Industry Giants Ask Court to Dismiss Price-Fixing Lawsuit",
+      "url": "https://snowbrains.com/ski-industry-giants-move-to-dismiss-antitrust-lawsuits/",
+      "source": "SnowBrains",
+      "published": "2026-11-01T06:09:49.000Z"
+    },
+    {
+      "title": "Red Bull’s Newest Ski Film Is Made By Pros—But Is Surprisingly For Everyone",
+      "url": "https://www.skimag.com/culture/red-bull-we-cant-not-ski-film/",
+      "source": "SKI Magazine",
+      "published": "2026-11-01T02:58:21.000Z"
+    },
+    {
+      "title": "Keystone, CO, Report: While Not the First to Open, This is the Best Lift-Served Skiing in North America Right Now",
+      "url": "https://snowbrains.com/keystone-opening-day-report/",
+      "source": "SnowBrains",
+      "published": "2026-10-31T20:44:44.000Z"
+    },
+    {
+      "title": "Ski and Snowboard Patrol Director at Sugar Mountain, NC, Receives Prestigious Awards",
+      "url": "https://snowbrains.com/ski-and-snowboard-patrol-director-at-sugar-mountain-nc-receives-prestigious-awards/",
+      "source": "SnowBrains",
+      "published": "2026-10-31T20:21:03.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: 10-20 Inches for Colorado’s San Juans After a Warm Start",
+      "url": "https://snowbrains.com/snowbrains-forecast-10-20-inches-for-colorados-san-juans-after-a-warm-start/",
+      "source": "SnowBrains",
+      "published": "2026-10-31T19:03:10.000Z"
+    },
     {
       "title": "Safety Of Breckenridge’s Town Gondola Challenged By Local Resident",
       "url": "https://unofficialnetworks.com/2026/10/31/breck-connect-gondola-challenge/",
@@ -231,36 +273,6 @@
       "published": "2026-10-30T09:59:43.000Z"
     },
     {
-      "title": "Decades in the Making, the Winter Park, CO, Gondola Now Faces a Public Vote",
-      "url": "https://snowbrains.com/winter-park-gondola-bond-ballot/",
-      "source": "SnowBrains",
-      "published": "2026-10-30T09:56:19.000Z"
-    },
-    {
-      "title": "Alaska’s Eaglecrest Ski Area Gets First Snow Ahead of December Opening",
-      "url": "https://snowbrains.com/new-snow-at-eaglecrest-ski-area/",
-      "source": "SnowBrains",
-      "published": "2026-10-30T09:41:34.000Z"
-    },
-    {
-      "title": "Kvitfjell Quickly Replaces Narvik as Host of Women’s World Cup Speed Races in Norway",
-      "url": "https://snowbrains.com/kvitfjell-replaces-narvik-as-host-of-womens-world-cup-speed-races/",
-      "source": "SnowBrains",
-      "published": "2026-10-30T06:27:38.000Z"
-    },
-    {
-      "title": "Freeride World Tour Returns to Snowbird, UT, After 13 Years for 2027 Finals",
-      "url": "https://snowbrains.com/freeride-world-tour-returns-snowbird-2027/",
-      "source": "SnowBrains",
-      "published": "2026-10-30T05:59:47.000Z"
-    },
-    {
-      "title": "FIS Freestyle World Cup Returns to Breckenridge, CO, After 12-Year Absence",
-      "url": "https://snowbrains.com/breckenridge-fis-freestyle-world-cup-2026/",
-      "source": "SnowBrains",
-      "published": "2026-10-30T05:30:32.000Z"
-    },
-    {
       "title": "Storm News 10/29/2026: Why Mt. Bachelor’s Northwest Quad Upgrade Is a Big Deal with Resort President Merriman",
       "url": "https://www.stormskiing.com/p/storm-news-10292026-why-mt-bachelors",
       "source": "Storm Skiing Journal",
@@ -315,12 +327,6 @@
       "published": "2026-10-28T21:56:50.000Z"
     },
     {
-      "title": "Proposed Expansion Could Add Hundreds of Acres of Terrain and New Lifts at New Mexico Ski Area",
-      "url": "https://www.powder.com/news/proposed-expansion-sipapu-new-mexico",
-      "source": "POWDER",
-      "published": "2026-10-28T18:45:36.000Z"
-    },
-    {
       "title": "The Best Climbing Skins for Skis of 2027",
       "url": "https://www.skimag.com/gear/backcountry-ski-gear/the-best-climbing-skins/",
       "source": "SKI Magazine",
@@ -361,12 +367,6 @@
       "url": "https://www.stormskiing.com/p/storm-skiing-10232026-powder-mountain",
       "source": "Storm Skiing Journal",
       "published": "2026-10-23T21:46:11.000Z"
-    },
-    {
-      "title": "Why Are Pacific Northwest Ski Resorts so Obsessed With Bigfoot?",
-      "url": "https://www.skimag.com/culture/pacific-northwest-bigfoot-obsession/",
-      "source": "SKI Magazine",
-      "published": "2026-10-23T17:42:51.000Z"
     }
   ]
 }

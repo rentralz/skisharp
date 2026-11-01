@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-31T17:16:18.864Z",
+  "updated": "2026-11-01T12:01:12.192Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-10-31",
     "2026-11-01",
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-03"
   ],
   "resorts": [
     {
@@ -13,22 +13,22 @@
       "region": "Utah",
       "elevationM": 2987,
       "daily": [
-        0,
-        11.9,
-        4.7
+        7.1,
+        4.6,
+        0.1
       ],
-      "next3": 16.6
+      "next3": 11.7
     },
     {
       "name": "Park City",
       "region": "Utah",
       "elevationM": 2743,
       "daily": [
-        0,
-        5.2,
-        2.9
+        0.3,
+        1.7,
+        0
       ],
-      "next3": 8
+      "next3": 2
     },
     {
       "name": "Vail",
@@ -36,10 +36,10 @@
       "elevationM": 3005,
       "daily": [
         0,
-        0,
-        2
+        2.8,
+        0.1
       ],
-      "next3": 2
+      "next3": 2.9
     },
     {
       "name": "Breckenridge",
@@ -47,10 +47,10 @@
       "elevationM": 3291,
       "daily": [
         0,
-        0,
-        1.1
+        1.8,
+        0.2
       ],
-      "next3": 1.1
+      "next3": 2
     },
     {
       "name": "Jackson Hole",
@@ -59,42 +59,42 @@
       "daily": [
         0,
         0,
-        0.1
+        0
       ],
-      "next3": 0.1
+      "next3": 0
     },
     {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        0,
-        3.1,
-        1.4
+        1.9,
+        1,
+        0
       ],
-      "next3": 4.5
+      "next3": 2.9
     },
     {
       "name": "Palisades Tahoe",
       "region": "California",
       "elevationM": 2251,
       "daily": [
-        1.4,
-        0.3,
+        0.4,
+        0,
         0
       ],
-      "next3": 1.6
+      "next3": 0.4
     },
     {
       "name": "Mammoth Mountain",
       "region": "California",
       "elevationM": 3009,
       "daily": [
-        5.5,
-        4.4,
+        6.6,
+        0,
         0
       ],
-      "next3": 9.9
+      "next3": 6.6
     },
     {
       "name": "Killington",
