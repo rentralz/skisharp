@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-01T17:57:00.820Z",
+  "lastScanned": "2026-11-02T12:01:25.663Z",
   "totalDeals": 66,
   "sourceStats": {
     "reddit": 0,
@@ -7,6 +7,14 @@
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "PULIOU Winter Waterproof Thermal Gloves for Men Women, Cold Weather Windproof Ski Snow Gloves with Touchscreen Fingers $9.74",
+      "url": "https://slickdeals.net/f/20241009-puliou-winter-waterproof-thermal-gloves-for-men-women-cold-weather-windproof-ski-snow-gloves-with-touchscreen-fingers-9-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-01T20:24:09.000Z"
+    },
     {
       "title": "PRIME MEMBERS: AstroAI Windproof Ski Mask Balaclava, Winter Cold Weather Face Mask, Black $6.83 AC",
       "url": "https://slickdeals.net/f/20237379-prime-members-astroai-windproof-ski-mask-balaclava-winter-cold-weather-face-mask-black-6-83-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -344,14 +352,6 @@
       "posted": "2026-10-19T09:29:14.000Z"
     },
     {
-      "title": "Winter Gloves Touchscreen Windproof Thermal Gloves Men Women Cycling Running Climbing $11.29 - Amazon",
-      "url": "https://slickdeals.net/f/20174079-winter-gloves-touchscreen-windproof-thermal-gloves-men-women-cycling-running-climbing-11-29-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-18T09:47:51.000Z"
-    },
-    {
       "title": "NSSIW Ski Goggles for Men Women Youth, OTG Snowboard Goggles Snow Goggles with Anti Fog and UV Protection Over Glasses 2 Pack​ $23.99 AC",
       "url": "https://slickdeals.net/f/20169327-nssiw-ski-goggles-for-men-women-youth-otg-snowboard-goggles-snow-goggles-with-anti-fog-and-uv-protection-over-glasses-2-pack-23-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -464,39 +464,12 @@
       "posted": "2026-10-07T05:11:23.000Z"
     },
     {
-      "title": "🔍 Base Layer Deals",
-      "url": "https://www.amazon.com/s?k=ski+base+layer+deal&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "baselayers",
-      "posted": "2026-11-01T17:57:00.818Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Ski Boot Sales",
-      "url": "https://www.amazon.com/s?k=ski+boot+sale&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "boots",
-      "posted": "2026-11-01T17:57:00.818Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 All-Mountain Skis on Sale",
-      "url": "https://www.amazon.com/s?k=all+mountain+skis+sale&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "skis",
-      "posted": "2026-11-01T17:57:00.818Z",
-      "isAmazonSearch": true
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-01T17:57:00.817Z",
+      "posted": "2026-11-02T12:01:25.660Z",
       "isAmazonSearch": true
     },
     {
@@ -505,7 +478,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-01T17:57:00.817Z",
+      "posted": "2026-11-02T12:01:25.660Z",
       "isAmazonSearch": true
     },
     {
@@ -514,7 +487,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-01T17:57:00.817Z",
+      "posted": "2026-11-02T12:01:25.660Z",
       "isAmazonSearch": true
     },
     {
@@ -523,7 +496,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-01T17:57:00.817Z",
+      "posted": "2026-11-02T12:01:25.660Z",
       "isAmazonSearch": true
     },
     {
@@ -532,7 +505,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-01T17:57:00.817Z",
+      "posted": "2026-11-02T12:01:25.660Z",
       "isAmazonSearch": true
     },
     {
@@ -541,7 +514,34 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-01T17:57:00.817Z",
+      "posted": "2026-11-02T12:01:25.660Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Base Layer Deals",
+      "url": "https://www.amazon.com/s?k=ski+base+layer+deal&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "baselayers",
+      "posted": "2026-11-02T12:01:25.660Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Ski Boot Sales",
+      "url": "https://www.amazon.com/s?k=ski+boot+sale&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "boots",
+      "posted": "2026-11-02T12:01:25.660Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 All-Mountain Skis on Sale",
+      "url": "https://www.amazon.com/s?k=all+mountain+skis+sale&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "skis",
+      "posted": "2026-11-02T12:01:25.660Z",
       "isAmazonSearch": true
     }
   ]
