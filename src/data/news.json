@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-02T21:43:35.010Z",
+  "lastScanned": "2026-11-03T12:01:20.736Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -9,7 +9,67 @@
   },
   "items": [
     {
-      "title": "Why Vail Resorts Wants Shareholders To Reject Dissident’s Nominees",
+      "title": "A Skier's Honest Review of Jim Morrison's New Film 'Everest: The Other Side'",
+      "url": "https://www.powder.com/news/skiers-review-everst-the-other-side-jim-morrison",
+      "source": "POWDER",
+      "published": "2026-11-03T11:07:00.000Z"
+    },
+    {
+      "title": "Concerning 911 Text Leads to Overnight Rescue in Colorado's High Country",
+      "url": "https://www.powder.com/news/concerning-911-text-rescue-colorado-high-country",
+      "source": "POWDER",
+      "published": "2026-11-03T10:48:00.000Z"
+    },
+    {
+      "title": "Top 17 Ski Areas for Early-Season Skiing in North America",
+      "url": "https://snowbrains.com/best-early-season-ski-resorts/",
+      "source": "SnowBrains",
+      "published": "2026-11-03T02:58:11.000Z"
+    },
+    {
+      "title": "Inside Girl Winter 2026: Ski Films for the Collective ‘We’",
+      "url": "https://snowbrains.com/inside-girl-winter-film-tour-2026/",
+      "source": "SnowBrains",
+      "published": "2026-11-03T02:36:29.000Z"
+    },
+    {
+      "title": "Mt. Rose. NV, Aims to be the First Tahoe Resort to Open, Revealing November 6 Opening Date",
+      "url": "https://snowbrains.com/mt-rose-nv-opening-2026/",
+      "source": "SnowBrains",
+      "published": "2026-11-03T02:24:46.000Z"
+    },
+    {
+      "title": "Storm Skiing 11/2/2026: Big Ski Wants Lawsuit Dismissed; Sutner on Ski Area Consolidations, Expansions",
+      "url": "https://www.stormskiing.com/p/storm-skiing-1122026-big-ski-wants",
+      "source": "Storm Skiing Journal",
+      "published": "2026-11-02T23:21:20.000Z"
+    },
+    {
+      "title": "The 9 Best-Value Ski Resorts in the U.S. for 2026-27",
+      "url": "https://snowbrains.com/best-value-ski-resorts-us-hometogo-2026-27/",
+      "source": "SnowBrains",
+      "published": "2026-11-02T23:11:29.000Z"
+    },
+    {
+      "title": "At This Resort, The Owner is Driving A Snowcat, Turning Wrenches, and Fixing Broken Fences",
+      "url": "https://www.skimag.com/ski-resort-life/family-owned-resort-ski-santa-fe/",
+      "source": "SKI Magazine",
+      "published": "2026-11-02T23:01:50.000Z"
+    },
+    {
+      "title": "Idaho’s Soldier Mountain Ski Resort Expands Backcountry Skiing With Private Snowcat Trips for Groups as Small as Three",
+      "url": "https://unofficialnetworks.com/2026/11/02/soldier-mountain-expands-small-group-backcountry-cat-skiing/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-02T22:52:13.000Z"
+    },
+    {
+      "title": "Lake Tahoe Resort Should Become First West Coast Ski Area To Open for 2026-27 Season",
+      "url": "https://www.powder.com/news/mt-rose-confirms-opening-day",
+      "source": "POWDER",
+      "published": "2026-11-02T22:33:23.000Z"
+    },
+    {
+      "title": "Why Vail Resorts Wants Shareholders To Reject Dissident’s Board Nominees",
       "url": "https://unofficialnetworks.com/2026/11/02/vail-resorts-november-proxy-battle/",
       "source": "Unofficial Networks",
       "published": "2026-11-02T21:36:21.000Z"
@@ -183,40 +243,10 @@
       "published": "2026-11-02T04:16:41.000Z"
     },
     {
-      "title": "Why Is Everything in the Snowsports Industry Called “Ski” and Not “Snowboard?”",
-      "url": "https://snowbrains.com/why-everything-called-skiing-snowboard-terminology/",
-      "source": "SnowBrains",
-      "published": "2026-11-02T03:17:30.000Z"
-    },
-    {
-      "title": "Hedging Snowfall: Can Prediction Markets Protect Ski Resorts From the Financial Risk of Bad Winters?",
-      "url": "https://snowbrains.com/snowfall-hedging-ski-resorts/",
-      "source": "SnowBrains",
-      "published": "2026-11-01T21:59:09.000Z"
-    },
-    {
-      "title": "Old Farmer’s Almanac Christmas Weather Forecast 2026 for North America, Region by Region",
-      "url": "https://snowbrains.com/old-farmers-almanac-2026-white-christmas-forecast/",
-      "source": "SnowBrains",
-      "published": "2026-11-01T21:30:26.000Z"
-    },
-    {
-      "title": "European Ski Resorts Opening in November: The Big Names Kicking Off the 2026-27 Season",
-      "url": "https://snowbrains.com/european-ski-resorts-opening-november-2026/",
-      "source": "SnowBrains",
-      "published": "2026-11-01T20:40:02.000Z"
-    },
-    {
       "title": "One Last Tour of Old Aspen Mountain",
       "url": "https://www.stormskiing.com/p/one-last-tour-of-old-aspen-mountain",
       "source": "Storm Skiing Journal",
       "published": "2026-11-01T18:32:44.000Z"
-    },
-    {
-      "title": "Denver Broncos Use New Hampshire Photo To Promote Home Game",
-      "url": "https://unofficialnetworks.com/2026/11/01/denver-broncos-new-hampshire/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-01T16:25:18.000Z"
     },
     {
       "title": "Skiing Vermont's Pre-pre-Season Isn't for the Faint of Heart",
@@ -297,28 +327,10 @@
       "published": "2026-10-30T13:13:00.000Z"
     },
     {
-      "title": "Halloween Storm With Inches of Snow and 50 MPH Gusts Heads to California",
-      "url": "https://www.powder.com/news/halloween-storm-california-inches-snow",
-      "source": "POWDER",
-      "published": "2026-10-30T10:52:00.000Z"
-    },
-    {
       "title": "Storm News 10/29/2026: Why Mt. Bachelor’s Northwest Quad Upgrade Is a Big Deal with Resort President Merriman",
       "url": "https://www.stormskiing.com/p/storm-news-10292026-why-mt-bachelors",
       "source": "Storm Skiing Journal",
       "published": "2026-10-29T22:49:03.000Z"
-    },
-    {
-      "title": "Team USA Partners With The North Face on New Kits, Race Gear, and Apparel, You Can Buy The Collection Soon",
-      "url": "https://www.powder.com/gear/team-usa-partners-with-the-north-face-on-new-kits",
-      "source": "POWDER",
-      "published": "2026-10-29T19:09:41.000Z"
-    },
-    {
-      "title": "California Ski Resort To Open Snow Tubing for Halloween Weekend",
-      "url": "https://www.powder.com/news/sugar-bowl-snow-tubing-halloween",
-      "source": "POWDER",
-      "published": "2026-10-29T18:23:55.000Z"
     },
     {
       "title": "Where Did the Midweight Ski Touring Boot Go?",
@@ -355,18 +367,6 @@
       "url": "https://www.skimag.com/performance/fitness/dont-ignore-this-muscle-ski-fitness-routine/",
       "source": "SKI Magazine",
       "published": "2026-10-27T19:05:36.000Z"
-    },
-    {
-      "title": "A Complete Breakdown of Snow Pass’ 14-Mountain Debut Roster",
-      "url": "https://www.stormskiing.com/p/a-complete-breakdown-of-snow-pass",
-      "source": "Storm Skiing Journal",
-      "published": "2026-10-27T13:16:23.000Z"
-    },
-    {
-      "title": "Your Ski Gear Has Been Sitting All Summer. Here’s What to Check Before You Get on the Snow.",
-      "url": "https://www.skimag.com/gear/preseason-gear-checklist/",
-      "source": "SKI Magazine",
-      "published": "2026-10-26T21:43:59.000Z"
     }
   ]
 }
