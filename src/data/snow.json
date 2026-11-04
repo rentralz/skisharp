@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-03T19:30:16.436Z",
+  "updated": "2026-11-04T12:01:24.019Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-11-03",
     "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "resorts": [
     {
@@ -13,44 +13,44 @@
       "region": "Utah",
       "elevationM": 2987,
       "daily": [
+        1,
         0,
-        0.9,
         0
       ],
-      "next3": 0.9
+      "next3": 1
     },
     {
       "name": "Park City",
       "region": "Utah",
       "elevationM": 2743,
       "daily": [
+        0.7,
         0,
-        0.4,
-        0.2
+        0
       ],
-      "next3": 0.6
+      "next3": 0.7
     },
     {
       "name": "Vail",
       "region": "Colorado",
       "elevationM": 3005,
       "daily": [
-        0,
-        1.5,
-        0.2
+        3.8,
+        0.1,
+        0
       ],
-      "next3": 1.7
+      "next3": 3.9
     },
     {
       "name": "Breckenridge",
       "region": "Colorado",
       "elevationM": 3291,
       "daily": [
-        0,
-        5.5,
-        0.3
+        5.8,
+        0.2,
+        0.2
       ],
-      "next3": 5.8
+      "next3": 6.2
     },
     {
       "name": "Jackson Hole",
@@ -79,22 +79,22 @@
       "region": "California",
       "elevationM": 2251,
       "daily": [
-        0.2,
+        0,
         0,
         0
       ],
-      "next3": 0.2
+      "next3": 0
     },
     {
       "name": "Mammoth Mountain",
       "region": "California",
       "elevationM": 3009,
       "daily": [
-        0.6,
+        0,
         0,
         0
       ],
-      "next3": 0.6
+      "next3": 0
     },
     {
       "name": "Killington",
