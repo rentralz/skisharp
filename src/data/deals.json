@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-11-04T12:01:22.790Z",
-  "totalDeals": 67,
+  "lastScanned": "2026-11-04T19:47:10.064Z",
+  "totalDeals": 69,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 125,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "G Gradual Men's Thermal Shirts Long Sleeve Athletic Workout T-Shirts $12.99",
+      "url": "https://slickdeals.net/f/20254506-g-gradual-men-s-thermal-shirts-long-sleeve-athletic-workout-t-shirts-12-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-04T13:25:33.000Z"
+    },
+    {
+      "title": "9' Pop-Up Snowman with Skis and LED Twinkle Lights $199.99 free Shipping or $129.99 in Warehouse Costco.com",
+      "url": "https://slickdeals.net/f/20254449-9-pop-up-snowman-with-skis-and-led-twinkle-lights-199-99-free-shipping-or-129-99-in-warehouse-costco-com?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "skis",
+      "posted": "2026-11-04T13:11:25.000Z"
+    },
+    {
+      "title": "GXCROR Waterproof Ski Gloves for Men Women - $8.49",
+      "url": "https://slickdeals.net/f/20254329-gxcror-waterproof-ski-gloves-for-men-women-8-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-04T12:49:39.000Z"
+    },
     {
       "title": "NSSIW 2 Pack Snow Goggles - $22.99 - $23.99 AC",
       "url": "https://slickdeals.net/f/20252943-nssiw-2-pack-snow-goggles-22-99-23-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -352,14 +376,6 @@
       "posted": "2026-10-20T05:56:38.000Z"
     },
     {
-      "title": "ATERCEL Winter Running Gloves - $6.99 After coupon",
-      "url": "https://slickdeals.net/f/20179371-atercel-winter-running-gloves-6-99-after-coupon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-19T17:48:12.000Z"
-    },
-    {
       "title": "2-pack Anti-fog Wide Swim Goggles for Kids, $5.99 with code",
       "url": "https://slickdeals.net/f/20178222-2-pack-anti-fog-wide-swim-goggles-for-kids-5-99-with-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -477,7 +493,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     },
     {
@@ -486,7 +502,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     },
     {
@@ -495,7 +511,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     },
     {
@@ -504,7 +520,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     },
     {
@@ -513,7 +529,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     },
     {
@@ -522,7 +538,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     },
     {
@@ -531,7 +547,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     },
     {
@@ -540,7 +556,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     },
     {
@@ -549,7 +565,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-04T12:01:22.787Z",
+      "posted": "2026-11-04T19:47:10.061Z",
       "isAmazonSearch": true
     }
   ]
