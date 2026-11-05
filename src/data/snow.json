@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T12:01:19.137Z",
+  "updated": "2026-11-05T19:58:40.713Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -35,11 +35,11 @@
       "region": "Colorado",
       "elevationM": 3005,
       "daily": [
-        0.1,
+        0,
         0,
         0
       ],
-      "next3": 0.1
+      "next3": 0
     },
     {
       "name": "Breckenridge",
@@ -47,10 +47,10 @@
       "elevationM": 3291,
       "daily": [
         0,
-        0.5,
+        0,
         0
       ],
-      "next3": 0.5
+      "next3": 0
     },
     {
       "name": "Jackson Hole",

@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-11-05T12:01:18.171Z",
-  "totalDeals": 68,
+  "lastScanned": "2026-11-05T19:58:39.558Z",
+  "totalDeals": 70,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 125,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Thermal Underwear for Men - Long Johns Bottom Fleece Lined Base Layer Pants for just $5.99–$8.99 (regularly $19.99)",
+      "url": "https://slickdeals.net/f/20262432-thermal-underwear-for-men-long-johns-bottom-fleece-lined-base-layer-pants-for-just-5-99-8-99-regularly-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-11-05T18:50:24.000Z"
+    },
+    {
+      "title": "AstroAI Ski Mask Balaclava, Breathable Face Mask for Cold Weather $7.99",
+      "url": "https://slickdeals.net/f/20260695-astroai-ski-mask-balaclava-breathable-face-mask-for-cold-weather-7-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-11-05T13:59:06.000Z"
+    },
+    {
+      "title": "Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 $13.99 @Amazon",
+      "url": "https://slickdeals.net/f/20260680-freela-kids-ski-goggles-snowboard-snow-anti-fog-youth-toddler-for-3-14-13-99-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-05T13:57:21.000Z"
+    },
     {
       "title": "$9.88, FS, FIRM GRIP 6-in-1 Winter Balaclava, Home Depot",
       "url": "https://slickdeals.net/f/20257542-9-88-fs-firm-grip-6-in-1-winter-balaclava-home-depot?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -464,14 +488,6 @@
       "posted": "2026-10-12T18:20:08.000Z"
     },
     {
-      "title": "Water Space Kids Swim Goggles with Nose Cover Anti-Shattered No-Leak 3-15 - $7.99 - $12.99 after coupon",
-      "url": "https://slickdeals.net/f/20139669-water-space-kids-swim-goggles-with-nose-cover-anti-shattered-no-leak-3-15-7-99-12-99-after-coupon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-10T19:38:23.000Z"
-    },
-    {
       "title": "Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 $14.24 AC",
       "url": "https://slickdeals.net/f/20132385-freela-kids-ski-goggles-snowboard-snow-anti-fog-youth-toddler-for-3-14-14-24-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -485,7 +501,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     },
     {
@@ -494,7 +510,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     },
     {
@@ -503,7 +519,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     },
     {
@@ -512,7 +528,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     },
     {
@@ -521,7 +537,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     },
     {
@@ -530,7 +546,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     },
     {
@@ -539,7 +555,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     },
     {
@@ -548,7 +564,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     },
     {
@@ -557,7 +573,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-05T12:01:18.167Z",
+      "posted": "2026-11-05T19:58:39.555Z",
       "isAmazonSearch": true
     }
   ]
