@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-11-05T19:58:39.558Z",
-  "totalDeals": 70,
+  "lastScanned": "2026-11-06T12:01:00.123Z",
+  "totalDeals": 72,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 125,
+    "slickdeals": 127,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Odoland Kids Ski Helmet, Snow Helmet with Ski Goggles Set for Boys & Girls $29.74 - $31.49",
+      "url": "https://slickdeals.net/f/20264289-odoland-kids-ski-helmet-snow-helmet-with-ski-goggles-set-for-boys-girls-29-74-31-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-06T01:10:45.000Z"
+    },
+    {
+      "title": "Marvmys Womens T-Shirts Long Sleeve Turtleneck Tops Thermal Base Layer $4.99 AC",
+      "url": "https://slickdeals.net/f/20264163-marvmys-womens-t-shirts-long-sleeve-turtleneck-tops-thermal-base-layer-4-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-06T00:41:50.000Z"
+    },
     {
       "title": "Thermal Underwear for Men - Long Johns Bottom Fleece Lined Base Layer Pants for just $5.99–$8.99 (regularly $19.99)",
       "url": "https://slickdeals.net/f/20262432-thermal-underwear-for-men-long-johns-bottom-fleece-lined-base-layer-pants-for-just-5-99-8-99-regularly-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -32,12 +48,36 @@
       "posted": "2026-11-05T13:57:21.000Z"
     },
     {
+      "title": "Zoggs Unisex Bondi Anti-Fog Swimming Goggles w/ UV Protection (Black/Green) $4.19 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20259156-zoggs-unisex-bondi-anti-fog-swimming-goggles-w-uv-protection-black-green-4-19-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-05T06:36:12.000Z"
+    },
+    {
+      "title": "Freela 2Pcs Kids Swim Swimming Goggles for 3-16, One Piece Silicone Anti UV $4.99",
+      "url": "https://slickdeals.net/f/20257647-freela-2pcs-kids-swim-swimming-goggles-for-3-16-one-piece-silicone-anti-uv-4-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-05T00:54:31.000Z"
+    },
+    {
       "title": "$9.88, FS, FIRM GRIP 6-in-1 Winter Balaclava, Home Depot",
       "url": "https://slickdeals.net/f/20257542-9-88-fs-firm-grip-6-in-1-winter-balaclava-home-depot?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "accessories",
       "posted": "2026-11-05T00:20:37.000Z"
+    },
+    {
+      "title": "$9.88, FS, FIRM GRIP 2-Pack Performance Balaclava-One Size Fits Most",
+      "url": "https://slickdeals.net/f/20257503-9-88-fs-firm-grip-2-pack-performance-balaclava-one-size-fits-most?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-11-05T00:15:33.000Z"
     },
     {
       "title": "$5.38 FS Prime or at $35 AMAZON 2Pack Outdoor Faucet Covers for Winter,8.5\"x6.7\"x2\" Pro Spigot Cover Socks with Reflective Strips",
@@ -456,36 +496,12 @@
       "posted": "2026-10-15T12:31:38.000Z"
     },
     {
-      "title": "VISIOGEAR 4K Night Vision Goggles for Adults, AI Color Boost Mode, Night Vision Binoculars with 40MP Photos & Video Recording $38.99",
-      "url": "https://slickdeals.net/f/20159301-visiogear-4k-night-vision-goggles-for-adults-ai-color-boost-mode-night-vision-binoculars-with-40mp-photos-video-recording-38-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-14T17:58:46.000Z"
-    },
-    {
       "title": "MOERDENG Women's Softshell Waterproof Winter Jacket w/ Detachable Hood and Multiple Zipper Pockets (Various, Sizes S-L) from $16.19 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20152701-moerdeng-women-s-softshell-waterproof-winter-jacket-w-detachable-hood-and-multiple-zipper-pockets-various-sizes-s-l-from-16-19-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-10-13T15:06:46.000Z"
-    },
-    {
-      "title": "Outdoor Faucet Covers for Winter, Actgan 8.3\"H x 6\"W Thickened Outside Garden Faucet Socks for Freeze Protection, Reusable Insulated Faucet Covers, 2 Pack, Black $4.50 AC",
-      "url": "https://slickdeals.net/f/20148687-outdoor-faucet-covers-for-winter-actgan-8-3-h-x-6-w-thickened-outside-garden-faucet-socks-for-freeze-protection-reusable-insulated-faucet-covers-2-pack-black-4-50-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "socks",
-      "posted": "2026-10-12T21:04:09.000Z"
-    },
-    {
-      "title": "Dragon Alliance Snow Goggles (Various Styles/Colors) From $18 + Free S/H",
-      "url": "https://slickdeals.net/f/20147832-dragon-alliance-snow-goggles-various-styles-colors-from-18-free-s-h?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-12T18:20:08.000Z"
     },
     {
       "title": "Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 $14.24 AC",
@@ -501,7 +517,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     },
     {
@@ -510,7 +526,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     },
     {
@@ -519,7 +535,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     },
     {
@@ -528,7 +544,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     },
     {
@@ -537,7 +553,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     },
     {
@@ -546,7 +562,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     },
     {
@@ -555,7 +571,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     },
     {
@@ -564,7 +580,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     },
     {
@@ -573,7 +589,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-05T19:58:39.555Z",
+      "posted": "2026-11-06T12:01:00.121Z",
       "isAmazonSearch": true
     }
   ]
