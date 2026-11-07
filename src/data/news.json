@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-07T12:01:12.740Z",
+  "lastScanned": "2026-11-07T17:45:29.808Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,36 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "Lindsey Vonn Is Headed for Her 9th Surgery. She’s Still Thinking About Skiing.",
+      "url": "https://www.skimag.com/athletes/lindsey-vonn-surgery-skiing/",
+      "source": "SKI Magazine",
+      "published": "2026-11-07T17:30:53.000Z"
+    },
+    {
+      "title": "Stowe Chairlift Renamed In Honor Of Longtime Employee",
+      "url": "https://unofficialnetworks.com/2026/11/07/stowe-lookout-double-rename/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-07T17:27:26.000Z"
+    },
+    {
+      "title": "The Vail Resorts Proxy Fight for Dummies",
+      "url": "https://www.stormskiing.com/p/the-vail-resorts-proxy-fight-for",
+      "source": "Storm Skiing Journal",
+      "published": "2026-11-07T16:52:41.000Z"
+    },
+    {
+      "title": "Private Nevada Ski Resort Begins Construction on Two Chairlifts Following $7.2 Million in Permits",
+      "url": "https://unofficialnetworks.com/2026/11/07/private-nevada-ski-resort-begins-construction-on-two-chairlifts-following-7-2-million-in-permits/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-07T16:03:30.000Z"
+    },
+    {
+      "title": "Powder Mountain Completes Load Testing On New Lift Set To Unlock 1,000+ Acres",
+      "url": "https://unofficialnetworks.com/2026/11/07/powder-mountain-load-testing-new-lift/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-07T13:24:00.000Z"
+    },
     {
       "title": "U.S. Downhill Skier Wiley ‘Danger’ Maple Announces Second Retirement at Beaver Creek World Cup",
       "url": "https://snowbrains.com/wiley-maple-retire-world-cup-ski-racing-beaver-creek/",
@@ -255,18 +285,6 @@
       "published": "2026-11-05T17:53:01.000Z"
     },
     {
-      "title": "At Least 2 Colorado Ski Areas Will Be Open This Weekend",
-      "url": "https://unofficialnetworks.com/2026/11/05/at-least-3-colorado-ski-areas-will-be-open-this-weekend/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-05T17:52:40.000Z"
-    },
-    {
-      "title": "Breckenridge Delays Planned November 6th Opening Day",
-      "url": "https://unofficialnetworks.com/2026/11/05/breckenridge-delays-planned-opening-day/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-05T17:23:36.000Z"
-    },
-    {
       "title": "Why Baltimore, Maryland, Just Dedicated a Street to Lindsey Vonn",
       "url": "https://www.powder.com/news/baltimore-lindsey-vonn-street-dedication",
       "source": "POWDER",
@@ -277,12 +295,6 @@
       "url": "https://www.skimag.com/ski-resort-life/resort-guide-2027/top-30-ski-resorts-west-2027/",
       "source": "SKI Magazine",
       "published": "2026-11-05T17:00:10.000Z"
-    },
-    {
-      "title": "This 4.5-Mile Ski Run in Austria Might Be The Most Beautiful In The Alps",
-      "url": "https://unofficialnetworks.com/2026/11/05/most-beautiful-ski-run-alps/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-05T16:38:40.000Z"
     },
     {
       "title": "Indy Pass Adds Upgrade That Unlocks More Days of Skiing at 13 Destination Resorts",
@@ -355,18 +367,6 @@
       "url": "https://www.stormskiing.com/p/storm-news-10302026-the-robots-are",
       "source": "Storm Skiing Journal",
       "published": "2026-10-30T22:33:56.000Z"
-    },
-    {
-      "title": "Go Further in Québec’s Winter Wilderness",
-      "url": "https://www.skimag.com/adventure/backcountry/go-further-in-quebecs-winter-wilderness/",
-      "source": "SKI Magazine",
-      "published": "2026-10-30T21:11:33.000Z"
-    },
-    {
-      "title": "Why Québec is the Ultimate East Coast Ski Destination",
-      "url": "https://www.skimag.com/ski-resort-life/canada/why-quebec-is-the-ultimate-east-coast-ski-destination/",
-      "source": "SKI Magazine",
-      "published": "2026-10-30T18:25:56.000Z"
     }
   ]
 }
