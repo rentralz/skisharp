@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-11-06T19:26:20.419Z",
-  "totalDeals": 72,
+  "lastScanned": "2026-11-07T12:01:11.626Z",
+  "totalDeals": 74,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 127,
+    "slickdeals": 128,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "HAMUNI 70% Wool Beanie with Brim & Earflaps Fleece Lined Winter Hats for Men Women $9.99",
+      "url": "https://slickdeals.net/f/20268741-hamuni-70-wool-beanie-with-brim-earflaps-fleece-lined-winter-hats-for-men-women-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-11-06T19:52:47.000Z"
+    },
+    {
+      "title": "Tec-One Men’s Colorblock Ski Snowboard Hooded Jacket, Heavyweight, Sizes S-2XL (2 options) - $17.25",
+      "url": "https://slickdeals.net/f/20268636-tec-one-men-s-colorblock-ski-snowboard-hooded-jacket-heavyweight-sizes-s-2xl-2-options-17-25?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-11-06T19:29:36.000Z"
+    },
     {
       "title": "Odoland Kids Ski Helmet, Snow Helmet with Ski Goggles Set for Boys & Girls $29.74 - $31.49",
       "url": "https://slickdeals.net/f/20264289-odoland-kids-ski-helmet-snow-helmet-with-ski-goggles-set-for-boys-girls-29-74-31-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -86,6 +102,14 @@
       "sourceIcon": "💰",
       "category": "socks",
       "posted": "2026-11-04T20:18:25.000Z"
+    },
+    {
+      "title": "[Prime] RIGWARL Men's & Women's Touchscreen Windproof Winter Gloves (Black) from $6.95 + Free Shipping",
+      "url": "https://slickdeals.net/f/20256009-prime-rigwarl-men-s-women-s-touchscreen-windproof-winter-gloves-black-from-6-95-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-04T18:51:48.000Z"
     },
     {
       "title": "TELUHA Night Vision Goggles, 4K Night Vision Binoculars for Adults $64.99",
@@ -408,14 +432,6 @@
       "posted": "2026-10-23T02:42:14.000Z"
     },
     {
-      "title": "Amazon – Kids Waterproof 3M Thinsulate Winter Gloves - $8.39–$8.99 w/ Code",
-      "url": "https://slickdeals.net/f/20192724-amazon-kids-waterproof-3m-thinsulate-winter-gloves-8-39-8-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-22T14:31:58.000Z"
-    },
-    {
       "title": "PRIME MEMBERS: Odoland Ski Helmet with 2-in-1 Visor 14 vents and Adjustable Dial Fit ASTM Certified Goggles L $31.49 AC + Free Shipping",
       "url": "https://slickdeals.net/f/20188362-prime-members-odoland-ski-helmet-with-2-in-1-visor-14-vents-and-adjustable-dial-fit-astm-certified-goggles-l-31-49-ac-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -517,7 +533,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     },
     {
@@ -526,7 +542,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     },
     {
@@ -535,7 +551,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     },
     {
@@ -544,7 +560,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     },
     {
@@ -553,7 +569,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     },
     {
@@ -562,7 +578,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     },
     {
@@ -571,7 +587,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     },
     {
@@ -580,7 +596,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     },
     {
@@ -589,7 +605,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-06T19:26:20.415Z",
+      "posted": "2026-11-07T12:01:11.623Z",
       "isAmazonSearch": true
     }
   ]
