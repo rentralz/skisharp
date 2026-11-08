@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-11-08T12:01:00.237Z",
-  "totalDeals": 73,
+  "lastScanned": "2026-11-08T17:56:55.634Z",
+  "totalDeals": 75,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 126,
+    "slickdeals": 128,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Pixel Panda Winter Gloves for Men Women, Warm Gloves for Cold Weather $7-$9",
+      "url": "https://slickdeals.net/f/20275326-pixel-panda-winter-gloves-for-men-women-warm-gloves-for-cold-weather-7-9?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-08T16:00:06.000Z"
+    },
+    {
+      "title": "Pixel Panda Ski Mittens for Men Women, Waterproof Snowboard Mittens $8.99",
+      "url": "https://slickdeals.net/f/20275320-pixel-panda-ski-mittens-for-men-women-waterproof-snowboard-mittens-8-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-08T15:56:03.000Z"
+    },
     {
       "title": "Ekouaer Long Sleeve Shirts for Women Ribbed Base Layer with Thumb Holes $5.99",
       "url": "https://slickdeals.net/f/20273904-ekouaer-long-sleeve-shirts-for-women-ribbed-base-layer-with-thumb-holes-5-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -525,7 +541,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     },
     {
@@ -534,7 +550,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     },
     {
@@ -543,7 +559,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     },
     {
@@ -552,7 +568,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     },
     {
@@ -561,7 +577,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     },
     {
@@ -570,7 +586,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     },
     {
@@ -579,7 +595,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     },
     {
@@ -588,7 +604,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     },
     {
@@ -597,7 +613,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-08T12:01:00.234Z",
+      "posted": "2026-11-08T17:56:55.631Z",
       "isAmazonSearch": true
     }
   ]
