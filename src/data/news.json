@@ -1,13 +1,19 @@
 {
-  "lastScanned": "2026-11-07T17:45:29.808Z",
+  "lastScanned": "2026-11-08T12:01:10.887Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
-    "SnowBrains": 15,
+    "SnowBrains": 0,
     "Unofficial Networks": 15,
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "How Sean Bean and a Virtual Production Stage Made It Into One of the Year's Best Ski Movies",
+      "url": "https://www.powder.com/news/we-cant-not-ski-movie-making-of",
+      "source": "POWDER",
+      "published": "2026-11-08T11:58:00.000Z"
+    },
     {
       "title": "Lindsey Vonn Is Headed for Her 9th Surgery. She’s Still Thinking About Skiing.",
       "url": "https://www.skimag.com/athletes/lindsey-vonn-surgery-skiing/",
@@ -39,12 +45,6 @@
       "published": "2026-11-07T13:24:00.000Z"
     },
     {
-      "title": "U.S. Downhill Skier Wiley ‘Danger’ Maple Announces Second Retirement at Beaver Creek World Cup",
-      "url": "https://snowbrains.com/wiley-maple-retire-world-cup-ski-racing-beaver-creek/",
-      "source": "SnowBrains",
-      "published": "2026-11-07T11:55:54.000Z"
-    },
-    {
       "title": "Against All Odds, Mt. Rose Did It Again: Opening Day Conditions Report",
       "url": "https://www.powder.com/news/mt-rose-opening-day-conditions-report-2026",
       "source": "POWDER",
@@ -57,34 +57,10 @@
       "published": "2026-11-07T10:59:00.000Z"
     },
     {
-      "title": "Skiing the PNW – The Best Months to Ski Oregon and Washington",
-      "url": "https://snowbrains.com/best-months-skiing-washington-oregon/",
-      "source": "SnowBrains",
-      "published": "2026-11-07T09:35:38.000Z"
-    },
-    {
-      "title": "PRO Skijor’s Frontier Tour Grows to 6 Stops in 2027",
-      "url": "https://snowbrains.com/pro-skijors-frontier-tour-grows-to-6-stops-in-2027/",
-      "source": "SnowBrains",
-      "published": "2026-11-07T02:28:28.000Z"
-    },
-    {
       "title": "Storm News 11/6/2026: ‘Vail Daily’s’ Taylor Explains Vail Resorts’ Proxy Battle",
       "url": "https://www.stormskiing.com/p/storm-news-1162026-vail-dailys-taylor",
       "source": "Storm Skiing Journal",
       "published": "2026-11-07T01:11:21.000Z"
-    },
-    {
-      "title": "FIS Alpine World Cup Returns to Levi, Finland, in 1 Week as Resort Passes Snow Control",
-      "url": "https://snowbrains.com/levi-finland-world-cup-snow-control-2026/",
-      "source": "SnowBrains",
-      "published": "2026-11-07T00:49:14.000Z"
-    },
-    {
-      "title": "Former Peak Resorts Owners Who Sold to Vail Resorts in 2019 Set to Buy Snowy Range Ski Area, WY",
-      "url": "https://snowbrains.com/boyd-family-snowy-range-ski-area-comeback/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T23:42:28.000Z"
     },
     {
       "title": "Why Canada’s Second-Largest Ski Resort Changed Its Name",
@@ -93,34 +69,16 @@
       "published": "2026-11-06T21:51:20.000Z"
     },
     {
-      "title": "Maison Sport Launches AlpineOffice Platform to Help Independent Ski Instructors Manage Their Businesses",
-      "url": "https://snowbrains.com/maison-sport-launches-alpineoffice-instructor-management-platform/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T21:23:32.000Z"
-    },
-    {
       "title": "Southern New Hampshire Ski Area Announces New General Manager",
       "url": "https://unofficialnetworks.com/2026/11/06/crotched-mountain-new-gm/",
       "source": "Unofficial Networks",
       "published": "2026-11-06T21:20:37.000Z"
     },
     {
-      "title": "November 2026 State of the Western U.S. Snowpack: Plenty of Blue with Big Regional Differences",
-      "url": "https://snowbrains.com/early-season-snowpack-breakdown-western-us-november-2026/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T20:37:26.000Z"
-    },
-    {
       "title": "Fundraising at Burned Montana Ski Area Gets $250,000 Matching Boost",
       "url": "https://www.powder.com/news/fundraising-maverick-mountain-boost",
       "source": "POWDER",
       "published": "2026-11-06T20:19:52.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Weekend Snow Favors Whistler’s Higher Terrain in the Pacific Northwest",
-      "url": "https://snowbrains.com/snowbrains-forecast-weekend-snow-favors-whistlers-higher-terrain-in-the-pacific-northwest/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T20:03:42.000Z"
     },
     {
       "title": "Vail Has Free On-Mountain Grills— Here’s Where to Find Them",
@@ -135,22 +93,10 @@
       "published": "2026-11-06T19:19:40.000Z"
     },
     {
-      "title": "SKI Magazine’s 2027 Resort Guide Rankings for North America: Top Resorts in the East and West",
-      "url": "https://snowbrains.com/ski-magazine-top-50-resorts-north-america-2027/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T18:30:07.000Z"
-    },
-    {
       "title": "Are Your Ski Pole Straps Putting You at Risk?",
       "url": "https://unofficialnetworks.com/2026/11/06/ski-pole-straps-safety-risk/",
       "source": "Unofficial Networks",
       "published": "2026-11-06T18:23:46.000Z"
-    },
-    {
-      "title": "Snow Science: What Is Snow-to-Liquid Ratio and Why Does It Matter?",
-      "url": "https://snowbrains.com/brain-post-what-is-the-snow-liquid-ratio/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T18:20:38.000Z"
     },
     {
       "title": "This 600-Acre Wyoming Ski Area Only Allows 12 Skiers on the Mountain at Once",
@@ -171,22 +117,10 @@
       "published": "2026-11-06T17:52:06.000Z"
     },
     {
-      "title": "Loveland, CO, to Open for 2026-27 Season on Saturday with $60 Lift Tickets",
-      "url": "https://snowbrains.com/loveland-open-saturday/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T17:24:06.000Z"
-    },
-    {
       "title": "Four Canadian Ski Resorts Will Be Open This Weekend",
       "url": "https://unofficialnetworks.com/2026/11/06/three-canadian-ski-resorts-open/",
       "source": "Unofficial Networks",
       "published": "2026-11-06T16:59:08.000Z"
-    },
-    {
-      "title": "Winter Park, CO, Gondola Passes Next Step With Voter Approval",
-      "url": "https://snowbrains.com/winter-park-co-gondola-passes-next-step-with-voter-approval/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T16:43:52.000Z"
     },
     {
       "title": "University of Utah Rail Jam Returns With Professional Skiers and Snowboarders",
@@ -213,28 +147,10 @@
       "published": "2026-11-06T14:18:14.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Niseko Leads Japan with 25-40 cm as Cold Snow Continues",
-      "url": "https://snowbrains.com/snowbrains-forecast-niseko-leads-japan-with-25-40-cm-as-cold-snow-continues/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T14:03:45.000Z"
-    },
-    {
       "title": "Stunning Photos and Video Show Snowmaking Roar To Life at New Hampshire's Largest Ski Resort",
       "url": "https://www.powder.com/news/snowmaking-bretton-woods-new-hampshire",
       "source": "POWDER",
       "published": "2026-11-06T10:02:00.000Z"
-    },
-    {
-      "title": "Warm Temperatures Force Copper Mountain, CO, to Delay Opening Day",
-      "url": "https://snowbrains.com/warm-temperatures-force-copper-mountain-co-to-delay-opening-day/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T02:54:40.000Z"
-    },
-    {
-      "title": "Breckenridge, CO, Forced to Delay Opening Day",
-      "url": "https://snowbrains.com/breckenridge-co-forced-to-delay-opening-day/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T02:47:03.000Z"
     },
     {
       "title": "Storm News 11/5/2026: Financial CEO James Early Analyzes Vail Resorts' Stock",
@@ -315,12 +231,6 @@
       "published": "2026-11-04T21:17:53.000Z"
     },
     {
-      "title": "Video: Skier Caught in Sizable Avalanche in Colorado Backcountry",
-      "url": "https://www.powder.com/news/video-skier-caught-in-sizable-avalanche-in-colorado-backcountry",
-      "source": "POWDER",
-      "published": "2026-11-04T19:23:41.000Z"
-    },
-    {
       "title": "My Ski Helmet Looks Perfectly Fine. Here’s Why I’m Replacing It Anyway.",
       "url": "https://www.skimag.com/gear/helmets-goggles/when-to-replace-ski-helmet-after-crash/",
       "source": "SKI Magazine",
@@ -367,6 +277,66 @@
       "url": "https://www.stormskiing.com/p/storm-news-10302026-the-robots-are",
       "source": "Storm Skiing Journal",
       "published": "2026-10-30T22:33:56.000Z"
+    },
+    {
+      "title": "Go Further in Québec’s Winter Wilderness",
+      "url": "https://www.skimag.com/adventure/backcountry/go-further-in-quebecs-winter-wilderness/",
+      "source": "SKI Magazine",
+      "published": "2026-10-30T21:11:33.000Z"
+    },
+    {
+      "title": "Why Québec is the Ultimate East Coast Ski Destination",
+      "url": "https://www.skimag.com/ski-resort-life/canada/why-quebec-is-the-ultimate-east-coast-ski-destination/",
+      "source": "SKI Magazine",
+      "published": "2026-10-30T18:25:56.000Z"
+    },
+    {
+      "title": "Storm News 10/29/2026: Why Mt. Bachelor’s Northwest Quad Upgrade Is a Big Deal with Resort President Merriman",
+      "url": "https://www.stormskiing.com/p/storm-news-10292026-why-mt-bachelors",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-29T22:49:03.000Z"
+    },
+    {
+      "title": "Storm News 10/28/2026: Sundance Expands Again With Second High-Speed Quad",
+      "url": "https://www.stormskiing.com/p/storm-news-10282026-sundance-expands",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-28T21:56:50.000Z"
+    },
+    {
+      "title": "Storm News 10/27/2026: Andy Bigford Says Powdr Should “Pull the Plug” on Selling Eldora to Nederland",
+      "url": "https://www.stormskiing.com/p/storm-news-10272026-andy-bigford",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-27T20:54:28.000Z"
+    },
+    {
+      "title": "A Complete Breakdown of Snow Pass’ 14-Mountain Debut Roster",
+      "url": "https://www.stormskiing.com/p/a-complete-breakdown-of-snow-pass",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-27T13:16:23.000Z"
+    },
+    {
+      "title": "Storm Skiing 10/23/2026: Powder Mountain CEO Brandi Hammon on Expansion, $99 Lift Tickets, & New Lifts",
+      "url": "https://www.stormskiing.com/p/storm-skiing-10232026-powder-mountain",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-23T21:46:11.000Z"
+    },
+    {
+      "title": "Storm Skiing 10/22/2026: Vail Pushes Back on Proxy Fight + Jackson Hogen on Selecting Ski Gear in the Digital Age",
+      "url": "https://www.stormskiing.com/p/storm-skiing-10222026-vail-pushes",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-23T00:37:53.000Z"
+    },
+    {
+      "title": "Storm Skiing 10/21/2026: Lee Canyon’s Big Expansion Ambitions, with GM Josh Bean",
+      "url": "https://www.stormskiing.com/p/storm-skiing-10212026-lee-canyons",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-21T23:15:24.000Z"
+    },
+    {
+      "title": "Storm News 10/20/2026: Inside Greek Peak’s Massive Snowmaking Upgrade",
+      "url": "https://www.stormskiing.com/p/storm-news-10202026-inside-greek",
+      "source": "Storm Skiing Journal",
+      "published": "2026-10-20T20:20:43.000Z"
     }
   ]
 }
