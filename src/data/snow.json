@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T12:00:55.139Z",
+  "updated": "2026-11-09T22:23:17.072Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -102,10 +102,10 @@
       "elevationM": 792,
       "daily": [
         0,
-        0.1,
+        0,
         0
       ],
-      "next3": 0.1
+      "next3": 0
     }
   ]
 }
