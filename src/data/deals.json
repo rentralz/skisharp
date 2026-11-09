@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-11-08T17:56:55.634Z",
-  "totalDeals": 75,
+  "lastScanned": "2026-11-09T12:00:53.895Z",
+  "totalDeals": 74,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 128,
+    "slickdeals": 126,
     "amazon": 9
   },
   "deals": [
@@ -30,6 +30,14 @@
       "sourceIcon": "💰",
       "category": "baselayers",
       "posted": "2026-11-08T04:58:57.000Z"
+    },
+    {
+      "title": "Seago Swim Goggles for Kids 3-14 Anti-Fog & UV Wide Clear View Boys Girls $6.49 @amazon",
+      "url": "https://slickdeals.net/f/20271606-seago-swim-goggles-for-kids-3-14-anti-fog-uv-wide-clear-view-boys-girls-6-49-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-07T14:36:43.000Z"
     },
     {
       "title": "HAMUNI 70% Wool Beanie with Brim & Earflaps Fleece Lined Winter Hats for Men Women $9.99",
@@ -142,14 +150,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-11-04T14:23:09.000Z"
-    },
-    {
-      "title": "G Gradual Men's Thermal Shirts Long Sleeve Athletic Workout T-Shirts $12.99",
-      "url": "https://slickdeals.net/f/20254506-g-gradual-men-s-thermal-shirts-long-sleeve-athletic-workout-t-shirts-12-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-11-04T13:25:33.000Z"
     },
     {
       "title": "9' Pop-Up Snowman with Skis and LED Twinkle Lights $199.99 free Shipping or $129.99 in Warehouse Costco.com",
@@ -488,14 +488,6 @@
       "posted": "2026-10-19T09:29:14.000Z"
     },
     {
-      "title": "NSSIW Ski Goggles for Men Women Youth, OTG Snowboard Goggles Snow Goggles with Anti Fog and UV Protection Over Glasses 2 Pack​ $23.99 AC",
-      "url": "https://slickdeals.net/f/20169327-nssiw-ski-goggles-for-men-women-youth-otg-snowboard-goggles-snow-goggles-with-anti-fog-and-uv-protection-over-glasses-2-pack-23-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-16T20:48:16.000Z"
-    },
-    {
       "title": "SWISSWELL Kids Winter Ski Jacket Waterproof Snow Coat Outerwear for Boys or Girls $22.99 AC",
       "url": "https://slickdeals.net/f/20169072-swisswell-kids-winter-ski-jacket-waterproof-snow-coat-outerwear-for-boys-or-girls-22-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -541,7 +533,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     },
     {
@@ -550,7 +542,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     },
     {
@@ -559,7 +551,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     },
     {
@@ -568,7 +560,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     },
     {
@@ -577,7 +569,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     },
     {
@@ -586,7 +578,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     },
     {
@@ -595,7 +587,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     },
     {
@@ -604,7 +596,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     },
     {
@@ -613,7 +605,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-08T17:56:55.631Z",
+      "posted": "2026-11-09T12:00:53.894Z",
       "isAmazonSearch": true
     }
   ]

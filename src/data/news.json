@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-08T17:56:56.384Z",
+  "lastScanned": "2026-11-09T12:00:55.035Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,42 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "Top 10 Resorts in the West for Snow Quality (2027)",
+      "url": "https://www.skimag.com/ski-resort-life/resort-guide-2027/top-10-west-snow-quality-2/",
+      "source": "SKI Magazine",
+      "published": "2026-11-09T12:00:15.000Z"
+    },
+    {
+      "title": "PSIA-AASI West CEO Marisa Cooper Steps Down Amid Ongoing Legal Dispute",
+      "url": "https://snowbrains.com/psia-aasi-west-ceo-marisa-cooper-steps-down-amid-ongoing-legal-dispute/",
+      "source": "SnowBrains",
+      "published": "2026-11-09T10:32:55.000Z"
+    },
+    {
+      "title": "Aspen’s Famous Snow Polo Could Be Forced to Relocate Amid Colorado Drought",
+      "url": "https://snowbrains.com/aspen-snow-polo-could-be-forced-to-relocate/",
+      "source": "SnowBrains",
+      "published": "2026-11-09T03:19:38.000Z"
+    },
+    {
+      "title": "Soldier Mountain, ID, Expands Cat-Skiing Fleet With 2 New Snowcats",
+      "url": "https://snowbrains.com/soldier-mountain-id-expands-cat-skiing-fleet-with-2-new-snowcats/",
+      "source": "SnowBrains",
+      "published": "2026-11-09T02:29:08.000Z"
+    },
+    {
+      "title": "[PHOTOS] Hokkaido, Japan, Hit by First Major Snowstorm of Winter, With 97 MPH Wind Gusts",
+      "url": "https://snowbrains.com/hokkaido-japan-first-major-snowstorm-november-2026/",
+      "source": "SnowBrains",
+      "published": "2026-11-08T22:34:48.000Z"
+    },
+    {
+      "title": "Italy’s ‘Queen of Speed’ Sofia Goggia Says Recovery Is Going Well as She Builds Ski Mileage",
+      "url": "https://snowbrains.com/sofia-goggia-recovery-update-ski-training/",
+      "source": "SnowBrains",
+      "published": "2026-11-08T21:21:48.000Z"
+    },
     {
       "title": "The 5 Most Easily Accessible Ski Resorts From Denver, CO",
       "url": "https://snowbrains.com/the-5-most-easily-accessible-ski-resorts-from-denver/",
@@ -135,46 +171,16 @@
       "published": "2026-11-07T10:59:00.000Z"
     },
     {
-      "title": "Skiing the PNW – The Best Months to Ski Oregon and Washington",
-      "url": "https://snowbrains.com/best-months-skiing-washington-oregon/",
-      "source": "SnowBrains",
-      "published": "2026-11-07T09:35:38.000Z"
-    },
-    {
-      "title": "PRO Skijor’s Frontier Tour Grows to 6 Stops in 2027",
-      "url": "https://snowbrains.com/pro-skijors-frontier-tour-grows-to-6-stops-in-2027/",
-      "source": "SnowBrains",
-      "published": "2026-11-07T02:28:28.000Z"
-    },
-    {
       "title": "Storm News 11/6/2026: ‘Vail Daily’s’ Taylor Explains Vail Resorts’ Proxy Battle",
       "url": "https://www.stormskiing.com/p/storm-news-1162026-vail-dailys-taylor",
       "source": "Storm Skiing Journal",
       "published": "2026-11-07T01:11:21.000Z"
     },
     {
-      "title": "FIS Alpine World Cup Returns to Levi, Finland, in 1 Week as Resort Passes Snow Control",
-      "url": "https://snowbrains.com/levi-finland-world-cup-snow-control-2026/",
-      "source": "SnowBrains",
-      "published": "2026-11-07T00:49:14.000Z"
-    },
-    {
-      "title": "Former Peak Resorts Owners Who Sold to Vail Resorts in 2019 Set to Buy Snowy Range Ski Area, WY",
-      "url": "https://snowbrains.com/boyd-family-snowy-range-ski-area-comeback/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T23:42:28.000Z"
-    },
-    {
       "title": "Why Canada’s Second-Largest Ski Resort Changed Its Name",
       "url": "https://unofficialnetworks.com/2026/11/06/sun-peaks-name-change/",
       "source": "Unofficial Networks",
       "published": "2026-11-06T21:51:20.000Z"
-    },
-    {
-      "title": "Maison Sport Launches AlpineOffice Platform to Help Independent Ski Instructors Manage Their Businesses",
-      "url": "https://snowbrains.com/maison-sport-launches-alpineoffice-instructor-management-platform/",
-      "source": "SnowBrains",
-      "published": "2026-11-06T21:23:32.000Z"
     },
     {
       "title": "Southern New Hampshire Ski Area Announces New General Manager",
@@ -361,12 +367,6 @@
       "url": "https://www.skimag.com/culture/red-bull-we-cant-not-ski-film/",
       "source": "SKI Magazine",
       "published": "2026-11-01T02:58:21.000Z"
-    },
-    {
-      "title": "Storm News 10/30/2026: The Robots Are Coming to Drive You Uphill + Sipapu Expansion",
-      "url": "https://www.stormskiing.com/p/storm-news-10302026-the-robots-are",
-      "source": "Storm Skiing Journal",
-      "published": "2026-10-30T22:33:56.000Z"
     }
   ]
 }

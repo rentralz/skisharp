@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-08T17:56:56.544Z",
+  "updated": "2026-11-09T12:00:55.139Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-11-08",
     "2026-11-09",
-    "2026-11-10"
+    "2026-11-10",
+    "2026-11-11"
   ],
   "resorts": [
     {
@@ -102,10 +102,10 @@
       "elevationM": 792,
       "daily": [
         0,
-        0,
+        0.1,
         0
       ],
-      "next3": 0
+      "next3": 0.1
     }
   ]
 }
