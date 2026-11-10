@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-11-09T22:23:15.969Z",
-  "totalDeals": 74,
+  "lastScanned": "2026-11-10T12:01:12.157Z",
+  "totalDeals": 75,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 126,
+    "slickdeals": 124,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "YANIKY Balaclava Ski Mask for Men & Women Thermal Winter Face Mask for Cold Weather $7.42 AC",
+      "url": "https://slickdeals.net/f/20281524-yaniky-balaclava-ski-mask-for-men-women-thermal-winter-face-mask-for-cold-weather-7-42-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-09T23:16:23.000Z"
+    },
+    {
+      "title": "YANIKY Winter Neck Gaiter Warmer Half Face Mask for Cold Weather STARTING at $5.99 AC",
+      "url": "https://slickdeals.net/f/20281491-yaniky-winter-neck-gaiter-warmer-half-face-mask-for-cold-weather-starting-at-5-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-11-09T23:10:22.000Z"
+    },
     {
       "title": "Ekouaer 3 Pack Thermal Underwear for Men Waffle Long Johns Base Layer Pants $17.99",
       "url": "https://slickdeals.net/f/20280159-ekouaer-3-pack-thermal-underwear-for-men-waffle-long-johns-base-layer-pants-17-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -14,6 +30,14 @@
       "sourceIcon": "💰",
       "category": "pants",
       "posted": "2026-11-09T18:44:40.000Z"
+    },
+    {
+      "title": "Seago Kids Swim Goggles Nose Cover Anti-Fog Tempered Glass Panoramic Wide View for Boys Girls 6-14 $7.99 @Amazon",
+      "url": "https://slickdeals.net/f/20278470-seago-kids-swim-goggles-nose-cover-anti-fog-tempered-glass-panoramic-wide-view-for-boys-girls-6-14-7-99-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-09T13:28:37.000Z"
     },
     {
       "title": "Pixel Panda Winter Gloves for Men Women, Warm Gloves for Cold Weather $7-$9",
@@ -456,28 +480,12 @@
       "posted": "2026-10-21T16:52:24.000Z"
     },
     {
-      "title": "Keary 2 Pack Kids Swim Goggles Panoramic HD view Anti-Fog & UV Girls Boys 3-15 $7.49",
-      "url": "https://slickdeals.net/f/20182659-keary-2-pack-kids-swim-goggles-panoramic-hd-view-anti-fog-uv-girls-boys-3-15-7-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-20T13:28:21.000Z"
-    },
-    {
       "title": "Amazon Basics Snow Brush with Ice Scraper, Ergonomic Grip,Black,Blue 26.18” (66.5cm) inches $8.99",
       "url": "https://slickdeals.net/f/20181612-amazon-basics-snow-brush-with-ice-scraper-ergonomic-grip-black-blue-26-18-66-5cm-inches-8-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "other",
       "posted": "2026-10-20T05:56:38.000Z"
-    },
-    {
-      "title": "2-pack Anti-fog Wide Swim Goggles for Kids, $5.99 with code",
-      "url": "https://slickdeals.net/f/20178222-2-pack-anti-fog-wide-swim-goggles-for-kids-5-99-with-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-19T13:57:49.000Z"
     },
     {
       "title": "$7.19, FS Prime, Amazon Basics Snow Brush with Ice Scraper, Ergonomic Grip,Black,Blue, Woot!",
@@ -533,7 +541,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     },
     {
@@ -542,7 +550,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     },
     {
@@ -551,7 +559,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     },
     {
@@ -560,7 +568,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     },
     {
@@ -569,7 +577,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     },
     {
@@ -578,7 +586,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     },
     {
@@ -587,7 +595,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     },
     {
@@ -596,7 +604,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     },
     {
@@ -605,7 +613,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-09T22:23:15.967Z",
+      "posted": "2026-11-10T12:01:12.155Z",
       "isAmazonSearch": true
     }
   ]
