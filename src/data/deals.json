@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-11-10T12:01:12.157Z",
-  "totalDeals": 75,
+  "lastScanned": "2026-11-10T19:45:22.264Z",
+  "totalDeals": 74,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 124,
+    "slickdeals": 122,
     "amazon": 9
   },
   "deals": [
@@ -320,14 +320,6 @@
       "posted": "2026-10-30T03:32:46.000Z"
     },
     {
-      "title": "REI Co-op Men's Swiftland Thermal Running Half-Zip Pullover (Blue or Black, Limited Sizes) $26.93 + Free Shipping w/ REI Membership or on $100+",
-      "url": "https://slickdeals.net/f/20226435-rei-co-op-men-s-swiftland-thermal-running-half-zip-pullover-blue-or-black-limited-sizes-26-93-free-shipping-w-rei-membership-or-on-100?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-29T09:22:15.000Z"
-    },
-    {
       "title": "SAVIOR HEAT Heated Mittens for Snowboarding,Heated Ski Gloves for Men Women $100.79",
       "url": "https://slickdeals.net/f/20222283-savior-heat-heated-mittens-for-snowboarding-heated-ski-gloves-for-men-women-100-79?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -541,7 +533,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     },
     {
@@ -550,7 +542,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     },
     {
@@ -559,7 +551,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     },
     {
@@ -568,7 +560,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     },
     {
@@ -577,7 +569,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     },
     {
@@ -586,7 +578,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     },
     {
@@ -595,7 +587,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     },
     {
@@ -604,7 +596,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     },
     {
@@ -613,7 +605,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-10T12:01:12.155Z",
+      "posted": "2026-11-10T19:45:22.261Z",
       "isAmazonSearch": true
     }
   ]
