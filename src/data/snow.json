@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-10T19:45:23.168Z",
+  "updated": "2026-11-11T12:00:55.962Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
   ],
   "resorts": [
     {
@@ -81,9 +81,9 @@
       "daily": [
         0,
         0,
-        0
+        4.6
       ],
-      "next3": 0
+      "next3": 4.6
     },
     {
       "name": "Mammoth Mountain",
@@ -92,9 +92,9 @@
       "daily": [
         0,
         0,
-        0
+        6.1
       ],
-      "next3": 0
+      "next3": 6.1
     },
     {
       "name": "Killington",
@@ -102,10 +102,10 @@
       "elevationM": 792,
       "daily": [
         0,
-        0,
-        0.5
+        2.7,
+        3
       ],
-      "next3": 0.5
+      "next3": 5.7
     }
   ]
 }
