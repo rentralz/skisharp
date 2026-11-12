@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-11-12T12:01:01.705Z",
-  "totalDeals": 76,
+  "lastScanned": "2026-11-12T19:56:09.788Z",
+  "totalDeals": 77,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 121,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "Kids Anti-fog Ski/Snow Goggles, $11.99 w/ code",
+      "url": "https://slickdeals.net/f/20298063-kids-anti-fog-ski-snow-goggles-11-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-12T16:46:41.000Z"
+    },
+    {
+      "title": "YANIKY Winter Beanie Hat for Men Women, Fleece Lined Thermal Knit Hat Black | Soft Ski Beanie Warm Winter Hat $7.99",
+      "url": "https://slickdeals.net/f/20297502-yaniky-winter-beanie-hat-for-men-women-fleece-lined-thermal-knit-hat-black-soft-ski-beanie-warm-winter-hat-7-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-12T15:22:24.000Z"
+    },
+    {
+      "title": "50% off Kids Ski Goggles Snow Anti-Fog 100% UV Protection Snowboard for 3-14 $12.99",
+      "url": "https://slickdeals.net/f/20297325-50-off-kids-ski-goggles-snow-anti-fog-100-uv-protection-snowboard-for-3-14-12-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-12T15:00:05.000Z"
+    },
     {
       "title": "Heattrak snow & ice melting mats -- 25% off almost everything and free shipping",
       "url": "https://slickdeals.net/f/20293929-heattrak-snow-ice-melting-mats-25-off-almost-everything-and-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -512,14 +536,6 @@
       "posted": "2026-10-16T19:14:49.000Z"
     },
     {
-      "title": "Amazon - Freela Kids Ski Goggles Snowboard Snow Anti Fog Youth Toddler for 3-14 - $11.99",
-      "url": "https://slickdeals.net/f/20167731-amazon-freela-kids-ski-goggles-snowboard-snow-anti-fog-youth-toddler-for-3-14-11-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-16T14:43:28.000Z"
-    },
-    {
       "title": "No Boundaries Mens Knit Ski Mask, One Size, Green - $3.64",
       "url": "https://slickdeals.net/f/20163084-no-boundaries-mens-knit-ski-mask-one-size-green-3-64?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -536,20 +552,12 @@
       "posted": "2026-10-15T12:31:38.000Z"
     },
     {
-      "title": "MOERDENG Women's Softshell Waterproof Winter Jacket w/ Detachable Hood and Multiple Zipper Pockets (Various, Sizes S-L) from $16.19 + Free Shipping w/ Prime or on $35+",
-      "url": "https://slickdeals.net/f/20152701-moerdeng-women-s-softshell-waterproof-winter-jacket-w-detachable-hood-and-multiple-zipper-pockets-various-sizes-s-l-from-16-19-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-10-13T15:06:46.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     },
     {
@@ -558,7 +566,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     },
     {
@@ -567,7 +575,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     },
     {
@@ -576,7 +584,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     },
     {
@@ -585,7 +593,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     },
     {
@@ -594,7 +602,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     },
     {
@@ -603,7 +611,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     },
     {
@@ -612,7 +620,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     },
     {
@@ -621,7 +629,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-12T12:01:01.702Z",
+      "posted": "2026-11-12T19:56:09.785Z",
       "isAmazonSearch": true
     }
   ]
