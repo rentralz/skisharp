@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-11T19:37:25.424Z",
+  "updated": "2026-11-12T12:01:03.083Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-11-11",
     "2026-11-12",
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
   ],
   "resorts": [
     {
@@ -14,10 +14,10 @@
       "elevationM": 2987,
       "daily": [
         0,
-        0,
-        0.1
+        0.1,
+        6.1
       ],
-      "next3": 0.1
+      "next3": 6.2
     },
     {
       "name": "Park City",
@@ -26,9 +26,9 @@
       "daily": [
         0,
         0,
-        0
+        3.6
       ],
-      "next3": 0
+      "next3": 3.6
     },
     {
       "name": "Vail",
@@ -37,9 +37,9 @@
       "daily": [
         0,
         0,
-        0
+        0.4
       ],
-      "next3": 0
+      "next3": 0.4
     },
     {
       "name": "Breckenridge",
@@ -48,9 +48,9 @@
       "daily": [
         0,
         0,
-        0
+        0.9
       ],
-      "next3": 0
+      "next3": 0.9
     },
     {
       "name": "Jackson Hole",
@@ -59,9 +59,9 @@
       "daily": [
         0,
         0,
-        0
+        0.2
       ],
-      "next3": 0
+      "next3": 0.2
     },
     {
       "name": "Big Sky",
@@ -80,10 +80,10 @@
       "elevationM": 2251,
       "daily": [
         0,
-        0,
-        5.7
+        6.1,
+        0.4
       ],
-      "next3": 5.7
+      "next3": 6.5
     },
     {
       "name": "Mammoth Mountain",
@@ -91,21 +91,21 @@
       "elevationM": 3009,
       "daily": [
         0,
-        0,
-        8.1
+        6.9,
+        0.6
       ],
-      "next3": 8.1
+      "next3": 7.5
     },
     {
       "name": "Killington",
       "region": "Vermont",
       "elevationM": 792,
       "daily": [
-        0,
-        0,
-        0.9
+        3.4,
+        1.6,
+        0
       ],
-      "next3": 0.9
+      "next3": 5
     }
   ]
 }
