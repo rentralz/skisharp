@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-12T19:56:10.817Z",
+  "updated": "2026-11-13T12:01:10.310Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-11-12",
     "2026-11-13",
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-15"
   ],
   "resorts": [
     {
@@ -13,11 +13,11 @@
       "region": "Utah",
       "elevationM": 2987,
       "daily": [
-        0,
-        0.3,
-        4.8
+        0.2,
+        6.8,
+        0
       ],
-      "next3": 5.1
+      "next3": 7
     },
     {
       "name": "Park City",
@@ -25,10 +25,10 @@
       "elevationM": 2743,
       "daily": [
         0,
-        0,
-        2
+        2.3,
+        0
       ],
-      "next3": 2
+      "next3": 2.3
     },
     {
       "name": "Vail",
@@ -36,10 +36,10 @@
       "elevationM": 3005,
       "daily": [
         0,
-        0,
-        0.6
+        1.1,
+        0.1
       ],
-      "next3": 0.6
+      "next3": 1.2
     },
     {
       "name": "Breckenridge",
@@ -47,10 +47,10 @@
       "elevationM": 3291,
       "daily": [
         0,
-        0,
-        0.6
+        1.2,
+        0.1
       ],
-      "next3": 0.6
+      "next3": 1.3
     },
     {
       "name": "Jackson Hole",
@@ -58,10 +58,10 @@
       "elevationM": 2384,
       "daily": [
         0,
-        0,
-        0.2
+        0.3,
+        0
       ],
-      "next3": 0.2
+      "next3": 0.3
     },
     {
       "name": "Big Sky",
@@ -79,33 +79,33 @@
       "region": "California",
       "elevationM": 2251,
       "daily": [
-        0,
-        4.5,
-        0
+        8.2,
+        1,
+        1.1
       ],
-      "next3": 4.5
+      "next3": 10.3
     },
     {
       "name": "Mammoth Mountain",
       "region": "California",
       "elevationM": 3009,
       "daily": [
+        10.5,
         0,
-        10.8,
         0
       ],
-      "next3": 10.8
+      "next3": 10.5
     },
     {
       "name": "Killington",
       "region": "Vermont",
       "elevationM": 792,
       "daily": [
-        1.5,
-        0.8,
+        1.6,
+        0.3,
         0.1
       ],
-      "next3": 2.4
+      "next3": 2
     }
   ]
 }
