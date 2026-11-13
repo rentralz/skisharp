@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-11-13T12:01:09.396Z",
-  "totalDeals": 78,
+  "lastScanned": "2026-11-13T19:44:07.707Z",
+  "totalDeals": 77,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 122,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "CVLIFE Magnetic Ski Goggles Over Glasses - $23.99 after coupon",
+      "url": "https://slickdeals.net/f/20303820-cvlife-magnetic-ski-goggles-over-glasses-23-99-after-coupon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-13T15:19:33.000Z"
+    },
+    {
+      "title": "CVLIFE Ski/Snow/Snowboard Goggles - $23.99 After coupon",
+      "url": "https://slickdeals.net/f/20303784-cvlife-ski-snow-snowboard-goggles-23-99-after-coupon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-13T15:14:31.000Z"
+    },
     {
       "title": "Costway 44\"x20\" Kids Snow Sled with Steering Wheel and Double Brakes $62 + Free Shipping",
       "url": "https://slickdeals.net/f/20300451-costway-44-x20-kids-snow-sled-with-steering-wheel-and-double-brakes-62-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -464,28 +480,12 @@
       "posted": "2026-10-27T10:45:23.000Z"
     },
     {
-      "title": "$16.25 | TYR Adult Black Ops 140 EV Goggles - Racing Performance Swim Goggles at Amazon",
-      "url": "https://slickdeals.net/f/20215395-16-25-tyr-adult-black-ops-140-ev-goggles-racing-performance-swim-goggles-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-27T10:43:17.000Z"
-    },
-    {
       "title": "No Boundaries Men's Knit Ski Mask (Various Colors) $2.88 + Free Shipping w/ Walmart+ or on $35+",
       "url": "https://slickdeals.net/f/20213973-no-boundaries-men-s-knit-ski-mask-various-colors-2-88-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "accessories",
       "posted": "2026-10-27T03:11:59.000Z"
-    },
-    {
-      "title": "CIFOYA Kids Swim Goggles, 3 Pack Swimming Goggles for Kids 4-16, Anti-Fog UV Protection Pool Glasses $10.99 AC",
-      "url": "https://slickdeals.net/f/20210424-cifoya-kids-swim-goggles-3-pack-swimming-goggles-for-kids-4-16-anti-fog-uv-protection-pool-glasses-10-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-26T15:06:54.000Z"
     },
     {
       "title": "No Boundaries Mens Knit Ski Mask, One Size from $2.79",
@@ -528,14 +528,6 @@
       "posted": "2026-10-23T17:01:21.000Z"
     },
     {
-      "title": "$6.96 AMAZON by Achiou - Ski Mask Balaclava for Men and Women, All-Season Face Mask",
-      "url": "https://slickdeals.net/f/20195559-6-96-amazon-by-achiou-ski-mask-balaclava-for-men-and-women-all-season-face-mask?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-10-23T02:42:14.000Z"
-    },
-    {
       "title": "SWISSWELL Kids Winter Ski Jacket Waterproof Snow Coat Outerwear for Boys or Girls $22.99 AC",
       "url": "https://slickdeals.net/f/20169072-swisswell-kids-winter-ski-jacket-waterproof-snow-coat-outerwear-for-boys-or-girls-22-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -565,7 +557,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     },
     {
@@ -574,7 +566,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     },
     {
@@ -583,7 +575,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     },
     {
@@ -592,7 +584,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     },
     {
@@ -601,7 +593,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     },
     {
@@ -610,7 +602,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     },
     {
@@ -619,7 +611,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     },
     {
@@ -628,7 +620,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     },
     {
@@ -637,7 +629,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-13T12:01:09.393Z",
+      "posted": "2026-11-13T19:44:07.705Z",
       "isAmazonSearch": true
     }
   ]
