@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-13T19:44:09.993Z",
+  "lastScanned": "2026-11-14T12:01:14.100Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,60 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "Can You Recognize the Ski Resort That Inspired This Amazing Diorama?",
+      "url": "https://www.powder.com/news/mini-ski-resort-viral-sensation",
+      "source": "POWDER",
+      "published": "2026-11-14T11:58:00.000Z"
+    },
+    {
+      "title": "Alterra's Online Ticketing Platform Acquired by Software Company",
+      "url": "https://www.powder.com/news/aspenware-acquired-software-company",
+      "source": "POWDER",
+      "published": "2026-11-14T10:42:00.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Colorado’s San Juans Lead as Weekend Snow Continues",
+      "url": "https://snowbrains.com/snowbrains-forecast-colorados-san-juans-lead-as-weekend-snow-continues/",
+      "source": "SnowBrains",
+      "published": "2026-11-14T08:06:34.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Utah’s Ongoing Storm Builds the Base through Saturday",
+      "url": "https://snowbrains.com/snowbrains-forecast-utahs-ongoing-storm-builds-the-base-through-saturday/",
+      "source": "SnowBrains",
+      "published": "2026-11-14T02:05:48.000Z"
+    },
+    {
+      "title": "Storm News 11/13/2026: Owner Schmitz on Little Switzerland’s Move to Ikon, 2 New Chairlifts",
+      "url": "https://www.stormskiing.com/p/storm-news-11132026-owner-schmitz",
+      "source": "Storm Skiing Journal",
+      "published": "2026-11-13T23:56:14.000Z"
+    },
+    {
+      "title": "After a Warm Fall, Wild Mountain Is Opening",
+      "url": "https://www.powder.com/news/wild-mountain-opening-day-2026",
+      "source": "POWDER",
+      "published": "2026-11-13T21:37:26.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Weekend Storms Build the Pacific Northwest Base as Colder Air Arrives",
+      "url": "https://snowbrains.com/snowbrains-forecast-weekend-storms-build-the-pacific-northwest-base-as-colder-air-arrives/",
+      "source": "SnowBrains",
+      "published": "2026-11-13T20:20:47.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Europe’s Western Alps Lead with 15-30 cm",
+      "url": "https://snowbrains.com/snowbrains-forecast-europes-western-alps-lead-with-15-30-cm/",
+      "source": "SnowBrains",
+      "published": "2026-11-13T20:15:33.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Around a Foot Still Ahead for California’s Sierra",
+      "url": "https://snowbrains.com/snowbrains-forecast-around-a-foot-still-ahead-for-californias-sierra/",
+      "source": "SnowBrains",
+      "published": "2026-11-13T20:06:16.000Z"
+    },
     {
       "title": "Do Skiers Really Need Another Outerwear Brand? Atomic Thinks So.",
       "url": "https://www.skimag.com/gear/ski-apparel/do-skiers-really-need-another-outerwear-brand-atomic-thinks-so/",
@@ -213,18 +267,6 @@
       "published": "2026-11-13T09:43:14.000Z"
     },
     {
-      "title": "Whiteface, Gore, and Belleayre Join the Indy Pass 2026-27 Allied Program",
-      "url": "https://snowbrains.com/indy-pass-2026-27-adds-15-resorts/",
-      "source": "SnowBrains",
-      "published": "2026-11-13T09:20:17.000Z"
-    },
-    {
-      "title": "Europe’s Top 11 Most Beautiful Ski Hotels",
-      "url": "https://snowbrains.com/top-11-european-ski-lodges/",
-      "source": "SnowBrains",
-      "published": "2026-11-13T08:49:32.000Z"
-    },
-    {
       "title": "Storm News 11/12/2026: More Indy, Why Midwest Skiing Rules, Ski Areas as Art Projects",
       "url": "https://www.stormskiing.com/p/storm-news-11122026-more-indy-why",
       "source": "Storm Skiing Journal",
@@ -249,34 +291,16 @@
       "published": "2026-11-12T20:21:30.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Colorado Weekend Snow Favors the San Juans",
-      "url": "https://snowbrains.com/snowbrains-forecast-colorado-weekend-snow-favors-the-san-juans/",
-      "source": "SnowBrains",
-      "published": "2026-11-12T20:06:54.000Z"
-    },
-    {
       "title": "Another Colorado Ski Resort Confirms Opening Day as More Snow Approaches",
       "url": "https://www.powder.com/news/vail-mountain-confirms-opening-day",
       "source": "POWDER",
       "published": "2026-11-12T20:00:32.000Z"
     },
     {
-      "title": "Peak Performance Collaborates With Pro Team Skier WeiTien Ho For a Limited-Edition Ski Set",
-      "url": "https://snowbrains.com/peak-performance-collaborates-with-pro-team-skier-weitien-ho-for-a-limited-edition-ski-set/",
-      "source": "SnowBrains",
-      "published": "2026-11-12T20:00:22.000Z"
-    },
-    {
       "title": "Great Hydration is About More than Just Electrolytes",
       "url": "https://www.skimag.com/performance/nutrition/great-hydration-is-about-more-than-just-electrolytes/",
       "source": "SKI Magazine",
       "published": "2026-11-12T19:25:43.000Z"
-    },
-    {
-      "title": "The Captivating Tale of Heroic Ski Veteran Friedl Pfeifer Could Be Coming to Your Town",
-      "url": "https://snowbrains.com/chris-anthonys-captivating-tale-of-heroic-ski-veteran-friedl-pfeifer-could-be-coming-to-your-town/",
-      "source": "SnowBrains",
-      "published": "2026-11-12T18:26:20.000Z"
     },
     {
       "title": "FWT Announces 2027 Challenger Region 1 Roster and Competition Dates",
@@ -297,22 +321,10 @@
       "published": "2026-11-12T18:00:00.000Z"
     },
     {
-      "title": "New FX Comedy Series Will Take Place In Aspen and Feature SNL Alums",
-      "url": "https://www.powder.com/news/fx-comedy-series-aspen-beck-bennett",
-      "source": "POWDER",
-      "published": "2026-11-12T16:59:43.000Z"
-    },
-    {
       "title": "Indy Pass Adds 9 Ski Areas in Europe, Canada, U.S.; Whiteface, Gore, Belleayre Join Indy Discount Program",
       "url": "https://www.stormskiing.com/p/indy-pass-adds-9-ski-areas-in-europe",
       "source": "Storm Skiing Journal",
       "published": "2026-11-12T15:02:46.000Z"
-    },
-    {
-      "title": "The Indy Pass Just Added 15 Ski Resorts and Discounted Lift Tickets To Three New York Ski Areas",
-      "url": "https://www.powder.com/news/indy-pass-adds-15-ski-resorts",
-      "source": "POWDER",
-      "published": "2026-11-12T15:00:00.000Z"
     },
     {
       "title": "Top 10 Resorts in the East for Challenge (2027)",
@@ -339,12 +351,6 @@
       "published": "2026-11-12T02:01:27.000Z"
     },
     {
-      "title": "Review: Marker Duke PT 16 Binding",
-      "url": "https://www.powder.com/gear/review-marker-duke-pt-16-binding",
-      "source": "POWDER",
-      "published": "2026-11-11T20:48:43.000Z"
-    },
-    {
       "title": "Ikon Updates: Deer Valley Returns to Base Pass; Austria, Wisconsin Ski Areas Join Ikon",
       "url": "https://www.stormskiing.com/p/ikon-updates-deer-valley-returns",
       "source": "Storm Skiing Journal",
@@ -361,12 +367,6 @@
       "url": "https://www.skimag.com/ski-resort-life/resort-guide-2027/top-10-east-terrain-variety-2/",
       "source": "SKI Magazine",
       "published": "2026-11-11T14:00:25.000Z"
-    },
-    {
-      "title": "Storm News 11/10/2026: Whistler COO Trembath on Adapting to Permanent Daylight Savings Time",
-      "url": "https://www.stormskiing.com/p/storm-news-11102026-whistler-coo",
-      "source": "Storm Skiing Journal",
-      "published": "2026-11-10T21:10:10.000Z"
     }
   ]
 }
