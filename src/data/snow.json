@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T12:01:14.261Z",
+  "updated": "2026-11-14T18:04:18.810Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -46,11 +46,11 @@
       "region": "Colorado",
       "elevationM": 3291,
       "daily": [
-        1.3,
-        0.1,
+        1.6,
+        0,
         0
       ],
-      "next3": 1.4
+      "next3": 1.6
     },
     {
       "name": "Jackson Hole",
