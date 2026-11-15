@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-14T18:04:18.664Z",
+  "lastScanned": "2026-11-15T12:01:03.997Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,54 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "SnowBrains Forecast: Pacific Northwest Storm Favors Whistler as Colder Air Arrives",
+      "url": "https://snowbrains.com/snowbrains-forecast-pacific-northwest-storm-favors-whistler-as-colder-air-arrives/",
+      "source": "SnowBrains",
+      "published": "2026-11-15T08:19:30.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Europe’s Western Alps Build Bases with 15-30 cm",
+      "url": "https://snowbrains.com/snowbrains-forecast-europes-western-alps-build-bases-with-15-30-cm/",
+      "source": "SnowBrains",
+      "published": "2026-11-15T08:14:34.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: California Sierra Storms Could Stack Up 2-4 Feet by Friday",
+      "url": "https://snowbrains.com/snowbrains-forecast-california-sierra-storms-could-stack-up-2-4-feet-by-friday/",
+      "source": "SnowBrains",
+      "published": "2026-11-15T08:08:11.000Z"
+    },
+    {
+      "title": "5 Abandoned Ski Resorts That Nature Is Slowly Reclaiming",
+      "url": "https://unofficialnetworks.com/2026/11/14/5-abandoned-ski-resorts-that-nature-is-slowly-reclaiming/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-14T22:05:08.000Z"
+    },
+    {
+      "title": "Midwest’s Ski Season Officially Underway",
+      "url": "https://unofficialnetworks.com/2026/11/14/midwest-2026-ski-season/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-14T21:59:09.000Z"
+    },
+    {
+      "title": "These Ski Resorts Are Getting the Most Snow in North America Right Now",
+      "url": "https://unofficialnetworks.com/2026/11/14/these-ski-resorts-are-getting-the-most-snow-in-north-america-right-now/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-14T21:49:51.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Base-Building Snow and Colder Air for the Northern Rockies (MT/WY/ID)",
+      "url": "https://snowbrains.com/snowbrains-forecast-base-building-snow-and-colder-air-for-the-northern-rockies-mt-wy-id/",
+      "source": "SnowBrains",
+      "published": "2026-11-14T20:06:18.000Z"
+    },
+    {
+      "title": "Alta, UT, Report: The LAST Main Chute of the Year 2026",
+      "url": "https://snowbrains.com/main-chute-alta-last-uphill-ski-2026/",
+      "source": "SnowBrains",
+      "published": "2026-11-14T18:31:23.000Z"
+    },
     {
       "title": "Stowe, Okemo, and Mount Snow Set to Open Next Weekend",
       "url": "https://snowbrains.com/stowe-okemo-and-mount-snow-set-to-open-next-weekend/",
@@ -105,24 +153,6 @@
       "published": "2026-11-13T21:37:26.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Weekend Storms Build the Pacific Northwest Base as Colder Air Arrives",
-      "url": "https://snowbrains.com/snowbrains-forecast-weekend-storms-build-the-pacific-northwest-base-as-colder-air-arrives/",
-      "source": "SnowBrains",
-      "published": "2026-11-13T20:20:47.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Europe’s Western Alps Lead with 15-30 cm",
-      "url": "https://snowbrains.com/snowbrains-forecast-europes-western-alps-lead-with-15-30-cm/",
-      "source": "SnowBrains",
-      "published": "2026-11-13T20:15:33.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Around a Foot Still Ahead for California’s Sierra",
-      "url": "https://snowbrains.com/snowbrains-forecast-around-a-foot-still-ahead-for-californias-sierra/",
-      "source": "SnowBrains",
-      "published": "2026-11-13T20:06:16.000Z"
-    },
-    {
       "title": "Do Skiers Really Need Another Outerwear Brand? Atomic Thinks So.",
       "url": "https://www.skimag.com/gear/ski-apparel/do-skiers-really-need-another-outerwear-brand-atomic-thinks-so/",
       "source": "SKI Magazine",
@@ -195,12 +225,6 @@
       "published": "2026-11-13T16:24:40.000Z"
     },
     {
-      "title": "Europe’s Highest Ski Resort Named World’s Best Again at World Ski Awards 2026",
-      "url": "https://snowbrains.com/world-ski-awards-2026-winners/",
-      "source": "SnowBrains",
-      "published": "2026-11-13T16:18:04.000Z"
-    },
-    {
       "title": "Three Big New York Ski Resorts Just Joined the Indy Pass Network",
       "url": "https://www.skimag.com/news/indy-pass-adds-resorts-2026-27/",
       "source": "SKI Magazine",
@@ -211,12 +235,6 @@
       "url": "https://unofficialnetworks.com/2026/11/13/kings-and-queens-corbets-roster/",
       "source": "Unofficial Networks",
       "published": "2026-11-13T16:03:51.000Z"
-    },
-    {
-      "title": "The 9 Best Ski Brands in the World for 2026-27, Ranked",
-      "url": "https://snowbrains.com/best-ski-brands-in-the-world-2026-global-brand-awards/",
-      "source": "SnowBrains",
-      "published": "2026-11-13T16:02:43.000Z"
     },
     {
       "title": "Colorado’s Snowiest Ski Area Is Reopening With Five Lifts and 54.5% of Its Terrain",
@@ -231,28 +249,10 @@
       "published": "2026-11-13T15:11:45.000Z"
     },
     {
-      "title": "Sugarbush Announces New Chairlift For The 2027-28 Season",
-      "url": "https://unofficialnetworks.com/2026/11/13/sugarbush-new-chairlift-2027/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-13T15:08:47.000Z"
-    },
-    {
       "title": "Lobster Curious: Finding the Middle Ground Between Gloves and Mittens",
       "url": "https://www.powder.com/gear/best-lobster-gloves-for-skiers",
       "source": "POWDER",
       "published": "2026-11-13T14:45:00.000Z"
-    },
-    {
-      "title": "New Jersey Ski Resort Loses Another Attempt to End Injury Lawsuit",
-      "url": "https://unofficialnetworks.com/2026/11/13/new-jersey-ski-resort-injury-lawsuit-ruling/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-13T14:40:28.000Z"
-    },
-    {
-      "title": "Calgary Ski Resort Banned From Making Snow Because City In Water Crisis",
-      "url": "https://unofficialnetworks.com/2026/11/13/canadian-ski-hill-cant-make-snow-water-restrictions/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-13T14:05:03.000Z"
     },
     {
       "title": "Top 10 Resorts in the East for Lifts (2027)",

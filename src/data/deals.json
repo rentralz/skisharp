@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-11-14T18:04:17.830Z",
+  "lastScanned": "2026-11-15T12:01:03.163Z",
   "totalDeals": 74,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 125,
+    "slickdeals": 127,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "GAYHAY Fleece Lined Leggings Women - Thermal Winter Warm Thick Pants $16.19",
+      "url": "https://slickdeals.net/f/20309862-gayhay-fleece-lined-leggings-women-thermal-winter-warm-thick-pants-16-19?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "pants",
+      "posted": "2026-11-14T17:03:41.000Z"
+    },
+    {
+      "title": "AOPREL Winter Gloves Men Women Windproof Touchscreen Gloves with Liner Thermal $9.88",
+      "url": "https://slickdeals.net/f/20307603-aoprel-winter-gloves-men-women-windproof-touchscreen-gloves-with-liner-thermal-9-88?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-14T04:36:23.000Z"
+    },
+    {
+      "title": "Zoggs Unisex Bondi Anti-Fog Swimming Goggles w/ UV Protection (Black/Green) $3.15 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20307492-zoggs-unisex-bondi-anti-fog-swimming-goggles-w-uv-protection-black-green-3-15-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-14T03:49:41.000Z"
+    },
     {
       "title": "REI Co-op Men's & Women's First Chair GTX Ski Gear: Men's Ski Jacket (2 Colors) $197.39 & More $197.39 + Free Shipping",
       "url": "https://slickdeals.net/f/20306205-rei-co-op-men-s-women-s-first-chair-gtx-ski-gear-men-s-ski-jacket-2-colors-197-39-more-197-39-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -118,22 +142,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-11-11T18:46:34.000Z"
-    },
-    {
-      "title": "G Gradual Men's Fleece Lined Winter Pants with 3 Zipper Pockets $19.99",
-      "url": "https://slickdeals.net/f/20291370-g-gradual-men-s-fleece-lined-winter-pants-with-3-zipper-pockets-19-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-11-11T16:19:28.000Z"
-    },
-    {
-      "title": "AOPREL Kids Balaclava Ski Mask, Modal Wool Blend Face Mask for Boys Girls $7.99 AC",
-      "url": "https://slickdeals.net/f/20286915-aoprel-kids-balaclava-ski-mask-modal-wool-blend-face-mask-for-boys-girls-7-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-11-10T22:57:17.000Z"
     },
     {
       "title": "AOPREL Winter Gloves for Men Women 3M Thinsulate Thermal Touchscreen Gloves $8.49",
@@ -480,14 +488,6 @@
       "posted": "2026-10-27T16:15:10.000Z"
     },
     {
-      "title": "$13.75 | TYR Adult Blackhawk Racing Goggles - Streamlined Performance Swim Goggles at Amazon",
-      "url": "https://slickdeals.net/f/20215413-13-75-tyr-adult-blackhawk-racing-goggles-streamlined-performance-swim-goggles-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-27T10:45:23.000Z"
-    },
-    {
       "title": "No Boundaries Men's Knit Ski Mask (Various Colors) $2.88 + Free Shipping w/ Walmart+ or on $35+",
       "url": "https://slickdeals.net/f/20213973-no-boundaries-men-s-knit-ski-mask-various-colors-2-88-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -533,7 +533,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     },
     {
@@ -542,7 +542,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     },
     {
@@ -551,7 +551,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     },
     {
@@ -560,7 +560,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     },
     {
@@ -569,7 +569,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     },
     {
@@ -578,7 +578,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     },
     {
@@ -587,7 +587,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     },
     {
@@ -596,7 +596,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     },
     {
@@ -605,7 +605,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-14T18:04:17.827Z",
+      "posted": "2026-11-15T12:01:03.160Z",
       "isAmazonSearch": true
     }
   ]
