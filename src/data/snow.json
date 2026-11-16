@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-15T18:53:01.086Z",
+  "updated": "2026-11-16T12:01:03.524Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-11-15",
     "2026-11-16",
-    "2026-11-17"
+    "2026-11-17",
+    "2026-11-18"
   ],
   "resorts": [
     {
@@ -14,10 +14,10 @@
       "elevationM": 2987,
       "daily": [
         0,
-        0,
-        9.8
+        9.6,
+        1.4
       ],
-      "next3": 9.8
+      "next3": 11
     },
     {
       "name": "Park City",
@@ -25,10 +25,10 @@
       "elevationM": 2743,
       "daily": [
         0,
-        0,
-        5.4
+        4.7,
+        1
       ],
-      "next3": 5.4
+      "next3": 5.7
     },
     {
       "name": "Vail",
@@ -36,10 +36,10 @@
       "elevationM": 3005,
       "daily": [
         0,
-        0,
-        0
+        0.1,
+        0.3
       ],
-      "next3": 0
+      "next3": 0.4
     },
     {
       "name": "Breckenridge",
@@ -47,10 +47,10 @@
       "elevationM": 3291,
       "daily": [
         0,
-        0,
+        0.1,
         0.1
       ],
-      "next3": 0.1
+      "next3": 0.2
     },
     {
       "name": "Jackson Hole",
@@ -58,10 +58,10 @@
       "elevationM": 2384,
       "daily": [
         0,
-        0,
-        1.5
+        1.5,
+        1.6
       ],
-      "next3": 1.5
+      "next3": 3.1
     },
     {
       "name": "Big Sky",
@@ -69,43 +69,43 @@
       "elevationM": 2819,
       "daily": [
         0,
-        0,
-        4.2
+        3.9,
+        1.7
       ],
-      "next3": 4.2
+      "next3": 5.6
     },
     {
       "name": "Palisades Tahoe",
       "region": "California",
       "elevationM": 2251,
       "daily": [
-        0.1,
-        3.7,
-        0
+        4.2,
+        0,
+        16
       ],
-      "next3": 3.8
+      "next3": 20.2
     },
     {
       "name": "Mammoth Mountain",
       "region": "California",
       "elevationM": 3009,
       "daily": [
+        3.6,
         0,
-        1.4,
-        0.4
+        17.7
       ],
-      "next3": 1.8
+      "next3": 21.3
     },
     {
       "name": "Killington",
       "region": "Vermont",
       "elevationM": 792,
       "daily": [
-        0.4,
+        0,
         0,
         0
       ],
-      "next3": 0.4
+      "next3": 0
     }
   ]
 }

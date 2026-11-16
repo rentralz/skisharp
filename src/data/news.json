@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-15T18:53:00.928Z",
+  "lastScanned": "2026-11-16T12:01:03.400Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,24 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "Top 10 Resorts in the West for Weekend Getaways (2027)",
+      "url": "https://www.skimag.com/ski-resort-life/resort-guide-2027/top-10-west-access/",
+      "source": "SKI Magazine",
+      "published": "2026-11-16T12:00:25.000Z"
+    },
+    {
+      "title": "Northeast’s Largest Ski Resort Announces Opening Date",
+      "url": "https://unofficialnetworks.com/2026/11/16/killington-2026-opening-date/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-16T10:00:00.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Utah’s Upper Cottonwoods Lead a Colder Base-Building Storm",
+      "url": "https://snowbrains.com/snowbrains-forecast-utahs-upper-cottonwoods-lead-a-colder-base-building-storm/",
+      "source": "SnowBrains",
+      "published": "2026-11-16T02:07:22.000Z"
+    },
     {
       "title": "Skier Survives More Than 24 Hours Trapped in Crevasse With Fractured Femur in French Alps",
       "url": "https://unofficialnetworks.com/2026/11/15/skier-survives-crevasse-avalanche/",
@@ -141,12 +159,6 @@
       "published": "2026-11-14T17:57:53.000Z"
     },
     {
-      "title": "What’s with the Baggy Pants? The Cultural and Practical Reasoning Behind Modern Freestyle Outerwear",
-      "url": "https://snowbrains.com/why-is-everyone-wearing-baggy-pants/",
-      "source": "SnowBrains",
-      "published": "2026-11-14T17:56:04.000Z"
-    },
-    {
       "title": "After 45 Years of Family Ownership, Michigan Ski Resort Is Up for Sale",
       "url": "https://unofficialnetworks.com/2026/11/14/michigan-ski-resort-for-sale-2/",
       "source": "Unofficial Networks",
@@ -235,12 +247,6 @@
       "url": "https://unofficialnetworks.com/2026/11/13/us-ski-resorts-open-this-wekekend/",
       "source": "Unofficial Networks",
       "published": "2026-11-13T17:38:39.000Z"
-    },
-    {
-      "title": "How To Properly Care For Your Ski Boots When They’re Not In Use",
-      "url": "https://unofficialnetworks.com/2026/11/13/care-for-your-ski-boots/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-13T17:13:26.000Z"
     },
     {
       "title": "El Niño Is Strengthening, but It Hasn't Hit Quite Yet",
@@ -361,12 +367,6 @@
       "url": "https://www.skimag.com/gear/ski-apparel/first-look-bga-cottonwoods-xpore-lt-g2-jacket-and-bibs/",
       "source": "SKI Magazine",
       "published": "2026-11-11T16:42:43.000Z"
-    },
-    {
-      "title": "Top 10 Resorts in the East for Terrain Variety (2027)",
-      "url": "https://www.skimag.com/ski-resort-life/resort-guide-2027/top-10-east-terrain-variety-2/",
-      "source": "SKI Magazine",
-      "published": "2026-11-11T14:00:25.000Z"
     }
   ]
 }

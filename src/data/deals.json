@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-11-15T18:53:00.098Z",
-  "totalDeals": 74,
+  "lastScanned": "2026-11-16T12:01:02.403Z",
+  "totalDeals": 72,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 126,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "LIVALL RS1 Bluetooth Ski Helmet with Built-In Speakers, Microphone and 15 Adjustable Vents $120 + Free Shipping",
+      "url": "https://slickdeals.net/f/20316729-livall-rs1-bluetooth-ski-helmet-with-built-in-speakers-microphone-and-15-adjustable-vents-120-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "helmets",
+      "posted": "2026-11-16T03:03:35.000Z"
+    },
+    {
+      "title": "Pixel Panda Winter Gloves Men Women with 3M Thinsulate, Waterproof Ski Gloves, Black-L $9.74 AC",
+      "url": "https://slickdeals.net/f/20315919-pixel-panda-winter-gloves-men-women-with-3m-thinsulate-waterproof-ski-gloves-black-l-9-74-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-15T22:39:30.000Z"
+    },
     {
       "title": "GAYHAY Fleece Lined Leggings Women - Thermal Winter Warm Thick Pants $16.19",
       "url": "https://slickdeals.net/f/20309862-gayhay-fleece-lined-leggings-women-thermal-winter-warm-thick-pants-16-19?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -432,14 +448,6 @@
       "posted": "2026-10-30T17:00:18.000Z"
     },
     {
-      "title": "Amazon - BOOJO Men's Fleece-Lined Thermal Underwear Set $9.00-$13.20 w/ Code",
-      "url": "https://slickdeals.net/f/20233143-amazon-boojo-men-s-fleece-lined-thermal-underwear-set-9-00-13-20-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-10-30T16:58:12.000Z"
-    },
-    {
       "title": "Odoland Magnetic Ski OTG Anti-Fog Snow Goggles - $34.99",
       "url": "https://slickdeals.net/f/20232741-odoland-magnetic-ski-otg-anti-fog-snow-goggles-34-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -462,14 +470,6 @@
       "sourceIcon": "💰",
       "category": "gloves",
       "posted": "2026-10-30T03:32:46.000Z"
-    },
-    {
-      "title": "SAVIOR HEAT Heated Mittens for Snowboarding,Heated Ski Gloves for Men Women $100.79",
-      "url": "https://slickdeals.net/f/20222283-savior-heat-heated-mittens-for-snowboarding-heated-ski-gloves-for-men-women-100-79?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-28T13:25:48.000Z"
     },
     {
       "title": "Merino Wool Compression Socks for Women and Men $12.99 AC",
@@ -504,14 +504,6 @@
       "posted": "2026-10-26T12:07:14.000Z"
     },
     {
-      "title": "GXCROR Windproof Balaclava Ski Mask w/ Fleece-Like Lining & Breathable Mesh $6.50",
-      "url": "https://slickdeals.net/f/20201661-gxcror-windproof-balaclava-ski-mask-w-fleece-like-lining-breathable-mesh-6-50?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-10-24T15:48:10.000Z"
-    },
-    {
       "title": "Southwest Vacations Bundled Ski Destination Packages (Flight & Hotel) Up to $125 Off & Skis Fly Free - Book by November 2, 2026",
       "url": "https://slickdeals.net/f/20198343-southwest-vacations-bundled-ski-destination-packages-flight-hotel-up-to-125-off-skis-fly-free-book-by-november-2-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -520,20 +512,12 @@
       "posted": "2026-10-23T17:24:48.000Z"
     },
     {
-      "title": "SWISSWELL Kids Winter Ski Jacket Waterproof Snow Coat Outerwear for Boys or Girls $22.99 AC",
-      "url": "https://slickdeals.net/f/20169072-swisswell-kids-winter-ski-jacket-waterproof-snow-coat-outerwear-for-boys-or-girls-22-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "jackets",
-      "posted": "2026-10-16T19:14:49.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     },
     {
@@ -542,7 +526,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     },
     {
@@ -551,7 +535,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     },
     {
@@ -560,7 +544,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     },
     {
@@ -569,7 +553,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     },
     {
@@ -578,7 +562,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     },
     {
@@ -587,7 +571,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     },
     {
@@ -596,7 +580,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     },
     {
@@ -605,7 +589,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-15T18:53:00.095Z",
+      "posted": "2026-11-16T12:01:02.401Z",
       "isAmazonSearch": true
     }
   ]
