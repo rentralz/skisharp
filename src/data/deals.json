@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-11-16T12:01:02.403Z",
-  "totalDeals": 72,
+  "lastScanned": "2026-11-16T22:04:59.507Z",
+  "totalDeals": 73,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 126,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "AstroAI Ski Mask Balaclava, Dual-Layer Breathable Fleece Face Mask for $7.79 (Reg. $19.99) + Free Shipping w/ Prime or on $35+ w/ Promo Code",
+      "url": "https://slickdeals.net/f/20319504-astroai-ski-mask-balaclava-dual-layer-breathable-fleece-face-mask-for-7-79-reg-19-99-free-shipping-w-prime-or-on-35-w-promo-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-11-16T14:13:59.000Z"
+    },
     {
       "title": "LIVALL RS1 Bluetooth Ski Helmet with Built-In Speakers, Microphone and 15 Adjustable Vents $120 + Free Shipping",
       "url": "https://slickdeals.net/f/20316729-livall-rs1-bluetooth-ski-helmet-with-built-in-speakers-microphone-and-15-adjustable-vents-120-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -517,7 +525,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     },
     {
@@ -526,7 +534,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     },
     {
@@ -535,7 +543,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     },
     {
@@ -544,7 +552,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     },
     {
@@ -553,7 +561,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     },
     {
@@ -562,7 +570,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     },
     {
@@ -571,7 +579,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     },
     {
@@ -580,7 +588,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     },
     {
@@ -589,7 +597,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-16T12:01:02.401Z",
+      "posted": "2026-11-16T22:04:59.503Z",
       "isAmazonSearch": true
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T12:01:03.524Z",
+  "updated": "2026-11-16T22:05:00.508Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -14,10 +14,10 @@
       "elevationM": 2987,
       "daily": [
         0,
-        9.6,
-        1.4
+        12,
+        1
       ],
-      "next3": 11
+      "next3": 13
     },
     {
       "name": "Park City",
@@ -25,10 +25,10 @@
       "elevationM": 2743,
       "daily": [
         0,
-        4.7,
-        1
+        7,
+        0.9
       ],
-      "next3": 5.7
+      "next3": 7.9
     },
     {
       "name": "Vail",
@@ -37,9 +37,9 @@
       "daily": [
         0,
         0.1,
-        0.3
+        0.4
       ],
-      "next3": 0.4
+      "next3": 0.5
     },
     {
       "name": "Breckenridge",
@@ -47,10 +47,10 @@
       "elevationM": 3291,
       "daily": [
         0,
-        0.1,
+        0,
         0.1
       ],
-      "next3": 0.2
+      "next3": 0.1
     },
     {
       "name": "Jackson Hole",
@@ -58,10 +58,10 @@
       "elevationM": 2384,
       "daily": [
         0,
-        1.5,
-        1.6
+        2,
+        1.8
       ],
-      "next3": 3.1
+      "next3": 3.8
     },
     {
       "name": "Big Sky",
@@ -69,10 +69,10 @@
       "elevationM": 2819,
       "daily": [
         0,
-        3.9,
-        1.7
+        7.5,
+        3.4
       ],
-      "next3": 5.6
+      "next3": 10.9
     },
     {
       "name": "Palisades Tahoe",
@@ -80,21 +80,21 @@
       "elevationM": 2251,
       "daily": [
         4.2,
-        0,
-        16
+        0.1,
+        19
       ],
-      "next3": 20.2
+      "next3": 23.3
     },
     {
       "name": "Mammoth Mountain",
       "region": "California",
       "elevationM": 3009,
       "daily": [
-        3.6,
+        3.3,
         0,
-        17.7
+        18.5
       ],
-      "next3": 21.3
+      "next3": 21.8
     },
     {
       "name": "Killington",
