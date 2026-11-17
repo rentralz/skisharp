@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-16T22:05:00.508Z",
+  "updated": "2026-11-17T12:01:14.157Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
   ],
   "resorts": [
     {
@@ -13,88 +13,88 @@
       "region": "Utah",
       "elevationM": 2987,
       "daily": [
-        0,
-        12,
-        1
+        12.3,
+        0.3,
+        5.9
       ],
-      "next3": 13
+      "next3": 18.5
     },
     {
       "name": "Park City",
       "region": "Utah",
       "elevationM": 2743,
       "daily": [
-        0,
-        7,
-        0.9
+        6.3,
+        0.2,
+        4.4
       ],
-      "next3": 7.9
+      "next3": 10.9
     },
     {
       "name": "Vail",
       "region": "Colorado",
       "elevationM": 3005,
       "daily": [
-        0,
-        0.1,
-        0.4
+        0.3,
+        0.3,
+        0
       ],
-      "next3": 0.5
+      "next3": 0.6
     },
     {
       "name": "Breckenridge",
       "region": "Colorado",
       "elevationM": 3291,
       "daily": [
-        0,
-        0,
-        0.1
+        0.2,
+        0.1,
+        0
       ],
-      "next3": 0.1
+      "next3": 0.3
     },
     {
       "name": "Jackson Hole",
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        0,
-        2,
+        1.4,
+        1.5,
         1.8
       ],
-      "next3": 3.8
+      "next3": 4.8
     },
     {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        0,
-        7.5,
-        3.4
+        3.6,
+        2.3,
+        0
       ],
-      "next3": 10.9
+      "next3": 5.9
     },
     {
       "name": "Palisades Tahoe",
       "region": "California",
       "elevationM": 2251,
       "daily": [
-        4.2,
-        0.1,
-        19
+        0.3,
+        18.9,
+        16.5
       ],
-      "next3": 23.3
+      "next3": 35.7
     },
     {
       "name": "Mammoth Mountain",
       "region": "California",
       "elevationM": 3009,
       "daily": [
-        3.3,
         0,
-        18.5
+        20.8,
+        17.8
       ],
-      "next3": 21.8
+      "next3": 38.6
     },
     {
       "name": "Killington",

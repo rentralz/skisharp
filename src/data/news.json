@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-16T22:05:00.351Z",
+  "lastScanned": "2026-11-17T12:01:14.001Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,78 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "New Trail Map Released for Lee Canyon, Las Vegas' Ski Area",
+      "url": "https://www.powder.com/news/new-trail-map-lee-canyon",
+      "source": "POWDER",
+      "published": "2026-11-17T11:18:00.000Z"
+    },
+    {
+      "title": "26 Inches In, Up to 50 More Coming: Palisades Tahoe, CA, Opens 4 Days Early",
+      "url": "https://snowbrains.com/palisades-tahoe-opening-early/",
+      "source": "SnowBrains",
+      "published": "2026-11-17T11:02:43.000Z"
+    },
+    {
+      "title": "Alta Ski Area Delays Opening Day, but Not for Long",
+      "url": "https://www.powder.com/news/alta-ski-area-delays-opening-day-but-not-for-long",
+      "source": "POWDER",
+      "published": "2026-11-17T10:56:00.000Z"
+    },
+    {
+      "title": "Every James Bond Ski Scene Ever, and Where You Can Ski Them Yourself",
+      "url": "https://snowbrains.com/james-bond-ski-scenes/",
+      "source": "SnowBrains",
+      "published": "2026-11-17T10:00:07.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Modest Midweek Snow Favors Oregon in the Pacific Northwest",
+      "url": "https://snowbrains.com/snowbrains-forecast-modest-midweek-snow-favors-oregon-in-the-pacific-northwest/",
+      "source": "SnowBrains",
+      "published": "2026-11-17T08:42:06.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Sharp Cooldown Brings Heavy Mountain Snow to Japan",
+      "url": "https://snowbrains.com/snowbrains-forecast-sharp-cooldown-brings-heavy-mountain-snow-to-japan/",
+      "source": "SnowBrains",
+      "published": "2026-11-17T08:26:37.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Up to 130 cm for the French Alps as Europe Turns Colder",
+      "url": "https://snowbrains.com/snowbrains-forecast-up-to-130-cm-for-the-french-alps-as-europe-turns-colder/",
+      "source": "SnowBrains",
+      "published": "2026-11-17T08:17:43.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: California Sierra Reloads with 2-4 Feet by Saturday",
+      "url": "https://snowbrains.com/snowbrains-forecast-california-sierra-reloads-with-2-4-feet-by-saturday/",
+      "source": "SnowBrains",
+      "published": "2026-11-17T08:07:26.000Z"
+    },
+    {
+      "title": "14-Year-Old Girl Seriously Injured in Hit-and-Run Ski Collision at Stubai Glacier, Austria",
+      "url": "https://snowbrains.com/stubai-glacier-hit-and-run-ski-collision-14-year-old-girl/",
+      "source": "SnowBrains",
+      "published": "2026-11-17T07:14:27.000Z"
+    },
+    {
+      "title": "Palisades Tahoe To Open Four Days Early Thanks To Plentiful Early-Season Snowfall",
+      "url": "https://www.powder.com/news/palisades-tahoe-early-opening-day-2026",
+      "source": "POWDER",
+      "published": "2026-11-17T00:21:03.000Z"
+    },
+    {
+      "title": "Copper Mountain, CO, Passes Snow Control Ahead of Thanksgiving World Cup Races",
+      "url": "https://snowbrains.com/copper-mountain-passes-snow-control-stifel-copper-cup-2026/",
+      "source": "SnowBrains",
+      "published": "2026-11-16T23:45:17.000Z"
+    },
+    {
+      "title": "Inside the Dangerous Job of Keeping Wyoming’s Teton Pass Open All Winter",
+      "url": "https://unofficialnetworks.com/2026/11/16/teton-pass-avalanche-mitigation-documentary/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-16T22:07:05.000Z"
+    },
     {
       "title": "Utah Ski Resort Bringing Back Night Skiing",
       "url": "https://unofficialnetworks.com/2026/11/16/nordic-valley-night-skiing/",
@@ -201,64 +273,10 @@
       "published": "2026-11-16T10:00:00.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Utah’s Upper Cottonwoods Lead a Colder Base-Building Storm",
-      "url": "https://snowbrains.com/snowbrains-forecast-utahs-upper-cottonwoods-lead-a-colder-base-building-storm/",
-      "source": "SnowBrains",
-      "published": "2026-11-16T02:07:22.000Z"
-    },
-    {
       "title": "Skier Survives More Than 24 Hours Trapped in Crevasse With Fractured Femur in French Alps",
       "url": "https://unofficialnetworks.com/2026/11/15/skier-survives-crevasse-avalanche/",
       "source": "Unofficial Networks",
       "published": "2026-11-15T18:44:38.000Z"
-    },
-    {
-      "title": "East Coast’s Ski Season Officially Underway",
-      "url": "https://unofficialnetworks.com/2026/11/15/east-coasts-ski-season-officially-underway/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-15T17:52:41.000Z"
-    },
-    {
-      "title": "Utah’s Park City Mountain Revives Plans to Update Mountain Village",
-      "url": "https://snowbrains.com/utahs-park-city-mountain-revives-plans-to-update-mountain-village/",
-      "source": "SnowBrains",
-      "published": "2026-11-15T16:10:40.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: The Week Ahead in Western North America, Colder Storms Favor the Sierra",
-      "url": "https://snowbrains.com/snowbrains-forecast-the-week-ahead-in-western-north-america-colder-storms-favor-the-sierra/",
-      "source": "SnowBrains",
-      "published": "2026-11-15T16:08:42.000Z"
-    },
-    {
-      "title": "Former U.S. Mogul Coach Riley Campbell Joins Swedish Mogul Team",
-      "url": "https://snowbrains.com/former-u-s-mogul-coach-riley-campbell-joins-swedish-mogul-team/",
-      "source": "SnowBrains",
-      "published": "2026-11-15T16:03:27.000Z"
-    },
-    {
-      "title": "New Hermès Skis Cost $20,100, and Even the $2,525 Poles Are Not Included",
-      "url": "https://snowbrains.com/hermes-skis-all-mountain-20100/",
-      "source": "SnowBrains",
-      "published": "2026-11-15T15:21:51.000Z"
-    },
-    {
-      "title": "Where’s the Snow? North America’s 7-Day Powder Finder Forecast",
-      "url": "https://snowbrains.com/wheres-the-snow-north-americas-7-day-powder-finder-forecast-nov-15-2026/",
-      "source": "SnowBrains",
-      "published": "2026-11-15T13:56:37.000Z"
-    },
-    {
-      "title": "Trip Report: “Lake Chute” Off 10,718′ Lake Peak, UT",
-      "url": "https://snowbrains.com/red-pine-lake-lake-chute-ski-november-2026/",
-      "source": "SnowBrains",
-      "published": "2026-11-15T13:07:58.000Z"
-    },
-    {
-      "title": "Lucas Braathen Wins Slalom World Cup at Levi, Finland, Second Time in a Row",
-      "url": "https://snowbrains.com/lucas-braathen-wins-slalom-world-cup-at-levi-finland-second-time-in-a-row/",
-      "source": "SnowBrains",
-      "published": "2026-11-15T13:07:09.000Z"
     },
     {
       "title": "The POWDER Staff Reacts To NST Ski Moving To Palisades Tahoe, California",
@@ -301,24 +319,6 @@
       "url": "https://www.powder.com/news/snowshoe-mountain-celebrates-first-snow-season",
       "source": "POWDER",
       "published": "2026-11-13T19:00:38.000Z"
-    },
-    {
-      "title": "The 5 Best Resorts To Ski This Weekend: November 14-15, 2026",
-      "url": "https://www.powder.com/news/best-ski-resorts-weekend-november-14-15-2026",
-      "source": "POWDER",
-      "published": "2026-11-13T18:36:52.000Z"
-    },
-    {
-      "title": "After Flooding Sidelined Plans, Colorado's Snowiest Ski Area Reopens This Weekend",
-      "url": "https://www.powder.com/news/wolf-creek-colorado-reopens-weekend",
-      "source": "POWDER",
-      "published": "2026-11-13T17:45:23.000Z"
-    },
-    {
-      "title": "El Niño Is Strengthening, but It Hasn't Hit Quite Yet",
-      "url": "https://www.powder.com/news/el-nino-strengthening-noaa-report",
-      "source": "POWDER",
-      "published": "2026-11-13T16:34:07.000Z"
     },
     {
       "title": "Three Big New York Ski Resorts Just Joined the Indy Pass Network",
