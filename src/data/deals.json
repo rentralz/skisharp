@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-11-17T12:01:13.292Z",
+  "lastScanned": "2026-11-17T20:58:11.706Z",
   "totalDeals": 73,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 124,
+    "slickdeals": 126,
     "amazon": 9
   },
   "deals": [
+    {
+      "title": "SMOHTIW Men's or Women's Waterproof Ski & Snowboard Gloves w/ Zippered Pocket (Various) $8.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20328474-smohtiw-men-s-or-women-s-waterproof-ski-snowboard-gloves-w-zippered-pocket-various-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-17T18:03:30.000Z"
+    },
+    {
+      "title": "WASOTO Heated Gloves for Men Women Heated Ski Gloves 7.4V Battery 22.2WH Rechargeable Touchscreen Waterproof Electric Heated Fishing Gloves for Winter $54.99",
+      "url": "https://slickdeals.net/f/20328315-wasoto-heated-gloves-for-men-women-heated-ski-gloves-7-4v-battery-22-2wh-rechargeable-touchscreen-waterproof-electric-heated-fishing-gloves-for-winter-54-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-17T17:45:36.000Z"
+    },
+    {
+      "title": "Ski/Snowboard Goggles with Push-Open Ventilation for Men, Women & Youth $39.99",
+      "url": "https://slickdeals.net/f/20327892-ski-snowboard-goggles-with-push-open-ventilation-for-men-women-youth-39-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-17T16:33:17.000Z"
+    },
     {
       "title": "GXCROR Waterproof Ski Gloves for Men Women - Winter Warm Touchscreen Gloves $9.49 AC",
       "url": "https://slickdeals.net/f/20324019-gxcror-waterproof-ski-gloves-for-men-women-winter-warm-touchscreen-gloves-9-49-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -440,22 +464,6 @@
       "posted": "2026-10-31T01:04:06.000Z"
     },
     {
-      "title": "HOTPEAK Night Vision Goggles $53.99 AC",
-      "url": "https://slickdeals.net/f/20233473-hotpeak-night-vision-goggles-53-99-ac?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-30T17:58:08.000Z"
-    },
-    {
-      "title": "Amazon - BMDSAE 4K Night Vision Goggles $35.99 w/ Code",
-      "url": "https://slickdeals.net/f/20233155-amazon-bmdsae-4k-night-vision-goggles-35-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-30T17:00:18.000Z"
-    },
-    {
       "title": "Odoland Magnetic Ski OTG Anti-Fog Snow Goggles - $34.99",
       "url": "https://slickdeals.net/f/20232741-odoland-magnetic-ski-otg-anti-fog-snow-goggles-34-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -470,14 +478,6 @@
       "sourceIcon": "💰",
       "category": "goggles",
       "posted": "2026-10-30T13:50:23.000Z"
-    },
-    {
-      "title": "RUIXUE Winter Gloves for Men Women, Warm Touchscreen for running,cycing(Black,XL) $9.72",
-      "url": "https://slickdeals.net/f/20230494-ruixue-winter-gloves-for-men-women-warm-touchscreen-for-running-cycing-black-xl-9-72?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-30T03:32:46.000Z"
     },
     {
       "title": "Merino Wool Compression Socks for Women and Men $12.99 AC",
@@ -525,7 +525,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     },
     {
@@ -534,7 +534,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     },
     {
@@ -543,7 +543,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     },
     {
@@ -552,7 +552,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     },
     {
@@ -561,7 +561,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     },
     {
@@ -570,7 +570,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     },
     {
@@ -579,7 +579,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     },
     {
@@ -588,7 +588,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     },
     {
@@ -597,7 +597,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-17T12:01:13.289Z",
+      "posted": "2026-11-17T20:58:11.704Z",
       "isAmazonSearch": true
     }
   ]
