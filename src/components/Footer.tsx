@@ -6,6 +6,8 @@ const FOOTER_LINKS = [
   { href: "/slope-ratings", label: "Slope Ratings" },
   { href: "/snow-conditions", label: "Snow Conditions" },
   { href: "/equipment-guide", label: "Equipment Guide" },
+  { href: "/ski-size-calculator", label: "Ski Size Calculator" },
+  { href: "/snowboard-size-calculator", label: "Snowboard Size Calculator" },
   { href: "/clothing-guide", label: "Clothing Guide" },
   { href: "/budget-gear", label: "Budget Gear" },
   { href: "/deals", label: "Deals & Sales" },

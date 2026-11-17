@@ -241,6 +241,26 @@ export default function EquipmentGuidePage() {
             The right equipment amplifies good technique. The wrong equipment fights
             you every turn. Here&apos;s how to choose gear that matches your level and goals.
           </p>
+          <div className="mt-6 flex flex-col gap-3 rounded-2xl border border-[#e8722a]/20 bg-[#e8722a]/5 p-4 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-sm text-gray-700">
+              <span className="font-semibold text-gray-900">Not sure what length to buy?</span> Get a size range for
+              your height, weight and level.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href="/ski-size-calculator"
+                className="rounded-full bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-700"
+              >
+                Ski size calculator
+              </Link>
+              <Link
+                href="/snowboard-size-calculator"
+                className="rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-900 hover:border-gray-500"
+              >
+                Snowboard size calculator
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
 

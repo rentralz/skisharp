@@ -110,6 +110,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${BASE_URL}/ski-size-calculator`,
+      lastModified: latestSiteUpdate,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${BASE_URL}/snowboard-size-calculator`,
+      lastModified: latestSiteUpdate,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${BASE_URL}/resorts`,
       lastModified: latestSiteUpdate,
       changeFrequency: "monthly",
