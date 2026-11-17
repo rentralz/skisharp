@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import DealsAnalytics from "@/components/DealsAnalytics";
-import DealsAlertSignup from "@/components/DealsAlertSignup";
 import TrackedLink from "@/components/TrackedLink";
 import dealsData from "@/data/deals.json";
 
@@ -359,7 +358,6 @@ export default function DealsPage() {
     `${amazonSearches.length} category shortcuts`,
     "Affiliate links clearly labeled",
   ];
-  const dealAlertsEnabled = Boolean(process.env.DEALS_ALERTS_WEBHOOK_URL) || !process.env.VERCEL;
   const scanAgeHours = getHoursSince(lastScanned);
   const scanRecencyBucket = getRecencyBucket(scanAgeHours);
   const featuredDealsListId = `${DEALS_URL}#featured-community-deals`;
@@ -475,7 +473,6 @@ export default function DealsPage() {
           featuredCommunityCount={featuredCommunityDeals.length}
           retailerShortcutCount={RETAILER_SHORTCUTS.length}
           affiliateShortcutCount={amazonSearches.length}
-          dealAlertsEnabled={dealAlertsEnabled}
           scanRecencyBucket={scanRecencyBucket}
         />
         <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
@@ -643,9 +640,6 @@ export default function DealsPage() {
                   ) : null}
                 </div>
 
-                <div id="deal-alerts">
-                  <DealsAlertSignup enabled={dealAlertsEnabled} />
-                </div>
               </aside>
             </div>
           </div>

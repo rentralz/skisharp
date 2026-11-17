@@ -5,12 +5,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import { buildPageMetadata, CONTACT_EMAIL } from "@/lib/seo";
 
-const LAST_UPDATED = "September 29, 2026";
+const LAST_UPDATED = "November 17, 2026";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Privacy Policy",
   description:
-    "How TurnLab uses analytics, advertising cookies, affiliate links, deal-alert emails, and on-device storage — and the choices you have.",
+    "How TurnLab uses analytics, advertising cookies, affiliate links, and on-device storage — and the choices you have.",
   path: "/privacy",
 });
 
@@ -92,18 +92,6 @@ export default function PrivacyPage() {
           </div>
         </section>
 
-        <section className={sectionClass} aria-labelledby="email">
-          <h2 id="email" className={headingClass}>Deal-alert emails</h2>
-          <div className={bodyClass}>
-            <p>
-              If you sign up for deal alerts, we store your email address, the gear interest you
-              chose, the time you signed up, the page you came from, and your browser&apos;s user-agent
-              string. We use them only to send deal alerts, through our email service provider. To stop
-              getting alerts or have your address deleted, email us and we&apos;ll remove it.
-            </p>
-          </div>
-        </section>
-
         <section className={sectionClass} aria-labelledby="device">
           <h2 id="device" className={headingClass}>Data stored on your device</h2>
           <div className={bodyClass}>
@@ -141,7 +129,7 @@ export default function PrivacyPage() {
                 </a>
                 .
               </li>
-              <li>Email us to ask what we hold about you or to have your email address deleted.</li>
+              <li>Email us to ask what we hold about you or to have it deleted.</li>
             </ul>
             <p>We do not sell your personal information.</p>
           </div>

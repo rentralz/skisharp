@@ -8,7 +8,6 @@ type DealsAnalyticsProps = {
   featuredCommunityCount: number;
   retailerShortcutCount: number;
   affiliateShortcutCount: number;
-  dealAlertsEnabled: boolean;
   scanRecencyBucket: string;
 };
 
@@ -16,7 +15,6 @@ const SECTION_LABELS = {
   "community-picks": "community_picks",
   "retailer-shortcuts": "retailer_shortcuts",
   "category-shortcuts": "category_shortcuts",
-  "deal-alerts": "deal_alerts",
   "trust-notes": "trust_notes",
 } as const;
 
@@ -25,7 +23,6 @@ export default function DealsAnalytics({
   featuredCommunityCount,
   retailerShortcutCount,
   affiliateShortcutCount,
-  dealAlertsEnabled,
   scanRecencyBucket,
 }: DealsAnalyticsProps) {
   useEffect(() => {
@@ -39,13 +36,11 @@ export default function DealsAnalytics({
       retailer_shortcut_count: retailerShortcutCount,
       affiliate_shortcut_count: affiliateShortcutCount,
       has_featured_community_deals: featuredCommunityCount > 0,
-      deal_alerts_enabled: dealAlertsEnabled,
       hours_since_last_scan: hoursSinceScan,
       scan_recency_bucket: scanRecencyBucket,
     });
   }, [
     affiliateShortcutCount,
-    dealAlertsEnabled,
     featuredCommunityCount,
     retailerShortcutCount,
     lastScanned,
