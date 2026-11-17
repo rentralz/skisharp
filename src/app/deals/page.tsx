@@ -4,6 +4,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import DealsAnalytics from "@/components/DealsAnalytics";
 import TrackedLink from "@/components/TrackedLink";
+import BlackFridayBanner from "@/components/BlackFridayBanner";
 import dealsData from "@/data/deals.json";
 
 const SITE_URL = "https://turnlab.co";
@@ -474,6 +475,7 @@ export default function DealsPage() {
       <Breadcrumbs crumbs={[{ label: "Deals" }]} />
 
       <main id="main-content">
+        <BlackFridayBanner />
       <div className="pb-16">
         <DealsAnalytics
           lastScanned={lastScanned}

@@ -98,6 +98,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${BASE_URL}/black-friday-ski-deals`,
+      lastModified: latestSiteUpdate,
+      changeFrequency: "daily",
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/budget-gear`,
       lastModified: latestSiteUpdate,
       changeFrequency: "monthly",

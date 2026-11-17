@@ -33,6 +33,8 @@ const SLICKDEALS_QUERIES = [
   "snowboard boots",
   "snowboard bindings",
   "snowboard jacket",
+  "black friday ski",
+  "black friday snowboard",
 ];
 
 // Categories for classification
