@@ -122,6 +122,12 @@ const CATEGORY_LABELS: Record<
     description: "Small gear, useful add-ons, and quick shipping wins.",
     cta: "See accessory deals",
   },
+  snowboards: {
+    label: "Snowboards",
+    emoji: "🏂",
+    description: "Boards, from park sticks to all-mountain decks, when end-of-season discounts land.",
+    cta: "See snowboard deals",
+  },
   skis: {
     label: "Skis",
     emoji: "🎿",
@@ -131,7 +137,7 @@ const CATEGORY_LABELS: Record<
   boots: {
     label: "Boots",
     emoji: "🥾",
-    description: "Higher-ticket buying paths for skiers replacing or upgrading their setup.",
+    description: "Higher-ticket buying paths for skiers and riders replacing or upgrading their setup.",
     cta: "See boot deals",
   },
   bindings: {
@@ -153,9 +159,9 @@ const CATEGORY_LABELS: Record<
     cta: "See bag deals",
   },
   passes: {
-    label: "Lift passes",
+    label: "Passes & trips",
     emoji: "🎫",
-    description: "Useful when pre-season pricing or pass-related discounts show up.",
+    description: "Pass discounts, lift tickets, and ski-trip packages when pre-season pricing shows up.",
     cta: "See pass deals",
   },
   other: {
@@ -233,6 +239,7 @@ const HERO_QUICK_PATH_CATEGORIES = ["jackets", "goggles", "boots", "skis"] as co
 const FEATURED_CATEGORY_PRIORITY: Record<string, number> = {
   jackets: 90,
   skis: 88,
+  snowboards: 88,
   boots: 86,
   goggles: 84,
   helmets: 80,

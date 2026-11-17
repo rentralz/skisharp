@@ -19,37 +19,52 @@ const REDDIT_SUBREDDITS = ["skiingdeals", "skigear", "skiing"];
 const REDDIT_QUERY = 'deal OR discount OR clearance OR coupon OR markdown OR sale OR "% off" OR "off season"';
 const SLICKDEALS_QUERIES = [
   "ski",
+  "skis",
   "ski jacket",
+  "ski pants",
   "ski goggles",
   "ski boots",
+  "ski bindings",
   "ski helmet",
   "ski gloves",
   "ski socks",
   "base layer",
+  "snowboard",
+  "snowboard boots",
+  "snowboard bindings",
+  "snowboard jacket",
 ];
 
 // Categories for classification
+// First match wins. Passes and trips go first so "Skis Fly Free" vacation
+// packages don't land in skis; bags before boots so a boot bag is a bag;
+// ski + binding bundles are skis; "skis" is last and only takes actual skis.
+const SKI_BRANDS = "rossignol|salomon|atomic|k2|nordica|v[oö]lkl|head|blizzard|elan|armada|faction|black crows|dynastar|fischer|dps|4frnt|icelantic|k[aä]stle|st[oö]ckli";
 const CATEGORY_RULES = [
-  ["jackets", /\b(jacket|jkt|shell|parka|coat|outerwear)\b/i],
+  ["passes", /\b(lift tickets?|(ski|snowboard|season|day|multi-?day|epic|ikon|indy)\s+(day\s+)?pass(es)?|ikon|ski(ing)?\s+(trips?|vacations?|getaways?|destinations?|packages?|holidays?|resorts?)|vacations?|lodging|\d+\s+nights?)\b/i],
+  ["packs", /\b(backpacks?|bags?|duffels?)\b/i],
+  ["jackets", /\b(jackets?|jkt|shells?|parkas?|coats?|outerwear)\b/i],
   ["pants", /\b(pant|pants|bib|bibs|overall|overalls|trouser)\b/i],
   ["baselayers", /\b(base layer|baselayer|thermal|quarter-zip|half-zip)\b/i],
   ["gloves", /\b(glove|gloves|mitten|mittens|mitt)\b/i],
   ["goggles", /\b(goggle|goggles|lens|lenses)\b/i],
   ["helmets", /\b(helmet|helmets)\b/i],
   ["socks", /\b(sock|socks)\b/i],
-  ["accessories", /\b(gaiter|balaclava|beanie|neck warmer|hand warmer|waterproofing|mask)\b/i],
+  ["skis", /\bskis?\b.{0,40}?(\bwith\b|\bw\/|\+|\band\b)\s*(bindings?|poles)\b/i],
   ["boots", /\b(ski boot|ski boots|boot|boots)\b/i],
   ["bindings", /\b(binding|bindings)\b/i],
   ["poles", /\b(pole|poles)\b/i],
-  ["packs", /\b(backpack|pack|bag)\b/i],
-  ["passes", /\b(pass|epic|ikon|lift ticket|season pass)\b/i],
-  ["skis", /\b(ski|skis)\b/i],
+  ["accessories", /\b(gaiter|balaclava|beanie|neck warmer|hand warmer|waterproofing|mask|wax|tuning|tune kit|leash|stomp pad|ski straps?)\b/i],
+  ["snowboards", /\bsnowboards?\b(?!\s+(hoodies?|shirts?|tees?|racks?|wrist|guards?|shorts|locks?|leash(es)?|stickers?|decals?|mounts?|stands?))/i],
+  ["skis", new RegExp(`\\bskis\\b|\\b(all[- ]mountain|carving|powder|freeride|freestyle|park|touring|race|twin[- ]tip) skis?\\b|\\bski (set|system)\\b|\\b\\d{2,3}\\s?(mm)?\\s+skis?\\b|\\b(${SKI_BRANDS})\\b.*\\bskis?\\b`, "i")],
 ];
 
-const SKI_CONTEXT_PATTERN = /\b(ski|skis|snow|goggle|goggles|helmet|helmets|balaclava|merino|base layer|baselayer|thermal|spyder|smartwool|arctix|waterproofing|lift ticket|pass|ikon|epic|snow gear|winter)\b/i;
+// The title must name the sport itself: "snow", "winter", "thermal" or
+// "goggles" alone let swim goggles, fleece leggings and sleds through.
+const SNOW_SPORT_PATTERN = /\b(ski|skis|skiing|skier|snowboard|snowboards|snowboarding|lift tickets?|(season|epic|ikon|indy)\s+(day\s+)?pass(es)?|ikon|base ?layers?|balaclava|snow (pants|jacket|bibs|goggles?|gear))\b/i;
 const DEAL_PATTERN = /(\bdeal\b|\bdiscount\b|\bclearance\b|\bmarkdown\b|\bcoupon\b|\bpromo\b|\bsale\b|%\s*off|\bfrom\s*[$€£]|[$€£]\s?\d|\boff season\b|\bsave\b)/i;
 const QUESTION_PATTERN = /(\?|\b(help|advice|review|sizing|length|best time|where to sell|looking for|anyone|what|when|how|should i|good for beginner|trying to figure out)\b)/i;
-const NEGATIVE_PATTERN = /(harley|road king|motorcycle|windshield|shield\/screen|sales tax|air freshener|smart watch|graphic short sleeve|crusher tee|t-?rex|cleansing oil|dark ski scent|women's graphic tee|men's graphic tee|fleece jacket|\bgolf\b|stand bag|disc golf)/i;
+const NEGATIVE_PATTERN = /(harley|road king|motorcycle|windshield|shield\/screen|sales tax|air freshener|smart watch|graphic short sleeve|crusher tee|t-?rex|cleansing oil|dark ski scent|women's graphic tee|men's graphic tee|fleece jacket|\bgolf\b|stand bag|disc golf|\bswim|jet ?ski|water ?skis?|ski-?doo|\bsled|toboggan|snow ?blower|snow shovel|ice scraper|snow chains|tire chains|snowman|inflatable|christmas (ornament|tree|decor)|ornaments?|snowmobil)/i;
 
 function classifyDeal(title) {
   for (const [category, pattern] of CATEGORY_RULES) {
@@ -86,10 +101,12 @@ function hasExplicitPriceSignal(text) {
   return /([$€£]\s?\d|\d+%\s*off|\bfrom\s*[$€£]|\bunder\s*[$€£])/i.test(text);
 }
 
-function isRelevantDeal(title, url = "") {
+// Posts from ski subreddits already carry the sport context, so they skip the
+// title sport-word test that guards keyword search results.
+function isRelevantDeal(title, url = "", sportContext = false) {
   const haystack = `${title} ${url}`;
   if (NEGATIVE_PATTERN.test(haystack)) return false;
-  if (!SKI_CONTEXT_PATTERN.test(haystack)) return false;
+  if (!sportContext && !SNOW_SPORT_PATTERN.test(title)) return false;
   return DEAL_PATTERN.test(haystack) || hasExplicitPriceSignal(haystack);
 }
 
@@ -173,7 +190,7 @@ async function scanReddit() {
         const d = post.data;
         const outboundUrl = d.url_overridden_by_dest || d.url || `https://reddit.com${d.permalink}`;
         if (d.score < 2) continue;
-        if (!isRelevantDeal(d.title, outboundUrl)) continue;
+        if (!isRelevantDeal(d.title, outboundUrl, true)) continue;
         if (isLikelyDiscussionPost(d.title, outboundUrl)) continue;
 
         deals.push({
@@ -252,6 +269,9 @@ function getAmazonDeals() {
     { query: "ski+base+layer+deal", title: "Base Layer Deals", category: "baselayers" },
     { query: "ski+boot+sale", title: "Ski Boot Sales", category: "boots" },
     { query: "all+mountain+skis+sale", title: "All-Mountain Skis on Sale", category: "skis" },
+    { query: "snowboard+sale", title: "Snowboards on Sale", category: "snowboards" },
+    { query: "snowboard+boots+sale", title: "Snowboard Boot Sales", category: "boots" },
+    { query: "snowboard+bindings+sale", title: "Snowboard Bindings on Sale", category: "bindings" },
   ];
 
   return searches.map((search) => ({
@@ -314,7 +334,13 @@ async function main() {
   console.log(`\n✅ Wrote ${freshDeals.length} deals to ${DEALS_PATH}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+export { classifyDeal, isRelevantDeal };
+
+// Run only when executed directly, so the filters can be imported by tests.
+// realpath on both sides: a symlinked checkout path must not silently skip the scan.
+if (process.argv[1] && fs.realpathSync(process.argv[1]) === fs.realpathSync(fileURLToPath(import.meta.url))) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
