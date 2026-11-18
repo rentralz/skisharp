@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import SkipNav from "@/components/SkipNav";
@@ -14,6 +15,8 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
+
+const ADSENSE_PUB_ID = process.env.NEXT_PUBLIC_ADSENSE_PUB_ID || "";
 
 const GOOGLE_SITE_VERIFICATION =
   process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || process.env.GOOGLE_SITE_VERIFICATION || undefined;
@@ -59,6 +62,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.svg",
   },
+  // AdSense's site-ownership tag. The ad script itself now loads after the
+  // page (see RootLayout), so this keeps the account link in the HTML.
+  other: ADSENSE_PUB_ID ? { "google-adsense-account": ADSENSE_PUB_ID } : undefined,
 };
 
 export default function RootLayout({
@@ -68,16 +74,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`} suppressHydrationWarning>
-      {process.env.NEXT_PUBLIC_ADSENSE_PUB_ID && (
-        <head>
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PUB_ID}`}
+      <body className="min-h-screen bg-white dark:bg-[#111] text-[#222] dark:text-gray-100">
+        {/* Ads (about 250 KB) load once the page has finished loading, so they
+            never compete with the page itself. AdUnit pushes queue up until then. */}
+        {ADSENSE_PUB_ID && (
+          <Script
+            id="adsense"
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUB_ID}`}
+            strategy="lazyOnload"
             crossOrigin="anonymous"
           />
-        </head>
-      )}
-      <body className="min-h-screen bg-white dark:bg-[#111] text-[#222] dark:text-gray-100">
+        )}
         <PostHogProvider>
           <Suspense fallback={null}>
             <GoogleAnalytics />
