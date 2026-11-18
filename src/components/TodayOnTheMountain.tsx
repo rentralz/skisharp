@@ -11,6 +11,7 @@ import {
   snowDays,
   snowFreshness,
   snowHeadline,
+  snowBandVisible,
   snowResorts,
   snowUpdated,
 } from "@/lib/snow";
@@ -22,11 +23,11 @@ const MIN_SCALE_IN = 3; // keeps a trace from filling the whole chart
 // Refreshed daily from the National Weather Service forecast, so the headline,
 // date and order change with the weather. Server-rendered: no client JS.
 export default function TodayOnTheMountain() {
-  const freshness = snowFreshness();
   // Yesterday's forecast must not claim to be "today"; old forecasts aren't shown.
-  if (snowResorts.length === 0 || snowDays.length === 0 || freshness === "hidden") {
+  if (!snowBandVisible()) {
     return null;
   }
+  const freshness = snowFreshness();
 
   const snowy = isSnowyForecast(snowResorts);
   const ranked = rankBySnow(snowResorts);
@@ -36,7 +37,7 @@ export default function TodayOnTheMountain() {
   const bandDays = bandDayCount(snowResorts);
 
   return (
-    <section aria-labelledby="today-on-the-mountain" className="py-8 md:py-12">
+    <section id="snow-forecast" aria-labelledby="today-on-the-mountain" className="scroll-mt-14 py-8 md:py-12">
       <div className="rounded-[32px] border border-[#e6dccf] bg-white p-6 shadow-[0_18px_44px_rgba(92,68,43,0.07)] sm:p-8">
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>

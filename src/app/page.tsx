@@ -7,6 +7,8 @@ import LatestSkiNews from "@/components/LatestSkiNews";
 import TodayOnTheMountain from "@/components/TodayOnTheMountain";
 import HomeHeroDisciplineSwitch from "@/components/HomeHeroDisciplineSwitch";
 import HomeDisciplineLibraryCta from "@/components/HomeDisciplineLibraryCta";
+import HomeQuickLinks from "@/components/HomeQuickLinks";
+import { snowBandVisible } from "@/lib/snow";
 import { DISCIPLINES, type Discipline } from "@/data/disciplines";
 import { buildAbsoluteUrl } from "@/lib/seo";
 import {
@@ -323,28 +325,25 @@ export default function HomePage() {
             <div className="overflow-hidden rounded-[32px] border border-[#eadfd6] bg-[linear-gradient(135deg,#fffaf5_0%,#fffdfb_55%,#f5eee8_100%)] p-6 shadow-[0_20px_70px_rgba(119,85,53,0.08)] sm:p-8 lg:p-10">
               <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
                 <div>
-                  <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43] shadow-sm">
-                    Curated ski + snowboard instruction, not YouTube chaos
+                  <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[#a56f43] shadow-sm sm:tracking-[0.22em]">
+                    {/* The full line wraps to three rows on a phone. */}
+                    <span className="sm:hidden">Curated, not YouTube chaos</span>
+                    <span className="hidden sm:inline">Curated ski + snowboard instruction, not YouTube chaos</span>
                   </div>
                   <h1 className="mt-5 max-w-3xl text-4xl font-black tracking-tight text-[#201d1a] sm:text-5xl lg:text-6xl">
                     Find the right technique for your level — and know what to practice next.
                   </h1>
-                  <p className="mt-5 max-w-2xl text-base leading-8 text-[#5f5a55] sm:text-lg">
+                  <p className="mt-5 max-w-2xl text-base leading-7 text-[#5f5a55] sm:text-lg sm:leading-8">
                     TurnLab turns scattered ski and snowboard videos into guided learning
                     paths with timestamps, feel cues, drills, and progression built in.
-                    Start with a one-minute level check or jump straight into the library.
+                    <span className="hidden sm:inline">
+                      {" "}Start with a one-minute level check or jump straight into the library.
+                    </span>
                   </p>
 
-                  <div className="mt-6">
-                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
-                      Choose your discipline
-                    </p>
-                    <div className="mt-3">
-                      <HomeHeroDisciplineSwitch />
-                    </div>
-                  </div>
-
-                  <div className="mt-8 flex flex-wrap items-center gap-3">
+                  {/* Actions come before the discipline picker so the level-check
+                      button is fully visible on the first screen of a phone. */}
+                  <div className="mt-6 flex flex-wrap items-center gap-3 sm:mt-8">
                     <Link
                       href="/quiz"
                       className="inline-flex items-center justify-center rounded-full bg-[#201d1a] px-6 py-3 text-sm font-semibold text-white transition-transform transition-colors hover:-translate-y-0.5 hover:bg-[#342f2a]"
@@ -354,6 +353,17 @@ export default function HomePage() {
                     <HomeDisciplineLibraryCta
                       className="inline-flex items-center justify-center rounded-full border border-[#d9c6b5] bg-white px-6 py-3 text-sm font-semibold text-[#7d5431] transition-colors hover:border-[#c9ae96] hover:bg-[#fff6ee]"
                     />
+                  </div>
+
+                  <HomeQuickLinks showSnowLink={snowBandVisible()} />
+
+                  <div className="mt-8">
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
+                      Choose your discipline
+                    </p>
+                    <div className="mt-3">
+                      <HomeHeroDisciplineSwitch />
+                    </div>
                   </div>
 
                   <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#6c6259]">

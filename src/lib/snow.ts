@@ -122,6 +122,11 @@ export function snowAgeHours(nowMs: number = Date.now()) {
   return (nowMs - Date.parse(snowUpdated)) / 3_600_000;
 }
 
+// Whether the homepage snow band renders at all (also gates links to it).
+export function snowBandVisible(nowMs: number = Date.now()) {
+  return snowResorts.length > 0 && snowDays.length > 0 && snowFreshness(nowMs) !== "hidden";
+}
+
 // "fresh" only when the forecast starts today, so yesterday's forecast is
 // never labelled "today"; hidden once it is old or entirely in the past.
 export function snowFreshness(nowMs: number = Date.now()): "fresh" | "stale" | "hidden" {

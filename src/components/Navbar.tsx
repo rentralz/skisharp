@@ -6,6 +6,7 @@ import { DISCIPLINES } from "@/data/disciplines";
 import { useDisciplinePreference } from "@/hooks/useDisciplinePreference";
 import NavLinks, { type NavLink } from "./NavLinks";
 import MobileMenu from "./MobileMenu";
+import GearMenu, { GEAR_LINKS } from "./GearMenu";
 import ThemeToggle from "./ThemeToggle";
 import DisciplineToggle from "./DisciplineToggle";
 import StreakBadge from "@/components/StreakBadge";
@@ -30,7 +31,7 @@ export default function Navbar() {
     return () => document.removeEventListener("keydown", handleKeyDown);
   }, [menuOpen]);
 
-  const navLinks: NavLink[] = [
+  const disciplineLinks: NavLink[] = [
     {
       href: DISCIPLINES.ski.libraryHref,
       label: "Ski",
@@ -41,13 +42,16 @@ export default function Navbar() {
       label: "Snowboard",
       onClick: () => setDiscipline("snowboard"),
     },
+  ];
+  // About lives in the footer ("How TurnLab works"); the top bar keeps room
+  // for the Gear menu.
+  const trailingLinks: NavLink[] = [
     { href: "/quiz", label: "Quiz" },
-    { href: "/about", label: "About" },
     { href: "/deals", label: "Deals" },
     { href: "/news", label: "News" },
   ];
 
-  const activeHref = useActiveLink(navLinks);
+  const activeHref = useActiveLink([...disciplineLinks, ...GEAR_LINKS, ...trailingLinks]);
 
   return (
     <nav className="sticky top-0 z-50 border-b border-gray-100 bg-white/95 backdrop-blur-sm">
@@ -58,7 +62,9 @@ export default function Navbar() {
           </Link>
 
           <div className="hidden items-center gap-8 text-sm md:flex">
-            <NavLinks links={navLinks} activeHref={activeHref} />
+            <NavLinks links={disciplineLinks} activeHref={activeHref} />
+            <GearMenu activeHref={activeHref} />
+            <NavLinks links={trailingLinks} activeHref={activeHref} />
           </div>
 
           <div className="hidden items-center gap-3 md:flex">
@@ -92,7 +98,11 @@ export default function Navbar() {
 
       <MobileMenu
         open={menuOpen}
-        links={navLinks}
+        sections={[
+          { links: disciplineLinks },
+          { heading: "Gear", links: GEAR_LINKS },
+          { links: trailingLinks },
+        ]}
         activeHref={activeHref}
         onClose={() => setMenuOpen(false)}
       />
