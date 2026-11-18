@@ -8,10 +8,36 @@ import Footer from "@/components/Footer";
 import { techniques } from "@/data/techniques";
 import { buildAbsoluteUrl, buildBreadcrumbSchema, buildPageMetadata, SITE_NAME, SITE_URL } from "@/lib/seo";
 
+const SKELETON_CARD_COUNT = 6;
+
+// Shown until the filters and cards load in the browser. It is roughly the
+// height of the real filters and first cards, so the guide index below starts
+// off-screen and does not jump when the cards arrive (that jump measured as a
+// 0.25 layout shift on a slow phone connection).
 function TechniquesResultsFallback() {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-center text-gray-500">
-      Loading technique filters...
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10" aria-busy="true">
+      <p className="sr-only" role="status">
+        Loading techniques…
+      </p>
+      <div aria-hidden="true">
+        <div className="mb-6 space-y-3">
+          <div className="h-3 w-24 rounded bg-gray-100" />
+          <div className="h-7 w-72 max-w-full rounded bg-gray-100" />
+          <div className="h-4 w-full max-w-xl rounded bg-gray-100" />
+        </div>
+        <div className="mb-8 space-y-5">
+          <div className="h-11 max-w-xl rounded-lg bg-gray-100" />
+          <div className="h-9 w-64 max-w-full rounded-lg bg-gray-100" />
+          <div className="h-20 max-w-3xl rounded-lg bg-gray-100 sm:h-9" />
+          <div className="h-20 max-w-3xl rounded-lg bg-gray-100 sm:h-9" />
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {Array.from({ length: SKELETON_CARD_COUNT }, (_, index) => (
+            <div key={index} className="h-96 rounded-xl border border-gray-200 bg-gray-50" />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

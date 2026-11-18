@@ -1,10 +1,16 @@
 "use client";
 
-import { useCallback, useEffect, useMemo } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { DEFAULT_DISCIPLINE, isDiscipline, type Discipline } from "@/data/disciplines";
 import type { Technique, DifficultyRating } from "@/data/techniques";
+import { TECHNIQUE_ALIASES } from "@/data/techniqueAliases";
+import { buildSearchIndex, hasSearchTerms, searchTechniques } from "@/lib/techniqueSearch";
 import { useDisciplinePreference } from "./useDisciplinePreference";
+
+// Typing filters the list at once; the URL (?q=) catches up after a pause, or
+// straight away when the box loses focus or the visitor presses Enter.
+const QUERY_URL_DELAY_MS = 700;
 
 export interface FilterState {
   discipline: Discipline | "all";
@@ -21,6 +27,15 @@ export interface UseTechniqueFiltersResult {
   filtered: Technique[];
   allTerrain: string[];
   disciplineTechniqueCount: number;
+  query: string;
+  setQuery: (query: string) => void;
+  commitQuery: () => void;
+  // The query as last written to the URL (trimmed); changes once per search.
+  committedQuery: string;
+  searchActive: boolean;
+  // Matches hidden by the discipline, level or terrain filters.
+  outsideMatchCount: number;
+  showAllMatches: () => void;
 }
 
 const VALID_RATINGS: DifficultyRating[] = ["green", "blue", "black", "double-black"];
@@ -49,6 +64,21 @@ export function useTechniqueFilters(techniques: Technique[]): UseTechniqueFilter
   const rawTerrain = searchParams.get("terrain");
   const currentQuery = searchParams.toString();
 
+  // The search text lives in local state, read from ?q= once on mount. Nothing
+  // else changes ?q= while the page is open (filter changes carry the local
+  // value along), so there is no URL-to-state sync to race with typing.
+  const [query, setQueryState] = useState(() => searchParams.get("q") ?? "");
+  const [committedQuery, setCommittedQuery] = useState(() => (searchParams.get("q") ?? "").trim());
+  const queryRef = useRef(query);
+  const queryTimer = useRef<number | null>(null);
+
+  useEffect(
+    () => () => {
+      if (queryTimer.current !== null) window.clearTimeout(queryTimer.current);
+    },
+    [],
+  );
+
   const filters = useMemo<FilterState>(() => {
     const discipline = isFilterDiscipline(rawDiscipline)
       ? rawDiscipline
@@ -67,6 +97,12 @@ export function useTechniqueFilters(techniques: Technique[]): UseTechniqueFilter
 
       params.set("discipline", nextFilters.discipline);
 
+      if (query) {
+        params.set("q", query);
+      } else {
+        params.delete("q");
+      }
+
       if (nextFilters.rating === "all") {
         params.delete("rating");
       } else {
@@ -83,7 +119,43 @@ export function useTechniqueFilters(techniques: Technique[]): UseTechniqueFilter
       const nextUrl = queryString ? `${pathname}?${queryString}` : pathname;
       router.replace(nextUrl, { scroll: false });
     },
-    [pathname, router, searchParams],
+    [pathname, query, router, searchParams],
+  );
+
+  // Writes the current search text to ?q= without a server round trip
+  // (Next.js keeps useSearchParams in sync with native history calls).
+  const commitQuery = useCallback(() => {
+    if (queryTimer.current !== null) {
+      window.clearTimeout(queryTimer.current);
+      queryTimer.current = null;
+    }
+
+    const value = queryRef.current;
+    const params = new URLSearchParams(window.location.search);
+    if ((params.get("q") ?? "") !== value) {
+      if (value) {
+        params.set("q", value);
+      } else {
+        params.delete("q");
+      }
+      const nextQuery = params.toString();
+      window.history.replaceState(
+        null,
+        "",
+        nextQuery ? `${window.location.pathname}?${nextQuery}` : window.location.pathname,
+      );
+    }
+    setCommittedQuery(value.trim());
+  }, []);
+
+  const setQuery = useCallback(
+    (value: string) => {
+      queryRef.current = value;
+      setQueryState(value);
+      if (queryTimer.current !== null) window.clearTimeout(queryTimer.current);
+      queryTimer.current = window.setTimeout(commitQuery, QUERY_URL_DELAY_MS);
+    },
+    [commitQuery],
   );
 
   useEffect(() => {
@@ -151,7 +223,7 @@ export function useTechniqueFilters(techniques: Technique[]): UseTechniqueFilter
     return techniques.filter((technique) => technique.discipline === filters.discipline).length;
   }, [filters.discipline, techniques]);
 
-  const filtered = useMemo(
+  const filteredByFacets = useMemo(
     () =>
       techniques.filter((technique) => {
         const disciplineMatch = filters.discipline === "all" || technique.discipline === filters.discipline;
@@ -163,6 +235,23 @@ export function useTechniqueFilters(techniques: Technique[]): UseTechniqueFilter
     [filters.discipline, filters.rating, filters.terrain, techniques],
   );
 
+  const searchIndex = useMemo(() => buildSearchIndex(techniques, TECHNIQUE_ALIASES), [techniques]);
+  const searchActive = hasSearchTerms(query);
+
+  const filtered = useMemo(
+    () => (searchActive ? searchTechniques(filteredByFacets, query, searchIndex) : filteredByFacets),
+    [filteredByFacets, query, searchActive, searchIndex],
+  );
+
+  const outsideMatchCount = useMemo(
+    () => (searchActive ? searchTechniques(techniques, query, searchIndex).length - filtered.length : 0),
+    [filtered.length, query, searchActive, searchIndex, techniques],
+  );
+
+  const showAllMatches = useCallback(() => {
+    updateUrl({ discipline: "all", rating: "all", terrain: "all" });
+  }, [updateUrl]);
+
   return {
     filters,
     setDiscipline,
@@ -172,5 +261,12 @@ export function useTechniqueFilters(techniques: Technique[]): UseTechniqueFilter
     filtered,
     allTerrain,
     disciplineTechniqueCount,
+    query,
+    setQuery,
+    commitQuery,
+    committedQuery,
+    searchActive,
+    outsideMatchCount,
+    showAllMatches,
   };
 }
