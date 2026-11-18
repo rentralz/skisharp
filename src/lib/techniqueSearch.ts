@@ -14,7 +14,7 @@ const STOPWORDS = new Set([
   "a", "an", "and", "are", "at", "best", "better", "can", "do", "does", "for", "from",
   "guide", "how", "i", "im", "in", "is", "it", "learn", "me", "my", "of", "on", "or",
   "should", "technique", "techniques", "the", "tip", "tips", "to", "way", "ways",
-  "what", "when", "with", "without", "you", "your",
+  "versus", "vs", "what", "when", "with", "without", "you", "your",
 ]);
 
 const RATING_WORDS: Record<SearchableTechnique["rating"], string> = {
@@ -34,7 +34,8 @@ const WEIGHTS = { title: 5, alias: 4, tag: 2, description: 1 } as const;
 type Field = keyof typeof WEIGHTS;
 
 // Tokens shorter than this must match a whole word; longer ones may match the
-// start of a word, so "mog" finds "moguls" while typing.
+// start of a word, so "mog" finds "moguls" and "carvi" finds "carving" while
+// the visitor is still typing.
 const MIN_PREFIX_LENGTH = 3;
 
 export function normalizeText(text: string) {
@@ -60,7 +61,8 @@ export function stem(word: string) {
   let w = word;
   if (w.length > 4 && w.endsWith("ing")) {
     w = undouble(w.slice(0, -3));
-  } else if (w.length > 4 && w.endsWith("ed")) {
+  } else if (w.length > 4 && w.endsWith("ed") && !w.endsWith("eed")) {
+    // "carved" -> "carv", but "speed" stays "speed"
     w = undouble(w.slice(0, -2));
   } else if (w.length > 3 && /(sh|ch|x|z)es$/.test(w)) {
     w = w.slice(0, -2);
@@ -73,13 +75,32 @@ export function stem(word: string) {
   return w;
 }
 
-function stems(text: string) {
-  return normalizeText(text).split(" ").filter(Boolean).map(stem);
+interface Words {
+  raw: string[];
+  stems: string[];
+}
+
+function words(text: string): Words {
+  const raw = normalizeText(text).split(" ").filter(Boolean);
+  return { raw, stems: raw.map(stem) };
+}
+
+interface QueryWord {
+  raw: string;
+  stem: string;
+}
+
+function queryWords(query: string): QueryWord[] {
+  const seen = new Set<string>();
+  return normalizeText(query)
+    .split(" ")
+    .filter((word) => word && !STOPWORDS.has(word))
+    .map((raw) => ({ raw, stem: stem(raw) }))
+    .filter(({ stem: s }) => (seen.has(s) ? false : (seen.add(s), true)));
 }
 
 export function queryTerms(query: string) {
-  const words = normalizeText(query).split(" ").filter((word) => word && !STOPWORDS.has(word));
-  return Array.from(new Set(words.map(stem)));
+  return queryWords(query).map(({ stem: s }) => s);
 }
 
 export function hasSearchTerms(query: string) {
@@ -88,7 +109,7 @@ export function hasSearchTerms(query: string) {
 
 export interface SearchIndexEntry {
   slug: string;
-  fields: Record<Field, string[]>;
+  fields: Record<Field, Words>;
 }
 
 export function buildSearchIndex(
@@ -101,29 +122,52 @@ export function buildSearchIndex(
       {
         slug: technique.slug,
         fields: {
-          title: stems(`${technique.title} ${technique.slug}`),
-          alias: stems((aliases[technique.slug] ?? []).join(" ")),
-          tag: stems(
+          title: words(`${technique.title} ${technique.slug}`),
+          alias: words((aliases[technique.slug] ?? []).join(" ")),
+          tag: words(
             [
               ...technique.terrain,
               RATING_WORDS[technique.rating],
               DISCIPLINE_WORDS[technique.discipline],
             ].join(" "),
           ),
-          description: stems(technique.description),
+          description: words(technique.description),
         },
       },
     ]),
   );
 }
 
-function termMatches(term: string, words: string[]) {
-  return term.length < MIN_PREFIX_LENGTH
-    ? words.includes(term)
-    : words.some((word) => word.startsWith(term));
+// Starts of the endings the stemmer removes, as they appear mid-typing.
+const PARTIAL_ENDINGS = new Set(["i", "in", "ing", "e", "ed", "es"]);
+
+// True when a half-typed word is a known stem plus the start of an ending:
+// "turni" (turn + i), "stoppi" (stop + p + i, the doubled consonant), "stopp".
+function isPartialInflection(raw: string, base: string) {
+  if (base.length < MIN_PREFIX_LENGTH || raw.length <= base.length || !raw.startsWith(base)) {
+    return false;
+  }
+  let rest = raw.slice(base.length);
+  const last = base[base.length - 1];
+  if (rest === last) return true;
+  if (rest.length > 1 && rest[0] === last) rest = rest.slice(1);
+  return PARTIAL_ENDINGS.has(rest);
 }
 
-function scoreEntry(entry: SearchIndexEntry, terms: string[]) {
+// A word matches by its stem ("stopping" finds "stops") or, while it is still
+// being typed, as the start of a word ("carvi" finds "carving") or of an
+// inflection of one ("turni", on the way to "turning", finds "turns").
+function termMatches(term: QueryWord, field: Words) {
+  if (term.raw.length < MIN_PREFIX_LENGTH) {
+    return field.raw.includes(term.raw) || field.stems.includes(term.stem);
+  }
+  return (
+    field.stems.some((word) => word.startsWith(term.stem) || isPartialInflection(term.raw, word)) ||
+    field.raw.some((word) => word.startsWith(term.raw))
+  );
+}
+
+function scoreEntry(entry: SearchIndexEntry, terms: QueryWord[]) {
   let score = 0;
   for (const term of terms) {
     let best = 0;
@@ -146,7 +190,7 @@ export function searchTechniques<T extends SearchableTechnique>(
   query: string,
   index: Map<string, SearchIndexEntry>,
 ): T[] {
-  const terms = queryTerms(query);
+  const terms = queryWords(query);
   if (terms.length === 0) return [...techniques];
 
   return techniques

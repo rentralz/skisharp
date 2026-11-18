@@ -8,10 +8,11 @@ const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "";
 // changes based on browser history events"). Sending a manual page_view on
 // top of that recorded every in-site navigation twice.
 //
-// The tiny inline setup runs straight away, so gtag() calls and events queue
-// in dataLayer from the start; the gtag.js library (about 180 KB) loads after
-// the page has finished loading and then sends what was queued. A visitor who
-// leaves before that point is not counted.
+// The tiny inline setup defines gtag() when the page becomes interactive, as
+// before; events sent from then on queue in dataLayer. The gtag.js library
+// (about 180 KB) now loads after the page has finished loading and sends what
+// was queued. A visitor who leaves before that point is not counted, and (as
+// before this change) an event fired before the setup runs is dropped.
 export default function GoogleAnalytics() {
   if (!GA_MEASUREMENT_ID) {
     return null;

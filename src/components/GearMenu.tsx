@@ -44,6 +44,12 @@ interface Props {
 // Desktop "Gear" disclosure menu (WAI-ARIA disclosure pattern, not role=menu):
 // a button that shows a list of ordinary links. Escape, a click outside or
 // tabbing away closes it.
+
+// Hover and current-page fills. These hex classes are not in the html.dark
+// overrides in globals.css (which catch bg-white / bg-gray-50 and repaint them
+// the panel's own colour), so the dark: variants below take effect.
+const ITEM_FILL = "bg-[#f6efe8] dark:bg-[#2a221c]";
+const ITEM_HOVER = "hover:bg-[#f6efe8] dark:hover:bg-[#2a221c]";
 export default function GearMenu({ activeHref }: Props) {
   const [open, setOpen] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
@@ -79,7 +85,12 @@ export default function GearMenu({ activeHref }: Props) {
       ref={wrapperRef}
       className="relative"
       onBlur={(event) => {
-        if (!wrapperRef.current?.contains(event.relatedTarget as Node | null)) {
+        // Close only when focus moves to something else outside (Tab away).
+        // A null relatedTarget means focus went nowhere, e.g. Safari and Firefox
+        // not focusing a clicked link: closing then would remove the link before
+        // its click lands. Outside clicks are handled by the pointerdown listener.
+        const next = event.relatedTarget as Node | null;
+        if (next && !wrapperRef.current?.contains(next)) {
           setOpen(false);
         }
       }}
@@ -125,9 +136,7 @@ export default function GearMenu({ activeHref }: Props) {
                     href={href}
                     onClick={() => setOpen(false)}
                     aria-current={current ? "page" : undefined}
-                    className={`block rounded-xl px-3 py-2.5 transition-colors hover:bg-gray-50 ${
-                      current ? "bg-gray-50" : ""
-                    }`}
+                    className={`block rounded-xl px-3 py-2.5 transition-colors ${current ? ITEM_FILL : ITEM_HOVER}`}
                   >
                     <span className="block text-sm font-semibold text-[#222]">{label}</span>
                     <span className="mt-0.5 block text-xs leading-5 text-[#6b635b]">{blurb}</span>

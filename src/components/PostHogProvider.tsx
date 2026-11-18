@@ -12,13 +12,15 @@ const SESSION_RECORDING_SAMPLE_RATE = 0.25;
 // Page views waiting for PostHog to start; a cap so a blocked or failed
 // start can never grow the queue without bound.
 const MAX_PENDING = 20;
-// Search-box typing rewrites ?q= in the URL; that is not a new page.
-const NON_PAGE_PARAMS = ["q"];
+// Typing in the technique library's search box rewrites ?q= there; that is not
+// a new page. Other pages keep every parameter.
+const NON_PAGE_PARAMS: Record<string, string[]> = { "/techniques": ["q"] };
 
 // PostHog's own add-ons (session replay and others, about 140 KB from
 // PostHog's servers) are fetched when it starts, so it starts only once the
-// page has finished loading and the browser is idle. Calls made before then
-// wait here, keeping the time they happened.
+// page has finished loading and the browser is idle. Page views made before
+// then wait here, keeping the time they happened; autocaptured clicks and a
+// page leave before that point are not recorded.
 let posthogReady = false;
 let startScheduled = false;
 const pendingCalls: Array<() => void> = [];
@@ -70,16 +72,16 @@ if (typeof window !== "undefined" && POSTHOG_KEY) {
   schedulePostHogStart();
 }
 
-function pageQuery(searchParams: URLSearchParams) {
+function pageQuery(pathname: string, searchParams: URLSearchParams) {
   const params = new URLSearchParams(searchParams.toString());
-  NON_PAGE_PARAMS.forEach((name) => params.delete(name));
+  (NON_PAGE_PARAMS[pathname] ?? []).forEach((name) => params.delete(name));
   return params.toString();
 }
 
 function PostHogPageView() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const query = pageQuery(searchParams);
+  const query = pageQuery(pathname, searchParams);
 
   useEffect(() => {
     if (!pathname) return;

@@ -32,6 +32,25 @@ test("the stemmer folds common word forms together", () => {
     for (const form of forms) assert.equal(stem(form), expected, form);
   }
   assert.equal(stem("glass"), "glass");
+  assert.equal(stem("speed"), "speed");
+  assert.equal(stem("speeding"), "speed");
+});
+
+test("half-typed words keep matching while the visitor types", () => {
+  // Each prefix of the word, from three letters on, must keep finding the
+  // technique the whole word finds; an empty flash mid-word reads as "no results".
+  for (const [word, slug] of [
+    ["carving", "dynamic-carving"],
+    ["turning", "parallel-turns"],
+    ["stopping", "hockey-stop"],
+    ["speeding", "speed-control"],
+    ["moguls", "mogul-absorption"],
+  ]) {
+    for (let n = 3; n <= word.length; n++) {
+      assert.ok(search(word.slice(0, n)).includes(slug), `${word.slice(0, n)} -> ${slug}`);
+    }
+  }
+  assert.deepEqual(queryTerms("ski vs snowboard"), ["ski", "snowboard"]);
 });
 
 test("question words are ignored; a query of only those is not a search", () => {

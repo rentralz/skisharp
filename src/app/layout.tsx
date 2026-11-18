@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Inter } from "next/font/google";
-import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import SkipNav from "@/components/SkipNav";
 import PostHogProvider from "@/components/PostHogProvider";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import AdSenseLoader from "@/components/AdSenseLoader";
 import PageTransition from "@/components/PageTransition";
 import "./globals.css";
 
@@ -62,8 +62,8 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.svg",
   },
-  // AdSense's site-ownership tag. The ad script itself now loads after the
-  // page (see RootLayout), so this keeps the account link in the HTML.
+  // AdSense's site-ownership tag. The ad script itself is added after the page
+  // has loaded (AdSenseLoader), so this keeps the account link in the HTML.
   other: ADSENSE_PUB_ID ? { "google-adsense-account": ADSENSE_PUB_ID } : undefined,
 };
 
@@ -75,16 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="min-h-screen bg-white dark:bg-[#111] text-[#222] dark:text-gray-100">
-        {/* Ads (about 250 KB) load once the page has finished loading, so they
-            never compete with the page itself. AdUnit pushes queue up until then. */}
-        {ADSENSE_PUB_ID && (
-          <Script
-            id="adsense"
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUB_ID}`}
-            strategy="lazyOnload"
-            crossOrigin="anonymous"
-          />
-        )}
+        <AdSenseLoader />
         <PostHogProvider>
           <Suspense fallback={null}>
             <GoogleAnalytics />
