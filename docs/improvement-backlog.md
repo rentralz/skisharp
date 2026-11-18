@@ -10,8 +10,10 @@ item it can complete safely.
 
 Each item is a technique slug that has no long-form guide yet. The job writes
 `src/data/guides/<slug>.ts`, registers it in `src/data/guides/index.ts`, and must
-get an independent fact-check before shipping (see the job prompt). Ordered by
-search demand and the beginner progression, with snowboard guides interleaved.
+get an independent fact-check before shipping (see the job prompt). Reordered
+2026-11-17 for the season start: four first-day essentials (getting off the
+chairlift, emergency stop, kick turn, linked turns), then by level (green, blue,
+black) and difficulty, with snowboard guides interleaved.
 
 - [x] speed-control: 2026-10-01
 - [x] snowboard-athletic-stance: 2026-10-02
@@ -25,52 +27,52 @@ search demand and the beginner progression, with snowboard guides interleaved.
 - [x] chairlift-basics: 2026-10-11
 - [x] snowboard-chairlift-basics: 2026-10-12
 - [x] athletic-stance: 2026-11-17
-- [ ] short-turns
-- [ ] snowboard-basic-carving
-- [ ] pole-plant-timing
-- [ ] edge-control-basics
-- [ ] snowboard-one-foot-riding
+- [ ] chairlift-unloading
+- [ ] emergency-stop
 - [ ] kick-turn
+- [ ] linked-turns
+- [ ] snowboard-one-foot-riding
 - [ ] side-stepping
+- [ ] snowboard-flat-base-awareness
+- [ ] pizza-to-french-fries
 - [ ] traverse-technique
-- [ ] snowboard-garlands
-- [ ] short-radius-turns
-- [ ] long-radius-turns
-- [ ] snowboard-switch-basics
 - [ ] skating-on-skis
 - [ ] j-turn
-- [ ] snowboard-variable-snow-basics
-- [ ] fore-aft-balance
-- [ ] weight-transfer
-- [ ] snowboard-flat-base-awareness
-- [ ] flat-light-skiing
-- [ ] steep-skiing
-- [ ] bump-absorption
-- [ ] powder-entry
-- [ ] terrain-park-basics
-- [ ] night-skiing
-- [ ] dynamic-carving
-- [ ] hip-angulation
-- [ ] upper-lower-separation
-- [ ] skidded-to-carved
+- [ ] balance-drills
 - [ ] snowplow-to-parallel
-- [ ] pizza-to-french-fries
-- [ ] linked-turns
-- [ ] emergency-stop
-- [ ] chairlift-unloading
 - [ ] cat-track-skiing
 - [ ] wedge-christie
 - [ ] stem-christie
-- [ ] balance-drills
 - [ ] fall-line-awareness
-- [ ] edge-pressure
+- [ ] edge-control-basics
+- [ ] snowboard-garlands
+- [ ] long-radius-turns
+- [ ] fore-aft-balance
+- [ ] weight-transfer
+- [ ] flat-light-skiing
+- [ ] night-skiing
+- [ ] outside-ski-pressure
+- [ ] short-turns
+- [ ] snowboard-basic-carving
+- [ ] pole-plant-timing
+- [ ] snowboard-switch-basics
+- [ ] terrain-park-basics
+- [ ] hip-angulation
+- [ ] upper-lower-separation
+- [ ] skidded-to-carved
 - [ ] turn-shape
 - [ ] inside-ski-steering
-- [ ] outside-ski-pressure
+- [ ] one-ski-drill
+- [ ] short-radius-turns
+- [ ] snowboard-variable-snow-basics
+- [ ] edge-pressure
+- [ ] bump-absorption
 - [ ] hop-turns
 - [ ] step-turns
-- [ ] one-ski-drill
 - [ ] retraction-turns
+- [ ] steep-skiing
+- [ ] powder-entry
+- [ ] dynamic-carving
 
 ## B. Small site fixes
 
