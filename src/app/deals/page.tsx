@@ -772,7 +772,7 @@ export default function DealsPage() {
                         deal_age_hours: getHoursSince(deal.posted),
                         deal_age_bucket: getRecencyBucket(getHoursSince(deal.posted)),
                       }}
-                      className="group rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_14px_36px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
+                      className="group block rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_14px_36px_rgba(92,68,43,0.05)] transition-transform transition-colors hover:-translate-y-1 hover:border-[#d8b08b]"
                     >
                       <div className="flex items-center justify-between gap-3">
                         <span className="inline-flex items-center rounded-full bg-[#f5ece3] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[#8b5f39]">
