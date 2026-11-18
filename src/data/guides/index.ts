@@ -3,6 +3,7 @@ import type { TechniqueGuide } from "./types";
 import athleticStance from "./athletic-stance";
 import carvedTurns from "./carved-turns";
 import chairliftBasics from "./chairlift-basics";
+import chairliftUnloading from "./chairlift-unloading";
 import counterRotation from "./counter-rotation";
 import fallingLeaf from "./falling-leaf";
 import garlandExercise from "./garland-exercise";
@@ -37,6 +38,7 @@ const GUIDES: TechniqueGuide[] = [
   athleticStance,
   carvedTurns,
   chairliftBasics,
+  chairliftUnloading,
   counterRotation,
   fallingLeaf,
   garlandExercise,

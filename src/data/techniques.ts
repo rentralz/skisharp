@@ -2838,27 +2838,27 @@ export const techniques: Technique[] = [
     description:
       "The specific technique for exiting a chairlift cleanly — timing your stand, pointing your tips, and gliding away without falling or blocking the ramp.",
     promise:
-      "Unloading the lift will go from nerve-wracking to completely automatic — one less thing to worry about so you can focus on the skiing ahead.",
+      "With practice, you can become more comfortable unloading while continuing to check each lift's signs, exit layout, and staff directions.",
     timestamps: [
-      { time: "0:20", label: "Raise the bar early", detail: "Lift the safety bar at the second-to-last tower — gives you time to prepare without rushing" },
+      { time: "0:20", label: "Follow the bar-opening signs", detail: "Keep the restraint bar down until the lift's posted opening point or the attendant's instruction, and communicate with your companions before raising it" },
       { time: "1:05", label: "Tips up and forward", detail: "As the chair reaches the ramp, tips pointing forward and slightly up — never drag them on the ground" },
-      { time: "2:10", label: "Stand at the right moment", detail: "Push up from the chair as your skis make contact with the ramp — too early and you stumble, too late and you twist" },
+      { time: "2:10", label: "Stand at the right moment", detail: "Stay seated until you reach the marked unloading point and the ramp supports your skis, then stand smoothly while following staff directions" },
       { time: "3:15", label: "Glide clear immediately", detail: "Ski straight ahead and move off to the side promptly — the chair is coming behind you and others are loading" },
     ],
     feels: [
-      "The ramp slopes away from you — lean forward into it rather than sitting back into the chair",
+      "Stand with your hips over your feet and keep your ankles and knees comfortably bent as you glide down the ramp",
       "A smooth push-off and immediate glide when the timing is right — the ramp does most of the work",
       "Looking ahead to where you're going rather than back at the chair makes the whole movement cleaner",
     ],
     mistakes: [
-      { mistake: "Standing too early before skis touch the ramp", fix: "Wait for your skis to contact the ramp surface before pushing off — feel the ramp, then stand" },
+      { mistake: "Standing before the marked unloading point", fix: "Stay seated until you reach the marked unloading point and the ramp supports your skis, then stand smoothly while following staff directions" },
       { mistake: "Stopping at the end of the ramp blocking others", fix: "Keep gliding forward and move clearly to the designated side — never stop at the ramp exit" },
-      { mistake: "Poles hanging down and catching on the chair", fix: "Loop poles over one wrist with tips pointing up and back during the unload" },
+      { mistake: "Poles hanging down and catching on the chair", fix: "Take your hands out of the pole straps and hold both poles in one hand, keeping the tips clear of the snow, chair, and other riders" },
     ],
     drills: [
-      "Watch before you go: observe five other people unload before your first attempt — pattern recognition dramatically speeds up learning",
-      "Verbal countdown: count 3-2-1 to yourself as the ramp approaches — gives you a consistent internal timing cue",
-      "Pick a target: choose a spot 10 meters ahead of the ramp and ski to it — forward focus prevents the freeze that causes falls",
+      "Watch before you go: watch other riders unload from a safe place outside the lift's operating area and ask the attendant to explain the sequence",
+      "Rehearse the sequence with your instructor: prepare while seated, then use the lift's signs and staff directions to time your stand",
+      "Pick a target: choose clear space along the designated exit beyond the unloading area and look toward it while staying aware of other riders",
     ],
     prerequisites: ["chairlift-basics"],
     nextSteps: ["getting-up", "wedge-turns"],
