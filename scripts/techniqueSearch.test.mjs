@@ -45,12 +45,45 @@ test("half-typed words keep matching while the visitor types", () => {
     ["stopping", "hockey-stop"],
     ["speeding", "speed-control"],
     ["moguls", "mogul-absorption"],
+    ["riding", "snowboard-athletic-stance"],
+    ["moving", "j-turn"],
   ]) {
     for (let n = 3; n <= word.length; n++) {
       assert.ok(search(word.slice(0, n)).includes(slug), `${word.slice(0, n)} -> ${slug}`);
     }
   }
   assert.deepEqual(queryTerms("ski vs snowboard"), ["ski", "snowboard"]);
+});
+
+test("typing a word never drops results the finished word finds", () => {
+  // Every 4+ letter word in the library's own text, typed letter by letter.
+  const words = new Set(
+    techniques
+      .flatMap((t) => [t.title, t.description, ...(TECHNIQUE_ALIASES[t.slug] ?? [])])
+      .join(" ")
+      .toLowerCase()
+      .split(/[^a-z]+/)
+      .filter((w) => w.length >= 4 && hasSearchTerms(w)), // a filler word alone is no search
+  );
+  const lost = [];
+  for (const word of words) {
+    const finished = new Set(search(word));
+    for (let n = 3; n < word.length; n++) {
+      const partial = new Set(search(word.slice(0, n)));
+      const missing = [...finished].filter((slug) => !partial.has(slug));
+      if (missing.length) lost.push(`${word.slice(0, n)} (of ${word}) lost ${missing.join(",")}`);
+    }
+  }
+  assert.deepEqual(lost.slice(0, 10), [], `${lost.length} prefixes lose results`);
+});
+
+test("the half-typed rules apply only to the word still being typed", () => {
+  // "pole" is not a match for the finished word "poll", nor "base" for "basin".
+  assert.deepEqual(search("poll "), []);
+  assert.deepEqual(search("basin "), []);
+  // Earlier words in a query are finished words too.
+  assert.deepEqual(search("poll snowboard"), []);
+  assert.ok(search("snowboard turni").includes("snowboard-heelside-turns"));
 });
 
 test("question words are ignored; a query of only those is not a search", () => {

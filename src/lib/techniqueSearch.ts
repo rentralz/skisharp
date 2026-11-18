@@ -14,7 +14,7 @@ const STOPWORDS = new Set([
   "a", "an", "and", "are", "at", "best", "better", "can", "do", "does", "for", "from",
   "guide", "how", "i", "im", "in", "is", "it", "learn", "me", "my", "of", "on", "or",
   "should", "technique", "techniques", "the", "tip", "tips", "to", "way", "ways",
-  "versus", "vs", "what", "when", "with", "without", "you", "your",
+  "versus", "vs", "what", "when", "with", "within", "without", "you", "your",
 ]);
 
 const RATING_WORDS: Record<SearchableTechnique["rating"], string> = {
@@ -59,7 +59,8 @@ function undouble(word: string) {
 // or "carving" and "carved" and "carve", reduce to the same stem.
 export function stem(word: string) {
   let w = word;
-  if (w.length > 4 && w.endsWith("ing")) {
+  if (w.length >= 6 && w.endsWith("ing")) {
+    // keeps at least three letters: "skiing" -> "ski", but "using" stays
     w = undouble(w.slice(0, -3));
   } else if (w.length > 4 && w.endsWith("ed") && !w.endsWith("eed")) {
     // "carved" -> "carv", but "speed" stays "speed"
@@ -88,14 +89,18 @@ function words(text: string): Words {
 interface QueryWord {
   raw: string;
   stem: string;
+  // The last word while it is still being typed (no space after it yet).
+  partial: boolean;
 }
 
 function queryWords(query: string): QueryWord[] {
   const seen = new Set<string>();
-  return normalizeText(query)
-    .split(" ")
-    .filter((word) => word && !STOPWORDS.has(word))
-    .map((raw) => ({ raw, stem: stem(raw) }))
+  const stillTyping = /[a-z0-9]$/i.test(query);
+  const raws = normalizeText(query).split(" ").filter(Boolean);
+  return raws
+    .map((raw, index) => ({ raw, partial: stillTyping && index === raws.length - 1 }))
+    .filter(({ raw }) => !STOPWORDS.has(raw))
+    .map(({ raw, partial }) => ({ raw, stem: stem(raw), partial }))
     .filter(({ stem: s }) => (seen.has(s) ? false : (seen.add(s), true)));
 }
 
@@ -139,32 +144,44 @@ export function buildSearchIndex(
 }
 
 // Starts of the endings the stemmer removes, as they appear mid-typing.
-const PARTIAL_ENDINGS = new Set(["i", "in", "ing", "e", "ed", "es"]);
+const PARTIAL_ENDINGS = ["ing", "in", "i", "ed", "es", "e"];
 
-// True when a half-typed word is a known stem plus the start of an ending:
-// "turni" (turn + i), "stoppi" (stop + p + i, the doubled consonant), "stopp".
-function isPartialInflection(raw: string, base: string) {
-  if (base.length < MIN_PREFIX_LENGTH || raw.length <= base.length || !raw.startsWith(base)) {
-    return false;
-  }
-  let rest = raw.slice(base.length);
-  const last = base[base.length - 1];
-  if (rest === last) return true;
-  if (rest.length > 1 && rest[0] === last) rest = rest.slice(1);
-  return PARTIAL_ENDINGS.has(rest);
+function endsInDoubledConsonant(word: string) {
+  return undouble(word) !== word;
 }
 
-// A word matches by its stem ("stopping" finds "stops") or, while it is still
-// being typed, as the start of a word ("carvi" finds "carving") or of an
-// inflection of one ("turni", on the way to "turning", finds "turns").
+// For a word still being typed, the bases it may be heading for: "turni" ->
+// "turn" (turning), "ridi" -> "rid" (riding, rider), "stoppi" -> "stop",
+// "stopp" -> "stop", "skidde" -> "skid".
+function partialBases(raw: string) {
+  const bases = new Set<string>();
+  for (const ending of PARTIAL_ENDINGS) {
+    if (!raw.endsWith(ending)) continue;
+    const base = raw.slice(0, -ending.length);
+    if (base.length < MIN_PREFIX_LENGTH) continue;
+    bases.add(endsInDoubledConsonant(base) ? undouble(base) : base);
+  }
+  if (endsInDoubledConsonant(raw)) bases.add(undouble(raw));
+  return [...bases];
+}
+
+const startsWithAny = (words: string[], prefixes: string[]) =>
+  words.some((word) => prefixes.some((prefix) => word.startsWith(prefix)));
+
+// A word matches by its stem ("stopping" finds "stops") or as the start of a
+// word ("mog" finds "moguls"). The word still being typed may also match by
+// the base it is heading for ("turni" finds "turns"), which complete words do
+// not, so "basin " or "poll " cannot match "base" or "pole".
 function termMatches(term: QueryWord, field: Words) {
   if (term.raw.length < MIN_PREFIX_LENGTH) {
     return field.raw.includes(term.raw) || field.stems.includes(term.stem);
   }
-  return (
-    field.stems.some((word) => word.startsWith(term.stem) || isPartialInflection(term.raw, word)) ||
-    field.raw.some((word) => word.startsWith(term.raw))
-  );
+  if (startsWithAny(field.stems, [term.stem]) || startsWithAny(field.raw, [term.raw])) {
+    return true;
+  }
+  if (!term.partial) return false;
+  const bases = partialBases(term.raw);
+  return bases.length > 0 && (startsWithAny(field.raw, bases) || startsWithAny(field.stems, bases));
 }
 
 function scoreEntry(entry: SearchIndexEntry, terms: QueryWord[]) {

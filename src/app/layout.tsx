@@ -7,6 +7,7 @@ import SkipNav from "@/components/SkipNav";
 import PostHogProvider from "@/components/PostHogProvider";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import AdSenseLoader from "@/components/AdSenseLoader";
+import { ADSENSE_PUB_ID } from "@/lib/adsense";
 import PageTransition from "@/components/PageTransition";
 import "./globals.css";
 
@@ -16,7 +17,6 @@ const inter = Inter({
   display: "swap",
 });
 
-const ADSENSE_PUB_ID = process.env.NEXT_PUBLIC_ADSENSE_PUB_ID || "";
 
 const GOOGLE_SITE_VERIFICATION =
   process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || process.env.GOOGLE_SITE_VERIFICATION || undefined;

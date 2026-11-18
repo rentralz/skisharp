@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
+import { ADSENSE_PUB_ID } from "@/lib/adsense";
 
-const ADSENSE_PUB_ID = process.env.NEXT_PUBLIC_ADSENSE_PUB_ID || "";
 const ADSENSE_SRC = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 
 // Adds the AdSense tag (about 250 KB of scripts) once the page has finished
@@ -12,7 +12,7 @@ const ADSENSE_SRC = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle
 // AdUnit's adsbygoogle.push() calls queue up until the script arrives.
 export default function AdSenseLoader() {
   useEffect(() => {
-    if (!/^ca-pub-\d+$/.test(ADSENSE_PUB_ID)) return;
+    if (!ADSENSE_PUB_ID) return;
 
     const addTag = () => {
       if (document.querySelector(`script[src^="${ADSENSE_SRC}"]`)) return;
