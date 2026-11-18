@@ -1,9 +1,9 @@
 {
-  "lastScanned": "2026-11-17T21:58:21.098Z",
-  "totalDeals": 54,
+  "lastScanned": "2026-11-18T12:00:51.987Z",
+  "totalDeals": 52,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 175,
+    "slickdeals": 174,
     "amazon": 12
   },
   "deals": [
@@ -248,28 +248,12 @@
       "posted": "2026-11-04T03:59:21.000Z"
     },
     {
-      "title": "2-Pack Men’s Thermal Underwear, Fleece Lined Long Johns Base Layer Pants for $9.44 - $18.89 (Reg. $19.99 - $29.99) + Free Shipping w/ Prime or on $35+ w/ Promo Code $18.99",
-      "url": "https://slickdeals.net/f/20252514-2-pack-men-s-thermal-underwear-fleece-lined-long-johns-base-layer-pants-for-9-44-18-89-reg-19-99-29-99-free-shipping-w-prime-or-on-35-w-promo-code-18-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-11-04T02:05:29.000Z"
-    },
-    {
       "title": "SURGOAL Men's Heated Ski Jacket w/ 7.4V Battery $49.99 + Free Shipping",
       "url": "https://slickdeals.net/f/20251515-surgoal-men-s-heated-ski-jacket-w-7-4v-battery-49-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
       "sourceIcon": "💰",
       "category": "jackets",
       "posted": "2026-11-03T20:50:54.000Z"
-    },
-    {
-      "title": "PULIOU Winter Waterproof Thermal Gloves for Men Women, Cold Weather Windproof Ski Snow Gloves with Touchscreen Fingers $9.74",
-      "url": "https://slickdeals.net/f/20241009-puliou-winter-waterproof-thermal-gloves-for-men-women-cold-weather-windproof-ski-snow-gloves-with-touchscreen-fingers-9-74?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-11-01T20:24:09.000Z"
     },
     {
       "title": "PRIME MEMBERS: AstroAI Windproof Ski Mask Balaclava, Winter Cold Weather Face Mask, Black $6.83 AC",
@@ -344,39 +328,12 @@
       "posted": "2026-10-23T17:24:48.000Z"
     },
     {
-      "title": "🔍 Snowboards on Sale",
-      "url": "https://www.amazon.com/s?k=snowboard+sale&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "snowboards",
-      "posted": "2026-11-17T21:58:21.095Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Snowboard Boot Sales",
-      "url": "https://www.amazon.com/s?k=snowboard+boots+sale&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "boots",
-      "posted": "2026-11-17T21:58:21.095Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Snowboard Bindings on Sale",
-      "url": "https://www.amazon.com/s?k=snowboard+bindings+sale&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "bindings",
-      "posted": "2026-11-17T21:58:21.095Z",
-      "isAmazonSearch": true
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     },
     {
@@ -385,7 +342,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     },
     {
@@ -394,7 +351,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     },
     {
@@ -403,7 +360,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     },
     {
@@ -412,7 +369,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     },
     {
@@ -421,7 +378,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     },
     {
@@ -430,7 +387,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     },
     {
@@ -439,7 +396,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     },
     {
@@ -448,7 +405,34 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-17T21:58:21.094Z",
+      "posted": "2026-11-18T12:00:51.983Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Snowboards on Sale",
+      "url": "https://www.amazon.com/s?k=snowboard+sale&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "snowboards",
+      "posted": "2026-11-18T12:00:51.983Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Snowboard Boot Sales",
+      "url": "https://www.amazon.com/s?k=snowboard+boots+sale&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "boots",
+      "posted": "2026-11-18T12:00:51.983Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Snowboard Bindings on Sale",
+      "url": "https://www.amazon.com/s?k=snowboard+bindings+sale&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "bindings",
+      "posted": "2026-11-18T12:00:51.983Z",
       "isAmazonSearch": true
     }
   ]
