@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-18T18:00:47.006Z",
+  "lastScanned": "2026-11-18T20:33:04.581Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,54 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "SnowBrains Forecast: Around a Foot in the Tetons as Snow Crosses the Northern Rockies (MT/WY/ID)",
+      "url": "https://snowbrains.com/snowbrains-forecast-around-a-foot-in-the-tetons-as-snow-crosses-the-northern-rockies-mt-wy-id/",
+      "source": "SnowBrains",
+      "published": "2026-11-18T20:10:19.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Colorado Mountains Get Fresh Snow and a Colder Saturday",
+      "url": "https://snowbrains.com/snowbrains-forecast-colorado-mountains-get-fresh-snow-and-a-colder-saturday/",
+      "source": "SnowBrains",
+      "published": "2026-11-18T20:05:24.000Z"
+    },
+    {
+      "title": "Park City Delays Opening Day, but Feet of Snow Are in the Forecast",
+      "url": "https://www.powder.com/news/park-city-delays-opening-feet-snow-forecast",
+      "source": "POWDER",
+      "published": "2026-11-18T19:15:27.000Z"
+    },
+    {
+      "title": "Special Backcountry Avalanche Watch Issued for Lake Tahoe as Feet of Snow Pile Up",
+      "url": "https://www.powder.com/news/backcountry-avalanche-watch-lake-tahoe-sierra",
+      "source": "POWDER",
+      "published": "2026-11-18T19:13:34.000Z"
+    },
+    {
+      "title": "160 Miles to Denver: En Route to Blizzard’s Moving Canvas Art Show",
+      "url": "https://www.powder.com/skiers/i-went-to-blizzards-moving-canvas-art-show",
+      "source": "POWDER",
+      "published": "2026-11-18T19:08:01.000Z"
+    },
+    {
+      "title": "Colorado Man Allegedly Used AI To Fake Proof He Bought Stolen Snowboard",
+      "url": "https://unofficialnetworks.com/2026/11/18/ai-proof-stolen-snowboard-colorado/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-18T18:52:16.000Z"
+    },
+    {
+      "title": "Level Up Your Next Family Ski Trip at Banff Sunshine Village",
+      "url": "https://www.skimag.com/ski-resort-life/canada/level-up-your-next-family-ski-trip-at-banff-sunshine-village/",
+      "source": "SKI Magazine",
+      "published": "2026-11-18T18:31:46.000Z"
+    },
+    {
+      "title": "Kirkwood To Open Early, Plus What To Expect at Northstar and Heavenly's Opening Days",
+      "url": "https://www.powder.com/news/kirkwood-ski-resort-opening-early",
+      "source": "POWDER",
+      "published": "2026-11-18T18:16:02.000Z"
+    },
     {
       "title": "Surprise! Utah's Solitude Mountain Resort Is Opening Early With $29 Lift Tickets and Free Parking",
       "url": "https://www.powder.com/news/solitude-opening-early-utah-ski",
@@ -183,12 +231,6 @@
       "published": "2026-11-17T23:15:10.000Z"
     },
     {
-      "title": "A New Era of Killington: A $3 Billion Village, & Future Plans with President & GM Mike Solimano | SnowBrains Podcast Ep. 112",
-      "url": "https://snowbrains.com/snowbrains-podcast-killington/",
-      "source": "SnowBrains",
-      "published": "2026-11-17T23:00:23.000Z"
-    },
-    {
       "title": "Canadian Ski Resort Company Announces Nearly C$30 Million In Upgrades",
       "url": "https://unofficialnetworks.com/2026/11/17/les-sommets-thirty-million-upgrades/",
       "source": "Unofficial Networks",
@@ -205,12 +247,6 @@
       "url": "https://www.skimag.com/ski-resort-life/lodging/ski-town-holiday-vacation-rentals/",
       "source": "SKI Magazine",
       "published": "2026-11-17T19:39:15.000Z"
-    },
-    {
-      "title": "Choosing the Right Skis or Snowboard for Alaska",
-      "url": "https://snowbrains.com/choosing-the-right-skis-or-snowboard-for-alaska/",
-      "source": "SnowBrains",
-      "published": "2026-11-17T19:33:47.000Z"
     },
     {
       "title": "Arizona Ski Resort Moves Opening Day Up to Thursday, November 19",
@@ -279,12 +315,6 @@
       "published": "2026-11-17T16:34:11.000Z"
     },
     {
-      "title": "Utah’s Free Preseason Terrain Park Opens Today",
-      "url": "https://unofficialnetworks.com/2026/11/17/brighton-preseason-terrain-park-bone-zone/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-17T15:57:41.000Z"
-    },
-    {
       "title": "Top 10 Resorts in the West for Dining (2027)",
       "url": "https://www.skimag.com/ski-resort-life/resort-guide-2027/top-10-west-dining/",
       "source": "SKI Magazine",
@@ -295,30 +325,6 @@
       "url": "https://www.skimag.com/ski-resort-life/resort-guide-2027/top-10-east-dining/",
       "source": "SKI Magazine",
       "published": "2026-11-17T14:00:03.000Z"
-    },
-    {
-      "title": "New Trail Map Released for Lee Canyon, Las Vegas' Ski Area",
-      "url": "https://www.powder.com/news/new-trail-map-lee-canyon",
-      "source": "POWDER",
-      "published": "2026-11-17T11:18:00.000Z"
-    },
-    {
-      "title": "Alta Ski Area Delays Opening Day, but Not for Long",
-      "url": "https://www.powder.com/news/alta-ski-area-delays-opening-day-but-not-for-long",
-      "source": "POWDER",
-      "published": "2026-11-17T10:56:00.000Z"
-    },
-    {
-      "title": "Palisades Tahoe To Open Four Days Early Thanks To Plentiful Early-Season Snowfall",
-      "url": "https://www.powder.com/news/palisades-tahoe-early-opening-day-2026",
-      "source": "POWDER",
-      "published": "2026-11-17T00:21:03.000Z"
-    },
-    {
-      "title": "Editor’s Picks: The Best Ski Jackets For Men",
-      "url": "https://www.powder.com/gear/the-best-ski-jackets-for-men-2027",
-      "source": "POWDER",
-      "published": "2026-11-16T21:28:15.000Z"
     },
     {
       "title": "Please Pardon Our Dust",
@@ -337,12 +343,6 @@
       "url": "https://www.skimag.com/ski-resort-life/resort-guide-2027/top-10-east-access/",
       "source": "SKI Magazine",
       "published": "2026-11-16T14:00:41.000Z"
-    },
-    {
-      "title": "2027 Winter Gear Guide: The Best Skis, Boots, and Outerwear of the Season",
-      "url": "https://www.skimag.com/gear/ski-reviews/award-winning-ski-boots-outerwear-2027-winter-gear-guide/",
-      "source": "SKI Magazine",
-      "published": "2026-11-16T13:00:14.000Z"
     },
     {
       "title": "Storm News 11/13/2026: Owner Schmitz on Little Switzerland’s Move to Ikon, 2 New Chairlifts",
