@@ -35,7 +35,9 @@ const DISCIPLINE_LINKS = [
   { href: "/techniques?discipline=snowboard&rating=green", label: "Start snowboard basics" },
 ];
 
-export default function Footer() {
+export default function Footer({ headingLevel = "h3" }: { headingLevel?: "h2" | "h3" }) {
+  const Heading = headingLevel;
+
   return (
     <footer className="mt-16 border-t border-[#e8ddd4] bg-[#f5efe9]">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
@@ -67,9 +69,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
               Start here
-            </h3>
+            </Heading>
             <ul className="mt-4 space-y-3">
               {START_HERE_LINKS.map(({ href, label }) => (
                 <li key={href}>
@@ -85,9 +87,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
               By discipline
-            </h3>
+            </Heading>
             <ul className="mt-4 space-y-3">
               {DISCIPLINE_LINKS.map(({ href, label }) => (
                 <li key={href}>
@@ -103,9 +105,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
               Explore
-            </h3>
+            </Heading>
             <ul className="mt-4 space-y-3">
               {FOOTER_LINKS.map(({ href, label }) => (
                 <li key={href}>
@@ -121,9 +123,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
               By level
-            </h3>
+            </Heading>
             <ul className="mt-4 space-y-3">
               {LEVEL_LINKS.map(({ href, label }) => (
                 <li key={href}>

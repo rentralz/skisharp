@@ -165,7 +165,7 @@ export default function ConditionsMatchPage() {
         )}
       </main>
 
-      <Footer />
+      <Footer headingLevel="h2" />
     </div>
   );
 }
