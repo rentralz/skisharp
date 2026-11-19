@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-19T18:00:45.735Z",
+  "lastScanned": "2026-11-19T20:39:23.681Z",
   "totalDeals": 55,
   "sourceStats": {
     "reddit": 0,
@@ -352,39 +352,12 @@
       "posted": "2026-10-23T17:24:48.000Z"
     },
     {
-      "title": "🔍 Snowboards on Sale",
-      "url": "https://www.amazon.com/s?k=snowboard+sale&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "snowboards",
-      "posted": "2026-11-19T18:00:45.733Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Snowboard Boot Sales",
-      "url": "https://www.amazon.com/s?k=snowboard+boots+sale&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "boots",
-      "posted": "2026-11-19T18:00:45.733Z",
-      "isAmazonSearch": true
-    },
-    {
-      "title": "🔍 Snowboard Bindings on Sale",
-      "url": "https://www.amazon.com/s?k=snowboard+bindings+sale&tag=turnlab-20",
-      "source": "Amazon",
-      "sourceIcon": "📦",
-      "category": "bindings",
-      "posted": "2026-11-19T18:00:45.733Z",
-      "isAmazonSearch": true
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     },
     {
@@ -393,7 +366,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     },
     {
@@ -402,7 +375,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     },
     {
@@ -411,7 +384,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     },
     {
@@ -420,7 +393,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     },
     {
@@ -429,7 +402,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     },
     {
@@ -438,7 +411,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     },
     {
@@ -447,7 +420,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     },
     {
@@ -456,7 +429,34 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-19T18:00:45.732Z",
+      "posted": "2026-11-19T20:39:23.678Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Snowboards on Sale",
+      "url": "https://www.amazon.com/s?k=snowboard+sale&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "snowboards",
+      "posted": "2026-11-19T20:39:23.678Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Snowboard Boot Sales",
+      "url": "https://www.amazon.com/s?k=snowboard+boots+sale&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "boots",
+      "posted": "2026-11-19T20:39:23.678Z",
+      "isAmazonSearch": true
+    },
+    {
+      "title": "🔍 Snowboard Bindings on Sale",
+      "url": "https://www.amazon.com/s?k=snowboard+bindings+sale&tag=turnlab-20",
+      "source": "Amazon",
+      "sourceIcon": "📦",
+      "category": "bindings",
+      "posted": "2026-11-19T20:39:23.678Z",
       "isAmazonSearch": true
     }
   ]
