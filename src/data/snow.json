@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T20:39:25.426Z",
+  "updated": "2026-11-19T22:00:41.521Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -57,11 +57,11 @@
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        3.2,
+        2.8,
         6.3,
         1.7
       ],
-      "next3": 11.2
+      "next3": 10.8
     },
     {
       "name": "Big Sky",
