@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-11-18T22:00:43.270Z",
-  "totalDeals": 52,
+  "lastScanned": "2026-11-19T02:00:38.012Z",
+  "totalDeals": 53,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 172,
+    "slickdeals": 176,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "Tec-One Men's and Bib Men's Ski and Snowboard Jacket with Hood, Sizes M-4XL $17.25",
+      "url": "https://slickdeals.net/f/20337033-tec-one-men-s-and-bib-men-s-ski-and-snowboard-jacket-with-hood-sizes-m-4xl-17-25?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "jackets",
+      "posted": "2026-11-19T01:09:53.000Z"
+    },
     {
       "title": "SMOHTIW Men's or Women's Waterproof Ski & Snowboard Gloves w/ Zippered Pocket (Various) $8.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20328474-smohtiw-men-s-or-women-s-waterproof-ski-snowboard-gloves-w-zippered-pocket-various-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -333,7 +341,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -342,7 +350,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -351,7 +359,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -360,7 +368,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -369,7 +377,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -378,7 +386,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -387,7 +395,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -396,7 +404,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -405,7 +413,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -414,7 +422,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -423,7 +431,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     },
     {
@@ -432,7 +440,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-18T22:00:43.265Z",
+      "posted": "2026-11-19T02:00:38.009Z",
       "isAmazonSearch": true
     }
   ]
