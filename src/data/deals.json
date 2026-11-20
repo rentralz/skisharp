@@ -1,12 +1,36 @@
 {
-  "lastScanned": "2026-11-20T12:00:46.492Z",
-  "totalDeals": 53,
+  "lastScanned": "2026-11-20T18:00:34.023Z",
+  "totalDeals": 54,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 177,
+    "slickdeals": 178,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "YANIKY Men's or Women's Balaclava Ski Mask w/ UPF 50+ (Black) $5.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20357316-yaniky-men-s-or-women-s-balaclava-ski-mask-w-upf-50-black-5-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-11-20T15:54:08.000Z"
+    },
+    {
+      "title": "Seattle SeaTac or Paine Field To/From Select Ski Destinations 32% Off Airfares on Alaska Airlines - Book by November 20, 2026",
+      "url": "https://slickdeals.net/f/20356947-seattle-seatac-or-paine-field-to-from-select-ski-destinations-32-off-airfares-on-alaska-airlines-book-by-november-20-2026?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "passes",
+      "posted": "2026-11-20T15:12:13.000Z"
+    },
+    {
+      "title": "Prime: BARJNEEL Men's Thermal Long Johns Fleece-Lined Base Layer $6.63-$9.96 + Free Shipping",
+      "url": "https://slickdeals.net/f/20356860-prime-barjneel-men-s-thermal-long-johns-fleece-lined-base-layer-6-63-9-96-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-20T15:02:09.000Z"
+    },
     {
       "title": "Gordini Men's Gore-Tex Storm Trooper II Ski Gloves (Gunmetal Black, Small) $22.30 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20353275-gordini-men-s-gore-tex-storm-trooper-ii-ski-gloves-gunmetal-black-small-22-30-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -184,14 +208,6 @@
       "posted": "2026-11-09T23:16:23.000Z"
     },
     {
-      "title": "Ekouaer 3 Pack Thermal Underwear for Men Waffle Long Johns Base Layer Pants $17.99",
-      "url": "https://slickdeals.net/f/20280159-ekouaer-3-pack-thermal-underwear-for-men-waffle-long-johns-base-layer-pants-17-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "pants",
-      "posted": "2026-11-09T18:44:40.000Z"
-    },
-    {
       "title": "Pixel Panda Ski Mittens for Men Women, Waterproof Snowboard Mittens $8.99",
       "url": "https://slickdeals.net/f/20275320-pixel-panda-ski-mittens-for-men-women-waterproof-snowboard-mittens-8-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -296,14 +312,6 @@
       "posted": "2026-10-30T15:12:32.000Z"
     },
     {
-      "title": "Kids Anti-fog Ski/Snow Goggles, $12.99 w/ code",
-      "url": "https://slickdeals.net/f/20232378-kids-anti-fog-ski-snow-goggles-12-99-w-code?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "goggles",
-      "posted": "2026-10-30T13:50:23.000Z"
-    },
-    {
       "title": "SAVIOR HEAT Heated Mittens for Snowboarding,Heated Ski Gloves for Men Women $100.79",
       "url": "https://slickdeals.net/f/20222283-savior-heat-heated-mittens-for-snowboarding-heated-ski-gloves-for-men-women-100-79?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -341,7 +349,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -350,7 +358,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -359,7 +367,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -368,7 +376,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -377,7 +385,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -386,7 +394,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -395,7 +403,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -404,7 +412,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -413,7 +421,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -422,7 +430,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -431,7 +439,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     },
     {
@@ -440,7 +448,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-20T12:00:46.489Z",
+      "posted": "2026-11-20T18:00:34.021Z",
       "isAmazonSearch": true
     }
   ]
