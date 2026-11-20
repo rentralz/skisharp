@@ -5,6 +5,7 @@ import carvedTurns from "./carved-turns";
 import chairliftBasics from "./chairlift-basics";
 import chairliftUnloading from "./chairlift-unloading";
 import counterRotation from "./counter-rotation";
+import emergencyStop from "./emergency-stop";
 import fallingLeaf from "./falling-leaf";
 import garlandExercise from "./garland-exercise";
 import gettingUp from "./getting-up";
@@ -40,6 +41,7 @@ const GUIDES: TechniqueGuide[] = [
   chairliftBasics,
   chairliftUnloading,
   counterRotation,
+  emergencyStop,
   fallingLeaf,
   garlandExercise,
   gettingUp,

@@ -28,7 +28,7 @@ black) and difficulty, with snowboard guides interleaved.
 - [x] snowboard-chairlift-basics: 2026-10-12
 - [x] athletic-stance: 2026-11-17
 - [x] chairlift-unloading: 2026-11-18
-- [ ] emergency-stop
+- [x] emergency-stop: 2026-11-20
 - [ ] kick-turn
 - [ ] linked-turns
 - [ ] snowboard-one-foot-riding

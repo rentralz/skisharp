@@ -2782,32 +2782,32 @@ export const techniques: Technique[] = [
     rating: "green",
     terrain: ["Groomed"],
     description:
-      "A fast, decisive stop executed from full skiing speed — using a powerful edge set and committed body position to halt in the shortest possible distance.",
+      "A prompt, controlled parallel stop that uses coordinated steering and edging to brake when you need to stop urgently, while still allowing enough stopping distance.",
     promise:
-      "You'll have a reliable emergency brake for situations where a normal stop won't happen fast enough — a crucial safety skill every skier needs.",
+      "With practice, you should be able to respond more promptly with a controlled parallel stop, while still allowing enough stopping distance for the conditions.",
     timestamps: [
       { time: "0:25", label: "When to use it", detail: "A person falls in your path, an unexpected obstacle — situations that demand immediate stopping" },
-      { time: "1:05", label: "The pivot and edge set", detail: "Rotate both skis sharply across the fall line and dig edges in simultaneously — not sequentially" },
-      { time: "2:15", label: "The body drop", detail: "Drop your weight low and into the hill as the edges bite — height bleeds off and grip increases" },
+      { time: "1:05", label: "The pivot and edge set", detail: "Release the existing grip, steer both skis together across your direction of travel, and build edge engagement promptly but smoothly." },
+      { time: "2:15", label: "Balanced braking", detail: "Stay centered over your feet with flexed, responsive legs as you build edge grip and skid to a stop." },
       { time: "3:25", label: "Both directions", detail: "An emergency can come from either side — drill stopping to the left and right equally" },
     ],
     feels: [
-      "Explosive and immediate — you are committing 100%, not easing into it",
-      "Your edges slamming into the snow with your full body weight behind them",
-      "A spray of snow and a dead stop — if done correctly there is zero skidding after the edge set",
+      "Prompt and controlled — you respond decisively while building edge grip smoothly.",
+      "Your legs staying responsive as your edges grip and your skis skid to a stop.",
+      "A controlled sideways skid as your edges brake — some sliding and snow spray are normal before you stop.",
     ],
     mistakes: [
-      { mistake: "Hesitating and trying to slow down gradually first", fix: "Emergency stops must be immediate — commit to the full edge set the instant you decide to stop" },
-      { mistake: "Only pivoting the skis without dropping weight", fix: "The weight drop is what drives the edges deep — a pivot without weight produces a slow skid, not a stop" },
+      { mistake: "Delaying your braking response", fix: "Begin braking promptly, steering both skis together and building grip smoothly while staying balanced." },
+      { mistake: "Pivoting the skis without managing edge grip", fix: "Blend the pivot with progressive edge engagement while staying centered; you do not need a deliberate body drop." },
       { mistake: "Only practicing to the dominant side", fix: "Emergencies don't respect your preferred side — drill both directions every session" },
     ],
     drills: [
-      "Signal stop: ski with a partner who shouts 'stop' at random — removes the anticipation and forces genuine reactive stopping",
-      "Speed progression: practice the emergency stop from walking pace, medium speed, then fast — build confidence at each level before increasing",
+      "Signal stop: agree on a clear stopping zone and have a partner cue you only inside it from a safe position to the side, starting at low speed.",
+      "Speed progression: start at walking pace and increase speed only slightly after consistent, balanced stops in both directions, with ample clear runout and preferably an instructor.",
       "Left-right equal reps: count your emergency stops each direction and keep drilling the weaker side until both feel identical",
     ],
-    prerequisites: ["snowplow-stop", "wedge-turns"],
-    nextSteps: ["hockey-stop", "speed-control"],
+    prerequisites: ["snowplow-stop", "wedge-turns", "sideslipping", "hockey-stop"],
+    nextSteps: ["speed-control"],
     youtubeVideos: [
       {
         videoId: "JzEqXIKQe-A",
