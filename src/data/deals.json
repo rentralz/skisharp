@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-11-20T20:23:22.311Z",
-  "totalDeals": 54,
+  "lastScanned": "2026-11-20T22:00:36.834Z",
+  "totalDeals": 55,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 178,
+    "slickdeals": 180,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "MEALNET Adult 3-Finger Waterproof Ski Mittens w/ Fleece Lining (4 colors) $8.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20359590-mealnet-adult-3-finger-waterproof-ski-mittens-w-fleece-lining-4-colors-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-20T21:41:04.000Z"
+    },
     {
       "title": "YANIKY Men's or Women's Balaclava Ski Mask w/ UPF 50+ (Black) $5.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20357316-yaniky-men-s-or-women-s-balaclava-ski-mask-w-upf-50-black-5-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -349,7 +357,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -358,7 +366,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -367,7 +375,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -376,7 +384,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -385,7 +393,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -394,7 +402,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -403,7 +411,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -412,7 +420,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -421,7 +429,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -430,7 +438,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -439,7 +447,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     },
     {
@@ -448,7 +456,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-20T20:23:22.309Z",
+      "posted": "2026-11-20T22:00:36.831Z",
       "isAmazonSearch": true
     }
   ]
