@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-19T22:00:41.395Z",
+  "lastScanned": "2026-11-20T02:00:41.941Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,18 @@
     "Storm Skiing Journal": 15
   },
   "items": [
+    {
+      "title": "November NOAA Winter Outlook: Wetter South, Warmer Pacific Northwest",
+      "url": "https://snowbrains.com/noaa-winter-outlook-2026-27/",
+      "source": "SnowBrains",
+      "published": "2026-11-19T22:09:36.000Z"
+    },
+    {
+      "title": "Whistler Blackcomb’s New Chairlift Is Nearly Ready To Go",
+      "url": "https://unofficialnetworks.com/2026/11/19/blackcomb-new-showcase-charilift/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-19T22:08:51.000Z"
+    },
     {
       "title": "New York Ski Area Shares Rendering Of Planned Base Village",
       "url": "https://unofficialnetworks.com/2026/11/19/west-mountain-village-rendering/",
@@ -219,12 +231,6 @@
       "published": "2026-11-18T20:10:19.000Z"
     },
     {
-      "title": "SnowBrains Forecast: Colorado Mountains Get Fresh Snow and a Colder Saturday",
-      "url": "https://snowbrains.com/snowbrains-forecast-colorado-mountains-get-fresh-snow-and-a-colder-saturday/",
-      "source": "SnowBrains",
-      "published": "2026-11-18T20:05:24.000Z"
-    },
-    {
       "title": "Park City Delays Opening Day, but Feet of Snow Are in the Forecast",
       "url": "https://www.powder.com/news/park-city-delays-opening-feet-snow-forecast",
       "source": "POWDER",
@@ -283,12 +289,6 @@
       "url": "https://www.powder.com/news/new-trail-map-brian-head-utah",
       "source": "POWDER",
       "published": "2026-11-18T17:14:24.000Z"
-    },
-    {
-      "title": "Utah’s Ski Season Is Officially Underway",
-      "url": "https://unofficialnetworks.com/2026/11/18/utahs-ski-season-is-underway/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-18T16:38:11.000Z"
     },
     {
       "title": "Sugar Bowl To Open Early Thanks To Monster Winter Storm, but Only for Passholders",
