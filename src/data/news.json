@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-21T02:00:45.895Z",
+  "lastScanned": "2026-11-21T12:00:50.586Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,30 @@
     "Storm Skiing Journal": 14
   },
   "items": [
+    {
+      "title": "49 Degrees North, WA, Proposes 1,200-Acre Expansion to Revive Ski Area That Closed in 1974",
+      "url": "https://snowbrains.com/49-degrees-north-expansion-north-ridge-chewelah-peak/",
+      "source": "SnowBrains",
+      "published": "2026-11-21T11:43:05.000Z"
+    },
+    {
+      "title": "Opening Days Announced for the Midwest's Largest Ski Resorts",
+      "url": "https://www.powder.com/news/opening-days-announced-for-the-midwests-largest-ski-resorts",
+      "source": "POWDER",
+      "published": "2026-11-21T10:03:00.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Up to 90 cm for Europe’s Western Alps by Tuesday",
+      "url": "https://snowbrains.com/snowbrains-forecast-up-to-90-cm-for-europes-western-alps-by-tuesday/",
+      "source": "SnowBrains",
+      "published": "2026-11-21T08:08:07.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: Cold Sunday Snow Refreshes California’s Sierra",
+      "url": "https://snowbrains.com/snowbrains-forecast-cold-sunday-snow-refreshes-californias-sierra/",
+      "source": "SnowBrains",
+      "published": "2026-11-21T08:04:20.000Z"
+    },
     {
       "title": "NOAA Just Tweaked Its Winter Forecast. Here’s What’s Changed for Skiers.",
       "url": "https://www.skimag.com/news/noaa-winter-outlook-november-update/",
@@ -267,18 +291,6 @@
       "published": "2026-11-19T21:11:12.000Z"
     },
     {
-      "title": "After a Report Sparked Closure Fears, Flumet Ski Resort, France, Sets the Record Straight",
-      "url": "https://snowbrains.com/flumet-ski-resort-december-19-opening/",
-      "source": "SnowBrains",
-      "published": "2026-11-19T20:16:35.000Z"
-    },
-    {
-      "title": "Warm Weather Threatening World Cup Races Scheduled for Quebec’s Mont Tremblant",
-      "url": "https://snowbrains.com/warm-weather-threatening-world-cup-races-scheduled-for-quebecs-mont-tremblant/",
-      "source": "SnowBrains",
-      "published": "2026-11-19T19:02:29.000Z"
-    },
-    {
       "title": "Atmospheric River Brings Winter Wonderland to California’s Ski Resorts (Photos)",
       "url": "https://www.powder.com/news/atmospheric-river-winter-wonderland-california-ski-resorts",
       "source": "POWDER",
@@ -315,12 +327,6 @@
       "published": "2026-11-19T13:07:00.000Z"
     },
     {
-      "title": "Zell am See-Kaprun: Epic Pass Holders’ Untapped Austrian Gem",
-      "url": "https://snowbrains.com/zell-am-see-kaprun-epic-pass-holders-untapped-austrian-gem/",
-      "source": "SnowBrains",
-      "published": "2026-11-19T12:00:13.000Z"
-    },
-    {
       "title": "USA Today Readers Name Best Ski Town, and It’s Not in Utah or Colorado",
       "url": "https://www.powder.com/news/best-ski-town-usa-today-north-conway-new-hampshire",
       "source": "POWDER",
@@ -331,12 +337,6 @@
       "url": "https://www.powder.com/news/learn-to-turn-best-deal-ski-beginners",
       "source": "POWDER",
       "published": "2026-11-19T10:23:00.000Z"
-    },
-    {
-      "title": "Park City Delays Opening Day, but Feet of Snow Are in the Forecast",
-      "url": "https://www.powder.com/news/park-city-delays-opening-feet-snow-forecast",
-      "source": "POWDER",
-      "published": "2026-11-18T19:15:27.000Z"
     },
     {
       "title": "Please Pardon Our Dust",
