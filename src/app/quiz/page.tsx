@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TrackedLink from "@/components/TrackedLink";
@@ -69,6 +69,14 @@ export default function QuizPage() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<number[]>([]);
   const [result, setResult] = useState<SkillResult | null>(null);
+  const headingRef = useRef<HTMLHeadingElement>(null);
+
+  useEffect(() => {
+    if (selectedDiscipline) {
+      headingRef.current?.focus({ preventScroll: true });
+      window.scrollTo({ top: 0, behavior: "instant" });
+    }
+  }, [currentQuestionIndex, result, selectedDiscipline]);
 
   const track = useMemo(
     () => (selectedDiscipline ? getQuizTrack(selectedDiscipline) : null),
@@ -167,7 +175,15 @@ export default function QuizPage() {
               </span>
               <span className="text-xs text-[#767676]">{progress}%</span>
             </div>
-            <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+            <div
+              role="progressbar"
+              aria-label="Quiz progress"
+              aria-valuenow={currentStep}
+              aria-valuemin={0}
+              aria-valuemax={totalSteps}
+              aria-valuetext={`Question ${currentStep} of ${totalSteps}`}
+              className="h-1.5 bg-gray-100 rounded-full overflow-hidden"
+            >
               <div
                 className="h-full bg-[#B4835A] rounded-full transition-all duration-300"
                 style={{ width: `${progress}%` }}
@@ -302,7 +318,7 @@ export default function QuizPage() {
                 <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#B4835A] mb-2">
                   {disciplineInfo?.label} profile
                 </p>
-                <h1 className="text-3xl md:text-4xl font-extrabold text-[#222] mb-2">
+                <h1 ref={headingRef} tabIndex={-1} className="text-3xl md:text-4xl font-extrabold text-[#222] mb-2">
                   You&apos;re a Level {result?.level}: {result?.title}
                 </h1>
                 <p className="text-[#646464] max-w-md">{result?.description}</p>
@@ -425,7 +441,7 @@ export default function QuizPage() {
               </button>
             </div>
 
-            <h1 className="text-2xl md:text-3xl font-bold text-[#222] mb-8">{activeQuestion.text}</h1>
+            <h1 ref={headingRef} tabIndex={-1} className="text-2xl md:text-3xl font-bold text-[#222] mb-8">{activeQuestion.text}</h1>
 
             <div className="space-y-3">
               {activeQuestion.options.map((option, index) => (
