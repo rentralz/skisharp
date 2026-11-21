@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-11-21T12:00:49.834Z",
-  "totalDeals": 55,
+  "lastScanned": "2026-11-21T18:00:39.972Z",
+  "totalDeals": 56,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 180,
+    "slickdeals": 178,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "$7.13 | Hanes Women's Base Layer Leggings, Warm Leggings for Women, Moisture-Wicking, Odor Protection at Amazon",
+      "url": "https://slickdeals.net/f/20364522-7-13-hanes-women-s-base-layer-leggings-warm-leggings-for-women-moisture-wicking-odor-protection-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-21T17:24:23.000Z"
+    },
     {
       "title": "MEALNET Adult 3-Finger Waterproof Ski Mittens w/ Fleece Lining (4 colors) $8.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20359590-mealnet-adult-3-finger-waterproof-ski-mittens-w-fleece-lining-4-colors-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -357,7 +365,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -366,7 +374,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -375,7 +383,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -384,7 +392,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -393,7 +401,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -402,7 +410,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -411,7 +419,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -420,7 +428,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -429,7 +437,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -438,7 +446,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -447,7 +455,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     },
     {
@@ -456,7 +464,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-21T12:00:49.831Z",
+      "posted": "2026-11-21T18:00:39.969Z",
       "isAmazonSearch": true
     }
   ]
