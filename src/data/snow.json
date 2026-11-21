@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T22:00:37.878Z",
+  "updated": "2026-11-21T02:00:46.030Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -57,33 +57,33 @@
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        1.5,
+        1.2,
         2.1,
         0
       ],
-      "next3": 3.6
+      "next3": 3.3
     },
     {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        3.5,
+        3.2,
         4.6,
         0
       ],
-      "next3": 8.1
+      "next3": 7.8
     },
     {
       "name": "Palisades Tahoe",
       "region": "California",
       "elevationM": 2251,
       "daily": [
-        0.9,
+        0.2,
         0,
         2.4
       ],
-      "next3": 3.3
+      "next3": 2.6
     },
     {
       "name": "Mammoth Mountain",
