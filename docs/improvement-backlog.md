@@ -83,7 +83,7 @@ independent fact-check is unavailable), or once A is done.
 - [x] /snow-conditions skips heading levels (H2 then H4, seven times). Make the condition sub-labels h3, keeping their current look: 2026-10-01
 - [x] /conditions-match: axe reports a heading-order violation (H1 followed by H3 before a condition is chosen). Fix the level without changing the visuals.: 2026-11-19
 - [x] Quiz accessibility: after answering with the keyboard, focus drops to <body>. Move focus to the next question heading, and give the progress bar role="progressbar" with aria-valuenow/min/max (src/app/quiz/page.tsx).: 2026-11-21
-- [ ] Small brown eyebrow text `text-[#a56f43]` reads 4.07:1 on the cream background (25 uses, homepage and /deals). Switch small-text uses to `text-[#8b5f39]` (already mapped in dark mode); leave large headings alone.
+- [x] Small brown eyebrow text `text-[#a56f43]` reads 4.07:1 on the cream background (25 uses, homepage and /deals). Switch small-text uses to `text-[#8b5f39]` (already mapped in dark mode); leave large headings alone.: 2026-11-22
 - [ ] Footer contrast: eyebrow `text-[#9a8471]` (3.11:1) and copyright `text-[#8b7b6d]` (3.57:1) on `#f5efe9`. Darken both to at least 4.5:1 and keep the html.dark overrides working.
 - [ ] The homepage hero image (images.unsplash.com, 1100x1320) gets preloaded on every page because the router prefetches "/". Stop that (for example prefetch={false} on links to "/") and confirm with a network capture that /deals no longer downloads it.
 

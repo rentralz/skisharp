@@ -488,7 +488,7 @@ export default function DealsPage() {
           <div className="overflow-hidden rounded-[32px] border border-[#eadfd6] bg-[linear-gradient(135deg,#fffaf5_0%,#fffefc_55%,#f4ece5_100%)] p-6 shadow-[0_20px_70px_rgba(119,85,53,0.08)] sm:p-8 lg:p-10">
             <div className="grid gap-8 lg:grid-cols-[1.08fr_0.92fr] lg:items-start">
               <div>
-                <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43] shadow-sm">
+                <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#8b5f39] shadow-sm">
                   Best ski deals today
                 </div>
                 <h1 className="mt-5 max-w-4xl text-4xl font-black tracking-tight text-[#201d1a] sm:text-5xl lg:text-6xl">
@@ -546,7 +546,7 @@ export default function DealsPage() {
 
                 {heroQuickPathDeals.length > 0 ? (
                   <div className="mt-8 rounded-[28px] border border-[#eadfd6] bg-white/80 p-5 shadow-[0_10px_30px_rgba(92,68,43,0.04)]">
-                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a56f43]">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
                       Fast lanes for high-intent shoppers
                     </p>
                     <p className="mt-3 max-w-2xl text-sm leading-7 text-[#6b635b]">
@@ -664,7 +664,7 @@ export default function DealsPage() {
                 <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-[#fff6ee] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[#8b5f39]">
                   Best current community finds
                 </div>
-                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
+                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.24em] text-[#8b5f39]">
                   Community picks
                 </p>
                 <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
@@ -741,7 +741,7 @@ export default function DealsPage() {
               <div className="space-y-4">
                 {nextCommunityDeals.length > 0 ? (
                   <div className="rounded-[28px] border border-[#eadfd6] bg-white p-5 shadow-[0_14px_36px_rgba(92,68,43,0.05)]">
-                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a56f43]">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
                       Next best clicks
                     </p>
                     <p className="mt-3 text-sm leading-7 text-[#6b635b]">
@@ -821,7 +821,7 @@ export default function DealsPage() {
         >
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#8b5f39]">
                 Shop by retailer
               </p>
               <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
@@ -855,7 +855,7 @@ export default function DealsPage() {
               >
                 <div className="flex flex-wrap items-start justify-between gap-4">
                   <div>
-                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#a56f43]">
+                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#8b5f39]">
                       {retailer.label}
                     </p>
                     <h3 className="mt-3 text-2xl font-black tracking-tight text-[#201d1a] transition-colors group-hover:text-[#8b5f39]">
@@ -903,7 +903,7 @@ export default function DealsPage() {
         >
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#8b5f39]">
                 Shop by category
               </p>
               <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
@@ -972,7 +972,7 @@ export default function DealsPage() {
         <section className="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
           <div className="grid gap-4 lg:grid-cols-[1fr_1fr_0.9fr]">
             <div className="rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_12px_30px_rgba(92,68,43,0.05)]">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a56f43]">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
                 Timing matters
               </p>
               <h2 className="mt-3 text-2xl font-black tracking-tight text-[#201d1a]">
@@ -995,7 +995,7 @@ export default function DealsPage() {
             </div>
 
             <div id="trust-notes" className="rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_12px_30px_rgba(92,68,43,0.05)]">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a56f43]">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
                 Trust notes
               </p>
               <h2 className="mt-3 text-2xl font-black tracking-tight text-[#201d1a]">

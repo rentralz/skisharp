@@ -325,7 +325,7 @@ export default function HomePage() {
             <div className="overflow-hidden rounded-[32px] border border-[#eadfd6] bg-[linear-gradient(135deg,#fffaf5_0%,#fffdfb_55%,#f5eee8_100%)] p-6 shadow-[0_20px_70px_rgba(119,85,53,0.08)] sm:p-8 lg:p-10">
               <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
                 <div>
-                  <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[#a56f43] shadow-sm sm:tracking-[0.22em]">
+                  <div className="inline-flex items-center rounded-full border border-[#e4d4c6] bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[#8b5f39] shadow-sm sm:tracking-[0.22em]">
                     {/* The full line wraps to three rows on a phone. */}
                     <span className="sm:hidden">Curated, not YouTube chaos</span>
                     <span className="hidden sm:inline">Curated ski + snowboard instruction, not YouTube chaos</span>

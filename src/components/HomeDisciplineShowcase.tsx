@@ -91,7 +91,7 @@ export default function HomeDisciplineShowcase({ contentByDiscipline }: Props) {
       <section className="py-12 md:py-16">
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#8b5f39]">
               Choose your path
             </p>
             <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
@@ -161,7 +161,7 @@ export default function HomeDisciplineShowcase({ contentByDiscipline }: Props) {
       <section className="py-12 md:py-16">
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#a56f43]">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#8b5f39]">
               Featured {disciplineLabel} techniques
             </p>
             <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">

@@ -131,7 +131,7 @@ export default function AboutPage() {
         <section className="overflow-hidden rounded-[32px] border border-[#eadfd6] bg-[linear-gradient(135deg,#fffaf5_0%,#fffdfb_62%,#f4ede7_100%)] p-6 shadow-[0_18px_50px_rgba(119,85,53,0.06)] sm:p-8 lg:p-10">
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#8b5f39]">
                 About TurnLab
               </p>
               <h1 className="mt-4 text-4xl font-black tracking-tight text-[#201d1a] sm:text-5xl">
@@ -200,7 +200,7 @@ export default function AboutPage() {
           <div className="rounded-[28px] border border-[#eadfd6] bg-white p-6 shadow-[0_12px_28px_rgba(119,85,53,0.05)] sm:p-8">
             <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#8b5f39]">
                   How TurnLab works
                 </p>
                 <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
@@ -219,7 +219,7 @@ export default function AboutPage() {
                   key={item.step}
                   className="rounded-3xl border border-[#ece3db] bg-[#fcf8f4] p-6 shadow-[0_10px_24px_rgba(119,85,53,0.04)]"
                 >
-                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#8b5f39]">
                     Step {item.step}
                   </p>
                   <h3 className="mt-3 text-xl font-bold text-[#201d1a]">{item.title}</h3>
@@ -241,7 +241,7 @@ export default function AboutPage() {
         <section className="py-12 lg:py-16">
           <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#8b5f39]">
                 What TurnLab adds
               </p>
               <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
@@ -260,7 +260,7 @@ export default function AboutPage() {
                 key={item.title}
                 className="rounded-3xl border border-[#ece3db] bg-white p-6 shadow-[0_12px_28px_rgba(119,85,53,0.05)]"
               >
-                <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#f5ece3] text-sm font-bold text-[#a56f43]">
+                <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#f5ece3] text-sm font-bold text-[#8b5f39]">
                   0{index + 1}
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-[#201d1a]">{item.title}</h3>
@@ -274,7 +274,7 @@ export default function AboutPage() {
 
         <section className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
           <div className="rounded-[28px] border border-[#ece3db] bg-white p-6 shadow-[0_12px_28px_rgba(119,85,53,0.05)] sm:p-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a56f43]">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#8b5f39]">
               What you can expect
             </p>
             <h2 className="mt-3 text-3xl font-black tracking-tight text-[#201d1a]">
