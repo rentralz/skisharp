@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T12:00:45.472Z",
+  "updated": "2026-11-22T18:00:41.746Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -36,10 +36,10 @@
       "elevationM": 3005,
       "daily": [
         0,
-        0.2,
+        0.6,
         0.2
       ],
-      "next3": 0.4
+      "next3": 0.8
     },
     {
       "name": "Breckenridge",
@@ -58,10 +58,10 @@
       "elevationM": 2384,
       "daily": [
         0,
-        0.1,
+        0,
         0
       ],
-      "next3": 0.1
+      "next3": 0
     },
     {
       "name": "Big Sky",
