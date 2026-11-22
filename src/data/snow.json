@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T18:00:41.746Z",
+  "updated": "2026-11-22T19:42:31.914Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -47,10 +47,10 @@
       "elevationM": 3291,
       "daily": [
         0,
-        0.7,
-        0.2
+        1,
+        0.3
       ],
-      "next3": 0.9
+      "next3": 1.3
     },
     {
       "name": "Jackson Hole",
@@ -58,10 +58,10 @@
       "elevationM": 2384,
       "daily": [
         0,
-        0,
+        0.1,
         0
       ],
-      "next3": 0
+      "next3": 0.1
     },
     {
       "name": "Big Sky",
@@ -79,11 +79,11 @@
       "region": "California",
       "elevationM": 2251,
       "daily": [
-        0.6,
+        0.9,
         0,
         0.2
       ],
-      "next3": 0.8
+      "next3": 1.1
     },
     {
       "name": "Mammoth Mountain",
