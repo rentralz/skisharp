@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-11-23T02:00:45.111Z",
-  "totalDeals": 55,
+  "lastScanned": "2026-11-23T12:00:39.288Z",
+  "totalDeals": 56,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 177,
+    "slickdeals": 174,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "$399.59: syedee Ski Exercise Machine, Indoor Aerobic Exercise Machine, Ski Equipment, Indoor Aerobic Wind Resistance at Walmart",
+      "url": "https://slickdeals.net/f/20376135-399-59-syedee-ski-exercise-machine-indoor-aerobic-exercise-machine-ski-equipment-indoor-aerobic-wind-resistance-at-walmart?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "other",
+      "posted": "2026-11-23T11:49:49.000Z"
+    },
+    {
+      "title": "Barbie Careers Snowboarder Doll w/ 10+ Accessories & Color-Change Snowboard $10 + Free Shipping w/ Walmart+ or on $35+",
+      "url": "https://slickdeals.net/f/20374464-barbie-careers-snowboarder-doll-w-10-accessories-color-change-snowboard-10-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "snowboards",
+      "posted": "2026-11-23T06:16:09.000Z"
+    },
     {
       "title": "$7.13 | Hanes Women's Base Layer Leggings, Warm Leggings for Women, Moisture-Wicking, Odor Protection at Amazon",
       "url": "https://slickdeals.net/f/20364522-7-13-hanes-women-s-base-layer-leggings-warm-leggings-for-women-moisture-wicking-odor-protection-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -328,14 +344,6 @@
       "posted": "2026-10-30T15:12:32.000Z"
     },
     {
-      "title": "SAVIOR HEAT Heated Mittens for Snowboarding,Heated Ski Gloves for Men Women $100.79",
-      "url": "https://slickdeals.net/f/20222283-savior-heat-heated-mittens-for-snowboarding-heated-ski-gloves-for-men-women-100-79?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-10-28T13:25:48.000Z"
-    },
-    {
       "title": "No Boundaries Men's Knit Ski Mask (Various Colors) $2.88 + Free Shipping w/ Walmart+ or on $35+",
       "url": "https://slickdeals.net/f/20213973-no-boundaries-men-s-knit-ski-mask-various-colors-2-88-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -357,7 +365,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -366,7 +374,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -375,7 +383,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -384,7 +392,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -393,7 +401,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -402,7 +410,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -411,7 +419,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -420,7 +428,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -429,7 +437,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -438,7 +446,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -447,7 +455,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     },
     {
@@ -456,7 +464,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-23T02:00:45.106Z",
+      "posted": "2026-11-23T12:00:39.285Z",
       "isAmazonSearch": true
     }
   ]
