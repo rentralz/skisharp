@@ -1,13 +1,55 @@
 {
-  "lastScanned": "2026-11-23T22:00:41.723Z",
+  "lastScanned": "2026-11-23T23:55:12.454Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
     "SnowBrains": 15,
     "Unofficial Networks": 15,
-    "Storm Skiing Journal": 13
+    "Storm Skiing Journal": 12
   },
   "items": [
+    {
+      "title": "10 Ski Resorts With the Biggest Season Snowfall Totals So Far",
+      "url": "https://unofficialnetworks.com/2026/11/23/10-ski-resorts-with-the-biggest-season-snowfall-totals-so-far/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-23T22:50:27.000Z"
+    },
+    {
+      "title": "The 13 Best Black Friday Sales for Skiers",
+      "url": "https://www.skimag.com/gear/best-black-friday-sales-skiers-2026/",
+      "source": "SKI Magazine",
+      "published": "2026-11-23T22:48:01.000Z"
+    },
+    {
+      "title": "Where to Ski in Canada Right Now, From Whistler to Banff",
+      "url": "https://unofficialnetworks.com/2026/11/23/where-to-ski-in-canada-right-now-from-whistler-to-banff/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-23T22:36:05.000Z"
+    },
+    {
+      "title": "A Thanksgiving Ski Weekend for Under $100? Here’s Where to Look",
+      "url": "https://unofficialnetworks.com/2026/11/23/thanksgiving-ski-weekend-deals/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-23T22:34:24.000Z"
+    },
+    {
+      "title": "Sun Valley Is Replacing Two of Bald Mountain’s Best-Known Chairlifts",
+      "url": "https://unofficialnetworks.com/2026/11/23/sun-valley-is-replacing-two-of-bald-mountains-best-known-chairlifts/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-23T22:20:11.000Z"
+    },
+    {
+      "title": "Where You Can Ski Within Three Hours of New York City This Thanksgiving Weekend",
+      "url": "https://unofficialnetworks.com/2026/11/23/where-you-can-ski-within-three-hours-of-new-york-city-this-thanksgiving-weekend/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-23T22:15:14.000Z"
+    },
+    {
+      "title": "Deer Valley Is Adding 200 Skiable Acres and Seven Runs This Winter",
+      "url": "https://unofficialnetworks.com/2026/11/23/deer-valley-is-adding-200-skiable-acres-and-seven-runs-this-winter/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-23T22:10:16.000Z"
+    },
     {
       "title": "Historic Wyoming Ski Area Won’t Operate For Fourth Winter In A Row",
       "url": "https://unofficialnetworks.com/2026/11/23/sleeping-giant-late-2026-update/",
@@ -105,12 +147,6 @@
       "published": "2026-11-23T17:21:03.000Z"
     },
     {
-      "title": "Wildlife Officers Respond To Grizzly Bear Roaming Slopes of Canadian Ski Resort",
-      "url": "https://unofficialnetworks.com/2026/11/23/wildlife-officers-respond-to-grizzly-bear-roaming-slopes-of-canadian-ski-resort/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-23T17:14:08.000Z"
-    },
-    {
       "title": "Helly Hansen Black Friday Deals Bring Big Savings on Winter Gear",
       "url": "https://snowbrains.com/helly-hansen-black-friday-ski-gear-sale-2026/",
       "source": "SnowBrains",
@@ -129,46 +165,16 @@
       "published": "2026-11-23T16:49:39.000Z"
     },
     {
-      "title": "Chris Tomer Forecasts Biggest Snow Winners Ahead Of Thanksgiving And Early December",
-      "url": "https://unofficialnetworks.com/2026/11/23/chris-tomer-snow-winners-thanksgiving/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-23T16:36:06.000Z"
-    },
-    {
       "title": "5 Skis for the Holiday Season—Plus a Gift for the Skier Who Has Everything",
       "url": "https://www.skimag.com/gear/ski-reviews/5-skis-for-the-holiday-season-plus-a-gift-for-the-skier-who-has-everything/",
       "source": "SKI Magazine",
       "published": "2026-11-23T16:15:09.000Z"
     },
     {
-      "title": "Utah Ski Resort Says Its Slopes Are Off-Limits This Winter",
-      "url": "https://unofficialnetworks.com/2026/11/23/eagle-point-resort-recovery/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-23T16:00:16.000Z"
-    },
-    {
       "title": "The Greatest Opening Day of All Time? Palisades Tahoe Started the Season With a Bang",
       "url": "https://www.powder.com/news/palisades-tahoe-opening-day-2026-conditions-report",
       "source": "POWDER",
       "published": "2026-11-23T15:27:23.000Z"
-    },
-    {
-      "title": "Snowboarder Fails To Save Equipment From Sliding Down Slope",
-      "url": "https://unofficialnetworks.com/2026/11/23/snowboarder-lose-equipment-solden/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-23T15:04:38.000Z"
-    },
-    {
-      "title": "Copper Mountain Welcomes U.S. Ski Team Ahead Of First Domestic World Cup Of The Season",
-      "url": "https://unofficialnetworks.com/2026/11/23/copper-mountain-us-ski-team/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-23T15:04:15.000Z"
-    },
-    {
-      "title": "Kirkwood Opens Today With 326 Acres of Skiing and Riding",
-      "url": "https://unofficialnetworks.com/2026/11/23/kirkwood-opens-today-326-acres/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-23T14:29:51.000Z"
     },
     {
       "title": "SnowBrains Forecast: Up to 30 cm for Europe’s Alps as Snow Spreads East",
@@ -313,12 +319,6 @@
       "url": "https://www.powder.com/news/ober-gatlinburg-tennessee-starts-ski-season",
       "source": "POWDER",
       "published": "2026-11-20T17:25:56.000Z"
-    },
-    {
-      "title": "The Most Unexpected Ski Adventure in North America Might Be in Michigan",
-      "url": "https://www.skimag.com/ski-resort-life/most-unexpected-ski-adventure-michigan/",
-      "source": "SKI Magazine",
-      "published": "2026-11-20T16:41:25.000Z"
     },
     {
       "title": "The 5 Best Resorts To Ski This Weekend: November 21-22, 2026",
