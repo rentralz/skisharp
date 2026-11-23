@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T12:00:40.471Z",
+  "updated": "2026-11-23T18:00:45.349Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -35,11 +35,11 @@
       "region": "Colorado",
       "elevationM": 3005,
       "daily": [
-        1,
-        0.1,
+        0.5,
+        0.2,
         0
       ],
-      "next3": 1.1
+      "next3": 0.7
     },
     {
       "name": "Breckenridge",
