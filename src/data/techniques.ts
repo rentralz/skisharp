@@ -1217,7 +1217,7 @@ export const techniques: Technique[] = [
     description:
       "A stationary technique for reversing direction on a steep slope — swinging one ski around 180 degrees while balancing on the other.",
     promise:
-      "You'll be able to turn around on any slope without skiing, giving you an important safety option when terrain gets too challenging.",
+      "You can use a kick turn to reverse direction from a stable stop on suitable snow, after practicing on flat terrain; it is not a safe option on every slope.",
     timestamps: [
       { time: "0:20", label: "Plant your poles", detail: "Plant both poles uphill for support before starting the kick" },
       { time: "1:00", label: "Kick the downhill ski", detail: "Swing your lower ski up, tip it toward you, then plant it in the new direction" },
@@ -1226,21 +1226,21 @@ export const techniques: Technique[] = [
     ],
     feels: [
       "Deliberate and slightly awkward the first time — like a pivot on ice but on a steep snowy slope",
-      "Your poles are anchors — lean on them confidently while your skis do the rotating",
+      "Your weight stays over the supporting ski, with its edge holding on a slope; your poles provide additional balance",
       "A flash of commitment as you shift weight to the newly pointed ski before the second follows",
     ],
     mistakes: [
-      { mistake: "Not planting poles firmly enough uphill", fix: "Drive poles into the slope above you — they are your only support during the swing" },
+      { mistake: "Relying on poles instead of a secure supporting ski", fix: "Keep your weight over the supporting ski, with its edge securely holding on a slope, and use your poles only for additional balance" },
       { mistake: "Trying to swing both skis at once", fix: "One ski at a time — fully weight the first in its new direction before moving the second" },
       { mistake: "Doing the kick turn on too steep a slope to start", fix: "Learn on a very gentle pitch first until the movement feels automatic" },
     ],
     drills: [
-      "Flat ground practice: perform kick turns on completely flat terrain first — removes the balance challenge so you can focus on the movement pattern",
+      "Flat ground practice: start on flat snow to reduce the risk of sliding while you learn the movement; you still need to balance briefly on one ski",
       "Slow-motion kick: do each step with a 3-second pause between movements — builds confidence at each phase before connecting them",
       "Both directions: always practice the kick turn in both directions — your non-dominant side needs equal repetitions",
     ],
-    prerequisites: ["wedge-turns"],
-    nextSteps: ["sideslipping", "fall-line-awareness"],
+    prerequisites: ["wedge-turns", "fall-line-awareness"],
+    nextSteps: ["sideslipping"],
     youtubeVideos: [
       {
         videoId: "qalV0fR6vK8",
