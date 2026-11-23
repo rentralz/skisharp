@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T18:00:45.349Z",
+  "updated": "2026-11-23T22:00:41.939Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -46,22 +46,22 @@
       "region": "Colorado",
       "elevationM": 3291,
       "daily": [
-        1.9,
-        0.3,
+        2.5,
+        0.1,
         0
       ],
-      "next3": 2.1
+      "next3": 2.6
     },
     {
       "name": "Jackson Hole",
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        0.3,
+        0,
         0,
         0
       ],
-      "next3": 0.3
+      "next3": 0
     },
     {
       "name": "Big Sky",
