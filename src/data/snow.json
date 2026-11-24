@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T18:00:39.490Z",
+  "updated": "2026-11-24T22:00:40.124Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -59,9 +59,9 @@
       "daily": [
         0,
         0,
-        0
+        0.1
       ],
-      "next3": 0
+      "next3": 0.1
     },
     {
       "name": "Big Sky",
