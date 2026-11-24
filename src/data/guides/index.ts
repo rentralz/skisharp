@@ -13,6 +13,7 @@ import herringbone from "./herringbone";
 import hockeyStop from "./hockey-stop";
 import iceTechnique from "./ice-technique";
 import kickTurn from "./kick-turn";
+import linkedTurns from "./linked-turns";
 import mogulAbsorption from "./mogul-absorption";
 import parallelTurns from "./parallel-turns";
 import polePlanting from "./pole-planting";
@@ -50,6 +51,7 @@ const GUIDES: TechniqueGuide[] = [
   hockeyStop,
   iceTechnique,
   kickTurn,
+  linkedTurns,
   mogulAbsorption,
   parallelTurns,
   polePlanting,

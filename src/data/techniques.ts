@@ -2892,30 +2892,30 @@ export const techniques: Technique[] = [
     description:
       "Connecting individual snowplow turns into a continuous flowing sequence — the moment skiing stops feeling like a series of separate events and starts feeling like movement.",
     promise:
-      "You'll experience the rhythm of real skiing for the first time — a flowing chain of turns that carries you down the mountain without stopping between each one.",
+      "Once you can stop and manage your speed, you should be able to practice a short, flowing sequence of wedge turns on gentle terrain, stopping whenever you need to.",
     timestamps: [
-      { time: "0:30", label: "Why linking matters", detail: "Each separate stop-and-turn builds bad habits — connected turns are how skiing is actually done" },
-      { time: "1:15", label: "The transition timing", detail: "Begin the next turn as the current one finishes — there is no pause between them" },
+      { time: "0:30", label: "Why linking matters", detail: "Practicing individual turns with stops can build control before you join a short sequence" },
+      { time: "1:15", label: "The transition timing", detail: "Finish a rounded turn at a manageable speed before steering into the next; let terrain and traffic determine your timing" },
       { time: "2:30", label: "Finding the rhythm", detail: "Count 'one, two' for each turn — the beat helps you feel when one ends and the next begins" },
       { time: "3:45", label: "Shape consistency", detail: "Try to make each turn roughly the same size and shape — consistency builds the rhythm that makes linking click" },
     ],
     feels: [
-      "Like a pendulum swinging left and right — each turn flows into the next with no dead spot between",
-      "Speed is constant rather than building and braking — linked turns manage speed automatically",
+      "Each rounded turn can flow into the next, with time to finish the arc and adjust to terrain and traffic",
+      "You should be able to keep your overall pace manageable with suitable terrain and rounded turn shapes, although your speed may vary within each turn",
       "The mountain starts to feel like something you're dancing with, not fighting",
     ],
     mistakes: [
-      { mistake: "Stopping completely between turns to prepare for the next", fix: "Trust that the next turn will happen — keep moving and let the rhythm connect them" },
-      { mistake: "Rushing the transition and skidding into the next turn", fix: "Complete the current turn fully before committing to the next — patience in the finish creates the flow" },
-      { mistake: "Looking at your ski tips between turns", fix: "Eyes downhill always — look toward your next turn, not at your feet" },
+      { mistake: "Hesitating between every turn even when your speed and route are controlled", fix: "Once you can turn and stop reliably, try joining two turns on gentle terrain, but stop whenever your speed, space, or confidence requires it" },
+      { mistake: "Rushing into an abrupt direction change before you have brought your speed under control", fix: "Finish a rounded arc until your speed is comfortable, then smoothly release the old outside ski's grip and steer into the next turn" },
+      { mistake: "Looking at your ski tips between turns", fix: "Look ahead along your intended route and scan nearby traffic rather than staring at your ski tips" },
     ],
     drills: [
-      "Count to 10: try to complete 10 linked turns without stopping — reset and try again until you can do it smoothly",
-      "Humming rhythm: hum a simple beat while turning — the sound cue forces rhythmic timing that your brain naturally locks onto",
-      "Shrink the pause: each run, try to make the gap between turns 10% shorter — gradually eliminate the hesitation until it disappears",
+      "Short sequences: start with two or three rounded turns and add more only while your line and pace remain manageable; stop whenever necessary",
+      "Rhythm aid: try a quiet count or hum if it helps you notice your timing, adapting the beat to your turns and stopping when conditions require it",
+      "Join two arcs: on the same gentle pitch, connect two turns without rushing their finish; keep planned stops whenever you need a reset",
     ],
-    prerequisites: ["wedge-turns"],
-    nextSteps: ["speed-control", "wedge-christie"],
+    prerequisites: ["snowplow-stop", "wedge-turns", "speed-control"],
+    nextSteps: ["wedge-christie"],
     youtubeVideos: [
       {
         videoId: "P8IydC8kxCk",
@@ -2924,14 +2924,6 @@ export const techniques: Technique[] = [
         title: "HOW TO TURN ON SKIS Snowplough Beginners",
         isPrimary: true,
         teachingStyle: "Beginner-focused with clear rhythm and linking cues",
-      },
-      {
-        videoId: "T1BsQPFdt7w",
-        channel: "Snowboard Addiction",
-        channelUrl: "https://www.youtube.com/@snowboardaddiction",
-        title: "Beginners Lesson 3.0 Snowplow Wedge Turns",
-        isPrimary: false,
-        teachingStyle: "High-energy, beginner-friendly breakdown",
       },
     ],
   },

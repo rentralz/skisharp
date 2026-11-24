@@ -30,7 +30,7 @@ black) and difficulty, with snowboard guides interleaved.
 - [x] chairlift-unloading: 2026-11-18
 - [x] emergency-stop: 2026-11-20
 - [x] kick-turn: 2026-11-23
-- [ ] linked-turns
+- [x] linked-turns: 2026-11-24
 - [ ] snowboard-one-foot-riding
 - [ ] side-stepping
 - [ ] snowboard-flat-base-awareness
