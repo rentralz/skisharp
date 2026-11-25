@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-25T02:00:41.615Z",
+  "updated": "2026-11-25T12:00:55.005Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
-    "2026-11-24",
     "2026-11-25",
-    "2026-11-26"
+    "2026-11-26",
+    "2026-11-27"
   ],
   "resorts": [
     {
@@ -15,9 +15,9 @@
       "daily": [
         0,
         0,
-        0
+        0.1
       ],
-      "next3": 0
+      "next3": 0.1
     },
     {
       "name": "Park City",
@@ -26,9 +26,9 @@
       "daily": [
         0,
         0,
-        0
+        0.1
       ],
-      "next3": 0
+      "next3": 0.1
     },
     {
       "name": "Vail",
@@ -59,9 +59,9 @@
       "daily": [
         0,
         0,
-        0.1
+        5.3
       ],
-      "next3": 0.1
+      "next3": 5.3
     },
     {
       "name": "Big Sky",
@@ -70,9 +70,9 @@
       "daily": [
         0,
         0,
-        0
+        2.7
       ],
-      "next3": 0
+      "next3": 2.7
     },
     {
       "name": "Palisades Tahoe",
