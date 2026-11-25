@@ -31,7 +31,7 @@ black) and difficulty, with snowboard guides interleaved.
 - [x] emergency-stop: 2026-11-20
 - [x] kick-turn: 2026-11-23
 - [x] linked-turns: 2026-11-24
-- [ ] snowboard-one-foot-riding
+- [x] snowboard-one-foot-riding: 2026-11-25
 - [ ] side-stepping
 - [ ] snowboard-flat-base-awareness
 - [ ] pizza-to-french-fries

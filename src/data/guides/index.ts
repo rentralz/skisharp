@@ -25,6 +25,7 @@ import snowboardChairliftBasics from "./snowboard-chairlift-basics";
 import snowboardFallingLeaf from "./snowboard-falling-leaf";
 import snowboardHeelsideTurns from "./snowboard-heelside-turns";
 import snowboardLinkedTurns from "./snowboard-linked-turns";
+import snowboardOneFootRiding from "./snowboard-one-foot-riding";
 import snowboardPowderBasics from "./snowboard-powder-basics";
 import snowboardSideSlipping from "./snowboard-side-slipping";
 import snowboardSpeedControl from "./snowboard-speed-control";
@@ -63,6 +64,7 @@ const GUIDES: TechniqueGuide[] = [
   snowboardFallingLeaf,
   snowboardHeelsideTurns,
   snowboardLinkedTurns,
+  snowboardOneFootRiding,
   snowboardPowderBasics,
   snowboardSideSlipping,
   snowboardSpeedControl,
