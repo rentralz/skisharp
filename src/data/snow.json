@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T18:00:45.665Z",
+  "updated": "2026-11-25T21:43:13.454Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -48,9 +48,9 @@
       "daily": [
         0,
         0,
-        0
+        0.1
       ],
-      "next3": 0
+      "next3": 0.1
     },
     {
       "name": "Jackson Hole",
@@ -59,9 +59,9 @@
       "daily": [
         0,
         0,
-        5.3
+        4.9
       ],
-      "next3": 5.3
+      "next3": 4.9
     },
     {
       "name": "Big Sky",
@@ -70,9 +70,9 @@
       "daily": [
         0,
         0,
-        2.7
+        2.2
       ],
-      "next3": 2.7
+      "next3": 2.2
     },
     {
       "name": "Palisades Tahoe",

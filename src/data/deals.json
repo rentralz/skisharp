@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-11-25T18:00:44.626Z",
-  "totalDeals": 58,
+  "lastScanned": "2026-11-25T21:43:12.268Z",
+  "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
     "slickdeals": 170,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "3-Pairs Coclothy Merino Wool Blend Ski Socks (Men's 8–11 / Women's 9.5–12, Various Colors) $8.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20397309-3-pairs-coclothy-merino-wool-blend-ski-socks-men-s-8-11-women-s-9-5-12-various-colors-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "socks",
+      "posted": "2026-11-25T19:38:20.000Z"
+    },
     {
       "title": "Spyder Women's Micro French Terry Thermal Base Layer Long Johns: Black (Small, Medium, XL) from $3.47 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20395719-spyder-women-s-micro-french-terry-thermal-base-layer-long-johns-black-small-medium-xl-from-3-47-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -381,7 +389,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -390,7 +398,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -399,7 +407,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -408,7 +416,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -417,7 +425,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -426,7 +434,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -435,7 +443,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -444,7 +452,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -453,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -462,7 +470,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -471,7 +479,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     },
     {
@@ -480,7 +488,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-25T18:00:44.623Z",
+      "posted": "2026-11-25T21:43:12.264Z",
       "isAmazonSearch": true
     }
   ]
