@@ -3471,11 +3471,11 @@ export const techniques: Technique[] = [
     description:
       "Gliding, steering, and braking with one foot strapped in so lift lines, unload ramps, and flat exits stop feeling chaotic.",
     promise:
-      "You'll stop dreading cat tracks and chairlift exits because you'll know how to guide the board with one-foot control instead of panic.",
+      "You should be able to build steadier one-foot control for flats and suitable chairlift exits; stop in a visible safe place and strap both feet in before riding a downhill cat track.",
     timestamps: [
-      { time: "0:20", label: "Free foot placement", detail: "Rest the free foot lightly against the stomp pad so the board tracks straight instead of fishtailing." },
+      { time: "0:20", label: "Free foot placement", detail: "Rest your free boot on the deck or stomp pad against the inside of the rear binding, keeping it within the board's edges and your body centered." },
       { time: "1:05", label: "Small pushes only", detail: "Use short skating pushes and return the free foot to the board quickly after each push." },
-      { time: "2:15", label: "Flat board awareness", detail: "Stay mostly flat-based while gliding so the board does not unexpectedly grab an edge." },
+      { time: "2:15", label: "Flat board awareness", detail: "For straight, walking-speed glides on nearly level snow with a clear flat runout, keep the base mostly flat; do not force it flat across a slope, and strap both feet in before descending." },
     ],
     feels: [
       "Like a scooter more than a full snowboard turn",
@@ -3485,15 +3485,15 @@ export const techniques: Technique[] = [
     mistakes: [
       { mistake: "Pushing too hard and getting twisted open", fix: "Take smaller pushes and square yourself back over the board after each one." },
       { mistake: "Looking down at the board", fix: "Look ahead to the ramp or line you want to follow." },
-      { mistake: "Trying to edge aggressively one-footed", fix: "Keep the board flatter and use subtle steering until you are stable." },
+      { mistake: "Trying to edge aggressively one-footed", fix: "Use subtle steering only on nearly level snow at walking speed; do not force the board flat across a slope, and strap both feet in before descending." },
     ],
     drills: [
       "One-push glide: take one small push, place the free foot on the stomp pad, and coast as straight as possible.",
-      "Scooter laps: practice skating 20–30 meters at a time on flat terrain without rushing the push cadence.",
+      "Stop-and-go laps: on nearly level snow with a clear flat runout, practice short pushes and a walking-speed stop by gently placing your free foot beside the board; add distance only when you can stop on request.",
       "Unstrap-and-return drill: repeatedly step off and back onto the board so the stomp-pad placement becomes automatic.",
     ],
     prerequisites: ["snowboard-athletic-stance"] as string[],
-    nextSteps: ["snowboard-chairlift-basics", "snowboard-flat-base-awareness"] as string[],
+    nextSteps: ["snowboard-chairlift-basics"] as string[],
     youtubeVideos: [
       {
         videoId: "MUB_YhSiK_o",
