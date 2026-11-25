@@ -1,12 +1,44 @@
 {
-  "lastScanned": "2026-11-25T12:00:54.075Z",
-  "totalDeals": 55,
+  "lastScanned": "2026-11-25T18:00:44.626Z",
+  "totalDeals": 58,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 163,
+    "slickdeals": 170,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "Spyder Women's Micro French Terry Thermal Base Layer Long Johns: Black (Small, Medium, XL) from $3.47 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/20395719-spyder-women-s-micro-french-terry-thermal-base-layer-long-johns-black-small-medium-xl-from-3-47-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-25T16:26:12.000Z"
+    },
+    {
+      "title": "Arshiner Girls Long Sleeve Shirts Crewneck Base Layer Tops Casual Fall Tee $9.99",
+      "url": "https://slickdeals.net/f/20395209-arshiner-girls-long-sleeve-shirts-crewneck-base-layer-tops-casual-fall-tee-9-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "baselayers",
+      "posted": "2026-11-25T15:29:54.000Z"
+    },
+    {
+      "title": "findway Ski Goggles OTG for Women Men Adult Youth $22.99",
+      "url": "https://slickdeals.net/f/20394660-findway-ski-goggles-otg-for-women-men-adult-youth-22-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-25T14:38:21.000Z"
+    },
+    {
+      "title": "Odoland Photochromic Ski Goggles, Anti-Fog Snow Goggles for Adults & Youth $24.99",
+      "url": "https://slickdeals.net/f/20394585-odoland-photochromic-ski-goggles-anti-fog-snow-goggles-for-adults-youth-24-99?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "goggles",
+      "posted": "2026-11-25T14:32:11.000Z"
+    },
     {
       "title": "MEALNET Men's or Women's Thermal Sherpa Zipper Balaclava Ski Mask (Various) $6.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20388501-mealnet-men-s-or-women-s-thermal-sherpa-zipper-balaclava-ski-mask-various-6-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -344,20 +376,12 @@
       "posted": "2026-10-27T03:11:59.000Z"
     },
     {
-      "title": "No Boundaries Mens Knit Ski Mask, One Size from $2.79",
-      "url": "https://slickdeals.net/f/20209131-no-boundaries-mens-knit-ski-mask-one-size-from-2-79?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "accessories",
-      "posted": "2026-10-26T12:07:14.000Z"
-    },
-    {
       "title": "🔍 Ski Jackets on Sale",
       "url": "https://www.amazon.com/s?k=ski+jacket+deal&tag=turnlab-20",
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -366,7 +390,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -375,7 +399,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -384,7 +408,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -393,7 +417,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -402,7 +426,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -411,7 +435,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -420,7 +444,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -429,7 +453,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -438,7 +462,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -447,7 +471,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     },
     {
@@ -456,7 +480,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-25T12:00:54.072Z",
+      "posted": "2026-11-25T18:00:44.623Z",
       "isAmazonSearch": true
     }
   ]
