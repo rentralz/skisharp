@@ -1,5 +1,5 @@
 {
-  "lastScanned": "2026-11-26T18:00:40.425Z",
+  "lastScanned": "2026-11-26T21:33:51.361Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
@@ -8,6 +8,18 @@
     "Storm Skiing Journal": 12
   },
   "items": [
+    {
+      "title": "SnowBrains Forecast: Around 10 Inches for Colorado’s Snowiest Resorts This Weekend",
+      "url": "https://snowbrains.com/snowbrains-forecast-around-10-inches-for-colorados-snowiest-resorts-this-weekend/",
+      "source": "SnowBrains",
+      "published": "2026-11-26T20:03:53.000Z"
+    },
+    {
+      "title": "Aging Lift and Years of Losses Force Kunohe Ski Resort, Japan, to Close for Good",
+      "url": "https://snowbrains.com/kunohe-ski-resort-closing/",
+      "source": "SnowBrains",
+      "published": "2026-11-26T18:00:57.000Z"
+    },
     {
       "title": "Washington’s Largest Ski Resort Is Giving Beginners a Season Pass for Completing Three Ski Lessons",
       "url": "https://unofficialnetworks.com/2026/11/26/crystal-mountain-beginner-season-pass-ski-lessons/",
@@ -223,18 +235,6 @@
       "url": "https://unofficialnetworks.com/2026/11/25/montana-ski-area-delays-opening-day/",
       "source": "Unofficial Networks",
       "published": "2026-11-25T15:38:43.000Z"
-    },
-    {
-      "title": "Park City Mountain, UT, Opens Today After 38 Inches of Snow in 5 Days",
-      "url": "https://snowbrains.com/park-city-mountain-ut-opens-today-after-38-inches-of-snow-in-5-days/",
-      "source": "SnowBrains",
-      "published": "2026-11-25T15:12:52.000Z"
-    },
-    {
-      "title": "Red Lodge Mountain, MT, Pushes Opening Day to December 3",
-      "url": "https://snowbrains.com/red-lodge-mountain-mt-pushes-opening-day-to-december-3/",
-      "source": "SnowBrains",
-      "published": "2026-11-25T14:20:45.000Z"
     },
     {
       "title": "The Top 10 Most Family-Friendly Resorts in the West (2027)",

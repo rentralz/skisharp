@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T18:00:40.582Z",
+  "updated": "2026-11-26T21:33:51.469Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -15,9 +15,9 @@
       "daily": [
         0,
         0.1,
-        3.1
+        3.9
       ],
-      "next3": 3.2
+      "next3": 4
     },
     {
       "name": "Park City",
@@ -26,9 +26,9 @@
       "daily": [
         0,
         0.1,
-        1.6
+        2.3
       ],
-      "next3": 1.7
+      "next3": 2.3
     },
     {
       "name": "Vail",
@@ -47,10 +47,10 @@
       "elevationM": 3291,
       "daily": [
         0,
-        0.2,
-        3
+        0.1,
+        6
       ],
-      "next3": 3.2
+      "next3": 6.1
     },
     {
       "name": "Jackson Hole",
@@ -68,11 +68,11 @@
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        0.4,
-        4,
-        4.6
+        0.1,
+        2.6,
+        5.8
       ],
-      "next3": 8.9
+      "next3": 8.5
     },
     {
       "name": "Palisades Tahoe",
@@ -103,9 +103,9 @@
       "daily": [
         0,
         0,
-        0
+        0.2
       ],
-      "next3": 0
+      "next3": 0.2
     }
   ]
 }
