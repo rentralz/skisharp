@@ -1,13 +1,73 @@
 {
-  "lastScanned": "2026-11-26T12:00:45.216Z",
+  "lastScanned": "2026-11-26T18:00:40.425Z",
   "sourceStats": {
     "POWDER": 15,
     "SKI Magazine": 10,
     "SnowBrains": 15,
     "Unofficial Networks": 15,
-    "Storm Skiing Journal": 11
+    "Storm Skiing Journal": 12
   },
   "items": [
+    {
+      "title": "Washington’s Largest Ski Resort Is Giving Beginners a Season Pass for Completing Three Ski Lessons",
+      "url": "https://unofficialnetworks.com/2026/11/26/crystal-mountain-beginner-season-pass-ski-lessons/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-26T16:58:20.000Z"
+    },
+    {
+      "title": "Ski Resort Snow Forecast: Up to 14 Inches for the Tetons as Jackson Hole and Steamboat Open",
+      "url": "https://unofficialnetworks.com/2026/11/26/thanksgiving-snow-forecast-tetons-colorado-ski-resorts/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-26T16:44:21.000Z"
+    },
+    {
+      "title": "Thanks from Storm HQ + Ski Sales",
+      "url": "https://www.stormskiing.com/p/thanks-from-storm-hq-ski-sales",
+      "source": "Storm Skiing Journal",
+      "published": "2026-11-26T16:18:31.000Z"
+    },
+    {
+      "title": "Un-Denned Grizzly Bear Roams the Slopes at Nakiska, AB; Armed Wildlife Officer Responds",
+      "url": "https://snowbrains.com/grizzly-bear-nakiska-alberta/",
+      "source": "SnowBrains",
+      "published": "2026-11-26T16:00:57.000Z"
+    },
+    {
+      "title": "Six of North America’s Most Controversial Ski Resort Name Changes — and Whether They Stuck",
+      "url": "https://snowbrains.com/most-controversial-ski-resort-name-changes/",
+      "source": "SnowBrains",
+      "published": "2026-11-26T15:00:58.000Z"
+    },
+    {
+      "title": "Utah Ski Resort Moves Up Opening Day After Receiving Two Feet Of Snow",
+      "url": "https://unofficialnetworks.com/2026/11/26/powder-mountain-moves-opening-day/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-26T14:17:00.000Z"
+    },
+    {
+      "title": "SnowBrains Forecast: About a Foot at Upper Crystal as Rain Soaks the Pacific Northwest",
+      "url": "https://snowbrains.com/snowbrains-forecast-about-a-foot-at-upper-crystal-as-rain-soaks-the-pacific-northwest/",
+      "source": "SnowBrains",
+      "published": "2026-11-26T14:03:48.000Z"
+    },
+    {
+      "title": "The Killington World Cup Is Back. Here’s Why This Weekend Matters for the U.S. Women.",
+      "url": "https://www.skimag.com/performance/competitions-and-events/racing/killington-world-cup-who-to-watch/",
+      "source": "SKI Magazine",
+      "published": "2026-11-26T14:00:31.000Z"
+    },
+    {
+      "title": "World Cup Ski Racing Is Back in Colorado. Here’s Who—and How—to Watch.",
+      "url": "https://www.skimag.com/performance/competitions-and-events/racing/stifel-copper-cup-who-to-watch-2026/",
+      "source": "SKI Magazine",
+      "published": "2026-11-26T14:00:18.000Z"
+    },
+    {
+      "title": "Not All Ski Resort Statistics Are What They Seem",
+      "url": "https://unofficialnetworks.com/2026/11/26/ski-resort-statistics-real-meanings/",
+      "source": "Unofficial Networks",
+      "published": "2026-11-26T13:21:00.000Z"
+    },
     {
       "title": "Niseko’s Grand Hirafu, Japan, Launches a $1,900 Day Pass to Skip the Lift Lines",
       "url": "https://snowbrains.com/grand-hirafu-fast-pass-niseko/",
@@ -165,46 +225,16 @@
       "published": "2026-11-25T15:38:43.000Z"
     },
     {
-      "title": "The Ikon Pass Is About to Make Its Debut at Three of the Midwest’s Biggest Ski Resorts",
-      "url": "https://unofficialnetworks.com/2026/11/25/ikon-pass-granite-peak-lutsen-snowriver-opening/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-25T15:37:39.000Z"
-    },
-    {
-      "title": "Whistler Is Open, But With 105 Acres Of Terrain Closed For The Entire Season",
-      "url": "https://unofficialnetworks.com/2026/11/25/whistler-peak-terrain-closed-2026-27/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-25T15:32:39.000Z"
-    },
-    {
       "title": "Park City Mountain, UT, Opens Today After 38 Inches of Snow in 5 Days",
       "url": "https://snowbrains.com/park-city-mountain-ut-opens-today-after-38-inches-of-snow-in-5-days/",
       "source": "SnowBrains",
       "published": "2026-11-25T15:12:52.000Z"
     },
     {
-      "title": "Beaver Creek Postpones Opening Just Days Before World Cup Ski Racing Arrives",
-      "url": "https://unofficialnetworks.com/2026/11/25/beaver-creek-opening-day-postponed-world-cup/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-25T15:09:04.000Z"
-    },
-    {
-      "title": "Tremblant Alpine World Cup Races Canceled Due To Lack Of Snow",
-      "url": "https://unofficialnetworks.com/2026/11/25/tremblant-alpine-world-cup-canceled/",
-      "source": "Unofficial Networks",
-      "published": "2026-11-25T14:51:19.000Z"
-    },
-    {
       "title": "Red Lodge Mountain, MT, Pushes Opening Day to December 3",
       "url": "https://snowbrains.com/red-lodge-mountain-mt-pushes-opening-day-to-december-3/",
       "source": "SnowBrains",
       "published": "2026-11-25T14:20:45.000Z"
-    },
-    {
-      "title": "SnowBrains Forecast: Up to 25 cm in the Dolomites as Snow Shifts East Across Europe’s Alps",
-      "url": "https://snowbrains.com/snowbrains-forecast-up-to-25-cm-in-the-dolomites-as-snow-shifts-east-across-europes-alps/",
-      "source": "SnowBrains",
-      "published": "2026-11-25T14:04:50.000Z"
     },
     {
       "title": "The Top 10 Most Family-Friendly Resorts in the West (2027)",
@@ -223,18 +253,6 @@
       "url": "https://www.skimag.com/gear/ski-boot-reviews/ski-boots-that-fit-bootfitter-search/",
       "source": "SKI Magazine",
       "published": "2026-11-25T13:00:02.000Z"
-    },
-    {
-      "title": "North America’s Greatest Ski Deal? The $99 Mount Bohemia, MI, Season Pass Is Back",
-      "url": "https://snowbrains.com/mount-bohemia-season-pass-sale-2026-27/",
-      "source": "SnowBrains",
-      "published": "2026-11-25T11:00:54.000Z"
-    },
-    {
-      "title": "Beaver Creek, CO, Pushes Back Opening Day to Saturday, November 28, After Warm Start to the Month",
-      "url": "https://snowbrains.com/beaver-creek-opening-day-delayed-2026/",
-      "source": "SnowBrains",
-      "published": "2026-11-25T10:39:13.000Z"
     },
     {
       "title": "Fight Breaks Out at Killington Ski Resort, Prompting Pass Restrictions",
@@ -309,18 +327,6 @@
       "published": "2026-11-23T19:01:35.000Z"
     },
     {
-      "title": "The Best Gifts for Skiers",
-      "url": "https://www.skimag.com/gear/the-best-gifts-for-skiers-2/",
-      "source": "SKI Magazine",
-      "published": "2026-11-23T18:57:01.000Z"
-    },
-    {
-      "title": "Budget Ski Gear That Doesn’t Feel Cheap",
-      "url": "https://www.skimag.com/gear/ski-apparel/budget-ski-gear-2027/",
-      "source": "SKI Magazine",
-      "published": "2026-11-23T18:32:48.000Z"
-    },
-    {
       "title": "The Best Photos From Heavenly and Northstar’s Opening Days",
       "url": "https://www.powder.com/news/best-photos-heavenly-northstar-opening-days",
       "source": "POWDER",
@@ -361,12 +367,6 @@
       "url": "https://www.stormskiing.com/p/indy-pass-adds-9-ski-areas-in-europe",
       "source": "Storm Skiing Journal",
       "published": "2026-11-12T15:02:46.000Z"
-    },
-    {
-      "title": "Storm News 11/11/2026: Are We In the Golden Age of Skiing? Plus: Snowstar, Ill. to Close",
-      "url": "https://www.stormskiing.com/p/storm-news-11112026-are-we-in-the",
-      "source": "Storm Skiing Journal",
-      "published": "2026-11-12T02:01:27.000Z"
     }
   ]
 }

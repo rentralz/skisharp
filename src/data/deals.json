@@ -1,12 +1,28 @@
 {
-  "lastScanned": "2026-11-26T12:00:44.533Z",
-  "totalDeals": 58,
+  "lastScanned": "2026-11-26T18:00:39.718Z",
+  "totalDeals": 60,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 167,
+    "slickdeals": 173,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "[Prime] BougeRV Lockable Folding & Tilting Hitch Ski & Snowboard Rack (Black/Yellow) $189.19 + Free Shipping",
+      "url": "https://slickdeals.net/f/20405031-prime-bougerv-lockable-folding-tilting-hitch-ski-snowboard-rack-black-yellow-189-19-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "other",
+      "posted": "2026-11-26T14:57:04.000Z"
+    },
+    {
+      "title": "[Prime] 28\" BougeRV Lockable Ski & Snowboard Roof Rack $119.99 + Free Shipping",
+      "url": "https://slickdeals.net/f/20404980-prime-28-bougerv-lockable-ski-snowboard-roof-rack-119-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "snowboards",
+      "posted": "2026-11-26T14:51:21.000Z"
+    },
     {
       "title": "BALEAF Women's Fleece-Lined Thermal Base Layer Shirt w/ Built-in Face Mask & Thumbholes - $11.99 at Amazon",
       "url": "https://slickdeals.net/f/20402934-baleaf-women-s-fleece-lined-thermal-base-layer-shirt-w-built-in-face-mask-thumbholes-11-99-at-amazon?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -381,7 +397,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -390,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -399,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -408,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -417,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -426,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -435,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -444,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -453,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -462,7 +478,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -471,7 +487,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     },
     {
@@ -480,7 +496,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-26T12:00:44.531Z",
+      "posted": "2026-11-26T18:00:39.714Z",
       "isAmazonSearch": true
     }
   ]
