@@ -69,7 +69,7 @@ export default function Footer({ headingLevel = "h3" }: { headingLevel?: "h2" | 
           </div>
 
           <div>
-            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
               Start here
             </Heading>
             <ul className="mt-4 space-y-3">
@@ -87,7 +87,7 @@ export default function Footer({ headingLevel = "h3" }: { headingLevel?: "h2" | 
           </div>
 
           <div>
-            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
               By discipline
             </Heading>
             <ul className="mt-4 space-y-3">
@@ -105,7 +105,7 @@ export default function Footer({ headingLevel = "h3" }: { headingLevel?: "h2" | 
           </div>
 
           <div>
-            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
               Explore
             </Heading>
             <ul className="mt-4 space-y-3">
@@ -123,7 +123,7 @@ export default function Footer({ headingLevel = "h3" }: { headingLevel?: "h2" | 
           </div>
 
           <div>
-            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#9a8471]">
+            <Heading className="text-sm font-semibold uppercase tracking-[0.18em] text-[#8b5f39]">
               By level
             </Heading>
             <ul className="mt-4 space-y-3">
@@ -141,7 +141,7 @@ export default function Footer({ headingLevel = "h3" }: { headingLevel?: "h2" | 
           </div>
         </div>
 
-        <div className="mt-10 border-t border-[#e2d4c8] pt-6 text-sm text-[#8b7b6d] sm:flex sm:items-center sm:justify-between">
+        <div className="mt-10 border-t border-[#e2d4c8] pt-6 text-sm text-[#6f665e] sm:flex sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} TurnLab. Curated instruction, full credit to original creators.</p>
           <p className="mt-2 sm:mt-0">
             Free to use. Built for better ski days.{" "}
