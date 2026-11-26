@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-11-25T22:00:42.081Z",
-  "totalDeals": 59,
+  "lastScanned": "2026-11-26T02:00:39.948Z",
+  "totalDeals": 60,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 170,
+    "slickdeals": 173,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "Pixel Panda Winter Gloves Men & Women with 3M Thinsulate, Waterproof Ski Gloves $9.79",
+      "url": "https://slickdeals.net/f/20399694-pixel-panda-winter-gloves-men-women-with-3m-thinsulate-waterproof-ski-gloves-9-79?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "gloves",
+      "posted": "2026-11-26T01:16:38.000Z"
+    },
     {
       "title": "3-Pairs Coclothy Merino Wool Blend Ski Socks (Men's 8–11 / Women's 9.5–12, Various Colors) $8.99 + Free Shipping w/ Prime or on $35+",
       "url": "https://slickdeals.net/f/20397309-3-pairs-coclothy-merino-wool-blend-ski-socks-men-s-8-11-women-s-9-5-12-various-colors-8-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -389,7 +397,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -398,7 +406,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -407,7 +415,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -416,7 +424,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -425,7 +433,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -434,7 +442,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -443,7 +451,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -452,7 +460,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -461,7 +469,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -470,7 +478,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -479,7 +487,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     },
     {
@@ -488,7 +496,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-25T22:00:42.076Z",
+      "posted": "2026-11-26T02:00:39.946Z",
       "isAmazonSearch": true
     }
   ]
