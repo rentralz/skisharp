@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-11-27T02:00:38.632Z",
-  "totalDeals": 61,
+  "lastScanned": "2026-11-27T12:00:39.544Z",
+  "totalDeals": 59,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 176,
+    "slickdeals": 172,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "[Prime] GXCROR Men's or Women's Polar Fleece Ski Mask Balaclava (Black) $3.79 + Free Shipping",
+      "url": "https://slickdeals.net/f/20412591-prime-gxcror-men-s-or-women-s-polar-fleece-ski-mask-balaclava-black-3-79-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "accessories",
+      "posted": "2026-11-27T06:59:14.000Z"
+    },
     {
       "title": "Dakine Low Roller Wheeled Snowboard Bag (165cm, Mediterranea) $161.82 + Free Shipping",
       "url": "https://slickdeals.net/f/20409528-dakine-low-roller-wheeled-snowboard-bag-165cm-mediterranea-161-82-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -96,14 +104,6 @@
       "posted": "2026-11-24T18:25:39.000Z"
     },
     {
-      "title": "$399.59: syedee Ski Exercise Machine, Indoor Aerobic Exercise Machine, Ski Equipment, Indoor Aerobic Wind Resistance at Walmart",
-      "url": "https://slickdeals.net/f/20376135-399-59-syedee-ski-exercise-machine-indoor-aerobic-exercise-machine-ski-equipment-indoor-aerobic-wind-resistance-at-walmart?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "other",
-      "posted": "2026-11-23T11:49:49.000Z"
-    },
-    {
       "title": "Barbie Careers Snowboarder Doll w/ 10+ Accessories & Color-Change Snowboard $10 + Free Shipping w/ Walmart+ or on $35+",
       "url": "https://slickdeals.net/f/20374464-barbie-careers-snowboarder-doll-w-10-accessories-color-change-snowboard-10-free-shipping-w-walmart-or-on-35?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -134,14 +134,6 @@
       "sourceIcon": "💰",
       "category": "accessories",
       "posted": "2026-11-20T15:54:08.000Z"
-    },
-    {
-      "title": "Prime: BARJNEEL Men's Thermal Long Johns Fleece-Lined Base Layer $6.63-$9.96 + Free Shipping",
-      "url": "https://slickdeals.net/f/20356860-prime-barjneel-men-s-thermal-long-johns-fleece-lined-base-layer-6-63-9-96-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "baselayers",
-      "posted": "2026-11-20T15:02:09.000Z"
     },
     {
       "title": "Gordini Men's Gore-Tex Storm Trooper II Ski Gloves (Gunmetal Black, Small) $22.30 + Free Shipping w/ Prime or on $35+",
@@ -376,14 +368,6 @@
       "posted": "2026-11-05T00:15:33.000Z"
     },
     {
-      "title": "GXCROR Waterproof Ski Gloves for Men Women - $8.49",
-      "url": "https://slickdeals.net/f/20254329-gxcror-waterproof-ski-gloves-for-men-women-8-49?utm_source=rss&utm_content=def&utm_medium=RSS2",
-      "source": "SlickDeals",
-      "sourceIcon": "💰",
-      "category": "gloves",
-      "posted": "2026-11-04T12:49:39.000Z"
-    },
-    {
       "title": "SURGOAL Men's Heated Ski Jacket w/ 7.4V Battery $49.99 + Free Shipping",
       "url": "https://slickdeals.net/f/20251515-surgoal-men-s-heated-ski-jacket-w-7-4v-battery-49-99-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
       "source": "SlickDeals",
@@ -405,7 +389,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -414,7 +398,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -423,7 +407,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -432,7 +416,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -441,7 +425,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -450,7 +434,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -459,7 +443,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -468,7 +452,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -477,7 +461,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -486,7 +470,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -495,7 +479,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     },
     {
@@ -504,7 +488,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-27T02:00:38.629Z",
+      "posted": "2026-11-27T12:00:39.541Z",
       "isAmazonSearch": true
     }
   ]
