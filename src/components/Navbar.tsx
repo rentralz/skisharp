@@ -57,7 +57,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 border-b border-gray-100 bg-white/95 backdrop-blur-sm">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-14 items-center justify-between gap-4">
-          <Link href="/" className="text-lg font-bold tracking-tight text-[#222]">
+          <Link href="/" prefetch={false} className="text-lg font-bold tracking-tight text-[#222]">
             Turn<span className="text-[#B4835A]">Lab</span><StreakBadge />
           </Link>
 

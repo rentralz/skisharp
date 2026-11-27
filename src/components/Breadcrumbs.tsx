@@ -51,7 +51,7 @@ export default function Breadcrumbs({ crumbs }: BreadcrumbsProps) {
     <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 text-sm text-[#767676]">
       <ol className="flex items-center gap-2">
         <li>
-          <Link href="/" className="hover:text-[#222] transition-colors">Home</Link>
+          <Link href="/" prefetch={false} className="hover:text-[#222] transition-colors">Home</Link>
         </li>
         {items.map((crumb, i) => (
           <li key={crumb.href || i} className="flex items-center gap-2">
@@ -59,7 +59,7 @@ export default function Breadcrumbs({ crumbs }: BreadcrumbsProps) {
             {i === items.length - 1 ? (
               <span className="text-[#222] font-medium">{crumb.label}</span>
             ) : (
-              <Link href={crumb.href || "/"} className="hover:text-[#222] transition-colors">
+              <Link href={crumb.href || "/"} prefetch={crumb.href === "/" || !crumb.href ? false : undefined} className="hover:text-[#222] transition-colors">
                 {crumb.label}
               </Link>
             )}
