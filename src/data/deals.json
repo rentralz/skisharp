@@ -1,12 +1,20 @@
 {
-  "lastScanned": "2026-11-26T22:00:35.427Z",
-  "totalDeals": 60,
+  "lastScanned": "2026-11-27T02:00:38.632Z",
+  "totalDeals": 61,
   "sourceStats": {
     "reddit": 0,
-    "slickdeals": 173,
+    "slickdeals": 176,
     "amazon": 12
   },
   "deals": [
+    {
+      "title": "Dakine Low Roller Wheeled Snowboard Bag (165cm, Mediterranea) $161.82 + Free Shipping",
+      "url": "https://slickdeals.net/f/20409528-dakine-low-roller-wheeled-snowboard-bag-165cm-mediterranea-161-82-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
+      "source": "SlickDeals",
+      "sourceIcon": "💰",
+      "category": "packs",
+      "posted": "2026-11-26T23:22:16.000Z"
+    },
     {
       "title": "[Prime] BougeRV Lockable Folding & Tilting Hitch Ski & Snowboard Rack (Black/Yellow) $189.19 + Free Shipping",
       "url": "https://slickdeals.net/f/20405031-prime-bougerv-lockable-folding-tilting-hitch-ski-snowboard-rack-black-yellow-189-19-free-shipping?utm_source=rss&utm_content=def&utm_medium=RSS2",
@@ -397,7 +405,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "jackets",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -406,7 +414,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "pants",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -415,7 +423,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "goggles",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -424,7 +432,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "helmets",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -433,7 +441,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "gloves",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -442,7 +450,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "socks",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -451,7 +459,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "baselayers",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -460,7 +468,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -469,7 +477,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "skis",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -478,7 +486,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "snowboards",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -487,7 +495,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "boots",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     },
     {
@@ -496,7 +504,7 @@
       "source": "Amazon",
       "sourceIcon": "📦",
       "category": "bindings",
-      "posted": "2026-11-26T22:00:35.425Z",
+      "posted": "2026-11-27T02:00:38.629Z",
       "isAmazonSearch": true
     }
   ]
