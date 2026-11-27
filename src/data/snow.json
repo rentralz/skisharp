@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T18:00:43.815Z",
+  "updated": "2026-11-27T21:18:48.039Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -14,10 +14,10 @@
       "elevationM": 2987,
       "daily": [
         0.1,
-        2.7,
+        2.4,
         0
       ],
-      "next3": 2.8
+      "next3": 2.4
     },
     {
       "name": "Park City",
@@ -25,10 +25,10 @@
       "elevationM": 2743,
       "daily": [
         0.1,
-        1.7,
+        1.5,
         0
       ],
-      "next3": 1.7
+      "next3": 1.6
     },
     {
       "name": "Vail",
@@ -47,32 +47,32 @@
       "elevationM": 3291,
       "daily": [
         0.1,
-        4.2,
+        7.2,
         0
       ],
-      "next3": 4.3
+      "next3": 7.3
     },
     {
       "name": "Jackson Hole",
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        5.6,
-        4.8,
+        5.9,
+        5.1,
         0.1
       ],
-      "next3": 10.5
+      "next3": 11.1
     },
     {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        4.3,
-        6,
+        4,
+        5.9,
         0
       ],
-      "next3": 10.3
+      "next3": 9.9
     },
     {
       "name": "Palisades Tahoe",
@@ -92,9 +92,9 @@
       "daily": [
         0,
         0,
-        0
+        0.2
       ],
-      "next3": 0
+      "next3": 0.2
     },
     {
       "name": "Killington",
@@ -102,10 +102,10 @@
       "elevationM": 792,
       "daily": [
         0,
-        0,
-        0
+        0.5,
+        0.1
       ],
-      "next3": 0
+      "next3": 0.6
     }
   ]
 }
