@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T12:00:40.464Z",
+  "updated": "2026-11-27T18:00:43.815Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -35,11 +35,11 @@
       "region": "Colorado",
       "elevationM": 3005,
       "daily": [
-        0.1,
-        4,
+        0.2,
+        5,
         0
       ],
-      "next3": 4.1
+      "next3": 5.2
     },
     {
       "name": "Breckenridge",
@@ -57,22 +57,22 @@
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        4.3,
-        5.1,
-        0.2
+        5.6,
+        4.8,
+        0.1
       ],
-      "next3": 9.6
+      "next3": 10.5
     },
     {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        6.4,
-        6.2,
+        4.3,
+        6,
         0
       ],
-      "next3": 12.7
+      "next3": 10.3
     },
     {
       "name": "Palisades Tahoe",
