@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T22:00:39.870Z",
+  "updated": "2026-11-28T02:00:41.346Z",
   "source": "National Weather Service gridded forecast (api.weather.gov)",
   "timeZone": "America/Denver",
   "days": [
@@ -57,22 +57,22 @@
       "region": "Wyoming",
       "elevationM": 2384,
       "daily": [
-        6,
+        5.7,
         5.1,
         0.1
       ],
-      "next3": 11.2
+      "next3": 10.9
     },
     {
       "name": "Big Sky",
       "region": "Montana",
       "elevationM": 2819,
       "daily": [
-        4,
+        3.9,
         5.9,
         0
       ],
-      "next3": 9.9
+      "next3": 9.8
     },
     {
       "name": "Palisades Tahoe",
